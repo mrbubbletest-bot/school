@@ -1,0 +1,13 @@
+# 開發工具暫存
+server.ps1
+
+# Windows 系統檔
+Thumbs.db
+desktop.ini
+
+# Mac 系統檔
+.DS_Store
+
+# VS Code 設定 (保留 .vscode/extensions.json 但忽略個人設定)
+.vscode/settings.json
+.vscode/launch.json
