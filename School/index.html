@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble 國二特訓班 - 數學與理化學習系統</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-mesh"></div>
+    
+    <div class="app-container glass-panel">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1>Bubble 國二特訓班</h1>
+            </div>
+            <nav class="subject-nav">
+                <button class="nav-btn active" data-subject="math">
+                    <i class="fa-solid fa-calculator"></i> 數學 (國二下 - 二段)
+                </button>
+                <button class="nav-btn" data-subject="science">
+                    <i class="fa-solid fa-flask"></i> 理化 (國二下 - 二段)
+                </button>
+            </nav>
+        </header>
+
+        <main class="app-main">
+            <!-- Sidebar for mode selection -->
+            <aside class="sidebar">
+                <div class="mode-selector">
+                    <button class="mode-btn active" data-mode="preview">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <span>觀念預習</span>
+                    </button>
+                    <button class="mode-btn" data-mode="quiz" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1)); border: 1px solid rgba(139, 92, 246, 0.3);">
+                        <i class="fa-solid fa-ranking-star" style="color: var(--accent-color);"></i>
+                        <span style="color: var(--accent-color); font-weight: bold;">🏆 30/30/40 模擬考</span>
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <div class="content-area" id="content-area">
+                <!-- Content injected by JS -->
+                <div class="welcome-screen">
+                    <h2>歡迎來到 Bubble！</h2>
+                    <p>請從左方選擇你想進行的模式，或是從上方切換科目。</p>
+                    <div class="illustration">
+                        <i class="fa-solid fa-rocket fa-bounce"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/math-generator.js"></script>
+    <script src="js/science-generator.js"></script>
+    <script src="js/quiz-engine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
