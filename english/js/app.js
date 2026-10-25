@@ -428,33 +428,285 @@ class GrammarApp {
     this.initVisitorCounter();
   }
 
-  async initVisitorCounter() {
-    const visitorEl = document.getElementById('visitor-count');
-    if (!visitorEl) return;
-
-    // Local fallback counter
-    let localCount = parseInt(localStorage.getItem('bubble_visitor_count') || '0', 10) + 1;
-    localStorage.setItem('bubble_visitor_count', String(localCount));
-    visitorEl.innerText = `${localCount.toLocaleString()} 次`;
-
-    // Global counter across all GitHub Pages visitors
+  getTaiwanDateTime() {
+    const now = new Date();
     try {
-      const res = await fetch('https://abacus.jasoncameron.dev/hit/mrbubbletest-school/english-grammar-portal');
+      const dateStr = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Taipei',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }).format(now);
+      const timeStr = new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei',
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      }).format(now);
+      return { dateStr, timeStr };
+    } catch (e) {
+      const iso = new Date(now.getTime() + 8 * 3600000).toISOString();
+      return { dateStr: iso.slice(0, 10), timeStr: iso.slice(11, 19) };
+    }
+  }
+
+  async fetchVisitorIPInfo() {
+    // 1. Primary: ipwho.is (returns IP + Country + City + ISP)
+    try {
+      const res = await fetch('https://ipwho.is/');
       if (res.ok) {
-        const data = await res.json();
-        if (data && typeof data.value === 'number') {
-          const finalCount = Math.max(data.value, localCount);
-          localStorage.setItem('bubble_visitor_count', String(finalCount));
-          visitorEl.innerText = `${finalCount.toLocaleString()} 次`;
+        const d = await res.json();
+        if (d && d.ip) {
+          const loc = [d.country, d.city].filter(Boolean).join(' · ') || 'Taiwan';
+          const isp = (d.connection && d.connection.isp) ? d.connection.isp : '';
+          return { ip: d.ip, location: loc, isp };
         }
       }
-    } catch (err) {
-      // Offline or blocked: already showing localCount gracefully
+    } catch (e) {}
+
+    // 2. Fallback: api.ipify.org
+    try {
+      const res = await fetch('https://api.ipify.org?format=json');
+      if (res.ok) {
+        const d = await res.json();
+        if (d && d.ip) {
+          return { ip: d.ip, location: 'Taiwan', isp: '' };
+        }
+      }
+    } catch (e) {}
+
+    // 3. Fallback: Cloudflare trace
+    try {
+      const res = await fetch('https://www.cloudflare.com/cdn-cgi/trace');
+      if (res.ok) {
+        const txt = await res.text();
+        const m = txt.match(/^ip=(.+)$/m);
+        if (m && m[1]) {
+          return { ip: m[1].trim(), location: 'Taiwan', isp: '' };
+        }
+      }
+    } catch (e) {}
+
+    return { ip: 'Local-Client', location: '本地裝置', isp: '' };
+  }
+
+  loadLocalVisitorStore() {
+    try {
+      const raw = localStorage.getItem('bubble_visitor_ip_logs_v1');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && Array.isArray(parsed.logs)) return parsed;
+      }
+    } catch (e) {}
+    return { totalUniqueDailyVisits: 0, logs: [] };
+  }
+
+  mergeVisitorStores(localStore, cloudStore) {
+    const map = new Map();
+    const allLogs = [...(cloudStore.logs || []), ...(localStore.logs || [])];
+    allLogs.forEach(item => {
+      if (!item || !item.date || !item.ip) return;
+      const key = `${item.date}_${item.ip}`;
+      if (!map.has(key)) {
+        map.set(key, { ...item });
+      } else {
+        const prev = map.get(key);
+        map.set(key, {
+          date: item.date,
+          ip: item.ip,
+          location: item.location || prev.location || 'Taiwan',
+          isp: item.isp || prev.isp || '',
+          firstTime: (prev.firstTime && item.firstTime) ? (prev.firstTime < item.firstTime ? prev.firstTime : item.firstTime) : (prev.firstTime || item.firstTime),
+          lastTime: (prev.lastTime && item.lastTime) ? (prev.lastTime > item.lastTime ? prev.lastTime : item.lastTime) : (prev.lastTime || item.lastTime),
+          viewsToday: Math.max(prev.viewsToday || 1, item.viewsToday || 1)
+        });
+      }
+    });
+
+    // Sort newest date + newest lastTime first
+    const mergedLogs = Array.from(map.values()).sort((a, b) => {
+      if (a.date !== b.date) return b.date.localeCompare(a.date);
+      return (b.lastTime || '').localeCompare(a.lastTime || '');
+    });
+
+    const totalUniqueDailyVisits = Math.max(
+      mergedLogs.length,
+      localStore.totalUniqueDailyVisits || 0,
+      cloudStore.totalUniqueDailyVisits || 0
+    );
+
+    return { totalUniqueDailyVisits, logs: mergedLogs.slice(0, 500) };
+  }
+
+  async initVisitorCounter() {
+    const visitorEl = document.getElementById('visitor-count');
+    const CLOUD_LOG_URL = 'https://api.restful-api.dev/objects/ff808181a09d98f701a173a083f608a1';
+
+    const { dateStr, timeStr } = this.getTaiwanDateTime();
+    let localStore = this.loadLocalVisitorStore();
+    if (visitorEl && localStore.totalUniqueDailyVisits > 0) {
+      visitorEl.innerText = `${localStore.totalUniqueDailyVisits.toLocaleString()} 次`;
     }
+
+    // 1. Detect Visitor Public IP
+    const ipInfo = await this.fetchVisitorIPInfo();
+    this.currentVisitorIPInfo = { ...ipInfo, dateStr, timeStr };
+
+    // 2. Fetch Cloud IP Store
+    let cloudStore = { totalUniqueDailyVisits: 0, logs: [] };
+    try {
+      const res = await fetch(CLOUD_LOG_URL, { cache: 'no-store' });
+      if (res.ok) {
+        const obj = await res.json();
+        if (obj && obj.data && Array.isArray(obj.data.logs)) {
+          cloudStore = obj.data;
+        }
+      }
+    } catch (e) {}
+
+    // 3. Merge Local & Cloud Stores
+    let store = this.mergeVisitorStores(localStore, cloudStore);
+
+    // 4. Check if (dateStr, ipInfo.ip) already exists today
+    const existingIdx = store.logs.findIndex(r => r.date === dateStr && r.ip === ipInfo.ip);
+    let isNewDailyIPVisit = false;
+
+    if (existingIdx === -1) {
+      // First time this IP visited today -> count +1!
+      isNewDailyIPVisit = true;
+      store.logs.unshift({
+        date: dateStr,
+        ip: ipInfo.ip,
+        location: ipInfo.location,
+        isp: ipInfo.isp,
+        firstTime: timeStr,
+        lastTime: timeStr,
+        viewsToday: 1
+      });
+      store.totalUniqueDailyVisits = Math.max(store.totalUniqueDailyVisits + 1, store.logs.length);
+    } else {
+      // Same IP already visited today -> DO NOT increment totalUniqueDailyVisits!
+      const rec = store.logs[existingIdx];
+      rec.lastTime = timeStr;
+      rec.viewsToday = (rec.viewsToday || 1) + 1;
+      if (ipInfo.location && ipInfo.location !== 'Taiwan') rec.location = ipInfo.location;
+      if (ipInfo.isp) rec.isp = ipInfo.isp;
+    }
+
+    this.visitorStore = store;
+
+    // 5. Save to localStorage & update UI badge immediately
+    try {
+      localStorage.setItem('bubble_visitor_ip_logs_v1', JSON.stringify(store));
+    } catch (e) {}
+    if (visitorEl) {
+      visitorEl.innerText = `${store.totalUniqueDailyVisits.toLocaleString()} 次`;
+    }
+
+    // 6. Persist updated IP logs to Cloud Store
+    try {
+      await fetch(CLOUD_LOG_URL, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'bubble-english-visitors',
+          data: store
+        })
+      });
+    } catch (e) {}
+  }
+
+  openVisitorLogModal() {
+    const modal = document.getElementById('visitor-log-modal');
+    if (!modal) return;
+    modal.style.display = 'flex';
+    this.renderVisitorLogModalContent();
+  }
+
+  closeVisitorLogModal() {
+    const modal = document.getElementById('visitor-log-modal');
+    if (modal) modal.style.display = 'none';
+  }
+
+  renderVisitorLogModalContent() {
+    const summaryEl = document.getElementById('visitor-modal-summary');
+    const tbodyEl = document.getElementById('visitor-log-tbody');
+    const store = this.visitorStore || this.loadLocalVisitorStore();
+    const cur = this.currentVisitorIPInfo || { ip: '偵測中...', location: '', dateStr: '' };
+
+    if (summaryEl) {
+      summaryEl.innerHTML = `
+        <div>
+          <span style="color: var(--text-muted);">您的目前 IP：</span>
+          <strong style="color: var(--primary-dark); font-family: monospace; font-size: 14px;">${cur.ip}</strong>
+          ${cur.location ? `<span style="color: var(--text-muted); margin-left: 6px;">(${cur.location})</span>` : ''}
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span style="background: #DCFCE7; color: #15803D; padding: 3px 10px; border-radius: 99px; font-weight: 700; font-size: 12px;">
+            <i class="fa-solid fa-check-circle"></i> 同 IP 同日僅計 1 次
+          </span>
+          <span>有效總訪客計數：<strong style="color: var(--primary); font-size: 15px;">${(store.totalUniqueDailyVisits || 0).toLocaleString()} 次</strong></span>
+        </div>
+      `;
+    }
+
+    if (tbodyEl) {
+      if (!store.logs || store.logs.length === 0) {
+        tbodyEl.innerHTML = `<tr><td colspan="6" style="text-align: center; padding: 24px; color: var(--text-muted);">尚無訪客紀錄</td></tr>`;
+        return;
+      }
+      tbodyEl.innerHTML = store.logs.map(r => {
+        const isCurrent = cur.ip === r.ip && cur.dateStr === r.date;
+        const locText = [r.location, r.isp].filter(Boolean).join(' · ') || '—';
+        return `
+          <tr style="${isCurrent ? 'background: #FFF0F5; font-weight: 600;' : ''}">
+            <td>${r.date}</td>
+            <td style="font-family: monospace; color: var(--primary-dark); font-weight: 700;">
+              ${r.ip} ${isCurrent ? '<span style="font-size:11px; background:var(--primary); color:#fff; padding:1px 6px; border-radius:99px; margin-left:4px;">目前連線</span>' : ''}
+            </td>
+            <td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis;" title="${locText}">${locText}</td>
+            <td>${r.firstTime || '—'}</td>
+            <td>${r.lastTime || '—'}</td>
+            <td>
+              <span style="color: #15803D; font-weight: 700;">計入 1 次</span>
+              <span style="color: var(--text-muted); font-size: 11px;">(瀏覽 ${r.viewsToday || 1} 回)</span>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+  }
+
+  exportVisitorLogsCSV() {
+    const store = this.visitorStore || this.loadLocalVisitorStore();
+    const logs = store.logs || [];
+    const header = ['造訪日期', '訪客IP位址', '地區', '電信商(ISP)', '當日首次時間', '最後活動時間', '當日總瀏覽回數', '有效計數'];
+    const rows = logs.map(r => [
+      r.date || '',
+      r.ip || '',
+      `"${(r.location || '').replace(/"/g, '""')}"`,
+      `"${(r.isp || '').replace(/"/g, '""')}"`,
+      r.firstTime || '',
+      r.lastTime || '',
+      r.viewsToday || 1,
+      1
+    ]);
+    const csvContent = '\uFEFF' + [header.join(','), ...rows.map(row => row.join(','))].join('\r\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `bubble_english_visitor_ips_${this.getTaiwanDateTime().dateStr}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   }
 }
 
 // Global bootstrap
+window.GrammarApp = GrammarApp;
 document.addEventListener('DOMContentLoaded', () => {
   window.app = new GrammarApp();
   window.quizEngine = window.app.quizEngine;

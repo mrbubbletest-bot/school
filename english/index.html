@@ -59,9 +59,10 @@
       <a class="nav-link" href="../index.html" style="background: rgba(255,255,255,0.7); border: 1px solid var(--border-card); font-size: 13px; padding: 6px 12px;" title="返回國中學科全能特訓大廳">
         <i class="fa-solid fa-arrow-left"></i> 回大廳
       </a>
-      <div class="visitor-badge" title="累積造訪人次紀錄 🌸">
+      <div class="visitor-badge" onclick="window.app && window.app.openVisitorLogModal()" style="cursor: pointer;" title="點擊查看所有訪客 IP 紀錄清單 📋（同 IP 同日僅計 1 次）">
         <i class="fa-solid fa-eye" style="color: #EC4899;"></i>
         <span>訪客次數 <strong id="visitor-count">1</strong></span>
+        <i class="fa-solid fa-list-ul" style="font-size: 10px; opacity: 0.7; margin-left: 2px;"></i>
       </div>
       <div class="streak-badge" title="連續學習天數紀錄 🔥">
         <i class="fa-solid fa-fire" style="color: #F59E0B;"></i>
@@ -336,6 +337,62 @@
     </section>
 
   </main>
+
+  <!-- Visitor IP Log Modal -->
+  <div class="visitor-modal-overlay" id="visitor-log-modal" onclick="if(event.target===this) window.app.closeVisitorLogModal()" style="display: none;">
+    <div class="visitor-modal-card">
+      <div class="visitor-modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, #FF6B8B, #8B5CF6); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 16px;">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <div>
+            <h3 style="font-size: 17px; font-weight: 800; color: var(--text-main); margin: 0;">訪客 IP 紀錄與計數統計 🌸</h3>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 2px 0 0 0;">計數原則：同一 IP 於同一日內造訪僅計算 1 次，不同 IP 或隔日造訪才再計入</p>
+          </div>
+        </div>
+        <button class="btn-tool" onclick="window.app.closeVisitorLogModal()" style="padding: 6px 10px;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="visitor-modal-summary" id="visitor-modal-summary">
+        <!-- Populated dynamically -->
+      </div>
+
+      <div class="visitor-modal-body">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
+          <span style="font-size: 13px; font-weight: 700; color: var(--secondary);">
+            <i class="fa-solid fa-clock-rotate-left"></i> 歷史訪客 IP 登錄明細（最新優先）
+          </span>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn-tool" onclick="window.app.exportVisitorLogsCSV()" style="font-size: 12px; padding: 5px 12px;">
+              <i class="fa-solid fa-download"></i> 匯出 CSV 紀錄
+            </button>
+          </div>
+        </div>
+        <div class="table-responsive" style="margin: 0; max-height: 360px; overflow-y: auto; border: 1px solid var(--border-card); border-radius: 12px;">
+          <table class="visitor-log-table">
+            <thead>
+              <tr>
+                <th>造訪日期</th>
+                <th>訪客 IP 位址</th>
+                <th>地區 / 電信商</th>
+                <th>當日首次時間</th>
+                <th>最後活動時間</th>
+                <th>當日訪問</th>
+              </tr>
+            </thead>
+            <tbody id="visitor-log-tbody">
+              <tr>
+                <td colspan="6" style="text-align: center; padding: 24px; color: var(--text-muted);">正在讀取訪客 IP 紀錄...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Mobile Bottom Navigation Bar -->
   <nav class="mobile-nav-bar">
