@@ -1,0 +1,820 @@
+{
+  "chapter": 4,
+  "title": "不定詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "How soon do you expect ____ for South America?",
+          "options": [
+            "to leave",
+            "be leaving",
+            "will leave",
+            "going to leave"
+          ],
+          "answer": 0,
+          "zh": "你希望再過多久前往南美洲？",
+          "explain": "expect to + V（希望做…）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "It is useless for you ____ to do this.",
+          "options": [
+            "try",
+            "to try",
+            "tries",
+            "to trying"
+          ],
+          "answer": 1,
+          "zh": "你想要做這事是徒勞無益的。",
+          "explain": "It is useless + to + V（做…是無用的）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "I hope ____ to the birthday party tonight.",
+          "options": [
+            "able to come",
+            "I shall able to come",
+            "I shall can come",
+            "to be able to come"
+          ],
+          "answer": 3,
+          "zh": "我希望今晚能前往參加生日晚會。",
+          "explain": "hope + to + 原形動詞 ⇒ hope + to be able to + 原形動詞（希望能…）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "It is too late ____ there.",
+          "options": [
+            "that we walk",
+            "for us walking",
+            "us to walk",
+            "for us to walk"
+          ],
+          "answer": 3,
+          "zh": "我們走到那裡太晚了。",
+          "explain": "too + 形 + (for + 人) + to + V（對某人太…無法…）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "He warned me ____ swimming alone because of the rain.",
+          "options": [
+            "didn't go",
+            "not go",
+            "not to go",
+            "not going"
+          ],
+          "answer": 2,
+          "zh": "他警告我不要獨自去游泳，因為外面下著大雨。",
+          "explain": "warn + (人) + not to + V ⇒ 警告人不要…"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "The manager ordered the work ____.",
+          "options": [
+            "start at once",
+            "at once start",
+            "to be started at once",
+            "to start at once"
+          ],
+          "answer": 2,
+          "zh": "經理下令立刻做這件工作。",
+          "explain": "① order + (人) + to + V ⇒ 命令(人)做事情\n② order + (事) + to be + p.p. ⇒ 下令(事情)被做"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "He finds it easy ____ English as a foreign language.",
+          "options": [
+            "to learn",
+            "learning",
+            "learned",
+            "and learn"
+          ],
+          "answer": 0,
+          "zh": "他認為以外語而言英語容易學。",
+          "explain": "it 為形式受詞，to learn 為真正受詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "I think it a good habit ____ early in the morning.",
+          "options": [
+            "to get up",
+            "got up",
+            "getting up",
+            "to getting up"
+          ],
+          "answer": 0,
+          "zh": "我認為早上起得早是好習慣。",
+          "explain": "it 為形式受詞，to get up 為真正受詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "All the clerks in the bank stopped ____ to look at him.",
+          "options": [
+            "to write",
+            "write",
+            "written",
+            "writing"
+          ],
+          "answer": 3,
+          "zh": "銀行裡所有的職員都停止了寫字，眼睛盯著他。",
+          "explain": "stop + V-ing（停止做某事）"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "I am sorry, but I forgot ____ the candy you wanted.",
+          "options": [
+            "to buy",
+            "buying",
+            "of buying",
+            "to have bought"
+          ],
+          "answer": 0,
+          "zh": "很抱歉我忘了買你要的糖果。",
+          "explain": "forget to + V（忘了做…）"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Having worked for several hours, the manager stopped ____ a rest.",
+          "options": [
+            "to taking",
+            "to take",
+            "taking",
+            "taken"
+          ],
+          "answer": 1,
+          "zh": "工作了幾個鐘頭之後，經理停止工作，開始休息。",
+          "explain": "① stop + to take a rest（停下來休息）\n② stop + taking a rest（停止休息）"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "When your country calls you for help, you cannot but ____.",
+          "options": [
+            "to go",
+            "going",
+            "go",
+            "help going"
+          ],
+          "answer": 2,
+          "zh": "當你的國家需要你的幫助，你就不得不去了。",
+          "explain": "cannot but + 原形動詞（不得不）"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "The lazy young man does nothing but ____ all day long.",
+          "options": [
+            "to play",
+            "playing",
+            "play",
+            "played"
+          ],
+          "answer": 2,
+          "zh": "這懶惰的年輕人整天無所事事，只是在玩。",
+          "explain": "do/does/did nothing but + 原形動詞（只是…）"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "You had better ____ what he has to say.",
+          "options": [
+            "hear",
+            "heard",
+            "hearing",
+            "to hear"
+          ],
+          "answer": 0,
+          "zh": "你最好聽聽他要說些什麼。",
+          "explain": "had better = may as well + 原形動詞（最好）"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "You had better ____ Mary about the party. It's a surprising birthday party for her.",
+          "options": [
+            "not to tell",
+            "not tell",
+            "don't tell",
+            "not telling"
+          ],
+          "answer": 1,
+          "zh": "你最好不要告訴瑪麗有關宴會的事。這是要給她一個驚喜的生日宴會。",
+          "explain": "had better not + 原形動詞（最好不要…）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "When I was young, I ____ play tennis quite well.",
+          "options": [
+            "was used to",
+            "used to",
+            "get used to",
+            "use to"
+          ],
+          "answer": 1,
+          "zh": "年輕時，我的網球打得很好。",
+          "explain": "used to + 原形動詞（以前…）"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "People ____ drink tea, but now more people like coffee.",
+          "options": [
+            "be used to",
+            "get used to",
+            "got used to",
+            "used to"
+          ],
+          "answer": 3,
+          "zh": "人們以前喜歡喝茶，但現在越來越多的人喜歡喝咖啡。",
+          "explain": "used to + 原形動詞（以前慣於…）"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "The mother watched her children ____ on the yard.",
+          "options": [
+            "to play",
+            "playing",
+            "was playing",
+            "played"
+          ],
+          "answer": 1,
+          "zh": "母親看著她的孩子在庭院中玩耍。",
+          "explain": "watch + (人) + V-ing（看著人正在做…）"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "I can hear the girl ____ in the next room.",
+          "options": [
+            "sang",
+            "to sing",
+            "to singing",
+            "singing"
+          ],
+          "answer": 3,
+          "zh": "我可以聽到隔壁的女孩在唱歌。",
+          "explain": "hear + 受詞(人) + V-ing ⇒ 表示「進行」。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "There is something wrong with the engine. We must have it ____ at once.",
+          "options": [
+            "repair",
+            "repairing",
+            "to repair",
+            "repaired"
+          ],
+          "answer": 3,
+          "zh": "引擎有點毛病，我們必須立即送修。",
+          "explain": "have + 物 + p.p.（使某物被…）"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "I tried very hard, but I couldn't make myself ____ these English sentences.",
+          "options": [
+            "understanding",
+            "to understand",
+            "understand",
+            "understood"
+          ],
+          "answer": 2,
+          "zh": "我很努力地試著，但我無法使自己了解這些英語句子。",
+          "explain": "make oneself understand + N（使自己了解…）\nmake oneself understood（使別人了解自己的話）"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "He is still unable to make himself ____ in English; his English is too poor.",
+          "options": [
+            "understood",
+            "understands",
+            "understanding",
+            "understand"
+          ],
+          "answer": 0,
+          "zh": "他仍然無法用英語明白地表達自己的意思；他的英語太差了。",
+          "explain": "參考 21 題說明。make oneself understood（使別人了解自己的意思）。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "I don't know him well enough ____ borrow money from him.",
+          "options": [
+            "to",
+            "so as to",
+            "as to",
+            "in order to"
+          ],
+          "answer": 0,
+          "zh": "我還沒有跟他熟得足以向他借錢。",
+          "explain": "① enough to（足以～）\n② so as to = in order to ⇒ 表示「目的」。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "She is so foolish ____ cry over a novel.",
+          "options": [
+            "to",
+            "as to",
+            "that",
+            "may"
+          ],
+          "answer": 1,
+          "zh": "她真蠢，竟然邊看小說邊哭。",
+          "explain": "so + 形/副 + as to + 原形動詞（如此～以致）"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "Come closer ____ we can see you better.",
+          "options": [
+            "in order to",
+            "so that",
+            "so as to",
+            "and this"
+          ],
+          "answer": 1,
+          "zh": "靠近些以便我們能將你看得更仔細些。",
+          "explain": "so that + 主詞 + may...（為了…）"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "I am sorry ____ you the other day.",
+          "options": [
+            "to offend",
+            "offending",
+            "to have offended",
+            "not to have offended"
+          ],
+          "answer": 2,
+          "zh": "很抱歉幾天前冒犯了你。",
+          "explain": "the other day「幾天前」表示過去，對過去的事應用不定詞完成式 to have p.p.。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "It's ____ day to waste. Let's go for a walk.",
+          "options": [
+            "such a nice",
+            "so nice a",
+            "a such nice",
+            "too nice a"
+          ],
+          "answer": 3,
+          "zh": "天氣太好了，不容浪費。我們出去走走吧。",
+          "explain": "too + 形 + a + 名 + to（太…無法）"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "The words on the wall are ____ be recognized.",
+          "options": [
+            "too vague to",
+            "too vague not to",
+            "so vague that",
+            "so vague as to"
+          ],
+          "answer": 0,
+          "zh": "牆上的字太模糊而無法辨認。",
+          "explain": "① too + 形/副 + to + 原形動詞（太…無法）\n② vague 形 模糊的"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "\"Shall I walk you home?\" \"I don't mind if you do, but you don't ____.\"",
+          "options": [
+            "have to do",
+            "have to walk me",
+            "have",
+            "have to"
+          ],
+          "answer": 3,
+          "zh": "「我陪你走回家好嗎？」「如果你願意的話，我不反對。但是，你無需費這個心。」",
+          "explain": "You don't have to. = You don't have to (do so). 不定詞 to 之後的動詞若相同時，可以省略不寫。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "It is ____ over spilt milk.",
+          "options": [
+            "no use to cry",
+            "no use crying",
+            "useless to crying",
+            "useless crying"
+          ],
+          "answer": 1,
+          "zh": "覆水難收。",
+          "explain": "It is no use + V-ing（無用；無益）\nIt is of no use + to V"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "____ to give up a bad habit.",
+          "options": [
+            "Bob is difficult",
+            "It is not difficult for me",
+            "John is easy",
+            "Dick is impossible"
+          ],
+          "answer": 1,
+          "zh": "要我戒掉壞習慣並不會很困難。",
+          "explain": "difficult 為非人稱形容詞，主詞應用 It，不可用「人」。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "I admit it was foolish of me ____ what you hinted at.",
+          "options": [
+            "have not to understood",
+            "have to not understood",
+            "to not have understood",
+            "not to have understood"
+          ],
+          "answer": 3,
+          "zh": "我承認我實在太笨了竟然不了解你暗示的一切。",
+          "explain": "① It is + 形容詞 + of + 人 + to + V...\n② hint at（暗示）；否定詞 not 置於 to 之前。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "He intended ____ abroad last year, but his mother suddenly fell ill.",
+          "options": [
+            "to go",
+            "going",
+            "to have gone",
+            "having gone"
+          ],
+          "answer": 2,
+          "zh": "他原打算去年出國的，但他母親那時突然病了。",
+          "explain": "主詞 + 希望動詞(過去簡單式) + to have + p.p.（過去希望…但未達成）"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "Every time cigarettes go up in price, many people try ____.",
+          "options": [
+            "to stop to smoke",
+            "stopping to smoke",
+            "stopping",
+            "to stop smoking"
+          ],
+          "answer": 3,
+          "zh": "每逢香菸漲價，許多人設法戒菸。",
+          "explain": "① 人 + try to + 原形動詞（設法…；盡力…）\n② stop smoking（戒菸）"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "If people are unwilling to hear you, ____ to hold your tongue.",
+          "options": [
+            "you had better",
+            "you had",
+            "it is better",
+            "hadn't you better"
+          ],
+          "answer": 2,
+          "zh": "如果人們不願意聽你說，你最好三緘其口。",
+          "explain": "① 主詞 + had better + 原形動詞\n② It is better (for + 人) to + 原形動詞（最好）\n③ hold one's tongue（閉口）"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "Because of air pollution being greatly reduced, this city is still ____.",
+          "options": [
+            "a good place which to live",
+            "lived as a good place",
+            "a good place to live in",
+            "living as a good place"
+          ],
+          "answer": 2,
+          "zh": "由於空氣污染大大減低，這座城市仍然是居住的好地方。",
+          "explain": "① to live in 為形容詞片語，修飾 place。\n② (A) 應改作 a good place in which we can live。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "\"I'll help you whenever you need me.\" \"Good. I'd like ____ me tomorrow.\"",
+          "options": [
+            "you helping",
+            "that you will help",
+            "you to help",
+            "that you help"
+          ],
+          "answer": 2,
+          "zh": "「無論何時你需要我，我都會幫助你的。」「好，我想你明天來幫我。」",
+          "explain": "不定詞 to help 做 you 的受詞補語。like + to-V ／ like + O + to-V"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "\"What did you hear last night?\" \"I seemed ____ someone knock at the door.\"",
+          "options": [
+            "hear",
+            "to have heard",
+            "to hear",
+            "having heard"
+          ],
+          "answer": 1,
+          "zh": "「昨晚你聽到什麼？」「我好像聽到有人在敲門。」",
+          "explain": "① 因為是過去的事，故用完成式不定詞。\n② 本句 = It seemed that I had heard someone knock at the door."
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "John said that he had to run in order ____.",
+          "options": [
+            "that he catch the bus",
+            "that he can catch the bus",
+            "to catch the bus",
+            "to the bus he could catch"
+          ],
+          "answer": 2,
+          "zh": "約翰說他為了趕公車不得不跑步去。",
+          "explain": "in order to + 原形動詞（為了）表示「目的」。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示在空格中填入適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "做一個發明家需要具備豐富的想像力。\n____ rich imagination ____ be an inventor.",
+          "answer": "It takes / to",
+          "zh": "做一個發明家需要具備豐富的想像力。",
+          "explain": "It takes... to + V（需要；花費…）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "我原本希望在機場能遇見你。\nI hope to ____ ____ you at the airport.",
+          "answer": "have met",
+          "zh": "我原本希望在機場能遇見你。",
+          "explain": "hope to + have p. p. 表示「過去未實現之願望」"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "你所要做的就是耐心地等著。\n____ you have to do is ____ ____.",
+          "answer": "All / wait patiently",
+          "zh": "你所要做的就是耐心地等著。",
+          "explain": "All (人) have/has to do is + 原形動詞（只要…就可以了）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "早睡早起有益於健康。\nIt is good for health ____ ____ early hours.",
+          "answer": "to keep",
+          "zh": "早睡早起有益於健康。",
+          "explain": "keep good/early hours（早睡早起）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "我們抵達的時候，天已經黑了，更糟的是我們忘掉了住址。\nIt was dark when we got there; ____ ____ ____ ____, we forgot the address.",
+          "answer": "to make matters worse",
+          "zh": "我們抵達的時候，天已經黑了，更糟的是我們忘掉了住址。",
+          "explain": "what's worse（更糟的是）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "有句格言說：活到老，學到老。",
+          "hint": "有句格言說：As a saying goes",
+          "answer": "As a saying goes, \"It's never too old to learn.\"",
+          "zh": "有句格言說：活到老，學到老。",
+          "explain": "It is never too old to learn.\n= One is never too old to learn.\n= One is never so old that he may not learn.\n= Live and learn."
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "要過一個充實的生活我們應多讀書。",
+          "hint": "充實的生活：a full life; an enriched life",
+          "answer": "In order to live a full life, we should read more books.",
+          "zh": "要過一個充實的生活我們應多讀書。",
+          "explain": "= To lead a full (或 enriched) life, we should read more books.\n= We should read more books so that we may lead a full life."
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "有些人讀書是為了追求知識。",
+          "hint": "追求：pursuit",
+          "answer": "Some (people) read books in order to get (pursue) knowledge.",
+          "zh": "有些人讀書是為了追求知識。",
+          "explain": "= Some (people) read books to acquire knowledge.\n= Some (people) read books so that they may get knowledge."
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "有些人讀書則只是為了興趣。",
+          "hint": "則只是：just only for",
+          "answer": "Other people do so (或 read books) just for pleasure.",
+          "zh": "有些人讀書則只是為了興趣。",
+          "explain": "= Others do so (或 read books) just for pleasure.\n【說明】「有些…，有些…」：Some..., others..."
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "老實說，養成讀書的習慣是很好的。",
+          "hint": "老實說：to tell the truth",
+          "answer": "Frankly speaking, it is good to cultivate the habit of reading.",
+          "zh": "老實說，養成讀書的習慣是很好的。",
+          "explain": "= To tell the truth, it is good to form (或 build up) the habit of reading."
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列短文，選出最適當的答案填入各題空格中",
+      "passage": "Many Chinese students ever made up their minds __1__ English when they began to learn it. However, a few months later, they found __2__ not so easy to master English as they __3__ before. Of course, there is no royal road to __4__. In my opinion, Chinese students should first of all form the good habit __5__ dictionaries whenever __6__ any difficulty in learning it. Secondly, they had better take good advantage of their vacation __7__ a trip to foreign countries so that they may widen their knowledge about English. But, the best way __8__ it is __9__ more, speak more, listen more and write more. As it plays a very important role in international affairs, the English language is really well worth __10__.",
+      "vocabulary_notes": [
+        "1. made up one's mind（下定決心）",
+        "2. not so... as + S + V（不如／不像…那樣…）",
+        "3. royal road = short cut（捷徑）",
+        "4. In my opinion = To my mind（以我的看法）",
+        "5. first of all = first(ly)（首先）",
+        "6. take advantage of = make use of（利用；善用）",
+        "7. widen (enlarge/broaden/enrich) their knowledge（充實知識）",
+        "8. play a very important role in（在…方面扮演非常重要的角色）",
+        "9. international affairs（國際事務）",
+        "10. be well worth + V-ing（很值得）= be well worthy to be + p.p. = be well worthy of being + p.p."
+      ],
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Many Chinese students ever made up their minds ____ English when they began to learn it.",
+          "options": [
+            "to be good at",
+            "being good at",
+            "be good for",
+            "good at"
+          ],
+          "answer": 0,
+          "zh": "許多學生在開始學英語時，都下定決心要學好它。",
+          "explain": "① make up one's mind to + V（下決心要…）= be determined to + V\n② be good at（精通）；be bad at（拙劣）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "However, a few months later, they found ____ not so easy to master English as they had thought before.",
+          "options": [
+            "which",
+            "its",
+            "it",
+            "one"
+          ],
+          "answer": 2,
+          "zh": "然而，幾個月之後，他們發現要精通英語並不如之前想像的那麼容易。",
+          "explain": "句型：S + find + it（形式受詞）+ 形/名 + to V（真正受詞）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "...not so easy to master English as they ____ before.",
+          "options": [
+            "had thought",
+            "have thought",
+            "thought of",
+            "think of"
+          ],
+          "answer": 0,
+          "zh": "不如他們之前所想的那樣容易。",
+          "explain": "① think-thought-thought（思考；認為）\n② think/thought of + 名詞（想到…）\n③ 比過去先(早)發生的，用過去完成式 (had + p.p.)"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Of course, there is no royal road to ____.",
+          "options": [
+            "learn",
+            "learning",
+            "learned",
+            "learner"
+          ],
+          "answer": 1,
+          "zh": "當然，學問無捷徑。",
+          "explain": "① There is no royal road to learning.（學問無捷徑。）\n② learning 名詞（知識；學問）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "In my opinion, Chinese students should first of all form the good habit ____ dictionaries whenever they meet any difficulty in learning it.",
+          "options": [
+            "of consulting",
+            "by looking up",
+            "looking up",
+            "to consults"
+          ],
+          "answer": 0,
+          "zh": "以我的看法，學生首先應該養成在學習遇到困難時查閱字典的好習慣。",
+          "explain": "① form the habit of + V-ing（養成…習慣）\n② consult dictionaries（查閱字典）"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "...whenever ____ any difficulty in learning it.",
+          "options": [
+            "they met",
+            "meeting",
+            "have met",
+            "to meet"
+          ],
+          "answer": 1,
+          "zh": "每當學習遇到困難時。",
+          "explain": "句型：... whenever they meet any difficulty...\n= ... whenever meeting any difficulty..."
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Secondly, they had better take good advantage of their vacation ____ a trip to foreign countries so that they may widen their knowledge about English.",
+          "options": [
+            "to take",
+            "taking",
+            "be taken",
+            "and takes"
+          ],
+          "answer": 0,
+          "zh": "其次，他們最好善用假期到國外旅行，以便增進對英語的了解。",
+          "explain": "to take a trip (a travel/a journey)（旅行；旅遊），不定詞表目的。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "But, the best way ____ it is to read more, speak more, listen more and write more.",
+          "options": [
+            "of master",
+            "to master",
+            "mastered",
+            "mastering"
+          ],
+          "answer": 1,
+          "zh": "但是，精通英語最好的方法是多讀、多說、多聽和多寫。",
+          "explain": "to master it 作形容詞修飾主詞 the best way。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "But, the best way to master it is ____ more, speak more, listen more and write more.",
+          "options": [
+            "of reading",
+            "to read",
+            "to reading",
+            "reading"
+          ],
+          "answer": 1,
+          "zh": "是多讀、多說、多聽和多寫。",
+          "explain": "to read more 放 Be 動詞之後作主詞補語 (SC)。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "As it plays a very important role in international affairs, the English language is really well worth ____.",
+          "options": [
+            "us to learn",
+            "us learning",
+            "our to learn",
+            "our learning"
+          ],
+          "answer": 3,
+          "zh": "因為它在國際事務中扮演非常重要的角色，英語確實非常值得我們學習。",
+          "explain": "be well worth our learning（很值得我們學習）\n= be well worthy to be learned (by us)\n= be well worthy of being learned (by us)"
+        }
+      ]
+    }
+  ]
+}

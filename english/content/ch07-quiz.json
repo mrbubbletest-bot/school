@@ -1,0 +1,793 @@
+{
+  "chapter": 7,
+  "title": "助動詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "The girls don't go but the boys ____.",
+          "options": [
+            "do",
+            "go",
+            "don't",
+            "do too"
+          ],
+          "answer": 0,
+          "zh": "女孩子不去，但男孩子去了。",
+          "explain": "“do”代替前面的“go”，以避免重複。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "My watch keeps good time, but his ____.",
+          "options": [
+            "do",
+            "doesn't",
+            "isn't",
+            "won't"
+          ],
+          "answer": 1,
+          "zh": "我的錶很準，然而他的不準。",
+          "explain": "① his = his watch\n② doesn't = doesn't keep good time"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "He said he didn't take the money, but I am sure he ____.",
+          "options": [
+            "does",
+            "did",
+            "is",
+            "was"
+          ],
+          "answer": 1,
+          "zh": "他說他沒拿錢，然而我確信他拿了。",
+          "explain": "did = took the money（代指過去發生的動作）。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "I don't know whether he speaks Chinese or not, but he might ____.",
+          "options": [
+            "be",
+            "do",
+            "have",
+            "speak"
+          ],
+          "answer": 1,
+          "zh": "我不知道他會不會說中文，但他可能會說。",
+          "explain": "用“do”代替“speak Chinese”，以避免重複。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "You had better ____ there again.",
+          "options": [
+            "not to go",
+            "not go",
+            "not going",
+            "not be gone"
+          ],
+          "answer": 1,
+          "zh": "你最好不要再去那裡了。",
+          "explain": "had better not + 原形 V 表示「最好不」。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "When the bell rang, he said he ____ better go and see who it was.",
+          "options": [
+            "did",
+            "had",
+            "should",
+            "would"
+          ],
+          "answer": 1,
+          "zh": "當電鈴響時，他說他最好去看看是誰。",
+          "explain": "had better + 原形 V 表示「最好」。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "You ____ your lesson over the weekend, but you didn't.",
+          "options": [
+            "would study",
+            "did not study",
+            "had not studied",
+            "should have studied"
+          ],
+          "answer": 3,
+          "zh": "你本該在週末研讀你的功課，但你沒有。",
+          "explain": "should have + p.p.，表示「過去該做而未做」。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "He went away immediately lest he ____ see me.",
+          "options": [
+            "will",
+            "shall",
+            "would",
+            "should"
+          ],
+          "answer": 3,
+          "zh": "他立即走掉，以免看到我。",
+          "explain": "lest ~ should（惟恐；以免）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "I am sorry that you were late for the meeting. You ____ on time this morning.",
+          "options": [
+            "should be",
+            "would be",
+            "ought to have been",
+            "needn't have been"
+          ],
+          "answer": 2,
+          "zh": "很遺憾你開會遲到，你今早應準時參加的。",
+          "explain": "ought to have + p.p.，表示「過去該做而未做」。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "You ought ____ your homework last night, but you didn't.",
+          "options": [
+            "do",
+            "to do",
+            "did",
+            "to have done"
+          ],
+          "answer": 3,
+          "zh": "你昨晚應將功課做好，但你沒有。",
+          "explain": "ought to (= should) + have + p.p. 表示「過去該做而未做…」。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "At any rate, we ____ be faithful to our friends. (複選)",
+          "options": [
+            "must",
+            "have to",
+            "ought to",
+            "should"
+          ],
+          "answer": [0, 1, 2, 3],
+          "zh": "無論如何我們需對朋友忠誠。",
+          "explain": "(A)(B)(C)(D)皆為助動詞，其後皆可接原形動詞“be”。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "They would rather not ____ about it now.",
+          "options": [
+            "talk",
+            "to talk",
+            "talking",
+            "to talking"
+          ],
+          "answer": 0,
+          "zh": "他們現在寧願不去談論這件事。",
+          "explain": "would rather + 原形 V 表示「寧願」。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "I would rather stay at home than ____ out.",
+          "options": [
+            "going",
+            "to go",
+            "go",
+            "gone"
+          ],
+          "answer": 2,
+          "zh": "我寧願留在家裡也不願出去。",
+          "explain": "would rather A than B 表示「寧願 A 不願 B」，than 後接原形動詞。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "My brother used to ____ when he was a schoolboy.",
+          "options": [
+            "be timid",
+            "timid",
+            "have been timid",
+            "being timid"
+          ],
+          "answer": 0,
+          "zh": "在我弟弟是學生時，他一直很膽小。",
+          "explain": "used to + 原形 V，而 timid（膽小的）為形容詞，需加“be”才可作主詞補語。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "I can't find my bag. It ____ stolen just now.",
+          "options": [
+            "has",
+            "must have been",
+            "will have been",
+            "had"
+          ],
+          "answer": 1,
+          "zh": "我找不到我的包包，一定是剛剛被人偷走了。",
+          "explain": "must have been + p.p.，表示「對過去事實肯定的被動推測」。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "It ____, for the ground is wet.",
+          "options": [
+            "must rain",
+            "must be going to rain",
+            "must have rained",
+            "ought to rain"
+          ],
+          "answer": 2,
+          "zh": "一定是下過雨，因為地面是濕的。",
+          "explain": "must have + p.p. 表示「對過去事實肯定的推測」。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "I ____ go to the station to pick up my friend now. (複選)",
+          "options": [
+            "must",
+            "must to",
+            "have to",
+            "have got to"
+          ],
+          "answer": [0, 2, 3],
+          "zh": "我現在必須去車站接我的朋友。",
+          "explain": "「必須」= must = have to = have got to。must 後接原形動詞，不可加 to。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "It was necessary for her to go to Beijing last night.\n= She ____ to go to Beijing last night.",
+          "options": [
+            "used",
+            "has",
+            "had",
+            "would"
+          ],
+          "answer": 2,
+          "zh": "昨晚她必須去北京。",
+          "explain": "表示「必須」，過去簡單式用 had to。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "We know that a housewife does not need ____ for food every day.",
+          "options": [
+            "go shopping",
+            "to go shoping",
+            "to going shop",
+            "to go shopping"
+          ],
+          "answer": 3,
+          "zh": "我們知道，家庭主婦用不著每天上街買菜。",
+          "explain": "① 此題的 need 不是助動詞，而是一般動詞，其否定如下：doesn't need to + 原形 V。\n② 購物 = go shopping（shoping 拼法錯誤）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Judging from his accent, he ____ be a Frenchman.",
+          "options": [
+            "mustn't",
+            "needn't",
+            "can't",
+            "will"
+          ],
+          "answer": 2,
+          "zh": "從他的口音判斷，他不可能使法國人。",
+          "explain": "can't + 原形 V，表示「不可能」。此空格亦可用 must（一定是）或 may（可能是）。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "I hope ____ to the party tonight.",
+          "options": [
+            "able to come",
+            "I shall able to come",
+            "I shall can come",
+            "to be able to come"
+          ],
+          "answer": 3,
+          "zh": "我希望今晚能來參加舞會。",
+          "explain": "① 主詞 + hope + { to + V / that + 子句 }\n② (B)(C)應改為 I shall be able to（助動詞後不能直接加 can，且 shall 後需接原形 be able to）。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "He said, \"I must go now.\" = He said he ____ at once.",
+          "options": [
+            "had to go",
+            "need to go",
+            "has to go",
+            "must have gone"
+          ],
+          "answer": 0,
+          "zh": "他說：「我現在必須走了。」＝ 他說他必須立刻走。",
+          "explain": "must 的過去簡單式用 had to。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "A rich man ____ about his next meal.",
+          "options": [
+            "does not need to worry",
+            "does not need worry",
+            "needs not worry",
+            "needs not to worry"
+          ],
+          "answer": 0,
+          "zh": "有錢人不必為下一餐發愁。",
+          "explain": "does not need to worry = need not worry（不必憂慮）。need 當一般動詞時，否定用 does not need to V；當助動詞時用 need not V。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "The child ought to ____ to bed earlier last night.",
+          "options": [
+            "put",
+            "be put",
+            "have put",
+            "have been put"
+          ],
+          "answer": 3,
+          "zh": "這孩子昨晚應該早些（被）安置上床睡覺。",
+          "explain": "put ~ to bed 安置（孩子）睡覺。孩子是被安置上床，且指昨晚（過去），故用 ought to have been put。若選 (C)，則需改為主動的 have gone。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "The door ought to ____ a week ago.",
+          "options": [
+            "have fixed",
+            "be fixed",
+            "get fixed",
+            "have been fixed"
+          ],
+          "answer": 3,
+          "zh": "這扇門早在一週前就該修好了。",
+          "explain": "門是被修理的，應用被動語態，而且發生於「過去（a week ago）」，所以用 ought to have been + p.p.。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "\"What has happened to John?\" \"I don't know. He ____ lost.\"",
+          "options": [
+            "may have gotten",
+            "might get",
+            "can have gotten",
+            "ought to get"
+          ],
+          "answer": 0,
+          "zh": "「約翰發生了什麼事？」「我不知道，他可能迷路了吧！」",
+          "explain": "may have + p.p.，表示「對過去可能的推測」。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "To keep the road as pleasant as possible, most of these trees ____ when the road is widened.",
+          "options": [
+            "preserves",
+            "must preserve",
+            "should be preserved",
+            "ought to have preserved"
+          ],
+          "answer": 2,
+          "zh": "為了保持道路儘可能令人舒適，當拓寬馬路時，大多數的樹木應被保留。",
+          "explain": "① 樹是被保留，應用被動語態〔be + p.p.〕。\n② should be + p.p.（應該被～）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "Since they aren't answering their telephone, they ____.",
+          "options": [
+            "should have left",
+            "need have left",
+            "would have left",
+            "must have left"
+          ],
+          "answer": 3,
+          "zh": "既然沒有人接電話，他們一定已經走了。",
+          "explain": "must have + p.p.，表示「對過去事實肯定的推測」。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "I am surprised that you ____ so indiscreetly.",
+          "options": [
+            "act",
+            "should be acted",
+            "should have acted",
+            "could have been acting"
+          ],
+          "answer": 2,
+          "zh": "我很驚訝你竟然行事如此輕率。",
+          "explain": "surprise 後之子句：\n用 should + V ⇨ 表示現在或未來之「竟然」\n用 should have + p.p. ⇨ 表示過去之「竟然」"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "Every afternoon at three when Mary was about to start her violin lessons, I ____ go out for a walk. (複選)",
+          "options": [
+            "would",
+            "used to",
+            "was used to",
+            "got used to"
+          ],
+          "answer": [0, 1],
+          "zh": "每天下午三點當瑪莉正要開始練小提琴時，我便習慣性地到外面散步。",
+          "explain": "① would / used to + V 表示「（過去）習慣」。\n② {be / get} used to + {V-ing / N} 表示「習慣於」。"
+        },
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "When driving, we ____ obey the traffic laws thoroughly and absolutely. (複選)",
+          "options": [
+            "should",
+            "need",
+            "ought",
+            "must"
+          ],
+          "answer": [0, 3],
+          "zh": "開車時，我們應該〔必須〕完全而且絕對地遵守交通規則。",
+          "explain": "① ought 後應接 to。\n② need 用於肯定句時，為「一般動詞」，後應接 to。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "Oh, Jane, you've broken still another glass. You ought ____ when you washed it.",
+          "options": [
+            "be careful",
+            "to careful",
+            "to be careful",
+            "to have been careful"
+          ],
+          "answer": 3,
+          "zh": "哦！珍，你又打破杯子了。洗杯子時，你應該小心。",
+          "explain": "ought to / should + have + p.p. 表示「過去該～而事實沒有做到」。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "John: Did you go anywhere after supper?\nMary: I ____, but I went to the movies instead.",
+          "options": [
+            "would have studied",
+            "should have learned",
+            "should have studied",
+            "would have learned"
+          ],
+          "answer": 2,
+          "zh": "約翰：晚飯後有沒有到別的地方去？\n瑪麗：我原本該讀書的，但我卻去看電影了。",
+          "explain": "should have + p.p. 表示過去該做而未做（同 32 題說明）。"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "\"I expect you wonder why I've asked you to come back.\"\n\"Well, as a matter of fact, yes, I ____.\"",
+          "options": [
+            "am",
+            "have",
+            "do",
+            "can"
+          ],
+          "answer": 2,
+          "zh": "「我想你一定想知道我為何要求你回來吧！」\n「哦，是的。事實上我是很想知道原因。」",
+          "explain": "I do = I wonder（用助動詞 do 代替一般動詞 wonder）。"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "That was a close call, you ____ hit by the car.",
+          "options": [
+            "could have been",
+            "can have been",
+            "could be",
+            "can be"
+          ],
+          "answer": 0,
+          "zh": "真是千鈞一髮，你差點被車撞了。",
+          "explain": "① 本題表示「與過去事實相反之假設」：could have been + p.p.（原本可能被…）。\n② to have a close call = to have a narrow escape（千鈞一髮；僥倖脫險）。"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "Mother has often admonished me that we cannot be ____ careful in this world.",
+          "options": [
+            "such",
+            "too",
+            "very",
+            "so"
+          ],
+          "answer": 1,
+          "zh": "媽媽經常告誡我，我們在這個世界上要愈小心愈好。",
+          "explain": "cannot... too...（愈…愈好；再…也不為過）。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "Six o'clock will be too late to go, you ____ stay at home.",
+          "options": [
+            "have better",
+            "may as well",
+            "may well",
+            "would rather"
+          ],
+          "answer": 1,
+          "zh": "六點鐘去太遲了，你最好待在家裡。",
+          "explain": "may as well = had better + 原形 V（最好；倒不如）。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "She ____ die than suffer disgrace.",
+          "options": [
+            "would rather",
+            "prefers",
+            "would like to",
+            "no sooner"
+          ],
+          "answer": 0,
+          "zh": "她寧死不受辱。",
+          "explain": "would rather + 原形 V + than + 原形 V（寧願…而不願…）。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "Patrick: You may laugh, but I've been thinking of becoming a vegetarian.\nMary: Oh, Patrick, you ____ be out of your mind. You will be hungry all the time.",
+          "options": [
+            "must",
+            "may",
+            "will",
+            "should"
+          ],
+          "answer": 0,
+          "zh": "派屈克：你可能會覺得好笑，但我一直想當個素食者。\n瑪麗：哦，派屈克，你一定是瘋了，你會成天挨餓的。",
+          "explain": "must be（一定是）；may be（可能是）；can't be（不可能）。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "\"Hey!\" Jack complained to the woman, \"You said your dog doesn't bite!\"\n\"It ____,\" the woman said, \"but that's not my dog.\"",
+          "options": [
+            "does",
+            "did",
+            "didn't",
+            "doesn't"
+          ],
+          "answer": 3,
+          "zh": "「喂！」傑克向那婦女抱怨說：「你說你的狗不會咬人！」\n「它是不咬人！」她說：「但那條狗不是我的。」",
+          "explain": "It doesn't = It doesn't (bite)（以助動詞 doesn't 代替 doesn't bite）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入適當的英文字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "一個人應該多多留意他自己的健康。\nOne ____ be ____ careful of one's health.",
+          "answer": [
+            "cannot / too",
+            "can't / too"
+          ],
+          "zh": "一個人應該多多留意他自己的健康。",
+          "explain": "can't... too...（越…越好；無論…都不為過）。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "你現在應該看書，不該看電視。\nYou should be studying ____ ____ watching TV.",
+          "answer": [
+            "instead of",
+            "rather than"
+          ],
+          "zh": "你現在應該看書，不該看電視。",
+          "explain": "instead of（代替；不…反而…）或 rather than。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "Everything scared me in those days, and still does.\n那時候，件件事都會令我驚慌失措，____。",
+          "answer": [
+            "現在仍然如此。",
+            "現在仍然如此"
+          ],
+          "zh": "那時候，件件事都會令我驚慌失措，現在仍然如此。",
+          "explain": "and still does = and everything still scares me now。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "If he persists in laziness, he might as well withdraw from school.\n如果他堅持懈怠下去，____。",
+          "answer": [
+            "倒不如退學算了。",
+            "倒不如退學算了"
+          ],
+          "zh": "如果他堅持懈怠下去，倒不如退學算了。",
+          "explain": "① persist in = insist on（堅持）\n② might as well（最好；還不如）\n③ withdraw from school（退學）。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "The way our drivers drive, we cannot be too careful when crossing the streets.\n我們司機那種開車方式，使我們過街時____。",
+          "answer": [
+            "要愈小心愈好。",
+            "要愈小心愈好",
+            "愈小心愈好。"
+          ],
+          "zh": "我們司機那種開車方式，使我們過街時要愈小心愈好。",
+          "explain": "cannot... too...（愈…愈好／無論多麼…都不為過）。"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "我常聽到人們抱怨薪水太少，不夠花。",
+          "hint": "① 抱怨：complain ② 薪水：salary",
+          "answer": [
+            "I often hear people complain that their salaries are too small to meet their demands.",
+            "I often hear people complain that their salaries are too small to meet their desires.",
+            "I often hear people complain that their salaries are too small to meet their wishes."
+          ],
+          "zh": "我常聽到人們抱怨薪水太少，不夠花。",
+          "explain": "① too + 形/副 + to V（太…而無法…）\n② meet one's demand（滿足…之需求）"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "坦白地說，他們不該用錢來衡量一切。",
+          "hint": "衡量一切：judge everything by + N",
+          "answer": [
+            "Frankly speaking, they shouldn't see things in terms of money.",
+            "Frankly speaking, they shouldn't judge everything by money."
+          ],
+          "zh": "坦白地說，他們不該用錢來衡量一切。",
+          "explain": "① Frankly speaking（坦白說）／ Generally speaking（一般說來）／ Strictly speaking（嚴格地說）\n② in terms of（自…角度；以…觀點）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "金錢買不到像健康、友誼、知識等這樣寶貴東西。",
+          "hint": "…等：such as (A), (B), (C), and so on",
+          "answer": [
+            "Money can't buy such precious things as health, friendship, knowledge, etc.",
+            "Money can't buy precious things such as health, friendship, knowledge, and so on."
+          ],
+          "zh": "金錢買不到像健康、友誼、知識等這樣寶貴東西。",
+          "explain": "① such + 名詞 + as（像…的東西）\n② such as = like（如／像）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "然而，沒有錢的話，我們也無法過快樂的生活。",
+          "hint": "過快樂的生活：live/lead a happy life",
+          "answer": [
+            "However, we couldn't lead a happy life without money.",
+            "However, we couldn't live happily without money."
+          ],
+          "zh": "然而，沒有錢的話，我們也無法過快樂的生活。",
+          "explain": "However = Nevertheless = In spite of the fact（雖然；儘管如此）"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "金錢是否重要，須看個人的人生觀而定。",
+          "hint": "① 須看…而定：depend on ② 人生觀：philosophy of life",
+          "answer": [
+            "Whether money is important or not depends on one's philosophy of life.",
+            "It depends on one's philosophy of life whether money is important or not."
+          ],
+          "zh": "金錢是否重要，須看個人的人生觀而定。",
+          "explain": "〔whether A or B〕+ V (單數形式)：「是否」名詞子句作主詞\n= It + V... 〔whether A or B〕名詞子句作真正主詞"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，並根據上下文在空格內填入最適當的單字：\n\nWhen you look at our planet from space as the astronauts 1. ____, you might wonder why our planet is called e____ 2. . \"Planet Water\" m____ 3. be a better name. About three-fourths of the earth's surface is covered by water. Most of this water is the salt water f____ 4. d in the oceans. The water in rivers, lakes, ponds, and springs 5. ____ fresh water.\nMost l____ 6. g things are found in or near water. Some of them live in the lakes, ponds, and oceans. O____ 7. need only to be near water. A few live in areas, such as desert, w____ 8. they go without water for a long period of time. All living things contain water in the bodies. Your own body, 9. ____ instance, is about two-thirds water. This water is essential for life. It is needed 10. ____ carry on all the life activities.\n\n【詞彙及短語提示】\n1. astronauts [ˈæstrənɔːts] 名 太空人\n2. wonder [ˈwʌndər] 動 想知道；對…感到好奇\n3. earth's surface 地球表面\n4. is covered by 被…所覆蓋\n5. such as desert 如沙漠地區\n6. go without water a long period of time 長期過著缺水的生活\n7. be essential for 對…是必要的；對…是必需的\n8. carry on all the life activities 維持（續）人生的一切活動",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "When you look at our planet from space as the astronauts 1. ____, ...",
+          "answer": "do",
+          "zh": "當你如同太空人那樣從太空中注視我們的行星時，...",
+          "explain": "do = look at（注視；看著），助動詞 do/does/did 可用來代替前面已提過之一般動詞。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "... you might wonder why our planet is called e____ 2. .",
+          "answer": "earth",
+          "zh": "... 你可能想知道為何我們的行星被稱為地球。",
+          "explain": "① 本句意思「你可能想知道為何我們的行星被稱為地球。」\n② planet 名 行星"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "\"Planet Water\" m____ 3. be a better name.",
+          "answer": "might",
+          "zh": "「水星球」或許是個更好的名字。",
+          "explain": "① 本題為假設語氣，故用過去簡單式 might，表示與目前的事實相反。\n② \"Planet Water\" might be a better name.（稱呼我們的星球為「水星球」，名字更恰當。）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "Most of this water is the salt water f____ 4. d in the oceans.",
+          "answer": "found",
+          "zh": "這些水絕大部分是海洋中發現的鹹水。",
+          "explain": "... the salt water [which is found in the oceans].\n= ... the salt water found in the oceans（分詞片語修飾名詞 salt water）。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "The water in rivers, lakes, ponds, and springs 5. ____ fresh water.",
+          "answer": "is",
+          "zh": "河流、湖泊、池塘和泉水中的水是淡水。",
+          "explain": "本句主詞為不可數名詞 The water，故動詞用單數形式 is。"
+        },
+        {
+          "no": 6,
+          "type": "fill",
+          "q": "Most l____ 6. g things are found in or near water.",
+          "answer": "living",
+          "zh": "大多數生物都生活在水裡或水邊。",
+          "explain": "living things = creatures（生物）。"
+        },
+        {
+          "no": 7,
+          "type": "fill",
+          "q": "Some of them live in the lakes, ponds, and oceans. O____ 7. need only to be near water.",
+          "answer": "Others",
+          "zh": "牠們有些生活在湖泊、池塘和海洋中。其他生物則只需要靠近水。",
+          "explain": "Some + V..., Others + V...（有些…，有些…／其他…）。"
+        },
+        {
+          "no": 8,
+          "type": "fill",
+          "q": "A few live in areas, such as desert, w____ 8. they go without water for a long period of time.",
+          "answer": "where",
+          "zh": "少數生活在像沙漠這樣的地區，在那裡牠們長期過著缺水的生活。",
+          "explain": "表示地點的關係副詞用 where，指先行詞 desert（沙漠地區）。"
+        },
+        {
+          "no": 9,
+          "type": "fill",
+          "q": "Your own body, 9. ____ instance, is about two-thirds water.",
+          "answer": "for",
+          "zh": "例如你自己身體，大約有三分之二是水。",
+          "explain": "for instance = for example（例如；舉例來說）。"
+        },
+        {
+          "no": 10,
+          "type": "fill",
+          "q": "It is needed 10. ____ carry on all the life activities.",
+          "answer": "to",
+          "zh": "需要它來維持生命的一切活動。",
+          "explain": "be needed to + V（被需要用來…）。"
+        }
+      ]
+    }
+  ]
+}

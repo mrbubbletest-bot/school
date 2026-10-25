@@ -1,0 +1,566 @@
+{
+  "chapter": 19,
+  "title": "否定句與倒裝句",
+  "items": [
+    {
+      "topic": "不定詞的否定",
+      "level": 1,
+      "q": "My doctor advised me ____ too much coffee before bedtime.",
+      "options": [
+        "not to drink",
+        "to not drink",
+        "don't drink",
+        "not drinking"
+      ],
+      "answer": 0,
+      "zh": "我的醫生建議我睡前不要喝太多咖啡。",
+      "explain": "不定詞的否定結構為「not ＋ to ＋ 原形動詞」，作受詞補語修飾受詞 me，故選 (A) not to drink。(B) to not drink 為分裂不定詞，在正式文法中通常不建議使用；(C) don't drink 為祈使句形式，不可置於受詞後作補語；(D) not drinking 為動名詞/分詞，advise sb to V 習慣接不定詞。"
+    },
+    {
+      "topic": "Let's 的否定",
+      "level": 1,
+      "q": "It's already late. ____ any more time discussing this minor issue.",
+      "options": [
+        "Let's don't waste",
+        "Let's not waste",
+        "Don't let's waste",
+        "Let's not to waste"
+      ],
+      "answer": 1,
+      "zh": "時間已經很晚了。我們別再浪費時間討論這個次要的問題了。",
+      "explain": "Let's 的否定句型為「Let's not ＋ 原形動詞」，表示「我們不要⋯」，故選 (B) Let's not waste。(A) Let's don't waste 為非標準口語；(C) Don't let's waste 極為少見且非標準文法；(D) not 後面應接原形動詞 waste，不可加 to。"
+    },
+    {
+      "topic": "也與也不的倒裝",
+      "level": 1,
+      "q": "\"I have never tasted durian before.\" \"____.\"",
+      "options": [
+        "So have I",
+        "I haven't too",
+        "Neither have I",
+        "Nor I have"
+      ],
+      "answer": 2,
+      "zh": "「我以前從來沒有吃過榴槤。」「我也沒有。」",
+      "explain": "前句含有否定副詞 never，表示否定。附和否定句「我也沒有」時，應使用「Neither / Nor ＋ 助動詞 ＋ 主詞」，助動詞需呼應現在完成式的 have，故選 (C) Neither have I。(A) So have I 用於附和肯定句；(B) 否定附和句應用 either，如 I haven't, either；(D) Nor 後面必須倒裝為 have I。"
+    },
+    {
+      "topic": "地點副詞倒裝",
+      "level": 1,
+      "q": "Look at the bus stop! ____ your sister!",
+      "options": [
+        "Comes here",
+        "Here does come",
+        "Here is coming",
+        "Here comes"
+      ],
+      "answer": 3,
+      "zh": "看公車站那裡！你姐姐來了！",
+      "explain": "地點副詞 Here 置於句首時，若主詞為名詞（your sister），句子必須完全倒裝為「Here ＋ 動詞 ＋ 主詞」，故選 (D) Here comes。(A) Comes here 缺乏句首副詞位置；(B) 完全倒裝直接移位本動詞，不加助動詞 does；(C) Here comes 為表示「來了」的固定倒裝句型，通常不用進行式。"
+    },
+    {
+      "topic": "地點副詞倒裝（代名詞不倒裝）",
+      "level": 1,
+      "q": "\"Where is my pencil case?\" \"____ on the dining table.\"",
+      "options": [
+        "Here it is",
+        "Here is it",
+        "There comes it",
+        "Here does it be"
+      ],
+      "answer": 0,
+      "zh": "「我的鉛筆盒在哪裡？」「它在這裡，在餐桌上。」",
+      "explain": "地點副詞 Here / There 置於句首時，若主詞為「人稱代名詞」（如 it, he, they），句子「不倒裝」，維持「Here / There ＋ 代名詞主詞 ＋ 動詞」，故選 (A) Here it is。(B) Here is it 錯誤地將代名詞主詞倒裝；(C) There comes it 語法與動詞搭配錯誤；(D) does it be 文法錯誤。"
+    },
+    {
+      "topic": "也與也不的倒裝",
+      "level": 1,
+      "q": "Kevin speaks French fluently, and ____.",
+      "options": [
+        "so his brother does",
+        "so does his brother",
+        "his brother does so",
+        "neither does his brother"
+      ],
+      "answer": 1,
+      "zh": "凱文法語說得很流利，他哥哥也是。",
+      "explain": "前句為肯定句，動詞為一般動詞現在式 speaks，表示「也⋯」時使用「so ＋ 助動詞 ＋ 主詞」，第三人稱單數使用 does，故選 (B) so does his brother。(A) so 後面未倒裝；(C) his brother does so 意思為「他哥哥照著做」，非附和句；(D) neither 用於否定句的附和。"
+    },
+    {
+      "topic": "部分否定",
+      "level": 1,
+      "q": "____ that glitters is gold. Appearances can often be deceptive.",
+      "options": [
+        "None",
+        "Nothing",
+        "Not all",
+        "Not every"
+      ],
+      "answer": 2,
+      "zh": "發光的不一定都是金子。外表常常具有欺騙性。",
+      "explain": "本句為著名英語諺語（Not all that glitters is gold），意為「發光的不一定都是金子」，屬於「Not all...」的部分否定結構，故選 (C) Not all。(A) None 表完全沒有，語意錯誤；(B) Nothing 表全盤否定，語意不合常理；(D) every 後需接單數名詞，不能單獨作為先行詞。"
+    },
+    {
+      "topic": "部分否定",
+      "level": 1,
+      "q": "Rich people are ____ happy; wealth cannot buy true friendship or peace of mind.",
+      "options": [
+        "always not",
+        "never",
+        "not never",
+        "not always"
+      ],
+      "answer": 3,
+      "zh": "有錢人未必總是快樂的；財富買不到真正的友誼或心靈的平靜。",
+      "explain": "not always 為經典的部分否定片語，表示「未必、不一定總是」，故選 (D) not always。(A) always not 不是標準英文用法；(B) never 表示「絕不、從未」，語意過於武斷且不合邏輯；(C) not never 雙重否定文法錯誤。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝",
+      "level": 1,
+      "q": "Seldom ____ such a breathtaking sunset in my hometown.",
+      "options": [
+        "have I seen",
+        "I have seen",
+        "did I saw",
+        "I saw"
+      ],
+      "answer": 0,
+      "zh": "我很少在我的家鄉看到如此令人屏息的日落。",
+      "explain": "否定副詞 Seldom（很少）置於句首時，句子需倒裝為「助動詞 ＋ 主詞 ＋ 本動詞」，現在完成式倒裝將 have 移至主詞 I 之前，故選 (A) have I seen。(B) I have seen 未倒裝；(C) did 後應接原形動詞 see，且不可用過去式 saw；(D) I saw 未倒裝。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝",
+      "level": 1,
+      "q": "Little ____ that his friends were secretly planning a surprise birthday party for him.",
+      "options": [
+        "Jason knew",
+        "did Jason know",
+        "does Jason knew",
+        "Jason did know"
+      ],
+      "answer": 1,
+      "zh": "傑森一點也不知道他的朋友們正在秘密為他策劃一個驚喜生日派對。",
+      "explain": "否定副詞 Little（幾乎不、一點也不）放在句首時，主要子句必須倒裝。依據後文 were secretly planning 的過去時態，一般動詞過去式 knew 倒裝時借用助動詞 did，後接原形動詞 know，故選 (B) did Jason know。(A) Jason knew 未倒裝；(C) does 時態不合且 knew 非原形動詞；(D) Jason did know 為強調句語序，未倒裝。"
+    },
+    {
+      "topic": "否定句的形成（need）",
+      "level": 1,
+      "q": "You ____ bring an umbrella today because the forecast says it will be sunny all day.",
+      "options": [
+        "needn't to",
+        "don't need",
+        "needn't",
+        "need not to"
+      ],
+      "answer": 2,
+      "zh": "你今天不需要帶雨傘，因為氣象預報說整天都會是大晴天。",
+      "explain": "need 作情態助動詞時，否定形為 needn't ＋ 原形動詞，表示「不需要」，故選 (C) needn't。(A) needn't 後不可加 to；(B) don't need 後需接 to 才能加原形動詞；(D) need not 後不可加 to。"
+    },
+    {
+      "topic": "地點副詞倒裝",
+      "level": 1,
+      "q": "The door opened, and in ____.",
+      "options": [
+        "the teacher walked",
+        "did walk the teacher",
+        "was walking the teacher",
+        "walked the teacher"
+      ],
+      "answer": 3,
+      "zh": "門打開了，老師走了進來。",
+      "explain": "方向副詞 in 置於子句首時，若主詞為一般名詞（the teacher），必須採完全倒裝「副詞 ＋ 動詞 ＋ 主詞」，故選 (D) walked the teacher。(A) the teacher walked 未倒裝；(B) 地點副詞完全倒裝直接移位動詞，不加助動詞 did；(C) was walking the teacher 語序不自然且不符本句型。"
+    },
+    {
+      "topic": "意義上為否定的慣用語（fail to）",
+      "level": 1,
+      "q": "Please remember to water the plants every day; don't ____ to do so.",
+      "options": [
+        "fail",
+        "miss",
+        "stop",
+        "avoid"
+      ],
+      "answer": 0,
+      "zh": "請記得每天澆花，務必不要忘了這麼做。",
+      "explain": "fail to ＋ 原形動詞表示「未能做⋯、忘記做⋯」，don't fail to do so 即表示「務必做、千萬不要忘記」，故選 (A) fail。(B) miss 後接動名詞 V-ing；(C) stop to do so 意為「停下手邊的事去澆花」，與句意不合；(D) avoid 後接動名詞 V-ing。"
+    },
+    {
+      "topic": "否定句其他重要句型（cannot... too）",
+      "level": 1,
+      "q": "When you ride a bicycle in heavy traffic, you cannot be ____ careful.",
+      "options": [
+        "very",
+        "too",
+        "so",
+        "enough"
+      ],
+      "answer": 1,
+      "zh": "當你在繁忙的車流中騎腳踏車時，再怎麼小心也不為過（愈小心愈好）。",
+      "explain": "「cannot... too ＋ 形容詞」為固定句型，表示「再⋯也不為過、愈⋯愈好」，故選 (B) too。(A) cannot be very careful 意為「無法很小心」，語意不通；(C) cannot be so careful 意思不完整；(D) 若用 enough 應置於形容詞之後（careful enough）。"
+    },
+    {
+      "topic": "也與也不的倒裝",
+      "level": 1,
+      "q": "Emily cannot swim across the river, and ____.",
+      "options": [
+        "I can neither",
+        "so can't I",
+        "neither can I",
+        "nor I can't"
+      ],
+      "answer": 2,
+      "zh": "艾蜜莉無法游過這條河，我也沒辦法。",
+      "explain": "前句為否定句（cannot swim），表示「我也不能」應使用「neither ＋ 助動詞 ＋ 主詞」，助動詞需用肯定形式 can，故選 (C) neither can I。(A) neither 不可直接置於句尾代替 either；(B) so 用於肯定句的附和；(D) nor 後面必須倒裝且助動詞須用肯定形 can。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（Hardly... when）",
+      "level": 2,
+      "q": "Hardly ____ the train station when the heavy downpour started.",
+      "options": [
+        "we had reached",
+        "did we reach",
+        "have we reached",
+        "had we reached"
+      ],
+      "answer": 3,
+      "zh": "我們才剛到達火車站，傾盆大雨就開始下了。",
+      "explain": "「Hardly ＋ had ＋ 主詞 ＋ p.p. ... when ＋ 過去式子句」表示「一⋯就⋯」。Hardly 置於句首引導倒裝句，需搭配過去完成式，故選 (D) had we reached。(A) we had reached 未倒裝；(B) did we reach 一般過去式不符合本句型之時態要求；(C) have we reached 現在完成式與後面的 started 過去時態不合。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（No sooner... than）",
+      "level": 2,
+      "q": "No sooner ____ into bed than he fell fast asleep from exhaustion.",
+      "options": [
+        "had he got",
+        "he had got",
+        "did he get",
+        "has he got"
+      ],
+      "answer": 0,
+      "zh": "他一上床就因為筋疲力竭而沉沉睡去。",
+      "explain": "「No sooner ＋ had ＋ 主詞 ＋ p.p. ... than ＋ 過去式子句」表示「一⋯就⋯」。No sooner 置於句首需倒裝且用過去完成式，故選 (A) had he got。(B) he had got 未倒裝；(C) did he get 過去簡單式不符慣用句型；(D) has he got 現在完成式與後文 fell 過去時態不符。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（Not only... but also）",
+      "level": 2,
+      "q": "Not only ____ all her exams with flying colors, but she also won first prize in the speech contest.",
+      "options": [
+        "passed she",
+        "did she pass",
+        "she passed",
+        "she did pass"
+      ],
+      "answer": 1,
+      "zh": "她不但以優異成績通過了所有考試，而且還在演講比賽中獲得第一名。",
+      "explain": "Not only 置於句首時，第一個對等子句必須倒裝；一般過去式動詞 passed 倒裝時借用助動詞 did，主詞後接原形動詞 pass，故選 (B) did she pass。(A) passed she 一般動詞不可直接前移；(C) she passed 未倒裝；(D) she did pass 為直述強調語序，未倒裝。"
+    },
+    {
+      "topic": "Only 的倒裝句型",
+      "level": 2,
+      "q": "Only by working together cooperatively ____ this complicated task on schedule.",
+      "options": [
+        "we can finish",
+        "we could finish",
+        "can we finish",
+        "did we finish"
+      ],
+      "answer": 2,
+      "zh": "唯有透過通力合作，我們才能如期完成這項複雜的任務。",
+      "explain": "「Only ＋ 介系詞片語／副詞片語」置於句首時，主要子句必須倒裝為「助動詞 ＋ 主詞 ＋ 原形動詞」，故選 (C) can we finish。(A) we can finish 未倒裝；(B) we could finish 未倒裝；(D) did we finish 過去式與前文表達「能夠達成」的語意與時態不符。"
+    },
+    {
+      "topic": "Only 的倒裝句型",
+      "level": 2,
+      "q": "Only after the test results were released ____ how important daily review really was.",
+      "options": [
+        "the students realized",
+        "have the students realized",
+        "had the students realized",
+        "did the students realize"
+      ],
+      "answer": 3,
+      "zh": "唯有在測驗成績公佈之後，學生們才意識到日常複習究竟有多重要。",
+      "explain": "「Only ＋ 時間副詞子句」置於句首時，主要子句必須倒裝。子句時態為過去式（were released），主要子句倒裝使用助動詞 did ＋ 主詞 ＋ 原形動詞 realize，故選 (D) did the students realize。(A) the students realized 未倒裝；(B) 現在完成式與過去時態不符；(C) 過去完成式不適用於放榜後才發生的認知動作。"
+    },
+    {
+      "topic": "意義上為否定的慣用語（the last person）",
+      "level": 2,
+      "q": "Mark is the last person ____ a secret to anyone; you can trust him completely.",
+      "options": [
+        "to tell",
+        "telling",
+        "tells",
+        "who tell"
+      ],
+      "answer": 0,
+      "zh": "馬克是絕不可能向任何人洩漏秘密的人；你可以完全信任他。",
+      "explain": "「the last ＋ 名詞 ＋ 不定詞 (to V)」表示「最不可能⋯的人／事物」，以 to tell 修飾 the last person 表示「最不可能洩漏秘密的人」，故選 (A) to tell。(B) telling 現在分詞不符合此固定句型；(C) tells 為動詞第三人稱單數，不能直接接在名詞後；(D) who tell 關係子句動詞未與單數先行詞一致（應為 who tells）。"
+    },
+    {
+      "topic": "意義上為否定的慣用語（far from）",
+      "level": 2,
+      "q": "His novel was ____ satisfactory; the publisher asked him to rewrite several chapters.",
+      "options": [
+        "all but",
+        "far from",
+        "nothing but",
+        "anything for"
+      ],
+      "answer": 1,
+      "zh": "他的小說一點也不令人滿意；出版商要求他重寫好幾個章節。",
+      "explain": "far from ＋ 形容詞表示「一點也不⋯、遠非⋯」，符合後文「出版商要求重寫好幾個章節」的負面評價語境，故選 (B) far from。(A) all but 表示「幾乎、差不多」；(C) nothing but 表示「只是、僅僅」，後多接名詞；(D) anything for 非固定否定片語。"
+    },
+    {
+      "topic": "否定句其他重要句型（not so much A as B）",
+      "level": 2,
+      "q": "His success was not so much due to good fortune ____ due to his unremitting perseverance.",
+      "options": [
+        "than",
+        "but",
+        "as",
+        "like"
+      ],
+      "answer": 2,
+      "zh": "他的成功與其說是歸因於好運，不如說是歸因於他堅持不懈的毅力。",
+      "explain": "「not so much A as B」為固定句型，表示「與其說是 A，不如說是 B」，故選 (C) as。(A) than 用於比較級 more... than；(B) but 用於 not A but B；(D) like 為介系詞，文法不通。"
+    },
+    {
+      "topic": "否定句其他重要句型（There is no V-ing）",
+      "level": 2,
+      "q": "There is no ____ how technology will transform our daily lives in the next fifty years.",
+      "options": [
+        "know",
+        "to know",
+        "known",
+        "knowing"
+      ],
+      "answer": 3,
+      "zh": "無法預知科技在未來五十年內將如何改變我們的日常生活。",
+      "explain": "「There is no ＋ V-ing」為固定句型，相當於「It is impossible to ＋ 原形動詞」，表示「無法⋯、不可能⋯」，故選 (D) knowing。(A) know 為原形動詞；(B) to know 為不定詞；(C) known 為過去分詞，皆不符合此句型。"
+    },
+    {
+      "topic": "否定句其他重要句型（leave nothing to be desired）",
+      "level": 2,
+      "q": "The performance of the young violinist left ____ to be desired; the audience gave her a standing ovation.",
+      "options": [
+        "nothing",
+        "much",
+        "something",
+        "anything"
+      ],
+      "answer": 0,
+      "zh": "這位年輕小提琴家的演出無懈可擊（毫無缺點）；全場觀眾起立為她鼓掌。",
+      "explain": "「leave nothing to be desired」為固定片語，表示「完美無缺、無可挑剔」，呼應後文觀眾起立鼓掌的盛況，故選 (A) nothing。(B) leave much to be desired 表示「有很多待改進之處、表現差勁」；(C) leave something to be desired 表示「美中不足、尚有待加強」；(D) anything 通常用於否定句。"
+    },
+    {
+      "topic": "雙重否定等於肯定",
+      "level": 2,
+      "q": "It never rains ____ it pours. Misfortunes rarely come singly.",
+      "options": [
+        "and",
+        "but",
+        "or",
+        "without"
+      ],
+      "answer": 1,
+      "zh": "禍不單行（每逢下雨必傾盆）。不幸的事很少單獨降臨。",
+      "explain": "「never... but ＋ 子句」為雙重否定的經典句型，表示「每⋯必⋯」；\"It never rains but it pours.\" 為英語諺語，比喻「禍不單行」，故選 (B) but。(A) and 無雙重否定涵義；(C) or 表選擇；(D) without 為介系詞，後需接名詞或動名詞，不能接完整子句 it pours。"
+    },
+    {
+      "topic": "雙重否定等於肯定（never... without）",
+      "level": 2,
+      "q": "Grandma never visits our home without ____ some homemade apple pies for us.",
+      "options": [
+        "bring",
+        "to bring",
+        "bringing",
+        "brought"
+      ],
+      "answer": 2,
+      "zh": "奶奶每次來我們家，一定會帶一些她自製的蘋果派給我們。",
+      "explain": "「never... without ＋ V-ing」為雙重否定句型，表「每逢⋯必定⋯」；without 為介系詞，其後動詞需用動名詞形式，故選 (C) bringing。(A) bring 為原形動詞；(B) to bring 為不定詞；(D) brought 為過去式動詞。"
+    },
+    {
+      "topic": "假設語氣倒裝",
+      "level": 2,
+      "q": "____ any questions regarding the new schedule, please feel free to contact the school office.",
+      "options": [
+        "If you had",
+        "Had you",
+        "Were you to have",
+        "Should you have"
+      ],
+      "answer": 3,
+      "zh": "萬一你對新時間表有任何疑問，請隨時聯繫學校辦公室。",
+      "explain": "條件句「If you should have any questions...」省略連接詞 if 時，助動詞 should 移至句首倒裝為「Should you have...」，表示「萬一、假若」，常搭配祈使句使用，故選 (D) Should you have。(A) If you had 表示與過去或現在事實相反，後接祈使句不自然；(B) Had you 倒裝通常表示過去完成式假設；(C) Were you to have 語氣較為僵硬且不符日常行政通知習慣。"
+    },
+    {
+      "topic": "讓步子句倒裝",
+      "level": 2,
+      "q": "____ as he was, the boy bravely climbed up the tall tree to rescue the trapped kitten.",
+      "options": [
+        "Frightened",
+        "Frightening",
+        "Frighten",
+        "Frightens"
+      ],
+      "answer": 0,
+      "zh": "雖然那個男孩很害怕，但他還是勇敢地爬上大樹去救受困的小貓。",
+      "explain": "讓步副詞子句原為「Although he was frightened...」，改為倒裝句型時將形容詞補語前移：「形容詞 ＋ as ＋ 主詞 ＋ be動詞」，表示人主觀上「感到害怕的」用過去分詞形容詞 Frightened，故選 (A) Frightened。(B) Frightening 表示「令人害怕的」，非形容男孩的主觀感受；(C) 原形動詞不能作主詞補語；(D) 第三單數動詞文法錯誤。"
+    },
+    {
+      "topic": "Only 的慣用語（only to）",
+      "level": 2,
+      "q": "The weary traveler hurried all the way to the railway station, only ____ that the last train had already departed.",
+      "options": [
+        "found",
+        "to find",
+        "finding",
+        "having found"
+      ],
+      "answer": 1,
+      "zh": "那位疲憊的旅人一路匆忙趕到火車站，不料卻發現末班車已經開走了。",
+      "explain": "「only to ＋ 原形動詞」表示出乎意料或令人失望的反意結果（不料竟⋯、結果卻⋯），故選 (B) to find。(A) found 為過去式動詞，缺少對等連接詞；(C) finding 現在分詞無法表達令人遺憾的反意結果；(D) having found 完成分詞時態與語意皆不合。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（Under no circumstances）",
+      "level": 3,
+      "q": "Under no circumstances ____ personal information to strangers over the phone or online.",
+      "options": [
+        "you should disclose",
+        "disclose should you",
+        "should you disclose",
+        "you disclose"
+      ],
+      "answer": 2,
+      "zh": "在任何情況下，你都絕不應該在電話中或網路上向陌生人透露個人資訊。",
+      "explain": "「Under no circumstances」（在任何情況下都絕不）為強烈的否定副詞片語，置於句首時，主要子句必須倒裝為「助動詞 ＋ 主詞 ＋ 原形動詞」，故選 (C) should you disclose。(A) you should disclose 未倒裝；(B) disclose should you 語序混亂；(D) you disclose 缺少情態助動詞且未倒裝。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（Not until...）",
+      "level": 3,
+      "q": "Not until the fire alarm rang loudly ____ the danger they were in.",
+      "options": [
+        "the occupants realized",
+        "had the occupants realized",
+        "occupants did realize",
+        "did the occupants realize"
+      ],
+      "answer": 3,
+      "zh": "直到火警警報器大聲響起，住戶們才意識到他們所處的危險。",
+      "explain": "「Not until ＋ 時間點／副詞子句」置於句首時，主要子句必須倒裝（not until 自身的副詞子句維持正常語序）。主要子句依過去式時態倒裝為「did ＋ 主詞 ＋ 原形動詞」，故選 (D) did the occupants realize。(A) the occupants realized 未倒裝；(B) had the occupants realized 過去完成式與動作順序不符；(C) 倒裝助動詞應置於主詞 occupants 之前。"
+    },
+    {
+      "topic": "讓步子句倒裝（名詞置於句首無冠詞）",
+      "level": 3,
+      "q": "____ as she was, little Lily managed to take care of her sick mother during the harsh winter.",
+      "options": [
+        "Child",
+        "A child",
+        "The child",
+        "Being child"
+      ],
+      "answer": 0,
+      "zh": "雖然小莉莉還是個孩子，但她卻能在嚴冬中照顧生病的母親。",
+      "explain": "當名詞放在讓步子句句首倒裝（名詞 ＋ as ＋ 主詞 ＋ 動詞）時，單數可數名詞前的冠詞（a/an/the）「必須省略」，故選 (A) Child。(B) A child 保留了不定冠詞 a，違反讓步倒裝語法規則；(C) The child 保留定冠詞亦錯誤；(D) Being child 結構非標準倒裝句型。"
+    },
+    {
+      "topic": "假設語氣倒裝（Had + S + p.p.）",
+      "level": 3,
+      "q": "____ for the timely warning from the lighthouse, the ship would have run aground on the treacherous rocks.",
+      "options": [
+        "Were it not",
+        "Had it not been",
+        "If it had not",
+        "Had not it been"
+      ],
+      "answer": 1,
+      "zh": "要不是燈塔及時發出警告，這艘船早就擱淺在危險的暗礁上了。",
+      "explain": "本句為與過去事實相反的假設，原句為「If it had not been for...」（要不是當時有⋯），省略連接詞 if 時，助動詞 had 移至句首倒裝，否定詞 not 留在主詞 it 之後，成為「Had it not been for...」，故選 (B) Had it not been。(A) Were it not for... 用於與現在事實相反，後句為 would have run aground 屬過去相反；(C) If it had not 後面缺少 been for；(D) 倒裝時 not 不可分開直接置於主詞 it 之前（若縮寫則為 Hadn't it been，但正式書面語標準為 Had it not been）。"
+    },
+    {
+      "topic": "主詞補語倒裝（So + adj + be + S that...）",
+      "level": 3,
+      "q": "So fierce ____ that many old trees in the park were completely uprooted.",
+      "options": [
+        "the typhoon was",
+        "did the typhoon be",
+        "was the typhoon",
+        "had been the typhoon"
+      ],
+      "answer": 2,
+      "zh": "這次颱風是如此猛烈，以致於公園裡的許多老樹都被連根拔起。",
+      "explain": "「So ＋ 形容詞」置於句首以強調主詞補語時，主要子句必須倒裝為「be動詞 ＋ 主詞」，句型為「So ＋ 形容詞 ＋ be動詞 ＋ 主詞 ＋ that 子句」，故選 (C) was the typhoon。(A) the typhoon was 未倒裝；(B) be動詞倒裝直接前移，不使用助動詞 did；(D) had been 過去完成式與後文 were uprooted 時態不符。"
+    },
+    {
+      "topic": "意義上為否定的慣用語（be above V-ing）",
+      "level": 3,
+      "q": "An honorable scientist is above ____ someone else's research data for personal credit.",
+      "options": [
+        "steal",
+        "to steal",
+        "stolen",
+        "stealing"
+      ],
+      "answer": 3,
+      "zh": "一個正直的光榮科學家是不屑於為了個人名譽而竊取他人的研究數據的。",
+      "explain": "「be above ＋ V-ing / 名詞」為固定句型，表示「不屑於做⋯、恥於做⋯」，above 在此為介系詞，後接動名詞 V-ing，故選 (D) stealing。(A) steal 為原形動詞；(B) to steal 為不定詞；(C) stolen 為過去分詞。"
+    },
+    {
+      "topic": "雙重否定（There is no... but...）",
+      "level": 3,
+      "q": "There is no rule in this grammar guide ____ has some exceptions in practical usage.",
+      "options": [
+        "but",
+        "which",
+        "that",
+        "unless"
+      ],
+      "answer": 0,
+      "zh": "這本語法指南中沒有一條規則在實際運用中是沒有例外的（凡規則必有例外）。",
+      "explain": "「There is no ＋ 名詞 ＋ but ＋ 動詞...」為雙重否定的經典句型，but 在此作準關係代名詞，相當於 that... not，整句意思為「這本語法指南中沒有一條規則是沒有例外的（凡規則必有例外）」，故選 (A) but。(B) which has some exceptions 意思變成「沒有具備例外的規則」，意思完全顛倒；(C) that has some exceptions 同 (B)，語意錯誤；(D) unless 為從屬連接詞，後需接完整子句，不可直接接動詞 has。"
+    },
+    {
+      "topic": "慣用語比較（could not but + 原形 V）",
+      "level": 3,
+      "q": "Facing such an unprecedented natural catastrophe, the local villagers could not but ____ for rescue teams to arrive.",
+      "options": [
+        "waiting",
+        "wait",
+        "waited",
+        "to wait"
+      ],
+      "answer": 1,
+      "zh": "面對這樣前所未有的自然災難，當地村民只能等待救援隊伍到達。",
+      "explain": "「cannot but ＋ 原形動詞」（過去式為 could not but ＋ 原形動詞）表示「不得不、只能、禁不住」，but 在此為介系詞（除了），其後接原形動詞（省略 to 的不定詞），故選 (B) wait。(A) cannot help but 接原形動詞，或 cannot help V-ing，但 could not but 後接原形動詞；(C) waited 為過去式動詞；(D) to wait 帶 to 不符合此慣用句型。"
+    },
+    {
+      "topic": "否定副詞放在句首倒裝（On no account）",
+      "level": 3,
+      "q": "On no account ____ our core principles just to gain short-term commercial profits.",
+      "options": [
+        "we must compromise",
+        "we will compromise",
+        "must we compromise",
+        "do we compromised"
+      ],
+      "answer": 2,
+      "zh": "絕不可為了獲取短期商業利潤而犧牲我們的核心原則。",
+      "explain": "「On no account」（絕不可、絕不能）為否定副詞片語，放在句首時主要子句必須倒裝為「助動詞 ＋ 主詞 ＋ 原形動詞」，故選 (C) must we compromise。(A) we must compromise 未倒裝；(B) we will compromise 未倒裝；(D) do we compromised 中助動詞 do 後應接原形動詞 compromise，且時態與語法皆錯誤。"
+    },
+    {
+      "topic": "否定句其他重要句型（It goes without saying that...）",
+      "level": 3,
+      "q": "It goes without ____ that health is far more valuable than material possessions.",
+      "options": [
+        "say",
+        "said",
+        "to say",
+        "saying"
+      ],
+      "answer": 3,
+      "zh": "不用說，健康遠比物質財富寶貴得多。",
+      "explain": "「It goes without saying that ＋ 子句」為固定慣用句型，without 為介系詞，後面需接動名詞 saying，意思是「不用說、顯而易見的是⋯」，故選 (D) saying。(A) say 為原形動詞；(B) said 為過去式或過去分詞；(C) to say 為不定詞，皆不符合此句型。"
+    }
+  ]
+}

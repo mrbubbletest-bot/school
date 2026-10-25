@@ -1,0 +1,566 @@
+{
+  "chapter": 3,
+  "title": "語態",
+  "items": [
+    {
+      "topic": "現在簡單式被動",
+      "level": 1,
+      "q": "In Taiwan, garbage ____ into recyclables, food waste, and general waste by most households every day.",
+      "options": [
+        "separates",
+        "is separated",
+        "separated",
+        "is separating"
+      ],
+      "answer": 1,
+      "zh": "在台灣，大多數家庭每天都會將垃圾分類為資源回收物、廚餘和一般垃圾。",
+      "explain": "garbage（垃圾）為不可數名詞，且與 separate（分類）之間為被動關係，配合 every day（每天）表示常態事實，應用現在簡單式被動語態 is separated。(A) 為主動式，語意不通；(C) 為過去式主動；(D) 為現在進行式主動。"
+    },
+    {
+      "topic": "過去簡單式被動",
+      "level": 1,
+      "q": "The famous novel Harry Potter ____ into more than eighty different languages in the late 1990s.",
+      "options": [
+        "translated",
+        "was translating",
+        "was translated",
+        "has translated"
+      ],
+      "answer": 2,
+      "zh": "這部著名小說《哈利波特》在 1990 年代後期被翻譯成八十多種不同的語言。",
+      "explain": "主詞 The famous novel 與 translate（翻譯）為被動關係，且時間副詞 in the late 1990s 指過去特定時間，應使用過去簡單式被動語態 was translated。(A) 為過去式主動；(B) 為過去進行式主動；(D) 為現在完成式主動。"
+    },
+    {
+      "topic": "未來簡單式被動",
+      "level": 1,
+      "q": "The annual science fair ____ in the school auditorium next Friday morning.",
+      "options": [
+        "holds",
+        "will hold",
+        "is held",
+        "will be held"
+      ],
+      "answer": 3,
+      "zh": "年度科學展覽會將於下週五上午在學校禮堂舉行。",
+      "explain": "science fair（科展）與 hold（舉辦）為被動關係，且 next Friday 表示未來時間，應用未來簡單式被動語態 will be held。(A) 為現在式主動；(B) 為未來式主動；(C) 為現在簡單式被動，無法表達明確的未來時間點。"
+    },
+    {
+      "topic": "現在進行式被動",
+      "level": 1,
+      "q": "Please be quiet in the hallway because a test ____ in Classroom 301 right now.",
+      "options": [
+        "is being taken",
+        "is taking",
+        "was taken",
+        "has been taken"
+      ],
+      "answer": 0,
+      "zh": "請在走廊保持安靜，因為此時 301 教室正在進行考試。",
+      "explain": "時間副詞 right now 表示說話當下正在進行的動作，且 a test（測驗）與 take 為被動關係（take a test ➜ a test is taken），因此使用現在進行式被動語態 is being taken。(B) is taking 為主動進行式，測驗不會自己參加考試；(C) was taken 為過去式；(D) has been taken 為現在完成式。"
+    },
+    {
+      "topic": "過去進行式被動",
+      "level": 1,
+      "q": "When we visited the factory yesterday afternoon, fresh bread ____ by the bakers.",
+      "options": [
+        "was baked",
+        "is being baked",
+        "was being baked",
+        "had baked"
+      ],
+      "answer": 2,
+      "zh": "當我們昨天下午參觀這座工廠時，麵包師傅們正在烘焙新鮮的麵包。",
+      "explain": "由 When we visited... yesterday afternoon 可知為過去某個特定時間點正在發生的被動動作，應用過去進行式被動語態 was being baked。(A) was baked 僅表達事實而非當時正在進行的動作；(B) is being baked 時態為現在進行式，與過去時間不合；(D) had baked 為過去完成式主動。"
+    },
+    {
+      "topic": "現在完成式被動",
+      "level": 1,
+      "q": "All the concert tickets ____ out within ten minutes since they went on sale this morning.",
+      "options": [
+        "have sold",
+        "were selling",
+        "are sold",
+        "have been sold"
+      ],
+      "answer": 3,
+      "zh": "自今天早上開賣以來，所有的演唱會門票在十分鐘之內就已經被搶購一空了。",
+      "explain": "tickets（門票）為 sell out（賣光）的承受者，具有被動關係；搭配 since 引導的過去時間點子句，主要子句應用現在完成式被動語態 have been sold。(A) have sold 為主動完成式；(B) were selling 為過去進行式；(C) are sold 為現在簡單式，不能與 since 連用表示從過去持續至今的完成結果。"
+    },
+    {
+      "topic": "情態助動詞被動",
+      "level": 1,
+      "q": "All smart devices and mobile phones must ____ off before the flight takes off.",
+      "options": [
+        "turn",
+        "be turned",
+        "turning",
+        "turned"
+      ],
+      "answer": 1,
+      "zh": "在班機起飛之前，所有的智慧裝置與手機都必須關機。",
+      "explain": "情態助動詞 must 後面接原形動詞，且手機與 turn off（關閉）之間為被動關係，故應用「must + be + p.p.」結構，選 be turned。(A) turn 為原形主動，裝置不會自己關掉；(C) turning 為分詞；(D) turned 缺少助動詞後的原形 be。"
+    },
+    {
+      "topic": "情緒動詞介系詞搭配",
+      "level": 1,
+      "q": "My sister has always been deeply ____ ancient Egyptian history and culture.",
+      "options": [
+        "interested in",
+        "interesting in",
+        "interested with",
+        "interesting with"
+      ],
+      "answer": 0,
+      "zh": "我妹妹一直對古埃及的歷史與文化深感興趣。",
+      "explain": "「人 + be interested in + N」為固定慣用語，表示「某人對…感興趣」。(B) interesting 通常用來修飾事物（令人感到有趣的）；(C)、(D) 介系詞搭配 with 皆屬錯誤。"
+    },
+    {
+      "topic": "情緒動詞介系詞搭配",
+      "level": 1,
+      "q": "The art teacher was very ____ Kevin's creative painting and gave him an A+.",
+      "options": [
+        "satisfying with",
+        "satisfied of",
+        "satisfying to",
+        "satisfied with"
+      ],
+      "answer": 3,
+      "zh": "美術老師對凱文富有創意的畫作非常滿意，並給了他 A+。",
+      "explain": "人作主詞表示心理感受時，情緒動詞 satisfy 應用過去分詞 satisfied，且固定搭配介系詞 with，即「be satisfied with（對…感到滿意）」。(A) satisfying 為現在分詞，表「令人滿意的」；(B) 介系詞 of 錯誤；(C) 搭配不符。"
+    },
+    {
+      "topic": "情緒動詞介系詞搭配",
+      "level": 1,
+      "q": "We were all greatly ____ the unexpected news of our coach's sudden retirement.",
+      "options": [
+        "surprising at",
+        "surprised at",
+        "surprised with",
+        "surprising by"
+      ],
+      "answer": 1,
+      "zh": "聽到教練突然退休的意外消息，我們全都感到非常驚訝。",
+      "explain": "人對某事感到驚訝，慣用「be surprised at + 事情/消息」。(A) surprising 表「令人驚訝的」；(C) surprised with 介系詞不正確；(D) surprising by 詞形與介系詞皆不合。"
+    },
+    {
+      "topic": "動詞片語被動",
+      "level": 1,
+      "q": "Don't worry about the puppy; it will be well ____ by my grandparents while we are away.",
+      "options": [
+        "looked after",
+        "looking after",
+        "looked",
+        "look after"
+      ],
+      "answer": 0,
+      "zh": "別擔心這隻小狗；我們不在的時候，我祖父母會把它照顧得好好的。",
+      "explain": "動詞片語 look after（照顧）轉為被動語態時，介系詞 after 不可遺漏，形成 will be well looked after。(B) looking after 為主動進行式；(C) looked 缺少介系詞 after，語意變成「被看」；(D) look after 缺少過去分詞形態。"
+    },
+    {
+      "topic": "祈使句被動",
+      "level": 1,
+      "q": "Send the email immediately. ➜ Let the email ____ immediately.",
+      "options": [
+        "send",
+        "be sent",
+        "is sent",
+        "being sent"
+      ],
+      "answer": 1,
+      "zh": "立刻發送這封電子郵件。➜ 讓這封電子郵件立刻被發送出去。",
+      "explain": "祈使句改被動語態的標準句型為「Let + 受詞 + be + 過去分詞」，因此空格處應填入 be sent。(A) send 為原形主動；(C) is sent 不可用在 Let 後方；(D) being sent 不合句型結構。"
+    },
+    {
+      "topic": "介系詞辨析",
+      "level": 1,
+      "q": "This elegant dining table is made ____ solid oak wood imported from Canada.",
+      "options": [
+        "from",
+        "in",
+        "by",
+        "of"
+      ],
+      "answer": 3,
+      "zh": "這張優雅的餐桌是由加拿大進口的實木橡木製成的。",
+      "explain": "「be made of + 材料」用於物理變化，製成成品後仍看得出原材料或原料未變質（木頭做成木桌）；「be made from」則用於化學變化（如葡萄釀成酒）。(A) from 用於看不出原料的化學變化；(B) in 後接產地（如 made in Taiwan）；(C) by 後接製造者。"
+    },
+    {
+      "topic": "否定句被動語態",
+      "level": 1,
+      "q": "The secret code ____ to anyone outside the research team.",
+      "options": [
+        "was not told",
+        "did not told",
+        "not was told",
+        "was told not"
+      ],
+      "answer": 0,
+      "zh": "這個機密密碼沒有被透露給研究團隊以外的任何人。",
+      "explain": "被動語態的否定句結構為「主詞 + be動詞 + not + 過去分詞」，故選 was not told。(B) did not 後應接原形動詞，且為主動語態；(C) not 應置於 be 動詞之後；(D) was told not 語序錯誤。"
+    },
+    {
+      "topic": "無被動語態的動詞",
+      "level": 1,
+      "q": "The serious car crash ____ at the corner of Main Street yesterday evening.",
+      "options": [
+        "was happened",
+        "happened",
+        "is happened",
+        "has been happened"
+      ],
+      "answer": 1,
+      "zh": "那起嚴重的車禍昨晚發生在主街的轉角處。",
+      "explain": "happen（發生）為不及物動詞，絕對沒有被動語態，不可使用 be + happened；由 yesterday evening 可知應用過去簡單式主動 happened。(A)、(C)、(D) 皆誤用了被動語態。"
+    },
+    {
+      "topic": "感官動詞被動",
+      "level": 2,
+      "q": "The suspect was seen ____ the bank through the back door just before midnight.",
+      "options": [
+        "enter",
+        "to enter",
+        "entered",
+        "to be entered"
+      ],
+      "answer": 1,
+      "zh": "有人看見該嫌疑犯在午夜前夕從後門走進這家銀行。",
+      "explain": "感官動詞（see, hear, watch, notice 等）在主動句中受詞補語使用原形動詞（I saw him enter...），但轉為被動語態時，必須將省略的 to 還原，成為「be seen to + 原形動詞」，故選 to enter。(A) enter 為主動句用法，被動句不可省略 to；(C) entered 為過去分詞，不合句型；(D) to be entered 語意錯誤。"
+    },
+    {
+      "topic": "使役動詞被動",
+      "level": 2,
+      "q": "Although the boy was unwilling, he was made ____ his messy bedroom before playing video games.",
+      "options": [
+        "clean",
+        "cleaning",
+        "cleaned",
+        "to clean"
+      ],
+      "answer": 3,
+      "zh": "雖然這個男孩很不願意，但他被迫在玩電動玩具之前把凌亂的臥室整理乾淨。",
+      "explain": "使役動詞 make 在主動句中後接原形動詞（make sb clean...），但改為被動語態時，必須還原不定詞符號 to，形成「be made to + 原形動詞」，故選 to clean。(A) clean 只能用於主動句；(B) cleaning 為分詞；(C) cleaned 為過去分詞。"
+    },
+    {
+      "topic": "使役動詞受詞補語",
+      "level": 2,
+      "q": "Grandpa went to the optical shop this morning to have his broken eyeglasses ____.",
+      "options": [
+        "repair",
+        "repairing",
+        "repaired",
+        "to repair"
+      ],
+      "answer": 2,
+      "zh": "爺爺今天早上去眼鏡行，把他摔壞的眼鏡修理好。",
+      "explain": "使役動詞 have / get 後接受詞時，若受詞與補語動作為被動關係（眼鏡是被修理），受詞補語應用過去分詞 p.p.，形成「have / get + 物 + p.p.」，故選 repaired。(A) repair 為原形動詞，用於人主動修理；(B) repairing 表進行；(D) to repair 形態不合。"
+    },
+    {
+      "topic": "使役動詞受詞補語",
+      "level": 2,
+      "q": "The noise in the stadium was so loud that the singer could hardly make herself ____.",
+      "options": [
+        "hear",
+        "hearing",
+        "to hear",
+        "heard"
+      ],
+      "answer": 3,
+      "zh": "體育場內的噪音太大了，以至於這位歌手幾乎無法讓自己的聲音被聽見。",
+      "explain": "「make oneself heard」為常見固定片語，表示「使自己的聲音被聽見」；herself 與 hear 為被動關係，故受詞補語用過去分詞 heard。(A) hear 表主動聽；(B) hearing 表進行；(C) to hear 不可用於 make 的受詞補語。"
+    },
+    {
+      "topic": "授與動詞雙受詞被動",
+      "level": 2,
+      "q": "A fashionable woolen coat was bought ____ my mother on her fiftieth birthday.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "at"
+      ],
+      "answer": 1,
+      "zh": "在我母親五十歲生日那天，有人買了一件時尚的羊毛大衣送給她。",
+      "explain": "在「S + V + I.O. + D.O.」句型中，動詞若是 buy, make 等為某人做或買東西的授與動詞，當直接受詞（物）提前作被動句主詞時，間接受詞（人）前方應搭配介系詞 for，即「物 + be bought for + 人」。(A) to 用於 give, lend, show, send 等動詞；(C)、(D) 搭配錯誤。"
+    },
+    {
+      "topic": "不完全及物動詞補語被動",
+      "level": 2,
+      "q": "Because of her outstanding leadership, Emily ____ president of the student council by a large majority.",
+      "options": [
+        "elected",
+        "electing",
+        "was elected as",
+        "was elected"
+      ],
+      "answer": 3,
+      "zh": "由於她傑出的領導能力，艾蜜莉以壓倒性多數當選為學生會會長。",
+      "explain": "在主動句「We elected Emily president」中，Emily 為受詞，president 為名詞受詞補語。改為被動句時，受詞 Emily 作主詞，補語保留在動詞後方，形成「Emily was elected president」，不需加 as。(A) elected 為主動式；(B) electing 為分詞；(C) was elected as 不如直接接職位名稱標準規範。"
+    },
+    {
+      "topic": "疑問句被動語態",
+      "level": 2,
+      "q": "____ by that world-famous architect who won the international prize?",
+      "options": [
+        "Was the museum designed",
+        "Did the museum design",
+        "The museum was designed",
+        "Was designed the museum"
+      ],
+      "answer": 0,
+      "zh": "這座博物館是由那位獲得國際大獎的舉世知名建築師所設計的嗎？",
+      "explain": "一般疑問句的被動語態句型為「Be動詞 + 主詞 + 過去分詞 + by + 行為者」，故選 Was the museum designed。(B) Did the museum design 為主動問句，博物館不會自己設計；(C) 為直述句語序，非問句；(D) Was designed the museum 語序顛倒。"
+    },
+    {
+      "topic": "特殊疑問句被動語態",
+      "level": 2,
+      "q": "____ was the new theory first proposed in the academic conference?",
+      "options": [
+        "Who",
+        "By whom",
+        "Whom",
+        "With whom"
+      ],
+      "answer": 1,
+      "zh": "這項新理論最初是由誰在學術研討會上提出的？",
+      "explain": "主動句為「Who proposed the new theory?」，改為被動疑問句時，主動句主詞 Who 移至句首轉為「By whom + be動詞 + 主詞 + p.p.」，故選 By whom。(A) Who 若在句首，介系詞 by 必須保留在句尾（Who was the theory proposed by?）；(C) Whom 前缺少介系詞 by；(D) With whom 介系詞錯誤（with 指工具而非行為者）。"
+    },
+    {
+      "topic": "客觀說法虛主詞句型",
+      "level": 2,
+      "q": "____ that regular physical exercise improves memory and sharpens mental focus.",
+      "options": [
+        "It is said",
+        "That is said",
+        "There is said",
+        "He is said"
+      ],
+      "answer": 0,
+      "zh": "據說規律的體能運動能增強記憶力並提升專注力。",
+      "explain": "表示客觀報導或大眾說法時，使用「It is said that + 子句」結構，It 為形式主詞，that 子句為真正主詞。(B) That 不能作形式主詞；(C) There 不能與 is said that 搭配；(D) He 指代不明，且後方接完整的 that 子句不合理。"
+    },
+    {
+      "topic": "客觀說法主詞提前",
+      "level": 2,
+      "q": "The ancient temple is believed ____ destroyed by an earthquake five hundred years ago.",
+      "options": [
+        "to be",
+        "to have been",
+        "being",
+        "having been"
+      ],
+      "answer": 1,
+      "zh": "這座古廟據信是在五百年前被一場地震所摧毀的。",
+      "explain": "主句動詞 is believed 為現在式，而 destroyed 發生在五百年前（five hundred years ago），是不定詞動作發生在主句動詞之前，因此必須使用完成式不定詞「to have been + p.p.」，故選 to have been。(A) to be 表現在或未來，與五百年前的時間副詞矛盾；(C)、(D) 不能接在 be believed 後作補語。"
+    },
+    {
+      "topic": "動詞片語被動",
+      "level": 2,
+      "q": "The clumsy clown did not mind ____ by the children in the audience.",
+      "options": [
+        "being laughed at",
+        "being laughed",
+        "laughing at",
+        "to be laughed at"
+      ],
+      "answer": 0,
+      "zh": "那位笨拙的小丑並不介意被台下的孩子們嘲笑。",
+      "explain": "mind（介意）後面必須接動名詞 V-ing；且 clown 與 laugh at 之間為被動關係（被嘲笑），片語 laugh at 的介系詞 at 絕對不可省略，故為 being laughed at。(B) being laughed 漏掉了介系詞 at；(C) laughing at 為主動動名詞；(D) mind 後不可接不定詞 to V。"
+    },
+    {
+      "topic": "無被動語態的動詞",
+      "level": 2,
+      "q": "That vintage bicycle ____ my grandfather, who bought it fifty years ago.",
+      "options": [
+        "is belonged to",
+        "is belonging to",
+        "belongs to",
+        "has belonged by"
+      ],
+      "answer": 2,
+      "zh": "那輛復古腳踏車屬於我祖父，那是他五十年前買的。",
+      "explain": "belong to（屬於）為狀態動詞且是不及物動詞片語，沒有被動語態，也沒有進行式，故只能用現在簡單式主動 belongs to。(A) is belonged to 錯誤使用了被動語態；(B) is belonging to 狀態動詞不用進行式；(D) has belonged by 介系詞錯誤。"
+    },
+    {
+      "topic": "以主動形式表示被動意義",
+      "level": 2,
+      "q": "This documentary about marine life is well worth ____ more than once.",
+      "options": [
+        "watching",
+        "to watch",
+        "to be watched",
+        "being watched"
+      ],
+      "answer": 0,
+      "zh": "這部關於海洋生物的紀錄片非常值得看一次以上。",
+      "explain": "「be worth + V-ing」為固定句型，動名詞用主動形式表達被動意義（值得被觀看）。若要用被動式，則需改用 worthy，如「be worthy to be watched」或「be worthy of being watched」。(B) to watch 不可接在 worth 之後；(C) to be watched 不接在 worth 之後；(D) being watched 形式多餘，worth 後直接接主動動名詞。"
+    },
+    {
+      "topic": "以主動形式表示被動意義",
+      "level": 2,
+      "q": "The dirty kitchen floor really needs ____ before the guests arrive.",
+      "options": [
+        "to mop",
+        "mopping",
+        "mopped",
+        "being mopped"
+      ],
+      "answer": 1,
+      "zh": "在客人到達之前，骯髒的廚房地板真的需要拖洗一番。",
+      "explain": "物作主詞時，need / want / require 後接主動動名詞 V-ing 表被動意義（needs mopping = needs to be mopped）。(A) to mop 為主動不定詞，地板不能自己拖地；(C) mopped 形態錯誤；(D) being mopped 罕見且不符合 need + V-ing 慣用規則。"
+    },
+    {
+      "topic": "介系詞搭配辨析",
+      "level": 2,
+      "q": "Tainan is well known ____ its delicious traditional street food and historic temples.",
+      "options": [
+        "as",
+        "to",
+        "for",
+        "by"
+      ],
+      "answer": 2,
+      "zh": "台南以其美味的傳統小吃與歷史悠久的寺廟而聞名。",
+      "explain": "「be known for + 特色/原因」表示「以…特色而聞名」。(A) be known as + 身分/稱號（如 be known as a writer）；(B) be known to + 對象（為…所知）；(D) be known by + 判斷依據（藉由…而得知）。"
+    },
+    {
+      "topic": "工具與行為者介系詞辨析",
+      "level": 3,
+      "q": "The ancient parchment was carefully examined ____ a magnifying glass ____ the historian.",
+      "options": [
+        "by; with",
+        "with; by",
+        "by; by",
+        "with; with"
+      ],
+      "answer": 1,
+      "zh": "那張古老的羊皮紙被歷史學家用放大鏡仔細地檢查。",
+      "explain": "在被動語態中，表示「使用的工具或儀器」搭配介系詞 with（with a magnifying glass），而表示「執行動作的行為者」搭配介系詞 by（by the historian），因此正確答案為 with; by。(A) 兩者介系詞顛倒；(C)、(D) 混淆了工具與行為者的介系詞。"
+    },
+    {
+      "topic": "動名詞被動語態",
+      "level": 3,
+      "q": "The sensitive girl hates ____ in public, so please do not mention her mistake.",
+      "options": [
+        "criticizing",
+        "being criticized",
+        "to criticize",
+        "having criticized"
+      ],
+      "answer": 1,
+      "zh": "那個敏感的女孩討厭在公開場合被批評，所以請不要提起她的錯誤。",
+      "explain": "動詞 hate 後接動名詞時，若主詞是動作的承受者（被批評），應用動名詞的被動形態 being + p.p.，即 being criticized。(A) criticizing 為主動動名詞，表示她討厭批評別人；(C) to criticize 為主動不定詞；(D) having criticized 為完成式主動。"
+    },
+    {
+      "topic": "無被動語態之及物動詞",
+      "level": 3,
+      "q": "The latest smartphone ____ twenty thousand NT dollars, which is quite expensive for a student.",
+      "options": [
+        "was costed",
+        "is costed",
+        "has been costed",
+        "costs"
+      ],
+      "answer": 3,
+      "zh": "這款最新的智慧型手機要價兩萬新台幣，對學生來說相當昂貴。",
+      "explain": "動詞 cost（花費、要價）雖然為及物動詞，但表示價格或價值，在英語中屬於沒有被動語態的動詞，只能用主動語態表達，主詞為單數故用 costs。(A)、(B)、(C) 皆誤用了被動語態，且 cost 的三態同形（cost-cost-cost），無 costed 之形態。"
+    },
+    {
+      "topic": "慣用語主動表被動",
+      "level": 3,
+      "q": "Neither driver would admit fault after the accident, but the police determined that Mr. Brown was ____.",
+      "options": [
+        "to blame",
+        "to be blamed",
+        "blaming",
+        "blamed"
+      ],
+      "answer": 0,
+      "zh": "事故發生後兩位駕駛都不願承認有錯，但警方認定布朗先生應承擔責任（應受責備）。",
+      "explain": "在慣用語中，「be to blame」固定以主動不定詞形式表示被動意義，意為「應受責備；應負責任」。(B) to be blamed 在傳統規範文法中被視為冗餘，現代標準用法皆採用 to blame；(C) blaming 表進行主動；(D) blamed 單獨作補語語意不合習慣。"
+    },
+    {
+      "topic": "慣用語主動表被動",
+      "level": 3,
+      "q": "Look at the sign on the apartment window; it says 'Rooms ____ for Students.'",
+      "options": [
+        "to be let",
+        "letting",
+        "are letting",
+        "to let"
+      ],
+      "answer": 3,
+      "zh": "看那間公寓窗戶上的告示，上面寫著「學生套房出租」。",
+      "explain": "「to let」為英式及國際英語中傳統的房產出租慣用語，以主動不定詞表示被動意義（供出租、招租）。(A) to be let 不符合招租招牌的慣用標語；(B) letting 為動名詞；(C) are letting 為主動進行式。"
+    },
+    {
+      "topic": "事物特性動詞主動表被動",
+      "level": 3,
+      "q": "The newly published mystery novel is fascinating and ____ like hot cakes all over the island.",
+      "options": [
+        "is sold",
+        "is selling",
+        "sells",
+        "has been sold"
+      ],
+      "answer": 2,
+      "zh": "這本新出版的推理小說非常引人入勝，在全台灣都暢銷熱賣。",
+      "explain": "英語中某些及物動詞（如 sell, read, wash, write, wear 等）搭配副詞（well, easily, smoothly 等）用來說明主詞本身的內在特性時，習慣以主動語態表達被動意義（如 sell like hot cakes 大賣、暢銷），故選 sells。(A) is sold 強調由人買賣的被動動作，但在此與 like hot cakes 慣用語搭配時以主動形式 sells 最為道地自然；(B) is selling 雖在現代口語可見進行式，但表達普遍特性或常態時以簡單式 sells 為準；(D) has been sold 與語境不符。"
+    },
+    {
+      "topic": "有被動形式但無被動意義片語辨析",
+      "level": 3,
+      "q": "The dedicated scientist has ____ all her life to finding a cure for rare diseases.",
+      "options": [
+        "devoted",
+        "been devoted",
+        "devoting",
+        "was devoted"
+      ],
+      "answer": 0,
+      "zh": "這位敬業的科學家將她的一生奉獻於尋找罕見疾病的治療方法。",
+      "explain": "句型為「devote + 一生/時間 + to + V-ing/N」，主詞 The dedicated scientist 為主動執行者，後有受詞 all her life，故用現在完成式主動 has devoted。(B) has been devoted 後不能直接接受詞 all her life；若改為被動結構應為「has been devoted to finding...」而無 all her life；(C) devoting 形態錯誤；(D) was devoted 時態與助動詞 has 衝突。"
+    },
+    {
+      "topic": "分詞片語被動修飾",
+      "level": 3,
+      "q": "All vehicles ____ on the pavement without permission will be towed away by the traffic police.",
+      "options": [
+        "park",
+        "parking",
+        "parked",
+        "were parked"
+      ],
+      "answer": 2,
+      "zh": "未經許可停放在人行道上的所有車輛都將被交通警察拖吊走。",
+      "explain": "句子的主要動詞為 will be towed away，空格處為修飾主詞 All vehicles 的形容詞片語，源自關係子句 (which are) parked on the pavement，因車輛是被停放，故省略 which are 後保留過去分詞 parked。(A) park 為原形動詞，造成句子出現雙動詞；(B) parking 為現在分詞主動，車輛不會自主停泊；(D) were parked 會形成兩個未連接的述語動詞。"
+    },
+    {
+      "topic": "未來完成式被動語態",
+      "level": 3,
+      "q": "By the end of next month, the construction of the new subway line ____.",
+      "options": [
+        "will complete",
+        "will be completed",
+        "will have been completed",
+        "has completed"
+      ],
+      "answer": 2,
+      "zh": "到下個月底為止，這條新捷運線的施工將已經全部完工。",
+      "explain": "時間狀語「By the end of next month（到下個月底為止）」表示未來某一時間點之前即將完成的動作，主要子句必須使用未來完成式；又主詞 construction（工程）與 complete（完工）為被動關係，故使用「未來完成式被動語態 will have been completed」。(A) will complete 為主動式；(B) will be completed 為未來簡單式，無法精確表達「在該時間點前已經完成」的時間觀念；(D) has completed 為現在完成式主動。"
+    },
+    {
+      "topic": "連綴動詞無被動語態",
+      "level": 3,
+      "q": "This vegetable soup ____ delicious because Mom added some fresh herbs from our garden.",
+      "options": [
+        "tastes",
+        "is tasted",
+        "was tasted",
+        "has tasted"
+      ],
+      "answer": 0,
+      "zh": "這道蔬菜湯嚐起來很美味，因為媽媽加了從我們花園摘來的新鮮香草。",
+      "explain": "taste 在此作為連綴動詞（感官動詞），意為「嚐起來」，後面接形容詞 delicious 作主詞補語，連綴動詞沒有被動語態，不可使用 is tasted，故選主動式 tastes。(B)、(C) 皆誤將連綴動詞寫成被動態；(D) has tasted 時態在此不合常態描寫。"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "chapter": 5,
+  "title": "動名詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Taking pictures ____ very interesting.",
+          "options": ["is", "are", "to be", "be"],
+          "answer": 0,
+          "zh": "攝影是非常有趣的事。",
+          "explain": "動名詞作主詞，用單數形動詞（is/was/has/Vs/es）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "____ the bad news made him cry.",
+          "options": ["Hear", "Heard", "Hearing", "Is hearing"],
+          "answer": 2,
+          "zh": "聽到這個壞消息，他哭了。",
+          "explain": "動詞放在主詞的位置，應改為動名詞。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "____ a desert has always been a risk adventure.",
+          "options": ["Being crossed", "Having crossed", "Crossing", "To have crossed"],
+          "answer": 2,
+          "zh": "橫越沙漠，一直是一項很冒險的探險行動。",
+          "explain": "動名詞作主詞，接單數形動詞。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Before he came, I'd finished ____ the whole book.",
+          "options": ["to read", "to have read", "reading", "read"],
+          "answer": 2,
+          "zh": "在他來到之前，我已讀完整本書了。",
+          "explain": "finish + V-ing（完成⋯）。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "I always enjoy ____ to popular music at night.",
+          "options": ["to listen", "listening", "that I can listen", "if I can listen"],
+          "answer": 1,
+          "zh": "我喜歡晚上聽聽流行音樂。",
+          "explain": "enjoy + V-ing（喜歡；享受⋯）。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "We are considering ____ a trip around the island.",
+          "options": ["take", "to take", "to be taking", "taking"],
+          "answer": 3,
+          "zh": "我們正考慮作環島旅行。",
+          "explain": "consider + V-ing（考慮）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "I hope you don't mind ____ at your newspaper.",
+          "options": ["I look", "my looking", "I looking", "mine to look"],
+          "answer": 1,
+          "zh": "我希望你不介意我看你的報紙。",
+          "explain": "mind 的後面可接 (one's) + V-ing 或 if S + V。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "When a man's heart stops ____, he dies.",
+          "options": ["to beat", "beating", "beat", "beaten"],
+          "answer": 1,
+          "zh": "一個人的心臟停止跳動時，他就死了。",
+          "explain": "stop beating（停止跳動）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "I can't help ____ he is still alive.",
+          "options": ["thinking", "think", "to think", "thought of"],
+          "answer": 0,
+          "zh": "我不得不認為他仍然活著。",
+          "explain": "can't help + V-ing = can't but + 原形 V（不得不；禁不住）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "So far as I am concerned, I prefer reading ____.",
+          "options": ["than meat", "for joy", "instead of sleeping", "to drinking"],
+          "answer": 3,
+          "zh": "就我而言，我較喜歡讀書，而不喜歡喝酒。",
+          "explain": "① prefer V-ing + to V-ing（較喜歡⋯而不喜歡）\n② would rather + 原形 V than + 原形 V（寧願⋯而不願）"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "It goes without ____ that knowledge is important.",
+          "options": ["talking", "telling", "saying", "mentioning"],
+          "answer": 2,
+          "zh": "知識很重要是不用說的。",
+          "explain": "It goes without saying that + S + V（不用說；自不待言）\n= It is needless to say that + S + V\n= Needless to say, S + V"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "We are looking forward ____ our friends next week.",
+          "options": ["to see", "to seeing", "to be seeing", "shall see"],
+          "answer": 1,
+          "zh": "我們期盼下星期見到我們的朋友。",
+          "explain": "look forward to + V-ing（期待；期望）\n= expect to + 原形 V"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "He spent a lot of money ____ books and magazines.",
+          "options": ["buy", "buying", "to buy", "bought"],
+          "answer": 1,
+          "zh": "他花了很多錢買書和雜誌。",
+          "explain": "人 + spend + 金錢 + V-ing / on + N。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "The silkworm is an insect worth ____.",
+          "options": ["to know", "knowing", "to be known", "being known"],
+          "answer": 1,
+          "zh": "蠶是一種值得去了解的昆蟲。",
+          "explain": "be worth + V-ing（值得⋯）。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "She went out without ____ good-bye to us.",
+          "options": ["say", "to say", "saying", "being said"],
+          "answer": 2,
+          "zh": "她沒有向我們道別就走了。",
+          "explain": "① S + V... without + 名詞/V-ing（沒有⋯就⋯）\n② say good-bye (good morning...) to(人)：向(人)說再見(早安)"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "The curious student kept on ____ questions.",
+          "options": ["asks", "asking", "to ask", "asked"],
+          "answer": 1,
+          "zh": "這位好奇的學生不斷地提問題。",
+          "explain": "keep on + V-ing（繼續⋯）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "He is such a strange person; there's ____ what he'll do next.",
+          "options": ["no knowing", "not to know", "not known", "being unknown"],
+          "answer": 0,
+          "zh": "他為人怪異，我們無法知道他下回要做什麼事。",
+          "explain": "There is no knowing = It is impossible to know（無法知道）= No one knows。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "When she heard the bad news, she burst ____.",
+          "options": ["into crying", "out to tears", "crying", "out crying"],
+          "answer": 3,
+          "zh": "當她聽到這個壞消息時，她突然大哭起來。",
+          "explain": "burst out crying = burst into tears（突然大哭）。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "You must never cross the street without ____ the light to turn green.",
+          "options": ["waiting", "to wait", "waiting for", "to wait for"],
+          "answer": 2,
+          "zh": "你要等到紅燈轉成綠燈時才可以過馬路。",
+          "explain": "never... without + V-ing（每⋯必定；無⋯而不會）= never... but + V。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Scientists succeed ____ protein out of old newspapers.",
+          "options": ["to make", "at making", "making", "in making"],
+          "answer": 3,
+          "zh": "科學家很成功地用舊報紙製造出蛋白質。",
+          "explain": "① succeed in + V-ing（成功）；fail in + V-ing（失敗）\n② protein [ˈproʊtiːn] 名 蛋白質"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "He wrote letter after letter, and it was well past midnight when he finished ____ the last one.",
+          "options": ["to write", "written", "having written", "writing"],
+          "answer": 3,
+          "zh": "他一封信接著一封信寫，當他寫完最後一封時，已經超過午夜時分了。",
+          "explain": "finish + V-ing（完成）。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "None of us objected to ____ George to the birthday party.",
+          "options": ["invite", "inviting", "have invited", "invited"],
+          "answer": 1,
+          "zh": "我們之中沒有人反對邀請喬治參加生日宴會。",
+          "explain": "object to + V-ing（反對）= be opposed to + V-ing。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "To our surprise, he escaped ____ in the accident.",
+          "options": ["to be hurt", "to have been hurt", "being hurt", "from hurting"],
+          "answer": 2,
+          "zh": "令我們驚訝的是，他在意外中未受到傷害。",
+          "explain": "① escape + V-ing（逃避；躲過）\n② 受到傷害應用被動 being hurt。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "I remember ____ the house about an hour ago.",
+          "options": ["to see him leave", "to see him to leave", "to see him leaving", "seeing him leave"],
+          "answer": 3,
+          "zh": "我記得一小時前看見他離開房子。",
+          "explain": "① remember + V-ing（記得做過⋯事情）\n② see + 人 + leave（看到人離開）"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "____ going to the movies tonight?",
+          "options": ["How about", "Would you please", "Would you like", "I don't mind to"],
+          "answer": 0,
+          "zh": "今晚去看場電影如何？",
+          "explain": "How about = What about + V-ing（⋯如何？）\nWould you like to + 原形 V（要不要⋯？）\nWould you please + 原形 V（請你⋯好嗎？）\nI don't mind + V-ing（我不介意⋯）"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "Whatever Mr. Brown does, he does it with an eye to ____ more money.",
+          "options": ["make", "be making", "making", "have made"],
+          "answer": 2,
+          "zh": "無論布朗先生做什麼，其目的是要賺更多的錢。",
+          "explain": "with an eye to + V-ing（為了）= with a view to + V-ing。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "You'll soon get used to ____ early morning walks. It does wonderful things to your health.",
+          "options": ["take", "taking", "be taking", "be taken"],
+          "answer": 1,
+          "zh": "不久你將習慣晨間散步，它對於你健康有奇妙的效果。",
+          "explain": "get used to + N/V-ing（習慣於）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "He stopped me from telling her the secret by ____.",
+          "options": ["judging from the fact", "means of hard work", "putting his finger to his lips", "virtue of thrift"],
+          "answer": 2,
+          "zh": "他用手指擱在嘴唇上來制止我向她說出秘密。",
+          "explain": "put one's finger to one's lips（把手指擱在嘴唇上）〔意圖叫人沉默〕。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "When you find something in your writing that needs ____, you should mark it on the paper.",
+          "options": ["to be correcting", "correct", "to correct", "correcting"],
+          "answer": 3,
+          "zh": "當你發現你的文章需要修改，你應該在紙上做記號。",
+          "explain": "主詞 + need + V-ing（需要⋯）= 主詞 + need + to be p.p.。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "____ is extremely dangerous.",
+          "options": ["Cars at very high speeds driving", "At very high speeds driving cars", "Cars driving at very high speeds", "Driving cars at very high speeds"],
+          "answer": 3,
+          "zh": "開快車是十分危險的。",
+          "explain": "① Driving cars... is...（動名詞作主詞）\n② at very high speeds（以高速度）"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "根據中文提示，在空格內填入適當的字詞完成句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "離開之前記得打電話給我。\nRemember ____ ____ me a call before you leave.",
+          "answer": "to give",
+          "zh": "離開之前記得打電話給我。",
+          "explain": "① remember to + V（記得要做⋯事情）／ remember V-ing（記得已做過⋯事情）\n② give(人) a call = call(人) up / give(人) a ring = ring(人) up（打電話給某人）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "請你把這封信替我寄了，你不在意吧？\nYou ____ ____ this letter for me, would you?",
+          "answer": "wouldn't mind mailing",
+          "zh": "請你把這封信替我寄了，你不在意吧？",
+          "explain": "Do/Would you mind + V-ing / one's + V-ing / if + S + V ?（你介意⋯嗎？）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "他費了一整天打掃房子。\nHe ____ a whole day ____ the house up.",
+          "answer": ["spent/cleaning", "spent cleaning"],
+          "zh": "他費了一整天打掃房子。",
+          "explain": "表示「花費時間」之句型：\n① It / 事 + takes + (人) + 時間 + to V\n② 人 + spend + 時間 + V-ing"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "地震是無法預測的。\nThere is ____ ____ an earthquake.",
+          "answer": "no predicting",
+          "zh": "地震是無法預測的。",
+          "explain": "「不可能；無法」之句型：\nThere is no + V-ing = It is impossible to + V = No one can + 原形 V"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "這一篇文章值得仔細閱讀。\nThe article is ____ ____ carefully.",
+          "answer": "worth reading",
+          "zh": "這一篇文章值得仔細閱讀。",
+          "explain": "「值得」之句型：\n① 事物 + be worth + V-ing\n② It pays to + V\n③ It is worth while + to V (或 V-ing)"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "很多高中生期待進大學就讀。",
+          "hint": "期待：look forward to",
+          "answer": [
+            "Many high school students are looking forward to going to college."
+          ],
+          "explain": "look forward to + V-ing = expect to + V（期望）"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "因此他們致力於學問的追求。",
+          "hint": "致力：devote oneself to",
+          "answer": [
+            "Therefore, they devote themselves to pursuing learning.",
+            "Therefore, they dedicate themselves to pursuing learning.",
+            "Therefore, they are devoted to pursuing learning.",
+            "Therefore, they are dedicated to pursuing learning."
+          ],
+          "explain": "devote / dedicate oneself to + V-ing / N = be devoted / dedicated to + V-ing / N（專心致力於⋯）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "有些學生習慣於開夜車讀書。",
+          "hint": "開夜車：burn the midnight oil",
+          "answer": [
+            "Some students are used to sitting up late to study.",
+            "Some students get used to burning the midnight oil to study."
+          ],
+          "explain": "be / get used to + V-ing / N = be / get accustomed to + V-ing / N = make it a rule to + 原形 V（習慣於⋯）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "父母親應阻止他們這樣做。",
+          "hint": "阻止：prevent... from...",
+          "answer": [
+            "Their parents should stop them from doing so.",
+            "Their parents should prevent them from doing so."
+          ],
+          "explain": "stop / prevent / keep... from + V-ing / N（阻止⋯使不能⋯）"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "畢竟，對他們而言，健康是勝過一切的。",
+          "hint": "畢竟：after all",
+          "answer": [
+            "After all, health is above everything for them.",
+            "After all, health is the most important thing for them."
+          ],
+          "explain": "after all（畢竟）"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文並選出最適當的答案：\n\nMany countries are experiencing difficult problems in desert areas. Poor land is farmed until it __1.__ and trees are cut for firewood, __2.__ the soil against wind and rain.\nScientists do not understand all the problems of the deserts, but there have been many ideas for __3.__ the land. Saudi Arabia has planted 10 million trees __4.__ the sand from __5.__ fertile areas.\nThe spread of the deserts affects most countries. The big question today is how can an __6.__ world population find food and space without __7.__ the land it lives on. For many countries, __8.__ the desert is the only chance __9.__ starvation, destruction, __10.__ disaster.\n\n【詞彙及片語提示】\n1. experience 動 經歷過\n2. in desert areas: 沙漠地區\n3. is farmed: 被耕作\n4. firewood 名 劈柴\n5. soil 名 土壤\n6. against wind and rain: 受風吹雨打\n7. scientist 名 科學家\n8. Saudi Arabia: 沙烏地阿拉伯\n9. fertile areas: 土壤肥沃區\n10. spread 名 擴大；擴張\n11. affect 動 影響\n12. world population: 世界人口\n13. starvation 名 飢餓\n14. destruction 名 破壞\n15. disaster 名 災難；不幸",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Poor land is farmed until it ____ and trees are cut for firewood...",
+          "options": ["worn out", "is worn out", "has worn", "to be worn"],
+          "answer": 1,
+          "zh": "貧瘠的土地被過度耕種直到耗竭為止...",
+          "explain": "be worn out（枯竭；穿破；耗盡）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...and trees are cut for firewood, ____ the soil against wind and rain.",
+          "options": ["to leave", "leaving", "left", "and left"],
+          "answer": 1,
+          "zh": "...樹木被砍來當柴燒，使土壤直接受到風吹雨打。",
+          "explain": "...and trees are cut for firewood, and left the soil... = ...and trees are cut for firewood, leaving the soil..."
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Scientists do not understand all the problems of the deserts, but there have been many ideas for ____ the land.",
+          "options": ["saving", "being saved", "saves", "to save"],
+          "answer": 0,
+          "zh": "科學家們尚未完全了解沙漠的所有問題，但已有許多解救土地的想法。",
+          "explain": "① save 動 解救\n② safe 名 保險箱"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Saudi Arabia has planted 10 million trees ____ the sand from fertile areas.",
+          "options": ["to help keep", "help to keep", "to help keeping", "helping to keep"],
+          "answer": 0,
+          "zh": "沙烏地阿拉伯種植了一千萬棵樹以幫助阻止沙子...",
+          "explain": "① ...planted 10 million trees (in order) to help (to) keep...\n② help 之後用 to V 或原形 V 均可。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...to help keep the sand from ____ fertile areas.",
+          "options": ["taking over", "taking off", "being taken over", "being taken off"],
+          "answer": 0,
+          "zh": "...阻止沙子吞沒肥沃的地區。",
+          "explain": "① keep... from + V-ing（阻止⋯使不致於⋯）\n② take over（接管；接收；吞沒／取而代之）\n③ take off（脫去；起飛）"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "The big question today is how can an ____ world population find food and space...",
+          "options": ["expanding", "expands", "expanded", "expand to"],
+          "answer": 0,
+          "zh": "今日重大的問題是，持續膨脹的世界人口該如何找到食物與空間...",
+          "explain": "expanding 形 擴大的；膨脹的"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...without ____ the land it lives on.",
+          "options": ["to destroy", "destroying", "destruction", "destroyed"],
+          "answer": 1,
+          "zh": "...而不破壞賴以生存的土地。",
+          "explain": "① without destroying the land（而不會破壞土地）\n② 動名詞（destroying）之後尚可接受詞，而名詞（destruction）之後則不可再接名詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "For many countries, ____ the desert is the only chance...",
+          "options": ["battling", "battles", "to battles", "battled"],
+          "answer": 0,
+          "zh": "對許多國家而言，與沙漠搏鬥是唯一的機會...",
+          "explain": "battling the desert（與沙漠搏鬥），動名詞作主詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "...the only chance ____ starvation, destruction, and disaster.",
+          "options": ["to avoid", "avoid", "avoided", "be avoided"],
+          "answer": 0,
+          "zh": "...避免飢荒、毀滅與災難的唯一機會。",
+          "explain": "the only chance (to avoid... disaster) 不定詞片語 ➜ 作形容詞修飾語"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "...starvation, destruction, ____ disaster.",
+          "options": ["and", "else", "or", "but"],
+          "answer": 0,
+          "zh": "...飢荒、毀滅與災難。",
+          "explain": "① 三者均有時，用 A, B, and C。\n② 三者任選其一時，用 A, B, or C。"
+        }
+      ]
+    }
+  ]
+}

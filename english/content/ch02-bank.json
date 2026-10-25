@@ -1,0 +1,566 @@
+{
+  "chapter": 2,
+  "title": "假設語氣",
+  "items": [
+    {
+      "topic": "與現在事實相反",
+      "level": 1,
+      "q": "If I ____ you, I would take the offer without hesitation.",
+      "options": [
+        "am",
+        "will be",
+        "had been",
+        "were"
+      ],
+      "answer": 3,
+      "zh": "如果我是你，我會毫不猶豫地接受這個提議。",
+      "explain": "與現在事實相反的假設，if 條件子句中的 be 動詞不論人稱一律用 were。(A) am 為直述法現在式；(B) will be 為直述法未來式；(C) had been 用於與過去事實相反；(D) were 正確。"
+    },
+    {
+      "topic": "與現在事實相反",
+      "level": 1,
+      "q": "If Ryan had enough money, he ____ a new laptop for his programming class.",
+      "options": [
+        "buys",
+        "bought",
+        "would buy",
+        "will buy"
+      ],
+      "answer": 2,
+      "zh": "如果萊恩有足夠的錢，他就會為他的程式課買一台新筆記型電腦。",
+      "explain": "條件子句 If Ryan had... 為過去簡單式，表示與現在事實相反，主句動詞應使用「would / could / might + 原形動詞」，故選 would buy。(A) 現在簡單式與 (D) 未來簡單式用於直述法真實條件句；(B) 過去簡單式不能單獨作假設語氣的主句述語。"
+    },
+    {
+      "topic": "與過去事實相反",
+      "level": 1,
+      "q": "If we ____ the earlier train, we would have arrived at the museum on time yesterday.",
+      "options": [
+        "caught",
+        "have caught",
+        "catch",
+        "had caught"
+      ],
+      "answer": 3,
+      "zh": "如果我們昨天搭上較早的那班火車，我們就會準時抵達博物館了。",
+      "explain": "由 yesterday 及主句 would have arrived 可知為「與過去事實相反」的假設，條件子句須用過去完成式 had + p.p.，故選 had caught。(A) caught 為過去簡單式（用於與現在事實相反）；(B) 現在完成式與 (C) 現在簡單式不能用於過去虛擬條件句。"
+    },
+    {
+      "topic": "與過去事實相反",
+      "level": 1,
+      "q": "If you had warned me about the heavy traffic, I ____ a different route.",
+      "options": [
+        "would take",
+        "would have taken",
+        "took",
+        "will take"
+      ],
+      "answer": 1,
+      "zh": "如果你當時提醒我交通很擁擠，我就會走另一條路線了。",
+      "explain": "條件子句為 If you had warned...（過去完成式），表示與過去事實相反，主句動詞應使用「would + have + p.p.」，故選 would have taken。(A) would take 用於與現在事實相反；(C) took 為直述法過去式；(D) will take 用於直述法真實條件句。"
+    },
+    {
+      "topic": "I wish + 假設語氣",
+      "level": 1,
+      "q": "I am terrified of deep water. I really wish I ____ how to swim.",
+      "options": [
+        "know",
+        "have known",
+        "will know",
+        "knew"
+      ],
+      "answer": 3,
+      "zh": "我非常怕深水。我真希望我懂得怎麼游泳。",
+      "explain": "I wish 用於表示與現在事實相反的願望時，that 子句應使用過去簡單式動詞，故選 knew。(A) know 為現在簡單式；(B) have known 為現在完成式；(C) will know 為未來式，wish 子句不能使用直述法現在式或未來式。"
+    },
+    {
+      "topic": "I wish + 假設語氣",
+      "level": 1,
+      "q": "Emily missed the final concert yesterday. She wishes she ____ her tickets earlier.",
+      "options": [
+        "bought",
+        "has bought",
+        "buys",
+        "had bought"
+      ],
+      "answer": 3,
+      "zh": "艾蜜莉昨天錯過了最後一場音樂會。她希望自己當時早點買票。",
+      "explain": "由 yesterday 可知是針對「過去已發生的事」表達懊悔與不可實現的願望，wish 後的子句應使用過去完成式 had + p.p.，故選 had bought。(A) bought 表現在不能實現的願望；(B) 現在完成式與 (C) 現在簡單式不可用於 wish 假設語氣。"
+    },
+    {
+      "topic": "Without 的用法",
+      "level": 1,
+      "q": "____ water and sunlight, green plants could not survive on Earth.",
+      "options": [
+        "Except",
+        "Unless",
+        "Besides",
+        "Without"
+      ],
+      "answer": 3,
+      "zh": "如果沒有水和陽光，綠色植物就無法在地球上生存。",
+      "explain": "Without + 名詞表示「若非；要不是」，相當於 If it were not for...，在此引導與現在事實相反的假設，主句搭配 could not survive。(A) Except 表示「除……之外不包括」；(B) Unless 為從屬連接詞，後須接完整子句；(C) Besides 表示「除……之外還有」，語意不符。"
+    },
+    {
+      "topic": "It is time 的用法",
+      "level": 1,
+      "q": "It is already midnight. It is high time you ____ to bed.",
+      "options": [
+        "go",
+        "have gone",
+        "will go",
+        "went"
+      ],
+      "answer": 3,
+      "zh": "已經半夜了。你該上床睡覺了。",
+      "explain": "It is (high / about) time (that) + 主詞 + 過去簡單式動詞（或 should + 原形動詞），表示「該是做某事的時候了（隱含現在早該做卻還沒做的催促）」，故選 went。(A) go 為原形；(B) 現在完成式與 (C) 未來式皆不符合此特定句型。"
+    },
+    {
+      "topic": "意志動詞的 that 子句",
+      "level": 1,
+      "q": "The doctor strongly suggested that the tired patient ____ a few days off.",
+      "options": [
+        "takes",
+        "took",
+        "take",
+        "has taken"
+      ],
+      "answer": 2,
+      "zh": "醫生強烈建議這位疲倦的病人休假幾天。",
+      "explain": "suggest 表示「建議」，其後 that 子句中的述語動詞須用「(should) + 原形動詞」，should 常省略，故選原形 take。(A) takes 為直述法第三人稱單數現在式；(B) took 為過去式；(D) has taken 為現在完成式，均不可用於意志動詞後的名詞子句。"
+    },
+    {
+      "topic": "意志動詞的 that 子句",
+      "level": 1,
+      "q": "The school rules demand that every student ____ a uniform on weekdays.",
+      "options": [
+        "wear",
+        "wears",
+        "wore",
+        "is wearing"
+      ],
+      "answer": 0,
+      "zh": "校規要求每位學生在平日都要穿著制服。",
+      "explain": "demand（要求）為意志動詞，後接 that 子句時述語動詞須用「(should) + 原形動詞」，故選 wear。(B) wears 為現在式第三人稱單數；(C) wore 為過去式；(D) is wearing 為進行式，均不符合要求動詞後的虛擬用法。"
+    },
+    {
+      "topic": "必要形容詞的 that 子句",
+      "level": 1,
+      "q": "It is essential that everyone in the lab ____ protective goggles.",
+      "options": [
+        "put on",
+        "puts on",
+        "putting on",
+        "is putting on"
+      ],
+      "answer": 0,
+      "zh": "實驗室裡的每個人都必須戴上護目鏡，這是至關重要的。",
+      "explain": "It is essential that... 句型表示「……是絕對必要的」，that 子句中的述語動詞須用「(should) + 原形動詞」，主詞雖然是單數代名詞 everyone，動詞仍須用原形 put on。(B) puts on 加了 s 屬直述法；(C) 現在分詞不能作述語；(D) 進行式不合語法。"
+    },
+    {
+      "topic": "as if 的用法",
+      "level": 1,
+      "q": "Although Mark is only an amateur player, he talks as if he ____ a professional coach.",
+      "options": [
+        "is",
+        "has been",
+        "will be",
+        "were"
+      ],
+      "answer": 3,
+      "zh": "雖然馬克只是一位業餘選手，但他講話的樣子就好像他是專業教練一樣。",
+      "explain": "as if 引導與現在事實相反的假設子句，be 動詞不論人稱一律用 were。(A) is 為直述法，表示說話者認為可能屬實；(B) has been 與 (C) will be 時態不符；(D) were 正確。"
+    },
+    {
+      "topic": "對未來強烈懷疑",
+      "level": 1,
+      "q": "If any visitor ____ ask for me while I am out, please tell them to leave a message.",
+      "options": [
+        "would",
+        "could",
+        "might",
+        "should"
+      ],
+      "answer": 3,
+      "zh": "如果我外出時萬一有訪客找我，請告訴他們留言。",
+      "explain": "If + 主詞 + should + 原形動詞表示「萬一；假若」，用來表示對未來情況可能性較低或強烈懷疑的假設，主句可接祈使句或 will/would 等助動詞，故選 should。(A) would、(B) could、(C) might 均不用於 if 條件子句內表達「萬一」。"
+    },
+    {
+      "topic": "與現在事實相反",
+      "level": 1,
+      "q": "If she lived closer to the company, she ____ so much time commuting every day.",
+      "options": [
+        "will not spend",
+        "does not spend",
+        "would not spend",
+        "had not spent"
+      ],
+      "answer": 2,
+      "zh": "如果她住得離公司近一點，她每天就不會花那麼多時間通勤了。",
+      "explain": "If she lived...（過去簡單式）表示與現在事實相反的假設，主句述語動詞應為「would / could / might + 原形動詞」，且帶否定，故選 would not spend。(A) will not spend 用於真實條件句；(B) 現在簡單式不能作假設主句；(D) had not spent 用於與過去事實相反。"
+    },
+    {
+      "topic": "與過去事實相反",
+      "level": 1,
+      "q": "If you had followed the recipe carefully, the cake ____ so dry and hard.",
+      "options": [
+        "would not be",
+        "will not be",
+        "would not have been",
+        "was not"
+      ],
+      "answer": 2,
+      "zh": "如果你當時仔細按照食譜做，蛋糕就不會那麼乾硬了。",
+      "explain": "由 If you had followed 可知是與過去事實相反的假設，主句述語動詞須用「would / could / might + have + p.p.」，故選 would not have been。(A) would not be 用於現在結果；(B) 為直述未來式；(D) was not 為直述過去式。"
+    },
+    {
+      "topic": "If 的省略倒裝（過去完成式）",
+      "level": 2,
+      "q": "____ your advice at that critical moment, I would have made a terrible mistake.",
+      "options": [
+        "Had I not taken",
+        "Did I not take",
+        "If I took not",
+        "Were I not taken"
+      ],
+      "answer": 0,
+      "zh": "要不是在那個關鍵時刻聽從了你的建議，我恐怕就鑄下大錯了。",
+      "explain": "原句為 If I had not taken your advice...，省略 if 時，助動詞 had 須移至主詞前倒裝成 Had I not taken...。(B) Did 倒裝不能用於假設語氣；(C) If I took not 否定結構錯誤；(D) Were I not taken 為被動語態且時態不符。"
+    },
+    {
+      "topic": "If 的省略倒裝（與現在相反）",
+      "level": 2,
+      "q": "____ in your position, I would definitely turn down their unreasonable request.",
+      "options": [
+        "Was I",
+        "Were I",
+        "If I am",
+        "Have I been"
+      ],
+      "answer": 1,
+      "zh": "如果我處在你的立場，我絕對會拒絕他們不合理的要求。",
+      "explain": "原句為 If I were in your position...，省略 if 時，were 提前倒裝為 Were I...。(A) 假設語氣中 be 動詞不論人稱一律用 were，倒裝亦不能用 Was；(C) If I am 為直述法，無法搭配主句 would turn down；(D) Have I been 為現在完成式倒裝，非虛擬條件句。"
+    },
+    {
+      "topic": "If 的省略倒裝（未來萬一）",
+      "level": 2,
+      "q": "____ any problems arise during the installation, please contact customer support immediately.",
+      "options": [
+        "Should",
+        "Would",
+        "Could",
+        "Might"
+      ],
+      "answer": 0,
+      "zh": "萬一在安裝過程中出現任何問題，請立即聯絡客戶支援。",
+      "explain": "原句為 If any problems should arise...，省略 if 時將 should 移至主詞前面形成倒裝：Should any problems arise...。(B) Would、(C) Could、(D) Might 均無法在 if 子句省略時表示「萬一」的倒裝。"
+    },
+    {
+      "topic": "混和時態假設",
+      "level": 2,
+      "q": "If she had taken the medicine prescribed by the doctor yesterday, she ____ much better today.",
+      "options": [
+        "would have felt",
+        "felt",
+        "will feel",
+        "would feel"
+      ],
+      "answer": 3,
+      "zh": "如果她昨天吃了醫生開的藥，她今天感覺就會好多了。",
+      "explain": "本題為典型的「混和時態假設」：條件子句有 yesterday，表示與過去事實相反（had taken）；但主句有 today，表示對現在狀況的推測，因此主句述語動詞須用「would + 原形動詞」（would feel）。(A) would have felt 指昨天當時會覺得；(B) felt 為直述過去式；(C) will feel 為直述未來式。"
+    },
+    {
+      "topic": "混和時態假設",
+      "level": 2,
+      "q": "If the firefighter had not rescued the boy from the burning building, the child ____ alive right now.",
+      "options": [
+        "would not be",
+        "would not have been",
+        "is not",
+        "will not be"
+      ],
+      "answer": 0,
+      "zh": "如果那位消防員當時沒有把男孩從著火的大樓中救出來，這孩子現在就不會活著了。",
+      "explain": "條件子句為過去事實相反（had not rescued），主句時間副詞為 right now，表示現在的結果，故主句動詞應使用「would not be + 形容詞」。(B) would not have been 表示過去當時不是活著；(C) is not 為直述法；(D) will not be 為直述未來式。"
+    },
+    {
+      "topic": "與未來事實相反（were to）",
+      "level": 2,
+      "q": "Even if the company ____ bankrupt tomorrow, the employees' pensions would remain secure.",
+      "options": [
+        "goes",
+        "will go",
+        "is going",
+        "were to go"
+      ],
+      "answer": 3,
+      "zh": "即便公司明天破產，員工的退休金依然會受到保障。",
+      "explain": "were to + 原形動詞用於假設未來純粹假設、極不可能發生或與未來事實相反的情境，主句搭配「would + 原形動詞」，故選 were to go。(A) goes 與 (B) will go 屬於直述法真實條件句；(C) is going 為現在進行式表未來，無法與主句 would secure 呼應。"
+    },
+    {
+      "topic": "But for / If it had not been for",
+      "level": 2,
+      "q": "____ your timely financial assistance, our startup would have collapsed last winter.",
+      "options": [
+        "If it were not for",
+        "If it had not been for",
+        "Only if",
+        "As though"
+      ],
+      "answer": 1,
+      "zh": "若不是你當時及時的資金援助，我們的新創公司去年冬天早就倒閉了。",
+      "explain": "由 last winter 及主句 would have collapsed 可知為與過去事實相反的假設，表示「若不是當時有……」應使用 If it had not been for + 名詞。(A) If it were not for 用於與現在事實相反（若現在沒有……）；(C) Only if 表「唯有當……」；(D) As though 表「彷彿；宛如」。"
+    },
+    {
+      "topic": "If it were not for",
+      "level": 2,
+      "q": "If it ____ for the gravitational pull of the moon, the ocean tides would be completely different.",
+      "options": [
+        "is not",
+        "had not been",
+        "were not",
+        "would not be"
+      ],
+      "answer": 2,
+      "zh": "如果不是因為月球的引力，海洋的潮汐將會完全不同。",
+      "explain": "月球的引力是持續存在的客觀現實，此處表達與現在事實相反的假設，固定句型為 If it were not for + 名詞（若非現在有……），主句接 would be。(A) is not 屬直述法；(B) had not been 用於與過去事實相反；(D) would not be 不能放在 if 條件子句內。"
+    },
+    {
+      "topic": "as if 的時態對應（過去事實）",
+      "level": 2,
+      "q": "The witness described the suspect in great detail, as if he ____ the crime with his own eyes.",
+      "options": [
+        "sees",
+        "saw",
+        "had seen",
+        "has seen"
+      ],
+      "answer": 2,
+      "zh": "該證人鉅細靡遺地描述了嫌犯，就好像他親眼目睹了那起犯罪一樣。",
+      "explain": "as if 引導的子句中，若動作發生在主句動作（described 過去式）之前，表示與過去事實相反的假設，須使用過去完成式 had seen。(A) sees 為現在式；(B) saw 表示與主句動作同時發生；(D) has seen 為現在完成式直述法。"
+    },
+    {
+      "topic": "as if 的直述法用法",
+      "level": 2,
+      "q": "Look at those dark, heavy clouds rolling in! It looks as if a thunderstorm ____ coming soon.",
+      "options": [
+        "were",
+        "had been",
+        "would be",
+        "is"
+      ],
+      "answer": 3,
+      "zh": "看那些滾滾而來的烏雲！看起來暴風雨似乎很快就要來了。",
+      "explain": "as if 引導的子句若依據眼前的跡象、表示極可能發生的真實情況時，須使用直述法時態（It looks as if... is coming），故選 is。(A) were 與 (C) would be 用於與事實相反的假設；(B) had been 用於過去完成假設。"
+    },
+    {
+      "topic": "意志動詞被動語態",
+      "level": 2,
+      "q": "The city council recommended that the old bridge ____ immediately for safety reasons.",
+      "options": [
+        "closed",
+        "be closed",
+        "is closed",
+        "was closed"
+      ],
+      "answer": 1,
+      "zh": "市議會建議基於安全理由立即封閉該座老橋。",
+      "explain": "recommend（建議）後接 that 子句，述語動詞須用「(should) + 原形動詞」，且橋梁是被封閉，故須用被動語態「(should) be closed」，選 be closed。(A) closed 為主動過去式；(C) is closed 與 (D) was closed 均為直述法形式。"
+    },
+    {
+      "topic": "要求動詞與名詞",
+      "level": 2,
+      "q": "The committee accepted the manager's proposal that the budget ____ equally among all departments.",
+      "options": [
+        "divided",
+        "is divided",
+        "be divided",
+        "will be divided"
+      ],
+      "answer": 2,
+      "zh": "委員會接受了經理的提議：預算應在各部門間平均分配。",
+      "explain": "proposal（提議）為表示意志的名詞，其同位語 that 子句的述語動詞同樣須用「(should) + 原形動詞」，且預算為被分配，故用 (should) be divided。(A) divided、(B) is divided、(D) will be divided 皆不符合意志詞引導名詞子句的虛擬形式。"
+    },
+    {
+      "topic": "情緒形容詞的 should",
+      "level": 2,
+      "q": "It is surprising that such an experienced driver ____ made such an elementary mistake.",
+      "options": [
+        "should have",
+        "would have",
+        "must have",
+        "can have"
+      ],
+      "answer": 0,
+      "zh": "真是令人驚訝，一位如此經驗豐富的司機竟然會犯下這麼初級的錯誤。",
+      "explain": "在 It is surprising / strange / a pity that... 句型中，that 子句常使用 should 表示「竟然；居然」的情緒評價，針對過去發生的事情則用 should have + p.p.，故選 should have。(B) would have 多用於條件句主句；(C) must have 表示對過去事實的肯定推測（必定已經……），不含情緒評價意味；(D) can have 不用於此句型。"
+    },
+    {
+      "topic": "I wish 的過去假設",
+      "level": 2,
+      "q": "The exam was incredibly difficult. Now I wish I ____ more attention to the professor's lectures last month.",
+      "options": [
+        "paid",
+        "pay",
+        "would pay",
+        "had paid"
+      ],
+      "answer": 3,
+      "zh": "這次考試難得出奇。現在我真希望上個月我多注意教授的課堂講解。",
+      "explain": "由 last month 可知是針對過去未能做到的事情表達後悔與遺憾，wish 後的 that 子句須用過去完成式 had + p.p.，故選 had paid。(A) paid 表示與現在事實相反；(B) pay 為直述現在式；(C) would pay 用於對未來的願望。"
+    },
+    {
+      "topic": "It is about time 的用法",
+      "level": 2,
+      "q": "It is about time that the government ____ effective measures to combat inflation.",
+      "options": [
+        "takes",
+        "took",
+        "has taken",
+        "will take"
+      ],
+      "answer": 1,
+      "zh": "政府該是採取有效措施來打擊通貨膨脹的時候了。",
+      "explain": "It is about / high time that + S + 過去簡單式動詞（或 should + 原形動詞），固定表達「早就該……了」，故選 took。(A) takes 為直述現在式；(C) has taken 為現在完成式；(D) will take 為未來式，皆不符合此句型規定。"
+    },
+    {
+      "topic": "insist 的用法辨析（堅持事實）",
+      "level": 3,
+      "q": "The suspect insisted that he ____ at home playing video games when the robbery took place.",
+      "options": [
+        "be",
+        "should be",
+        "had been",
+        "is"
+      ],
+      "answer": 2,
+      "zh": "嫌犯堅稱搶案發生時他一直待在家裡打電動。",
+      "explain": "insist 有兩種用法：(1) 堅持「某人應採取某行動」時，that 子句用 (should) + 原形動詞；(2) 堅持「某事實或陳述屬實」時，that 子句用直述法時態。本題嫌犯是堅稱自己案發時待在家裡的「客觀事實」，且發生在搶劫之前，故須用直述法過去完成式 had been。(A) be 與 (B) should be 表示要求某人處於某狀態，語意荒謬；(D) is 時態與過去脈絡不符。"
+    },
+    {
+      "topic": "insist 的用法辨析（堅持主張行動）",
+      "level": 3,
+      "q": "The union leaders firmly insisted that safety inspections ____ before the factory resumed production.",
+      "options": [
+        "conducted",
+        "were conducted",
+        "be conducted",
+        "have been conducted"
+      ],
+      "answer": 2,
+      "zh": "工會領袖堅決主張，在工廠恢復生產之前必須先進行安全檢查。",
+      "explain": "此處 insist 表示「堅持主張採取某項行動」，that 子句述語動詞須用「(should) + 原形動詞」，且 safety inspections 與 conduct 為被動關係，故選 be conducted。(A) conducted 為主動過去式；(B) were conducted 為直述法過去式被動（表示已進行事實）；(D) have been conducted 為直述現在完成式。"
+    },
+    {
+      "topic": "But that 的用法（現在事實）",
+      "level": 3,
+      "q": "I would join you on the mountain hiking trip, but that I ____ a severe allergy to pollen.",
+      "options": [
+        "had",
+        "would have",
+        "had had",
+        "have"
+      ],
+      "answer": 3,
+      "zh": "要不是我對花粉嚴重過敏，我就會跟你們一起去登山健行了。",
+      "explain": "But that（要不是……）為從屬連接詞，其後接「直述法子句敘述真實事實」。主句為 would join（與現在事實相反），因此 but that 子句須敘述「現在之真實情況」，動詞用直述法現在式 have，故選 have。(A) had 誤用為假設時態；(B) would have 為虛擬助動詞；(C) had had 為過去完成式。"
+    },
+    {
+      "topic": "But that 的用法（過去事實）",
+      "level": 3,
+      "q": "He would have attended the overseas symposium, but that his flight ____ due to the typhoon.",
+      "options": [
+        "canceled",
+        "was canceled",
+        "be canceled",
+        "had been canceled"
+      ],
+      "answer": 1,
+      "zh": "要不是他的航班因為颱風被取消，他當時就會出席那場海外研討會了。",
+      "explain": "But that 引導的子句表達「真實發生的事實」，須用直述法時態。主句為 would have attended（與過去事實相反），故 but that 子句應敘述「過去真實發生的事實」，且航班是被取消，故用直述法過去簡單式被動 was canceled。(A) canceled 為主動；(C) be canceled 為虛擬原形；(D) had been canceled 在直述客觀描述單一過去事件時不如過去簡單式精確。"
+    },
+    {
+      "topic": "Only that 的用法",
+      "level": 3,
+      "q": "She might have won the national speech competition, only that she ____ extremely nervous on stage.",
+      "options": [
+        "became",
+        "becomes",
+        "had become",
+        "would become"
+      ],
+      "answer": 0,
+      "zh": "要不是她在台上變得極其緊張，她本來可能會贏得全國演講比賽的。",
+      "explain": "Only that 等同於 But that，表示「要不是；只可惜」，引導的子句敘述客觀真實情況，用直述法時態。主句 might have won 表示與過去事實相反，故 only that 子句敘述過去真實發生的狀況，動詞用過去簡單式 became。(B) becomes 為現在式；(C) had become 誤將 only that 子句當成 if 虛擬條件句；(D) would become 不可用於直述事實子句。"
+    },
+    {
+      "topic": "倒裝否定條件句（Had it not been for）",
+      "level": 3,
+      "q": "____ for the GPS navigation system, the expedition team would have been hopelessly lost in the wilderness.",
+      "options": [
+        "Were it not",
+        "Had it not been",
+        "Should it not be",
+        "If it has not been"
+      ],
+      "answer": 1,
+      "zh": "要不是因為有 GPS 導航系統，探險隊當時早就無助地迷失在荒野中了。",
+      "explain": "原句為 If it had not been for the GPS navigation system...，省略 if 時形成倒裝 Had it not been for...，表示與過去事實相反（若非當時有……），主句搭配 would have been lost。(A) Were it not for 用於與現在事實相反；(C) Should it not be 語意不通；(D) If it has not been 為文法錯誤形式。"
+    },
+    {
+      "topic": "雙重倒裝或複合句假設",
+      "level": 3,
+      "q": "Had the emergency brakes failed, the train ____ into the ravine below.",
+      "options": [
+        "plunged",
+        "would plunge",
+        "would have plunged",
+        "had plunged"
+      ],
+      "answer": 2,
+      "zh": "緊急煞車萬一失靈的話，火車當時就會墜入下方的深谷中了。",
+      "explain": "Had the emergency brakes failed 為 If the emergency brakes had failed 之倒裝，表示與過去事實相反的假設，主句述語動詞須用「would + have + p.p.」，故選 would have plunged。(A) plunged 為直述過去式；(B) would plunge 表示與現在事實相反；(D) had plunged 不能作主句述語。"
+    },
+    {
+      "topic": "省略條件之情態助動詞",
+      "level": 3,
+      "q": "You were driving way too fast! You ____ a pedestrian in that crosswalk!",
+      "options": [
+        "might hit",
+        "must hit",
+        "should hit",
+        "could have hit"
+      ],
+      "answer": 3,
+      "zh": "你剛才開得太快了！你差點就撞到行人穿越道上的行人了！",
+      "explain": "此題假設條件句（If you hadn't stopped in time 等）被省略，表示「過去本來有可能發生某危險（但幸好未發生）」，須用「could have + p.p.」，故選 could have hit。(A) might hit 與現在或未來可能有關；(B) must hit 表必須撞到（語意荒謬）；(C) should hit 表應該撞到。"
+    },
+    {
+      "topic": "as though 與時態一致性",
+      "level": 3,
+      "q": "The historic mansion looked as though it ____ abandoned for decades before the restoration started.",
+      "options": [
+        "has been",
+        "was",
+        "had been",
+        "would be"
+      ],
+      "answer": 2,
+      "zh": "這座歷史悠久的宅邸看起來彷彿在整修工程開始前就已經被荒廢了數十年。",
+      "explain": "主句動詞 looked 為過去式，而「被荒廢數十年」是發生在主句動詞 looked 之前的情況，因此 as though 引導的假設子句須使用過去完成式 had been。(A) has been 為現在完成式；(B) was 表示與主句同時；(D) would be 表示未來。"
+    },
+    {
+      "topic": "複合虛擬結構（suggest + passive）",
+      "level": 3,
+      "q": "The safety inspector urged that the malfunctioned machinery ____ until a thorough investigation was completed.",
+      "options": [
+        "not be operated",
+        "not operated",
+        "should not operated",
+        "is not operated"
+      ],
+      "answer": 0,
+      "zh": "安全檢查員強烈敦促，在徹底調查完成前，不得操作該故障機械。",
+      "explain": "urge（敦促、強烈要求）為意志動詞，後接 that 子句時述語動詞須用「(should) + 原形動詞」，其否定形式為「(should) not + 原形動詞」。本題主詞 machinery 為被操作，故須用被動語態「not be operated」，故選 not be operated。(B) 缺少助動詞或 be 動詞；(C) should 後應接原形 be operated 而非 operated；(D) is not operated 為直述現在式。"
+    }
+  ]
+}

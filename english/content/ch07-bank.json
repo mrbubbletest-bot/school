@@ -1,0 +1,566 @@
+{
+  "chapter": 7,
+  "title": "助動詞",
+  "items": [
+    {
+      "topic": "Be 動詞表示將要發生",
+      "level": 1,
+      "q": "Look at the dark clouds! It ____ rain in a few minutes.",
+      "options": [
+        "was going to",
+        "is going to",
+        "has been",
+        "is being"
+      ],
+      "answer": 1,
+      "zh": "看那些烏雲！幾分鐘內就要下雨了。",
+      "explain": "看見烏雲是眼前的明顯跡象，用 be going to + 原形 V 表示即將發生的未來事件。(A) was going to 為過去式，不合此處現在情境；(C) has been 為現在完成式；(D) is being 為進行式被動，文意不通。"
+    },
+    {
+      "topic": "have 作使役動詞接原形動詞",
+      "level": 1,
+      "q": "Dad had the mechanic ____ the brakes before our long road trip to Hualien.",
+      "options": [
+        "checked",
+        "to check",
+        "check",
+        "checking"
+      ],
+      "answer": 2,
+      "zh": "在我們開長途車去花蓮之前，爸爸叫技師檢查了煞車。",
+      "explain": "使役動詞 have + 受詞（人）+ 原形動詞，表示「叫／請某人做某事」。此處 the mechanic 與 check 為主動關係，故選原形動詞 check。(A) checked 為過去分詞，用於受詞與動詞為被動關係時；(B) to check 不定詞不能搭配使役動詞 have；(D) checking 現在分詞在此不適用。"
+    },
+    {
+      "topic": "do 作代動詞避免重複",
+      "level": 1,
+      "q": "Sandy plays the piano much better than her elder brother ____.",
+      "options": [
+        "is",
+        "does",
+        "plays it",
+        "has"
+      ],
+      "answer": 1,
+      "zh": "珊蒂彈鋼琴彈得比她哥哥好多了。",
+      "explain": "為避免重複前面出現過的一般動詞 plays，比較級子句中用助動詞 does 代替。(A) is 為 be 動詞，無法代替一般動詞 plays；(C) plays it 造成贅詞與重複；(D) has 為完成式助動詞，時態與語法皆不符。"
+    },
+    {
+      "topic": "do / does 加強語氣",
+      "level": 1,
+      "q": "Although he looks quiet, he ____ care deeply about his classmates.",
+      "options": [
+        "is",
+        "did",
+        "does",
+        "has"
+      ],
+      "answer": 2,
+      "zh": "雖然他看起來很安靜，但他確實非常關心他的同學。",
+      "explain": "現在簡單式中，在原形動詞 care 之前加上助動詞 does，用來加強語氣，表示「確實、真的」。(A) is 後接形容詞或分詞，不能直接接原形動詞 care；(B) did 為過去式，與前半句 looks 現在式時態不符；(D) has 後需接過去分詞 cared。"
+    },
+    {
+      "topic": "shall 徵求意見與附加問句",
+      "level": 1,
+      "q": "Let's take a break and get some bubble tea, ____?",
+      "options": [
+        "will you",
+        "don't we",
+        "aren't we",
+        "shall we"
+      ],
+      "answer": 3,
+      "zh": "我們休息一下去買杯珍珠奶茶，好嗎？",
+      "explain": "以 Let's 開頭的祈使句，附加問句固定搭配 shall we?。(A) will you 用於一般的祈使句（如 Open the door, will you?）；(B) don't we 與 (C) aren't we 皆非 Let's 的標準附加問句用法。"
+    },
+    {
+      "topic": "will 表示意願與承諾",
+      "level": 1,
+      "q": "Don't worry about the presentation; I ____ help you prepare the slides tonight.",
+      "options": [
+        "will",
+        "would",
+        "shall to",
+        "must to"
+      ],
+      "answer": 0,
+      "zh": "別擔心簡報；我今晚會幫你準備投影片。",
+      "explain": "will 用於第一人稱，表示說話者的意願與承諾。(B) would 為過去式或假設語氣，此處為現在對今晚的承諾；(C) shall 後接原形動詞，不可加 to；(D) must 後亦接原形動詞，不可加 to。"
+    },
+    {
+      "topic": "can 與 be able to 的用法區別",
+      "level": 1,
+      "q": "With modern translation software, students ____ read articles in foreign languages more easily.",
+      "options": [
+        "can to",
+        "could to",
+        "able to",
+        "are able to"
+      ],
+      "answer": 3,
+      "zh": "有了現代翻譯軟體，學生能夠更輕鬆地閱讀外語文章。",
+      "explain": "be able to + 原形動詞表示能力，主詞 students 為複數，搭配 are able to。(A) can 為助動詞，後接原形動詞，不可加 to；(B) could 為助動詞，不可加 to；(C) able 為形容詞，前面缺少 be 動詞。"
+    },
+    {
+      "topic": "客氣請求 would you please",
+      "level": 1,
+      "q": "Excuse me, ____ you please show me the way to the nearest MRT station?",
+      "options": [
+        "would",
+        "shall",
+        "must",
+        "might not"
+      ],
+      "answer": 0,
+      "zh": "不好意思，請問您可以告訴我往最近捷運站的路怎麼走嗎？",
+      "explain": "Would you please + 原形動詞...? 為非常客氣委婉的請求句型。(B) Shall you 不符合日常英語習慣（shall 多用於第一人稱）；(C) Must you 表示「你偏要…嗎？」，帶有不耐煩語氣；(D) Might not 與文意完全不符。"
+    },
+    {
+      "topic": "may 表許可與否定回答",
+      "level": 1,
+      "q": "\"May I borrow your digital camera for the field trip?\" \"No, you ____. I need it today.\"",
+      "options": [
+        "needn't",
+        "don't have to",
+        "may not",
+        "won't"
+      ],
+      "answer": 2,
+      "zh": "「校外教學我可以借你的數位相機嗎？」「不行，你不可以借。我今天需要用。」",
+      "explain": "以 May I...? 請求許可時，否定的回答通常用 may not（不可以）或 cannot / must not（不准）。(A) needn't 表示「不必」，語意不符；(B) don't have to 亦表示「不必」；(D) won't 表示「將不會」，不符合拒絕許可的回應。"
+    },
+    {
+      "topic": "must 表示現在肯定的推測",
+      "level": 1,
+      "q": "The lights in Professor Chen's office are still on; he ____ still be working.",
+      "options": [
+        "can",
+        "must",
+        "should to",
+        "ought"
+      ],
+      "answer": 1,
+      "zh": "陳教授辦公室的燈還亮著；他現在一定還在工作。",
+      "explain": "must + 原形 V 在此表示對現在情況肯定的強烈推測（想必一定）。(A) can 用於推測通常用於疑問句或否定句（cannot）；(C) should 後不能加 to；(D) ought 後需接 to。"
+    },
+    {
+      "topic": "must 疑問句的否定回答",
+      "level": 1,
+      "q": "\"Must we submit this science project by noon?\" \"No, you ____; tomorrow morning is also fine.\"",
+      "options": [
+        "mustn't",
+        "may not",
+        "can't",
+        "needn't"
+      ],
+      "answer": 3,
+      "zh": "「我們必須在中午前繳交這件自然科專案嗎？」「不，你們不必；明天早上交也可以。」",
+      "explain": "以 Must 開頭的疑問句，否定回答需用 needn't 或 don't have to（不必）。(A) mustn't 表示「絕不可以、不准」，為強烈禁止；(B) may not 表示「不可以」；(C) can't 表示「不能」，皆非 Must 疑問句的否定回答。"
+    },
+    {
+      "topic": "ought to 的否定形式",
+      "level": 1,
+      "q": "Students ____ stay up all night cramming right before the midterm exams.",
+      "options": [
+        "ought not to",
+        "ought to not",
+        "don't ought to",
+        "not ought to"
+      ],
+      "answer": 0,
+      "zh": "學生不應該在期中考前夕徹夜死記硬背。",
+      "explain": "ought to 的否定形式固定為 ought not to + 原形 V（not 置於 ought 與 to 之間）。(B) ought to not 語序錯誤；(C) don't ought to 錯誤，ought 為助動詞不需藉助 do/don't；(D) not ought to 語序錯誤。"
+    },
+    {
+      "topic": "used to 表示過去習慣",
+      "level": 1,
+      "q": "Grandpa ____ live in a quiet fishing village before moving to New Taipei City.",
+      "options": [
+        "was used to",
+        "used to",
+        "used to be",
+        "is used to"
+      ],
+      "answer": 1,
+      "zh": "在搬到新北市之前，爺爺過去一直住在一個安靜的漁村。",
+      "explain": "used to + 原形動詞表示「過去曾經、過去習慣於」，且暗示現在已非如此。(A) was used to 後需接動名詞 V-ing；(C) used to be live 文法結構錯誤；(D) is used to 表示現在習慣於，後接動名詞 V-ing。"
+    },
+    {
+      "topic": "be used to V-ing 習慣於",
+      "level": 1,
+      "q": "Having lived in London for five years, Claire is now used to ____ on the left side of the road.",
+      "options": [
+        "drive",
+        "driven",
+        "driving",
+        "be driving"
+      ],
+      "answer": 2,
+      "zh": "在倫敦生活了五年，克萊兒現在已經習慣靠左行駛了。",
+      "explain": "be used to + V-ing / N 表示「習慣於某事」，to 為介系詞，後接動名詞 driving。(A) drive 為原形動詞，用於 used to + 原形 V（過去習慣）；(B) driven 為過去分詞；(D) be driving 形式錯誤。"
+    },
+    {
+      "topic": "had better + 原形動詞",
+      "level": 1,
+      "q": "The weather forecast says a typhoon is approaching, so we had better ____ the camping trip.",
+      "options": [
+        "canceling",
+        "to cancel",
+        "canceled",
+        "cancel"
+      ],
+      "answer": 3,
+      "zh": "氣象預報說颱風正在逼近，所以我們最好取消露營行程。",
+      "explain": "had better 為片語助動詞，後接原形動詞 cancel，表示「最好做某事」。(A) canceling 動名詞錯誤；(B) to cancel 不定詞錯誤，had better 後不加 to；(C) canceled 過去式錯誤。"
+    },
+    {
+      "topic": "助動詞後接 be able to",
+      "level": 2,
+      "q": "After taking this advanced coding class, everyone will ____ build their own mobile application.",
+      "options": [
+        "can",
+        "could",
+        "be able to",
+        "able to"
+      ],
+      "answer": 2,
+      "zh": "上完這堂進階程式課程後，每個人都將能夠建立自己的手機應用程式。",
+      "explain": "助動詞 will 後面不能直接接情態助動詞 can，必須改用 be able to + 原形 V。(A) will can 為嚴重語法錯誤，兩個助動詞不能並列；(B) could 為過去式助動詞，亦不能接在 will 後；(D) able to 缺少原形動詞 be。"
+    },
+    {
+      "topic": "need 作助動詞與一般動詞",
+      "level": 2,
+      "q": "The museum is free on Wednesdays, so visitors ____ buy tickets today.",
+      "options": [
+        "need not",
+        "need not to",
+        "don't need",
+        "needs not"
+      ],
+      "answer": 0,
+      "zh": "這座博物館週三免費參觀，因此訪客今天不必買票。",
+      "explain": "need 作助動詞時，否定形式為 need not + 原形 V。(B) need not 後不加 to；(C) don't need 後需加 to（don't need to buy）；(D) needs not 語法錯誤，need 作助動詞時無第三人稱單數加 s 的形式。"
+    },
+    {
+      "topic": "need + V-ing 表被動",
+      "level": 2,
+      "q": "Your white shirt is quite wrinkled; it really needs ____ before the interview.",
+      "options": [
+        "ironed",
+        "to iron",
+        "ironing",
+        "be ironed"
+      ],
+      "answer": 2,
+      "zh": "你的白襯衫很皺；面試前它真的很需要燙平。",
+      "explain": "物 + need + V-ing ＝ 物 + need to be p.p.，以主動形式表達被動意義（needs ironing ＝ needs to be ironed）。(A) ironed 不能直接接在 needs 後；(B) to iron 表主動，襯衫不能自己燙；(D) be ironed 缺少 to。"
+    },
+    {
+      "topic": "dare 作一般動詞之否定",
+      "level": 2,
+      "q": "The shy boy ____ tell his teacher about the bullying incident yesterday.",
+      "options": [
+        "dared not to",
+        "didn't dare to",
+        "not dare to",
+        "doesn't dare"
+      ],
+      "answer": 1,
+      "zh": "那個害羞的男孩昨天不敢把霸凌事件告訴老師。",
+      "explain": "dare 作一般動詞時，過去式否定為 didn't dare to + 原形 V。(A) dared not 為助動詞用法，其後接原形動詞不加 to；(C) not dare to 缺少助動詞 did；(D) doesn't dare 為現在式，與時間副詞 yesterday 衝突。"
+    },
+    {
+      "topic": "should have + p.p. 表過去該做而未做",
+      "level": 2,
+      "q": "You ____ the urgent email yesterday! Now the client has canceled the whole contract.",
+      "options": [
+        "should reply to",
+        "must reply to",
+        "ought to reply to",
+        "should have replied to"
+      ],
+      "answer": 3,
+      "zh": "你昨天原本應該回覆那封緊急信件的！現在客戶已經取消整份合約了。",
+      "explain": "should have + p.p. 表示「過去原本應該做某事，但實際上卻沒有做」，帶有遺憾或責備語氣。(A) should reply to 指現在或未來應採取的行動；(B) must reply to 指現在必須做；(C) ought to reply to 亦指現在或未來。"
+    },
+    {
+      "topic": "needn't have + p.p. 表過去不必做而做了",
+      "level": 2,
+      "q": "Look, the meeting was postponed until next Friday! We ____ to prepare the report all night.",
+      "options": [
+        "needn't have hurried",
+        "mustn't have hurried",
+        "couldn't hurry",
+        "shouldn't hurry"
+      ],
+      "answer": 0,
+      "zh": "看，會議延期到下週五了！我們原本不必徹夜趕工準備報告的。",
+      "explain": "needn't have + p.p. 表示「過去原本不必做某事，但事實上已經做了」。(B) mustn't have hurried 語法不合，mustn't 用於禁止；(C) couldn't hurry 表示當時無法匆忙，與文意不合；(D) shouldn't hurry 指現在或未來不該匆忙。"
+    },
+    {
+      "topic": "can't have + p.p. 對過去否定的推測",
+      "level": 2,
+      "q": "Ethan's bicycle is still in the driveway, so he ____ left for school yet.",
+      "options": [
+        "must have",
+        "should have",
+        "can't have",
+        "may have"
+      ],
+      "answer": 2,
+      "zh": "伊森的腳踏車還在車道上，所以他不可能已經出發去學校了。",
+      "explain": "can't have + p.p. 表示「對過去事實否定的推測」，意為「不可能已經…」。(A) must have 表示「必然已經…」，與車子還在的依據相悖；(B) should have 表示「本該…但沒有」；(D) may have 表示「可能已經…」，未能呼應由證據得出的否定論點。"
+    },
+    {
+      "topic": "cannot have + p.p. 過去否定的必然推測",
+      "level": 2,
+      "q": "Sophie was with me in Kaohsiung all day yesterday, so you ____ seen her in Taipei.",
+      "options": [
+        "cannot have",
+        "must not have",
+        "need not have",
+        "might not"
+      ],
+      "answer": 0,
+      "zh": "蘇菲昨天整天都跟我在一起在高雄，所以你不可能在台北看見她。",
+      "explain": "cannot have + p.p. 表示對過去事件絕對否定的推測（當時絕不可能）。(B) must not have 英文中不常用於表過去推測，否定推測須用 cannot have + p.p.；(C) need not have 表示原本不必；(D) might not 缺少完成式 have seen。"
+    },
+    {
+      "topic": "could have + p.p. 過去原本能夠",
+      "level": 2,
+      "q": "With just one more point, our basketball team ____ won the championship game last night.",
+      "options": [
+        "must have",
+        "can have",
+        "should",
+        "could have"
+      ],
+      "answer": 3,
+      "zh": "只要再得一分，我們的籃球隊昨晚原本就能贏得冠軍賽了。",
+      "explain": "could have + p.p. 表示與過去事實相反的假設，「過去原本能夠做到，但實際上未達成」。(A) must have won 表示「必然已經贏了」，與沒贏的事實相反；(B) can have 不能用於過去事實推測；(C) should 後接原形動詞，無法表達昨晚的情況。"
+    },
+    {
+      "topic": "would rather + 原形 than + 原形",
+      "level": 2,
+      "q": "I would rather ____ my own mistakes than ____ others for my failures.",
+      "options": [
+        "admit; blame",
+        "admitting; blaming",
+        "to admit; to blame",
+        "admit; to blame"
+      ],
+      "answer": 0,
+      "zh": "我寧可承認自己的錯誤，也不願將失敗歸咎於他人。",
+      "explain": "would rather + 原形 V + than + 原形 V 為固定平行對等句型，兩處皆接原形動詞。(B) admitting; blaming 動名詞不符；(C) to admit; to blame 不定詞不符；(D) 後者加 to 破壞對等結構。"
+    },
+    {
+      "topic": "prefer V-ing to V-ing 寧願…而不願…",
+      "level": 2,
+      "q": "My sister prefers ____ books in the library to ____ video games at home.",
+      "options": [
+        "reading; play",
+        "to read; play",
+        "reading; playing",
+        "read; playing"
+      ],
+      "answer": 2,
+      "zh": "我妹妹寧願在圖書館看書，也不願在家打電動。",
+      "explain": "prefer + V-ing + to + V-ing 為固定句型，此處 to 為介系詞，前後兩者皆須用動名詞平行。(A) play 未用動名詞；(B) to read; play 結構錯誤（若用不定詞應為 prefer to read rather than play）；(D) read 未用動名詞。"
+    },
+    {
+      "topic": "lest + S + (should) + 原形動詞",
+      "level": 2,
+      "q": "The explorer marked the trees carefully on his way into the deep jungle lest he ____ lost.",
+      "options": [
+        "got",
+        "gets",
+        "will get",
+        "should get"
+      ],
+      "answer": 3,
+      "zh": "探險家走入叢林深處時仔細在樹上做記號，以免迷失方向。",
+      "explain": "lest 引導副詞子句表「以免、唯恐」，子句動詞固定搭配 (should) + 原形動詞。(A) got 為過去式；(B) gets 為現在式；(C) will get 不符合 lest 的專屬語法。"
+    },
+    {
+      "topic": "It is astonishing that S + (should) + have p.p.",
+      "level": 2,
+      "q": "It is astonishing that such an experienced mountaineer ____ made such a careless blunder.",
+      "options": [
+        "should have",
+        "would have",
+        "must have",
+        "ought to"
+      ],
+      "answer": 0,
+      "zh": "如此有經驗的登山家竟然犯了這樣粗心的錯誤，實在令人震驚。",
+      "explain": "在表示驚訝、意外的情緒形容詞（astonishing, strange, surprising）之後的 that 子句中，常用 should have + p.p. 表示過去「竟然…」。(B) would have 用於條件假設；(C) must have 表肯定推測；(D) ought to 後需接原形動詞或 have p.p.，但無「竟然」之主觀情緒意味。"
+    },
+    {
+      "topic": "be to + 原形動詞 表示預定安排",
+      "level": 2,
+      "q": "The new highway bridge ____ opened to public traffic next Monday morning.",
+      "options": [
+        "is to be",
+        "is to",
+        "has been",
+        "was being"
+      ],
+      "answer": 0,
+      "zh": "這座新的公路橋樑預定於下週一上午開放通車。",
+      "explain": "be to + 原形動詞可表示「預定計畫、官方安排」。因為橋樑是被開放通車，故需用被動語態 is to be opened。(B) is to 缺少被動原形 be；(C) has been 表已完成，與 next Monday 衝突；(D) was being 為過去進行式。"
+    },
+    {
+      "topic": "have + 受詞 + p.p. 被動使役",
+      "level": 2,
+      "q": "Because the computer was infected with malware, Kevin had it ____ by an IT technician.",
+      "options": [
+        "repair",
+        "repaired",
+        "to repair",
+        "repairing"
+      ],
+      "answer": 1,
+      "zh": "因為電腦感染了惡意軟體，凱文請資訊技術人員把它修好了。",
+      "explain": "使役動詞 have + 受詞（物）+ p.p.，受詞 it（電腦）與 repair 之間為被動關係，故用過去分詞 repaired。(A) repair 原形動詞用於受詞主動執行動作時；(C) to repair 不定詞錯誤；(D) repairing 現在分詞表進行或主動。"
+    },
+    {
+      "topic": "cannot... too... 再…也不為過",
+      "level": 3,
+      "q": "When conducting experiments with hazardous chemicals in the laboratory, one cannot be ____ cautious.",
+      "options": [
+        "very",
+        "too",
+        "so",
+        "enough"
+      ],
+      "answer": 1,
+      "zh": "在實驗室進行危險化學品實驗時，再怎麼謹慎也不為過（愈謹慎愈好）。",
+      "explain": "cannot... too... 為著名進階慣用語，意為「再…也不為過；愈…愈好」。(A) cannot be very cautious 意為「無法非常謹慎」，文意不合；(C) cannot be so cautious 語意不通；(D) enough 通常置於形容詞之後（cautious enough）。"
+    },
+    {
+      "topic": "cannot help + V-ing 忍不住",
+      "level": 3,
+      "q": "Hearing the toddler's hilarious explanation for the spilled milk, everyone present could not help ____.",
+      "options": [
+        "laugh",
+        "to laugh",
+        "laughing",
+        "laughed"
+      ],
+      "answer": 2,
+      "zh": "聽到了幼童對打翻牛奶的搞笑解釋，在場的所有人都忍不住笑了起來。",
+      "explain": "cannot help + V-ing 為固定慣用語，意為「忍不住；禁不住」。(A) laugh 為原形動詞，用於 cannot but + 原形 V；(B) to laugh 不定詞不符此慣用語；(D) laughed 為過去分詞。"
+    },
+    {
+      "topic": "cannot but + 原形 V 禁不住",
+      "level": 3,
+      "q": "Witnessing the heartbreaking plight of the earthquake victims, the rescue workers could not but ____ tears.",
+      "options": [
+        "shed",
+        "shedding",
+        "to shed",
+        "have shed"
+      ],
+      "answer": 0,
+      "zh": "目睹地震災民令人心碎的困境，救難人員不禁流下了眼淚。",
+      "explain": "cannot but + 原形動詞 ＝ cannot help + V-ing，意為「不得不；禁不住」，but 後接原形動詞 shed。(B) shedding 用於 cannot help 後；(C) to shed 不定詞錯誤；(D) have shed 完成式在此語意不符。"
+    },
+    {
+      "topic": "may well + 原形 V 大有理由",
+      "level": 3,
+      "q": "Considering her dedication, perseverance, and exceptional talent, she may well ____ the top prize.",
+      "options": [
+        "to win",
+        "winning",
+        "won",
+        "win"
+      ],
+      "answer": 3,
+      "zh": "考慮到她的敬業、毅力與非凡才華，她大有理由（極可能）贏得首獎。",
+      "explain": "may well + 原形動詞 為慣用句型，意為「大可以…；有充分理由；極有可能」。(A) to win 不定詞錯誤；(B) winning 動名詞錯誤；(C) won 過去式錯誤。"
+    },
+    {
+      "topic": "might as well A as B 與其不如",
+      "level": 3,
+      "q": "You might as well throw your money into the river as ____ it on those fraudulent lottery tickets.",
+      "options": [
+        "waste",
+        "wasting",
+        "to waste",
+        "wasted"
+      ],
+      "answer": 0,
+      "zh": "把錢浪費在那些詐騙彩券上，倒不如把錢扔進河裡算了（兩者皆不可做）。",
+      "explain": "might as well A as B 意為「與其 B 不如 A」，A 與 B 均為說話者不認同的做法，且前後動詞結構需平行，皆接原形動詞。(B) wasting 動名詞破壞平行；(C) to waste 不定詞錯誤；(D) wasted 過去式錯誤。"
+    },
+    {
+      "topic": "might as well + 原形 V 不妨",
+      "level": 3,
+      "q": "Since the rain shows no sign of stopping anytime soon, we might as well ____ here until it clears up.",
+      "options": [
+        "to wait",
+        "wait",
+        "waiting",
+        "have waited"
+      ],
+      "answer": 1,
+      "zh": "既然雨短時間內沒有停的跡象，我們不妨在這裡等到放晴。",
+      "explain": "might as well + 原形動詞 為慣用語，意為「不妨；倒不如」，常用於權衡後提出最合理的建議。(A) to wait 不定詞錯誤；(C) waiting 動名詞錯誤；(D) have waited 完成式與現在提議的語境不符。"
+    },
+    {
+      "topic": "Would that + 假設語氣 但願",
+      "level": 3,
+      "q": "Would that my beloved grandmother ____ still alive to see me graduate from college today!",
+      "options": [
+        "were",
+        "is",
+        "will be",
+        "has been"
+      ],
+      "answer": 0,
+      "zh": "但願我親愛的祖母今天依然在世，能看著我大學畢業！",
+      "explain": "Would that + 主詞 + 假設語氣動詞 ＝ I wish (that)...，表示「但願…；要是…就好了」。與現在事實相反的假設，be 動詞一律用 were。(B) is 為直述式現在式；(C) will be 為未來式；(D) has been 為現在完成式。"
+    },
+    {
+      "topic": "have + 受詞 + p.p. 表非自願之遭遇",
+      "level": 3,
+      "q": "During the devastating typhoon last weekend, the farmer had his entire greenhouse ____ down.",
+      "options": [
+        "blow",
+        "blown",
+        "blowing",
+        "to blow"
+      ],
+      "answer": 1,
+      "zh": "在上週末的毀滅性颱風中，那位農夫的整座溫室被吹倒了。",
+      "explain": "S + have + O + p.p. 在此表示「遭遇到不幸的遭遇或經驗」，greenhouse（溫室）與 blow down（吹倒）為被動關係，故用過去分詞 blown。(A) blow 原形動詞表主動；(C) blowing 現在分詞表正在主動吹；(D) to blow 不定詞錯誤。"
+    },
+    {
+      "topic": "第二、三人稱 + shall 表規定與命令",
+      "level": 3,
+      "q": "\"Whoever breaks the school rules ____ receive appropriate detention,\" declared the principal.",
+      "options": [
+        "would",
+        "shall",
+        "might",
+        "ought"
+      ],
+      "answer": 1,
+      "zh": "校長宣布：「凡是違反校規者，都必須受到相應的留校處分。」",
+      "explain": "在正式條文、規章或嚴肅宣告中，第二、三人稱搭配 shall 表示說話者的強制命令、決定或法律必然性（必須、規定）。(A) would 表意願或假設；(C) might 表輕微可能，語氣不足；(D) ought 缺少 to。"
+    },
+    {
+      "topic": "as... as can/could be 極為",
+      "level": 3,
+      "q": "After receiving the acceptance letter from her dream university, Monica was as delighted as ____.",
+      "options": [
+        "could be",
+        "can be",
+        "would be",
+        "must be"
+      ],
+      "answer": 0,
+      "zh": "收到理想大學的錄取通知書後，莫妮卡高興得不得了（極度欣喜）。",
+      "explain": "as + 形容詞 + as can / could be 為固定慣用語，意為「非常、極度」。因為主要子句動詞 was 為過去簡單式，故配合時態改用 could be。(B) can be 用於現在式（如 She is as happy as can be）；(C) would be 與 (D) must be 皆非此固定成語形式。"
+    }
+  ]
+}

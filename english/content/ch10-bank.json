@@ -1,0 +1,566 @@
+{
+  "chapter": 10,
+  "title": "冠詞",
+  "items": [
+    {
+      "topic": "不定冠詞 a/an 的語音選擇",
+      "level": 1,
+      "q": "It is ____ honor to be invited to give a speech at such an important conference.",
+      "options": [
+        "the",
+        "one",
+        "a",
+        "an"
+      ],
+      "answer": 3,
+      "zh": "很榮幸能受邀在如此重要的會議上發表演說。",
+      "explain": "名詞 honor 的開頭字母 h 不發音，以母音 [ˈɑːnər] 開頭，因此前面需搭配不定冠詞 an，故選 (D)。(A) the 表特定，但此處為固定句型「It is an honor to...（做某事是種榮幸）」；(B) one 為基數詞，表數量「一個」，不符合此處語法；(C) a 只能用於子音發音開頭的字詞。"
+    },
+    {
+      "topic": "不定冠詞 a/an 的語音選擇",
+      "level": 1,
+      "q": "Jeremy bought ____ used car that was in excellent condition from his neighbor.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "some"
+      ],
+      "answer": 1,
+      "zh": "傑瑞米向他的鄰居買了一輛車況極佳的中古車。",
+      "explain": "形容詞 used 雖然以母音字母 u 開頭，但其發音為半子音 [juːzd]，因此前面需用不定冠詞 a，故選 (B)。(A) an 只能用於母音發音開頭的字詞（如 an umbrella）；(C) the 用於特指已知對象，此處為初次提及不特定的中古車；(D) some 後接複數名詞或不可數名詞，car 為單數可數名詞。"
+    },
+    {
+      "topic": "不定冠詞 a/an 的語音選擇",
+      "level": 1,
+      "q": "The scientist has ____ Ph.D. in chemistry and ____ MBA from Harvard University.",
+      "options": [
+        "a; an",
+        "an; a",
+        "a; a",
+        "an; an"
+      ],
+      "answer": 0,
+      "zh": "這位科學家擁有化學博士學位以及哈佛大學的工商管理碩士學位。",
+      "explain": "字母與縮寫詞搭配之冠詞取決於讀音。Ph.D. 開頭字母 P 讀作 [piː]（子音發音），故用 a；MBA 開頭字母 M 讀作 [ɛm]（母音發音），故用 an。因此選 (A)。(B)(C)(D) 之冠詞搭配皆不符讀音規則。"
+    },
+    {
+      "topic": "不定冠詞表「每一（per）」",
+      "level": 1,
+      "q": "Doctors usually advise people to brush their teeth at least twice ____ day.",
+      "options": [
+        "per the",
+        "in a",
+        "a",
+        "the"
+      ],
+      "answer": 2,
+      "zh": "醫生通常建議人們每天至少刷兩次牙。",
+      "explain": "不定冠詞 a/an 可表「每一（per）」，twice a day 即「每天兩次」，故選 (C)。(A) 英文無 per the 之用法；(B) in a day 表示「在一天之內」，不表頻率單位；(D) the 表示特定，無「每一」之頻率義。"
+    },
+    {
+      "topic": "不定冠詞表「同一（the same）」",
+      "level": 1,
+      "q": "Although they have different personalities, they are of ____ mind about this project.",
+      "options": [
+        "the",
+        "any",
+        "some",
+        "a"
+      ],
+      "answer": 3,
+      "zh": "雖然他們個性不同，但對於這個專案卻是想法一致（同一心思）。",
+      "explain": "片語 of a mind 意為 of the same mind「看法一致、同一心思」，此處不定冠詞 a 等於 the same，故選 (D)。(A) of the mind 意為「精神上的」；(B)(C) 皆不符合「of a + 名詞」表「同一…」之成語結構。"
+    },
+    {
+      "topic": "不定冠詞表「某一個（a certain）」",
+      "level": 1,
+      "q": "____ Mr. Lin called this afternoon while you were out, but he didn't leave a message.",
+      "options": [
+        "A",
+        "The",
+        "One of",
+        "Some of"
+      ],
+      "answer": 0,
+      "zh": "今天下午你外出時，有一位林先生打電話來，但他沒有留言。",
+      "explain": "「a ＋ 姓氏稱謂」表示「某一位（a certain）」，指說話者不認識的某人，故選 (A)。(B) The 用於雙方熟知之特定人；(C) One of 後需接複數名詞；(D) Some of 後亦需接複數名詞。"
+    },
+    {
+      "topic": "不定冠詞表「像…一樣的人」",
+      "level": 1,
+      "q": "The young boy plays the violin so well that people consider him ____ Mozart.",
+      "options": [
+        "the",
+        "one",
+        "some",
+        "a"
+      ],
+      "answer": 3,
+      "zh": "這個小男孩小提琴拉得非常好，人們把他視為未來的莫札特（像莫札特那樣的天才）。",
+      "explain": "專有名詞前加不定冠詞 a/an，表示「像…一樣有才華的人（one like...）」，故選 (D)。(A) the 用於特指歷史上的本尊，或受後位修飾時；(B) one 表數量一，無比喻意味；(C) some 不修飾單數專有名詞作比喻。"
+    },
+    {
+      "topic": "定冠詞 the 表獨一無二的事物",
+      "level": 1,
+      "q": "____ moon orbits around ____ earth once every 27.3 days.",
+      "options": [
+        "The; an",
+        "A; the",
+        "The; the",
+        "A; an"
+      ],
+      "answer": 2,
+      "zh": "月球每 27.3 天繞地球公轉一次。",
+      "explain": "宇宙中獨一無二的天體與自然物（如 the moon, the earth, the sun, the sky）前面皆須加定冠詞 the，故選 (C)。(A)(B)(D) 使用不定冠詞 a/an 皆違反獨一天體規則。"
+    },
+    {
+      "topic": "定冠詞 the 與樂器 vs. 運動名詞",
+      "level": 1,
+      "q": "After school, David enjoys playing ____ guitar, while his brother prefers playing ____ soccer.",
+      "options": [
+        "the; the",
+        "the; x",
+        "x; the",
+        "x; x"
+      ],
+      "answer": 1,
+      "zh": "放學後，大衛喜歡彈吉他，而他弟弟則比較喜歡踢足球。",
+      "explain": "西洋樂器名稱前需加定冠詞 the（play the guitar）；球類與運動名稱前則不加冠詞（play soccer）。因此選 (B)。(A)(C)(D) 皆違反此規則。"
+    },
+    {
+      "topic": "定冠詞 the ＋ 比較級 of the two",
+      "level": 1,
+      "q": "Between the two sisters, Emily is definitely ____.",
+      "options": [
+        "taller",
+        "the tallest",
+        "tallest",
+        "the taller"
+      ],
+      "answer": 3,
+      "zh": "在這對姊妹之中，艾蜜莉顯然是比較高的那一個。",
+      "explain": "在兩者之間進行比較時，指「兩者中較…的那一個」，需用「the ＋ 比較級 ＋ of the two」，故選 (D)。(A) 缺少定冠詞 the；(B)(C) 最高級用於三者或三者以上，兩者之間不能用最高級。"
+    },
+    {
+      "topic": "定冠詞 the ＋ 形容詞表複數人群",
+      "level": 1,
+      "q": "The government has introduced several new policies to provide better healthcare for ____.",
+      "options": [
+        "elderly",
+        "the elderly",
+        "an elderly",
+        "the elderlies"
+      ],
+      "answer": 1,
+      "zh": "政府實施了數項新政策，為年長者提供更好的醫療照護。",
+      "explain": "「the ＋ 形容詞」可代表某一類人群，視為複數名詞，the elderly ＝ elderly people（長者、老年人），故選 (B)。(A) 單純形容詞不能作介系詞 for 的受詞；(C) an elderly 後面缺少名詞 person；(D) elderly 為形容詞，無名詞複數字尾 -ies。"
+    },
+    {
+      "topic": "專有名詞與定冠詞：地理名詞（山脈 vs. 單峰）",
+      "level": 1,
+      "q": "____ Himalayas are the highest mountain range on Earth, and Mount Everest is ____ highest peak.",
+      "options": [
+        "The; the",
+        "x; the",
+        "The; a",
+        "x; a"
+      ],
+      "answer": 0,
+      "zh": "喜馬拉雅山脈是地球上最高的山脈，而聖母峰是其最高峰。",
+      "explain": "山脈名稱（複數概念）前必須加定冠詞 the（The Himalayas）；最高級形容詞前亦須加 the（the highest peak）。故選 (A)。(B)(C)(D) 冠詞有所遺漏或錯誤。"
+    },
+    {
+      "topic": "專有名詞與定冠詞：海洋、河流與運河",
+      "level": 1,
+      "q": "The cruise ship traveled across ____ Pacific Ocean and passed through ____ Panama Canal.",
+      "options": [
+        "a; a",
+        "x; x",
+        "the; x",
+        "the; the"
+      ],
+      "answer": 3,
+      "zh": "這艘郵輪橫越太平洋並通過巴拿馬運河。",
+      "explain": "洋（the Pacific Ocean）與運河（the Panama Canal）等水域名稱，前皆須加定冠詞 the，故選 (D)。(A)(B)(C) 皆不符合地理水域名稱加 the 的規則。"
+    },
+    {
+      "topic": "冠詞的省略：學科與三餐",
+      "level": 1,
+      "q": "We usually have ____ lunch at noon and then attend ____ biology class in the afternoon.",
+      "options": [
+        "the; the",
+        "a; a",
+        "x; x",
+        "the; a"
+      ],
+      "answer": 2,
+      "zh": "我們通常中午吃午餐，然後下午上生物課。",
+      "explain": "日常三餐名稱（lunch）前不加冠詞（have lunch）；學校學科名稱（biology）前亦不加冠詞（attend biology class）。因此兩者皆為零冠詞，選 (C)。(A)(B)(D) 任意添加冠詞皆屬語法錯誤。"
+    },
+    {
+      "topic": "冠詞的省略：交通方式（by ＋ 交通工具）",
+      "level": 1,
+      "q": "Mr. Johnson prefers traveling to work ____ instead of driving his own car.",
+      "options": [
+        "by a train",
+        "by the train",
+        "with train",
+        "by train"
+      ],
+      "answer": 3,
+      "zh": "強生先生偏好搭火車上班，而不是自己開車。",
+      "explain": "「by ＋ 交通工具單數」為固定片語，中間不加任何冠詞（by train, by bus, by taxi, by car），故選 (D)。(A)(B) 在 by 之後多加了冠詞；(C) with 不能用於此處表示搭乘交通工具。"
+    },
+    {
+      "topic": "冠詞位置：what / such / many",
+      "level": 2,
+      "q": "It was ____ enjoyable experience that none of us wanted to leave the party early.",
+      "options": [
+        "so",
+        "such an",
+        "such a",
+        "a such"
+      ],
+      "answer": 1,
+      "zh": "那是如此愉快的一次經驗，以至於我們沒有人想提前離開派對。",
+      "explain": "句型為「such ＋ a/an ＋ 形容詞 ＋ 單數名詞 ＋ that...」。形容詞 enjoyable 以母音 [ɪnˈdʒɔɪəbl] 開頭，故用 such an，選 (B)。(A) so 後接「形容詞 ＋ a/an ＋ 名詞」（so enjoyable an experience）；(C) a 不可用於母音開頭之單字；(D) such 需置於冠詞之前，無 a such 之語序。"
+    },
+    {
+      "topic": "冠詞位置：so / as / too / how",
+      "level": 2,
+      "q": "The smartphone is sold at ____ low a price that it quickly sold out within hours.",
+      "options": [
+        "so",
+        "such",
+        "very",
+        "too"
+      ],
+      "answer": 0,
+      "zh": "這款智慧型手機以如此低廉的價格出售，幾小時內就迅速售罄。",
+      "explain": "副詞 so 修飾形容詞時語序為「so ＋ 形容詞 ＋ a/an ＋ 單數名詞 ＋ that...」（so low a price that...），故選 (A)。(B) such 語序為 such a low price；(C) very 不能置於 a 之前構成此句型；(D) too 搭配 to V（too low a price to ignore），接 that 子句需用 so。"
+    },
+    {
+      "topic": "冠詞位置：too ＋ 形容詞 ＋ a ＋ 名詞 ＋ to V",
+      "level": 2,
+      "q": "This laptop is ____ heavy a burden to carry around every day.",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "very"
+      ],
+      "answer": 2,
+      "zh": "這台筆記型電腦太重了，不適合每天隨身攜帶。",
+      "explain": "副詞 too 的語序為「too ＋ 形容詞 ＋ a(n) ＋ 名詞 ＋ to 原形動詞」，表示「太…以致於不能…」，故選 (C)。(A) such 語序為 such a heavy burden；(B) so 需接 that 子句；(D) very 不能放在冠詞 a 之前修飾形容詞。"
+    },
+    {
+      "topic": "冠詞位置：all / both ＋ the ＋ 名詞",
+      "level": 2,
+      "q": "____ participants received a certificate of completion at the end of the seminar.",
+      "options": [
+        "The all",
+        "All the",
+        "Whole",
+        "The both"
+      ],
+      "answer": 1,
+      "zh": "所有參與者在研討會結束時都獲得了一張結業證書。",
+      "explain": "all 和 both 屬於前置限定詞，必須放在定冠詞 the 之前，形成「All / Both ＋ the ＋ 複數名詞」，故選 (B)。(A) 語序顛倒；(C) whole 前需有 the（The whole...）；(D) both 亦需置於 the 之前（Both the）。"
+    },
+    {
+      "topic": "動詞 ＋ 受詞 ＋ 介系詞 ＋ the ＋ 身體部位",
+      "level": 2,
+      "q": "The teacher gently patted the crying student on ____ shoulder to comfort him.",
+      "options": [
+        "a",
+        "his",
+        "her",
+        "the"
+      ],
+      "answer": 3,
+      "zh": "老師輕輕拍了拍那位哭泣學生的肩膀以安慰他。",
+      "explain": "英語中表達「觸及或拍打某人身體部位」時，通常以人為受詞，其後接「介系詞 ＋ the ＋ 身體部位」（pat sb on the shoulder），故選 (D)。(A) a 不符此句型；(B)(C) 依標準語法此句型一律使用定冠詞 the 而非所有格。"
+    },
+    {
+      "topic": "動詞 ＋ 受詞 ＋ 介系詞 ＋ the ＋ 身體部位",
+      "level": 2,
+      "q": "The police officer seized the fleeing thief by ____ arm before he could escape.",
+      "options": [
+        "an",
+        "his",
+        "the",
+        "one"
+      ],
+      "answer": 2,
+      "zh": "警察在那名逃跑的小偷脫逃之前一把抓住了他的手臂。",
+      "explain": "抓住某人身體部位時，句型為「catch / take / seize sb by the ＋ 部位」，必須使用定冠詞 the，故選 (C)。(A) 此句型特指被抓的該部位，慣用 the；(B) 標準句型不使用所有格 his；(D) one arm 強調數量「一隻手臂」，不符合慣用句型。"
+    },
+    {
+      "topic": "建築物用途 vs. 建築物場所實體",
+      "level": 2,
+      "q": "Kelly was seriously injured in the car accident and had to be rushed to ____.",
+      "options": [
+        "the hospital",
+        "hospital",
+        "a hospital",
+        "one hospital"
+      ],
+      "answer": 1,
+      "zh": "凱莉在車禍中受了重傷，必須被緊急送醫救治。",
+      "explain": "名詞如 hospital, school, church, prison, bed 當指其「原本設立的功能或目的」時，視為抽象概念，不加冠詞。be rushed to hospital 意為「送醫急救」，故選 (B)。(A) the hospital 指前往醫院該棟建築物（如探病）；(C)(D) 強調特定或單一建築，非表達就醫目的。"
+    },
+    {
+      "topic": "建築物用途 vs. 建築物場所實體",
+      "level": 2,
+      "q": "Jason is going to ____ tomorrow to speak with the principal about his daughter's grades.",
+      "options": [
+        "school",
+        "a school",
+        "the school",
+        "schools"
+      ],
+      "answer": 2,
+      "zh": "傑森明天要去學校和校長談談他女兒的成績。",
+      "explain": "傑森是家長，前往學校是為了與校長會談（特定場所實體），而不是去上學讀書（go to school 表就讀），因此必須加定冠詞 the，故選 (C)。(A) go to school 表示學生上學；(B) a school 表不特定一所學校；(D) 複數名詞與語意不合。"
+    },
+    {
+      "topic": "計量單位：by the ＋ 單位名詞",
+      "level": 2,
+      "q": "At this local farm, organic eggs are sold by ____ dozen rather than by weight.",
+      "options": [
+        "a",
+        "one",
+        "x",
+        "the"
+      ],
+      "answer": 3,
+      "zh": "在這個當地農場，有機雞蛋是按打販售，而不是按重量計價。",
+      "explain": "表示「按…計算／論…計酬」時，英文句型為「by the ＋ 計量單位名詞」，如 by the dozen（按打計）、by the pound（按磅計），故選 (D)。(A) a dozen 表示「一打（12個）」，前面有 by 表計量單位時需用 the；(B)(C) 不符「by the ＋ 單位」之固定句型。"
+    },
+    {
+      "topic": "專有名詞：姓氏複數前加 the 表全家人",
+      "level": 2,
+      "q": "____ have decided to move to New York because of Mr. Smith's new job.",
+      "options": [
+        "The Smiths",
+        "Smiths",
+        "The Smith",
+        "A Smith"
+      ],
+      "answer": 0,
+      "zh": "史密斯一家人因為史密斯先生的新工作決定搬到紐約。",
+      "explain": "「The ＋ 姓氏複數（-s/-es）」表示「該姓氏全家人」或「該夫妻倆」，視為複數名詞，動詞用 have，故選 (A)。(B) 缺少定冠詞 The；(C) 姓氏未加複數 -s；(D) A Smith 表「一位叫史密斯的人」，動詞不能接複數 have。"
+    },
+    {
+      "topic": "冠詞重複：同一人兼兩職 vs. 兩個不同的人",
+      "level": 2,
+      "q": "The secretary and ____ of the company has signed the official agreement.",
+      "options": [
+        "treasurer",
+        "a treasurer",
+        "the treasurer",
+        "treasurers"
+      ],
+      "answer": 0,
+      "zh": "該公司的秘書兼財務主管已經簽署了這份正式合約。",
+      "explain": "動詞為單數 has signed，表示「秘書兼財務主管」為同一人兼任兩職。當兩個職稱指同一人時，只在第一個名詞前加冠詞（The secretary and treasurer），第二個名詞不加冠詞，故選 (A)。若選 (B)(C)，則代表兩位不同的人，動詞需用複數 have signed；(D) 複數名詞與單數動詞矛盾。"
+    },
+    {
+      "topic": "冠詞重複：兩件物品 vs. 一件雙色物品",
+      "level": 2,
+      "q": "Look at those dogs! Henry is walking a black and ____ dog, while Lisa is walking two dogs.",
+      "options": [
+        "white",
+        "a white",
+        "the white",
+        "whites"
+      ],
+      "answer": 0,
+      "zh": "看那些狗！亨利正牽著一隻黑白相間的狗，而麗莎則牽著兩隻狗。",
+      "explain": "亨利只牽一隻狗（dog 為單數），「a black and white dog」表示「一隻黑白相間（雙色）的狗」，故選 (A)。(B) a white 會形成「a black and a white dog」，冠詞重複表示兩隻狗，與單數 dog 矛盾；(C)(D) 文法結構不正確。"
+    },
+    {
+      "topic": "零冠詞：頭銜與身分作補語",
+      "level": 2,
+      "q": "In 2024, she was elected ____ president of the student council by a large majority.",
+      "options": [
+        "a",
+        "the",
+        "x",
+        "one"
+      ],
+      "answer": 2,
+      "zh": "在 2024 年，她以極大優勢當選為學生會會長。",
+      "explain": "當表示獨一無二的職位、頭銜（如 president, chairman, mayor）作補語時，通常省略冠詞（零冠詞 x），故選 (C)。(A)(B)(D) 在此職位補語用法中皆不符嚴謹文法慣例。"
+    },
+    {
+      "topic": "零冠詞：成對詞語（名詞對稱）",
+      "level": 2,
+      "q": "The young couple walked along the beach ____, whispering sweet words to each other.",
+      "options": [
+        "arm in an arm",
+        "hand in hand",
+        "the hand in the hand",
+        "hand with hand"
+      ],
+      "answer": 1,
+      "zh": "這對年輕情侶手牽著手沿著海灘散步，彼此耳語著甜言蜜語。",
+      "explain": "在名詞成對出現的介系詞片語中，名詞皆採用零冠詞，如 hand in hand（手牽手）、face to face（面對面）、arm in arm（臂挽臂），故選 (B)。(A)(C)(D) 多加了冠詞或使用了錯誤介系詞。"
+    },
+    {
+      "topic": "抽象名詞一般無冠詞 vs. 被特定修飾時加 the",
+      "level": 2,
+      "q": "____ is the foundation of mutual trust, but ____ you showed today was truly admirable.",
+      "options": [
+        "Honesty; the honesty",
+        "The honesty; honesty",
+        "Honesty; an honesty",
+        "An honesty; the honesty"
+      ],
+      "answer": 0,
+      "zh": "誠實是互信的基石，但你今天所展現的誠實確實令人欽佩。",
+      "explain": "前半句 Honesty 表一般的抽象概念，不加冠詞；後半句 honesty 後有關係子句 you showed today 特定限定，故需加定冠詞 the。因此選 (A)。(B)(C)(D) 冠詞用法顛倒或有誤。"
+    },
+    {
+      "topic": "冠詞位置：how / so ＋ 形容詞 ＋ a ＋ 名詞",
+      "level": 3,
+      "q": "Few people realize ____ difficult a task it was to finish the mission before dawn.",
+      "options": [
+        "what",
+        "such",
+        "quite",
+        "how"
+      ],
+      "answer": 3,
+      "zh": "很少人體會到在破曉前完成這項任務是多麼艱鉅的一件事。",
+      "explain": "「how ＋ 形容詞 ＋ a(n) ＋ 單數名詞 ＋ 主詞 ＋ 動詞」為固定語序（how difficult a task it was），故選 (D)。(A) what 語序為 what a difficult task；(B) such 語序為 such a difficult task；(C) quite 語序通常為 quite a difficult task。"
+    },
+    {
+      "topic": "The ＋ 比較級，the ＋ 比較級",
+      "level": 3,
+      "q": "____ harder you train for the marathon, ____ confident you will feel at the starting line.",
+      "options": [
+        "A; a",
+        "The; the more",
+        "More; more",
+        "The; the most"
+      ],
+      "answer": 1,
+      "zh": "你為馬拉松訓練得越勤奮，在起跑線上就會感到越有自信。",
+      "explain": "「The ＋ 比較級…，the ＋ 比較級…」表示「越…，就越…」。harder 為比較級，confident 的比較級為 more confident，前後皆需加 The，故選 (B)。(A) 不定冠詞無法引導此句型；(C) 缺少 The；(D) 後半句不可用最高級 the most。"
+    },
+    {
+      "topic": "專有名詞全稱（含 of 片語）與定冠詞",
+      "level": 3,
+      "q": "While ____ United Kingdom is an island nation, ____ France is located on mainland Europe.",
+      "options": [
+        "the; x",
+        "x; the",
+        "the; the",
+        "x; x"
+      ],
+      "answer": 0,
+      "zh": "英國是一個島國，而法國則位於歐洲大陸。",
+      "explain": "國名包含普通名詞（kingdom, states, republic）或具聯合性質時，前需加定冠詞 the（the United Kingdom）；由單一專有名詞構成的普通國名（如 France, Japan）前不加冠詞，故選 (A)。(B)(C)(D) 皆違反國名冠詞規則。"
+    },
+    {
+      "topic": "the same ... as vs. the same ... that",
+      "level": 3,
+      "q": "She bought ____ bag as mine, but hers is blue while mine is black.",
+      "options": [
+        "same",
+        "a same",
+        "the same",
+        "such a"
+      ],
+      "answer": 2,
+      "zh": "她買了和我同款（同式樣）的包包，但她的是藍色的，而我的是黑色的。",
+      "explain": "the same ... as 表示「與…同款／同一種類（同型不同物）」，same 前面必須有定冠詞 the，故選 (C)。(A) 缺少 the；(B) same 前不能用 a；(D) such a 後不接 as mine 表同款物品。"
+    },
+    {
+      "topic": "kind of / sort of ＋ 名詞（名詞前零冠詞）",
+      "level": 3,
+      "q": "What sort of ____ do you recommend for someone who wants to learn coding from scratch?",
+      "options": [
+        "a programming language",
+        "programming language",
+        "the programming language",
+        "programming languages of"
+      ],
+      "answer": 1,
+      "zh": "對於想要從零開始學習寫程式的人，你推薦哪種程式語言？",
+      "explain": "在「what kind of / sort of / type of ＋ 單數名詞」結構中，後面的名詞前不加冠詞（零冠詞），直接接單數名詞，故選 (B)。(A) 多加了 a；(C) 多加了 the；(D) 語法混亂且多加了 of。"
+    },
+    {
+      "topic": "物質名詞無冠詞 vs. 受修飾特定化",
+      "level": 3,
+      "q": "Although ____ is considered a healthy drink, ____ produced in that polluted region is unsafe.",
+      "options": [
+        "the tea; tea",
+        "a tea; the tea",
+        "tea; the tea",
+        "tea; tea"
+      ],
+      "answer": 2,
+      "zh": "雖然茶被認為是健康飲品，但那個受污染地區所生產的茶是不安全的。",
+      "explain": "第一個 tea 為物質名詞泛指一般茶飲，不加冠詞；第二個 tea 後有分詞片語 produced in that polluted region 進行特定限定，故需加定冠詞 the。因此選 (C)。(A) 第一處多加了 the；(B) 不可數名詞不能加 a；(D) 第二處缺少 the。"
+    },
+    {
+      "topic": "不定冠詞慣用片語 vs. 零冠詞成對片語",
+      "level": 3,
+      "q": "The manager was ____ to explain why the project had failed so completely.",
+      "options": [
+        "at loss",
+        "at the loss",
+        "in a loss",
+        "at a loss"
+      ],
+      "answer": 3,
+      "zh": "經理茫然不知所措，無法解釋為什麼該專案會如此徹底地失敗。",
+      "explain": "「at a loss」為固定片語，意為「不知所措、茫然」，其中不定冠詞 a 不可省略也不可用 the 代替，故選 (D)。(A) 缺少 a；(B) 不能用 the；(C) 介系詞錯誤，不可用 in。"
+    },
+    {
+      "topic": "雙主詞冠詞與動詞一致性",
+      "level": 3,
+      "q": "A poet and a novelist ____ giving lectures at the university this semester.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has been"
+      ],
+      "answer": 1,
+      "zh": "一位詩人和一位小說家這學期正在這所大學舉辦講座。",
+      "explain": "「A poet and a novelist」兩名詞前皆有不定冠詞 a，表示兩位不同的人，主詞為複數，故動詞需用複數 are，選 (B)。(A)(C)(D) 皆為單數動詞；若為一人兼兩職，則寫作「A poet and novelist is...」。"
+    },
+    {
+      "topic": "定冠詞 the ＋ 形容詞表抽象概念",
+      "level": 3,
+      "q": "Philosophers throughout history have constantly searched for ____, the good, and the beautiful.",
+      "options": [
+        "true",
+        "a truth",
+        "truthful",
+        "the true"
+      ],
+      "answer": 3,
+      "zh": "縱觀歷史，哲學家們一直在不斷追尋真、善、美。",
+      "explain": "「the ＋ 形容詞」可表示崇高的抽象概念。「the true（真）」、「the good（善）」、「the beautiful（美）」並列對稱，故選 (D)。(A) 形容詞 true 不能單獨作受詞；(B) a truth 表具體事實，與後面兩者形式不對稱；(C) truthful 為形容詞，無法作受詞。"
+    },
+    {
+      "topic": "冠詞省略：獨立複合結構 / 成對名詞",
+      "level": 3,
+      "q": "The detective searched the suspect's apartment thoroughly from ____, but found nothing.",
+      "options": [
+        "the top to the bottom",
+        "a top to a bottom",
+        "top to bottom",
+        "the top to bottom"
+      ],
+      "answer": 2,
+      "zh": "刑警徹底地從頭到尾（從上到下）搜查了嫌犯的公寓，但一無所獲。",
+      "explain": "成對相對的名詞在介系詞片語中常省略冠詞（零冠詞），from top to bottom（從上到下、徹底地）為固定成語，故選 (C)。(A)(B)(D) 任意添加冠詞皆違反道地成語用法。"
+    }
+  ]
+}

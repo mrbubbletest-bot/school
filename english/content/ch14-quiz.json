@@ -1,0 +1,834 @@
+{
+  "chapter": 14,
+  "title": "形容詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Mary made ____ mistakes in her last examination.",
+          "options": [
+            "lot of",
+            "a lot of",
+            "much",
+            "so much"
+          ],
+          "answer": 1,
+          "zh": "瑪麗在她最後的考試中出了很多錯。",
+          "explain": "a lot of ＋ 複數名詞（許多）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "She was desperate because there is ____ hope.",
+          "options": [
+            "a little",
+            "a few",
+            "few",
+            "little"
+          ],
+          "answer": 3,
+          "zh": "她絕望了，因為沒有什麼希望。",
+          "explain": "little hope（沒希望）。little 修飾不可數名詞且具否定意味。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "They ate ____ loaves of bread this morning.",
+          "options": [
+            "a little",
+            "a lot of",
+            "a great deal of",
+            "very much"
+          ],
+          "answer": 1,
+          "zh": "他們今天早晨吃了許多條麵包。",
+          "explain": "a lot of ＋ 複數名詞／或不可數名詞。loaves 為可數名詞複數。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Since they are moving to a new house, they have to buy ____ furniture.",
+          "options": [
+            "many",
+            "a lot of",
+            "quite a few",
+            "a few"
+          ],
+          "answer": 1,
+          "zh": "因為他們搬到新家，所以他們必須買許多家具。",
+          "explain": "furniture（家具）為不可數名詞，用 a lot of 修飾。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "It is very probable that you spend ____ time in the laboratory every day.",
+          "options": [
+            "many",
+            "a number of",
+            "a few",
+            "a lot of"
+          ],
+          "answer": 3,
+          "zh": "你每天在實驗室待很久是很有可能的。",
+          "explain": "a lot of ＋ 不可數名詞或複數名詞。time 在此為不可數名詞。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "I have just finished a very ____ story.",
+          "options": [
+            "interest",
+            "interesting",
+            "interested",
+            "interested in"
+          ],
+          "answer": 1,
+          "zh": "我剛看完一篇有趣的故事。",
+          "explain": "用 interesting（有趣的）修飾事物（story）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "His teacher seemed to ____ his composition.",
+          "options": [
+            "satisfy with",
+            "be satisfied by",
+            "be satisfied with",
+            "satisfy"
+          ],
+          "answer": 2,
+          "zh": "他的老師似乎對他的作文感到滿意。",
+          "explain": "人 be satisfied with 事（對～感到滿意）。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "I felt ____ by his interest.",
+          "options": [
+            "encourage",
+            "to encourage",
+            "was encourage",
+            "encouraged"
+          ],
+          "answer": 3,
+          "zh": "我受到他的關心所鼓勵。",
+          "explain": "連綴動詞 (feel) ＋ 形容詞／過去分詞（主詞補語）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "They felt quite ____ when they reached the top of the mountain.",
+          "options": [
+            "exhaustion",
+            "exhaust",
+            "exhausting",
+            "exhausted"
+          ],
+          "answer": 3,
+          "zh": "他們到達山頂時，覺得相當累。",
+          "explain": "連綴動詞 (feel) ＋ 形容詞／過去分詞（主詞補語）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "I ____ at learning of the truth.",
+          "options": [
+            "was surprising",
+            "was surprised",
+            "surprised",
+            "am surprise"
+          ],
+          "answer": 1,
+          "zh": "獲知真相使我感到驚訝。",
+          "explain": "人 be surprised at 事物（對…感到驚訝）。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "I didn't enjoy the party because I ____.",
+          "options": [
+            "was boring",
+            "bore",
+            "was bored",
+            "am boring"
+          ],
+          "answer": 2,
+          "zh": "我不喜歡參加宴會，因為我對宴會感到厭煩。",
+          "explain": "表示「情緒」的動詞以「過去分詞」作主詞補語，修飾主詞（人）。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "The lazy boy always feels ____ during classes.",
+          "options": [
+            "sleep",
+            "sleepy",
+            "asleep",
+            "slept"
+          ],
+          "answer": 1,
+          "zh": "這個懶惰的男孩上課時總是想睡覺。",
+          "explain": "feel sleepy（想睡的），fall asleep（睡著的）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "The king had only this beautiful ____ princess.",
+          "options": [
+            "gold-hair",
+            "golden-haired",
+            "golden-hair",
+            "gold-haired"
+          ],
+          "answer": 1,
+          "zh": "國王只有這一位漂亮的金髮公主。",
+          "explain": "golden-haired（金黃色的頭髮）。形容詞 ─ 名詞-ed 形成複合形容詞。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "You would have to put almost a spoonful of sugar in a glass of water to make it taste ____.",
+          "options": [
+            "sweet",
+            "sweetly",
+            "sweetness",
+            "sweeten"
+          ],
+          "answer": 0,
+          "zh": "你必須把將近一湯匙的糖倒入一杯水中去，使它嚐起來甜甜的。",
+          "explain": "連綴動詞 (taste) ＋ 形容詞。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "He looked ____.",
+          "options": [
+            "angrily the people around him",
+            "tired and restless",
+            "the girl he loved",
+            "exciting and embarrassing"
+          ],
+          "answer": 1,
+          "zh": "他看起來疲倦而且坐立不安。",
+          "explain": "① 連綴動詞 (look) ＋ 形容詞（主詞補語）。\n② (D) 要改為 excited and embarrassed 才能修飾人。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "You can learn ____ from everyone.",
+          "options": [
+            "some useful thing",
+            "something usefully",
+            "somethings useful",
+            "something useful"
+          ],
+          "answer": 3,
+          "zh": "你可以從每個人身上學到一些有益的東西。",
+          "explain": "something ＋ 形容詞（形容詞後位修飾複合代名詞）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "About three ____ of the students were present.",
+          "options": [
+            "fifth",
+            "five",
+            "fifths",
+            "fives"
+          ],
+          "answer": 2,
+          "zh": "大約有五分之三的學生出席。",
+          "explain": "「幾分之幾」➜ 分子用基數詞，分母用序數詞，分子 ＞ 1，分母加 s。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "The desk is ____ that one.",
+          "options": [
+            "as two times as long",
+            "as long two times as",
+            "two times as long as",
+            "long as two times than"
+          ],
+          "answer": 2,
+          "zh": "這張書桌是那張書桌的兩倍長。",
+          "explain": "A ＋ 倍數 ＋ as ～ as ＋ B（A 是 B 的…倍～）。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "She is my ____ ten years.",
+          "options": [
+            "senior to",
+            "junior",
+            "senior by",
+            "major in"
+          ],
+          "answer": 2,
+          "zh": "她比我大十歲。",
+          "explain": "A be senior to B / B's senior by 數字 year(s)（A 比 B 大…歲）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Glass is ____ plastic in making windows.",
+          "options": [
+            "better then",
+            "better to",
+            "superior than",
+            "superior to"
+          ],
+          "answer": 3,
+          "zh": "在做窗戶方面，玻璃優於塑膠。",
+          "explain": "be better than ＋ 主格 ＝ be superior to ＋ 受格（優於）。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "A cow is ____ as a horse.",
+          "options": [
+            "strong as an animal",
+            "as a strong animal",
+            "as strong an animal",
+            "as an animal strong"
+          ],
+          "answer": 2,
+          "zh": "牛和馬是一樣強壯的動物。",
+          "explain": "as ＋ 形容詞 ＋ a(n) ＋ 名詞 as（和…一樣）。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "Nobody else in her family is so ____ she is.",
+          "options": [
+            "young as",
+            "younger as",
+            "younger than",
+            "young than"
+          ],
+          "answer": 0,
+          "zh": "她家裡再也沒有其他人比她更年輕了。",
+          "explain": "not so ＋ 原級 ＋ as（不如…一樣的…）。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "As Edison grew ____, he never lost his interest in science.",
+          "options": [
+            "elder",
+            "more old",
+            "oldest",
+            "older"
+          ],
+          "answer": 3,
+          "zh": "當愛迪生漸漸長大，他始終未對科學失去興趣。",
+          "explain": "grow older（漸漸長大）。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "____ to teach a man fishing than to give him fish.",
+          "options": [
+            "It is more",
+            "It is better",
+            "It is no good",
+            "It is the best"
+          ],
+          "answer": 1,
+          "zh": "教一個人釣魚比給他魚要好。（給一個人魚不如教他如何捕魚。）",
+          "explain": "It is ＋ 形容詞 ＋ to ＋ V，因本句有 than，所以形容詞要用比較級 better。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "Beijing is ____ of the two cities.",
+          "options": [
+            "bigger",
+            "more big",
+            "the bigger",
+            "the more big"
+          ],
+          "answer": 2,
+          "zh": "北京是兩個城市中較大的一個。",
+          "explain": "the ＋ 比較級 ＋ of the two...（兩者中較…的）。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "He is brighter than ____ in the class.",
+          "options": [
+            "all the boys",
+            "the all girls",
+            "all the other boys",
+            "all boys and girls"
+          ],
+          "answer": 2,
+          "zh": "他比班上所有其他男孩聰明。",
+          "explain": "避免同一範圍內自己和自己比較，採用 any other ＋ 單數名詞 或 all (the) other ＋ 複數名詞。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "He may be a man of character, but he cannot be ____. (複選)",
+          "options": [
+            "an able man",
+            "a man of able",
+            "a man of ability",
+            "an ability in man"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "zh": "他也許是一位有個性的人，但他不會是個能幹的人。",
+          "explain": "an able man（形容詞修飾名詞）＝ a man of ability（名詞 ability 作 of 的受詞）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "\"He has been on the medication.\" \"The more he takes, ____ he becomes.\"",
+          "options": [
+            "the good",
+            "the better",
+            "the best",
+            "the well"
+          ],
+          "answer": 1,
+          "zh": "「他一直在接受藥物治療。」「他接受的愈多，身體就變得愈好。」",
+          "explain": "the ＋ 比較級…, the ＋ 比較級…（愈…愈…）。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "You are ____ student in the school.",
+          "options": [
+            "the diligentest",
+            "more diligent",
+            "diligenter",
+            "the most diligent"
+          ],
+          "answer": 3,
+          "zh": "你是學校裡最用功的學生。",
+          "explain": "the ＋ 最高級 ＋ ... ＋ of all... / in ＋ 場所。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "This is ____ plan I have ever made.",
+          "options": [
+            "bad",
+            "worse",
+            "the worst",
+            "the badest"
+          ],
+          "answer": 2,
+          "zh": "這是我所做過的最糟的計劃。",
+          "explain": "the ＋ 最高級 ＋ ... ＋ (that) ＋ ... ever...（曾經…最…的）。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "Tom is regarded as ____ businessman in Chicago.",
+          "options": [
+            "best",
+            "most famous",
+            "the richest",
+            "happier"
+          ],
+          "answer": 2,
+          "zh": "湯姆被認為是芝加哥最有錢的商人。",
+          "explain": "the ＋ 最高級 ＋ ... ＋ of all... / in ＋ 場所。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "Are you ____ three sandwiches?",
+          "options": [
+            "enough hungry eat",
+            "enough hungry to eat",
+            "hunger enough eat",
+            "hungry enough to eat"
+          ],
+          "answer": 3,
+          "zh": "你餓得能夠吃三個三明治嗎？",
+          "explain": "形容詞／副詞 ＋ enough to ＋ 原形動詞（足以…）。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "The witness withheld ____ information from the police.",
+          "options": [
+            "some",
+            "many",
+            "a few",
+            "an"
+          ],
+          "answer": 0,
+          "zh": "證人拒絕向警方提供消息。",
+          "explain": "some ＋ 不可數名詞 (information)。"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "She bought the house for fifty-thousand Yuan three years ago, but now it is worth ____ that amount.",
+          "options": [
+            "double more than",
+            "more than double",
+            "more double than",
+            "double than more"
+          ],
+          "answer": 1,
+          "zh": "她三年前買那棟房子花了五萬元，但現在那棟房子所值超過原價的兩倍。",
+          "explain": "more than ＋ 倍數（超過…的幾倍）。"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "Up in the mountains the air is ____ than it is in low lands.",
+          "options": [
+            "thiner and colder",
+            "more thinner and colder",
+            "colder and more thin",
+            "thinner and colder"
+          ],
+          "answer": 3,
+          "zh": "在高山上的空氣較低地稀薄而冷。",
+          "explain": "thin 的比較級 ➜ thinner（重複字尾加 er）；cold 的比較級 ➜ colder。"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "We may have ____ vacation in the coming summer.",
+          "options": [
+            "a two-month",
+            "a two months",
+            "a two month's",
+            "a two months'"
+          ],
+          "answer": 0,
+          "zh": "即將來臨的暑假我們會有兩個月的假期。",
+          "explain": "數字 ─ 單數名詞 作形容詞用。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "Such a competent man as he will be ____ of accomplishing this hard task.",
+          "options": [
+            "able",
+            "likely",
+            "possible",
+            "capable"
+          ],
+          "answer": 3,
+          "zh": "像他那麼有能力的人，將能完成這一艱巨的工作。",
+          "explain": "be capable of（有能力…）。be able 則接不定詞 to ＋ 原形動詞。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "Health is the last thing that ____.",
+          "options": [
+            "patients seriously think of",
+            "wealth can buy",
+            "most people want to have",
+            "counts"
+          ],
+          "answer": 1,
+          "zh": "健康是財富所不能買到的東西。",
+          "explain": "the last ＋ 名詞 ＋ [to ＋ 原形動詞 / 關係子句]（最不可能）。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "John was ____ the daily routine of managing the factory. (複選)",
+          "options": [
+            "not interesting",
+            "disinterested in",
+            "not interested in",
+            "uninterested with",
+            "uninterested in"
+          ],
+          "answer": [
+            2,
+            4
+          ],
+          "zh": "約翰對於處理工廠每天的例行公事不感興趣。",
+          "explain": "人 be not interested in ＋ 事／物（對…不感興趣）＝ 人 be uninterested in ＋ 事／物。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "I enjoy teaching children. I have always found the work of a school teacher rather ____.",
+          "options": [
+            "excited",
+            "funny",
+            "fun",
+            "joking"
+          ],
+          "answer": 2,
+          "zh": "我很喜歡教育小孩，我一直都覺得教師的工作頗為有趣。",
+          "explain": "① (A) excited（感到興奮的），工作只能「令人興奮」，應改為 exciting。\n② (B) funny（可笑的）。\n③ (C) fun 在口語中常作 adj，意為「有趣的」。\n④ (D) joking（開玩笑的）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入適當的英文字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "欲速則不達。\nThe ____ haste, the ____ speed.",
+          "answer": "more / less",
+          "zh": "欲速則不達。",
+          "explain": "The more haste, the less speed. ＝ Haste makes waste.（欲速則不達）。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "早到總比遲到好。\nIt is ____ to be ____ than (to be) ____.",
+          "answer": "better / early / late",
+          "zh": "早到總比遲到好。",
+          "explain": "It is better A than B（A 比 B 要好），AB 詞性需配合。\n例：It is better to try it again than to give it up.（再試一次比放棄要來得好。）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "我儘量用功讀書，使父母高興。\nI study ____ hard ____ I ____ to please my parents.",
+          "answer": "as / as / can",
+          "zh": "我儘量用功讀書，使父母高興。",
+          "explain": "... as hard as [I can / possible / I possibly can]（儘量地去努力）。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "雖然貧窮，他們依然知足而快樂。\n____ poor, they were ____ content and happy.",
+          "answer": [
+            "Though / none the less",
+            "Although / none the less"
+          ],
+          "zh": "雖然貧窮，他們依然知足而快樂。",
+          "explain": "① none the less ＝ all the same ＝ nevertheless（依然；仍然）。\n② 原句 ＝ Though (they are) poor, they are..."
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "他是你最好的朋友，再怎麼說也不會出賣你。\n____ your best friend, he will be ____ person to betray you.",
+          "answer": [
+            "As / the last",
+            "Being / the last"
+          ],
+          "zh": "他是你最好的朋友，再怎麼說也不會出賣你。",
+          "explain": "the last ＋ 名詞 [to ＋ 原形動詞]：（最不可能；最不願意）。\n例：He is the last man to tell lies.（他絕不可能說謊。）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "大致來說，他們所飲用的水比以前髒多了。",
+          "hint": "① 大致來說：generally speaking ② 髒多了：much dirtier",
+          "answer": "Generally speaking, the water they drink today is much dirtier than it was before.",
+          "zh": "大致來說，他們所飲用的水比以前髒多了。",
+          "explain": "① Generally speaking ＝ In general ＝ As a whole（大致上說；一般而言）。\n② than it was ＝ than the water was。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "為避免喝髒水，人們只得買礦泉水喝。",
+          "hint": "礦泉水：mineral water",
+          "answer": "To avoid drinking dirty water, people cannot but buy mineral water to drink.",
+          "zh": "為避免喝髒水，人們只得買礦泉水喝。",
+          "explain": "avoid ＋ V-ing（避免）。cannot but ＋ 原形動詞（只得；不得不）。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "另外，垃圾污染更嚴重，社會治安更惡化。",
+          "hint": "① 垃圾污染：garbage pollution ② 社會治安：social order",
+          "answer": "Besides, garbage pollution is getting more and more serious; social order is going from bad to worse.",
+          "zh": "另外，垃圾污染更嚴重，社會治安更惡化。",
+          "explain": "go from bad to worse ＝ deteriorate（越來越糟；每況愈下）。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "都市空氣污濁，危害人們的身心健康。",
+          "hint": "身心健康：physical and mental health",
+          "answer": "City air is dirty and damages the physical and mental health of the people.",
+          "zh": "都市空氣污濁，危害人們的身心健康。",
+          "explain": "危害：damage, endanger, injure, undermine, impair。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "政府應更加注意這些污染問題，以造福百姓。",
+          "hint": "① 更加注意：pay more attention to",
+          "answer": "The government should pay more attention to these pollution problems for the welfare of the people.",
+          "zh": "政府應更加注意這些污染問題，以造福百姓。",
+          "explain": "① for the welfare of（為了…福利／福祉）。\n② pay attention to（注意）。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，並選出空格內最適當的答案：\n\nThere is a __1.__ old bell tower in Pisa, Italy. It is different from __2.__ tower in the world. This tower leans __3.__ over that it looks like it will __4.__ down. But the tower was built about seven hundred years ago. It hasn't fallen __5.__.\nThe people in the town of Pisa tried to fix their beautiful tower. They __6.__ out that the ground was soft __7.__ there was water in the soil. The people tried to pump the water __8.__ the ground. The pumping didn't __9.__. The tower kept __10.__ over more and more.\n\n【詞彙及短語提示】\n1. bell tower：鐘樓\n2. leans [動] 傾斜\n3. look like：看起來像是…\n4. fix [動] 修理\n5. in the soil：在泥土中\n6. pumping [名] 抽吸（之工作）",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "There is a ____ old bell tower in Pisa, Italy.",
+          "options": [
+            "surprising",
+            "surprised",
+            "surprise",
+            "surprises"
+          ],
+          "answer": 0,
+          "zh": "在義大利比薩有一座令人驚訝的古老鐘樓。",
+          "explain": "surprising [形] 令人驚訝的；surprised [形] 人對…感到驚訝；surprise [動] 令人驚訝。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "It is different from ____ tower in the world.",
+          "options": [
+            "the one",
+            "the other",
+            "any other",
+            "any one"
+          ],
+          "answer": 2,
+          "zh": "它不同於世界上任何其他的塔。",
+          "explain": "different from any other tower（不同於任何其他的鐘樓）。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "This tower leans ____ over that it looks like it will (4) down.",
+          "options": [
+            "so far",
+            "so long",
+            "such far",
+            "such as"
+          ],
+          "answer": 0,
+          "zh": "這座塔傾斜得如此嚴重，以致於看起來快要倒塌了。",
+          "explain": "leans so far over that...：如此傾斜以致於…。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "...that it looks like it will ____ down.",
+          "options": [
+            "look",
+            "drop",
+            "fall",
+            "fell"
+          ],
+          "answer": 2,
+          "zh": "…以致於看起來快要倒塌了。",
+          "explain": "fall down：倒塌；倒下來。will 後接原形動詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "It hasn't fallen ____.",
+          "options": [
+            "already",
+            "yet",
+            "ever",
+            "never"
+          ],
+          "answer": 1,
+          "zh": "但它尚未倒塌。",
+          "explain": "not... yet：尚未；還沒有。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "They ____ out that the ground was soft (7) there was water in the soil.",
+          "options": [
+            "found",
+            "fined",
+            "founded",
+            "find"
+          ],
+          "answer": 0,
+          "zh": "他們發現地面很鬆軟…",
+          "explain": "① find ─ found ─ found：發現（find out 發現）。\n② found ─ founded ─ founded：建立。\n③ fine ─ fined ─ fined：罰款。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...the ground was soft ____ there was water in the soil.",
+          "options": [
+            "unless",
+            "though",
+            "because",
+            "until"
+          ],
+          "answer": 2,
+          "zh": "…地面很鬆軟，因為泥土中有水。",
+          "explain": "(A) 除非 (B) 雖然 (C) 因為 (D) 直到。此處表示原因，故選 because。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "The people tried to pump the water ____ the ground.",
+          "options": [
+            "into",
+            "out of",
+            "beside",
+            "over"
+          ],
+          "answer": 1,
+          "zh": "人們試圖把水從地下抽吸上來。",
+          "explain": "pump... out of the ground：將水從地下抽吸上來。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "The pumping didn't ____.",
+          "options": [
+            "useful",
+            "of use",
+            "work",
+            "to help"
+          ],
+          "answer": 2,
+          "zh": "抽水並沒有起作用。",
+          "explain": "work [動] 起作用；發揮效力。助動詞 didn't 後接原形動詞。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "The tower kept ____ over more and more.",
+          "options": [
+            "to lean",
+            "leaning",
+            "leaned",
+            "leans"
+          ],
+          "answer": 1,
+          "zh": "鐘樓依然愈傾斜愈嚴重。",
+          "explain": "keep ＋ V-ing：持續地…；依然…。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "chapter": 9,
+  "title": "主詞與動詞的一致",
+  "items": [
+    {
+      "topic": "不可數名詞與單數動詞",
+      "level": 1,
+      "q": "Clean water ____ essential for every living creature on Earth.",
+      "options": ["are", "is", "be", "were"],
+      "answer": 1,
+      "zh": "乾淨的水對地球上的每種生物都是不可或缺的。",
+      "explain": "water 為不可數名詞，作為主詞時視為第三人稱單數，現在簡單式述語動詞應用 is。(A) are 用於複數主詞；(C) be 為原形動詞，缺少現在式人稱變化；(D) were 為過去式複數動詞，本句陳述客觀真理應使用現在簡單式。"
+    },
+    {
+      "topic": "動名詞片語當主詞",
+      "level": 1,
+      "q": "Reading novels in English ____ my sister expand her vocabulary.",
+      "options": ["helps", "help", "helping", "have helped"],
+      "answer": 0,
+      "zh": "閱讀英文小說幫助我妹妹擴展她的字彙量。",
+      "explain": "本句主詞為動名詞片語「Reading novels in English」，名詞相當語作主詞時視為第三人稱單數，動詞需加 s，故選 (A) helps。(B) help 為原形或複數動詞；(C) helping 為分詞，不能單獨作述語動詞；(D) have helped 為複數完成式動詞，主詞為單數動名詞片語時不能配合 have。"
+    },
+    {
+      "topic": "複合不定代名詞",
+      "level": 1,
+      "q": "Listen carefully! Someone ____ outside the front door.",
+      "options": ["are standing", "were standing", "is standing", "stand"],
+      "answer": 2,
+      "zh": "仔細聽！有人正站在前門外面。",
+      "explain": "以 -one 結尾的複合不定代名詞（someone）視為第三人稱單數主詞，配合單數動詞 is standing。(A) are standing 為複數進行式；(B) were standing 為過去進行式，與現在祈使句 Listen 的情境不符；(D) stand 為原形動詞，若為現在式單數需加 s 且此處強調當下正在進行的動作。"
+    },
+    {
+      "topic": "度量衡表示單一整體",
+      "level": 1,
+      "q": "Ten miles ____ too far for the children to walk in one day.",
+      "options": ["seem", "are seeming", "have seemed", "seems"],
+      "answer": 3,
+      "zh": "十英里對孩子們來說，一天內走完似乎太遠了。",
+      "explain": "表示距離的名詞（Ten miles）在此視為一段距離的單一整體單位，述語動詞使用第三人稱單數形 seems。(A) seem 為複數動詞；(B) are seeming 錯誤，因 seem 為狀態動詞不使用進行式；(C) have seemed 為複數完成式，主詞視為單數時不宜使用。"
+    },
+    {
+      "topic": "專有名詞與學科名稱",
+      "level": 1,
+      "q": "Mathematics ____ always been David's favorite subject in junior high school.",
+      "options": ["have", "has", "are", "were"],
+      "answer": 1,
+      "zh": "數學在國中一直是大衛最喜愛的科目。",
+      "explain": "Mathematics（數學）字尾雖有 s，但為學科專有名詞，視為第三人稱單數，配合現在完成式 has been。(A) have 為複數動詞；(C) are 與 (D) were 為 be 動詞，無法與 been 形成完成式結構。"
+    },
+    {
+      "topic": "集體名詞",
+      "level": 1,
+      "q": "The police in this city ____ investigating the cause of the traffic accident.",
+      "options": ["are", "is", "was", "has been"],
+      "answer": 0,
+      "zh": "這座城市的警察正在調查這起交通事故的原因。",
+      "explain": "the police 為集合名詞，外表雖無 -s，但意義永遠代表複數群體（警方全體人員），述語動詞須用複數形式 are。(B) is、(C) was、(D) has been 均為單數動詞，與 the police 的複數性質不合。"
+    },
+    {
+      "topic": "複數名詞與對稱物品",
+      "level": 1,
+      "q": "Where ____ my new scissors? I need to cut this wrapping paper.",
+      "options": ["is", "was", "are", "has been"],
+      "answer": 2,
+      "zh": "我的新剪刀在哪裡？我需要剪這張包裝紙。",
+      "explain": "scissors（剪刀）是由兩片對稱組成的刀刃工具，固定為複數名詞，直接作主詞時動詞須用複數 are。(A) is 與 (B) was 為單數動詞；(D) has been 為單數完成式，皆無法搭配複數主詞 scissors。"
+    },
+    {
+      "topic": "a pair of 連用",
+      "level": 1,
+      "q": "That pair of blue sneakers on the shoe rack ____ to my brother.",
+      "options": ["belong", "are belonging", "belonging", "belongs"],
+      "answer": 3,
+      "zh": "鞋架上那雙藍色球鞋是我弟弟的。",
+      "explain": "主詞中心名詞是「That pair」（單數），而非介系詞片語中的 sneakers，因此動詞要與 pair 一致，使用第三人稱單數現在式 belongs。(A) belong 為複數動詞；(B) are belonging 錯誤，因 belong 為狀態動詞不使用進行式；(C) belonging 為現在分詞，缺少述語動詞結構。"
+    },
+    {
+      "topic": "There / Here 倒裝句",
+      "level": 1,
+      "q": "There ____ a lot of fresh fruit and vegetables in the refrigerator.",
+      "options": ["is", "are", "has", "have"],
+      "answer": 1,
+      "zh": "冰箱裡有許多新鮮的水果和蔬菜。",
+      "explain": "There be 句型的述語動詞由後面的主詞決定。此處真正的並列主詞包含複數名詞 vegetables，視為複數，故選 (B) are。(A) is 為單數；(C) has 與 (D) have 不能直接在 There 句型中表示「存在有」（應用 There is / are）。"
+    },
+    {
+      "topic": "Both / Several 不定代名詞",
+      "level": 1,
+      "q": "Both of the twins ____ talented at playing the violin.",
+      "options": ["are", "is", "was", "has been"],
+      "answer": 0,
+      "zh": "這對雙胞胎兩人都很有拉小提琴的天賦。",
+      "explain": "both of + 複數名詞表示「兩者都」，主詞為複數概念，述語動詞須用複數形 are。(B) is、(C) was、(D) has been 均為單數動詞，無法搭配複數主詞 both。"
+    },
+    {
+      "topic": "Every 修飾單數名詞",
+      "level": 1,
+      "q": "Every student in our school ____ required to wear a uniform on Mondays.",
+      "options": ["are", "were", "is", "be"],
+      "answer": 2,
+      "zh": "我們學校的每位學生週一都必須穿制服。",
+      "explain": "Every 修飾單數名詞 student，主詞視為第三人稱單數，即使後面有介系詞片語 in our school 修飾，動詞仍用單數 is。(A) are 與 (B) were 為複數動詞；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "集合名詞表整體",
+      "level": 1,
+      "q": "The basketball team ____ celebrating its victory in the locker room right now.",
+      "options": ["are", "were", "have been", "is"],
+      "answer": 3,
+      "zh": "籃球隊現在正在更衣室慶祝其勝利。",
+      "explain": "由後方代名詞「its victory」可知，此處將球隊視為單一整體單位（its 為單數所有格），故述語動詞使用單數 is celebrating。(A) are 與 (B) were 為複數動詞；(C) have been 亦為複數完成式。"
+    },
+    {
+      "topic": "不定詞片語當主詞",
+      "level": 1,
+      "q": "To master a foreign language ____ plenty of time and patient practice.",
+      "options": ["requires", "require", "requiring", "have required"],
+      "answer": 0,
+      "zh": "精通一門外語需要大量的時間與耐心的練習。",
+      "explain": "不定詞片語「To master a foreign language」作主詞，視為第三人稱單數，動詞需加 s 變成 requires。(B) require 為複數形式；(C) requiring 為分詞不能作述語動詞；(D) have required 為複數完成式。"
+    },
+    {
+      "topic": "國名以 -s 結尾",
+      "level": 1,
+      "q": "The United States ____ a major role in global economic affairs.",
+      "options": ["play", "plays", "playing", "have played"],
+      "answer": 1,
+      "zh": "美國在全球經濟事務中扮演著重要角色。",
+      "explain": "The United States（美國）字尾雖有 s，但代表單一國家個體，視為單數主詞，現在簡單式動詞用 plays。(A) play 為複數或原形；(C) playing 缺少助動詞；(D) have played 為複數完成式。"
+    },
+    {
+      "topic": "Each of + 複數名詞",
+      "level": 1,
+      "q": "Each of the applicants ____ interviewed by the manager yesterday.",
+      "options": ["were", "is", "was", "are"],
+      "answer": 2,
+      "zh": "每位應徵者昨天都接受了經理的面試。",
+      "explain": "主詞為「Each of + 複數名詞」，中心主詞是 Each（每一個，單數），且時間副詞為 yesterday（過去式），故述語動詞用 was。(A) were 為過去式複數；(B) is 與 (D) are 為現在式，時態不合。"
+    },
+    {
+      "topic": "就近原則（Either... or）",
+      "level": 2,
+      "q": "Either you or your brother ____ to clean the living room before dinner.",
+      "options": ["have", "are having", "having", "has"],
+      "answer": 3,
+      "zh": "不是你就是你弟弟必須在晚餐前打掃客廳。",
+      "explain": "Either A or B 連接兩個主詞時，動詞依就近原則與鄰近的 B（your brother，第三人稱單數）一致，故用 has to。(A) have 為複數或配合 you；(B) are having 意思為進行式且與 brother 不一致；(C) having 不能作為述語動詞。"
+    },
+    {
+      "topic": "就近原則（Not only... but also）",
+      "level": 2,
+      "q": "Not only the players but also the coach ____ thrilled about the championship.",
+      "options": ["was", "were", "are", "be"],
+      "answer": 0,
+      "zh": "不僅球員們，教練也對贏得冠軍感到無比興奮。",
+      "explain": "Not only A but also B 連接主詞時，動詞依照就近原則與 B（the coach，第三人稱單數）一致，故述語動詞用單數 was。(B) were 與 (C) are 為複數動詞；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "隨前方主詞原則（as well as）",
+      "level": 2,
+      "q": "Mr. Brown, as well as his two assistants, ____ working late at the laboratory tonight.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": 1,
+      "zh": "布朗先生以及他的兩名助理，今晚都在實驗室工作到很晚。",
+      "explain": "「A as well as B」結構中，中心主詞為 A（Mr. Brown，第三人稱單數），as well as his two assistants 為附屬修飾語，動詞應與 A 一致，故用單數 is。(A) are、(C) were、(D) have been 均為複數動詞，誤受 assistants 影響。"
+    },
+    {
+      "topic": "隨前方主詞原則（together with）",
+      "level": 2,
+      "q": "The gold medal, together with all the certificates, ____ stolen from the school office last weekend.",
+      "options": ["were", "have been", "was", "has"],
+      "answer": 2,
+      "zh": "那面金牌連同所有的證書，上週末從學校辦公室被偷走了。",
+      "explain": "「A together with B」的動詞隨前方主詞 A（The gold medal，單數）一致，被動語態搭配過去時間 last weekend 應使用 was stolen。(A) were 為複數動詞；(B) have been 為複數且時態與 last weekend 不符；(D) has 後接 stolen 為主動語態（金牌不能自己偷東西）。"
+    },
+    {
+      "topic": "The number of 接單數動詞",
+      "level": 2,
+      "q": "____ of traffic accidents on this highway has decreased sharply since the speed cameras were installed.",
+      "options": ["A number", "Numbers", "A great deal", "The number"],
+      "answer": 3,
+      "zh": "自從安裝了測速照相機之後，這條高速公路上的交通事故數量大幅減少了。",
+      "explain": "空格後之述語動詞為單數形式 has decreased。「The number of + 複數名詞」表示「……的數目」，中心詞為 The number（單數），故接單數動詞 has decreased；若為 A number of 則表示「許多」，動詞須用複數 have。(B) Numbers 不合片語用法；(C) A great deal of 後接不可數名詞，而 accidents 為可數名詞。"
+    },
+    {
+      "topic": "A number of 接複數動詞",
+      "level": 2,
+      "q": "A number of volunteers from our neighborhood ____ willing to assist the elderly every weekend.",
+      "options": ["are", "is", "was", "has been"],
+      "answer": 0,
+      "zh": "我們社區的許多志工每個週末都願意協助年長者。",
+      "explain": "「A number of + 複數名詞」意為「許多……」，其中心主詞是後面的複數名詞 volunteers，述語動詞須用複數 are。(B) is、(C) was、(D) has been 均為單數動詞。"
+    },
+    {
+      "topic": "部分詞 + of + 不可數名詞",
+      "level": 2,
+      "q": "Most of the research on this rare plant ____ published in international journals.",
+      "options": ["have been", "has been", "were", "are"],
+      "answer": 1,
+      "zh": "關於這種稀有植物的大部分研究都已經發表在國際期刊上了。",
+      "explain": "「Most of + 名詞」的單複數取決於 of 後面的名詞。research 為不可數名詞，故主詞視為單數，述語動詞用 has been。(A) have been、(C) were、(D) are 均為複數動詞。"
+    },
+    {
+      "topic": "部分詞（分數）+ of + 複數名詞",
+      "level": 2,
+      "q": "Two-thirds of the members present at the meeting ____ against the new proposal.",
+      "options": ["was", "is", "were", "has been"],
+      "answer": 2,
+      "zh": "出席會議的成員中有三分之二反對這項新提案。",
+      "explain": "分數（Two-thirds of）後接可數複數名詞 the members，表示複數個體，述語動詞須用複數 were。(A) was、(B) is、(D) has been 均為單數動詞。"
+    },
+    {
+      "topic": "the + 形容詞指該類全體人",
+      "level": 2,
+      "q": "In many countries, the elderly ____ entitled to free public transportation and healthcare discounts.",
+      "options": ["is", "was", "has been", "are"],
+      "answer": 3,
+      "zh": "在許多國家，年長者有權享有免費大眾運輸和醫療保健折扣。",
+      "explain": "「the + 形容詞」在此表示該類別的全體人群（the elderly ＝ elderly people），視為複數名詞，述語動詞使用 are。(A) is、(B) was、(C) has been 均為單數動詞。"
+    },
+    {
+      "topic": "the + 形容詞表抽象概念",
+      "level": 2,
+      "q": "The unknown always ____ curiosity as well as fear in human hearts.",
+      "options": ["inspires", "inspire", "inspiring", "have inspired"],
+      "answer": 0,
+      "zh": "未知的事物總是在人類心中激發好奇與恐懼。",
+      "explain": "「the unknown」表示抽象概念「未知的事物（that which is unknown）」，視為單數抽象名詞，述語動詞需加 s 變成 inspires。(B) inspire 為複數原形動詞；(C) inspiring 缺少述語動詞結構；(D) have inspired 為複數完成式。"
+    },
+    {
+      "topic": "All 表事物 vs All 表人",
+      "level": 2,
+      "q": "All that glitters ____ not gold, as an old proverb says.",
+      "options": ["are", "is", "were", "be"],
+      "answer": 1,
+      "zh": "正如古諺所云，發光的未必都是金子。",
+      "explain": "諺語中「All that glitters is not gold」的 All 代表「一切事物」，視為單數，因此關係子句動詞用 glitters，主要子句動詞亦用單數 is。(A) are 與 (C) were 為複數動詞；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "A and B 表單一食物／同一事物",
+      "level": 2,
+      "q": "Ham and eggs ____ Kevin's favorite breakfast whenever he goes to a diner.",
+      "options": ["are", "were", "is", "have been"],
+      "answer": 2,
+      "zh": "每當凱文去美式餐館時，火腿蛋都是他最喜愛的早餐。",
+      "explain": "由補語「favorite breakfast（最愛的早餐）」可知，Ham and eggs 指的是組合成一道整體的菜餚（火腿蛋餐），視為單一概念，故述語動詞用單數 is。(A) are 與 (B) were 為複數動詞；(D) have been 為複數完成式。"
+    },
+    {
+      "topic": "A and B 表同一人兼具兩種身分",
+      "level": 2,
+      "q": "The novelist and poet ____ invited to deliver a speech at our university tomorrow.",
+      "options": ["are", "were", "have been", "is"],
+      "answer": 3,
+      "zh": "那位身兼詩人的小說家明天受邀到我們大學演講。",
+      "explain": "主詞「The novelist and poet」只有第一個名詞前有冠詞 The，表示由同一人兼具小說家與詩人兩種身分，視為第三人稱單數，動詞用 is。(A) are、(B) were、(C) have been 皆為複數動詞（若為兩個人應寫為 The novelist and the poet）。"
+    },
+    {
+      "topic": "Many a + 單數名詞",
+      "level": 2,
+      "q": "Many a brave soldier ____ sacrificed in defense of freedom during the fierce battle.",
+      "options": ["was", "were", "are", "have been"],
+      "answer": 0,
+      "zh": "在那場激烈的戰鬥中，許多勇敢的士兵為了捍衛自由而犧牲。",
+      "explain": "「Many a + 單數名詞」雖表示「許多」，但在語法結構上接單數動詞，故選單數過去式 was。(B) were、(C) are、(D) have been 均為複數動詞。"
+    },
+    {
+      "topic": "名詞子句當主詞",
+      "level": 2,
+      "q": "Whether our school team will enter the finals ____ on our performance this afternoon.",
+      "options": ["depend", "depends", "depending", "are depending"],
+      "answer": 1,
+      "zh": "我們校隊是否能打進決賽，取決於我們今天下午的表現。",
+      "explain": "本句主詞是由 Whether 引導的名詞子句「Whether our school team will enter the finals」，名詞子句當主詞時視為第三人稱單數，述語動詞須用 depends。(A) depend 為複數動詞；(C) depending 不能作述語動詞；(D) are depending 為複數進行式。"
+    },
+    {
+      "topic": "one of the + 複數名詞 + who",
+      "level": 3,
+      "q": "Linda is one of the brightest students who ____ ever participated in this science project.",
+      "options": ["has", "is", "have", "was"],
+      "answer": 2,
+      "zh": "琳達是曾經參與這個科學專題的最聰明學生之一。",
+      "explain": "在「one of the + 複數名詞 + 關係代名詞」結構中，關係代名詞 who 的先行詞是複數名詞 students，因此關係子句動詞須與先行詞一致使用複數 have。(A) has 與 (D) was 為單數；(B) is 為現在式單數且無法與 participated 形成完成式。"
+    },
+    {
+      "topic": "the only one of the + 複數名詞 + who",
+      "level": 3,
+      "q": "Mr. Adams is the only one of the teachers in our school who ____ fluent Japanese.",
+      "options": ["speak", "speaking", "are speaking", "speaks"],
+      "answer": 3,
+      "zh": "亞當斯老師是我們學校裡唯一日語說得很流利的老師。",
+      "explain": "本句有「the only one」，表示全體教師中「只有這唯一個人」，關係代名詞 who 所指代的先行詞是 the only one（單數），關係子句述語動詞必須用單數形式 speaks。(A) speak 為複數原形；(B) speaking 無助動詞不能作述語動詞；(C) are speaking 為複數進行式。"
+    },
+    {
+      "topic": "more than one + 單數名詞",
+      "level": 3,
+      "q": "More than one passenger ____ slightly injured when the bus suddenly stopped.",
+      "options": ["was", "were", "are", "have been"],
+      "answer": 0,
+      "zh": "當公車突然停下時，不只一名乘客受了輕傷。",
+      "explain": "「More than one + 單數名詞」的語法中心主詞是緊接在後面的單數名詞 passenger，述語動詞須用單數 was。(B) were、(C) are、(D) have been 均為複數動詞；比較：若是「More passengers than one」，主詞是 passengers，動詞才用複數 were。"
+    },
+    {
+      "topic": "more + 複數名詞 + than one",
+      "level": 3,
+      "q": "More citizens than one ____ voiced serious concerns regarding the newly proposed tax policy.",
+      "options": ["has", "have", "is", "was"],
+      "answer": 1,
+      "zh": "不只一位市民對新提出的稅務政策表達了嚴重的關切。",
+      "explain": "在「More + 複數名詞 + than one」句型中，句法主詞為複數名詞 citizens，故述語動詞須用複數 have。(A) has 與 (D) was 為單數動詞；(C) is 無法與 voiced 形成現在完成式。"
+    },
+    {
+      "topic": "時間流逝與 pass 連用",
+      "level": 3,
+      "q": "Five long years ____ passed since our family last gathered for a reunion.",
+      "options": ["has", "is", "have", "was"],
+      "answer": 2,
+      "zh": "自從我們全家上次團聚以來，漫長的五年已經過去了。",
+      "explain": "時間名詞（Five long years）若與 pass, go by 等動詞連用表示「時間具體一分一秒流逝」，在此視為複數，述語動詞用 have passed。(A) has、(B) is、(D) was 均為單數動詞。"
+    },
+    {
+      "topic": "地點副詞置於句首之完全倒裝",
+      "level": 3,
+      "q": "On the top of the hill ____ the ancient stone towers built during the Middle Ages.",
+      "options": ["stands", "standing", "is standing", "stand"],
+      "answer": 3,
+      "zh": "在山頂上矗立著中世紀建造的古老石塔。",
+      "explain": "本句為地點介系詞片語置於句首的完全倒裝句（副詞片語 + 動詞 + 主詞）。真正的主詞是倒裝在動詞後面的複數名詞「the ancient stone towers」，故述語動詞須用複數形 stand。(A) stands 與 (C) is standing 為單數動詞；(B) standing 為分詞不能單獨作述語動詞。"
+    },
+    {
+      "topic": "強調句型 It is ... that ... 的主謂一致",
+      "level": 3,
+      "q": "It is I, not my classmates, who ____ responsible for organizing the charity event.",
+      "options": ["am", "is", "are", "be"],
+      "answer": 0,
+      "zh": "是我，而不是我的同學們，負責籌辦這次的慈善活動。",
+      "explain": "在分裂句／強調句型「It is + 主詞 + who/that + 動詞」中，動詞人稱與數須與所強調的肯定主詞一致。本句強調的主詞是 I（第一人稱單數），not my classmates 為否定插入語不影響動詞，故動詞必須使用 am。(B) is 為第三人稱單數；(C) are 為複數（誤配合 classmates）；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "隨前方主詞原則（no less than）",
+      "level": 3,
+      "q": "The general manager, no less than his dedicated employees, ____ committed to achieving this year's sales target.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": 1,
+      "zh": "總經理和他那些敬業的員工一樣，致力於達成今年的銷售目標。",
+      "explain": "「A no less than B」（A 和 B 一樣……）結構中，中心主詞是前方主詞 A（The general manager，單數），動詞必須與 A 一致，故選單數 is。(A) are、(C) were、(D) have been 均為複數動詞，誤受 employees 影響。"
+    },
+    {
+      "topic": "All you have to do is (to) + 原形動詞",
+      "level": 3,
+      "q": "When you face an unexpected problem, all you have to do ____ stay calm and analyze the situation.",
+      "options": ["are", "were", "is", "be"],
+      "answer": 2,
+      "zh": "當你面對意料之外的問題時，你唯一要做的事情就是保持冷靜並分析局勢。",
+      "explain": "「All (+ 人 + have to do) is (to) + 原形 V」為固定特殊句型，All 在此表示「唯一要做的事」，視為單數，主要子句動詞用 is。(A) are 與 (B) were 為複數動詞；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "集合名詞表個別成員",
+      "level": 3,
+      "q": "The school committee ____ divided in their opinions about whether to cancel the sports day.",
+      "options": ["was", "is", "has been", "were"],
+      "answer": 3,
+      "zh": "學校委員會的成員們對於是否取消運動會意見分歧。",
+      "explain": "由「divided in their opinions（在他們的意見上分歧）」以及複數代名詞 their 可知，此處 committee 著眼於「委員會內部的每位成員（個別分子）」，成員意見不同時代表複數概念，故述語動詞須用複數 were。(A) was、(B) is、(C) has been 均為單數動詞。"
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "chapter": 20,
+  "title": "五大句型與三大子句",
+  "sections": [
+    {
+      "title": "五大句型（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I am sorry to have kept you ____.",
+          "options": ["to wait", "wait", "waited", "waiting"],
+          "answer": 3,
+          "zh": "很抱歉讓你久等了。",
+          "explain": "【說明】keep + 人 + V-ing（使某人…）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "I found the dog ____ over by a car on the road.",
+          "options": ["to run", "run", "ran", "running"],
+          "answer": 1,
+          "zh": "我發現在馬路上有條狗被汽車輾過了。",
+          "explain": "【說明】find + 受詞 + p.p.（表示被動）。run 的動詞三態為 run - ran - run，此處 run 為過去分詞。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Mary is going to have her hair ____.",
+          "options": ["did", "to do", "done", "do"],
+          "answer": 2,
+          "zh": "瑪麗要做頭髮。",
+          "explain": "【說明】have + 物 + p.p.（使某物被…）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "I felt somebody ____ me.",
+          "options": ["touch", "touched", "to touch", "touches"],
+          "answer": 0,
+          "zh": "我感覺有人在碰我。",
+          "explain": "【說明】feel + 受詞 + 原形 V（感到…）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "He taught me ____ speak English.",
+          "options": ["how should I", "how", "how can I", "how to"],
+          "answer": 3,
+          "zh": "他教我如何說英語。",
+          "explain": "【說明】how to + V 為名詞片語作 teach 的受詞。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "I didn't enjoy the party because I ____.",
+          "options": ["was boring", "bored", "was bored", "boring"],
+          "answer": 2,
+          "zh": "因為我很煩悶，舞會玩得不開心。",
+          "explain": "【說明】主詞為「人」時，情緒動詞要用過去分詞表示。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "I shall make your dream ____.",
+          "options": ["coming truly", "come true", "to come true", "comes true"],
+          "answer": 1,
+          "zh": "我將使你的夢想實現。",
+          "explain": "【說明】make + 受詞 + 原形動詞片語（使…成為；使…實現）。come true 為慣用片語。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "He told ____ home.",
+          "options": ["us not to go", "we not go", "us not go", "us to not go"],
+          "answer": 0,
+          "zh": "他告訴我們不要回家。",
+          "explain": "【說明】tell + 人 + not to + V（告訴某人不要…）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Canned foods do not go ____ easily.",
+          "options": ["sourly", "sour", "souring", "soured"],
+          "answer": 1,
+          "zh": "罐頭食物不易變酸。",
+          "explain": "【說明】go = become 當「變成」，其後接形容詞（sour）作主詞補語。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Even in bed his uneasiness about his riches kept him ____.",
+          "options": ["wake", "awake", "waken", "to waken"],
+          "answer": 1,
+          "zh": "即使躺在床上，他的財富使他睡不安枕。",
+          "explain": "【說明】keep + 受詞 + 形容詞（awake，醒著的，使維持…狀態）。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "She found her money ____.",
+          "options": ["steal", "to steal", "stealing", "stolen"],
+          "answer": 3,
+          "zh": "她發現錢被偷了。",
+          "explain": "【說明】以過去分詞 stolen，表示被動。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "The subtropical climate makes Taiwan appear ____ all the year round.",
+          "options": ["greed", "green", "glass", "grass"],
+          "answer": 1,
+          "zh": "亞熱帶的氣候使台灣一年四季顯得綠油油的。",
+          "explain": "【說明】① all the year round（一整年）\n② 連系動詞（appear），其後接形容詞（green）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "I think ____ a good habit to get up early.",
+          "options": ["this", "it", "that", "its"],
+          "answer": 1,
+          "zh": "我認為早起是良好的習慣。",
+          "explain": "【說明】it 為形式受詞，不定詞（to get up early）才是真正受詞。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Roses in bloom smell ____.",
+          "options": ["sweeten", "sweetly", "sweet", "sweetness"],
+          "answer": 2,
+          "zh": "盛開的玫瑰聞起來很香。",
+          "explain": "【說明】連系動詞 smell，其後應接形容詞（sweet）作主詞補語。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "There is something wrong with the engine. We must have it ____.",
+          "options": ["repair", "repairing", "to repair", "repaired"],
+          "answer": 3,
+          "zh": "這引擎有點毛病。我們必須立即將之送修。",
+          "explain": "【說明】have + 物 + p.p.（某物被…）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "He sat there ____ a novel.",
+          "options": ["read", "to read", "reading", "to reading"],
+          "answer": 2,
+          "zh": "他坐在那裡看小說。",
+          "explain": "【說明】sit（坐）之後，要用分詞做主詞補語。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "The television set will keep us ____ of the news of the day.",
+          "options": ["inform", "entertain", "educate", "informed"],
+          "answer": 3,
+          "zh": "電視將使我們知道每天的新聞。",
+          "explain": "【說明】keep 人 informed of...（使某人知道…）"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "The speaker found himself ____ all alone.",
+          "options": ["leave", "to leave", "leaving", "left"],
+          "answer": 3,
+          "zh": "那位說話者發現自己是孤零零的一個。",
+          "explain": "【說明】find oneself + 過去分詞 ➜ 表示「發現自己陷於某種情況」"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "His dream ____ at last.（複選）",
+          "options": ["has been realized", "has come true", "put into practice", "was under doing"],
+          "answer": [0, 1],
+          "zh": "他的夢想終於實現了。",
+          "explain": "【說明】be realized = come true（實現）。(A) 用被動語態 has been realized；(B) come true 為不及物動詞片語，用主動式 has come true。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "I believe ____.（複選）",
+          "options": ["he is honestly", "his honesty", "him honesty", "him honest"],
+          "answer": [1, 3],
+          "zh": "我相信他是誠實的。",
+          "explain": "【說明】believe 後面可接名詞／that 子句／受詞＋受詞補語。(B) 接名詞 his honesty；(D) 接受詞 him＋形容詞補語 honest。(A) 應改為 he is honest。"
+        }
+      ]
+    },
+    {
+      "title": "五大句型（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "We usually feel ____ if we violate custom.（複選）",
+          "options": ["unforgivable", "uncomfortable", "grievous", "indifferently"],
+          "answer": [0, 1, 2],
+          "zh": "如果我們違反了習俗，我們通常會感到不可原諒／不舒服／痛苦。",
+          "explain": "【說明】連系動詞 feel，其後應接形容詞作主詞補語。(A) unforgivable、(B) uncomfortable、(C) grievous 均為形容詞；(D) indifferently 為副詞不可作補語。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "I don't want a beautiful lady in my office, but I appreciate a girl who looks ____.",
+          "options": ["presentable", "essentially", "convenient", "comfortably"],
+          "answer": 0,
+          "zh": "在辦公室中我不想要一位漂亮的女士，但我卻很欣賞有教養（落落大方）的女孩。",
+          "explain": "【說明】連系動詞 look + 形容詞（presentable，體面的、落落大方的）。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "\"What happened?\" \"This situation is ____.\"",
+          "options": ["embarrassed", "embarrass", "embarrassing", "very much embarrassed"],
+          "answer": 2,
+          "zh": "「發生了什麼事？」「情況令人困窘。」",
+          "explain": "【說明】主詞 situation 指事物，情緒動詞要以現在分詞（embarrassing）修飾之。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "\"How is the butter?\" \"It seemed to Mrs. Garber that the butter smelled somewhat ____.\"",
+          "options": ["bad", "badly", "worse", "worsely"],
+          "answer": 0,
+          "zh": "「這個奶油如何？」「Garber 太太覺得這個奶油聞起來似乎不太好。」",
+          "explain": "【說明】smell 為連系動詞，後接形容詞（bad）作主詞補語。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "\"My watch is broken.\" \"Why don't you ____?\"",
+          "options": ["it take to a jeweler", "take it to a jeweler", "take to a jeweler it", "to a jeweler take it"],
+          "answer": 1,
+          "zh": "「我的表壞了。」「為什麼不拿給鐘錶匠（修理）？」",
+          "explain": "【說明】take A to B（拿 A 給 B）。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "Food prices last month increased only ____.",
+          "options": ["slightly", "on a small scale", "small", "little"],
+          "answer": 0,
+          "zh": "上個月的食品價格只稍有上漲。",
+          "explain": "【說明】(A) slightly（輕微地）；(B) on a small scale（小規模地）；(C) small 是形容詞，不可修飾動詞；(D) little 是否定意義的詞，與 only 連用，不合句意，應改為 a little。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "\"How is her condition now?\" \"It has improved ____.\"",
+          "options": ["better", "greatly", "so", "much"],
+          "answer": 1,
+          "zh": "「現在她的情況如何？」「情況已經改善很多了。」",
+          "explain": "【說明】improve 為完全不及物動詞，用副詞 greatly 修飾。(D) 應改為 It has much improved。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "\"I hear you got lost yesterday.\" \"Yes, I went to the museum and couldn't find ____ the hotel.\"",
+          "options": ["how to return to", "how I should go for", "my way back to", "the way back for"],
+          "answer": 2,
+          "zh": "「聽說昨天你迷路了。」「是啊！我去博物館，（回程時）找不到回旅館的路。」",
+          "explain": "【說明】find one's (或 the) way (back) to...（找到回…的路）。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "\"Yesterday was my birthday.\" \"My mother ____.\"",
+          "options": ["made a cake to me", "made a cake me", "made for me a cake", "made me a cake"],
+          "answer": 3,
+          "zh": "「昨天是我的生日。」「我媽媽為我做了一個蛋糕。」",
+          "explain": "【說明】make 為授與動詞，句型為 make + I.O. + D.O.（made me a cake）。此題亦可改為 My mother made a cake for me。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "\"How about John?\" \"My uncle ____ a good student.\"",
+          "options": ["believes John", "suggests John", "considers John", "knows John"],
+          "answer": 2,
+          "zh": "「約翰這個人如何？」「我叔叔認為他是個好學生。」",
+          "explain": "【說明】consider 為不完全及物動詞，a good student 為受詞補語。(A)(D) believe 和 know 的受詞補語，通常是不定詞，如：My uncle believes / knows John to be a good student。"
+        }
+      ]
+    },
+    {
+      "title": "名詞子句（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "This is ____ I mean.",
+          "options": ["it", "that", "which", "what"],
+          "answer": 3,
+          "zh": "這就是我的意思。",
+          "explain": "【說明】what 引導名詞子句作主詞補語。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "I asked him ____ he would go.",
+          "options": ["what", "that", "whom", "if"],
+          "answer": 3,
+          "zh": "我問他是否會去。",
+          "explain": "【說明】S + ask + (人) + [if / whether + S + V]\n主要子句＋名詞子句，作受詞。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "I know ____ my teacher is right.",
+          "options": ["which", "what", "who", "that"],
+          "answer": 3,
+          "zh": "我知道我的老師是對的。",
+          "explain": "【說明】① 由 that 引導的名詞子句，作 know 的受詞，此時 that 可省略。\n② 主詞 + (say, know, think...) + [that S + V]"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ he is late is evident.",
+          "options": ["What", "Whom", "That", "If"],
+          "answer": 2,
+          "zh": "他遲到了是很明顯的。",
+          "explain": "【說明】That 引導一名詞子句作主詞。此時 that 不能省略。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "I doubt ____ it will rain this afternoon.",
+          "options": ["whether", "that", "what", "about"],
+          "answer": 0,
+          "zh": "我不知道今天下午是否會下雨。",
+          "explain": "【說明】whether = if（是否）引導名詞子句作 doubt 的受詞。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "I have no doubt ____ he will help me this time.",
+          "options": ["if", "that", "whether", "how"],
+          "answer": 1,
+          "zh": "我深信不疑，他這次一定會幫助我的。",
+          "explain": "【說明】that 引導一名詞子句作 doubt 的同位語（在否定句或疑問句中，doubt 常接 that 子句）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "____ the earth is round is known to everybody.",
+          "options": ["Then", "That", "This", "Which"],
+          "answer": 1,
+          "zh": "每一個人都知道地球是圓的。",
+          "explain": "【說明】名詞子句（That the earth is round）作主詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "He told me the news ____ our team had won the game.",
+          "options": ["about", "of", "that", "as"],
+          "answer": 2,
+          "zh": "他告訴我的消息是，我們的隊在比賽中獲勝了。",
+          "explain": "【說明】\"that our team had won the game\" 為名詞子句作同位語，說明 \"news\" 的內容。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "It makes no difference to me ____ he will come or not.",
+          "options": ["how", "why", "when", "whether"],
+          "answer": 3,
+          "zh": "他是否來對我都沒關係。",
+          "explain": "【說明】① It makes no difference to + 人（對…沒關係）\n② whether... or not（是否）"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "____ is unknown to me.",
+          "options": ["Where he is", "Where is he", "He is where", "Is he where"],
+          "answer": 0,
+          "zh": "我不知道他人在哪裡。",
+          "explain": "【說明】名詞子句（Where he is）作主詞，用直述句詞序。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "The subject of \"What is interesting is that I do not even know him.\" is ____.",
+          "options": ["what", "interesting", "what is interesting", "I"],
+          "answer": 2,
+          "zh": "「有趣的是我甚至一點也不認識他。」這句話的主詞是 what is interesting。",
+          "explain": "【說明】這句話的主詞是 what is interesting。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "He came here shortly before, so I can't know ____.（複選）",
+          "options": ["he is good or not", "if he is good", "how is he", "whether he is good or not"],
+          "answer": [1, 3],
+          "zh": "他不久之前才來這裡，所以我不知道他人好不好。",
+          "explain": "【說明】① (C) 應改為 how he is。\n② 主詞 + (ask, doubt, wonder, don't know...) + if / whether / wh- S + V"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "____? I think he is Charles Yang.",
+          "options": ["Who do you think he is", "Do you think who he is", "Whom do you think he is", "Who you think he is"],
+          "answer": 0,
+          "zh": "你知道他是誰嗎？我想他是楊查理。",
+          "explain": "【說明】疑問詞 + do you think + S + V"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Do you remember where ____ my watch?",
+          "options": ["had I put", "had put I", "I had put", "put I"],
+          "answer": 2,
+          "zh": "你記得我把表放在哪裡嗎？",
+          "explain": "【說明】where... watch 為間接問句，作 remember 之受詞，故須用直述句的形式，主詞與動詞的位置不變。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "The old man asked Henry ____ England next week.",
+          "options": ["whether will he go to", "whether would he go to", "whether he is going to", "whether he would go to"],
+          "answer": 3,
+          "zh": "老人問亨利，他下星期是否會去英國。",
+          "explain": "【說明】① \"asked\" 為過去式，因而只有 (B)(D) 時態能配合。\n② 此題是考間接問句，故選 (D)。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "The problem ____ overworking all day long impairs his health.",
+          "options": ["is", "that", "which", "is that"],
+          "answer": 3,
+          "zh": "問題是整天的過度工作，會損害他的健康。",
+          "explain": "【說明】主詞（The problem）後應有動詞；Be-V 之後的名詞子句用作主詞補語，\"that\" 不能省略。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Jack asked me about myself and wanted to know ____.",
+          "options": ["what had I studied English for", "where did I study", "where had I studied", "where I had studied"],
+          "answer": 3,
+          "zh": "傑克問些有關我個人的事情，並且想知道我在何處就讀。",
+          "explain": "【說明】參考第 15 題（間接問句需用直述句詞序：where + S + V）。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "George ____ he could improve his test scores, but he did not have enough time to study.",
+          "options": ["knew to", "knew how", "knew how that", "knew how to"],
+          "answer": 1,
+          "zh": "喬治知道如何能使他的考試成績提高，但他沒有足夠的時間去研讀。",
+          "explain": "【說明】① how 為疑問副詞，引導名詞子句，作 knew 的受詞。\n② (A) knew 之後的 to 不能作連詞。(C) how 為從屬連詞，不必再接 that。(D) how to 之後要接原形動詞。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "The people at the party were worried about Janet because no one was aware ____ she had gone.",
+          "options": ["where that", "of where", "of the place where", "the place"],
+          "answer": 1,
+          "zh": "宴會中的每一個人都在擔心 Janet，因為沒有人知道她去哪裡了。",
+          "explain": "【說明】aware 有三種用法：\n① be aware that + 子句\n② be aware of + (動)名詞\n③ be aware of + (疑問詞引導的)名詞子句"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "I wonder how many years ago ____.",
+          "options": ["did your father retire", "your father retired", "has your father retired", "your father has retired"],
+          "answer": 1,
+          "zh": "我不知道你父親是多久以前退休的。",
+          "explain": "【說明】many years ago 為過去的時間副詞，故不用現在完成式；且間接問句用直述句語序。"
+        }
+      ]
+    },
+    {
+      "title": "名詞子句（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Never be ashamed to ask about ____.",
+          "options": ["that you don't understand", "what you don't understand", "that don't you understand", "what don't you understand"],
+          "answer": 1,
+          "zh": "你不懂得的事，千萬不好意思發問。",
+          "explain": "【說明】原句 = ...about [the things that / what] you don't understand."
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "That is a nice-looking car. I wonder ____.",
+          "options": ["it belongs to whom", "whom does it belong to", "whom it belongs to", "to whom does it belong"],
+          "answer": 2,
+          "zh": "那輛車看起來很標緻，我不知道是誰的車子。",
+          "explain": "【說明】① 間接問句之句型：S + V + [疑問詞 + S + V]\n② 本句亦可寫成：I wonder to whom it belongs."
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "All the students in his class cannot understand ____.",
+          "options": ["what does the sentence means", "what means this sentence", "what this sentence means", "what is the meaning of this sentence"],
+          "answer": 2,
+          "zh": "他班上所有的學生都無法了解這個句子的意思。",
+          "explain": "【說明】what 引導名詞子句作 understand 的受詞，其主詞與動詞位置不變。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Whether or not you can succeed ____.",
+          "options": ["are able to cure him of his laziness", "depends on how much time you spend", "in life", "that everybody should try his best"],
+          "answer": 1,
+          "zh": "你是否會成功視你花的時間而定。",
+          "explain": "【說明】名詞子句（Whether or not you can succeed）作主詞，動詞用單數形式（depends）。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "What time do you think ____?",
+          "options": ["will Besty come here this morning", "Besty will come here with George", "is Besty coming here with George", "can Besty get here this morning"],
+          "answer": 1,
+          "zh": "你想 Besty 何時會和 George 來這裡？",
+          "explain": "【說明】疑問詞 + do you think / guess / believe + S + V...?"
+        }
+      ]
+    },
+    {
+      "title": "形容詞子句（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Smoking, ____ is a bad habit, is nevertheless, very popular.",
+          "options": ["though", "it", "that", "which"],
+          "answer": 3,
+          "zh": "抽煙是一種壞習慣，但仍很流行。",
+          "explain": "【說明】① 非限定形容詞子句不能用 that 引導。\n② 先行詞為事物（smoking），所以用 which。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "____ have plenty of money will help their friends.",
+          "options": ["Those who", "He who", "That who", "You who"],
+          "answer": 0,
+          "zh": "有錢的人可以幫助自己的朋友。",
+          "explain": "【說明】Those who + 複數動詞 = He who + 單數動詞（凡是…的人）。此處動詞為 have，故選 Those who。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "A child ____ parents are dead is called an orphan.",
+          "options": ["whose", "who", "whom", "that"],
+          "answer": 0,
+          "zh": "父母雙亡的小孩叫做孤兒。",
+          "explain": "【說明】先行詞 (child) + whose + 名詞 (parents)。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "You may give the prize to anyone ____ you think best.",
+          "options": ["whom", "who", "what", "which"],
+          "answer": 0,
+          "zh": "你可以把獎品給任何一位你覺得是最好的人選。",
+          "explain": "【說明】先行詞 (anyone) + whom + 主詞 + 動詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Caves and hollow trees are not the only places ____.",
+          "options": ["where do bats live", "bats live where", "where bats live", "live where bats"],
+          "answer": 2,
+          "zh": "洞穴和樹穴並不是蝙蝠唯一棲息的地方。",
+          "explain": "【說明】where 為關係副詞，引導形容詞子句，修飾 places。子句中的主詞和動詞的順序和直述句相同。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "I was interviewed by the manager ____ I thought is one of your relatives.",
+          "options": ["one", "he", "who", "whom"],
+          "answer": 2,
+          "zh": "一位經理對我進行面試，我想他是你的一位親戚。",
+          "explain": "【說明】...manager who (I thought) is...（I thought 為插入句，who 作 is 的主詞）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "He wrote many interesting novels, some ____ you will read some day.",
+          "options": ["in which", "of which", "what", "that"],
+          "answer": 1,
+          "zh": "他寫了許多風趣的小說，改天你會看到幾本。",
+          "explain": "【說明】...novels, and some of them / some of which you will..."
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "All ____ is needed is a little more effort to make the catching faster.",
+          "options": ["what", "that", "which", "it"],
+          "answer": 1,
+          "zh": "所需要的是多一點的努力以使進度加快些。",
+          "explain": "【說明】All that / What is needed is a little... 當先行詞為 all 時，關係代名詞通常用 that。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "I am stuck in this matter; you may ask ____ knows better than I.",
+          "options": ["whoever", "whomever", "anyone", "the one"],
+          "answer": 0,
+          "zh": "這個問題難倒我了；你可以去問問比我行的人。",
+          "explain": "【說明】...ask [anyone who / whoever] knows better than I. whoever 作 knows 的主詞。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "His father does not allow him to play with ____ is dishonest.",
+          "options": ["whoever", "whatever", "those who", "anyone"],
+          "answer": 0,
+          "zh": "他父親不允許他與不誠實的人在一起玩。",
+          "explain": "【說明】...play with [anyone who / whoever] is dishonest."
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "The retiring teacher made a speech ____ she thanked the class for the generous gift.",
+          "options": ["which", "what", "in which", "that"],
+          "answer": 2,
+          "zh": "這位退休的老師發表演說，感謝班上同學送給他的厚禮。",
+          "explain": "【說明】...speech [and in the speech / in which] she thanked..."
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "____ as praise you to your face are sure to speak ill of you behind your back.",
+          "options": ["Such", "Like", "Those", "Who"],
+          "answer": 0,
+          "zh": "當面恭維你的人必定會在背後說你壞話。",
+          "explain": "【說明】① Such 為代名詞 = Those who（凡是…的人）\n② such 與 as 連用，指「像…那樣的人」"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "It is not I but you ____ to blame for the mistake.",
+          "options": ["have", "are", "who are", "who have"],
+          "answer": 2,
+          "zh": "該為此錯誤受責的人是你，而不是我。",
+          "explain": "【說明】① ...not I but you 其後之關係子句應配合肯定的 you。\n② be to blame（受責備），慣用寫法。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "It is not his intelligence but his diligence ____ him succeed in business.",
+          "options": ["that make", "that they make", "that makes", "that it makes"],
+          "answer": 2,
+          "zh": "使他事業成功的不是他的聰明而是他的勤奮。",
+          "explain": "【說明】① ...not... but his diligence [that makes him...]\n② 關係代名詞 that 作連詞及主詞用（分裂句強調節奏，diligence 為不可數名詞，動詞用 makes）。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Who was there ____ burst into tears at the news of his death?",
+          "options": ["that", "such", "as", "but"],
+          "answer": 3,
+          "zh": "聽到他的死訊有誰不落淚的？",
+          "explain": "【說明】① burst into tears = burst out crying（哭泣）\n② Who was there [but / that didn't] burst into tears...?（but 為準關係代名詞 = that... not）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "You ought to help me with my trouble, ____ you are my friend.",
+          "options": ["so that", "such as", "that", "as"],
+          "answer": 3,
+          "zh": "你必須幫我解決困難，因為你是我的朋友。",
+          "explain": "【說明】as 在此作「連詞」用，表示「因為；由於」。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Naturally, spring is the season ____ flowers are in full bloom.",
+          "options": ["why", "where", "when", "which"],
+          "answer": 2,
+          "zh": "當然，春天是花兒盛開的季節。",
+          "explain": "【說明】when 為關係副詞，表示時間。關係副詞 where, when, why 只作連詞用，不可兼作 S 或 O。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Don't read such books ____ will defile your mind.",
+          "options": ["that", "as", "which", "but"],
+          "answer": 1,
+          "zh": "不要閱讀褻瀆你心靈的書。",
+          "explain": "【說明】① such... as + (S) + V（像…那樣的），as 為關係代名詞。\n② ...such books [as will defile...]"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "It is our parents ____ we depend when we are in trouble.",
+          "options": ["whoever", "whomever", "on whom", "in which"],
+          "answer": 2,
+          "zh": "有困難時，我們所依賴的人便是父母。",
+          "explain": "【說明】...parents [whom we depend on / on whom we depend] when we..."
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "____ difficulties he may meet with, he will not be discouraged.",
+          "options": ["No matter", "However", "Whatever", "Not matter"],
+          "answer": 2,
+          "zh": "不論遭遇什麼困難，他將不會沮喪。",
+          "explain": "【說明】① However + 形/副 + S + V（無論如何…）\n② Whatever + 名詞 + S + V（無論什麼…）"
+        }
+      ]
+    },
+    {
+      "title": "形容詞子句（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Smith is the boy ____ , everyone thinks, will win the scholarship.",
+          "options": ["who", "whom", "whoever", "whomever"],
+          "answer": 0,
+          "zh": "史密斯是大家認為會獲得獎學金的孩子。",
+          "explain": "【說明】everyone thinks 是插入句，它與句子的前後部分沒有語法上的關連，who 是 will win 的主詞。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "The businessman, ____ knew the tourist had cheated him, answered it.",
+          "options": ["that", "who", "which", "whom"],
+          "answer": 1,
+          "zh": "商人回答這個問題，他知道旅客欺騙過他。",
+          "explain": "【說明】關係代名詞前若沒有「,」的話，that/who 都可以用，但如有逗號「,」時，便不能用 that。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "After interviewing a number of applicants for a job, a personnel manager will recall only those ____ have made a marked impression.",
+          "options": ["that", "which", "who", "whom"],
+          "answer": 2,
+          "zh": "面試完許多的應徵者後，人事經理只會記得曾給他留下深刻印象的人。",
+          "explain": "【說明】those who（凡是…的人）。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "The reason why some students are poor at speaking and writing in English ____ they neglect practice.",
+          "options": ["that is", "is that", "which is", "which"],
+          "answer": 1,
+          "zh": "有些學生不善於英語說寫的原因在於他們疏於練習。",
+          "explain": "【說明】The reason [why some students are...] is [that they neglect...]"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "He has already learned a great deal about international trade, ____.",
+          "options": ["that is commercial activities between nations", "which is commercial activities between nations", "it is known to us all", "we hope to develop"],
+          "answer": 1,
+          "zh": "他已經相當了解國際貿易，所謂國貿指的是國與國之間的交易活動。",
+          "explain": "【說明】關係代名詞 that 之前不可用逗號「,」，補述非限定子句修飾 international trade 需用 which。"
+        }
+      ]
+    },
+    {
+      "title": "副詞子句（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "You won't be on time ____ you hurry.",
+          "options": ["except", "unless", "without", "beside"],
+          "answer": 1,
+          "zh": "除非你快一點，否則你無法準時到。",
+          "explain": "【說明】unless + 子句（除非…）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "No matter ____ hard it may be, I must try.",
+          "options": ["what", "how", "any way", "some way"],
+          "answer": 1,
+          "zh": "無論如何的困難，我必須要試一試。",
+          "explain": "【說明】No matter how + 形/副...（無論如何）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Although Peter is clever, ____ work hard.",
+          "options": ["he doesn't", "he isn't", "but he doesn't", "but he isn't"],
+          "answer": 0,
+          "zh": "雖然彼得很聰明，但他不用功。",
+          "explain": "【說明】① Although S + V..., S + V（雖然…，但是…），不可重複使用 but。\n② work 是一般動詞，否定用 doesn't。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "He agreed ____ they might not bother him any more.",
+          "options": ["so that", "in order", "only that", "so as"],
+          "answer": 0,
+          "zh": "他同意了，為的是讓他們不再打擾他。",
+          "explain": "【說明】so that + 子句（為了…）表示目的。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "____ the road was icy, Mike drove very fast.",
+          "options": ["Though", "Because", "For", "As"],
+          "answer": 0,
+          "zh": "雖然路滑，但麥克開得很快。",
+          "explain": "【說明】參考第 3 題說明（Though 表示讓步「雖然」）。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "As soon as I ____ my meal, I left the restaurant.",
+          "options": ["finish", "will finish", "finished", "had finished"],
+          "answer": 2,
+          "zh": "我一用完餐，就離開餐廳。",
+          "explain": "【說明】As soon as S + V-ed, S + V-ed（一…就…）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Mary is ____ clever ____ she understands everything.",
+          "options": ["such a/that", "such an/that", "so/that", "so/as"],
+          "answer": 2,
+          "zh": "瑪麗很聰明，所以她知道每一件事。",
+          "explain": "【說明】so... that（太…所以…），clever 為形容詞，前面用 so。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Tom had a headache, ____ he didn't go to the party.",
+          "options": ["why", "so", "but", "or"],
+          "answer": 1,
+          "zh": "湯姆頭痛，所以無法參加宴會。",
+          "explain": "【說明】so（表示結果）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "People do not know the value of freedom ____ they have lost it.",
+          "options": ["until", "when", "since", "as"],
+          "answer": 0,
+          "zh": "人們失去自由，才知道自由的可貴。",
+          "explain": "【說明】not ~ until（直到～才）"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "We are very glad ____ you will cooperate with us in this project.",
+          "options": ["that", "because", "as", "for"],
+          "answer": 0,
+          "zh": "你願意和我們合作進行這項計劃，我們很高興。",
+          "explain": "【說明】be glad to + 動詞 / be glad that + 子句"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "He worked so hard ____ to go home.",
+          "options": ["that forgot", "he forgets", "that he forgets", "that he forgot"],
+          "answer": 3,
+          "zh": "他太努力工作而忘了回家。",
+          "explain": "【說明】① so... that + 子句（如此…以致於…）\n② 主要子句的動詞 (worked) 是過去式，所以從屬子句的動詞也用過去式 (forgot)。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "\"May I have the loan?\" \"____ you offer good security.\"",
+          "options": ["But", "Unless", "Provided", "But for"],
+          "answer": 1,
+          "zh": "「我可以貸款嗎？」「除非你提供足夠的抵押。」",
+          "explain": "【說明】① 原書答案標示為 (B) Unless（除非你提供足夠的抵押，否則不行）。\n另外若選 (C) Provided (that) 亦可表「假如；如果」：provided that + S + V。\n② But for = Without + N（若非；要是沒有）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "As far as I ____, I don't think it wise to go there alone.",
+          "options": ["concerning", "am concerning", "concerned", "am concerned"],
+          "answer": 3,
+          "zh": "就我而言，我不認為單獨去那裡是明智的。",
+          "explain": "【說明】As far as I am concerned（就我而言）"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Jean had not realized how long the magazine was or ____ it was to read.",
+          "options": ["how to difficult", "how difficult", "what to difficulty", "what difficulty"],
+          "answer": 1,
+          "zh": "珍並不知道該雜誌的內容有多長及其閱讀難度多高。",
+          "explain": "【說明】① not (A) or (B) = neither (A) nor (B)\n② ...realized [how long + S + V] or [how difficult + S + V]"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "As you treat me, ____ will I treat you.",
+          "options": ["as", "so", "or", "and"],
+          "answer": 1,
+          "zh": "你如何對待我，我亦將如是對待你。",
+          "explain": "【說明】① As (連) + S + V, so + 倒裝句。so 為副詞，表示「同樣的方式」\n② 比較：As you sow, so shall you reap.（一分耕耘，一分收穫。）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "We keep milk in a refrigerator ____ it will not spoil.",
+          "options": ["in order", "in case", "so that", "lest"],
+          "answer": 2,
+          "zh": "我們把牛奶存放冰箱裡，免得腐壞。",
+          "explain": "【說明】①「以免」... so that / in order that + S + 否定動詞\n②「以免」... lest + S + should + 原形 V"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "He has a good education; ____, he is a genius.",
+          "options": ["in addition to", "in spite of", "moreover", "otherwise"],
+          "answer": 2,
+          "zh": "他受過良好教育，而且他也是一位天才。",
+          "explain": "【說明】(A) in addition to + N（此外；而且）；(B) in spite of + N（雖然；儘管）；(C) moreover, S + V（此外；而且）；(D) otherwise, S + V（否則）"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "He was out of health; ____, he could not go to school.",
+          "options": ["otherwise", "therefore", "moreover", "according"],
+          "answer": 1,
+          "zh": "他健康不佳，因此他無法上學。",
+          "explain": "【說明】therefore, moreover, otherwise, accordingly, consequently, furthermore 等詞為副詞，又兼具有連詞的轉折作用，前面常用分號「;」隔開。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "You may do anything you like ____ it is not against the law.",
+          "options": ["even if", "so long as", "unless", "as soon as"],
+          "answer": 1,
+          "zh": "只要不違反法律，你喜歡做什麼都可以。",
+          "explain": "【說明】(A) even if = even though + S + V（雖然；即使）；(B) so long as + S + V（只要）；(C) unless = if + S + 否定動詞（除非）；(D) as soon as + S + V（一…就…）"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "____ they are, they are generous and friendly to others.",
+          "options": ["Poverty as", "Poor though", "Poorly as", "Although poor"],
+          "answer": 1,
+          "zh": "他們雖窮，對他人卻很慷慨友善。",
+          "explain": "【說明】原句 = Although they are poor, they are...\n= Poor as (或 though) they are, they are...\n= In spite of their poverty, they are..."
+        }
+      ]
+    },
+    {
+      "title": "副詞子句（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "John wanted to leave the hospital ____ able to walk.",
+          "options": ["even though hardly", "even if he was hardly", "though was hardly", "he was hardly"],
+          "answer": 1,
+          "zh": "約翰想離開醫院，即使他還不能走路。",
+          "explain": "【說明】...even if (或 even though) he was hardly (或 not) able to walk."
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "____, he is polite and kind to people.",
+          "options": ["As he is young", "Though his youth", "Young as he is", "Despite he is young"],
+          "answer": 2,
+          "zh": "雖然年輕，他對待別人親切又有禮。",
+          "explain": "【說明】原句 = Though he is young, he is...\n= Young as (或 though) he is, he is...\n= In spite of his youth, he is..."
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "He learns English hard ____ going abroad for advanced study.",
+          "options": ["in order that", "with a view to", "lest he should", "in order to"],
+          "answer": 1,
+          "zh": "他認真學英語，以便出國進修。",
+          "explain": "【說明】(A) ...in order that + S + V（以便）；(B) ...with a view to + V-ing（以便）；(C) ...lest he should + V（以免）；(D) ...in order to + V（以便）"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "A secretary wouldn't be of much use ____.",
+          "options": ["if she is always needing instructions", "I should say that initiative is important", "whether they are beautiful or not", "she takes care over her appearance"],
+          "answer": 0,
+          "zh": "如果一位秘書總是需要有人指示，她就沒多大用處。",
+          "explain": "【說明】if（表示條件，如果…）。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "She doesn't know much about computers ____.",
+          "options": ["but she is interested in learning them", "although meat is quite expensive", "but he took only one and put the rest back", "they had trouble getting a shopping cart"],
+          "answer": 0,
+          "zh": "她對於電腦所知不多，但她對學電腦很感興趣。",
+          "explain": "【說明】but（對等連接詞，表示轉折「但是…」）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題：五大句型與三大子句",
+      "instructions": "根據中文提示，填入適當的單字或片語完成句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "人人皆有其缺點。\nThere is ____ one ____ has his own weak points.",
+          "answer": "no / but",
+          "zh": "人人皆有其缺點。",
+          "explain": "【說明】There is no one but + V（每…必定；無一…而不…）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "我想喝冰茶，他也是。\nI ____ like some ice tea, and he ____, too.",
+          "answer": "would / does",
+          "zh": "我想喝冰茶，他也是。",
+          "explain": "【說明】① does 代替 like，以免重複。\n② would like to + V（想要；欲）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "他習慣於三餐喝點酒。\nHe ____ ____ a rule to drink a little wine at meals.",
+          "answer": "makes it",
+          "zh": "他習慣於三餐喝點酒。",
+          "explain": "【說明】makes it a rule to + V（習慣於）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "多數人相信熟能生巧。\nMost people believe that ____ makes ____.",
+          "answer": "practice / perfect",
+          "zh": "多數人相信熟能生巧。",
+          "explain": "【說明】Practice makes perfect.（熟能生巧。）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "我不知道是否她會講國語。\nI wonder ____ or ____ she speaks Chinese.",
+          "answer": "whether / not",
+          "zh": "我不知道是否她會講國語。",
+          "explain": "【說明】① whether A or B（A 或是 B）\n② whether or not（是否）"
+        },
+        {
+          "no": 6,
+          "type": "fill",
+          "q": "這件毛衣跟我遺失的一樣。\nThis is the ____ sweater ____ I lost.",
+          "answer": "same / as",
+          "zh": "這件毛衣跟我遺失的一樣。",
+          "explain": "【說明】① the same... as 表示「同種類但不同一個」\n② the same... that... 表示「同類且同一個」"
+        },
+        {
+          "no": 7,
+          "type": "fill",
+          "q": "說這種話的人是騙子。\n____ says so ____ a liar.",
+          "answer": "Whoever / is",
+          "zh": "說這種話的人是騙子。",
+          "explain": "【說明】Whoever = Anyone who...（凡是…的人）"
+        },
+        {
+          "no": 8,
+          "type": "fill",
+          "q": "她太累了，馬上就睡著了。\nShe was so ____ that she ____ asleep immediately.",
+          "answer": "tired / fell",
+          "zh": "她太累了，馬上就睡著了。",
+          "explain": "【說明】① so... that + S + V（如此…以致於…）\n② fall - fell - fallen asleep（睡著了）\n③ feel - felt - felt sleepy（想睡覺）"
+        },
+        {
+          "no": 9,
+          "type": "fill",
+          "q": "有志者，事竟成。\n____ there is a will, there is a ____.",
+          "answer": "Where / way",
+          "zh": "有志者，事竟成。",
+          "explain": "【說明】will 名詞：意志力。Where there is a will, there is a way.（有志者事竟成。）"
+        },
+        {
+          "no": 10,
+          "type": "fill",
+          "q": "我一到家，天就下雨了。\n____ ____ I arrived home, it began to rain.\n= ____ had I arrived home ____ it began to rain.\n= ____ had I arrived home ____ it began to rain.\n= ____ my ____ home, it began to rain.",
+          "answer": "As soon as / No sooner / than / Hardly (或 Scarcely) / when / On / arriving",
+          "zh": "我一到家，天就下雨了。",
+          "explain": "【說明】As soon as = No sooner... than = Hardly (或 Scarcely)... when = On arriving（一…就…）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "學問在生活中很重要是不用說的。",
+          "hint": "不用說的：Needless to say",
+          "answer": "Needless to say, learning is very important in our daily life (或 in our everyday life).",
+          "explain": "【說明】Needless to say, S + V（不用說；自不待言）\n= It goes without saying that + S + V\n= It is needless to say that + S + V"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "然而，我們不知道何時會用到它。",
+          "hint": "用到它：put it into use",
+          "answer": "However, we don't know when we will put it into use.",
+          "explain": "【說明】put it into use（運用；使用）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "光羨慕他人的學識淵博是無益的。",
+          "hint": "學識淵博：great learning",
+          "answer": "It is no use envying others for their great learning.",
+          "explain": "【說明】It is no use + V-ing（無用；無益）\n= It is of no use + to V\n= It is useless + to V"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "我們應趁年輕時多讀一些有益的書籍。",
+          "hint": "有益的：beneficial",
+          "answer": "We should read more books that are beneficial to us while we are young.",
+          "explain": "【說明】beneficial 亦可用 instructive 或 informative。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "要不然，我們將無法趕上時代。",
+          "hint": "趕上：keep up with",
+          "answer": "Otherwise, we won't be able to keep up with the times.",
+          "explain": "【說明】keep up with the times（趕上時代）\n= keep abreast with the times"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，選出最適當的答案填入空格中：\n\nLiving things in nature 1. a food chain. If we can understand how a food chain works, 2. we can also understand the important fact of survival in nature.\nLet us see how this food chain operates. First, the grass uses energy from the sun to manufacture food by a process 3. photosynthesis. The food stores up energy. We call the grass the producer of energy. 4. , when an animal, 5. a rabbit, feeds on the grass, it uses up some of the energy, and stores the rest. We call the rabbit a primary 6. of energy. 7. a fox eats up the rabbit, again, some of the energy is consumed, and some is stored. The fox 8. the name of secondary consumer. 9. , in this way, energy from the sun is passed to \"secondary consumers.\" Survival in nature, 10. , depends on cooperation between living things.",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Living things in nature ____ a food chain.",
+          "options": ["form", "show", "lead", "serve"],
+          "answer": 0,
+          "zh": "大自然中的生物形成食物鏈。",
+          "explain": "【說明】form 動：形成；serve 動：服務。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "If we can understand how a food chain works, ____ we can also understand the important fact of survival in nature.",
+          "options": ["and", "then", "so", "but"],
+          "answer": 1,
+          "zh": "如果我們能了解食物鏈如何運作，那麼我們也能了解大自然生存的重要事實。",
+          "explain": "【說明】If + S + V..., then + S + V：如果…那麼…"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "First, the grass uses energy from the sun to manufacture food by a process ____ photosynthesis.",
+          "options": ["noted for", "called by", "known as", "named after"],
+          "answer": 2,
+          "zh": "首先，草利用來自太陽的能量，藉由被稱為光合作用的過程來製造養分。",
+          "explain": "【說明】(A) 以…出名；(B) 被…稱為；(C) 名稱為…、被稱為…；(D) 以…來命名。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "The food stores up energy. We call the grass the producer of energy. ____, when an animal, a rabbit, feeds on the grass, it uses up some of the energy...",
+          "options": ["Beside", "Unless", "Because", "Then"],
+          "answer": 3,
+          "zh": "然後，當像兔子這樣的動物以草為食時，它消耗了部分能量…",
+          "explain": "【說明】Then（然後），用於表示描述事物之順序。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...when an animal, ____ a rabbit, feeds on the grass...",
+          "options": ["like", "to be", "such", "just as"],
+          "answer": 0,
+          "zh": "當像兔子這樣的動物…",
+          "explain": "【說明】like = such as（如；像）。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "We call the rabbit a primary ____ of energy.",
+          "options": ["producer", "consumer", "customer", "merchant"],
+          "answer": 1,
+          "zh": "我們稱兔子為初級能量消費者。",
+          "explain": "【說明】(A) 生產者；(B) 消費者；(C) 顧客；(D) 商人。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "____ a fox eats up the rabbit, again, some of the energy is consumed, and some is stored.",
+          "options": ["Since", "When", "If", "But"],
+          "answer": 2,
+          "zh": "如果狐狸吃掉了兔子，同樣地，一些能量被消耗，一些被儲存。",
+          "explain": "【說明】(A) 自從；(B) 當…時；(C) 如果；(D) 但是。原書答案為 (C) If。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "The fox ____ the name of secondary consumer.",
+          "options": ["achieves", "deceives", "conceives", "receives"],
+          "answer": 3,
+          "zh": "狐狸得到了次級消費者的名稱。",
+          "explain": "【說明】(A) 達成；(B) 欺騙；(C) 想像；(D) 接受、得到。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "____, in this way, energy from the sun is passed to \"secondary consumers.\"",
+          "options": ["So", "As", "For", "And"],
+          "answer": 0,
+          "zh": "所以，就這樣，來自太陽的能量被傳送給「次級消費者」。",
+          "explain": "【說明】So（所以），表示結果之連詞。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Survival in nature, ____, depends on cooperation between living things.",
+          "options": ["moreover", "therefore", "otherwise", "although"],
+          "answer": 1,
+          "zh": "大自然的生存因此仰賴生物之間的合作。",
+          "explain": "【說明】(A) 此外；(B) 因此；(C) 否則；(D) 雖然。"
+        }
+      ]
+    }
+  ]
+}

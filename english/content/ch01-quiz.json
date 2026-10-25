@@ -1,0 +1,821 @@
+{
+  "chapter": 1,
+  "title": "時態",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "\"Have you seen Mike lately?\" \"He ____ here the other day.\"",
+          "options": [
+            "has been",
+            "being",
+            "was",
+            "will be"
+          ],
+          "answer": 2,
+          "zh": "「最近見過麥克嗎？」「他前幾天在此。」",
+          "explain": "the other day（前幾天），用過去簡單式。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "I ____ an old friend on the way home yesterday.",
+          "options": [
+            "meet",
+            "met",
+            "have met",
+            "had met"
+          ],
+          "answer": 1,
+          "zh": "昨天回家途中我遇見一位老友。",
+          "explain": "on the way home（返家途中）。句中有 yesterday，用過去簡單式。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The weather ____ fine for many days this month.",
+          "options": [
+            "is",
+            "has been",
+            "had been",
+            "was"
+          ],
+          "answer": 1,
+          "zh": "這個月好多天的天氣都不錯。",
+          "explain": "for many days（好幾天），表示一段時間，用現在完成式。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Since last century, his family ____ teachers.",
+          "options": [
+            "are",
+            "are being",
+            "have been",
+            "were being"
+          ],
+          "answer": 2,
+          "zh": "從上個世紀以來，他的家人全是老師。",
+          "explain": "since（自從），表示過去持續到現在之狀態，用現在完成式。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "The old man repented that he ____ idle when young.",
+          "options": [
+            "has been",
+            "having been",
+            "had been",
+            "have been"
+          ],
+          "answer": 2,
+          "zh": "這老人很後悔年輕時太懶惰。",
+          "explain": "① repented 動 (後悔；懊悔)\n② repented 為過去簡單式，比過去更早發生之動作用過去完成式。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "When I came to see him last evening, he ____ his dinner.",
+          "options": [
+            "has eaten",
+            "was eaten",
+            "eats",
+            "was eating"
+          ],
+          "answer": 3,
+          "zh": "昨晚我去看他時，他正在吃晚餐。",
+          "explain": "過去一動作發生時，另一動作正在進行中，用過去進行式。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "By next Sunday you ____ with us for three months.",
+          "options": [
+            "will have stayed",
+            "will stay",
+            "shall stay",
+            "have stayed"
+          ],
+          "answer": 0,
+          "zh": "到下星期天時，你將與我們在一起三個月了。",
+          "explain": "① for three months（三個月），表示一段時間，應用完成式。\n② By next Sunday（到下星期天），表示未來時間，應用未來簡單式。\n③「By + 未來時間」與「for + 一段時間」連用時，常用未來完成式。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Keep an eye on the children while I ____.",
+          "options": [
+            "go to shop",
+            "go shopping",
+            "am doing some shopping",
+            "will do some shop."
+          ],
+          "answer": 1,
+          "zh": "我去買東西時，請留意我的孩子。",
+          "explain": "① keep an eye on = take care of（留意；照料）\n② while 引導「時間」副詞子句，用現在簡單式代替未來簡單式。\n③ go shopping = do the shopping（購物；買東西）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "The accident ____ right here a week ago.",
+          "options": [
+            "happened",
+            "was happened",
+            "has happened",
+            "was happening"
+          ],
+          "answer": 0,
+          "zh": "車禍一星期前在此處發生。",
+          "explain": "a week ago（一星期前），用過去簡單式。happen（發生）不可用被動式，is/was happened 是錯誤之寫法。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "The whole area was flooded because it ____ for weeks.",
+          "options": [
+            "rains",
+            "has rain",
+            "had been raining",
+            "was raining"
+          ],
+          "answer": 2,
+          "zh": "整個地區氾濫成災，因為雨一直下了數週。",
+          "explain": "主要子句的動詞 was flooded 是「過去」，從屬子句也要用「過去」。「for + 時間」與完成式連用，故選 (C)。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "After she ____ told the news, she ran home to tell her mother.",
+          "options": [
+            "would have",
+            "would have been",
+            "had been",
+            "should have"
+          ],
+          "answer": 2,
+          "zh": "她聽到這消息後，就跑回去告訴她母親。",
+          "explain": "過去兩個動作發生時，先發生的動作用「過去完成式」，後發生的動作用「過去簡單式」，本句指她被告知消息，故用過去完成式被動。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "By next May they ____ the bridge for nine months.",
+          "options": [
+            "will build",
+            "will have been building",
+            "will have been built",
+            "will be built"
+          ],
+          "answer": 1,
+          "zh": "到明年五月，他們將已經築橋築了九個月了。",
+          "explain": "①「by + 未來時間」與「for + 一段時間」連用時，動詞常用「未來完成式」或「未來完成進行式」。\n② 惟答案 (C) 為被動式，而主詞為 \"they\"（人們），故不可選。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "I have not seen John since he ____ here.",
+          "options": [
+            "leaving",
+            "left",
+            "leaves",
+            "leave"
+          ],
+          "answer": 1,
+          "zh": "自從約翰離開這裡後，我再也沒見過他。",
+          "explain": "句型：\nS + have/has + p.p. ... since + S + V-ed（過去簡單式）\n➜ Since + S + V-ed（過去簡單式）, S + have/has + p.p."
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "When I ____ on the street, I met Mary.",
+          "options": [
+            "walked",
+            "had walked",
+            "walk",
+            "was walking"
+          ],
+          "answer": 3,
+          "zh": "我在街上走時遇到瑪麗。",
+          "explain": "參閱第 6 題說明。若兩句子都用過去簡單式，則表示兩個動作同時發生〔(A) 表示我一走路就遇到瑪麗，不合句意〕。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "They sang a song which they ____ before.",
+          "options": [
+            "did not sing",
+            "had not sung",
+            "sang",
+            "would have sung"
+          ],
+          "answer": 1,
+          "zh": "他們唱了一首以前未曾唱過的歌。",
+          "explain": "sang 為過去之動作，表示過去以前之動作應用過去完成式。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "He ____ his homework before I came.",
+          "options": [
+            "has done",
+            "has been doing",
+            "had done",
+            "would have done"
+          ],
+          "answer": 2,
+          "zh": "我來之前他已做完家庭作業。",
+          "explain": "before I came（在我來之前），表示過去以前之動作動作用過去完成式。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "He will be happy when he ____ the good news.",
+          "options": [
+            "hears",
+            "is hearing",
+            "will hear",
+            "will have heard"
+          ],
+          "answer": 0,
+          "zh": "他聽到這好消息時將會很高興。",
+          "explain": "When 引導副詞子句，故用現在簡單式代替未來簡單式，其句型是：\nS + will/shall + V... when + S + V（現在簡單式）"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "My little brother is always good while my mother ____.",
+          "options": [
+            "looks",
+            "will be looking",
+            "has been looking",
+            "is looking"
+          ],
+          "answer": 3,
+          "zh": "我母親看著他時，我小弟總是很乖。",
+          "explain": "while（當…之時）通常用進行式。本題表示習慣性，指兩個動作同時進行。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "By the end of this week, ____ for a month exactly.",
+          "options": [
+            "I'm travelling",
+            "I'll have been travelling",
+            "I'd be travelling",
+            "I'll travel"
+          ],
+          "answer": 1,
+          "zh": "到本週末，我將已整整旅行了一個月。",
+          "explain": "參閱 12 題說明。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "When you called me up last night, I ____ a bath.",
+          "options": [
+            "was taking",
+            "had been taken",
+            "would be taking",
+            "has taken"
+          ],
+          "answer": 0,
+          "zh": "昨晚你打電話給我時，我正在洗澡。",
+          "explain": "① call(人) up = telephone(人)（打電話給某人）\n② 參閱 6 題說明。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "No sooner had the thief seen the policeman than he ____ to his heels.",
+          "options": [
+            "was taking",
+            "took",
+            "has taken",
+            "had taken"
+          ],
+          "answer": 1,
+          "zh": "小偷一看到警察，拔腿就跑。",
+          "explain": "① No sooner... than = Hardly... when（一…就…）\n② No sooner + had + S + p.p. than + S + V-ed（過去簡單式）"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "The teacher stepped into the classroom and ____ the students to open the windows at once.",
+          "options": [
+            "to ask",
+            "asking",
+            "asked",
+            "had asked"
+          ],
+          "answer": 2,
+          "zh": "老師走進教室並且要求學生立刻打開窗戶。",
+          "explain": "本題考動作之連續性。...stepped... and asked..."
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "Don't worry. If he said he ____ help you, he will.",
+          "options": [
+            "shall",
+            "will",
+            "would",
+            "ought"
+          ],
+          "answer": 2,
+          "zh": "別擔心。如果他說過要幫你，他一定會（幫你）的。",
+          "explain": "本題考「動詞時態一致」，時態一致有一基本原理：若主要子句的動詞（say, tell, ask, think, wonder...）是表示過去時，則後面的 that 子句或 wh- 子句中的動詞不可以用現在式（真理，格言除外），必須用過去簡單式，過去進行式或過去完成式。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "It is expected that the bridge ____ completed by next April.",
+          "options": [
+            "would be",
+            "is being",
+            "had been",
+            "will have been"
+          ],
+          "answer": 3,
+          "zh": "大家期望這座橋在明年四月前能完工。",
+          "explain": "「by + 未來時間」，可用未來完成式。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "____ so many visitors today that I feel exhausted.",
+          "options": [
+            "We'd been having",
+            "We were having",
+            "We've been having",
+            "We'd had"
+          ],
+          "answer": 2,
+          "zh": "我們今天已接待如此多的訪客，以致於我現在感到很疲憊。",
+          "explain": "從過去一直持續到現在的動作，用現在完成進行式表示。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "They ____ to see us more often when we were living in Shanghai.",
+          "options": [
+            "came",
+            "have been coming",
+            "have come",
+            "would be coming"
+          ],
+          "answer": 0,
+          "zh": "我們住上海時，他們更常來看我們。",
+          "explain": "\"were living\" 表示過去一段時間內所發生的事，故用過去簡單式。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "____ you have bought some new shoes.",
+          "options": [
+            "I was seeing",
+            "I see",
+            "I am seeing",
+            "I saw"
+          ],
+          "answer": 1,
+          "zh": "我知道你已買了一些新鞋子。",
+          "explain": "① see 作「看到」或「了解」不可用進行式。\n② have bought 為現在完成式，為求時態之一致，不可用 saw。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "The thief took the diamond necklace, opened the door, and ____.",
+          "options": [
+            "running",
+            "run out",
+            "ran away",
+            "to run out"
+          ],
+          "answer": 2,
+          "zh": "小偷拿了鑽石項鍊，打開門，然後就跑出去了。",
+          "explain": "過去發生一連串動作，用 and 連接，通常全用過去簡單式。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "I will go home for vacation as soon as I ____ my exams.",
+          "options": [
+            "will finish",
+            "finish",
+            "am finishing",
+            "finished"
+          ],
+          "answer": 1,
+          "zh": "我一考完試就將回家度假。",
+          "explain": "as soon as（一…就…）表示「時間」之副詞子句，用現在簡單式代替未來簡單式。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "There ____ a lot of changes here in the last twenty years.",
+          "options": [
+            "have been",
+            "have had",
+            "had been",
+            "will have"
+          ],
+          "answer": 0,
+          "zh": "在這最近二十年中這裡的變化很多。",
+          "explain": "本題是指過去二十年一直到現在所發生之變化，故用現在完成式。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "Our sales ____ for months, so we are now in great financial difficulties.",
+          "options": [
+            "have been dropping",
+            "had been dropping",
+            "have been dropped",
+            "are dropping"
+          ],
+          "answer": 0,
+          "zh": "我們的銷售量一直下降至今已數月了，所以我們現在陷於極大的財政困難。",
+          "explain": "現在完成進行式是表示從過去繼續到現在，而且強調現在仍在進行的動作。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "These students ____ English five years by the end of this year.",
+          "options": [
+            "will be studying",
+            "will have been studying",
+            "will study",
+            "will have been studied"
+          ],
+          "answer": 1,
+          "zh": "這些學生到今年年底時將已經學了五年的英語。",
+          "explain": "「by + 未來某時」，與「for + 一段時間」連用時動詞常用「未來完成式」或「未來完成進行式」。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "His sprained ankle prevented him from walking, so he ____ to the nearest road to catch the bus.",
+          "options": [
+            "has to crawl",
+            "had to crawl",
+            "having crawled",
+            "having been crawling"
+          ],
+          "answer": 1,
+          "zh": "他扭傷的足踝使他無法走路，所以他必須爬到最近的路上去搭車。",
+          "explain": "① so 是對等連接詞，連接兩個簡單句，一般情況下兩個簡單句的動詞採用相同時式。\n② prevent(人) from + V-ing（阻止人無法…）"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "We have been told the final outcome of the negotiations, but we shall never know what ____ on behind the scenes.",
+          "options": [
+            "goes",
+            "will go",
+            "went",
+            "will have been going"
+          ],
+          "answer": 2,
+          "zh": "我們已被告知談判的最後結果，但卻永遠無法得知其中的內幕。",
+          "explain": "① behind the scenes（幕後），指過去之事，用過去簡單式。\n② outcome（結果）；negotiations（談判）"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "I have seen this movie twice already. How many times ____ shown in this city?",
+          "options": [
+            "has it been",
+            "has it",
+            "have it been",
+            "had it been"
+          ],
+          "answer": 0,
+          "zh": "這部電影我已看了兩遍。在本市它已上映過幾遍了？",
+          "explain": "① 本題表示「經驗」，故用現在完成式。\n② 電影是被放映要用被動式（has been shown）。"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "I ____ to telephone a friend in New York for the last two hours but the line is still engaged.",
+          "options": [
+            "tried",
+            "have been trying",
+            "had been trying",
+            "had tried"
+          ],
+          "answer": 1,
+          "zh": "過去兩個鐘頭我一直試著打電話給在紐約的朋友，但到現在線路仍然不通。",
+          "explain": "「for + 一段時間」，動作持續到現在，用現在完成（進行）式。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "When you ____ back to Beijing next month, let me know the exact date and flight number beforehand.",
+          "options": [
+            "will come",
+            "had come",
+            "be coming",
+            "come"
+          ],
+          "answer": 3,
+          "zh": "你下個月回北京時，事先讓我知道確切日期和班機航次。",
+          "explain": "以 if 或 when 引導的副詞子句，用現在簡單式代替未來簡單式。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "I shall be happy to hand in my resignation as soon as you ____ somebody to take my place.",
+          "options": [
+            "have found",
+            "are finding",
+            "had found",
+            "will have found"
+          ],
+          "answer": 0,
+          "zh": "當你找到人接替我的職位時，我將很樂意提出辭呈。",
+          "explain": "① hand in my resignation（提出辭呈）；take my place（取代我）。\n② will have found 如改為 find 就對了，因為 \"as soon as you find...\" 是表示時間的副詞子句，動詞用現在式。\n③ 本題是用現在完成式代替未來簡單式。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "My wound has been aching ever since it ____ to rain.",
+          "options": [
+            "has started",
+            "started",
+            "will start",
+            "is starting"
+          ],
+          "answer": 1,
+          "zh": "自從下雨以來，我的傷口一直在疼痛著。",
+          "explain": "參閱 13 題說明。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "If it ____ tomorrow, the meeting will be put off until further notice.",
+          "options": [
+            "will rain",
+            "is going to rain",
+            "would rain",
+            "rains"
+          ],
+          "answer": 3,
+          "zh": "假如明天下雨，會議將被延期直到更進一步的通知。",
+          "explain": "參閱 37 題說明。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示完成英文句子（填入空格所需單字）",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "過去十年中，大城市的人口一直在增加。\nDuring the past ____ populations in large cities ____ greatly ____.",
+          "answer": "decade; have; increased",
+          "zh": "過去十年中，大城市的人口一直在增加。",
+          "explain": "During the past decade 表示「從十年前到現在」，所以應用現在完成式。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "在這最近二十年中這裡的變化很多。\nThere ____ ____ a lot of changes here in the last twenty years.",
+          "answer": "have; been",
+          "zh": "在這最近二十年中這裡的變化很多。",
+          "explain": "表示「有」的現在完成式寫法用 There have been，不可用 There have had。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "你昨天打電話來的時候，我們正在吃午飯。\nWe ____ ____ lunch when you called on the phone yesterday.",
+          "answer": "were; having 或 were; eating",
+          "zh": "你昨天打電話來的時候，我們正在吃午飯。",
+          "explain": "過去一動作發生時，另一動作正在進行中，用過去進行式。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "我整天都研究這個問題，到現在還沒解決。\nI ____ ____ ____ ____ the problem all day, but it is not solved yet.",
+          "answer": "have; been; working; on",
+          "zh": "我整天都研究這個問題，到現在還沒解決。",
+          "explain": "① work on（著手研究）\n② all day 表示「一整天」。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "我們很高興，當我們到達那裡的時候，戲尚未開場。\nWe were glad ____ ____ the time we got there the play hadn't begun ____.",
+          "answer": "that; by; yet",
+          "zh": "我們很高興，當我們到達那裡的時候，戲尚未開場。",
+          "explain": "① be glad that + S + V（高興）\n② by the time（到…時候）\n③ not... yet（尚未；還沒有）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "我小時候在中國南部的鄉下讀小學。",
+          "hint": "讀小學：study in the elementary school",
+          "answer": "When I was a child, I studied in the elementary school in the country of southern China.",
+          "zh": "我小時候在中國南部的鄉下讀小學。",
+          "explain": "敘述過去的求學經歷，用過去簡單式 studied。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "以前每個週末我都和朋友到河邊釣魚。",
+          "hint": "河邊：by the riverside",
+          "answer": "I used to go fishing by the riverside with my friends every weekend.",
+          "zh": "以前每個週末我都和朋友到河邊釣魚。",
+          "explain": "「過去經常的習慣，而今不再」，用 used to + 原形動詞。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "我的童年不僅快樂而且充滿回憶。",
+          "hint": "充滿回憶：memorable",
+          "answer": "My childhood was not only happy but also memorable.",
+          "zh": "我的童年不僅快樂而且充滿回憶。",
+          "explain": "not only... but also... 連接對等形容詞 happy 與 memorable；敘述過去狀態用過去簡單式 was。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "在我現在所住的都市裡，空氣污染嚴重。",
+          "hint": "空氣污染：air pollution",
+          "answer": "Now I live in the city, where air pollution is rather serious.",
+          "zh": "在我現在所住的都市裡，空氣污染嚴重。",
+          "explain": "Now 表示現在的事實狀態，用現在簡單式 live 與 is。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "如果都市的空氣和鄉下一樣新鮮，那該多好啊！",
+          "hint": "那該多好啊！：How nice it would be",
+          "answer": "How nice it would be if the air in the city were as fresh as that in the country!",
+          "zh": "如果都市的空氣和鄉下一樣新鮮，那該多好啊！",
+          "explain": "與現在事實相反的假設，if 子句動詞用過去式 were，主要子句用 would + 原形動詞。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文並依文意選出各空格最適當的答案：\n\nI usually __1__ very early, but last Friday I __2__ until seven-thirty in the morning because I __3__ very late the previous night. For fear that I __4__ late for school, I __5__ to take a taxi to school. No sooner __6__ a quick breakfast than I ran out of my home and got in the first taxi I saw.\n\nOn the way to school, the taxi driver __7__ at full speed. He ran through red lights and the taxi zigzagged along the street. I was so frightened that I told the driver to slow down __8__ he paid no attention.\n\nWhen I got out of the taxi, I felt glad I was still alive. I am sure I must have looked pale at that time because when Tom, my best friend, saw me, he asked me if anything __9__ to me.\n\nI am determined that I __10__ a taxi again.",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I usually ____ very early, but last Friday I didn't get up...",
+          "options": [
+            "am getting up",
+            "got up",
+            "was getting up",
+            "get up"
+          ],
+          "answer": 3,
+          "zh": "",
+          "explain": "usually（通常），表示習慣性，用現在簡單式。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...but last Friday I ____ until seven-thirty in the morning because I...",
+          "options": [
+            "didn't get up",
+            "didn't go to bed",
+            "got up late",
+            "went to bed late"
+          ],
+          "answer": 0,
+          "zh": "",
+          "explain": "did not get up until...（直到…才…）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "...because I ____ very late the previous night.",
+          "options": [
+            "had sat up",
+            "was sitting up",
+            "has sat up",
+            "am sitting up"
+          ],
+          "answer": 0,
+          "zh": "",
+          "explain": "had sat up very late（熬夜到很晚），比過去更早發生之動作應用過去完成式。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "For fear that I ____ late for school, I decided to take a taxi to school.",
+          "options": [
+            "may be",
+            "would have",
+            "will have",
+            "might be"
+          ],
+          "answer": 3,
+          "zh": "",
+          "explain": "might be late for school（可能會遲到），過去發生之事情。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...I ____ to take a taxi to school.",
+          "options": [
+            "decide",
+            "was deciding",
+            "decided",
+            "have decided"
+          ],
+          "answer": 2,
+          "zh": "",
+          "explain": "decided to take a taxi（決定搭計程車）"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "No sooner ____ a quick breakfast than I ran out of my home...",
+          "options": [
+            "do I take",
+            "have I taken",
+            "was I taken",
+            "had I taken"
+          ],
+          "answer": 3,
+          "zh": "",
+          "explain": "句型：No sooner had + S + p.p. than + S + V-ed（一…就…）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "On the way to school, the taxi driver ____ at full speed.",
+          "options": [
+            "drives",
+            "drove",
+            "had driven",
+            "was driven"
+          ],
+          "answer": 1,
+          "zh": "",
+          "explain": "drive-drove-driven（開車），描寫過去之事情，用過去簡單式。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "I was so frightened that I told the driver to slow down ____ he paid no attention.",
+          "options": [
+            "but",
+            "which",
+            "because",
+            "and"
+          ],
+          "answer": 0,
+          "zh": "",
+          "explain": "but（但是），表示「反意」之連接詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "...because when Tom, my best friend, saw me, he asked me if anything ____ to me.",
+          "options": [
+            "was happening",
+            "has happened",
+            "was happened",
+            "had happened"
+          ],
+          "answer": 3,
+          "zh": "",
+          "explain": "過去兩動作先後發生，先發生之動作用過去完成式（had happened to me），後發生之動作用過去簡單式（asked）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "I am determined that I ____ a taxi again.",
+          "options": [
+            "have never taken",
+            "will never take",
+            "had never taken",
+            "will be never taken"
+          ],
+          "answer": 1,
+          "zh": "",
+          "explain": "be determined（下決心），表示未來不再搭計程車，故用未來簡單式。"
+        }
+      ]
+    }
+  ]
+}

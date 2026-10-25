@@ -1,0 +1,779 @@
+{
+  "chapter": 8,
+  "title": "易混淆動詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "The boys were told to ____ the beds after getting up.",
+          "options": [
+            "make",
+            "do",
+            "put",
+            "finish"
+          ],
+          "answer": 0,
+          "zh": "男孩子被告知起床後要把床鋪好。",
+          "explain": "make the bed（鋪床）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "She ____ me that she would not go.",
+          "options": [
+            "told",
+            "said",
+            "spoke",
+            "talked"
+          ],
+          "answer": 0,
+          "zh": "她告訴我她不會去。",
+          "explain": "tell ＋ 人 ＋ that 子句（告訴某人…）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Several books were found ____ on my desk.",
+          "options": [
+            "to lie",
+            "to lying",
+            "laying",
+            "lying"
+          ],
+          "answer": 3,
+          "zh": "有幾本書被發現放在我的桌上。",
+          "explain": "lie — lay — lain — lying（臥；放）為不及物動詞，後面不可接受詞；如有受詞，則須先加介系詞。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "This watch is dependable, as it always ____ good time.",
+          "options": [
+            "tells",
+            "makes",
+            "keeps",
+            "shows"
+          ],
+          "answer": 2,
+          "zh": "這隻手錶是可信賴的，因為它總是走得準。",
+          "explain": "keep good time（走得準）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "When I went to see the doctor, he first had the nurse ____ my temperature.",
+          "options": [
+            "measure",
+            "get",
+            "find",
+            "take"
+          ],
+          "answer": 3,
+          "zh": "當我去看醫生時，他先要護士給我量體溫。",
+          "explain": "take one's temperature（量體溫）"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "Don't hurry, you may ____ your time writing this letter.",
+          "options": [
+            "keep",
+            "take",
+            "use",
+            "lose"
+          ],
+          "answer": 1,
+          "zh": "別急，你可以不慌不忙地寫信。",
+          "explain": "take one's time（不慌不忙）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "They plan to build a hall that may ____ two thousand people.",
+          "options": [
+            "seat",
+            "sit",
+            "set",
+            "be sitting"
+          ],
+          "answer": 0,
+          "zh": "他們計劃建築一座可容納二千人的大禮堂。",
+          "explain": "seat（容納；使就座）／sit（坐）／set（安置）。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "I love ____ in bed reading my favorite novels in the night.",
+          "options": [
+            "laying",
+            "lain",
+            "lying",
+            "laid"
+          ],
+          "answer": 2,
+          "zh": "我喜歡晚上躺在床上看我喜愛的小說。",
+          "explain": "① love ＋ V-ing（喜愛）\n② 參考第 3 題說明（lie — lay — lain — lying）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Hurry up or you will ____ the train.",
+          "options": [
+            "lost",
+            "miss",
+            "loose",
+            "lose"
+          ],
+          "answer": 1,
+          "zh": "快點，否則你會錯過這班火車。",
+          "explain": "miss（錯過；錯失）／lose（遺失）／loose（釋放）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "The river has ____ several feet because of the heavy rain.",
+          "options": [
+            "rose",
+            "raised",
+            "risen",
+            "rising"
+          ],
+          "answer": 2,
+          "zh": "由於下大雨，河水已經上漲好幾英尺了。",
+          "explain": "rise — rose — risen（上漲）為不及物動詞。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Long ago, news often ____ weeks or months to get into the paper.",
+          "options": [
+            "spent",
+            "took",
+            "made",
+            "cost"
+          ],
+          "answer": 1,
+          "zh": "很久以前，消息通常要花數個禮拜或數個月才能刊登上報。",
+          "explain": "事物 ＋ take ＋ 時間（做某事花多少時間）"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "Don't ____ so much noise in the public places.",
+          "options": [
+            "do",
+            "take",
+            "make",
+            "talk"
+          ],
+          "answer": 2,
+          "zh": "不要在公共場所製造這麼多噪音。",
+          "explain": "make much noise（製造噪音）"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "A: Can I speak to Mary?\nB: She's not here right now.\nA: Oh. May I ____ a message?",
+          "options": [
+            "take",
+            "leave",
+            "give",
+            "say"
+          ],
+          "answer": 1,
+          "zh": "A：瑪麗在嗎？\nB：她現在不在。\nA：噢！我可以留個話嗎？",
+          "explain": "leave a message（留個口信）"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "It ____ about one hour to fly from Taipei to Hong Kong.",
+          "options": [
+            "needs",
+            "takes",
+            "costs",
+            "spends"
+          ],
+          "answer": 1,
+          "zh": "坐飛機從台北到香港，大約要花費一小時。",
+          "explain": "It ＋ take(s) ＋ 時間 ＋ to V（做…需要多少時間）"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "He ____ good-bye to his good friends at the station.",
+          "options": [
+            "said",
+            "told",
+            "spoke",
+            "talked"
+          ],
+          "answer": 0,
+          "zh": "他在車站向他的好朋友說再見。",
+          "explain": "say \"good-bye\" to（向…說再見）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "The hostess asked her guests to be ____.",
+          "options": [
+            "sit",
+            "sat",
+            "set",
+            "seated"
+          ],
+          "answer": 3,
+          "zh": "女主人要求客人就座。",
+          "explain": "be seated ＝ seat oneself（坐下）"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "How much money did you ____ on your reference books?",
+          "options": [
+            "take",
+            "spend",
+            "cost",
+            "occupy"
+          ],
+          "answer": 1,
+          "zh": "你花了多少錢買參考書？",
+          "explain": "人 ＋ spend ＋ 時間／金錢 ＋ on ＋ 事物（花…在…方面）"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "It ____ a little force to lift the heavy weight.",
+          "options": [
+            "takes",
+            "is needed",
+            "is taken",
+            "need"
+          ],
+          "answer": 0,
+          "zh": "搬起這重物需要費點力氣。",
+          "explain": "It take(s) ＋ 抽象名詞 ＋ to V…（做…需要…）"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "It ____ courage to make a speech in public.",
+          "options": [
+            "does",
+            "takes",
+            "makes",
+            "need"
+          ],
+          "answer": 1,
+          "zh": "在公開場合演講是需要勇氣的。",
+          "explain": "參考第 18 題說明：It takes ＋ 抽象名詞 ＋ to V。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "I ____ like going for a walk in Beihai Park.",
+          "options": [
+            "feel",
+            "felled",
+            "fell",
+            "fall"
+          ],
+          "answer": 0,
+          "zh": "我想到北海公園走一走。",
+          "explain": "feel like ＋ V-ing（想；欲）"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "A large number of trees on the top of the mountain ____ in the woods.",
+          "options": [
+            "felled",
+            "had been felled",
+            "had felled",
+            "had fallen"
+          ],
+          "answer": 1,
+          "zh": "山頂上的許多樹木被砍倒在叢林中。",
+          "explain": "① fell — felled — felled（砍倒）\n② 樹被砍倒，故用被動語態表示。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "It doesn't ____ any difference to me whether you are rich or poor.",
+          "options": [
+            "say",
+            "make",
+            "work",
+            "turn"
+          ],
+          "answer": 1,
+          "zh": "你富有或貧困對我都一樣。",
+          "explain": "it doesn't make any difference to ＋ 人…（對…沒有關係／都一樣）"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "As John was broke these days, he ____ five yuan from me yesterday.",
+          "options": [
+            "lent",
+            "borrowed",
+            "gave",
+            "had lent"
+          ],
+          "answer": 1,
+          "zh": "由於這陣子約翰沒有錢，他昨天向我借了五元。",
+          "explain": "borrow 錢 from 人（向某人借錢）"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Please carefully read the directions which can ____ on page ten.",
+          "options": [
+            "find",
+            "be finded",
+            "be found",
+            "be founded"
+          ],
+          "answer": 2,
+          "zh": "請仔細閱讀說明，它可以在第十頁找到。",
+          "explain": "① find — found — found（發現、找到）\n② found — founded — founded（建立、創設）"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "It ____ from here to the station.（複選）",
+          "options": [
+            "is five minutes' walk",
+            "takes five minutes to walk",
+            "spend five minute walk",
+            "is five minute's walk"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "zh": "從這裡到車站要步行五分鐘。",
+          "explain": "five minutes' walk（五分鐘的步行）。(A) 和 (B) 均符合英語語法表達。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "The short supply did not ____ the increasing demand.",
+          "options": [
+            "catch",
+            "meet",
+            "follow",
+            "answer"
+          ],
+          "answer": 1,
+          "zh": "供給的短缺無法滿足逐漸增加的需求。",
+          "explain": "meet the demand（滿足需要）"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "As he entered the room, he found many books ____ scattered on the floor.",
+          "options": [
+            "laying",
+            "to lay",
+            "lying",
+            "lie"
+          ],
+          "answer": 2,
+          "zh": "他進入房間時，發現許多書散置在地板上。",
+          "explain": "① lie — lay — lain — lying（放、躺）\n② find ＋ 受詞 ＋ 受詞補語(V-ing)（發現…正…）"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "The book is on the shelf, where I ____ it yesterday.",
+          "options": [
+            "lay",
+            "lied",
+            "lying",
+            "laid"
+          ],
+          "answer": 3,
+          "zh": "這是我昨天放在書架上的那本書。",
+          "explain": "lay — laid — laid（放置）為及物動詞，後面要有受詞。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "At first he took an opposite view, but I managed to ____ him into agreeing with me.",
+          "options": [
+            "make",
+            "talk",
+            "cause",
+            "have"
+          ],
+          "answer": 1,
+          "zh": "最初他持相反意見，但我設法說服了他同意我。",
+          "explain": "talk 人 into N/V-ing（說服某人做…）"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "Many people think they can ____ what the weather is going to be like. But they hardly ever agree with each other.",
+          "options": [
+            "talk",
+            "cry",
+            "tell",
+            "speak"
+          ],
+          "answer": 2,
+          "zh": "很多人認為他們能預測未來的天氣，但是他們彼此意見很難一致。",
+          "explain": "tell（辨別；區別；說得出來）"
+        },
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "The boy's wayward behavior ____ his mother many a sleepless night.",
+          "options": [
+            "cost",
+            "took",
+            "spent",
+            "robbed"
+          ],
+          "answer": 0,
+          "zh": "那男孩任性的行為，使得他母親許多夜晚失眠。",
+          "explain": "事／物 ＋ cost ＋ 人 ＋ 損失／犧牲（使某人損失或犧牲）"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "She's gone to ____ the weekend with her family.",
+          "options": [
+            "spend",
+            "live",
+            "pass",
+            "take"
+          ],
+          "answer": 0,
+          "zh": "她已和她家人去度週末。",
+          "explain": "spend the weekend/vacation（度週末／度假期）"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "Modern means of transportation enables man to cover distances in a few hours that used to ____ him weeks or even months.",
+          "options": [
+            "cost",
+            "spend",
+            "waste",
+            "take"
+          ],
+          "answer": 3,
+          "zh": "現代化的交通方式使得人類以往要花費數週甚至數月時間的路程，如今只要幾小時就成了。",
+          "explain": "事物 ＋ take ＋ 人 ＋ 時間（某事物花了某人多少時間）"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "Mary is looking for a red hat to ____ her red dress.",
+          "options": [
+            "color",
+            "match",
+            "make",
+            "compare"
+          ],
+          "answer": 1,
+          "zh": "瑪麗正在尋找一頂與她紅衣服相配的紅帽子。",
+          "explain": "match (＝ go with)（配合、相配）"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "The teacher explained the lesson by ____ examples.",
+          "options": [
+            "doing",
+            "making",
+            "telling",
+            "giving"
+          ],
+          "answer": 3,
+          "zh": "老師舉例來說明課文。",
+          "explain": "give examples（舉例）"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "Food, drink, clothing, and a roof over one's head--these are the daily necessities that no one can ____ without.",
+          "options": [
+            "be",
+            "do",
+            "make",
+            "endure"
+          ],
+          "answer": 1,
+          "zh": "食物、飲料、衣物，以及住的房子——這些是人不可或缺的日常必需品。",
+          "explain": "do without（不用；不需）"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "This is exactly what happened. ____ my word for it.",
+          "options": [
+            "Take",
+            "Make",
+            "Ask",
+            "Believe"
+          ],
+          "answer": 0,
+          "zh": "這是實際上發生的情況，請相信我的話。",
+          "explain": "Take my word for it ＝ Believe me.（相信我的話）"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "\"Prices keep going up.\" \"Yes, but the interest on my savings account is certainly not ____.\"",
+          "options": [
+            "risen",
+            "raise",
+            "on the rise",
+            "on the raise"
+          ],
+          "answer": 2,
+          "zh": "「物價一直在漲。」「是啊！但我的儲蓄存款帳戶裡的利息，卻沒增加。」",
+          "explain": "on the rise（在上漲；在增加）"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "\"What do you need?\" \"My pen is out of ink, may I ____?\"",
+          "options": [
+            "use yours",
+            "lend yours",
+            "borrow yours",
+            "borrow you"
+          ],
+          "answer": 2,
+          "zh": "「你需要什麼？」「我的筆沒墨水了。借一下你的好嗎？」",
+          "explain": "借「筆」用 borrow；借「電話」用 use。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "\"When did the lecture begin?\"\n\"When all the students ____, the professor began his lecture.\"",
+          "options": [
+            "seated",
+            "sit",
+            "were seated",
+            "seat"
+          ],
+          "answer": 2,
+          "zh": "「演講什麼時候開始的？」「所有學生都就座後，教授就開始他的演講。」",
+          "explain": "坐下：sit ＝ be seated ＝ seat oneself"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入適當的英文字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "水由氫和氧構成。\nWater is ____ up ____ hydrogen and oxygen.",
+          "answer": "made / of",
+          "zh": "水由氫和氧構成。",
+          "explain": "consist of ＝ be made up of ＝ be composed of（由…組成）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "他不知該如何解決此問題。\nHe is ____ a ____ how to ____ this problem.",
+          "answer": "at / loss / solve",
+          "zh": "他不知該如何解決此問題。",
+          "explain": "be at a loss ＝ be at sea ＝ be puzzled ＝ be confused（迷惑的；困惑；茫然）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "醫生勸他不要再熬夜了。\nThe doctor advised him ____ to ____ ____ late again.",
+          "answer": [
+            "not / sit up",
+            "not / stay up"
+          ],
+          "zh": "醫生勸他不要再熬夜了。",
+          "explain": "① advise(人) to ＋ V（勸告某人做某事）\n② sit up late ＝ stay up late（熬夜）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "你得承認，他的話很有道理。\nYou have to admit that ____ he says ____ perfect ____.",
+          "answer": "what / makes / sense",
+          "zh": "你得承認，他的話很有道理。",
+          "explain": "make sense（中肯；有道理）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "他的病與生意的失敗有很大的關係。\nFailure in business ____ much ____ do ____ his illness.",
+          "answer": [
+            "has / to / with",
+            "had / to / with"
+          ],
+          "zh": "他的病與生意的失敗有很大的關係。",
+          "explain": "① have (something) to do with ＝ be connected with（與…有關）\n② have nothing to do with（與…無關）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成通順的英語",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "俗話說：「人各有所好」，我們就拿嗜好來談談吧。",
+          "hint": "就拿…來說吧：take... for example",
+          "answer": "As the saying goes, \"Everyone has his own hobby.\" Let's take hobbies for example.",
+          "zh": "俗話說：「人各有所好」，我們就拿嗜好來談談吧。",
+          "explain": "「人各有所好」亦可用 There is no accounting for tastes."
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "有人喜歡花錢買衣服或車子。",
+          "hint": "花錢：spend... on + N",
+          "answer": [
+            "Some people like to spend their money on clothes and cars.",
+            "Some people like to spend their money buying clothes and cars."
+          ],
+          "zh": "有人喜歡花錢買衣服或車子。",
+          "explain": "「花金錢／時間在…」\n人 ＋ spend ＋ 金錢／時間 ＋ on ＋ N ／ (in) ＋ V-ing\n例：She spent a whole day cleaning up the house.（她花一整天的時間打掃房子。）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "有人喜歡躺在草地上看著藍天白雲。",
+          "hint": "喜歡躺在：enjoy lying... and looking at",
+          "answer": "Others like to lie on the lawn watching white clouds and the blue sky.",
+          "zh": "有人喜歡躺在草地上看著藍天白雲。",
+          "explain": "現在分詞 (V-ing) 作主詞補語之句型：\nS ＋ (come/go ／ lie/sit ／ stand) ＋ V-ing…（表示主動或進行）\n例：She sat there reading her novel.（她坐在那兒看小說。）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "有人寧願在假日好好睡覺而不想吃飯。",
+          "hint": "寧願…而不…：prefer... to...",
+          "answer": [
+            "Others prefer having a good sleep to having their meals on holidays.",
+            "Others prefer to have a good sleep rather than have their meals on holidays."
+          ],
+          "zh": "有人寧願在假日好好睡覺而不想吃飯。",
+          "explain": "① Some..., Others..., (Still) Others....（有些…，有些…，更有些…）\n② prefer ＋ V-ing to ＋ V-ing ＝ prefer to ＋ V rather than ＋ V\n例：I prefer going out to staying at home on holidays.（假日我寧願外出而不願待在家裡。）"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "不管怎樣，人生都是值得我們去享受的。",
+          "hint": "值得：be worth (one's) + V-ing",
+          "answer": [
+            "At any rate, it is worthwhile for us to enjoy our lives.",
+            "Anyway, life is well worth our enjoying."
+          ],
+          "zh": "不管怎樣，人生都是值得我們去享受的。",
+          "explain": "「…是值得的」\n＝ It is worthwhile ＋ to V (或) V-ing\n＝ It pays to ＋ V\n例：It pays to be honest.（誠實是值得的。）"
+        }
+      ]
+    },
+    {
+      "title": "（五）改錯題測驗",
+      "instructions": "閱讀短文，將括號中劃線或有誤的單字／片語改成正確的形式：\n\nYou probably know why blood is always 1. (to need) in hospitals. Every day, hundreds of people get 2. (hurting) in accidents. Many other people are sick. Many of the hurt and sick people 3. (have missed) a lot of blood. They need new blood right away. So at all times, hospitals must have lots of new blood 4. (by hand).\nThere is no way to \"make\" new blood for people. Blood can only 5. (came from) other people. That is why someone may ask you to give blood 6. (some days).\nThe first time you give blood, you may be a little 7. (afraid of). After all, people don't like to have needles 8. (to put into) them. But the needle doesn't hurt much, and it only 9. (spends) a little time to give blood. You will be 10. (pride) that you did it. The second time you give, you won't mind it at all.\n\n【詞彙及短語提示】\n1. probably（副）也許、大概\n2. blood（名）血液\n3. accidents（名）意外事故\n4. needle（名）針\n5. won't mind it at all：一點都不在乎了",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "You probably know why blood is always (1) ____ (to need) in hospitals.",
+          "answer": "needed",
+          "zh": "你大概知道為什麼醫院總是需要血液。",
+          "explain": "why blood is always needed.（血液總是被需要，應用被動語態。）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "Every day, hundreds of people get (2) ____ (hurting) in accidents.",
+          "answer": "hurt",
+          "zh": "每天有數以百計的人在意外中受傷。",
+          "explain": "get hurt ＝ get injured（受傷）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "Many of the hurt and sick people (3) ____ (have missed) a lot of blood.",
+          "answer": "have lost",
+          "zh": "許多傷患和病人流失了大量血液。",
+          "explain": "①「失去；損失」用 lose — lost — lost\n②「錯過；未中」用 miss — missed — missed"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "So at all times, hospitals must have lots of new blood (4) ____ (by hand).",
+          "answer": "on hand",
+          "zh": "因此在任何時候，醫院都必須備有大量的庫存血液。",
+          "explain": "① on hand（現存；備有；手頭持有）\n② by hand（用手工）\n③ at hand（即將到來；在近處）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "Blood can only (5) ____ (came from) other people.",
+          "answer": "come from",
+          "zh": "血液只能來自其他人。",
+          "explain": "① 助動詞 can ＋ 原形動詞\n② come from（來自於）"
+        },
+        {
+          "no": 6,
+          "type": "fill",
+          "q": "That is why someone may ask you to give blood (6) ____ (some days).",
+          "answer": "someday",
+          "zh": "這就是為什麼有朝一日可能會有人請你去捐血。",
+          "explain": "① someday（未來某一天）\n② some days ＝ a few days（數天；好幾天）"
+        },
+        {
+          "no": 7,
+          "type": "fill",
+          "q": "The first time you give blood, you may be a little (7) ____ (afraid of).",
+          "answer": "afraid",
+          "zh": "第一次捐血時，你可能會有一點害怕。",
+          "explain": "① be afraid of ＋ 名詞（害怕…）\n② 若後面沒有接名詞受詞，則 of 需除去，只用形容詞 afraid。"
+        },
+        {
+          "no": 8,
+          "type": "fill",
+          "q": "After all, people don't like to have needles (8) ____ (to put into) them.",
+          "answer": "put into",
+          "zh": "畢竟，人們不喜歡針頭扎入身體。",
+          "explain": "① have needles put into them: 把針插入身體中（have [使役動詞] ＋ needles [受詞] ＋ put into them [受詞補語]）\n② have ＋ O ＋ p.p.（使…被…），表被動。"
+        },
+        {
+          "no": 9,
+          "type": "fill",
+          "q": "But the needle doesn't hurt much, and it only (9) ____ (spends) a little time to give blood.",
+          "answer": "takes",
+          "zh": "但是針扎不會太痛，而且捐血只花費一點點時間。",
+          "explain": "「花費時間做…」可用：\n① It ＋ takes(人) ＋ 時間 ＋ to V\n② 人 ＋ spend ＋ 時間 ＋ V-ing 或 on ＋ 名詞"
+        },
+        {
+          "no": 10,
+          "type": "fill",
+          "q": "You will be (10) ____ (pride) that you did it.",
+          "answer": "proud",
+          "zh": "你會為自己的付出感到自豪。",
+          "explain": "「以…為榮／感到自豪」可用：\n＝ be proud of (that...)\n＝ take pride in\n＝ pride oneself on\npride 為名詞或動詞，此處在 be 動詞之後作主詞補語，需用形容詞 proud。"
+        }
+      ]
+    }
+  ]
+}

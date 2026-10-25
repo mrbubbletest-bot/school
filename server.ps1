@@ -15,10 +15,19 @@ while ($listener.IsListening) {
 
     if (Test-Path $filePath) {
         $bytes = [System.IO.File]::ReadAllBytes($filePath)
-        $ext = [System.IO.Path]::GetExtension($filePath)
-        $ctMap = @{'.html'='text/html; charset=utf-8'; '.css'='text/css'; '.js'='text/javascript'}
+        $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
+        $ctMap = @{
+            '.html' = 'text/html; charset=utf-8'
+            '.css'  = 'text/css; charset=utf-8'
+            '.js'   = 'text/javascript; charset=utf-8'
+            '.json' = 'application/json; charset=utf-8'
+            '.md'   = 'text/plain; charset=utf-8'
+            '.png'  = 'image/png'
+            '.jpg'  = 'image/jpeg'
+            '.svg'  = 'image/svg+xml'
+        }
         $ct = $ctMap[$ext]
-        if (-not $ct) { $ct = 'text/plain' }
+        if (-not $ct) { $ct = 'text/plain; charset=utf-8' }
         $res.ContentType = $ct
         $res.ContentLength64 = $bytes.Length
         $res.OutputStream.Write($bytes, 0, $bytes.Length)

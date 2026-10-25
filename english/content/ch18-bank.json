@@ -1,0 +1,566 @@
+{
+  "chapter": 18,
+  "title": "疑問句、附加問句與直述句",
+  "items": [
+    {
+      "topic": "Yes/No問句 (be動詞)",
+      "level": 1,
+      "q": "____ your cousin interested in joining the school orchestra?",
+      "options": [
+        "Does",
+        "Is",
+        "Has",
+        "Are"
+      ],
+      "answer": 1,
+      "zh": "你的表弟對加入學校管弦樂團有興趣嗎？",
+      "explain": "be interested in（對…感興趣）固定搭配 be 動詞，且主詞 your cousin 為單數第三人稱，現在式疑問句應將 be 動詞 Is 移至句首。(A) Does 後需接一般原形動詞；(C) Has 後接過去分詞 p.p.；(D) Are 用於複數或第二人稱主詞。"
+    },
+    {
+      "topic": "Yes/No問句 (一般動詞)",
+      "level": 1,
+      "q": "____ you remember to turn off the air conditioner before leaving the classroom yesterday?",
+      "options": [
+        "Do",
+        "Have",
+        "Did",
+        "Were"
+      ],
+      "answer": 2,
+      "zh": "你昨天離開教室前有記得關冷氣嗎？",
+      "explain": "句尾有時間副詞 yesterday（昨天），且 remember 為一般動詞，形成過去簡單式疑問句需藉助助動詞 Did + 主詞 + 原形動詞。(A) Do 為現在式助動詞；(B) Have 用於完成式，後面動詞需為 p.p.；(D) Were 為 be 動詞，不可直接搭配原形動詞 remember。"
+    },
+    {
+      "topic": "否定疑問句之回答",
+      "level": 1,
+      "q": "“Aren't you joining us for the basketball game this afternoon?” “____. I have to study for tomorrow's biology test.”",
+      "options": [
+        "Yes, I am",
+        "No, I am",
+        "Yes, I'm not",
+        "No, I'm not"
+      ],
+      "answer": 3,
+      "zh": "「你今天下午不跟我們一起打籃球嗎？」「是的，我不去。我必須為明天的生物考試讀書。」",
+      "explain": "英語回答否定問句時完全以「事實」為準：若事實為不去，就必須回答 No, I'm not（中文習慣譯為「是的，我不去」）。(A) 表示要去參加，與後文衝突；(B)(C) 英語中 Yes 後不可接否定、No 後不可接肯定，文法結構矛盾。"
+    },
+    {
+      "topic": "疑問代名詞 (Which)",
+      "level": 1,
+      "q": "____ of the two foreign languages do you plan to take as an elective this semester, Japanese or French?",
+      "options": [
+        "Which",
+        "What",
+        "Who",
+        "Whose"
+      ],
+      "answer": 0,
+      "zh": "日語和法語這兩種外語中，你這學期打算選修哪一門？",
+      "explain": "當有明確指定範圍或在兩者（以上）中作選擇時，疑問代名詞必須使用 Which（哪一個）。(B) What 用於無指定範圍的詢問；(C) Who 指人；(D) Whose 為所有格，意為「誰的」。"
+    },
+    {
+      "topic": "疑問代名詞 (身分與職業)",
+      "level": 1,
+      "q": "“____ is Mrs. Higgins?” “She is an architect at an international engineering firm.”",
+      "options": [
+        "Who",
+        "What",
+        "How",
+        "Which"
+      ],
+      "answer": 1,
+      "zh": "「希金斯太太是做什麼工作的？」「她是一家國際工程公司的建築師。」",
+      "explain": "詢問某人的「職業、職務」時，英語常用 “What is sb.?” 句型；若詢問姓名或身分關係才用 Who。(A) Who 回答通常是名字或身分（如 She is my aunt）；(C) How 問身體健康狀況或為人如何；(D) Which 用於特定群體中的選擇。"
+    },
+    {
+      "topic": "疑問副詞 (how often)",
+      "level": 1,
+      "q": "“____ do you take your dog to the park for a run?” “Three times a week.”",
+      "options": [
+        "How long",
+        "How soon",
+        "How often",
+        "How far"
+      ],
+      "answer": 2,
+      "zh": "「你多久帶你的狗去公園跑一次？」「一星期三次。」",
+      "explain": "答句 “Three times a week”（一週三次）表示在特定期間內發生的次數（頻率），問句應用 How often（多常、多久一次）。(A) How long 詢問持續時間的長度；(B) How soon 詢問再過多久；(D) How far 詢問距離。"
+    },
+    {
+      "topic": "疑問副詞 (how soon)",
+      "level": 1,
+      "q": "“____ will the next high-speed train for Zuoying depart?” “In about fifteen minutes.”",
+      "options": [
+        "How soon",
+        "How often",
+        "How long",
+        "How fast"
+      ],
+      "answer": 0,
+      "zh": "「下一班開往左營的高鐵再過多久會發車？」「大約十五分鐘後。」",
+      "explain": "答句 “In about fifteen minutes”（再過約十五分鐘）表示從現在起再過多久，問句應用 How soon（再過多久）。(B) How often 問頻率；(C) How long 問持續時間；(D) How fast 問行駛速度。"
+    },
+    {
+      "topic": "疑問副詞 (how long)",
+      "level": 1,
+      "q": "“____ have you lived in this eco-friendly community?” “For more than seven years.”",
+      "options": [
+        "How often",
+        "How soon",
+        "How long",
+        "How much"
+      ],
+      "answer": 2,
+      "zh": "「你在這個環保社區住了多久了？」「七年多了。」",
+      "explain": "答句 “For more than seven years”（七年多）表示一段持續的時間長度，與現在完成式連用時應使用 How long（多久）。(A) How often 問次數或頻率；(B) How soon 問再過多久；(D) How much 問不可數數量或金額。"
+    },
+    {
+      "topic": "間接問句基礎 (語序)",
+      "level": 1,
+      "q": "Excuse me, could you please tell me ____?",
+      "options": [
+        "where is the nearest subway station",
+        "where the nearest subway station is",
+        "the nearest subway station is where",
+        "where does the nearest subway station be"
+      ],
+      "answer": 1,
+      "zh": "不好意思，能否請你告訴我最近的捷運站在哪裡？",
+      "explain": "間接問句作為動詞 tell 的受詞（名詞子句），必須恢復為直述語序「疑問詞 + 主詞 + 動詞」，不可倒裝，故選 (B)。(A) 為直接問句的倒裝語序；(C) 疑問詞不可置於句尾；(D) 助動詞 does 與 be 動詞混雜，文法錯誤。"
+    },
+    {
+      "topic": "疑問句常見句型 (look like)",
+      "level": 1,
+      "q": "“What does Kevin's new pet dog ____?” “It's small, fluffy, and golden brown.”",
+      "options": [
+        "look",
+        "look like",
+        "like",
+        "seem like"
+      ],
+      "answer": 1,
+      "zh": "「凱文的新寵物狗長得什麼樣子？」「它體型小巧、毛茸茸的，毛色是金棕色。」",
+      "explain": "詢問某人或動物的外貌長相時，常用句型為 “What + do/does/did + 主詞 + look like?”。(A) 若單用 look 則為連綴動詞，缺少介系詞 like 與疑問代名詞 What 呼應；(C) like 單獨作為動詞表示「喜歡」；(D) seem like 不搭配 What does... 詢問外貌。"
+    },
+    {
+      "topic": "附加問句基礎 (肯定句配否定)",
+      "level": 1,
+      "q": "Mr. Lin commutes to Taipei by commuter train every morning, ____?",
+      "options": [
+        "is he",
+        "isn't he",
+        "does he",
+        "doesn't he"
+      ],
+      "answer": 3,
+      "zh": "林先生每天早上都搭通勤電車去台北通勤，不是嗎？",
+      "explain": "直述句為肯定句，動詞 commutes 為現在簡單式第三人稱單數的一般動詞，因此附加問句需用否定助動詞 doesn't，代名詞用 he，選 (D)。(A)(B) 誤用 be 動詞；(C) 原句為肯定，附加問句不可同為肯定。"
+    },
+    {
+      "topic": "附加問句基礎 (否定句配肯定)",
+      "level": 1,
+      "q": "The children haven't finished their science project yet, ____?",
+      "options": [
+        "haven't they",
+        "have they",
+        "did they",
+        "didn't they"
+      ],
+      "answer": 1,
+      "zh": "孩子們還沒完成他們的科學專題，是嗎？",
+      "explain": "直述句為現在完成式否定句（haven't finished），依「前否後肯」原則，附加問句需用肯定助動詞 have，主詞代名詞為 they，故選 (B)。(A) 前否後不可再用否定；(C)(D) 時態不符，誤用過去式助動詞 did。"
+    },
+    {
+      "topic": "附加問句 (There is/are 句型)",
+      "level": 1,
+      "q": "There are several historical temples in Tainan, ____?",
+      "options": [
+        "aren't there",
+        "aren't they",
+        "are there",
+        "are they"
+      ],
+      "answer": 0,
+      "zh": "台南有幾座歷史悠久的寺廟，不是嗎？",
+      "explain": "There is / There are 句型的附加問句，主詞仍保留 there。原句為肯定句，故附加問句用否定式 aren't there。(B) 代名詞誤代換為 they；(C)(D) 未遵循「前肯後否」之原則。"
+    },
+    {
+      "topic": "祈使句附加問句 (Let's)",
+      "level": 1,
+      "q": "Let's take a break and grab a cup of bubble tea, ____?",
+      "options": [
+        "will you",
+        "shall we",
+        "don't we",
+        "won't we"
+      ],
+      "answer": 1,
+      "zh": "我們休息一下，買杯珍珠奶茶吧，好嗎？",
+      "explain": "以 Let's 開頭的祈使句表示「提議」，包含說話者與對方一起行動，其附加問句固定使用 shall we?。(A) will you 用於一般祈使句或 Let us / Let me 的請求；(C)(D) 均非 Let's 附加問句的標準句型。"
+    },
+    {
+      "topic": "直接引述改間接引述 (代名詞與時態)",
+      "level": 1,
+      "q": "Linda said, “I am reading an interesting novel now.”\n= Linda said that she ____ an interesting novel then.",
+      "options": [
+        "is reading",
+        "was reading",
+        "had read",
+        "would read"
+      ],
+      "answer": 1,
+      "zh": "琳達說：「我現在正在讀一本有趣的小說。」= 琳達說她那時正在讀一本有趣的小說。",
+      "explain": "主句動詞 said 為過去式，直接引述中的現在進行式 am reading 轉為間接引述時，時態需呼應轉為過去進行式 was reading，時間副詞 now 亦配合轉為 then。(A) 現在進行式時態未後退；(C) 過去完成式表示已完成，非進行狀態；(D) 未來式語意不符。"
+    },
+    {
+      "topic": "have 疑問句 (一般動詞 vs 助動詞)",
+      "level": 2,
+      "q": "____ your brother have a good time at the summer camp last week?",
+      "options": [
+        "Had",
+        "Was",
+        "Has",
+        "Did"
+      ],
+      "answer": 3,
+      "zh": "你哥哥上週在夏令營玩得開心嗎？",
+      "explain": "have a good time 中的 have 是「一般動詞」，且句中有過去時間 last week，故疑問句必須藉助過去式助動詞 Did + 主詞 + 原形 have。(A) Had 僅在過去完成式中當助動詞（後接 p.p.）；(B) be 動詞不可直接接原形動詞 have；(C) Has 為現在式，與 last week 衝突。"
+    },
+    {
+      "topic": "否定疑問句之情境回答陷阱",
+      "level": 2,
+      "q": "“Don't you like Taiwanese street food?” “____. Stinky tofu and oyster omelets are my absolute favorites!”",
+      "options": [
+        "No, I don't",
+        "No, I do",
+        "Yes, I do",
+        "Yes, I don't"
+      ],
+      "answer": 2,
+      "zh": "「難道你不喜歡台灣小吃嗎？」「不，我喜歡。臭豆腐和蚵仔煎是我的最愛！」",
+      "explain": "答者後文表示臭豆腐和蚵仔煎是其最愛，說明事實為「喜歡」，故英文回答必須堅定使用 Yes, I do（中文譯為「不，我喜歡」）。(A) 表示不喜歡，與後文矛盾；(B)(D) 英文回答中肯定與否定不可自相矛盾（不可有 No, I do 或 Yes, I don't）。"
+    },
+    {
+      "topic": "疑問形容詞 (whose vs who's)",
+      "level": 2,
+      "q": "“____ bicycle is parked in front of the emergency exit?” “It belongs to the delivery worker.”",
+      "options": [
+        "Who's",
+        "Which's",
+        "Who",
+        "Whose"
+      ],
+      "answer": 3,
+      "zh": "「停在緊急出口前面的那輛腳踏車是誰的？」「是外送員的。」",
+      "explain": "修飾名詞 bicycle 表示「誰的腳踏車」，需用所有格疑問形容詞 Whose。(A) Who's 是 Who is 或 Who has 的縮寫；(B) 英文中無 Which's 之形式；(C) Who 是主格疑問代名詞，不可直接修飾名詞。"
+    },
+    {
+      "topic": "how come 與 why 的語序差異",
+      "level": 2,
+      "q": "____ you didn't reply to my LINE message right after school?",
+      "options": [
+        "Why",
+        "What for",
+        "Wherefore",
+        "How come"
+      ],
+      "answer": 3,
+      "zh": "你放學後怎麼沒有立刻回我的 LINE 訊息？",
+      "explain": "句中主詞與動詞為直述語序 “you didn't reply”，口語中 How come（怎麼會、為什麼）後接直述語序（How come + S + V...?）。(A) Why 後面必須倒裝（例如 Why didn't you reply...?）；(B) What for 需拆開放置或倒裝；(C) Wherefore 為古英語，現代不作此用法。"
+    },
+    {
+      "topic": "間接問句 (時態呼應)",
+      "level": 2,
+      "q": "The police officer asked the witness what time ____ the suspicious vehicle.",
+      "options": [
+        "did he see",
+        "had he seen",
+        "he saw",
+        "he has seen"
+      ],
+      "answer": 2,
+      "zh": "警官詢問目擊證人他在什麼時間看到那輛可疑車輛。",
+      "explain": "間接問句必須採直述語序「疑問詞 + 主詞 + 動詞」，不可倒裝；且主句動詞 asked 為過去式，名詞子句時態應呼應使用過去簡單式 he saw。(A)(B) 為倒裝疑問語序，不可用於間接問句；(D) 現在完成式與主句過去式時態衝突。"
+    },
+    {
+      "topic": "間接問句 (whether vs if)",
+      "level": 2,
+      "q": "We haven't decided on ____ we will hold the sports day indoors or outdoors.",
+      "options": [
+        "that",
+        "if",
+        "what",
+        "whether"
+      ],
+      "answer": 3,
+      "zh": "我們尚未決定校運會是要在室內還是室外舉行。",
+      "explain": "在介系詞（on）之後引導名詞子句表示「是否」，或者與 or 連用時，只能使用 whether，不可使用 if。(A) that 引導名詞子句表示已確定之事實，不能表示「是否」；(B) if 不可用於介系詞之後，亦不可直接搭配 or 選擇；(C) what 代名詞在此處語意不通。"
+    },
+    {
+      "topic": "猜測動詞句型 (Who do you think)",
+      "level": 2,
+      "q": "____ will win the gold medal in the upcoming table tennis tournament?",
+      "options": [
+        "Do you think who",
+        "Whom do you think",
+        "Who you think",
+        "Who do you think"
+      ],
+      "answer": 3,
+      "zh": "你認為誰會在即將到來的桌球錦標賽中贏得金牌？",
+      "explain": "含有猜測動詞 think, believe, guess 等的疑問句，疑問詞必須移至「全句句首」；且在此疑問詞充當名詞子句的主詞，應用主格 Who，句型為「Who + do you think + V...?」，故選 (D)。(A) 疑問詞未置於句首；(B) 作子句主詞不可用受格 Whom；(C) 缺少助動詞 do。"
+    },
+    {
+      "topic": "附加問句含半否定詞 (seldom / hardly)",
+      "level": 2,
+      "q": "Grandpa seldom watches TV late at night, ____?",
+      "options": [
+        "doesn't he",
+        "isn't he",
+        "is he",
+        "does he"
+      ],
+      "answer": 3,
+      "zh": "爺爺很少在深夜看電視，是嗎？",
+      "explain": "直述句中含有半否定副詞 seldom（很少），全句視為「否定句」，其附加問句必須用「肯定式」。動詞 watches 為一般動詞現在式單數，故助動詞用 does，代名詞用 he，選 (D)。(A) 忽略了 seldom 的否定含義而誤用否定；(B)(C) 誤用 be 動詞。"
+    },
+    {
+      "topic": "附加問句之動詞 (had better)",
+      "level": 2,
+      "q": "You had better see a dentist about that toothache, ____?",
+      "options": [
+        "hadn't you",
+        "didn't you",
+        "weren't you",
+        "better not you"
+      ],
+      "answer": 0,
+      "zh": "那顆牙痛你最好去看牙醫，不是嗎？",
+      "explain": "片語 had better（最好…）的附加問句以 had 為助動詞。原句為肯定句，故附加問句用否定形式 hadn't you。(B) 誤將 had 視為一般動詞過去式而用 didn't；(C) 誤用 be 動詞；(D) 非標準附加問句句型。"
+    },
+    {
+      "topic": "附加問句之動詞 (had to)",
+      "level": 2,
+      "q": "All the passengers had to get off the bus because of a flat tire, ____?",
+      "options": [
+        "hadn't they",
+        "weren't they",
+        "didn't they",
+        "shouldn't they"
+      ],
+      "answer": 2,
+      "zh": "所有乘客因為爆胎都必須下公車，不是嗎？",
+      "explain": "have to / has to / had to 中的 have 是「一般動詞」，過去式 had to 的疑問與否定均須藉助助動詞 did，因此其否定附加問句為 didn't they。(A) 誤將 had to 中的 had 當作完成式助動詞；(B) 誤用 be 動詞；(D) 動詞形式與原句不符。"
+    },
+    {
+      "topic": "附加問句之主詞 (動名詞/不定詞主詞)",
+      "level": 2,
+      "q": "Recycling plastic bottles and aluminum cans helps protect our environment, ____?",
+      "options": [
+        "don't they",
+        "aren't they",
+        "isn't it",
+        "doesn't it"
+      ],
+      "answer": 3,
+      "zh": "回收寶特瓶與鋁罐有助於保護我們的環境，不是嗎？",
+      "explain": "直述句的主詞為動名詞片語 “Recycling plastic bottles and aluminum cans”，動名詞或不定詞作主詞時視為「單數事物」，附加問句代名詞需用 it。動詞 helps 為一般動詞現在式單數，故附加問句用 doesn't it。(A)(B) 誤將受詞 bottles and cans 當成複數主詞而用 they；(C) 誤用 be 動詞。"
+    },
+    {
+      "topic": "附加問句之主詞 (these/those)",
+      "level": 2,
+      "q": "These sneakers are on sale this weekend, ____?",
+      "options": [
+        "aren't these",
+        "are they",
+        "aren't they",
+        "isn't it"
+      ],
+      "answer": 2,
+      "zh": "這雙運動鞋這個週末在打折特價，不是嗎？",
+      "explain": "當直述句主詞為 these 或 those 時，附加問句的主詞代名詞一律代換為 they。原句為肯定句，故附加問句用否定形式 aren't they。(A) 附加問句主詞不可直接使用指示詞 these；(B) 違背「前肯後否」原則；(D) sneakers 為複數名詞，不可用單數 it。"
+    },
+    {
+      "topic": "祈使句附加問句 (Let us 表示請求)",
+      "level": 2,
+      "q": "Let us know your final decision by five o'clock this afternoon, ____?",
+      "options": [
+        "shall we",
+        "don't we",
+        "aren't you",
+        "will you"
+      ],
+      "answer": 3,
+      "zh": "請在今天下午五點前讓我們知道你的最終決定，好嗎？",
+      "explain": "“Let us + 原形動詞” 在此表示對對方的「請求／指令」（讓我們…），受話對象為 you，故附加問句用 will you?。只有在 “Let's” 表示說話者與聽話者一起提議「我們…吧」時才用 shall we?。(A) 誤用於提議句型；(B)(C) 均非祈使句之附加問句。"
+    },
+    {
+      "topic": "祈使句附加問句 (否定祈使句)",
+      "level": 2,
+      "q": "Don't open the door to strangers while you are home alone, ____?",
+      "options": [
+        "will you",
+        "won't you",
+        "shall we",
+        "do you"
+      ],
+      "answer": 0,
+      "zh": "你獨自在家時不要給陌生人開門，好嗎？",
+      "explain": "否定祈使句（Don't + 原形動詞）的附加問句固定使用肯定式的 will you?。(B) won't you 用於肯定祈使句表達熱情邀請；(C) shall we 用於 Let's 提議；(D) do you 非祈使句附加問句形式。"
+    },
+    {
+      "topic": "直接引述改間接引述 (時間副詞變化)",
+      "level": 2,
+      "q": "David said, “I will visit my grandparents tomorrow.”\n= David said that he would visit his grandparents ____.",
+      "options": [
+        "tomorrow",
+        "yesterday",
+        "the next day",
+        "the day before"
+      ],
+      "answer": 2,
+      "zh": "大衛說：「我明天會去探望我的祖父母。」= 大衛說他次日會去探望他的祖父母。",
+      "explain": "直接引述改為間接引述時，時間副詞 tomorrow（明天）必須配合主句過去時態改為 the next day 或 the following day（次日、翌日）。(A) 仍為直接引述之詞彙；(B) 昨天；(D) 前一天（由 yesterday 改寫而來）。"
+    },
+    {
+      "topic": "猜測動詞句型作受詞",
+      "level": 3,
+      "q": "What do you think ____ when he found out about the surprise party?",
+      "options": [
+        "did Jason say",
+        "had Jason said",
+        "Jason says",
+        "Jason said"
+      ],
+      "answer": 3,
+      "zh": "你認為傑森發現驚喜派對時說了什麼？",
+      "explain": "在猜測動詞句型 “What do you think...?” 中，think 後方接的是名詞子句，必須維持直述語序「主詞 + 動詞」，不可倒裝；且由 found out（過去式）可知子句動詞應用過去式 said，故選 (D) Jason said。(A) 為倒裝疑問語序；(B) 倒裝且非過去完成時機；(C) 現在式時態不符。"
+    },
+    {
+      "topic": "附加問句以主要子句為準 (主從複合句)",
+      "level": 3,
+      "q": "Although it was pouring rain outside, the players didn't cancel the soccer match, ____?",
+      "options": [
+        "was it",
+        "wasn't it",
+        "did they",
+        "didn't they"
+      ],
+      "answer": 2,
+      "zh": "雖然外面下著傾盆大雨，球員們並沒有取消足球比賽，是嗎？",
+      "explain": "在含有從屬副詞子句（Although...）的複合句中，附加問句的主詞與動詞由「主要子句」（the players didn't cancel the soccer match）決定。主要子句為否定句（didn't cancel），故附加問句用肯定式 did they。(A)(B) 誤以從屬子句 it was pouring rain 為基準；(D) 前否後應肯，不可再用否定 didn't they。"
+    },
+    {
+      "topic": "複合句附加問句 (I don't think 否定轉移)",
+      "level": 3,
+      "q": "I don't think that the new policy will solve traffic congestion, ____?",
+      "options": [
+        "do I",
+        "don't I",
+        "will it",
+        "won't it"
+      ],
+      "answer": 2,
+      "zh": "我認為這項新政策解決不了交通壅塞，不是嗎？",
+      "explain": "當主句為 “I don't think / believe / suppose + that-子句” 時，英文習慣將子句的否定轉移到主句動詞（否定轉移），但附加問句須由「名詞子句」決定，且因主句已帶有否定 not，整句語意為否定，故附加問句需用肯定式 will it。(A)(B) 誤以 I think 為主體；(D) 忽略了主句 don't 的否定效力。"
+    },
+    {
+      "topic": "複合句附加問句 (主詞非第一人稱)",
+      "level": 3,
+      "q": "Many citizens believe that the mayor will fulfill his promises, ____?",
+      "options": [
+        "won't he",
+        "will he",
+        "don't they",
+        "do they"
+      ],
+      "answer": 2,
+      "zh": "許多市民相信市長會實現他的承諾，不是嗎？",
+      "explain": "只有當主詞是第一人稱 “I think / believe” 時，附加問句才看後面的名詞子句；若主句主詞不是 I（如 Many citizens believe），附加問句仍需由「主要子句」決定。主要子句為肯定句，動詞 believe 為現在式，故附加問句用 don't they。(A)(B) 誤以名詞子句為基準；(D) 前肯後應否。"
+    },
+    {
+      "topic": "附加問句動詞 (used to)",
+      "level": 3,
+      "q": "Uncle Sam used to ride a motorcycle to work, ____?",
+      "options": [
+        "didn't he",
+        "wasn't he",
+        "doesn't he",
+        "isn't he"
+      ],
+      "answer": 0,
+      "zh": "山姆叔叔過去常常騎摩托車去上班，不是嗎？",
+      "explain": "used to（過去習慣／過去曾經）在現代英語中視為過去式一般動詞，其否定附加問句最常使用 didn't he（亦可用 usedn't he）。(B)(D) 誤用 be 動詞；(C) doesn't 為現在式，而 used to 表過去的事實。"
+    },
+    {
+      "topic": "祈使句附加問句 (邀請禮貌用法)",
+      "level": 3,
+      "q": "Please take a seat and make yourself comfortable, ____?",
+      "options": [
+        "shall we",
+        "don't you",
+        "do you",
+        "won't you"
+      ],
+      "answer": 3,
+      "zh": "請坐，請放輕鬆不要拘束，好嗎？",
+      "explain": "在肯定祈使句中，若表達熱情、客氣的「邀請或招待」（請坐、請隨意），附加問句常用 won't you? 來加強親切感。(A) shall we 用於 Let's 提議；(B)(C) 非祈使句標準附加問句。"
+    },
+    {
+      "topic": "直接引述改間接引述 (真理時態不變)",
+      "level": 3,
+      "q": "The science teacher taught us, “Water boils at 100 degrees Celsius.”\n= The science teacher taught us that water ____ at 100 degrees Celsius.",
+      "options": [
+        "boiled",
+        "had boiled",
+        "would boil",
+        "boils"
+      ],
+      "answer": 3,
+      "zh": "理化老師教導我們：「水在攝氏100度沸騰。」= 理化老師教導我們水在攝氏100度沸騰。",
+      "explain": "直接引述改為間接引述時，若引述內容為「客觀真理、科學事實或格言」，即使主句動詞為過去式（taught），子句動詞依然維持「現在簡單式」，故選 (D) boils。(A) 誤套用時態後退原則；(B)(C) 均不適用於科學真理。"
+    },
+    {
+      "topic": "直接引述改間接引述 (祈使句否定轉化)",
+      "level": 3,
+      "q": "“Don't stay up late studying before the final exam,” Mom said to me.\n= Mom advised me ____ late studying before the final exam.",
+      "options": [
+        "not to stay up",
+        "to not stay up",
+        "don't stay up",
+        "not staying up"
+      ],
+      "answer": 0,
+      "zh": "「期末考前不要熬夜讀書，」媽媽對我說。= 媽媽勸我期末考前不要熬夜讀書。",
+      "explain": "祈使句改為間接引述時，通常使用 advise / tell / ask + 受詞 + to-V 的句型；若為否定祈使句（Don't...），則在不定詞 to 前加上 not，形成 not to stay up。(B) 分裂不定詞較不合正式文法；(C) 保留原句助動詞 don't 為嚴重語法錯誤；(D) advise 搭配受詞時接 to-V，不接 V-ing。"
+    },
+    {
+      "topic": "直接引述改間接引述 (感嘆句轉變)",
+      "level": 3,
+      "q": "He said, “What an amazing performance it is!”\n= He exclaimed that it was ____.",
+      "options": [
+        "what an amazing performance",
+        "an amazing performance very",
+        "how an amazing performance",
+        "a very amazing performance"
+      ],
+      "answer": 3,
+      "zh": "他說：「多麼精彩的表演啊！」= 他驚嘆那是場非常精彩的表演。",
+      "explain": "感嘆句改為間接引述時，引導動詞通常改為 exclaimed that，且將感嘆句恢復為直述語序，What / How 轉變為 very（修飾形容詞），即 “that it was a very amazing performance”。(A)(C) 未恢復為直述結構且感嘆詞未轉化；(B) very 位置錯誤。"
+    },
+    {
+      "topic": "間接問句作介系詞受詞 (不可用 that)",
+      "level": 3,
+      "q": "The students are curious about ____ the school will build a new swimming pool next year.",
+      "options": [
+        "that",
+        "if",
+        "what",
+        "whether"
+      ],
+      "answer": 3,
+      "zh": "學生們對學校明年是否會建造新游泳池感到很好奇。",
+      "explain": "介系詞 about 後面接名詞子句表示「是否」時，只能用 whether，絕不可使用 if，亦不可使用 that。(A) that 子句不能直接作介系詞的受詞，且不能表達「是否」的疑惑；(B) if 不能放在介系詞後面；(C) what 代名詞在此處受詞不缺，語法不合。"
+    }
+  ]
+}

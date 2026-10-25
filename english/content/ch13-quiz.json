@@ -1,0 +1,836 @@
+{
+  "chapter": 13,
+  "title": "關係詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I met Mary, ____ told me the news.",
+          "options": [
+            "that",
+            "who",
+            "which",
+            "what"
+          ],
+          "answer": 1,
+          "zh": "我碰見瑪麗，她告訴我這個消息。",
+          "explain": "【說明】主格關代 who 代替 Mary；但不可用 that，that 之前不能用「逗號」或「介系詞」。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "Our president is a man ____ everyone looks up to.",
+          "options": [
+            "who",
+            "whose",
+            "whom",
+            "what"
+          ],
+          "answer": 2,
+          "zh": "我們的總統是受到每個人尊敬的人。",
+          "explain": "【說明】whom 代替 man，作介系詞 to 的受詞。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "My father, ____ you met, is a merchant.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "whose"
+          ],
+          "answer": 2,
+          "zh": "我父親，你前天見過他，目前從商。",
+          "explain": "【說明】whom 代替 father，作 met 的受詞。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "The girl ____ hair is blond comes from France.",
+          "options": [
+            "who",
+            "whose",
+            "whom",
+            "that"
+          ],
+          "answer": 1,
+          "zh": "這位金黃色頭髮的女孩來自法國。",
+          "explain": "【說明】whose ＋ 名詞 (hair)"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "A child ____ parents are dead is called an orphan.",
+          "options": [
+            "whose",
+            "who",
+            "whom",
+            "that"
+          ],
+          "answer": 0,
+          "zh": "雙親都去世的小孩叫做孤兒。",
+          "explain": "【說明】whose ＋ 名詞"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "He is the teacher ____ we all like.",
+          "options": [
+            "whom",
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 0,
+          "zh": "他是我們都喜歡的老師。",
+          "explain": "【說明】whom 代替 teacher，作 like 的受詞。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "The man ____ was here just now is my uncle.",
+          "options": [
+            "which",
+            "whom",
+            "who",
+            "he"
+          ],
+          "answer": 2,
+          "zh": "剛才在這裡的人是我的叔叔。",
+          "explain": "【說明】who 代替 the man，作 was 的主詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Smoking, ____ is a bad habit, is nevertheless very popular.",
+          "options": [
+            "though",
+            "it",
+            "what",
+            "which"
+          ],
+          "answer": 3,
+          "zh": "抽菸是一種壞習慣，但仍然很盛行。",
+          "explain": "【說明】此為非限定用法，先行詞為 smoking，故用 which。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "There is nothing ____ can be done about it.",
+          "options": [
+            "that which",
+            "that",
+            "which",
+            "what"
+          ],
+          "answer": 1,
+          "zh": "那件事已無可奈何了。",
+          "explain": "【說明】nothing, everything, anything 為先行詞，關係代名詞用 that。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "The car ran over a dog and a boy ____ just crossing the street.",
+          "options": [
+            "who was",
+            "whom was",
+            "that was",
+            "that were"
+          ],
+          "answer": 3,
+          "zh": "這輛車輾過了正在過街的小狗和男孩。",
+          "explain": "【說明】先行詞（人和動物），必須用關係代名詞 that。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "All ____ I have done is wrong.",
+          "options": [
+            "what",
+            "those",
+            "that",
+            "which"
+          ],
+          "answer": 2,
+          "zh": "我所做的一切都是錯的。",
+          "explain": "【說明】all that ＝ what"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "This is the longest train ____ I have ever seen.",
+          "options": [
+            "which",
+            "that",
+            "what",
+            "whom"
+          ],
+          "answer": 1,
+          "zh": "這是我所見過最長的一列火車。",
+          "explain": "【說明】最高級的先行詞 (the longest train) 之後用 that。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "He didn't mean ____ he said.",
+          "options": [
+            "what",
+            "that",
+            "which",
+            "it"
+          ],
+          "answer": 0,
+          "zh": "他言行不一致。",
+          "explain": "【說明】沒有先行詞，關係代名詞用 what。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "I don't know ____ he is afraid of.",
+          "options": [
+            "when",
+            "how",
+            "why",
+            "what"
+          ],
+          "answer": 3,
+          "zh": "我不知道他害怕什麼。",
+          "explain": "【說明】沒有先行詞，關係代名詞用 what。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Courtesy is to business ____ oil is to machinery.",
+          "options": [
+            "which",
+            "at which",
+            "in which",
+            "what"
+          ],
+          "answer": 3,
+          "zh": "油之於機器正如禮貌之於生意一樣。",
+          "explain": "【說明】A is to B what / as C is to D（A之於B猶如C之於D）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "____ they wanted was to see the teacher, not the student.",
+          "options": [
+            "Which",
+            "Whom",
+            "What",
+            "Who"
+          ],
+          "answer": 2,
+          "zh": "他們想要去看的是老師，而非學生。",
+          "explain": "【說明】① 沒有先行詞，關係代名詞用 what。\n② What they wanted 為名詞子句當主詞。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "I am glad to do ____ you want me to do.",
+          "options": [
+            "that",
+            "however",
+            "which",
+            "whatever"
+          ],
+          "answer": 3,
+          "zh": "不論是何事情，你要我做我都樂意。",
+          "explain": "【說明】此句沒有先行詞，故用複合關係代名詞 whatever。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Give the dictionary to ____ wants it badly.",
+          "options": [
+            "anyone",
+            "whoever",
+            "whomever",
+            "the one"
+          ],
+          "answer": 1,
+          "zh": "把這本字典給極想要的人。",
+          "explain": "【說明】此句沒有先行詞，故用複合關係代名詞 whoever（主格）+ wants...。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "Give the prize to ____ deserves it.",
+          "options": [
+            "whoever",
+            "anyone",
+            "whomever",
+            "who"
+          ],
+          "answer": 0,
+          "zh": "把這個獎給應該得獎的人。",
+          "explain": "【說明】此句沒有先行詞，所以用複合關係代名詞（主格）+ deserves...。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "You may give the prize to anyone ____ you think best.",
+          "options": [
+            "whom",
+            "who",
+            "what",
+            "which"
+          ],
+          "answer": 0,
+          "zh": "你可以把獎給任何一位你覺得最好的人。",
+          "explain": "【說明】whom 代替 anyone，作 think 的受詞。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "On the bus I saw a student ____ I thought was your brother.",
+          "options": [
+            "whom",
+            "who",
+            "what",
+            "whose"
+          ],
+          "answer": 1,
+          "zh": "在車上看見一位學生，我想他必是你的弟弟。",
+          "explain": "【說明】I thought 為插入句，其後有動詞 was，因此前面應用主格 (who)。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "Tom is a man of his word, ____ I believe to be dependable.",
+          "options": [
+            "whom",
+            "who",
+            "whoever",
+            "whomever"
+          ],
+          "answer": 0,
+          "zh": "湯姆言而有信。我相信他是可靠之人。",
+          "explain": "【說明】I believe 之後缺少受詞，故應用受格 (whom)。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "Is that the man ____ you are waiting?",
+          "options": [
+            "who",
+            "whom",
+            "whose",
+            "for whom"
+          ],
+          "answer": 3,
+          "zh": "那一位就是你在等的人嗎？",
+          "explain": "【說明】① whom + S + V，介系詞 for 可以放在 whom 之前。\n② wait for（等待）"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "We often come across people ____ we disagree.",
+          "options": [
+            "who",
+            "whom",
+            "with whom",
+            "whoever"
+          ],
+          "answer": 2,
+          "zh": "我們常會遇到意見與我們相左的人。",
+          "explain": "【說明】disagree with（與…意見不一），介系詞 with 可移前而形成 with whom。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "This is the house ____ he used to live.（複選）",
+          "options": [
+            "where",
+            "which",
+            "in that",
+            "in which"
+          ],
+          "answer": [
+            0,
+            3
+          ],
+          "zh": "這棟就是他住的房子。",
+          "explain": "【說明】in which ＝ where（表示地方）"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "China is the place ____ the silkworm was first discovered.",
+          "options": [
+            "where",
+            "how",
+            "when",
+            "who"
+          ],
+          "answer": 0,
+          "zh": "中國是蠶首先被發現的地方。",
+          "explain": "【說明】先行詞 (the place) 用關係副詞 where。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "He gave me more money ____ was required.",
+          "options": [
+            "it",
+            "which",
+            "that",
+            "than"
+          ],
+          "answer": 3,
+          "zh": "他給我的錢比我所需要的還多。",
+          "explain": "【說明】準關代 than 代替 money，其句型：\nmore ＋ 名詞 ＋ than ＋ (S) ＋ V"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "Read only such books ____ you can understand.",
+          "options": [
+            "as",
+            "that",
+            "what",
+            "so"
+          ],
+          "answer": 0,
+          "zh": "你只要讀你能了解的書就可以了。",
+          "explain": "【說明】① such ＋ 名詞 ＋ as...（像…那樣的）\n② as 為連詞兼作 understand 的受詞。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "There is no mother but ____ her children.",
+          "options": [
+            "loved",
+            "loves",
+            "loving",
+            "love"
+          ],
+          "answer": 1,
+          "zh": "沒有母親不愛自己的小孩。",
+          "explain": "【說明】① There is no ＋ 名詞 ＋ but ＋ 動詞…（沒有…不…）\n② but 為「否定的關係代名詞」，先行詞是 mother，故用 loves。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "There is no one in this world ____ loves good reputation.",
+          "options": [
+            "but",
+            "who",
+            "he",
+            "and"
+          ],
+          "answer": 0,
+          "zh": "世上無人不愛好名聲。",
+          "explain": "【說明】參考29題說明：There is no one... but loves...（無人不愛…）。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "Our parents and our teachers have made us ____.",
+          "options": [
+            "what are we today",
+            "what we are today",
+            "how we to be today",
+            "we are what today"
+          ],
+          "answer": 1,
+          "zh": "我們的雙親和師長們使我們有今天的成就。",
+          "explain": "【說明】what ＋ 人 ＋ be（某人的成就／情況）"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "I hope you will find this valley a beautiful place ____ you may spend your weekend.",
+          "options": [
+            "which",
+            "that",
+            "when",
+            "where"
+          ],
+          "answer": 3,
+          "zh": "我想你會發覺這是座漂亮的山谷而在此外度週末。",
+          "explain": "【說明】先行詞為 place，故用關係副詞 where。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "I know no such person ____ you have mentioned.",
+          "options": [
+            "as",
+            "that",
+            "who",
+            "whom"
+          ],
+          "answer": 0,
+          "zh": "我不認識像你所提到的人。",
+          "explain": "【說明】such ～ as ＋ 不完整子句（像…的…）\nsuch ～ that ＋ 完整子句（如此…以致…）"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "The old gentleman never fails to help ____ is in need of his help.",
+          "options": [
+            "whom",
+            "who",
+            "whoever",
+            "whomever"
+          ],
+          "answer": 2,
+          "zh": "這老紳士從來沒有不幫助任何需要他幫助的人。",
+          "explain": "【說明】沒有先行詞，用複合關代 ⇒ whoever ＝ anyone who"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "Everybody had a good time at the party. There was not a person ____ laughed heartily.",
+          "options": [
+            "who",
+            "that",
+            "but",
+            "whom"
+          ],
+          "answer": 2,
+          "zh": "宴會中人人愉快，沒有人不盡情地笑。",
+          "explain": "【說明】There was not a person who did not laugh.\n＝ There was not a person but laughed.\n＝ There was no person but laughed."
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "The President Hotel, ____ I stayed last summer, is comfortable and the price is reasonable.",
+          "options": [
+            "which",
+            "that",
+            "at which",
+            "in there"
+          ],
+          "answer": 2,
+          "zh": "去年夏天我住在總統大飯店，該飯店又舒適價錢又合理。",
+          "explain": "【說明】關係副詞 where（表示地點）⇒ where ＝ at which"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "The reason ____ I was feeling happy that morning was that the examination was over and we were going to have our long holidays.",
+          "options": [
+            "for",
+            "because",
+            "of",
+            "why"
+          ],
+          "answer": 3,
+          "zh": "那天早上我覺得快樂是因為考試已經結束，而且我們將會有一個長假期。",
+          "explain": "【說明】the reason why ＋ 子句 ＝ the reason for ＋ 受詞（表示原因或理由）。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "A theater is one of the places ____ is crowded with young people on holidays.",
+          "options": [
+            "which",
+            "where",
+            "what",
+            "it"
+          ],
+          "answer": 0,
+          "zh": "戲院是假日擠滿年輕人的地方之一。",
+          "explain": "【說明】空格之後有動詞 is crowded with，因此應選主格 which，不可用 where，因為 where 不可做主詞。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "A man's success doesn't lie in what he has ____ in what he is.",
+          "options": [
+            "but",
+            "as",
+            "such",
+            "much"
+          ],
+          "answer": 0,
+          "zh": "一個人的成功不在於他的財富而在於他的人品。",
+          "explain": "【說明】not lie in (A) but in (B)：不在於 A 而在於 B。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "As a matter of fact, he is not ____ as we think.",
+          "options": [
+            "so an honest man",
+            "such an honest man",
+            "as an honest man",
+            "such honest a man"
+          ],
+          "answer": 1,
+          "zh": "事實上，他並不是我們想像中那樣誠實的人。",
+          "explain": "【說明】such... as ＋ S ＋ V（像…那樣的）"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示在空格中填入適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "今日事，今日畢。\nNever ____ ____ till tomorrow ____ you can do today.",
+          "answer": "put off / what",
+          "zh": "今日事，今日畢。",
+          "explain": "【說明】put off ＝ postpone（延期）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "閃爍者未必全是金。\n____ ____ glitters is not gold.",
+          "answer": "All that",
+          "zh": "閃爍者未必全是金。",
+          "explain": "【說明】All... not... ＝ Not all...（未必所有的…都是…）\n例：All men can't succeed in life. ＝ Not all men can succeed in life.（未必所有的人都能在人生中獲得成功。）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "人人皆會犯錯。\nThere is no one ____ ____ his own faults.",
+          "answer": "but has",
+          "zh": "人人皆會犯錯。",
+          "explain": "【說明】There is no ＋ 名詞 ＋ but ＋ V 表示「雙重否定」。（無一…而不；每…必定）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "他不可靠，因為他言行不一。\nHe is not reliable because he doesn't mean ____ ____ ____.",
+          "answer": "what he says",
+          "zh": "他不可靠，因為他言行不一。",
+          "explain": "【說明】① what he says 指「他所說的話」\n② what he is 指「他的人品」\n③ what he has 指「他的財富」"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "不論發生什麼事，我都會支持你。\n____ ____ happens, I will ____ by you.",
+          "answer": "No matter what / stand",
+          "zh": "不論發生什麼事，我都會支持你。",
+          "explain": "【說明】① no matter what ＝ whatever（不論什麼）\n② stand by ＝ support（支持）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "誠實友善的人是值得我們尊敬的。",
+          "hint": "值得我們尊敬的：be worth one's while to + V",
+          "answer": "It is worth while respecting people who are honest and friendly.",
+          "zh": "誠實友善的人是值得我們尊敬的。",
+          "explain": "【說明】① It is worth while ＋ V-ing\n例：It is worth while seeing the museum. (○)\nIt is worth seeing the museum. (×)\n② 物 is worth ＋ V-ing\n例：The museum is worth seeing. (○)\nThe museum is worth while seeing. (×)\n③ It is worth one's while to ＋ V"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "但是自私驕傲的人是不值得我們交往的。",
+          "hint": "自私驕傲的人：those who are selfish and arrogant",
+          "answer": "But it isn't worth our while to associate with selfish and arrogant people.",
+          "zh": "但是自私驕傲的人是不值得我們交往的。",
+          "explain": "【說明】① associate with（與…交往）\n② arrogant 形（傲慢的、驕傲的）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "正如選好書一般，我們應選擇可靠的朋友。",
+          "hint": "①正如：just as + S + V ②可靠的：dependable, reliable",
+          "answer": "(Just) as we choose good books, so should we choose reliable friends.",
+          "zh": "正如選好書一般，我們應選擇可靠的朋友。",
+          "explain": "【說明】As..., so...「正如…，…也一樣」\n例：As you sow, so shall you reap.（一分耕耘，一分收穫。）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "否則，我們可能會身敗名裂，這是無可彌補的損失。",
+          "hint": "①身敗名裂：be ruined ②無可彌補的：can't make up for",
+          "answer": "Otherwise, we are likely to have our career ruined which can't be made up for.",
+          "zh": "否則，我們可能會身敗名裂，這是無可彌補的損失。",
+          "explain": "【說明】「身敗名裂」可用下列各種表達：\ndisgrace oneself / lose one's good name / bring discredit on oneself / suffer a personal defeat"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "朋友與我們有密切的關係，選擇朋友應越小心越好。",
+          "hint": "應越小心越好：can't be too careful",
+          "answer": "Friends have a close connection with us and we can't be too careful in choosing them.",
+          "zh": "朋友與我們有密切的關係，選擇朋友應越小心越好。",
+          "explain": "【說明】「再…也不為過／越…越好」\n① S ＋ cannot be ＋ too ＋ 形容詞\n② S ＋ cannot ＋ 原形 V... too much\n例：We cannot be too careful in choosing a career.（我們選擇職業時越小心越好。）\n例：We cannot concentrate on our studies too much.（我們越專心於課業越好。）"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列短文，選出最適當的答案填入各題空格中",
+      "passage": "__1__ the world today, advertising helps __2__ more things to more people. This __3__ makes it possible to produce more things to sell. __4__ some times it even helps make things __5__ less. Radios, __6__, used to cost much more than they __7__ today because they were turned __8__ slowly and expensively by hand. But advertising made more people want radios. __9__ advertising starts us buying and producing more things, it is sometimes __10__ the \"spark plug\" of the business world.",
+      "vocabulary_notes": [
+        "1. advertising: 廣告",
+        "2. makes it possible to: 使…成為可能",
+        "3. produce: 生產",
+        "4. used to: 在以前…",
+        "5. expensively: 昂貴地",
+        "6. by hand: 用手工",
+        "7. starts: 發動；開始",
+        "8. spark plug: 火星塞（火花塞）",
+        "9. business world: 商業界"
+      ],
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "____ the world today, advertising helps sell more things to more people.",
+          "options": [
+            "In",
+            "On",
+            "Of",
+            "To"
+          ],
+          "answer": 0,
+          "zh": "在今日世界，廣告幫助把更多東西賣給更多人。",
+          "explain": "In the world today（在今日世界）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...advertising helps ____ more things to more people.",
+          "options": [
+            "and sell",
+            "sell",
+            "sold",
+            "be sold"
+          ],
+          "answer": 1,
+          "zh": "廣告幫助把更多東西賣給更多人。",
+          "explain": "help ＋ 原形動詞（有助於…）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "This ____ makes it possible to produce more things to sell.",
+          "options": [
+            "in turn",
+            "turn on",
+            "turn off",
+            "take turns"
+          ],
+          "answer": 0,
+          "zh": "這反過來使生產更多可銷售的產品成為可能。",
+          "explain": "in turn（輪流地；依次地；反過來）；take turns（輪流）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ some times it even helps make things cost less.",
+          "options": [
+            "At",
+            "On",
+            "In",
+            "Of"
+          ],
+          "answer": 0,
+          "zh": "有時它甚至有助於降低物品成本。",
+          "explain": "At times（在某些時候；有時）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...it even helps make things ____ less.",
+          "options": [
+            "spend",
+            "price",
+            "cost",
+            "worth"
+          ],
+          "answer": 2,
+          "zh": "它甚至有助於使物品花費更少。",
+          "explain": "「東西花費多少錢」用 cost。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "Radios, ____, used to cost much more than they do today...",
+          "options": [
+            "for example",
+            "in short",
+            "such as",
+            "just like"
+          ],
+          "answer": 0,
+          "zh": "舉例來說，收音機過去的價格比現在昂貴許多…",
+          "explain": "for example（比如說；舉例而言）；in short（總之）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...used to cost much more than they ____ today...",
+          "options": [
+            "are",
+            "do",
+            "will",
+            "cost"
+          ],
+          "answer": 1,
+          "zh": "比現在所花費的昂貴許多…",
+          "explain": "助動詞 do 代替前面提過的一般動詞 cost。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "...because they were turned ____ slowly and expensively by hand.",
+          "options": [
+            "down",
+            "out",
+            "over",
+            "into"
+          ],
+          "answer": 1,
+          "zh": "因為它們以前是用手工緩慢且昂貴地製造出來的。",
+          "explain": "turn down（拒絕）；turn out（生產；製造）；turn over（移交）；turn into（轉變成）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "____ advertising starts us buying and producing more things, it is sometimes called...",
+          "options": [
+            "Because",
+            "Therefore",
+            "Although",
+            "Moreover"
+          ],
+          "answer": 0,
+          "zh": "因為廣告帶動我們購買和生產更多的物品…",
+          "explain": "Because（因為），Therefore（因此），Although（雖然），Moreover（而且）"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "...it is sometimes ____ the \"spark plug\" of the business world.",
+          "options": [
+            "is called",
+            "calling",
+            "called",
+            "has called"
+          ],
+          "answer": 2,
+          "zh": "它有時被稱為商業界的「火星塞」。",
+          "explain": "it is sometimes called...（有時被稱為…），被動語態用過去分詞 called。"
+        }
+      ]
+    }
+  ]
+}

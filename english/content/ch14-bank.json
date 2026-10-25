@@ -1,0 +1,566 @@
+{
+  "chapter": 14,
+  "title": "形容詞",
+  "items": [
+    {
+      "topic": "限定與敘述用法 (a-形容詞)",
+      "level": 1,
+      "q": "Be quiet, children. The baby is finally ____ in the bedroom.",
+      "options": [
+        "asleep",
+        "sleep",
+        "sleepy",
+        "an asleep"
+      ],
+      "answer": 0,
+      "zh": "安靜點，孩子們。小寶寶終於在臥室裡睡著了。",
+      "explain": "asleep 為以 a- 開頭的形容詞，通常只作敘述用法（置於 be 動詞後作主詞補語），不能放在名詞前作限定修飾。(B) sleep 是動詞或名詞；(C) sleepy 表示「想睡的、昏昏欲睡的」，語意不及已入睡的 asleep 貼切；(D) asleep 不能與不定冠詞連用單獨作補語。"
+    },
+    {
+      "topic": "形容詞後位修飾 (複合代名詞)",
+      "level": 1,
+      "q": "I'm so bored. Is there ____ to watch on TV tonight?",
+      "options": [
+        "something interesting",
+        "anything interesting",
+        "interesting anything",
+        "interesting something"
+      ],
+      "answer": 1,
+      "zh": "我好無聊喔。今晚電視上有什麼有趣的節目可看嗎？",
+      "explain": "修飾由 -thing, -body, -one 構成的複合代名詞時，形容詞必須置於其後（後位修飾）；且在一般疑問句中通常使用 anything 而非 something。故選 anything interesting。(C)(D) 形容詞前置為錯誤語序。"
+    },
+    {
+      "topic": "數量形容詞 (few / a few / little / a little)",
+      "level": 1,
+      "q": "Don't worry, we still have ____ minutes left before the train departs.",
+      "options": [
+        "a little",
+        "little",
+        "a few",
+        "few"
+      ],
+      "answer": 2,
+      "zh": "別擔心，在火車出發前我們還有幾分鐘的時間。",
+      "explain": "minutes 是可數名詞複數，應使用 a few 修飾，表示「有一些（肯定語氣）」；(A)(B) a little / little 只能修飾不可數名詞；(D) few 表示「幾乎沒有（否定語氣）」，與句首「別擔心（Don't worry）」的安慰語意不合。"
+    },
+    {
+      "topic": "數量形容詞 (many / much)",
+      "level": 1,
+      "q": "How ____ luggage are you taking with you on this trip?",
+      "options": [
+        "many",
+        "much",
+        "a number of",
+        "few"
+      ],
+      "answer": 1,
+      "zh": "你這次旅行要帶多少件行李？",
+      "explain": "luggage（行李）在英語中為不可數名詞，詢問數量時應用 How much。(A) many、(C) a number of、(D) few 均只能修飾可數名詞複數。"
+    },
+    {
+      "topic": "形容詞順序 (序數與基數)",
+      "level": 1,
+      "q": "Please turn to page 20 and read the ____ paragraphs carefully.",
+      "options": [
+        "two first",
+        "first two",
+        "firsts two",
+        "two firsts"
+      ],
+      "answer": 1,
+      "zh": "請翻到第 20 頁，仔細閱讀前兩個段落。",
+      "explain": "當序數詞（first, second...）與基數詞（one, two...）共同修飾一名詞時，規則固定為「序數詞 ＋ 基數詞」，因此應為 the first two paragraphs。(A) 語序顛倒；(C)(D) 序數詞與基數詞在此皆不加 s。"
+    },
+    {
+      "topic": "複合形容詞 (數詞＋名詞)",
+      "level": 1,
+      "q": "Mr. Lin gave us a ____ speech on environmental protection this morning.",
+      "options": [
+        "thirty minute",
+        "thirty-minutes",
+        "thirty-minute",
+        "thirty-minutes's"
+      ],
+      "answer": 2,
+      "zh": "林先生今天早上給我們做了一場三十分鐘關於環境保護的演講。",
+      "explain": "「數詞 ─ 單數名詞」用連字號結合成複合形容詞時，中間的名詞必須保持「單數」，不可加 s，故選 thirty-minute。(A) 缺少連字號；(B)(D) 名詞誤加了複數 s。"
+    },
+    {
+      "topic": "分數表示法",
+      "level": 1,
+      "q": "Almost ____ of the Earth's surface is covered with water.",
+      "options": [
+        "three fourth",
+        "three fourths",
+        "three four",
+        "third fourths"
+      ],
+      "answer": 1,
+      "zh": "地球表面幾乎有四分之三被水覆蓋。",
+      "explain": "英文的分數表示法為「分子用基數詞，分母用序數詞；分子大於 1 時分母加 s」。四分之三即為 three fourths（亦可作 three quarters）。(A) 分母漏加 s；(C) four 為基數詞；(D) third 為序數詞，分子應為基數詞。"
+    },
+    {
+      "topic": "形容詞比較級規則變化",
+      "level": 1,
+      "q": "Today is much ____ than yesterday; remember to put on a heavy coat.",
+      "options": [
+        "colder",
+        "coldest",
+        "more cold",
+        "more colder"
+      ],
+      "answer": 0,
+      "zh": "今天比昨天冷得多；記得穿上一件厚外套。",
+      "explain": "單音節形容詞 cold 的比較級直接在字尾加 -er 變成 colder，句中有 than 表示兩者相比。(B) coldest 是最高級；(C) 單音節字不加 more；(D) more colder 為雙重比較級，屬於重大文法錯誤。"
+    },
+    {
+      "topic": "形容詞不規則比較級",
+      "level": 1,
+      "q": "My sister's English pronunciation is good, but Jenny's is even ____.",
+      "options": [
+        "gooder",
+        "more good",
+        "better",
+        "best"
+      ],
+      "answer": 2,
+      "zh": "我妹妹的英語發音很好，但珍妮的發音甚至更好。",
+      "explain": "good 的比較級是不規則變化 better，不可寫成 gooder 或 more good；句中 even 用於修飾比較級，表示「更加、甚至更…」。(D) best 為最高級，此處為兩人對比，應使用比較級。"
+    },
+    {
+      "topic": "原級比較 (not so... as)",
+      "level": 1,
+      "q": "David is not ____ his elder brother; he prefers reading books indoors.",
+      "options": [
+        "so active as",
+        "more active as",
+        "as active than",
+        "so active than"
+      ],
+      "answer": 0,
+      "zh": "大衛不像他哥哥那麼外向活躍；他比較喜歡待在室內看書。",
+      "explain": "原級否定句型為「not as ＋ 形容詞原級 ＋ as」或「not so ＋ 形容詞原級 ＋ as」，表示「不如…那樣…」。(B) more active 是比較級，不可與 as 搭配；(C)(D) than 只能搭配比較級，不能出現在 as / so ... than 結構中。"
+    },
+    {
+      "topic": "比較級基本句型 (比較級 + than)",
+      "level": 1,
+      "q": "Taking the High Speed Rail is much ____ than taking the conventional train.",
+      "options": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 1,
+      "zh": "搭乘高鐵比搭乘台鐵區間車／傳統火車快得多。",
+      "explain": "由 than 可知本句為兩者比較的比較級句型，fast 為單音節形容詞，比較級為 faster；much 可作為程度副詞修飾比較級。(A) fast 為原級；(C) fastest 為最高級；(D) 單音節形容詞比較級不可加 more。"
+    },
+    {
+      "topic": "最高級基本句型",
+      "level": 1,
+      "q": "Mount Jade (Yushan) is the ____ mountain in Taiwan.",
+      "options": [
+        "high",
+        "higher",
+        "highest",
+        "most high"
+      ],
+      "answer": 2,
+      "zh": "玉山是全台灣最高的山。",
+      "explain": "在台灣所有山峰（三者以上）之中比較，且前面有定冠詞 the，應使用最高級 highest。(A) high 為原級；(B) higher 為比較級；(D) high 是一音節，最高級應為 highest，不用 most high。"
+    },
+    {
+      "topic": "比較級常用慣用語 (sooner or later)",
+      "level": 1,
+      "q": "If you keep practicing every single day, you will ____ succeed.",
+      "options": [
+        "sooner or later",
+        "more or less",
+        "no longer",
+        "none the less"
+      ],
+      "answer": 0,
+      "zh": "如果你堅持每天練習，你遲早會成功的。",
+      "explain": "sooner or later 是慣用語，意為「遲早、早晚」。(B) more or less 意為「或多或少、大約」；(C) no longer 意為「不再」；(D) none the less 意為「依然、儘管如此」。"
+    },
+    {
+      "topic": "最高級慣用語 (at least)",
+      "level": 1,
+      "q": "To stay healthy, a teenager should sleep for ____ eight hours every night.",
+      "options": [
+        "at last",
+        "at latest",
+        "at least",
+        "at best"
+      ],
+      "answer": 2,
+      "zh": "為了維持健康，青少年每晚應至少睡滿八小時。",
+      "explain": "at least 意為「至少」，修飾數量詞 eight hours。(A) at last 意為「終於」；(B) at latest 意為「最晚、最遲（通常指時間點，如 by 10 p.m. at latest）」；(D) at best 意為「充其量、頂多」。"
+    },
+    {
+      "topic": "修飾比較級的程度副詞",
+      "level": 1,
+      "q": "This mobile phone is expensive, but that model over there is ____ more expensive.",
+      "options": [
+        "very",
+        "quite",
+        "even",
+        "more"
+      ],
+      "answer": 2,
+      "zh": "這支手機很貴，但是那邊那個機型甚至更貴。",
+      "explain": "修飾比較級（more expensive）的程度副詞可用 even, much, far, still, a lot 等，表示「更加、甚至」。(A) very 與 (B) quite 只能修飾形容詞原級；(D) more 不能重複修飾已加 more 的形容詞（避免雙重比較級）。"
+    },
+    {
+      "topic": "the ＋ 比較級 ＋ of the two",
+      "level": 2,
+      "q": "Between the twin sisters, Kelly is ____.",
+      "options": [
+        "taller",
+        "the taller",
+        "the tallest",
+        "tallest"
+      ],
+      "answer": 1,
+      "zh": "在這對雙胞胎姊妹之中，凱莉是較高的那一個。",
+      "explain": "當比較對象明確限定為「兩者（the two 或 twin）」時，比較級前面必須加定冠詞 the，形成「the ＋ 比較級 ＋ of the two」句型。(A) 缺少定冠詞 the；(C)(D) tallest 為最高級，用於三者或三者以上，不可用於兩者之間。"
+    },
+    {
+      "topic": "a number of vs. the number of",
+      "level": 2,
+      "q": "____ students in our school who study foreign languages ____ growing rapidly.",
+      "options": [
+        "A number of; are",
+        "A number of; is",
+        "The number of; is",
+        "The number of; are"
+      ],
+      "answer": 2,
+      "zh": "我們學校學習外語的學生人數正在迅速增加。",
+      "explain": "the number of 表示「…的數量／人數」，中心名詞為 number，動詞一律用單數形 is；而 a number of 則表示「許多（＝ many）」，後接複數名詞，動詞用複數形 are。本句受詞補語為 growing（增長），指的是「人數」在增長，故選 The number of; is。(A)(B)(D) 均不符合文法與句意。"
+    },
+    {
+      "topic": "拉丁比較級 (superior to)",
+      "level": 2,
+      "q": "In terms of audio quality, these wireless earbuds are far superior ____ the old ones.",
+      "options": [
+        "than",
+        "to",
+        "over",
+        "against"
+      ],
+      "answer": 1,
+      "zh": "就音質而言，這款無線耳機遠優於舊款耳機。",
+      "explain": "源自拉丁文的比較級形容詞如 superior（優於）、inferior（劣於）、senior（年長於）、junior（年幼於）、prior（先於）等，固定搭配介系詞 to，絕不可接 than。(A) than 為常見干擾選項；(C)(D) 介系詞錯誤。"
+    },
+    {
+      "topic": "the + 比較級..., the + 比較級...",
+      "level": 2,
+      "q": "____ you prepare for the entrance exam, ____ nervous you will feel on test day.",
+      "options": [
+        "The better; the less",
+        "The best; the least",
+        "The more well; the lesser",
+        "Better; less"
+      ],
+      "answer": 0,
+      "zh": "你為入學考試準備得愈充分，考試當天你就會覺得愈不緊張。",
+      "explain": "「the ＋ 比較級…, the ＋ 比較級…」表示「愈…就愈…」。well 的比較級為 better，little 的比較級為 less。(B) 誤用最高級；(C) well 的比較級不是 more well；(D) 前後均缺少定冠詞 the。"
+    },
+    {
+      "topic": "倍數句型 (倍數 + as... as)",
+      "level": 2,
+      "q": "The new library has collected ____ books as the old municipal library.",
+      "options": [
+        "three times as many",
+        "as three times many",
+        "three times many as",
+        "as many three times"
+      ],
+      "answer": 0,
+      "zh": "這座新圖書館藏書的數量是舊市立圖書館的三倍之多。",
+      "explain": "倍數表達法的基本句型為「倍數詞 ＋ as ＋ adj. ＋ as...」，因為 books 為可數名詞複數，故用 many 修飾，構成 three times as many books as。(B)(C)(D) 語序皆不符合倍數句型結構。"
+    },
+    {
+      "topic": "倍數句型轉名詞 (the size of)",
+      "level": 2,
+      "q": "Our classroom is approximately twice ____ theirs.",
+      "options": [
+        "the large of",
+        "the size of",
+        "as larger than",
+        "larger as"
+      ],
+      "answer": 1,
+      "zh": "我們的教室大約是他們教室的兩倍大。",
+      "explain": "倍數句型可使用「倍數 ＋ the ＋ 名詞 ＋ of」，表示面積或體積大小時，形容詞 large 對應的抽象名詞為 size（the size of）；若用 as... as 則為 twice as large as。(A) large 為形容詞非名詞；(C)(D) 句型結構混淆錯誤。"
+    },
+    {
+      "topic": "最高級代名詞替換 (any other + 單數名詞)",
+      "level": 2,
+      "q": "Leo speaks English more fluently than ____ in our school debate team.",
+      "options": [
+        "any student",
+        "any other student",
+        "all students",
+        "any other students"
+      ],
+      "answer": 1,
+      "zh": "李歐在我們學校辯論隊裡說英文比任何其他學生都流利。",
+      "explain": "在同一個群體範圍（our school debate team）內，主詞與該群體中的其他人比較時，必須加上 other 以排除自己本身，且 any other 後面需接「單數名詞」（any other student）。若接複數名詞則需用 all the other students。(A) 未加 other 會導致自己比自己流利的邏輯矛盾；(C) 漏掉 other；(D) any other 後面不可接複數名詞。"
+    },
+    {
+      "topic": "不同團體的比較 (不加 other)",
+      "level": 2,
+      "q": "The Tokyo Skytree is taller than ____ building in Taiwan.",
+      "options": [
+        "any other",
+        "any",
+        "all other",
+        "some other"
+      ],
+      "answer": 1,
+      "zh": "東京晴空塔比台灣的任何建築物都高。",
+      "explain": "東京晴空塔位於日本，不屬於「台灣的建築物」這個範圍內（兩者屬於不同範疇／群體），因此比較時不必排除自身，不能加 other，直接用「than any ＋ 單數名詞」即可。(A) any other 用於同群體排除自己；(C)(D) 語意與文法均不合。"
+    },
+    {
+      "topic": "比較對象必須對等 (that of / those of)",
+      "level": 2,
+      "q": "The medical facilities in this university hospital are far more advanced than ____ in that small clinic.",
+      "options": [
+        "that",
+        "those",
+        "this",
+        "these"
+      ],
+      "answer": 1,
+      "zh": "這所大學附設醫院的醫療設備遠比那間小診所的設備先進得多。",
+      "explain": "比較對象必須對等（物對物）。被比較的對象是 facilities（複數名詞），為了避免重複名詞，英語中習慣使用代名詞 those 來代替前面出現過的複數名詞。(A) that 用來代替單數名詞或不可數名詞；(C)(D) this / these 通常不用於此種後位修飾對比結構。"
+    },
+    {
+      "topic": "數量形容詞 (a great deal of)",
+      "level": 2,
+      "q": "The researchers spent ____ time and energy conducting this clinical trial.",
+      "options": [
+        "a large number of",
+        "a great deal of",
+        "quite a few",
+        "many"
+      ],
+      "answer": 1,
+      "zh": "研究人員花費了大量的時間與精力進行這項臨床試驗。",
+      "explain": "time and energy 在此為不可數名詞，修飾大量的不可數名詞應使用 a great deal of。(A) a large number of、(C) quite a few、(D) many 均只能修飾可數名詞複數。"
+    },
+    {
+      "topic": "複合名詞修飾 (all / both 冠詞前置)",
+      "level": 2,
+      "q": "____ were invited to attend the graduation ceremony.",
+      "options": [
+        "Both of his parents",
+        "His both parents",
+        "The his both parents",
+        "Both the his parents"
+      ],
+      "answer": 0,
+      "zh": "他的雙親都被邀請參加畢業典禮。",
+      "explain": "both 或 all 與所有格連用時，必須放在所有格前面（Both his parents）或使用「Both of ＋ 所有格 ＋ 複數名詞」（Both of his parents）。(B) 所有格不可置於 both 前面（His both 為典型錯誤）；(C)(D) 冠詞與所有格互斥，且語序混亂。"
+    },
+    {
+      "topic": "慣用語 (no more than vs. no less than)",
+      "level": 2,
+      "q": "The wealthy entrepreneur donated ____ five million dollars to the children's hospital.",
+      "options": [
+        "no more than",
+        "not more than",
+        "no less than",
+        "none the less"
+      ],
+      "answer": 2,
+      "zh": "這位富有企業家向兒童醫院捐贈了多達五百萬美元。",
+      "explain": "no less than ＝ as much as，帶有說話者讚嘆「高達、多達」的肯定讚揚語氣，符合企業家慷慨解囊五百萬元的正向情境。(A) no more than ＝ only（僅僅、只有），帶有嫌少的語氣；(B) not more than ＝ at most（至多、不超過），僅客觀陳述上限；(D) none the less 意為「依然、仍然」，為副詞片語。"
+    },
+    {
+      "topic": "慣用語 (would rather... than)",
+      "level": 2,
+      "q": "My grandfather ____ in the quiet countryside than live in a noisy crowded city.",
+      "options": [
+        "would rather to stay",
+        "prefers staying",
+        "would rather stay",
+        "prefers to stay"
+      ],
+      "answer": 2,
+      "zh": "我祖父寧願留在安靜的鄉下，也不願住在吵鬧擁擠的城市。",
+      "explain": "句中有 than live，可斷定為「would rather ＋ 原形動詞 ＋ than ＋ 原形動詞」句型，因此應選 would rather stay。(A) would rather 後接原形動詞，不可加 to；(B)(D) prefer 的搭配介系詞為 to（prefer staying to living），不可與 than 連用。"
+    },
+    {
+      "topic": "慣用語 (much less)",
+      "level": 2,
+      "q": "The injured marathon runner could hardly stand up, ____ run another kilometer.",
+      "options": [
+        "much more",
+        "much less",
+        "still more",
+        "no more"
+      ],
+      "answer": 1,
+      "zh": "那位受傷的馬拉松跑者連站都站不穩，更不用說再跑一公里了。",
+      "explain": "在否定句（hardly 具否定意味）之後，表示「更不用說、更談不上」時，必須使用 much less 或 still less。(A) much more 與 (C) still more 只能用於肯定句之後表示「何況、更加」；(D) no more 意為「不再」，文意不通。"
+    },
+    {
+      "topic": "最高級慣用語 (the last + to V)",
+      "level": 2,
+      "q": "Honest and loyal, Kevin is the last person ____ a secret to our business rivals.",
+      "options": [
+        "leaks",
+        "leaking",
+        "to leak",
+        "leaked"
+      ],
+      "answer": 2,
+      "zh": "凱文為人誠實又忠誠，是最不可能把祕密洩漏給競爭對手的人。",
+      "explain": "「the last ＋ 名詞 ＋ to ＋ 原形動詞」為常見最高級慣用句型，表示「最不可能做某事的人／物」。(A) leaks 為限定動詞，缺少連接詞；(B) 分詞片語 leaking 無法精確表達「絕不可能做…」的慣用含意；(D) 過去分詞表被動，語態不符。"
+    },
+    {
+      "topic": "自身比較 (more A than B)",
+      "level": 3,
+      "q": "When asked about his sudden decision to resign, Mark looked ____ than depressed.",
+      "options": [
+        "more relieved",
+        "much relieved",
+        "relieved",
+        "reliever"
+      ],
+      "answer": 0,
+      "zh": "當被問及他突然決定辭職時，馬克看起來與其說是沮喪，不如說是如釋重負。",
+      "explain": "當比較同一個人或事物身上的兩種不同特質（relieved vs. depressed）時，句型固定為「more A than B」（與其說是 B，不如說是 A；more ＝ rather），即使是單音節或雙音節形容詞也一律用 more，不用 -er。(B)(C) 缺少與 than 搭配的比較結構；(D) reliever 是名詞（救濟者、緩解劑），非形容詞。"
+    },
+    {
+      "topic": "自身比較 (as A as B)",
+      "level": 3,
+      "q": "The keynote speaker's presentation was as ____ as it was ____; everyone was deeply impressed.",
+      "options": [
+        "entertaining; insightful",
+        "entertained; insightful",
+        "more entertaining; insightful",
+        "entertaining; more insightful"
+      ],
+      "answer": 0,
+      "zh": "主講人的簡報既生動有趣又見解深刻；每個人都留下了深刻的印象。",
+      "explain": "「as A as B」可用於同一個人或事物的兩種特質並陳，表示「既 A 又 B、不但 A 而且 B」，A 與 B 均使用形容詞原級。(B) entertained 是人感到有趣的，此處修飾演講 presentation 應用 entertaining；(C)(D) 誤用了比較級 more。"
+    },
+    {
+      "topic": "慣用語 (no more... than 兩者皆非)",
+      "level": 3,
+      "q": "Which of the following best explains the sentence: \"A whale is no more a fish than a horse is\"?",
+      "options": [
+        "A whale is definitely a fish, just like a horse.",
+        "A whale is not a fish, just as a horse is not a fish.",
+        "A whale resembles a horse more than it resembles a fish.",
+        "A horse is more similar to a fish than a whale is."
+      ],
+      "answer": 1,
+      "zh": "下列何者最能解釋這句話：「鯨魚不是魚類，就如同馬不是魚類一樣」？",
+      "explain": "「A is no more... than B is...」為經典否定比較句型，意為「A 不是…，就如同 B 不是…一樣（兩者皆非）」。由於「馬不是魚」是不爭的常識事實，藉此斷定「鯨魚也絕非魚類」。故 (B) 為唯一正確釋義。"
+    },
+    {
+      "topic": "慣用語 (no less... than 兩者皆是)",
+      "level": 3,
+      "q": "\"Mental health is no less vital to our happiness than physical health is.\" This sentence implies that: ____.",
+      "options": [
+        "Physical health is much more essential than mental health.",
+        "Mental health is just as vital as physical health.",
+        "Neither mental health nor physical health is particularly vital.",
+        "Mental health is less critical than physical health."
+      ],
+      "answer": 1,
+      "zh": "「心理健康對我們的幸福至關重要，就如同身體健康一樣重要。」這句話意味著：心理健康與身體健康一樣重要。",
+      "explain": "「no less... than...」意為「正如…一樣、不亞於…（兩者皆是，＝ as... as）」，強調心理健康與身體健康具有同等關鍵的重要性。(A)(D) 認為身體健康更重要；(C) 誤解為否定句，皆與原句意義相悖。"
+    },
+    {
+      "topic": "慣用語 (know better than to V)",
+      "level": 3,
+      "q": "As an experienced mountaineer, Gary ____ into the snowy ridge without safety ropes.",
+      "options": [
+        "knows better than venture",
+        "knows better than to venture",
+        "is knowing better than venturing",
+        "knew better to venture"
+      ],
+      "answer": 1,
+      "zh": "作為一名經驗豐富的登山家，蓋瑞不至於笨到不帶安全繩索就冒險進入積雪的山脊。",
+      "explain": "「know better than to ＋ 原形動詞」是固定慣用語，字面意思是「明白得不至於去做…」，即「有足夠的明智而不去做出某種蠢事」。(A) 漏掉不定詞 to；(C) know 在此表認知狀態，不使用進行式，且後應接 to ＋ 原形動詞；(D) 缺少介系詞 than。"
+    },
+    {
+      "topic": "形容詞順序 (綜合應用)",
+      "level": 3,
+      "q": "The museum curator carefully displayed the ____ vase on the pedestal.",
+      "options": [
+        "delicate ancient blue Chinese porcelain",
+        "Chinese blue delicate ancient porcelain",
+        "ancient delicate porcelain Chinese blue",
+        "blue Chinese delicate ancient porcelain"
+      ],
+      "answer": 0,
+      "zh": "博物館館長小心翼翼地將那個精美古老的藍色中國瓷花瓶陳列在基座上。",
+      "explain": "多個描寫形容詞共同修飾名詞時的通用順序為：主觀評價（delicate 精美的）➜ 時代新舊（ancient 古老的）➜ 顏色（blue 藍色的）➜ 國籍產地（Chinese 中國的）➜ 材質（porcelain 瓷質的）＋ 中心名詞（vase）。(A) 完全符合此順序，(B)(C)(D) 排列順序皆顛倒混亂。"
+    },
+    {
+      "topic": "most + 形容詞 (無冠詞表 very)",
+      "level": 3,
+      "q": "In the statement \"Your generous support during our science project was most helpful,\" the word 'most' is used to mean: ____.",
+      "options": [
+        "the most helpful of all",
+        "extremely or very",
+        "mostly",
+        "more helpful than others"
+      ],
+      "answer": 1,
+      "zh": "在句子「您在我們科學專案期間的慷慨支持非常有用」中，單字 most 的含義為「非常、極為（extremely / very）」。",
+      "explain": "當 most 修飾形容詞而其前面「沒有定冠詞 the」時，most 不表示最高級，而是作為程度副詞，相當於 very 或 extremely（非常、極其）。例如：It was most kind of you.（你真是太好心了）。(A)(D) 誤當作最高級或比較級；(C) mostly 是副詞，意為「主要地、大部分地」。"
+    },
+    {
+      "topic": "倍數與比較級概念",
+      "level": 3,
+      "q": "Company A generated $60 million in revenue, while Company B made $20 million. Which of the following statements is mathematically or grammatically INCORRECT?",
+      "options": [
+        "Company A's revenue is three times as large as Company B's.",
+        "Company A's revenue is three times that of Company B.",
+        "Company A's revenue is three times larger than Company B's.",
+        "Company A's revenue is twice as large as Company B's."
+      ],
+      "answer": 3,
+      "zh": "A 公司的營收為 6000 萬美元，而 B 公司為 2000 萬美元。下列哪一個敘述在數學或文法上是不正確的？",
+      "explain": "6000 萬是 2000 萬的「三倍（three times）」，因此 (A) three times as large as、(B) three times that of 均完全正確；在英語習慣用法中，(C) three times larger than 亦常用於表達「為其三倍（A is 3x B）」。而 (D) 寫成 twice as large as（兩倍），在數值上顯然錯誤（6000 萬並非 2000 萬的兩倍）。故選 (D)。"
+    },
+    {
+      "topic": "副詞最高級與所有格最高級不加 the",
+      "level": 3,
+      "q": "Which of the following sentences contains a grammatical ERROR?",
+      "options": [
+        "Among all the applicants, Sophie answered the interview questions most confidently.",
+        "This is my the most unforgettable travel experience in Europe.",
+        "Of the three solutions, this one seems by far the most practical.",
+        "He ran fastest when he heard the emergency alarm ring."
+      ],
+      "answer": 1,
+      "zh": "下列哪一個句子包含文法錯誤？",
+      "explain": "(B) 包含嚴重文法錯誤：當形容詞最高級前面已有所有格代名詞（my）限定時，絕對不能再加定冠詞 the，應改為 This is my most unforgettable travel experience。(A) confidently 為副詞，副詞最高級前通常省略 the；(C) by far the most practical 為最高級加強語氣句型；(D) fastest 為副詞最高級修飾動詞 ran，不加 the 完全正確。"
+    },
+    {
+      "topic": "特殊倍數句型 (half as... again as)",
+      "level": 3,
+      "q": "If Henry has 60 books and Irene has \"half as many books again as\" Henry, how many books does Irene have?",
+      "options": [
+        "30 books",
+        "60 books",
+        "90 books",
+        "120 books"
+      ],
+      "answer": 2,
+      "zh": "如果亨利有 60 本書，而艾琳擁有的書是亨利的「half as many books again as」，請問艾琳有幾本書？",
+      "explain": "「A has half as many... again as B」意為「A 擁有的數量是 B 的一倍半（1.5 倍）」，相當於 one and a half times as many as。計算方式為：60 ＋ 60 × 0.5 ＝ 90 本。(A) 30 本是 half as many as（一半）；(C) 90 本即為 1.5 倍（正確答案）；(D) 120 本是 twice as many as（兩倍）。"
+    }
+  ]
+}

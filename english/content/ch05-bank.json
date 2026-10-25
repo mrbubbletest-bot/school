@@ -1,0 +1,366 @@
+{
+  "chapter": 5,
+  "title": "動名詞",
+  "items": [
+    {
+      "topic": "動名詞作主詞",
+      "level": 1,
+      "q": "Eating fresh vegetables and fruits every day ____ essential for maintaining good health.",
+      "options": ["is", "are", "being", "to be"],
+      "answer": 0,
+      "zh": "每天吃新鮮蔬果對維持健康是不可或缺的。",
+      "explain": "動名詞片語（Eating fresh vegetables and fruits every day）作為全句主詞時，視為單一概念，述語動詞須用單數形 is。(B) are 為複數動詞，誤將受詞 vegetables and fruits 當成主詞；(C) being 與 (D) to be 為非限定動詞，無法單獨充當句子的述語動詞。"
+    },
+    {
+      "topic": "只接動名詞的動詞",
+      "level": 1,
+      "q": "My sister really enjoys ____ detective stories before going to sleep.",
+      "options": ["to read", "reading", "read", "reads"],
+      "answer": 1,
+      "zh": "我妹妹非常喜歡在睡前閱讀偵探故事。",
+      "explain": "及物動詞 enjoy（享受；喜歡）習慣後接動名詞（V-ing）作受詞，不可接不定詞。(A) to read 為不定詞，不符合 enjoy 的用法；(C) read 為原形或過去式；(D) reads 為第三人稱單數動詞，均不可置於及物動詞後作受詞。"
+    },
+    {
+      "topic": "介系詞後的動名詞",
+      "level": 1,
+      "q": "Kevin has always been good at ____ complex math problems quickly.",
+      "options": ["solve", "to solve", "solving", "solved"],
+      "answer": 2,
+      "zh": "凱文一向擅長迅速解出複雜的數學題目。",
+      "explain": "片語 be good at 中的 at 為介系詞，介系詞後面若接動詞，必須改為動名詞（V-ing）作其受詞。(A) solve 為原形動詞；(B) to solve 為不定詞；(D) solved 為過去式或過去分詞，均不可作介系詞的受詞。"
+    },
+    {
+      "topic": "只接動名詞的動詞",
+      "level": 1,
+      "q": "You should avoid ____ junk food if you want to lose weight.",
+      "options": ["to eat", "eat", "ate", "eating"],
+      "answer": 3,
+      "zh": "如果你想減重，就應該避免吃垃圾食物。",
+      "explain": "動詞 avoid（避免）後面必須接動名詞（V-ing）作受詞。(A) to eat 為不定詞，avoid 後不可接 to V；(B) eat 為原形動詞；(C) ate 為過去式動詞。"
+    },
+    {
+      "topic": "只接動名詞的動詞",
+      "level": 1,
+      "q": "To play the violin well, Claire practices ____ the scales for an hour every morning.",
+      "options": ["playing", "to play", "play", "played"],
+      "answer": 0,
+      "zh": "為了拉好小提琴，克萊兒每天早晨練習拉音階一個小時。",
+      "explain": "動詞 practice（練習）後面一律接動名詞（V-ing）作受詞。(B) to play 為不定詞，不可與 practice 搭配；(C) play 為原形；(D) played 為過去式或過去分詞。"
+    },
+    {
+      "topic": "動名詞作主詞補語",
+      "level": 1,
+      "q": "David's dream is ____ a professional video game developer in the future.",
+      "options": ["became", "becoming", "becomes", "become to"],
+      "answer": 1,
+      "zh": "大衛的夢想是將來成為一名專業的電玩遊戲開發者。",
+      "explain": "此處 be 動詞之後需要名詞性質的主詞補語，說明主詞 dream 的內容，故使用動名詞 becoming（換位後 Becoming a developer is David's dream 語意相同）。(A) became 為過去式動詞；(C) becomes 為現在式動詞；(D) become to 文法結構錯誤。"
+    },
+    {
+      "topic": "只接動名詞的動詞",
+      "level": 1,
+      "q": "Please call me as soon as you finish ____ your science project.",
+      "options": ["to do", "done", "doing", "did"],
+      "answer": 2,
+      "zh": "你一做完自然科學專案就請打電話給我。",
+      "explain": "finish（完成；結束）後面只能接動名詞（V-ing）作受詞。(A) to do 為不定詞；(B) done 為過去分詞；(D) did 為過去式動詞，均不能置於 finish 後作受詞。"
+    },
+    {
+      "topic": "動名詞用途 vs 現在分詞狀態",
+      "level": 1,
+      "q": "In the waiting room, I saw an old man holding a ____ cane while resting his legs.",
+      "options": ["walked", "to walk", "walk", "walking"],
+      "answer": 3,
+      "zh": "在候車室裡，我看到一位老人歇腳時手握著一根柺杖。",
+      "explain": "「柺杖」的英文為 a walking cane，此處 walking 為動名詞，表示名詞的「用途或目的」（a cane for walking）；若為分詞則表示正在進行動作（柺杖本身不可能正在走動）。(A) walked、(B) to walk、(C) walk 均不符複合名詞修飾用法。"
+    },
+    {
+      "topic": "慣用語（go + V-ing）",
+      "level": 1,
+      "q": "On weekends, my grandparents often go ____ along the riverside path.",
+      "options": ["jogging", "to jog", "jog", "jogged"],
+      "answer": 0,
+      "zh": "在週末，我的祖父母經常沿著河濱步道慢跑。",
+      "explain": "句型「go + V-ing」表示「從事某項休閒運動或娛樂活動」，如 go jogging（去慢跑）、go swimming（去游泳）。(B) to jog 為不定詞；(C) jog 為原形；(D) jogged 為過去式。"
+    },
+    {
+      "topic": "慣用語（spend + 時間 + V-ing）",
+      "level": 1,
+      "q": "Leo spent three hours ____ for the final English exam yesterday.",
+      "options": ["to prepare", "preparing", "prepare", "prepared"],
+      "answer": 1,
+      "zh": "里歐昨天花了三個小時準備英文期末考。",
+      "explain": "句型「人 + spend + 時間／金錢 + (in) V-ing」表示某人花費時間或金錢做某事。(A) to prepare 為不定詞，spend 後不可接 to V（take 句型才接 to V）；(C) prepare 為原形；(D) prepared 為過去分詞。"
+    },
+    {
+      "topic": "慣用語（No + V-ing）",
+      "level": 1,
+      "q": "The sign on the museum wall clearly says, '____ flash photography inside the gallery.'",
+      "options": ["Not using", "No use", "No using", "Not to use"],
+      "answer": 2,
+      "zh": "美術館牆上的告示清楚寫著：「展廳內禁止使用閃光燈攝影。」",
+      "explain": "「No + V-ing」為公共標語常見的禁令句型，相當於 You must not...。(A) Not using 不是標準告示句型；(B) No use 常用於 It is no use...；(D) Not to use 為不定詞否定，不用於此類標示牌。"
+    },
+    {
+      "topic": "慣用語（How about + V-ing）",
+      "level": 1,
+      "q": "It's getting late. How about ____ a taxi back home together?",
+      "options": ["take", "to take", "taken", "taking"],
+      "answer": 3,
+      "zh": "時間不早了。我們一起搭計程車回家如何？",
+      "explain": "「How about / What about + V-ing」為徵詢對方意見或提出建議的慣用句型，about 為介系詞，後面須接動名詞 taking。(A) take 為原形；(B) to take 為不定詞；(C) taken 為過去分詞。"
+    },
+    {
+      "topic": "介系詞後的動名詞",
+      "level": 1,
+      "q": "He left the meeting room quietly without ____ a single word to anyone.",
+      "options": ["saying", "to say", "said", "say"],
+      "answer": 0,
+      "zh": "他悄悄離開了會議室，沒有對任何人說一句話。",
+      "explain": "without 是介系詞，意為「沒有⋯」，後面接動詞時必須使用動名詞形式 saying。(B) to say 為不定詞；(C) said 為過去式；(D) say 為原形動詞。"
+    },
+    {
+      "topic": "只接動名詞的動詞",
+      "level": 1,
+      "q": "Would you mind ____ the radio down a little bit? I am trying to concentrate.",
+      "options": ["turn", "turning", "to turn", "turned"],
+      "answer": 1,
+      "zh": "你介意把收音機音量調小一點嗎？我正試著專心。",
+      "explain": "「Would you mind + V-ing?」為客氣請求的慣用語，mind 後面必須接動名詞作受詞。(A) turn 為原形；(C) to turn 為不定詞；(D) turned 為過去式。"
+    },
+    {
+      "topic": "慣用語（feel like + V-ing）",
+      "level": 1,
+      "q": "It is so humid and hot today that I feel like ____ an ice cream.",
+      "options": ["to have", "have", "having", "had"],
+      "answer": 2,
+      "zh": "今天又濕又熱，我想吃一支冰淇淋。",
+      "explain": "「feel like + V-ing」為慣用語，表示「想要做某事」，其中的 like 是介系詞，後接動名詞 having。(A) to have 為不定詞，would like 之後才接 to have；(B) have 為原形；(D) had 為過去式。"
+    },
+    {
+      "topic": "接動名詞與不定詞意義不同（stop）",
+      "level": 2,
+      "q": "The hikers were exhausted, so they stopped ____ some water by the trail.",
+      "options": ["drinking", "drink", "drank", "to drink"],
+      "answer": 3,
+      "zh": "登山客們筋疲力盡，所以他們在步道旁停下來喝點水。",
+      "explain": "stop 後接不定詞（to V）表示「停下原本的事，去做另一件事」；後接動名詞（V-ing）表示「停止正在進行的動作」。本題登山客停下腳步是為了「去喝水」，應選 to drink。(A) drinking 表示戒掉或停止喝水，不合文意；(B) drink 與 (C) drank 文法結構錯誤。"
+    },
+    {
+      "topic": "接動名詞與不定詞意義不同（remember）",
+      "level": 2,
+      "q": "Remember ____ off the air conditioner before you lock the door.",
+      "options": ["to turn", "turning", "turn", "turned"],
+      "answer": 0,
+      "zh": "鎖門前記得要把冷氣關掉。",
+      "explain": "「remember to + V」表示「記住去做（未做的事）」；「remember + V-ing」表示「記得做過（已完成的事）」。此句為提醒未來的動作，應用 to turn。(B) turning 表示記得以前關過，不合語境；(C) turn 與 (D) turned 文法錯誤。"
+    },
+    {
+      "topic": "接動名詞與不定詞意義不同（forget）",
+      "level": 2,
+      "q": "I completely forgot ____ Mr. Evans last week until he showed me the email confirmation.",
+      "options": ["to meet", "meeting", "meet", "met"],
+      "answer": 1,
+      "zh": "我完全忘記上週見過伊文斯先生，直到他出示電子郵件確認信。",
+      "explain": "「forget + V-ing」表示「忘記曾經做過某事」；「forget to + V」表示「忘記要做某事（因而未做）」。依據「上週見過且對方出示確認信」，可知見面是已發生的事實，故選 meeting。(A) to meet 表示忘記去見他；(C) meet 與 (D) met 文法錯誤。"
+    },
+    {
+      "topic": "接動名詞與不定詞意義不同（regret）",
+      "level": 2,
+      "q": "We regret ____ you that your application for the scholarship has been denied.",
+      "options": ["informing", "inform", "to inform", "informed"],
+      "answer": 2,
+      "zh": "我們很遺憾地通知您，您的獎學金申請已被婉拒。",
+      "explain": "「regret to + V」表示「很遺憾／抱歉要做某事（通常用於宣告壞消息）」；「regret + V-ing」表示「後悔做了某事」。此處是正式信函通知壞消息，應用 to inform。(A) informing 表示後悔以前通知過；(B) inform 與 (D) informed 文法不合。"
+    },
+    {
+      "topic": "接動名詞與不定詞意義不同（try）",
+      "level": 2,
+      "q": "If the screen doesn't turn on, try ____ the power button for ten seconds.",
+      "options": ["press", "to press", "pressed", "pressing"],
+      "answer": 3,
+      "zh": "如果螢幕沒有亮起，試試看按住電源鍵十秒鐘。",
+      "explain": "「try + V-ing」表示「嘗試某種方法看看是否有效」；「try to + V」表示「努力、設法去克服困難完成某事」。此處為提供排除故障的嘗試手段，應用 pressing。(A) press 為原形；(B) to press 偏向努力去按；(C) pressed 為過去式。"
+    },
+    {
+      "topic": "動名詞語意上的主詞",
+      "level": 2,
+      "q": "My parents strongly objected to ____ going abroad alone at such a young age.",
+      "options": ["my", "I", "mine", "myself"],
+      "answer": 0,
+      "zh": "我父母強烈反對我在這麼小的年紀獨自出國。",
+      "explain": "動名詞 going abroad 的語意主詞在傳統嚴謹用法中應使用「所有格」my（口語中亦偶見受格 me，但選項無 me）。(B) I 為主格，不可修飾動名詞；(C) mine 為所有格代名詞（= my + 名詞）；(D) myself 為反身代名詞。"
+    },
+    {
+      "topic": "動名詞語意上的主詞（無生物）",
+      "level": 2,
+      "q": "We were all relieved at the ____ canceled due to the approaching typhoon.",
+      "options": ["flight's", "flight being", "flight to be", "flight been"],
+      "answer": 1,
+      "zh": "因為颱風逼近班機遭到取消，我們都鬆了一口氣。",
+      "explain": "動名詞語意主詞若為「無生物」，習慣直接用普通名詞主格 flight，而不加所有格 's；被取消為被動，動名詞用 being canceled，故整組為 the flight being canceled。(A) flight's 漏掉被動動詞 being；(C) to be 為不定詞；(D) been 缺少助動詞。"
+    },
+    {
+      "topic": "慣用語（There is no + V-ing）",
+      "level": 2,
+      "q": "There is no ____ what tomorrow will bring, so cherish every moment today.",
+      "options": ["to predict", "predicted", "predicting", "predict"],
+      "answer": 2,
+      "zh": "無法預測明天會發生什麼事，所以請珍惜當下的每一刻。",
+      "explain": "句型「There is no + V-ing」意為「無法⋯；不可能⋯」，相當於 It is impossible to predict...。(A) to predict 為不定詞；(B) predicted 為分詞；(D) predict 為原形動詞。"
+    },
+    {
+      "topic": "慣用語（It is no use + V-ing）",
+      "level": 2,
+      "q": "It is no use ____ about things you cannot change; just focus on what you can do.",
+      "options": ["worry", "to worry", "worried", "worrying"],
+      "answer": 3,
+      "zh": "擔憂你無法改變的事情是徒勞無益的；只要專注於你能做的事就好。",
+      "explain": "句型「It is no use + V-ing」意為「做⋯是沒有用的／徒勞的」，相當於 It is of no use to worry...。(A) worry 為原形；(B) to worry 為不定詞（須搭配 of no use）；(C) worried 為過去分詞。"
+    },
+    {
+      "topic": "慣用語（can't help + V-ing）",
+      "level": 2,
+      "q": "The comedian was so funny that everyone in the audience couldn't help ____ loudly.",
+      "options": ["laughing", "to laugh", "laugh", "laughed"],
+      "answer": 0,
+      "zh": "那位喜劇演員太搞笑了，以至於全場觀眾都忍不住大聲笑了出來。",
+      "explain": "「can't help + V-ing」意為「忍不住；不得不⋯」，相當於 can't but laugh。(B) to laugh 為不定詞；(C) laugh 為原形（若用 cannot but 則接原形）；(D) laughed 為過去式。"
+    },
+    {
+      "topic": "慣用語（prevent... from + V-ing）",
+      "level": 2,
+      "q": "Heavy snow on the runway prevented several international flights from ____ on time.",
+      "options": ["land", "landing", "to land", "landed"],
+      "answer": 1,
+      "zh": "跑道上的積雪使好幾架國際航班無法準時降落。",
+      "explain": "句型「prevent / stop / keep / hinder + 受詞 + from + V-ing」表示「阻止／使⋯無法做某事」，from 為介系詞，後面必須接動名詞 landing。(A) land 為原形；(C) to land 為不定詞；(D) landed 為過去式。"
+    },
+    {
+      "topic": "慣用語（have difficulty + V-ing）",
+      "level": 2,
+      "q": "Being new to the city, the exchange student had great difficulty ____ her way to the station.",
+      "options": ["to find", "find", "finding", "found"],
+      "answer": 2,
+      "zh": "初來這座城市，這名交換學生在找去車站的路時遇到了極大困難。",
+      "explain": "句型「have difficulty / trouble / a hard time + (in) + V-ing」表示「做某事有困難」，介系詞 in 經常省略，直接接動名詞 finding。(A) to find 為不定詞；(B) find 為原形；(D) found 為過去式。"
+    },
+    {
+      "topic": "慣用語（On + V-ing）",
+      "level": 2,
+      "q": "____ opening the envelope, Emily was overjoyed to see her acceptance letter.",
+      "options": ["In", "By", "At", "On"],
+      "answer": 3,
+      "zh": "一打開信封，艾蜜莉看到錄取通知書便欣喜若狂。",
+      "explain": "「On + V-ing」表示「一⋯就⋯」，相當於 As soon as she opened the envelope...。(A) In + V-ing 表示「在⋯的過程中／當⋯之時」（= While...）；(B) By + V-ing 表示「藉由⋯方法」；(C) At 後面不表一⋯就⋯。"
+    },
+    {
+      "topic": "慣用語（be worth + V-ing）",
+      "level": 2,
+      "q": "This historical novel is well worth ____, as it provides deep insight into Taiwan's past.",
+      "options": ["reading", "to read", "read", "being read"],
+      "answer": 0,
+      "zh": "這本歷史小說非常值得一讀，因為它提供了對台灣過去的深刻洞察。",
+      "explain": "句型「be worth + V-ing」中，worth 為具介系詞性質的形容詞，後接主動形式的動名詞 reading 表被動意義（值得被讀）。(B) to read 為不定詞，worth 後不接 to V（worthy 後才接 to be read）；(C) read 為原形；(D) being read 在 worth 後為贅詞錯誤。"
+    },
+    {
+      "topic": "動名詞的被動語態",
+      "level": 2,
+      "q": "Most children dislike ____ treated like babies when they reach junior high school.",
+      "options": ["to be", "being", "been", "having"],
+      "answer": 1,
+      "zh": "大多數孩子升上國中後，都不喜歡被當成小嬰兒對待。",
+      "explain": "dislike（不喜歡）後接動名詞作受詞；且「被對待」為被動語態，故須用動名詞被動式「being + p.p.」（being treated）。(A) to be 為不定詞；(C) been 缺少助動詞；(D) having 表完成主動，與被動意義不符。"
+    },
+    {
+      "topic": "完成式動名詞",
+      "level": 3,
+      "q": "The suspect finally admitted to ____ the jewelry from the boutique two nights earlier.",
+      "options": ["steal", "stolen", "having stolen", "being stolen"],
+      "answer": 2,
+      "zh": "嫌犯最終承認在前天晚上偷了精品店的珠寶。",
+      "explain": "偷竊動作發生在承認（admitted）之前，表示動名詞時間先於主要動詞，故須用完成式動名詞「having + p.p.」（having stolen）。(A) steal 為原形動詞；(B) stolen 為過去分詞；(D) being stolen 為被動語態，嫌犯是偷竊者而非被偷者。"
+    },
+    {
+      "topic": "主動形式表被動意義",
+      "level": 3,
+      "q": "The roof of the old cabin is leaking badly and desperately needs ____.",
+      "options": ["repair", "to repair", "repaired", "repairing"],
+      "answer": 3,
+      "zh": "老舊小木屋的屋頂漏水很嚴重，迫切需要修繕。",
+      "explain": "動詞 need / want / require 當主詞為無生物事物時，後接主動形式的動名詞（V-ing）表達被動意義（needs repairing = needs to be repaired）。(A) repair 為原形動詞或名詞；(B) to repair 為主動不定詞，屋頂不可能主動修理；(C) repaired 為過去分詞。"
+    },
+    {
+      "topic": "易混淆片語（used to）",
+      "level": 3,
+      "q": "After living in London for six months, Arthur has finally gotten used to ____ on the left side of the road.",
+      "options": ["driving", "drive", "drove", "be driven"],
+      "answer": 0,
+      "zh": "在倫敦生活了六個月之後，亞瑟終於習慣靠馬路左側開車了。",
+      "explain": "句型「get / be used to + V-ing / N」表示「習慣於⋯」，其中的 to 是介系詞，後面必須接動名詞 driving。(B) drive 是原形動詞（used to + 原形 V 表示過去經常⋯）；(C) drove 為過去式；(D) be driven 為被動，亞瑟是駕駛者。"
+    },
+    {
+      "topic": "介系詞 to 接動名詞（look forward to）",
+      "level": 3,
+      "q": "All the seventh graders are eagerly looking forward to ____ their upcoming school trip.",
+      "options": ["join", "joining", "joined", "to join"],
+      "answer": 1,
+      "zh": "所有七年級學生都非常期待參加即將到來的校外教學。",
+      "explain": "片語「look forward to」中的 to 是介系詞，而非不定詞符號，後面必須接動名詞（V-ing）或名詞。(A) join 為原形動詞，為常見混淆錯誤；(C) joined 為過去式；(D) to join 多出一個 to，文法錯誤。"
+    },
+    {
+      "topic": "介系詞 to 接動名詞（devote oneself to）",
+      "level": 3,
+      "q": "Dr. Chen has devoted nearly her entire medical career to ____ cures for rare genetic diseases.",
+      "options": ["find", "to find", "finding", "found"],
+      "answer": 2,
+      "zh": "陳醫師將她幾乎整個醫療生涯都致力於尋找罕見遺傳疾病的療法。",
+      "explain": "句型「devote... to + V-ing / N」中的 to 為介系詞，表示「致力於⋯」，後接動名詞 finding。(A) find 為原形動詞；(B) to find 多出 to；(D) found 為過去式。"
+    },
+    {
+      "topic": "介系詞 to 接動名詞（object to）",
+      "level": 3,
+      "q": "Many local residents strongly objected to ____ a noisy nightclub right next to the school.",
+      "options": ["build", "be built", "to build", "building"],
+      "answer": 3,
+      "zh": "許多當地居民強烈反對在學校正隔壁興建吵鬧的夜店。",
+      "explain": "「object to」中的 to 是介系詞（反對⋯），後接動名詞 building 作受詞。(A) build 為原形動詞；(B) be built 為原形被動；(C) to build 誤將介系詞 to 當成不定詞符號。"
+    },
+    {
+      "topic": "接動名詞 vs 不定詞特殊規則（begin 進行式）",
+      "level": 3,
+      "q": "Look outside! The sky is turning dark and it is beginning ____.",
+      "options": ["to rain", "raining", "rain", "rained"],
+      "answer": 0,
+      "zh": "看外面！天空正在變暗，而且開始下起雨來了。",
+      "explain": "動詞 begin 雖然平時可接動名詞或不定詞，但當 begin 本身使用進行式（is beginning）時，為了避免英語中 -ing 連續出現的音律衝突，後方「只能接不定詞 to V」，不可接 raining。(B) raining 在進行式後不適用；(C) rain 為原形；(D) rained 為過去式。"
+    },
+    {
+      "topic": "慣用語（It goes without saying that...）",
+      "level": 3,
+      "q": "It goes without saying ____ regular exercise and balanced nutrition contribute to longevity.",
+      "options": ["how", "that", "what", "which"],
+      "answer": 1,
+      "zh": "不用說，規律運動與均衡營養有助於長壽。",
+      "explain": "句型「It goes without saying that + 子句」為固定慣用語，意為「不用說⋯；自不待言」，that 引導名詞子句作真正的敘述內容。(A) how、(C) what、(D) which 均不符該慣用句型。"
+    },
+    {
+      "topic": "慣用語（be above + V-ing）",
+      "level": 3,
+      "q": "Although Professor Wang is a world-renowned scholar, he is not above ____ advice from his young students.",
+      "options": ["take", "taken", "taking", "to take"],
+      "answer": 2,
+      "zh": "儘管王教授是享譽全球的學者，他卻不恥向年輕學生請教建議。",
+      "explain": "句型「be above + V-ing」意為「不屑於做某事」；其否定形式「be not above + V-ing」則表示「不以做某事為恥；願意放下身段去做⋯」，above 為介系詞，後接動名詞 taking。(A) take 為原形；(B) taken 為過去分詞；(D) to take 為不定詞。"
+    },
+    {
+      "topic": "allow / permit 的受詞結構",
+      "level": 3,
+      "q": "The library does not allow ____ food or beverages, but visitors may bring bottled water.",
+      "options": ["eat", "to eat", "eating of", "eating"],
+      "answer": 3,
+      "zh": "這間圖書館不允許飲食，但訪客可以攜帶瓶裝水。",
+      "explain": "動詞 allow / permit 若其後「未提及特定人」時，直接接動名詞（V-ing）作受詞，即 allow doing sth；若接人時才用 allow sb to do sth。(A) eat 為原形動詞；(B) to eat 需有人作受詞（allow us to eat）；(C) eating of 介系詞 of 為贅字，因為 eat 為及物動詞直接接受詞。"
+    }
+  ]
+}

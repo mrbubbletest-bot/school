@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>🌸 Bubble 夢幻英文文法學院 | 國高中資優特訓 (活用圖解英語語法全集)</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Nunito:wght@600;700;800;900&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Marked.js for Markdown parsing -->
+  <script src="js/marked.min.js"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Background Sparkles -->
+  <div class="sparkle-bg">
+    <div class="sparkle-dot" style="top: 15%; left: 8%;"></div>
+    <div class="sparkle-dot" style="top: 25%; right: 12%; animation-delay: 2s;"></div>
+    <div class="sparkle-dot" style="top: 55%; left: 18%; animation-delay: 4s;"></div>
+    <div class="sparkle-dot" style="top: 75%; right: 8%; animation-delay: 1s;"></div>
+    <div class="sparkle-dot" style="top: 85%; left: 45%; animation-delay: 5s;"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="brand-area" onclick="window.app.navigateTo('home')">
+      <div class="brand-logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
+      <div class="brand-text">
+        <h1>Bubble 英文文法學院 <span>🌸</span></h1>
+        <p>國高中資優特訓 · 活用圖解文法 20 大章全集</p>
+      </div>
+    </div>
+
+    <nav class="header-nav">
+      <a class="nav-link active" data-view="home" href="#home">
+        <i class="fa-solid fa-house"></i> 20章全覽
+      </a>
+      <a class="nav-link" data-view="reader" href="#reader">
+        <i class="fa-solid fa-book-open"></i> 講義研讀
+      </a>
+      <a class="nav-link" data-view="quiz" href="#quiz">
+        <i class="fa-solid fa-pen-to-square"></i> 實力診斷
+      </a>
+      <a class="nav-link" data-view="generator" href="#generator">
+        <i class="fa-solid fa-dice"></i> 無限題庫
+      </a>
+      <a class="nav-link" data-view="ai-tutor" href="#ai">
+        <i class="fa-solid fa-wand-magic-sparkles"></i> AI 文法導師
+      </a>
+    </nav>
+
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <a class="nav-link" href="../index.html" style="background: rgba(255,255,255,0.7); border: 1px solid var(--border-card); font-size: 13px;" title="返回國中學科全能特訓大廳">
+        <i class="fa-solid fa-arrow-left"></i> 回大廳
+      </a>
+      <div class="streak-badge">
+        <i class="fa-solid fa-fire" style="color: #F59E0B;"></i>
+        <span>連續學習 <strong id="streak-count">1 天</strong> 🔥</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- ==========================================
+         VIEW 1: HOME (20 CHAPTERS GRID & HERO)
+         ========================================== -->
+    <section class="app-view active" id="view-home">
+      <!-- Hero Welcome Card -->
+      <div class="hero-card">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <i class="fa-solid fa-sparkles"></i> 國高中資優英文專屬特訓寶典
+          </div>
+          <h2 class="hero-title">輕鬆掌握 20 大文法核心，寫出滿分優美英文！✨</h2>
+          <p class="hero-desc">
+            由陳啟賢、陳明亮老師經典名著《活用圖解英語語法》完整轉譯為台灣繁體排版。打破支離破碎的死背模式，結合圖表化公式、真實中譯、實力診斷與無限智慧題庫！
+          </p>
+          <div class="hero-mascot-box">
+            <div class="mascot-avatar">🌸</div>
+            <div class="mascot-speech" id="mascot-speech-text">
+              今天也要精神滿滿學文法喔！掌握動詞時態，英文就像搭上火箭一樣飛速進步！🚀✨
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="window.app.navigateTo('reader', 1)">
+            <i class="fa-solid fa-play"></i> 從第 1 章「時態」開始學習
+          </button>
+          <button class="btn-secondary" onclick="window.app.navigateTo('generator')">
+            <i class="fa-solid fa-dice"></i> 挑戰隨機文法題庫 🎲
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick AI Search & Question Bar -->
+      <div class="search-ai-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="home-search-input" class="search-ai-input" placeholder="想查什麼文法？輸入關鍵字（如：現在完成式、lie/lay、假設語氣、倒裝句）或直接問問題...">
+        <button id="home-search-btn" class="search-ai-btn">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> AI 查詢 / 解答
+        </button>
+      </div>
+
+      <!-- Quick Question Chips -->
+      <div class="quick-chips-row">
+        <span class="chip-label"><i class="fa-solid fa-fire"></i> 熱門問題快速看：</span>
+        <button class="grammar-chip" data-query="現在完成式何時用？">現在完成式何時用？</button>
+        <button class="grammar-chip" data-query="lie 和 lay 怎麼分？">lie vs lay 怎麼分？</button>
+        <button class="grammar-chip" data-query="假設語氣公式是什麼？">假設語氣公式是什麼？</button>
+        <button class="grammar-chip" data-query="感官動詞被動態要注意什麼？">感官動詞被動態要加 to 嗎？</button>
+        <button class="grammar-chip" data-query="stop to V 跟 stop V-ing 的差別？">stop to V vs stop V-ing？</button>
+        <button class="grammar-chip" data-query="五大基本句型怎麼分？">五大基本句型</button>
+      </div>
+
+      <!-- 20 Chapters Grid Section -->
+      <div class="section-header">
+        <h3 class="section-title">
+          <i class="fa-solid fa-book-bookmark" style="color: var(--primary);"></i>
+          <span>20 大章節核心講義與測驗單元</span>
+          <span class="badge">完整 20 章對應</span>
+        </h3>
+        <div style="font-size: 13px; color: var(--text-muted);">
+          點擊任一卡片即可進入章節講義或專屬實力診斷
+        </div>
+      </div>
+
+      <div class="chapters-grid" id="chapters-grid">
+        <!-- Rendered by chapters-meta.js & app.js -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 2: READER (講義閱讀器)
+         ========================================== -->
+    <section class="app-view" id="view-reader">
+      <!-- Toolbar -->
+      <div class="reader-toolbar">
+        <div class="reader-nav-controls">
+          <button class="btn-tool" id="reader-prev-btn">
+            <i class="fa-solid fa-chevron-left"></i> 上一章
+          </button>
+          <select id="reader-chapter-dropdown" class="reader-select chapter-picker-select">
+            <!-- Populated by JS -->
+          </select>
+          <button class="btn-tool" id="reader-next-btn">
+            下一章 <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 13px; color: var(--text-muted); font-weight: 600;">字體：</span>
+          <button class="btn-tool" onclick="window.app.reader.changeFontSize(-1)">A-</button>
+          <button class="btn-tool" onclick="window.app.reader.changeFontSize(1)">A+</button>
+          <button class="btn-tool" onclick="window.app.navigateTo('quiz', window.app.currentChapterId)" style="background: var(--accent-pink); color: var(--primary); border-color: rgba(255,107,139,0.3);">
+            <i class="fa-solid fa-pen-to-square"></i> 本章實力診斷
+          </button>
+        </div>
+      </div>
+
+      <!-- Layout: Sidebar TOC + Main Reader Paper -->
+      <div class="reader-content-layout">
+        <!-- Sidebar TOC -->
+        <aside class="reader-sidebar">
+          <div class="sidebar-title">
+            <i class="fa-solid fa-list-ul" style="color: var(--primary);"></i>
+            <span>本章講義目錄導覽</span>
+          </div>
+          <ul class="toc-list" id="reader-toc-list">
+            <!-- Generated from H2/H3 -->
+          </ul>
+        </aside>
+
+        <!-- Main Lecture Paper -->
+        <article class="reader-paper">
+          <div id="reader-markdown-content" class="markdown-body">
+            <!-- Injected by reader.js -->
+          </div>
+
+          <div class="reader-footer-actions">
+            <button class="btn-secondary" onclick="window.app.navigateTo('home')">
+              <i class="fa-solid fa-house"></i> 回到 20 章全覽
+            </button>
+            <button class="btn-primary" onclick="window.app.navigateTo('quiz', window.app.currentChapterId)">
+              <i class="fa-solid fa-pen-to-square"></i> 立即檢測！本章實力診斷 ✍️
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 3: QUIZ (實力診斷測驗)
+         ========================================== -->
+    <section class="app-view" id="view-quiz">
+      <div class="quiz-container">
+        <!-- Quiz Header -->
+        <div class="quiz-header-card">
+          <div class="quiz-title-group">
+            <h2 id="quiz-header-title">
+              <i class="fa-solid fa-clipboard-check" style="color: var(--primary);"></i>
+              <span>實力診斷測驗</span>
+            </h2>
+            <p id="quiz-header-sub">原書完整實力診斷試題 · 點擊選項立即揭曉名師診斷說明與中譯</p>
+          </div>
+
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <select class="reader-select chapter-picker-select" style="min-width: 200px;">
+              <!-- Populated by JS -->
+            </select>
+            <button class="btn-tool" onclick="window.app.navigateTo('reader', window.app.currentChapterId)">
+              <i class="fa-solid fa-book-open"></i> 查看講義
+            </button>
+          </div>
+
+          <div class="quiz-progress-bar-container">
+            <div class="quiz-progress-bar" id="quiz-progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Questions List Container -->
+        <div id="quiz-questions-list">
+          <!-- Injected by quiz-engine.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 4: GENERATOR (無限題庫產生器)
+         ========================================== -->
+    <section class="app-view" id="view-generator">
+      <div class="quiz-container">
+        <!-- Settings Card -->
+        <div class="generator-settings-card">
+          <div style="margin-bottom: 20px;">
+            <h2 style="font-family: var(--font-heading); font-size: 24px; color: var(--text-main); display: flex; align-items: center; gap: 10px;">
+              <i class="fa-solid fa-dice" style="color: var(--secondary);"></i>
+              <span>無限智慧文法題庫產生器</span>
+            </h2>
+            <p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">
+              依據課綱重點與各單元文法規則，隨機抽取題目進行強化特訓，每次練習都是全新題目！
+            </p>
+          </div>
+
+          <div class="settings-grid">
+            <div class="setting-group">
+              <label><i class="fa-solid fa-book"></i> 選擇訓練單元</label>
+              <select id="gen-chapter-select" class="setting-select">
+                <!-- Populated by JS -->
+              </select>
+            </div>
+
+            <div class="setting-group">
+              <label><i class="fa-solid fa-list-ol"></i> 挑戰題數</label>
+              <select id="gen-count-select" class="setting-select">
+                <option value="5">5 題速練 (約 3 分鐘)</option>
+                <option value="10" selected>10 題特訓 (約 7 分鐘)</option>
+                <option value="20">20 題模考 (約 15 分鐘)</option>
+                <option value="30">30 題資優挑戰 (約 25 分鐘)</option>
+              </select>
+            </div>
+
+            <div class="setting-group">
+              <label><i class="fa-solid fa-ranking-star"></i> 難度設定</label>
+              <select id="gen-level-select" class="setting-select">
+                <option value="all" selected>🌟 循序漸進 (綜合難度)</option>
+                <option value="1">🌱 Level 1: 基礎扎根</option>
+                <option value="2">🌸 Level 2: 實戰進階</option>
+                <option value="3">👑 Level 3: 資優特訓</option>
+              </select>
+            </div>
+          </div>
+
+          <button id="start-generator-btn" class="btn-primary" style="width: 100%; justify-content: center; padding: 14px;">
+            <i class="fa-solid fa-arrows-rotate"></i> 隨機生成專屬測驗 🎲
+          </button>
+        </div>
+
+        <!-- Generated Questions Container -->
+        <div id="generator-questions-list">
+          <!-- Injected by generator.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 5: AI TUTOR (智慧問答與全站搜尋)
+         ========================================== -->
+    <section class="app-view" id="view-ai-tutor">
+      <div class="ai-tutor-container">
+        <div class="chat-box">
+          <!-- Chat Header -->
+          <div class="chat-header">
+            <div class="chat-mentor-info">
+              <div class="mascot-avatar" style="width: 40px; height: 40px; font-size: 22px;">🌸</div>
+              <div>
+                <h3 style="font-size: 16px; font-weight: 700; color: var(--text-main);">Bubble 老師 (AI 英文文法導師)</h3>
+                <p style="font-size: 12px; color: var(--text-muted);">24 小時線上解答任何文法疑難雜症 · 全站搜尋</p>
+              </div>
+            </div>
+            <div style="font-size: 12px; color: #10B981; font-weight: 600; display: flex; align-items: center; gap: 4px;">
+              <span style="width: 8px; height: 8px; background: #10B981; border-radius: 50%; display: inline-block;"></span>
+              在線為妳解答
+            </div>
+          </div>
+
+          <!-- Chat Messages Area -->
+          <div class="chat-messages-area" id="chat-messages-area">
+            <div class="chat-bubble assistant">
+              🌸 嗨！我是妳的專屬英文文法導師 Bubble 老師！<br><br>
+              無論妳是在閱讀講義時遇到不懂的句型，想詢問兩個容易搞混的動詞（例如 <strong>lie vs. lay</strong>），或是想知道某個文法公式的由來，都隨時輸入告訴我喔！我也能幫妳即時搜尋全書 20 個章節的重點講義喔！✨
+            </div>
+          </div>
+
+          <!-- Chat Input Area -->
+          <div class="chat-input-area">
+            <input type="text" id="chat-user-input" class="chat-input" placeholder="請在此輸入妳的文法問題（例如：現在完成式和過去式怎麼分？、stop to V vs stop V-ing...）">
+            <button id="chat-send-btn" class="search-ai-btn">
+              <i class="fa-solid fa-paper-plane"></i> 發送
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Mobile Bottom Navigation Bar -->
+  <nav class="mobile-nav-bar">
+    <a class="mobile-nav-item active" data-view="home" href="#home">
+      <i class="fa-solid fa-house fa-lg"></i>
+      <span>全覽</span>
+    </a>
+    <a class="mobile-nav-item" data-view="reader" href="#reader">
+      <i class="fa-solid fa-book-open fa-lg"></i>
+      <span>講義</span>
+    </a>
+    <a class="mobile-nav-item" data-view="quiz" href="#quiz">
+      <i class="fa-solid fa-pen-to-square fa-lg"></i>
+      <span>診斷</span>
+    </a>
+    <a class="mobile-nav-item" data-view="generator" href="#generator">
+      <i class="fa-solid fa-dice fa-lg"></i>
+      <span>題庫</span>
+    </a>
+    <a class="mobile-nav-item" data-view="ai-tutor" href="#ai">
+      <i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>
+      <span>問AI</span>
+    </a>
+  </nav>
+
+  <!-- Application Scripts -->
+  <script src="js/chapters-meta.js"></script>
+  <script src="js/reader.js"></script>
+  <script src="js/quiz-engine.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/ai-tutor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

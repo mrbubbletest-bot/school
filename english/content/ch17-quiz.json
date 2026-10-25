@@ -1,0 +1,1011 @@
+{
+  "chapter": 17,
+  "title": "介系詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "We must defend our country against the enemy ____ all circumstances.",
+          "options": [
+            "at",
+            "on",
+            "for",
+            "under"
+          ],
+          "answer": 3,
+          "zh": "在任何情況下，我們必須對抗敵人保衛國家。",
+          "explain": "under all circumstances（在任何情況下）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "The dictionary is sold ____ three hundred yuan a copy.",
+          "options": [
+            "for",
+            "by",
+            "in",
+            "at"
+          ],
+          "answer": 3,
+          "zh": "這本詞典一本售價300元。",
+          "explain": "at＋單價（以某種價錢售出）。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The house was finished ____ the morning of February 4th.",
+          "options": [
+            "in",
+            "at",
+            "on",
+            "during"
+          ],
+          "answer": 2,
+          "zh": "這棟房子在二月四號的早上完成的。",
+          "explain": "on 用於特定某天的上、下午或晚上。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Mrs. Johnson's old cat likes to sit ____ the sun.",
+          "options": [
+            "near",
+            "in",
+            "under",
+            "underneath"
+          ],
+          "answer": 1,
+          "zh": "約翰遜太太的老貓喜歡躺在陽光中。",
+          "explain": "in the sun（陽光下）。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "He lives ____ 87 Nanking Road.",
+          "options": [
+            "at",
+            "in",
+            "on",
+            "along"
+          ],
+          "answer": 0,
+          "zh": "他住在南京路87號。",
+          "explain": "live on＋街道名／live at＋門牌號碼。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "____ the age of twenty, she was married to an old man.",
+          "options": [
+            "In",
+            "On",
+            "At",
+            "During"
+          ],
+          "answer": 2,
+          "zh": "在二十歲時，她嫁給一個老頭。",
+          "explain": "at the age of（在…歲時）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "How did he go to Keelung? He went ____ bus.",
+          "options": [
+            "by",
+            "in",
+            "on",
+            "at"
+          ],
+          "answer": 0,
+          "zh": "他怎麼去基隆的？他坐公車去的。",
+          "explain": "by＋交通工具。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "____ listening to conversation, you can learn something useful from everyone.",
+          "options": [
+            "By",
+            "With",
+            "On",
+            "In"
+          ],
+          "answer": 0,
+          "zh": "通過聆聽別人的談話，你可以從他們那裡學到一些有用的東西。",
+          "explain": "by＋V-ing（藉…方法）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Which candidate are you voting ____?",
+          "options": [
+            "at",
+            "to",
+            "for",
+            "in"
+          ],
+          "answer": 2,
+          "zh": "你要投哪一位候選人？",
+          "explain": "vote for（投票給…）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Please come to see me the day ____ tomorrow.",
+          "options": [
+            "on",
+            "before",
+            "after",
+            "in"
+          ],
+          "answer": 2,
+          "zh": "請於後天來找（看）我。",
+          "explain": "「後天」用 the day after tomorrow；「前天」用 the day before yesterday。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "He lost his job ____ doing something wrong.",
+          "options": [
+            "for",
+            "with",
+            "by",
+            "at"
+          ],
+          "answer": 0,
+          "zh": "他因為做錯事而丟掉工作了。",
+          "explain": "for（由於…）表示原因。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "Can you swim ____ the river?",
+          "options": [
+            "over",
+            "through",
+            "crossing",
+            "across"
+          ],
+          "answer": 3,
+          "zh": "你能游過河嗎？",
+          "explain": "across（越過；橫過）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "John will go to college ____ high school.",
+          "options": [
+            "before",
+            "after",
+            "when",
+            "until"
+          ],
+          "answer": 1,
+          "zh": "高中畢業後，約翰將入大學就讀。",
+          "explain": "after（在…之後）。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "You must keep it secret. It is only ____ you and me.",
+          "options": [
+            "for",
+            "to",
+            "among",
+            "between"
+          ],
+          "answer": 3,
+          "zh": "你要保密。它是你我之間的秘密。",
+          "explain": "between... and（用於兩者之間）。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Every night John studied hard and did his homework ____ 11:30 p.m.",
+          "options": [
+            "at",
+            "since",
+            "until",
+            "for"
+          ],
+          "answer": 2,
+          "zh": "每天晚上約翰都很用功而且做功課到11點半。",
+          "explain": "until（直到…）。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "This teacher writes ____ his left hand.",
+          "options": [
+            "with",
+            "for",
+            "in",
+            "by"
+          ],
+          "answer": 0,
+          "zh": "這位老師用左手寫字。",
+          "explain": "with＋受詞（用…）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "____ our baseball teams, Jim is the best player.",
+          "options": [
+            "Through",
+            "Between",
+            "Among",
+            "Around"
+          ],
+          "answer": 2,
+          "zh": "在我們棒球隊中，Jim 是最好的球員。",
+          "explain": "among（在…之間）指三者以上。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "My father will be back ____ four.",
+          "options": [
+            "since",
+            "for",
+            "till",
+            "by"
+          ],
+          "answer": 3,
+          "zh": "我父親在四點以前會回來。",
+          "explain": "by（＝before）（在…之前）。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "Don't do things ____ your will.",
+          "options": [
+            "to",
+            "against",
+            "by",
+            "with"
+          ],
+          "answer": 1,
+          "zh": "不要作違背你意志的事。",
+          "explain": "against one's will（違背…本意）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "The boy and the girl come ____ different parts of the country.",
+          "options": [
+            "to",
+            "of",
+            "from",
+            "along"
+          ],
+          "answer": 2,
+          "zh": "這位男孩和女孩來自一個國家的不同地區。",
+          "explain": "come of（出身於）；come from（來自於）；come to（甦醒）；come along（進步）。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "I can't find Jinan ____ the map.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "above"
+          ],
+          "answer": 1,
+          "zh": "我無法在地圖上找到濟南。",
+          "explain": "on the map（在地圖上）。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "The main feature began ____ 9 o'clock.",
+          "options": [
+            "on",
+            "at",
+            "into",
+            "for"
+          ],
+          "answer": 1,
+          "zh": "首場電影正片九點開始。",
+          "explain": "at＋時刻。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "When you get out of the room, don't forget to turn ____ the light.",
+          "options": [
+            "at",
+            "on",
+            "of",
+            "off"
+          ],
+          "answer": 3,
+          "zh": "當你離開房間時，不要忘了關燈。",
+          "explain": "turn off（關燈）。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "I have no hobbies ____ playing tennis.",
+          "options": [
+            "without",
+            "beside",
+            "expect",
+            "except"
+          ],
+          "answer": 3,
+          "zh": "除了打網球，我沒有別的嗜好。",
+          "explain": "except（除了…之外）。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "The big fire ____ his parents.",
+          "options": [
+            "deprived him of",
+            "deprived from",
+            "derived of",
+            "derived him of"
+          ],
+          "answer": 0,
+          "zh": "大火奪去了他的雙親。",
+          "explain": "deprive 人 of～（奪去某人～）。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "They have known each other ____. (複選)",
+          "options": [
+            "from last year",
+            "since 1976",
+            "for many years",
+            "only a few years ago"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "zh": "他們從1976年就已經認識了。／他們已經認識好幾年了。",
+          "explain": "since＋過去時間／for＋一段時間。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "A traffic accident prevented him ____ coming.",
+          "options": [
+            "to",
+            "from",
+            "in",
+            "at"
+          ],
+          "answer": 1,
+          "zh": "車禍使他無法前來。",
+          "explain": "prevent 人 from＋V-ing（阻止某人做…）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "She got a doctor degree ____. (複選)",
+          "options": [
+            "in her twenty",
+            "in the age of twenty",
+            "in her twenties",
+            "at the age of twenty"
+          ],
+          "answer": [
+            2,
+            3
+          ],
+          "zh": "她二十幾歲（或：二十歲時）就得到博士學位。",
+          "explain": "① in one's twenties（在二十幾歲）\n② at the age of twenty（二十歲時）。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "The factory produces the most products ____ the lowest cost.",
+          "options": [
+            "at",
+            "for",
+            "in",
+            "on"
+          ],
+          "answer": 0,
+          "zh": "這家工廠以最低價生產大多數的產品。",
+          "explain": "at... cost（以…價格）。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "My uncle left ____ Africa last week.",
+          "options": [
+            "off",
+            "for",
+            "beyond",
+            "to"
+          ],
+          "answer": 1,
+          "zh": "我叔叔上星期前往非洲。",
+          "explain": "leave for（前往…）。"
+        },
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "He has lived here in Taichung ____ many years.",
+          "options": [
+            "for",
+            "since",
+            "until",
+            "during"
+          ],
+          "answer": 0,
+          "zh": "他已經在台中住了許多年了。",
+          "explain": "for＋一段時間。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "The opening ceremony of the 23rd Olympiad was held ____ Los Angeles on Saturday, July 28, 1984.",
+          "options": [
+            "during",
+            "for",
+            "at",
+            "in"
+          ],
+          "answer": 3,
+          "zh": "第23屆奧運會開幕典禮於1984年7月28日星期六在洛杉磯舉行。",
+          "explain": "① be held（舉行）\n② in＋大都市；at＋小地方。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "She is dressed ____ a pink suit ____ gold buttons.",
+          "options": [
+            "with, has",
+            "on, has",
+            "in, with",
+            "on, with"
+          ],
+          "answer": 2,
+          "zh": "她穿著一件有金色鈕扣的粉紅色套裝。",
+          "explain": "① be dressed in＋衣物／顏色（穿著～）\n② with（帶有～）。"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "We learn our own language ____ hearing people speak it.",
+          "options": [
+            "of",
+            "in",
+            "on",
+            "by"
+          ],
+          "answer": 3,
+          "zh": "我們經由聽人們說話而學會自己的語言。",
+          "explain": "by（藉著～）。"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "The workers are paid ____.",
+          "options": [
+            "by the week",
+            "for a week",
+            "to a week",
+            "in one week"
+          ],
+          "answer": 0,
+          "zh": "這些工作人員按週計酬。",
+          "explain": "by the＋單位（以…計）。"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "They decided to take a walk ____ the shore.",
+          "options": [
+            "among",
+            "with",
+            "over",
+            "along"
+          ],
+          "answer": 3,
+          "zh": "他們決定要沿著河岸散步。",
+          "explain": "along（沿著）。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "\"When were you born?\" \"I was born ____ December 8, 1961.\"",
+          "options": [
+            "in",
+            "at",
+            "on",
+            "by"
+          ],
+          "answer": 2,
+          "zh": "「你何時出生？」「我是1961年12月8日生的。」",
+          "explain": "on＋特定日期。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "You may gain priceless profit ____ your studies.",
+          "options": [
+            "of",
+            "under",
+            "from",
+            "on"
+          ],
+          "answer": 2,
+          "zh": "你可以從讀書中獲取極珍貴的益處。",
+          "explain": "from（從…）／from one's studies（從讀書中）。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "The electronic computer has been in use only ____ 1946.",
+          "options": [
+            "since",
+            "for",
+            "on",
+            "in"
+          ],
+          "answer": 0,
+          "zh": "電腦從1946年起一直在使用。",
+          "explain": "現在完成式（進行式）＋since（自從）＋過去時間。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "Retailers sell goods ____ higher prices than wholesalers do.",
+          "options": [
+            "at",
+            "in",
+            "with",
+            "by"
+          ],
+          "answer": 0,
+          "zh": "零售商以比批發商高的價格銷售貨物。",
+          "explain": "at higher price（以較高價）。"
+        },
+        {
+          "no": 41,
+          "type": "mc",
+          "q": "We can write letters ____ simple English.",
+          "options": [
+            "with",
+            "by",
+            "in",
+            "use"
+          ],
+          "answer": 2,
+          "zh": "我們可以用簡單的英語寫信。",
+          "explain": "in English（用英語）。"
+        },
+        {
+          "no": 42,
+          "type": "mc",
+          "q": "We are traveling ____ a speed of 90 kilometers an hour.",
+          "options": [
+            "at",
+            "of",
+            "on",
+            "in"
+          ],
+          "answer": 0,
+          "zh": "我們正以每小時90公里的速度前進。",
+          "explain": "at a speed of（以…速度）。"
+        },
+        {
+          "no": 43,
+          "type": "mc",
+          "q": "____ a clear night we can look up at the sky and see into space.",
+          "options": [
+            "On",
+            "Over",
+            "Through",
+            "At"
+          ],
+          "answer": 0,
+          "zh": "在明亮的夜晚，我們仰望天空，可以透視太空。",
+          "explain": "介系詞 “on” 表示某一特定之時間或日子。"
+        },
+        {
+          "no": 44,
+          "type": "mc",
+          "q": "They are leaving for Jinan ____.",
+          "options": [
+            "at p. m. 3:00",
+            "during 2:00 p. m.",
+            "at 1:30 p. m.",
+            "before p. m. 3:00"
+          ],
+          "answer": 2,
+          "zh": "他們將於下午一點三十分前往濟南。",
+          "explain": "① 介系詞 “at” 表示幾點鐘。\n② p.m.（下午）應放在時間之後。"
+        },
+        {
+          "no": 45,
+          "type": "mc",
+          "q": "They got over that difficulty ____ of different approaches. (複選)",
+          "options": [
+            "in order to",
+            "by trying",
+            "have tried",
+            "try",
+            "by a number"
+          ],
+          "answer": [
+            1,
+            4
+          ],
+          "zh": "他們嘗試了許多不同的方法，藉以度過那次難關。",
+          "explain": "① by＋V-ing 表示「方法」，譯為「藉…」或「靠」。\n② get over＝overcome（克服；度過）。"
+        },
+        {
+          "no": 46,
+          "type": "mc",
+          "q": "In the sentence, \"The size of the room is 12' × 14'.\" the sign \"×\" is to read \"____\".",
+          "options": [
+            "times",
+            "cross",
+            "by",
+            "and"
+          ],
+          "answer": 2,
+          "zh": "在「該室大小是12'×14'」句中，“×”符號該念成 by。",
+          "explain": "“×”這個符號若表示「長×寬」，讀成 “by”；若表示「倍」或「乘以」，讀成 “times” 或 “multiplied by”。"
+        },
+        {
+          "no": 47,
+          "type": "mc",
+          "q": "The office is open Monday ____ Saturday, and closed on Sundays.",
+          "options": [
+            "since",
+            "through",
+            "until",
+            "also"
+          ],
+          "answer": 1,
+          "zh": "辦公時間是從週一到週六，星期天休息。",
+          "explain": "(from) Monday through Saturday（從週一到週六整整六天）。"
+        },
+        {
+          "no": 48,
+          "type": "mc",
+          "q": "____ prices so high, I'll have to do without a new suit this year.",
+          "options": [
+            "With",
+            "Because",
+            "Because of",
+            "As"
+          ],
+          "answer": 0,
+          "zh": "因為物價那麼高，所以今年只好不添新裝了。",
+          "explain": "① “with＋名詞＋形容詞”，表示「原因」。\n② 此題若用 because of，則原題應改為 Because of so high prices."
+        },
+        {
+          "no": 49,
+          "type": "mc",
+          "q": "In the photograph the man's face is ____ focus but the rest is blurred.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "off"
+          ],
+          "answer": 2,
+          "zh": "這張照片中，此人臉部清晰可見，而其餘部分模糊不清。",
+          "explain": "① in focus（在焦點內➜清晰）／out of focus（在焦點外➜模糊不清）。\n② blurred：形 模糊的。"
+        }
+      ]
+    },
+    {
+      "title": "（二）翻譯填空題",
+      "instructions": "依中文提示完成英文句子，每格填入一適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "他日益虛弱，因為他常常從早上工作到晚上。\nHe is getting weak, because he often works ____ morning ____ night.",
+          "answer": [
+            "from / till",
+            "from / to"
+          ],
+          "zh": "他日益虛弱，因為他常常從早上工作到晚上。",
+          "explain": "from morning till night（從早到晚）。（亦可用 from... to...）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "背後莫論人是非。\nNever speak ill ____ others ____ their backs.",
+          "answer": "of / behind",
+          "zh": "背後莫論人是非。",
+          "explain": "speak ill of（批評）。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "藉著語言，人與人之間可互相溝通。\n____ ____ languages, people can communicate ____ each other.",
+          "answer": "By means of / with",
+          "zh": "藉著語言，人與人之間可互相溝通。",
+          "explain": "by means of（藉著）；communicate with（溝通）。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "他閒蕩終日，結果入學考試落榜了。\nHe ____ ____ all day long; ____ a ____, he failed in the entrance examination.",
+          "answer": "fooled away / as / result",
+          "zh": "他閒蕩終日，結果入學考試落榜了。",
+          "explain": "① fool away＝idle away（虛度光陰；遊手好閒）\n② as a result（因此）。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "人生常被比喻為航海，而每個人都是自己命運之舵手。\nLife is often ____ ____ a voyage, in which everyone is the ____ (or sailor) of his own ____ (or fate).",
+          "answer": [
+            "compared to / master / fortune",
+            "compared to / sailor / fate"
+          ],
+          "zh": "人生常被比喻為航海，而每個人都是自己命運之舵手。",
+          "explain": "① be compared with（與…做比較）\n② be compared to（被比喻為）\n③ 舵手可用 master 或 sailor，命運可用 fortune 或 fate。"
+        },
+        {
+          "no": 6,
+          "type": "fill",
+          "q": "無疑地，疾病由暴飲暴食而起。\nIt is ____ ____ that sickness ____ ____ eating and drinking excessively.",
+          "answer": "no doubt / results from",
+          "zh": "無疑地，疾病由暴飲暴食而起。",
+          "explain": "① result in＋結果（導致…結果）\n② result from＋原因（導源於…原因）。"
+        },
+        {
+          "no": 7,
+          "type": "fill",
+          "q": "驕傲使他無法獲致更高的成就。\nPride ____ him ____ attaining ____ achievements.",
+          "answer": "prevents / from / higher",
+          "zh": "驕傲使他無法獲致更高的成就。",
+          "explain": "prevent/stop/keep... from＋V-ing（阻止…無法／不能…）。"
+        },
+        {
+          "no": 8,
+          "type": "fill",
+          "q": "這場大火奪走了許多寶貴生命。\nThe big fire ____ many people ____ their ____ lives.",
+          "answer": [
+            "deprived / of / precious",
+            "deprived / of / valuable"
+          ],
+          "zh": "這場大火奪走了許多寶貴生命。",
+          "explain": "deprive（人）of（生命…等）：（奪去／剝奪人之生命）。寶貴的可用 precious 或 valuable。"
+        },
+        {
+          "no": 9,
+          "type": "fill",
+          "q": "滿嘴食物的時候說話是很不禮貌的。\nIt is impolite to speak ____ your mouth ____ ____ food.",
+          "answer": "with / full of",
+          "zh": "滿嘴食物的時候說話是很不禮貌的。",
+          "explain": "with 表示「附帶之狀況」。（with＋名詞＋形容詞片語）"
+        },
+        {
+          "no": 10,
+          "type": "fill",
+          "q": "極目所望盡是汪洋大海。\nAs ____ as our eyes can reach, we see ____ ____ spacious ocean.",
+          "answer": "far / a great",
+          "zh": "極目所望盡是汪洋大海。",
+          "explain": "as far as（到…程度；到…範圍）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "我的故鄉是靠近一個湖泊的小村落。",
+          "hint": "靠近一個湖泊：near a lake",
+          "answer": "My hometown is a small village near a lake.",
+          "zh": "我的故鄉是靠近一個湖泊的小村落。",
+          "explain": "near 表示「靠近」。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "村子前面有一條小溪，溪中有許多魚蝦。",
+          "hint": "富於：abounds in / be rich in",
+          "answer": [
+            "In front of the village is a stream, which abounds in fish and shrimps.",
+            "In front of the village is a stream, which is rich in fish and shrimps."
+          ],
+          "zh": "村子前面有一條小溪，溪中有許多魚蝦。",
+          "explain": "「富於」：abounds in；be rich in。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "村子後面有一片樹林，我常去那裡散步。",
+          "hint": "散步：take a walk / go for a walk",
+          "answer": [
+            "In back of it is a forest, where I often take a walk.",
+            "Behind it is a forest, where I often take a walk."
+          ],
+          "zh": "村子後面有一片樹林，我常去那裡散步。",
+          "explain": "「散步」：take a walk；go for a walk。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "大部分村民是農夫，他們靠種田為生。",
+          "hint": "謀生：make/earn one's living；靠種田：by farming",
+          "answer": [
+            "Most of the villagers are farmers, who make a living by farming.",
+            "Most of the villagers are farmers, who earn their living by farming.",
+            "Most of the villagers are farmers, who earn their bread by farming.",
+            "Most of the villagers are farmers, who earn their livelihood by farming."
+          ],
+          "zh": "大部分村民是農夫，他們靠種田為生。",
+          "explain": "「謀生」：make（或 earn）one's living／earn one's bread／earn one's livelihood 均可。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "我的故鄉風景優美，它永遠留在我的腦海中。",
+          "hint": "留在某人腦海中：live in one's memory",
+          "answer": "My hometown is beautiful and it will live in my memory forever.",
+          "zh": "我的故鄉風景優美，它永遠留在我的腦海中。",
+          "explain": "「留在某人腦海中」：live in one's memory。"
+        }
+      ]
+    },
+    {
+      "title": "（四）選答案測驗",
+      "instructions": "閱讀短文，並選出空格內最適當的答案：\n\nIn social life, time __1.__ a very important part. In the United States, guests __2.__ feel they are not highly regarded if the invitation __3.__ a dinner party is given only three or four days __4.__ the party date. The meaning of time differs __5.__ different parts of the world, too. __6.__ example, promptness is valued highly in American life. In the U. S., no one would __7.__ keeping a business associate __8.__ an hour; it would be too impolite. When equals meet, a person who is five minutes late is __9.__ to make a short apology. If he is less than five minutes late, he will say a few words of __10.__.\n\n【詞彙及短語提示】\n1. social life: 社會生活\n2. guests: 名 客人\n3. are not highly regarded: 未受到十分的尊重\n4. invitation: 名 邀請函\n5. the party date: 宴會日子\n6. promptness: 名 機敏；迅速\n7. is valued highly: 受重視\n8. a business associate: 商業夥伴\n9. equals: 名 同輩\n10. make a short apology: 做簡短的道歉",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "In social life, time ____ a very important part.",
+          "options": [
+            "reaches",
+            "plays",
+            "provides",
+            "takes"
+          ],
+          "answer": 1,
+          "zh": "在社會生活中，時間扮演非常重要的一部分。",
+          "explain": "play a very important part：扮演重要之一部分。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "In the United States, guests ____ feel they are not highly regarded if the invitation (3) a dinner party is given...",
+          "options": [
+            "used to",
+            "only to",
+            "tend to",
+            "take to"
+          ],
+          "answer": 2,
+          "zh": "在美國，客人往往覺得如果邀請函…他們並未受到十分的尊重。",
+          "explain": "(A) used to：過去習慣於；(B) only to：但是；(C) tend to：有…傾向；(D) take to：沉迷於。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "...if the invitation ____ a dinner party is given only three or four days (4) the party date.",
+          "options": [
+            "to",
+            "for",
+            "in",
+            "at"
+          ],
+          "answer": 0,
+          "zh": "…如果晚宴的邀請函只在宴會日期的三、四天前才發出…",
+          "explain": "「邀請人參加宴會」用 invite (人) to a party，名詞 invitation 亦搭配 to。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "...is given only three or four days ____ the party date.",
+          "options": [
+            "during",
+            "after",
+            "within",
+            "before"
+          ],
+          "answer": 3,
+          "zh": "…只在宴會日期的三、四天前才發出。",
+          "explain": "(A) 在…期間；(B) 在…之後；(C) 在…之內；(D) 在…之前。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "The meaning of time differs ____ different parts of the world, too.",
+          "options": [
+            "in",
+            "with",
+            "from",
+            "by"
+          ],
+          "answer": 0,
+          "zh": "時間的意義在世界不同地方也有所不同。",
+          "explain": "differ from＋N：不同於；differ in＋N：在…方面不同。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "____ example, promptness is valued highly in American life.",
+          "options": [
+            "As",
+            "For",
+            "On",
+            "In"
+          ],
+          "answer": 1,
+          "zh": "例如，準時在美國人的生活中受到高度重視。",
+          "explain": "For example＝For instance（比如；例如）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "In the U. S., no one would ____ keeping a business associate (8) an hour; it would be too impolite.",
+          "options": [
+            "look for",
+            "make out",
+            "think of",
+            "lie in"
+          ],
+          "answer": 2,
+          "zh": "在美國，沒有人會想到讓商業夥伴等待一個小時；那樣太不禮貌了。",
+          "explain": "(A) 尋找；(B) 了解；(C) 想到；(D) 在於。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "...keeping a business associate ____ an hour; it would be too impolite.",
+          "options": [
+            "to wait",
+            "waited for",
+            "be waited",
+            "waiting for"
+          ],
+          "answer": 3,
+          "zh": "…讓商業夥伴等候一個小時；那樣太不禮貌了。",
+          "explain": "keep (人) waiting for＋時間：讓（人）等候多少時間。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "When equals meet, a person who is five minutes late is ____ to make a short apology.",
+          "options": [
+            "expected",
+            "demanded",
+            "requested",
+            "inspected"
+          ],
+          "answer": 0,
+          "zh": "同輩相聚時，遲到五分鐘的人會被認為理當做個簡短的道歉。",
+          "explain": "be expected：被要求；被視為當然要做…；be demanded：被要求；be requested：被要求；be inspected：被檢查。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "If he is less than five minutes late, he will say a few words of ____.",
+          "options": [
+            "complaint",
+            "explanation",
+            "expression",
+            "gratitude"
+          ],
+          "answer": 1,
+          "zh": "如果他遲到不到五分鐘，他會說幾句解釋的話。",
+          "explain": "(A) 抱怨；(B) 解釋；(C) 表達；(D) 感激。"
+        }
+      ]
+    }
+  ]
+}

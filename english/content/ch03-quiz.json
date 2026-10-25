@@ -1,0 +1,712 @@
+{
+  "chapter": 3,
+  "title": "語態",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "All those old buildings ____ down tomorrow.",
+          "options": [
+            "will be knocked",
+            "will knock",
+            "will have knocked",
+            "knock"
+          ],
+          "answer": 0,
+          "zh": "這些舊建築物明天都將被拆除。",
+          "explain": "will/shall be + p.p. ➜ 未來簡單式被動語態。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "Last summer my classmate was ____ Beijing Railway Administration.",
+          "options": [
+            "employing with",
+            "employed with",
+            "employed by",
+            "employee by"
+          ],
+          "answer": 2,
+          "zh": "去年暑假，我同學受雇於鐵路局。",
+          "explain": "人 + be employed by ...（受雇於…，用過去簡單式被動語態）。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "At present a new road ____ in that part of the city.",
+          "options": [
+            "is built",
+            "will be built",
+            "will have built",
+            "is being built"
+          ],
+          "answer": 3,
+          "zh": "目前在市內那個地區有條新路正在修築中。",
+          "explain": "① At present（目前），與現在進行式連用。\n② 道路是被修築的，應用現在進行式被動語態 is being built。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Only 50 new students ____ into the department in 1965.",
+          "options": [
+            "admit",
+            "were admitted",
+            "admitted",
+            "had admitted"
+          ],
+          "answer": 1,
+          "zh": "在 1965 年，只有五十位新生獲准進入該系。",
+          "explain": "學生被准許入學，且有明確過去時間 in 1965，用過去簡單式被動語態 were admitted。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Computers are ____ in space travel.",
+          "options": [
+            "being used",
+            "been used",
+            "to being used",
+            "been using"
+          ],
+          "answer": 0,
+          "zh": "電腦現今被用於太空航行中。",
+          "explain": "be + being + p.p. ➜ 表示進行式的被動。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "The price of the commodities ____ the cost price.",
+          "options": [
+            "have reduced to",
+            "has reduced to",
+            "have been reduced to",
+            "has been reduced to"
+          ],
+          "answer": 3,
+          "zh": "商品的價格已被打折到成本價格了。",
+          "explain": "① 價格「已被降至」（has been reduced to）。\n② 主詞「價格」（price）為單數，故助動詞用 has。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "When you return next winter, the house ____.",
+          "options": [
+            "will finish",
+            "shall finish",
+            "might be finished",
+            "will have been finished"
+          ],
+          "answer": 3,
+          "zh": "當你明年冬天回來時，房子就完工了。",
+          "explain": "① When + S + 現在簡單式（表示未來時間），主要子句表示到那時已完成，用「未來完成式」。\n② the house（房子）是被建造完成，需用被動語態 will have been finished。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "A big fire ____ in our neighborhood last night.",
+          "options": [
+            "broke out",
+            "was broken out",
+            "was happened",
+            "brought about"
+          ],
+          "answer": 0,
+          "zh": "昨晚在我們家附近發生了一場火災。",
+          "explain": "break out（爆發、發生）為不及物動詞片語，不可用被動語態。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Nobody knows when the accident ____.",
+          "options": [
+            "happen",
+            "happened",
+            "has happening",
+            "was happened"
+          ],
+          "answer": 1,
+          "zh": "沒有人知道意外事件在何時發生。",
+          "explain": "happen（= take place，發生）為不及物動詞，不可用被動語態；事情已發生，故用過去簡單式 happened。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "More crimes ____ in summer than at any other time.",
+          "options": [
+            "take place",
+            "is taking place",
+            "are taken",
+            "taken place"
+          ],
+          "answer": 0,
+          "zh": "在夏天比在其他時候有更多的犯罪案件發生。",
+          "explain": "take place（= happen，發生）為不及物動詞片語，不可用被動語態；主詞 crimes 為複數，用原形動詞 take place。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "His teacher seemed to ____ his composition.",
+          "options": [
+            "be satisfied with",
+            "satisfy",
+            "satisfy with",
+            "satisfy by"
+          ],
+          "answer": 0,
+          "zh": "他老師對他的作文似乎感到滿意。",
+          "explain": "be satisfied with（對……感到滿意），seem to 後接原形動詞 be satisfied with。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "Many young people ____ such outdoor activities as jogging, hiking, and so on.",
+          "options": [
+            "take interest to",
+            "are interested in",
+            "are interesting in",
+            "have interest to"
+          ],
+          "answer": 1,
+          "zh": "許多年輕人喜歡慢跑、健行等戶外活動。",
+          "explain": "take interest in = be interested in（對……感興趣）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Animals can do many amazing things when they are ____.",
+          "options": [
+            "properly train",
+            "properly trained",
+            "properly training",
+            "to proper trained"
+          ],
+          "answer": 1,
+          "zh": "動物經過適當訓練後，會做許多令人驚異的事。",
+          "explain": "① are properly trained（被適當訓練）。\n② train 作動詞意為「訓練；養成」。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "So far as I am concerned, I don't like ____ in that way.",
+          "options": [
+            "to treat",
+            "to be treated",
+            "treated",
+            "be treated"
+          ],
+          "answer": 1,
+          "zh": "就我而言，我不喜歡被那樣對待。",
+          "explain": "① So far as + S + be concerned（就……而言）。\n② treat + 人（待人）／人 + be treated（被人對待），like 後接不定詞被動式 to be treated。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "He was ____ all of his best friends.",
+          "options": [
+            "laughed by",
+            "laughed at",
+            "laughed at by",
+            "laughing at"
+          ],
+          "answer": 2,
+          "zh": "他被他所有最好的朋友嘲笑。",
+          "explain": "laugh at + 人（嘲笑某人）➜ 人 + be laughed at by...（某人被…嘲笑），介系詞 at 不可省略。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "I ____ that this news is quite true.",
+          "options": [
+            "am convincing",
+            "am convinced",
+            "have convinced",
+            "have convincing"
+          ],
+          "answer": 1,
+          "zh": "我相信這消息是真的。",
+          "explain": "be convinced that + S + V ／ of + N（深信、相信……）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "We are taught ____ our enemies.",
+          "options": [
+            "forgive",
+            "forgave",
+            "be forgiven",
+            "to forgive"
+          ],
+          "answer": 3,
+          "zh": "我們被教導原諒我們的敵人。",
+          "explain": "teach + 人 + to + V（教導某人做……）= 人 + be taught to + V（某人被教導做……）。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "They say the examination ____ over again.",
+          "options": [
+            "has to be taken",
+            "has taken",
+            "took",
+            "takes"
+          ],
+          "answer": 0,
+          "zh": "他們說考試必須再度舉行。",
+          "explain": "考試是被舉行／應試，用被動語態 has to be taken。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "The fusion torch might save mankind from ____ in its own trash.",
+          "options": [
+            "burying",
+            "being bury",
+            "having buried",
+            "being buried"
+          ],
+          "answer": 3,
+          "zh": "核融合噴火器可能使人類免於被自己的垃圾所埋葬。",
+          "explain": "① save... from + V-ing（解救……免於……）。\n② save... from + being + p.p.（解救……免於被……）。\n③ be buried 表示「被埋葬」，因在介系詞 from 之後，故以動名詞形式 being buried 表示。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Air conditioners ____ in the summer months.",
+          "options": [
+            "sell well",
+            "bought with",
+            "have sold well",
+            "are bought by"
+          ],
+          "answer": 0,
+          "zh": "冷氣機在夏季銷路很好。",
+          "explain": "① 東西賣得好（或差），習慣上用主動方式表達，如 sell well（銷路好）。\n② 東西被買時，應用被動語態 be bought (by people)。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "We had dinner at the new restaurant the other night; the food was good and we were well ____.",
+          "options": [
+            "waited for",
+            "looked down upon",
+            "taken care of",
+            "looked on"
+          ],
+          "answer": 2,
+          "zh": "前幾天晚上我們在這家新餐廳吃晚餐，菜不錯而且我們享受到很好的服務。",
+          "explain": "take care of 人（照顧某人）➜ be taken care of（受照顧、享受服務）。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "After she ____ told the news, she ran home to tell her mother.",
+          "options": [
+            "would have",
+            "would have been",
+            "had been",
+            "should have"
+          ],
+          "answer": 2,
+          "zh": "人家告訴她這消息後，她就跑回家告訴她母親。",
+          "explain": "① tell + 人 + 事（告訴某人某事）➜ 人 + be told + 事（某人被告知某事）。\n② be told 發生在 ran home 之前，所以用過去完成式 had been told。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "Once clay ____, it can be converted by firing into a hard and enduring material.",
+          "options": [
+            "shape",
+            "has been shaped",
+            "has shaped",
+            "has been shaping"
+          ],
+          "answer": 1,
+          "zh": "一旦黏土已塑好形狀，它能被火燒成一種堅硬而耐久的東西。",
+          "explain": "clay（黏土）是被塑好形狀，故用被動式 has been shaped。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "To keep the road as pleasant as possible, most of these trees ____ when the road is widened.",
+          "options": [
+            "preserves",
+            "must preserve",
+            "should be preserved",
+            "ought to have preserved"
+          ],
+          "answer": 2,
+          "zh": "為使這條路盡可能地保持令人愉快的感覺，當道路拓寬時，大部分的樹應被保留。",
+          "explain": "tree（樹）要被保留，故用被動式 should be preserved。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "These machines ought ____ once a year.",
+          "options": [
+            "to be inspected",
+            "to inspect",
+            "be inspected",
+            "inspect"
+          ],
+          "answer": 0,
+          "zh": "這些機器每年必須檢查一次。",
+          "explain": "① should = ought to + V（應該、必須）。\n② be inspected（被檢查）。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "We found the house deserted. The furniture ____ all piled up and the chairs were covered.",
+          "options": [
+            "were",
+            "was",
+            "have",
+            "has"
+          ],
+          "answer": 1,
+          "zh": "我們發現這房子沒人住。家具都堆了起來，椅子也罩起來了。",
+          "explain": "物 + be piled up（東西被堆起來）；furniture（家具）為不可數名詞，動詞用單數 was。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "Nobody is quite sure what she does with the money, but it ____ that she sends it to relatives in a foreign country.",
+          "options": [
+            "believe",
+            "believed",
+            "was believing",
+            "is believed"
+          ],
+          "answer": 3,
+          "zh": "沒有人能十分確信她如何處理這筆錢，但人們相信，她將錢寄給在國外的親戚們。",
+          "explain": "It is believed that + 子句（大家相信……）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "下列選項填入空格何者錯誤？\nWe were met at the station ____.",
+          "options": [
+            "at ten in the morning",
+            "by the secretary",
+            "in a brass band",
+            "upon our arrival"
+          ],
+          "answer": 2,
+          "zh": "我們在車站受到迎接……。",
+          "explain": "本題為挑錯題。(C) 介系詞錯誤，應改成 by a brass band（由管樂隊迎接）。(A)、(B)、(D) 皆合乎語法。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "下列選項何者不可填入空格？\nI hate being ____ indoors on a hot summer day.",
+          "options": [
+            "kept",
+            "remained",
+            "confined",
+            "told to stay"
+          ],
+          "answer": 1,
+          "zh": "我討厭在炎炎夏日中被留在室內。",
+          "explain": "① keep / confine / tell 是及物動詞，可用被動形式。\n② remain 是不及物動詞，沒有被動形式，故不可用 being remained。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "Mother was so glad to see me after all these years that soon I was ____ tightly in her arms.",
+          "options": [
+            "hold",
+            "holding",
+            "to be holding",
+            "held",
+            "being held"
+          ],
+          "answer": 3,
+          "zh": "母親很高興在那麼多年後看到我，所以她立即將我擁入懷中。",
+          "explain": "本題 (D) held 與 (E) being held 皆合適。\n(A) was hold 出現兩個動詞原形，不合語法。\n(B) was holding 為過去進行式主動語態，不合題意。\n(C) was to be holding 表示主動，不合題意。\n(D) held（被擁入懷中）；(E) being held（正被擁入懷中）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示在空格中填入適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "綁架幼童應處死刑。\nThose who kidnap the child should ____ s____ to death.",
+          "answer": "be sentenced",
+          "zh": "綁架幼童應處死刑。",
+          "explain": "① sentence ['sɛntəns] 動詞：宣判；判決\n② kidnap ['kɪdnæp] 動詞：誘拐（兒童）；綁架"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "軍人很受國人的尊敬。\nSoldiers ____ h____ r____ by their countrymen.",
+          "answer": "are highly respected",
+          "zh": "軍人很受國人的尊敬。",
+          "explain": "① highly 副詞：很；極\n② speak highly of（十分讚揚），think highly of（敬重；重視）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "關於這件意外，我不便表示任何意見。\nR____ this accident, I ____ not s____ to make any comment.",
+          "answer": "Regarding / am / supposed",
+          "zh": "關於這件意外，我不便表示任何意見。",
+          "explain": "① regarding 介系詞 = with reference to = concerning（關於）\n② be supposed to + V（被期望；應該）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "你最好把那顆壞牙拔掉。\nYou had ____ have that bad tooth ____ ____.",
+          "answer": "better / pulled out",
+          "zh": "你最好把那顆壞牙拔掉。",
+          "explain": "① had better = may as well + V（最好）\n② have/make + 受詞 + 受詞補語 (p.p.)：（使…被…）如：have hair cut（理髮）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "你完全了解此事的真相嗎？\n____ you fully ____ with the truth of the whole business?",
+          "answer": [
+            "Are / acquainted",
+            "Are / familiar"
+          ],
+          "zh": "你完全了解此事的真相嗎？",
+          "explain": "be acquainted with = be familiar with（熟悉；了解…）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "垃圾是造成環境污染的一個重要因素。",
+          "hint": "環境污染：environmental pollution",
+          "answer": [
+            "Garbage is one of the important factors that contribute to environmental pollution.",
+            "Garbage is one of the important factors that cause environmental pollution."
+          ],
+          "zh": "垃圾是造成環境污染的一個重要因素。",
+          "explain": "contribute to / cause 意為「促成；導致」。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "在台灣，一天所產生出來的垃圾相當多。",
+          "hint": "產生出來的：produced",
+          "answer": [
+            "In Taiwan, the amount of garbage created in a day is quite large.",
+            "In Taiwan, the amount of garbage produced in a day is quite large.",
+            "In Taiwan, the amount of garbage created in a day is a lot.",
+            "In Taiwan, the amount of garbage produced in a day is a lot."
+          ],
+          "zh": "在台灣，一天所產生出來的垃圾相當多。",
+          "explain": "created / produced 為過去分詞作形容詞修飾 garbage。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "垃圾帶來蚊蠅，使疾病快速傳染。",
+          "hint": "傳染：spread／疾病：disease",
+          "answer": [
+            "Garbage brings flies and mosquitoes, which cause diseases to spread rapidly.",
+            "Garbage brings flies and mosquitoes, which cause epidemics to spread rapidly."
+          ],
+          "zh": "垃圾帶來蚊蠅，使疾病快速傳染。",
+          "explain": "which 引導非限定關係子句修飾前面的整件事或蚊蠅；cause + O + to V 表示「使…做…」。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "而且，這些垃圾常使得河川無法淨化。",
+          "hint": "使得…無法：keep... from／淨化：purify",
+          "answer": [
+            "Besides, garbage often makes it impossible for rivers to be purified.",
+            "Besides, garbage often keeps rivers from being purified."
+          ],
+          "zh": "而且，這些垃圾常使得河川無法淨化。",
+          "explain": "keep... from + V-ing 表示「使…無法…」；purify 用被動式 being purified。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "因此，保護河川不致受污染是人人之責。",
+          "hint": "維護…不致：preserve... from",
+          "answer": [
+            "Therefore, it's everybody's business to keep rivers from being polluted by garbage.",
+            "Therefore, it's everybody's business to preserve rivers from being polluted by garbage."
+          ],
+          "zh": "因此，保護河川不致受污染是人人之責。",
+          "explain": "preserve / keep rivers from being polluted 表示「保護河川免於受到污染」。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列短文，選出最適當的答案填入各題空格中",
+      "passage": "One way to have good health 1. ____ healthful foods. Your body uses healthful foods to grow new cells. These foods are also 2. ____ to repair damaged cells. Your body uses healthful foods to keep cells, tissues, organs, and organ systems 3. ____. They provide the energy your body 4. ____. When you eat healthful foods and exercise, your weight may 5. ____.\nHealthful foods have different nutrients. A nutrient is a substance 6. ____ living things for growth. When you eat, the food 7. ____ by the digestive system. Nutrients from the food move into your bloodstream. They 8. ____ to cells throughout your body. The nutrients 9. ____ by the cells to keep your body healthy. The cells divide as they grow. More cells 10. ____ and your body grows.",
+      "vocabulary_notes": [
+        "1. repair [rɪ'pɛr] 動詞：修復；恢復",
+        "2. damaged ['dæmɪdʒd] 形容詞：受損害的",
+        "3. tissues ['tɪʃʊz] 名詞：組織",
+        "4. organ ['ɔrgən] 名詞：器官",
+        "5. nutrients ['njutrɪənts] 名詞：營養素",
+        "6. substance ['sʌbstəns] 名詞：物質",
+        "7. digestive [dɪ'dʒɛstɪv / də'dʒɛstɪv] 形容詞：消化的"
+      ],
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "One way to have good health ____ healthful foods.",
+          "options": [
+            "is eaten",
+            "is to eat",
+            "has eaten",
+            "has to eat"
+          ],
+          "answer": 1,
+          "zh": "擁有健康的一種方法是吃有益健康的食物。",
+          "explain": "One way (to have...) S (不定詞作形容詞修飾語) is V (to eat...) 不定詞作主詞補語 (SC)。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "These foods are also ____ to repair damaged cells.",
+          "options": [
+            "needing",
+            "needed",
+            "needs",
+            "to need"
+          ],
+          "answer": 1,
+          "zh": "這些食物也是修復受損細胞所需要的。",
+          "explain": "These foods are also needed (to repair...)（被需要）不定詞作副詞修飾語。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Your body uses healthful foods to keep cells, tissues, organs, and organ systems ____.",
+          "options": [
+            "to work",
+            "working",
+            "worked",
+            "works"
+          ],
+          "answer": 1,
+          "zh": "你的身體利用有益健康的食物來保持細胞、組織、器官和器官系統正常運作。",
+          "explain": "...keep + O + working（保持…運轉）。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "They provide the energy your body ____.",
+          "options": [
+            "needs",
+            "needing",
+            "to need",
+            "needed"
+          ],
+          "answer": 0,
+          "zh": "它們提供你身體所需的能量。",
+          "explain": "...the energy [(which) your body needs].（關係子句）S1 V1。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "When you eat healthful foods and exercise, your weight may ____.",
+          "options": [
+            "control",
+            "be controlled",
+            "have controlled",
+            "have been controlled"
+          ],
+          "answer": 1,
+          "zh": "當你吃有益健康的食物並運動時，你的體重就可以受到控制。",
+          "explain": "「體重被控制」，助動詞 may 後面接原形被動式 be controlled。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "A nutrient is a substance ____ living things for growth.",
+          "options": [
+            "needing to",
+            "is needed",
+            "needed by",
+            "needs for"
+          ],
+          "answer": 2,
+          "zh": "營養素是生物生長所需要的物質。",
+          "explain": "...substance [(which is) needed by...] 關係子句簡化為被動分詞片語。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "When you eat, the food ____ by the digestive system.",
+          "options": [
+            "being changed",
+            "have changed",
+            "is changed",
+            "to be changed"
+          ],
+          "answer": 2,
+          "zh": "當你吃東西時，食物被消化系統轉化。",
+          "explain": "① ...the food (S) is changed (V) (by the...)（副詞片語）。\n②「食物被改變／消化」，應用現在簡單式被動語態 is changed。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "They ____ to cells throughout your body.",
+          "options": [
+            "are carrying",
+            "have carried",
+            "carry",
+            "are carried"
+          ],
+          "answer": 3,
+          "zh": "它們被輸送到你全身的細胞。",
+          "explain": "① 主詞 They = Nutrients（營養素）。\n② They are carried (to cells) (throughout...)\nS V 副詞片語 副詞片語；「營養素被運送」，故用 are carried。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "The nutrients ____ by the cells to keep your body healthy.",
+          "options": [
+            "have used",
+            "are used",
+            "to use",
+            "being used"
+          ],
+          "answer": 1,
+          "zh": "營養素被細胞利用以維持你身體的健康。",
+          "explain": "①「營養素被使用」，應用被動語態 are used。\n② The nutrients (S) are used (V) (by...)（副詞片語）(to keep...)（副詞片語）。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "More cells ____ and your body grows.",
+          "options": [
+            "are produced",
+            "produce",
+            "have produced",
+            "produced"
+          ],
+          "answer": 0,
+          "zh": "更多的細胞被製造出來，你的身體便成長了。",
+          "explain": "More cells (S) are produced (V) and...\n（更多的細胞被製造…），用現在簡單式被動語態 are produced。"
+        }
+      ]
+    }
+  ]
+}

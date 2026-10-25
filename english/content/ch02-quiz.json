@@ -1,0 +1,496 @@
+{
+  "chapter": 2,
+  "title": "假設語氣",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Her father insists that she ____ abroad.",
+          "options": ["go", "goes", "went", "gone"],
+          "answer": 0,
+          "zh": "她的父親堅持要她出國。",
+          "explain": "insist 是表示「堅持」的動詞。其句型：\n主詞 + insist (that) + 主詞 + (should) + 原形 V"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "The doctor suggested that the patient ____ smoking.",
+          "options": ["stop", "stops", "stopped", "stoped"],
+          "answer": 0,
+          "zh": "醫生建議這病人該戒菸。",
+          "explain": "suggest 是表示「建議」的動詞。其句型：\n主詞 + suggest (that) + 主詞 + (should) + 原形 V"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Our teacher asked that right ____ distinguished from wrong.",
+          "options": ["be", "were", "to be", "was"],
+          "answer": 0,
+          "zh": "我們的老師要求分辨是非。",
+          "explain": "主詞 + ask + that + 主詞 + (should) + 原形 V；本句為被動語態，故用原形 be distinguished。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "I recommend that the student ____ to the director.",
+          "options": ["speak", "speaks", "is speaking", "has spoken"],
+          "answer": 0,
+          "zh": "我建議這學生去向他的指導老師說。",
+          "explain": "recommend 是表示「建議」的動詞，其後的 that 子句中的 should 可省略，動詞一律用原形動詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Is it necessary that he ____ the examination?",
+          "options": ["takes", "has to take", "must take", "take"],
+          "answer": 3,
+          "zh": "他有必要參加考試嗎？",
+          "explain": "It is necessary that + S + (should) + 原形 V。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "If he works hard, he ____ in the end.",
+          "options": ["would succeed", "might have succeeded", "will succeed", "will be succeeded"],
+          "answer": 2,
+          "zh": "如果他努力工作，他最後將成功。",
+          "explain": "本題表示「條件」之副詞子句（直述法條件句）：\nIf + S + V（現在式）, S + will/shall + V（未來式）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "If I ____ you, I would go to the party with her.",
+          "options": ["am", "were", "had been", "be"],
+          "answer": 1,
+          "zh": "如果我是你，我會和她一起去參加宴會。",
+          "explain": "主句為 would + 原形 V，表示「與現在事實相反之假設」；if 子句中，be 動詞不論人稱一律用過去式 were，不可用 was。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "If it had not rained so hard yesterday, we ____ to Tianjin.",
+          "options": ["should have gone", "should go", "go", "went"],
+          "answer": 0,
+          "zh": "如果昨天沒有下那麼大的雨，我們就去天津了。",
+          "explain": "與過去事實相反的假設，主句用助動詞過去式 + have + p.p.（should have gone）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "I would not change my mind if the sun ____ in the west tomorrow morning.",
+          "options": ["were to rise", "could rise", "might rise", "will rise"],
+          "answer": 0,
+          "zh": "即使明天太陽從西邊出來，我也不會改變主意。",
+          "explain": "表示「未來絕對不可能發生之假設」，其句型為：\nIf + 主詞 + were to + 原形 V, S + would + 原形 V。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "If he ____ to the gate last night, I would have given him this letter.",
+          "options": ["would come", "comes", "had come", "come"],
+          "answer": 2,
+          "zh": "如果他昨晚來到大門口，我會把信拿給他。",
+          "explain": "與過去事實相反的假設，條件子句動詞用 had + p.p.（had come）。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Had you told him the truth, he ____ some suggestions.",
+          "options": ["might make", "would made", "might have made", "had made"],
+          "answer": 2,
+          "zh": "如果你告訴他實話，他可能會提些建議。",
+          "explain": "Had you told... = If you had told... 表示與過去事實相反之假設，主句用 would/should/might + have + p.p.。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "____ him, I would have spoken to him.",
+          "options": ["Had I known", "If I should have known", "If I know", "If I had been known"],
+          "answer": 0,
+          "zh": "如果我當時認識他，我會和他談談。",
+          "explain": "If I had known him,... = Had I known him,...，與過去事實相反的假設，if 省略時形成倒裝。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "____ here yesterday, you would have seen the charming girl.",
+          "options": ["Had you been", "If you are", "If you have been", "If had been"],
+          "answer": 0,
+          "zh": "假如昨天你在這裡，你就會看到這個迷人的女孩。",
+          "explain": "原句 = If you had been here yesterday,...，省略 if 倒裝為 Had you been...。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "____ it rained last night, the ground would be wet now.",
+          "options": ["Should", "Would", "If", "Had"],
+          "answer": 3,
+          "zh": "昨晚若是下雨，現在地上一定會溼溼的。",
+          "explain": "Had it rained ~ = If it had rained ~，條件子句與過去相反（had + p.p. 倒裝），主句與現在相反（would be ... now），為混和時態。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "The machine can pull up trees as if they ____ weeds.",
+          "options": ["were", "are", "have been", "had been"],
+          "answer": 0,
+          "zh": "這部機器拔樹就像在拔草一樣。",
+          "explain": "as if 表示與現在事實相反的假設，be 動詞一律用 were。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "____ I not so busy right now, I would do it.",
+          "options": ["Had", "Be", "Were", "Was"],
+          "answer": 2,
+          "zh": "若我不是這麼忙，我會做那件事。",
+          "explain": "原句 = If I were not so busy,...，省略 if 倒裝為 Were I not...。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "____ your help, I would have been drowned.",
+          "options": ["But that", "Because of", "On behalf of", "Without"],
+          "answer": 3,
+          "zh": "若非你幫忙，我那時就淹死了。",
+          "explain": "Without = But for + N（若非；要不是），接名詞片語表示與過去事實相反之假設。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "He would have made the speech only that he ____ a sore throat.",
+          "options": ["has", "had", "had had", "has had"],
+          "answer": 1,
+          "zh": "若非他（當時）喉嚨痛，他會發表演說。",
+          "explain": "Only that / But that + S + 過去簡單式, S + 過去式助動詞 + have + p.p.。that 子句敘述過去的事實，故動詞用過去簡單式 had。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "It's eleven already. It's time ____ home.",
+          "options": ["we'll go", "we'd", "we're going", "we went"],
+          "answer": 3,
+          "zh": "已經是十一點了，該是回家的時候了。",
+          "explain": "It's (about/high) time (that) S + 過去簡單式 V（該是……時候了）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "If the earth stopped moving, what ____?",
+          "options": [
+            "do you think would happen",
+            "did you think will happen",
+            "do you think would be happened",
+            "did you think will be happened"
+          ],
+          "answer": 0,
+          "zh": "如果地球停止轉動，你想會發生什麼事？",
+          "explain": "① 表示「與現在事實相反」的主句其句型為「主詞 + would + 原形 V」。\n② happen 表示「事情的發生」，為不及物動詞，無被動式。\n③ do you think 為插入句，與句子的時態無關。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "If you ____ with George yesterday morning, you would not be so angry now.",
+          "options": ["talked", "were talking", "could talk", "had talked"],
+          "answer": 3,
+          "zh": "如果昨天早上你和 George 談過話，你現在就不會生氣了。",
+          "explain": "條件子句裡有 yesterday morning，表示「過去」，故動詞用 had + p.p.（had talked）；主句有 now，動詞用 would not be，為混和時態。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "One of the boys made the suggestion that he ____ to the lake alone.",
+          "options": ["go", "went", "would go", "will go"],
+          "answer": 0,
+          "zh": "男孩中有一個建議說他應該一個人去湖邊。",
+          "explain": "S + made the suggestion (= suggested) that + S + (should) + 原形 V。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "That was a close call; you ____ hit by the car.",
+          "options": ["could have been", "can have been", "could be", "can be"],
+          "answer": 0,
+          "zh": "真是千鈞一髮！你差點就被車子撞倒。",
+          "explain": "本題的條件部分（If...）被省略掉，表示過去差一點發生的危險，用 could have been hit。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "____ to participate, I might have won the grand prize.",
+          "options": [
+            "Had had the chance",
+            "I had had the chance",
+            "The chance had I had",
+            "Had I had the chance"
+          ],
+          "answer": 3,
+          "zh": "如果我有機會參加，我可能會獲得這項大獎。",
+          "explain": "If I had had the chance,... = Had I had the chance,...，省略 if 形成倒裝。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "Had I driven a little slower, I ____ you.",
+          "options": [
+            "might not miss to see",
+            "could not have missed to see",
+            "should not miss seeing",
+            "could not have missed seeing"
+          ],
+          "answer": 3,
+          "zh": "我若開慢點，就不會錯過而看不到你。",
+          "explain": "① 此題考「與過去事實相反的假設」，主句用 could not have + p.p.。\n② miss（錯過）其後須接動名詞 V-ing 或名詞 N，故用 missed seeing。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "\"I guess so.\" Mother replied. \"But I still wish they ____ good, steady jobs.\"",
+          "options": ["have", "are having", "have had", "had"],
+          "answer": 3,
+          "zh": "「我也是這樣認為。」母親回答說：「但我仍然希望他們有好的固定工作。」",
+          "explain": "S + wish that + S + 過去簡單式 V，表示「與現在事實相反之假設」。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "The quarrel between my neighbors is becoming serious. It's time I took a hand in it and ____ to stop it.",
+          "options": ["try", "to try", "trying", "tried"],
+          "answer": 3,
+          "zh": "我鄰居間的爭執愈來愈嚴重了。該是我插手設法阻止的時候了。",
+          "explain": "It's time that + S + 過去簡單式 V。and 對等連接 took a hand 與 tried，動詞時態必須一致。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "We wish that you ____ such a lot of work to do, because we know that you would have enjoyed the party.",
+          "options": ["hadn't had", "hadn't", "didn't have", "haven't had"],
+          "answer": 0,
+          "zh": "我們但願你那時沒有這麼多工作要做，因為我們知道你會喜歡那個宴會的。",
+          "explain": "S + wish that + S + had + p.p.（過去完成式），表示「與過去事實相反之假設」，因句子後有 would have enjoyed..."
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "I have often come across people doing jobs that I have never dreamed of before, and which would ____ me had I been told about them at school.",
+          "options": ["thrill", "be thrilled", "have thrilled", "have been thrilled"],
+          "answer": 2,
+          "zh": "我經常碰到一些人做我以前從未夢想過的事，這些事若在我唸書時有人告訴我，那可會令我激動不已。",
+          "explain": "此題考「與過去事實相反的假設」。本題後半句原為：If I had been told about them at school, they would have thrilled me. 省略 if 倒裝為 had I been told...，主句動詞用 would have thrilled。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "I am sitting on the riverbank, feeling very unhappy. My wet clothes are in a heap next to me. I'm wrapped in Dad's warm, dry blanket. But I feel damp. I wish I ____ fishing today.",
+          "options": ["didn't go", "haven't gone", "don't go", "hadn't gone"],
+          "answer": 0,
+          "zh": "我現在正坐在河堤上，覺得很不快樂。我的溼衣服堆放在一旁，我全身裹在父親溫暖的乾毯子內，但還是覺得溼溼的。要是今天我沒釣魚就好了！",
+          "explain": "S + wish that + S + 過去式動詞，表示「與現在事實相反之假設」句，因本句中有 today 出現。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "根據中文提示，在空格處填入最適當的單字或片語以完成英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "該是提高我們教育水準的時候了。\nIt is ____ that we raised the level of our ____.",
+          "answer": "high/about time ; education",
+          "zh": "該是提高我們教育水準的時候了。",
+          "explain": "「該是……時候了」：\nIt is time / It is high time / It is about time that + S + V-ed（過去簡單式）\neducation 為「教育」。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "如果你沒有成功，你應該再試一次。\nIf you don't succeed, you ____ ____.",
+          "answer": "should try again",
+          "zh": "如果你沒有成功，你應該再試一次。",
+          "explain": "條件子句為直述法現在式，主句用助動詞 should + 原形動詞 try again。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "如果方便的話，今晚打電話給我。\nIf (it is) ____, ____ me ____ tonight.",
+          "answer": "convenient ; call ; up",
+          "zh": "如果方便的話，今晚打電話給我。",
+          "explain": "it is 在下列情況下常省略：\nif (it is) necessary（必要的話）、if (it is) possible（可能的話）、if (it is) needed（需要的話）、if (it is) convenient（方便的話）。\ncall up 為「打電話給……」。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "若不是他的鼓勵，我決不再試了。\n____ ____ his encouragement, I would not ____ any more attempt.",
+          "answer": "But for ; make",
+          "zh": "若不是他的鼓勵，我決不再試了。",
+          "explain": "But for / Without + N, S + would / could (not) / should + 原形 V（若非；要不是；若無），表示「與現在事實相反之假設」。\nmake an attempt 為固定片語搭配。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "如果我已經知道了他的住址，我早就告訴你了。\nIf I ____ ____ his address, I ____ ____ ____ you.",
+          "answer": "had known ; would have told",
+          "zh": "如果我已經知道了他的住址，我早就告訴你了。",
+          "explain": "If + S + had + p.p. ..., S + would / could (not) / should + have + p.p.，表示「與過去事實相反之假設」。"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "請根據各題中文與提示，翻譯成完整通順的英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "如果我再當高中生的話，我一定會用功讀書。",
+          "hint": "高中生: a senior high school student",
+          "answer": "If I were a senior high school student, I would study hard.",
+          "zh": "如果我再當高中生的話，我一定會用功讀書。",
+          "explain": "與現在事實相反之假設：If + S + were ..., S + would + 原形 V。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "我不會再整天玩樂，沉迷於玩電子遊戲。",
+          "hint": "沉迷於: indulge oneself in；玩樂: fool around",
+          "answer": "I wouldn't fool around all day, indulging myself in playing video games.",
+          "zh": "我不會再整天玩樂，沉迷於玩電子遊戲。",
+          "explain": "本句承接上句的假設，主句延續 wouldn't + 原形 V，後接現在分詞構句 indulging myself in playing video games。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "我不會再亂花錢，宛如自己是百萬富翁一般。",
+          "hint": "亂花錢: spend money lavishly",
+          "answer": "I wouldn't spend money lavishly as if I were a millionaire.",
+          "zh": "我不會再亂花錢，宛如自己是百萬富翁一般。",
+          "explain": "as if + S + were... 表示與現在事實相反的假設（宛如……一般）。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "我現在很後悔當年浪費許多寶貴的光陰。",
+          "hint": "後悔: regret",
+          "answer": "I regret having wasted a lot of precious time at that time.",
+          "zh": "我現在很後悔當年浪費許多寶貴的光陰。",
+          "explain": "regret having + p.p. 表示後悔做過某事（直述法現在式）。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "假如那時我用心讀書，現在就是大學生了。",
+          "hint": "那時: then；大學生: a college student",
+          "answer": "If I had studied hard then, I would be a college student now.",
+          "zh": "假如那時我用心讀書，現在就是大學生了。",
+          "explain": "混和時態假設：條件子句與過去事實相反（If I had studied hard then），主句與現在事實相反（I would be a college student now）。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列短文，選出最適當的答案：\n\nI who am blind can give one hint to those __1.__: Use your eyes as if tomorrow you __2.__ blind. And the same method can __3.__ the other senses. __4.__ the music of voices, the song of a bird, the mighty strains of an __5.__, as if you __6.__ stricken deaf tomorrow. Touch each object __7.__ tomorrow your tactile sense would fail. Smell the __8.__ of flowers, taste __9.__ relish each morsel, as if tomorrow you could never __10.__ again.\n\n【詞彙及片語提示】\n1. blind [blaɪnd] (adj.) 瞎的\n2. hint (n.) 暗示；指示\n3. apply to（應用）；apply for（申請）\n4. the other senses（其他的感官）\n5. mighty strains（宏偉的樂章）\n6. strike-struck-stricken（打擊）\n7. object (n.) 物體；東西\n8. tactile sense（觸覺）\n9. relish ['relɪʃ] (n.) 美味；特別風味\n10. morsel ['mɔːsəl] (n.) 小塊；一小片",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I who am blind can give one hint to those ____:",
+          "options": ["who see", "who they see", "whom to see", "seeing"],
+          "answer": 0,
+          "zh": "我這個盲人能給那些明眼人一個忠告：",
+          "explain": "those who see（明眼人；看得見東西的人），those who + V 為固定代名詞結構。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "Use your eyes as if tomorrow you ____ blind.",
+          "options": ["would strike", "would be stricken", "will be stricken", "will strike"],
+          "answer": 1,
+          "zh": "善用你的雙眼，宛如明天你就會失明。",
+          "explain": "as if + S + 過去式助動詞 + 原形 V，表示「與現在或未來事實相反之假設」。be stricken blind 為「突然失明」，主動形式不合，故選 would be stricken。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "And the same method can ____ the other senses.",
+          "options": ["apply to", "apply for", "be applied to", "be applied for"],
+          "answer": 2,
+          "zh": "同樣的方法也能應用在其他感官上。",
+          "explain": "be applied to（被應用在……）；主詞 the same method 應配合被動語態。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ the music of voices, the song of a bird, the mighty strains of an orchestra...",
+          "options": ["Hearing", "Heard", "To hear", "Hear"],
+          "answer": 3,
+          "zh": "去聆聽話語的樂音、鳥兒的歌唱、管弦樂團的壯麗旋律……",
+          "explain": "本句為「祈使句」，主詞 You 省略，句首動詞一律用原形動詞 Hear。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...the mighty strains of an ____, as if you would be stricken deaf tomorrow.",
+          "options": ["musician", "orchestra", "symphony", "composer"],
+          "answer": 1,
+          "zh": "……管弦樂團的壯麗旋律，宛如你明天就會耳聾一般。",
+          "explain": "① (A) 音樂家 (B) 樂團、管弦樂團 (C) 交響樂 (D) 作曲家。\n② an 後接母音字首開頭之單字，故選 (B) orchestra。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "...as if you ____ stricken deaf tomorrow.",
+          "options": ["will have", "will be", "would have", "would be"],
+          "answer": 3,
+          "zh": "……宛如你明天就會失聰。",
+          "explain": "① as if + S + 過去式助動詞 + 原形 V（好像；宛如），表示假設。\n② would be stricken deaf（突然聾了）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Touch each object ____ tomorrow your tactile sense would fail.",
+          "options": ["as if", "so that", "even if", "in which"],
+          "answer": 0,
+          "zh": "去觸摸每件物體，宛如明天你的觸覺就會失靈。",
+          "explain": "① (A) 好像 (B) 以便 (C) 即使 (D) 在……地方。\n② 句子後面有 would fail，應用假設句型 as if 才合文意。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Smell the ____ of flowers, taste with relish each morsel...",
+          "options": ["blossom", "perfume", "flavor", "fragrant"],
+          "answer": 1,
+          "zh": "去嗅聞花朵的芬芳，津津有味地品嚐每一小口食物……",
+          "explain": "perfume 在此作名詞「香氣、芬芳」解。(A) 花、開花；(C) 滋味、風味（通常指食物味覺）；(D) 芳香的（形容詞，不能接在 the 之後作受詞）。故選 (B)。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "...taste ____ relish each morsel, as if tomorrow you could never smell and taste again.",
+          "options": ["from", "away", "with", "into"],
+          "answer": 2,
+          "zh": "……津津有味地品嚐每一小口食物……",
+          "explain": "with relish = with pleasure（津津有味地），為固定介系詞片語。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "...as if tomorrow you could never ____ again.",
+          "options": ["look and see", "look and hear", "smell and taste", "smell and touch"],
+          "answer": 2,
+          "zh": "……宛如明天你再也無法嗅聞與品嚐。",
+          "explain": "本句承接前文提及的兩種感覺「Smell」與「taste」，故選 (C) smell and taste。"
+        }
+      ]
+    }
+  ]
+}

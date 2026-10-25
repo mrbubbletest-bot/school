@@ -1,0 +1,774 @@
+{
+  "chapter": 18,
+  "title": "疑問句、附加問句與直述句",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "____ do me a favor by lending me your dictionary?",
+          "options": [
+            "Would you like",
+            "Would you",
+            "Aren't you",
+            "Do you like"
+          ],
+          "answer": 1,
+          "zh": "請幫個忙，把字典借給我好嗎？",
+          "explain": "Would you do me a favor...?（幫我忙…好嗎？）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "Tom asked me, \"____ to Japan before?\"",
+          "options": [
+            "Are you ever going",
+            "Have you ever been",
+            "Do you ever go",
+            "Have you ever gone"
+          ],
+          "answer": 1,
+          "zh": "湯姆問我：「你以前到過日本沒有？」",
+          "explain": "Have you ever been to + 地方（曾經到過…地方嗎？）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "____ the teacher satisfied with your homework?",
+          "options": [
+            "Does",
+            "Has",
+            "Is",
+            "Will"
+          ],
+          "answer": 2,
+          "zh": "老師對你的作業感到滿意嗎？",
+          "explain": "sb. + be satisfied with + 物（對…感到滿意）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ is your father? He is a professor, isn't he?",
+          "options": [
+            "That",
+            "What",
+            "Which",
+            "Where"
+          ],
+          "answer": 1,
+          "zh": "你父親是做什麼的？他是位教授，不是嗎？",
+          "explain": "what 指人的職掌，who 指人的身分。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "A: What do you do? B: ____",
+          "options": [
+            "How do you do?",
+            "Fine, thank you.",
+            "I am a doctor.",
+            "Nice to meet you."
+          ],
+          "answer": 2,
+          "zh": "「你從事什麼行業？」「我是個醫生。」",
+          "explain": "“What” 問人的職業。如果用 “How do you do?” 的話，須用 “How do you do?” 回答。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "\"____ do you go to see a movie?\" \"Twice a week.\"",
+          "options": [
+            "How long",
+            "How often",
+            "How soon",
+            "How about"
+          ],
+          "answer": 1,
+          "zh": "「你多久看一場電影？」「一星期兩次。」",
+          "explain": "How often...? 問「次數」"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "\"____ will the train start?\" \"In twenty minutes.\"",
+          "options": [
+            "How long",
+            "How often",
+            "How soon",
+            "How many"
+          ],
+          "answer": 2,
+          "zh": "「火車還要多久就開了？」「再過二十分鐘。」",
+          "explain": "How soon...? 問「是要多久就…」，回答時應用「In + 時間」。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "\"____ does it take to finish the job?\" \"A couple of days.\"",
+          "options": [
+            "How far",
+            "How much",
+            "How long",
+            "How soon"
+          ],
+          "answer": 2,
+          "zh": "「完成這件工作需要多少時間？」「兩三天。」",
+          "explain": "How long...? 問「需要花多久的時間」，回答時用「一段時間」。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "How many letters ____?",
+          "options": [
+            "does this word have",
+            "are there this word",
+            "is this word",
+            "is there in this word"
+          ],
+          "answer": 0,
+          "zh": "這個字有多少字母？",
+          "explain": "疑問詞（How）在句首，疑問句的形式要加助動詞 does。this word has ⇒ does this word have"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Will you please tell me ____ right now?",
+          "options": [
+            "what time it is",
+            "what time is it",
+            "what time be",
+            "what is the time"
+          ],
+          "answer": 0,
+          "zh": "你能告訴我現在幾點嗎？",
+          "explain": "名詞子句（what time it is）作 tell 的受詞，詞序（S + V）不變。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "How often ____ your teeth examined?",
+          "options": [
+            "you have",
+            "do you have",
+            "are you having",
+            "have you get"
+          ],
+          "answer": 1,
+          "zh": "你多久檢查牙齒一次？",
+          "explain": "① How often...?（問次數）\n② “How” 為疑問詞，後面的詞為 (S + V) 要改成疑問句的形式，即 have your teeth examined ⇒ do you have your teeth examined"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "T: Aren't you going there by plane? G: ____",
+          "options": [
+            "Yes, I am not going there by plane.",
+            "No, I am going there by plane.",
+            "No, I will take a train.",
+            "Yes, I will take a train."
+          ],
+          "answer": 2,
+          "zh": "「你不搭飛機去那裡嗎？」「是的，我要搭火車去那裡。」",
+          "explain": "否定的問句，以 “No” 回答時，漢語譯為「是」。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Children enter school at the age of six, ____ they?",
+          "options": [
+            "aren't",
+            "don't",
+            "do",
+            "are"
+          ],
+          "answer": 1,
+          "zh": "小孩在六歲時上學，不是嗎？",
+          "explain": "肯定句 + 否定附加問句；enter 為一般動詞，所以用 don't。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "You broke my glasses, ____ you?",
+          "options": [
+            "did",
+            "didn't",
+            "hadn't",
+            "aren't"
+          ],
+          "answer": 1,
+          "zh": "你打破了我的眼鏡，不是嗎？",
+          "explain": "肯定句 + 否定附加問句；broke 是「過去式」，所以用 didn't。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "He's been quite helpful, ____?",
+          "options": [
+            "isn't he",
+            "is he",
+            "hasn't he",
+            "he has"
+          ],
+          "answer": 2,
+          "zh": "他已相當有幫助了，不是嗎？",
+          "explain": "He's been... = He has been..."
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "Let me write it for you, ____?",
+          "options": [
+            "will I",
+            "won't I",
+            "will you",
+            "shall I"
+          ],
+          "answer": 2,
+          "zh": "讓我為你寫，好嗎？",
+          "explain": "Let + 受詞 + V, will you?"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Let's go for a walk after dinner, ____ we?",
+          "options": [
+            "are",
+            "can",
+            "shall",
+            "will"
+          ],
+          "answer": 2,
+          "zh": "晚飯後我們一起去散步，好嗎？",
+          "explain": "Let's + V..., shall we?"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Peter is very popular in school, ____?",
+          "options": [
+            "doesn't he",
+            "isn't he",
+            "does he",
+            "is he"
+          ],
+          "answer": 1,
+          "zh": "彼得在學校很受歡迎，不是嗎？",
+          "explain": "原句的主詞為 Peter，附加問句應用 he。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "Please pass me the chair, ____ you?",
+          "options": [
+            "will",
+            "do",
+            "don't",
+            "won't"
+          ],
+          "answer": 0,
+          "zh": "請把椅子傳過來，好嗎？",
+          "explain": "祈使句的附加問句用 “will you?”。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "There is nothing wrong with your car, ____?",
+          "options": [
+            "are you",
+            "isn't it",
+            "aren't you",
+            "is there"
+          ],
+          "answer": 3,
+          "zh": "你的車沒毛病吧，不是嗎？",
+          "explain": "There is 起首的句子，如為否定時要以 is there 作附加問句。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Aren't you sorry for ____?",
+          "options": [
+            "what you have done",
+            "what have you done",
+            "what you have doing",
+            "what have you doing"
+          ],
+          "answer": 0,
+          "zh": "你不為你所作的事感到抱歉嗎？",
+          "explain": "名詞子句（what you have done）作 for 的受詞，詞序（S + V）不變。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "____ came to visit me during my absence?",
+          "options": [
+            "Who do you say",
+            "Do you say who",
+            "Whom do you say",
+            "Do you say whom"
+          ],
+          "answer": 0,
+          "zh": "你說我不在時誰來拜訪我？",
+          "explain": "句中有 Do you say 或 Do you think 時，疑問詞 who, what, where 應置於句子最前面，形成「疑問詞 + do you think + (S) + V...?」"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "____ speaks English well in the school?",
+          "options": [
+            "Do you think who",
+            "Do you think whom",
+            "Who do you think",
+            "Whom do you think"
+          ],
+          "answer": 2,
+          "zh": "你認為學校裡面誰講的英語最好？",
+          "explain": "同 22 題。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Never be ashamed to ask about ____ understand.",
+          "options": [
+            "that you do not",
+            "what you do not",
+            "that don't you",
+            "what don't you"
+          ],
+          "answer": 1,
+          "zh": "不要羞於問你所不懂得的事。",
+          "explain": "① 介系詞之後所接的子句不可用 that + S + V，應用 what + S + V。\n② 名詞子句作介系詞 about 之受詞時，其正確位置為疑問詞 + S + V。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "She began to dream about ____ with the money.",
+          "options": [
+            "what she will do",
+            "what will she do",
+            "what she would do",
+            "what would she do"
+          ],
+          "answer": 2,
+          "zh": "她開始設想如何處理這筆錢。",
+          "explain": "① 同 24 題。\n② 本題動詞 began 為過去式，故用 would。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "You will cooperate toward the common goal, ____?",
+          "options": [
+            "do you",
+            "shan't you",
+            "mustn't you",
+            "won't you"
+          ],
+          "answer": 3,
+          "zh": "你們可以合作朝向共同的目標前進，不是嗎？",
+          "explain": "肯定句 + 否定附加問句；will not ⇒ won't"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "Your homework has been finished, ____?",
+          "options": [
+            "haven't you",
+            "hasn't it",
+            "have you",
+            "has it"
+          ],
+          "answer": 1,
+          "zh": "你的功課已做完了，不是嗎？",
+          "explain": "直述句的主詞（your homework），附加問句要用 it。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "There were not many people present, ____?",
+          "options": [
+            "are there",
+            "were there",
+            "aren't there",
+            "weren't there"
+          ],
+          "answer": 1,
+          "zh": "沒有很多人出席，是嗎？",
+          "explain": "① There 為首的句子，附加問句的主詞仍用 there。\n② 直述句的動詞是 were，所以選 (B)。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "I suppose he ought to have known that, ____?",
+          "options": [
+            "did I",
+            "shall I",
+            "ought he",
+            "oughtn't he"
+          ],
+          "answer": 3,
+          "zh": "我想他早就知道了，不是嗎？",
+          "explain": "I suppose 是插入語，要把後面名詞子句形成附加問句。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "T: You will go to Beijing tomorrow, ____? G: Yes, I will.",
+          "options": [
+            "won't you",
+            "will not you",
+            "will you",
+            "aren't you"
+          ],
+          "answer": 0,
+          "zh": "「明天你將去北京，不是嗎？」「是的，我將去。」",
+          "explain": "參考第 26 題說明。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "以下十題為直接引述改間接引述，選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "Jane said, \"Are you tired?\"\n= Jane asked me ____.",
+          "options": [
+            "if I was tired",
+            "if was I tired",
+            "if I am tired",
+            "if am I tired"
+          ],
+          "answer": 0,
+          "zh": "珍說：「你累了嗎？」= 珍問我是否累了。",
+          "explain": "① 間接直述句寫法為「連接詞 + S + V」，其作用為名詞子句作受詞。\n② 間接直述句的時態與主句之時態需一致配合。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "The boy said, \"May I go along with you?\"\n= The boy asked me ____.",
+          "options": [
+            "if I might go with you",
+            "if he might go with you",
+            "if he might go with me",
+            "if he might go with the boy"
+          ],
+          "answer": 2,
+          "zh": "男孩說：「我可以跟你一起去嗎？」= 男孩問我說他是否能跟我一起去。",
+          "explain": "人稱代名詞與主從一致：May I 改為 if he might，you 改為 me。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "Paul said, \"How old are you?\"\n= Paul asked ____.",
+          "options": [
+            "how old were you",
+            "how old you were",
+            "how old was I",
+            "how old I was"
+          ],
+          "answer": 3,
+          "zh": "保羅說：「你今年多少歲數？」= 保羅問我今年多少歲數。",
+          "explain": "疑問詞引導名詞子句，語序為「疑問詞 + S + V」，且時態配合主句用過去式：how old I was。"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "He said, \"What are you thinking about?\"\n= He asked ____ thinking about.",
+          "options": [
+            "what were you",
+            "what you were",
+            "what I was",
+            "what was I"
+          ],
+          "answer": 2,
+          "zh": "他說：「你在想些什麼？」= 他問我在想些什麼。",
+          "explain": "間接引述採直述語序「疑問詞 + 主詞 + 動詞」，you 轉為 I，are 轉為 was。"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "When asked whether he had seen Bob, George answered, \"____\"",
+          "options": [
+            "Yes, I have. Haven't you?",
+            "Nor have I.",
+            "Certainly, he had seen Bob.",
+            "Of course, I will."
+          ],
+          "answer": 0,
+          "zh": "當被問到是否見過鮑伯時，喬治回答說：「見過啊，你沒見過嗎？」",
+          "explain": "原句為：When George was asked whether he had seen Bob, George answered, \"...\"。直接引述中，喬治以第一人稱現在完成式回答：Yes, I have. Haven't you?"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "Tom asked me, \"Have you seen that movie yet?\"\n= Tom asked me ____ that movie.",
+          "options": [
+            "whether I have seen",
+            "whether have I seen",
+            "whether I had seen",
+            "whether had I seen"
+          ],
+          "answer": 2,
+          "zh": "湯姆問我：「你看過那部電影嗎？」= 湯姆問我是否看過那部電影。",
+          "explain": "主句動詞為 asked（過去式），間接引述之現在完成式 have seen 需退一步為過去完成式 had seen，語序為 whether + S + V。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "\"Don't put it on my hat,\" his wife said to him.\n= His wife told him ____ put it on her hat.",
+          "options": [
+            "don't",
+            "not to",
+            "don't to",
+            "not"
+          ],
+          "answer": 1,
+          "zh": "他太太向他說：「不要把那東西放在我的帽子上。」= 他太太叫他不要把那東西放在她的帽子上。",
+          "explain": "否定祈使句改為間接引述時，動詞改為 tell sb. not to + 原形動詞。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "\"Are you ready?\" Frank asked me.\n= Frank asked me if ____.",
+          "options": [
+            "I am ready",
+            "am I ready",
+            "I was ready",
+            "was I ready"
+          ],
+          "answer": 2,
+          "zh": "法蘭克問我：「你準備好了嗎？」= 法蘭克問我是否準備好了。",
+          "explain": "間接引述語序為 if + S + V，且時態呼應 asked 改為過去式 was。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "Mary asked Henry, \"Did you see my purse?\"\n= Mary asked Henry ____.",
+          "options": [
+            "that if he had seen her purse",
+            "that whether he had seen her purse",
+            "if he had seen her purse",
+            "if he has seen her purse"
+          ],
+          "answer": 2,
+          "zh": "瑪麗問亨利：「你有沒有看到我的皮包？」= 瑪麗問亨利是否看到過她的皮包。",
+          "explain": "引述疑問句不可重複加 that；直接引述之過去簡單式 did you see 在間接引述中應變為過去完成式 had seen。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "\"Don't touch the machine,\" I said to him. =",
+          "options": [
+            "I said to him not to touch the machine.",
+            "I told him not to touch the machine.",
+            "I said to him don't touch the machine.",
+            "I told him didn't touch the machine."
+          ],
+          "answer": 1,
+          "zh": "我向他說：「不要碰那機器。」= 我叫他不要碰那機器。",
+          "explain": "said to him 在祈使句間接引述中應改為 told him，否定祈使句接 not to + 原形動詞。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示完成下列英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "我想約翰已經走了，是嗎？\nI think John ____, ____ he?",
+          "answer": [
+            "has gone",
+            "hasn't"
+          ],
+          "zh": "我想約翰已經走了，是嗎？",
+          "explain": "主句是現在完成式時，附加問句應用 have / has / had。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "你今晚不回來了，是嗎？\nYou are not ____ back tonight, ____ you?",
+          "answer": [
+            "coming",
+            "are"
+          ],
+          "zh": "你今晚不回來了，是嗎？",
+          "explain": "主句是 Be V 時，附加問句應用 Be V。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "你昨天怎麼沒有來看我？\n____ you didn't come to see me yesterday?",
+          "answer": "How come",
+          "zh": "你昨天怎麼沒有來看我？",
+          "explain": "主句亦可用 Why didn't you come to see me yesterday?"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "新鮮空氣對我們多重要啊！\n____ fresh air is to us.",
+          "answer": "How important",
+          "zh": "新鮮空氣對我們多重要啊！",
+          "explain": "感嘆句有下列重要句型，請記熟。\n① How + 形 / 副 + S + V!\n例：How beautiful the rising sun is!（日出多漂亮呀！）\n② How + 形 + a(n) + 名詞 + S + V!\n例：How honest a boy he is!（他是多麼誠實的小孩呀！）\n③ What + a(n) + 形 + 名詞 + S + V!\n例：What a difficult job it is!（那是多麼困難的工作呀！）\n④ What + 複數名詞 / 不可數名詞 + S + V!\n例：What good news it is!（那是多麼好的消息呀！）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "在公共場所言詞要更加小心。\n____ more careful in your ____ in public places.",
+          "answer": [
+            "Be",
+            "speech"
+          ],
+          "zh": "在公共場所言詞要更加小心。",
+          "explain": "祈使句（表示命令、邀請、祈求、忠告…等），常用者有：\n① 肯定祈使句：原形動詞 + ...\n例：Pay more attention to your study.（多加注意功課。）\n例：Be patient with others.（對別人要容忍。）\n② 否定祈使句：Don't / Never + 原形動詞 + ...\n例：Don't do any harm to wildlife.（不要傷害野生動物。）\n注：Never do wrong for the sake of money.（不要為了金錢做壞事。）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列對話翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "Mary: 你介意我把窗戶打開嗎？",
+          "hint": "",
+          "answer": [
+            "Would you mind my opening the window?",
+            "Would you mind if I open the window?"
+          ],
+          "zh": "Mary: 你介意我把窗戶打開嗎？",
+          "explain": "= Would you mind if I open the window?"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "Jack: 當然不會，天氣很熱，不是嗎？",
+          "hint": "",
+          "answer": [
+            "Of course not. It is hot, isn't it?",
+            "Certainly not. It is hot, isn't it?"
+          ],
+          "zh": "Jack: 當然不會，天氣很熱，不是嗎？",
+          "explain": "= Certainly not. It is hot, isn't it?"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "Mary: 是的。能不能幫我倒杯冰水？",
+          "hint": "",
+          "answer": "Yes. Could you bring me a glass of ice water?",
+          "zh": "Mary: 是的。能不能幫我倒杯冰水？",
+          "explain": ""
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "Jack: 好的。你平常喝茶還是喝咖啡？",
+          "hint": "",
+          "answer": "Sure. Do you usually have tea or coffee?",
+          "zh": "Jack: 好的。你平常喝茶還是喝咖啡？",
+          "explain": ""
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "Mary: 我都喝，但我比較喜歡吃冰淇淋。",
+          "hint": "",
+          "answer": "Either will do, but I prefer eating ice-cream.",
+          "zh": "Mary: 我都喝，但我比較喜歡吃冰淇淋。",
+          "explain": ""
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列對話，選出最適當的答案填入各題空格中",
+      "passage": "John: Hi, Jane. How are you today?\nJane: As a matter of fact, __1__.\nJohn: Oh, I'm sorry. What seems to be the trouble?\nJane: I've got a sore throat and I think __2__.\nJohn: That sounds like the flu. You'd better go and see the doctor.\nJane: __3__. And I can't afford to miss any work.\nJohn: You can afford to miss two or three days better than ten or twenty.\nJane: __4__. I just don't like to stay in the house.\nJohn: It's better to be on the safe side. Come on, I'll walk over to his office with you.\nJane: Well, all right, I guess __5__.",
+      "vocabulary_notes": [
+        "1. As a matter of fact: 事實上；實際上",
+        "2. sore throat: 喉嚨痛",
+        "3. flu = influenza: 流行性感冒",
+        "4. can't afford to: 無法；不能",
+        "5. to be on the safe side: 安全一點；保險一點"
+      ],
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Jane: As a matter of fact, ____.",
+          "options": [
+            "I'm not feeling so well",
+            "I'm fine, thank you",
+            "I've got over my flu",
+            "I'm a little tired"
+          ],
+          "answer": 0,
+          "zh": "事實上，我感到不舒服。",
+          "explain": "① I'm not feeling so well.（我感到不舒服。）\n② I've got over my flu.（我的感冒好了。）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "Jane: I've got a sore throat and I think ____.",
+          "options": [
+            "I've worked too hard",
+            "you'd better take a rest",
+            "I'm running a fever",
+            "you might get really sick"
+          ],
+          "answer": 2,
+          "zh": "我喉嚨痛，而且我想我發燒了。",
+          "explain": "I'm running a fever.（我發燒。）"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Jane: ____. And I can't afford to miss any work.",
+          "options": [
+            "Oh, how wonderful it is",
+            "I'll make an appointment",
+            "Well, I don't mind at all",
+            "He'll probably put me to bed"
+          ],
+          "answer": 3,
+          "zh": "他可能會叫我臥床休息。而且我不能缺工。",
+          "explain": "① make an appointment（約定時間），此處指去看醫生。\n② I don't mind at all.（我一點都不在乎。）\n③ put (人) to bed（吩咐人躺在床上）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Jane: ____. I just don't like to stay in the house.",
+          "options": [
+            "Mind your own business",
+            "You're right, of course",
+            "Thank you for you kindness",
+            "Maybe you guess right"
+          ],
+          "answer": 1,
+          "zh": "你當然是對的。我只是不喜歡待在家裡。",
+          "explain": "① Mind your own business.（你少管閒事。）\n② Maybe = Perhaps（也許；或許）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Jane: Well, all right, I guess ____.",
+          "options": [
+            "I'll leave it alone",
+            "I shouldn't put it off",
+            "I'll be proud of you",
+            "I have to go home now"
+          ],
+          "answer": 1,
+          "zh": "好吧，我想我不該再拖延了。",
+          "explain": "① leave it alone（不去理它；不管它）\n② I shouldn't put it off.（我不該再拖下去。）\n③ I'll be proud of you.（我將以你為榮。）"
+        }
+      ]
+    }
+  ]
+}

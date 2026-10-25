@@ -1,0 +1,536 @@
+{
+  "chapter": 6,
+  "title": "分詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I become ____ after watching too much television.",
+          "options": ["bored", "boring", "bore", "bores"],
+          "answer": 0,
+          "zh": "電視看太多後使我感到厭煩。",
+          "explain": "bored（感到厭煩的）⇒ 修飾「人」\nboring（令人厭煩的）⇒ 修飾「物」"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "I felt ____ by his interest in my new invention.",
+          "options": ["encourage", "to encourage", "was encouraged", "encouraged"],
+          "answer": 3,
+          "zh": "他對我的新發明的興致使我深受鼓舞。",
+          "explain": "用過去分詞形容人的情緒，表示「某人感到～」。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "He sat there ____ a novel.",
+          "options": ["read", "reading", "reads", "had read"],
+          "answer": 1,
+          "zh": "他坐在那裡看小說。",
+          "explain": "sit 之後用現在分詞作主詞補語。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Don't wake up the ____ child.",
+          "options": ["sleep", "slept", "sleeping", "sleepy"],
+          "answer": 2,
+          "zh": "不要吵醒睡眠中的小孩。",
+          "explain": "the sleeping child = the child asleep"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "A proverb goes: \"A ____ stone gathers no moss.\"",
+          "options": ["roll", "rolling", "rolled", "rolls"],
+          "answer": 1,
+          "zh": "有句諺語云：「滾石不生苔。」",
+          "explain": "a rolling stone（滾動的石頭）"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "The heavy rain kept us ____ for two hours.",
+          "options": ["wait", "waited", "waiting", "to wait"],
+          "answer": 2,
+          "zh": "這場雨使我們等了兩小時。",
+          "explain": "① waiting 是現在分詞，作受詞補語。\n② keep（人）waiting（使人等候）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "I found a dog ____ over by a car on the road.",
+          "options": ["to run", "run", "ran", "running"],
+          "answer": 1,
+          "zh": "我發現一條狗在路上被車輾過。",
+          "explain": "① find + 受詞 + p.p. ⇒ 表示被動。\n② run-ran-run"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "We found the baby ____ on the floor.（複選）",
+          "options": ["slept", "sleep", "asleep", "sleeping"],
+          "answer": [2, 3],
+          "zh": "我們發現寶寶在地板上睡著了。",
+          "explain": "① find + 人 + 形容詞（發現某人的情形或狀態）\n② slept 與 sleeping 均可當形容詞用，但睡著是主動，因此用現在分詞。\n（本題 (C) asleep 與 (D) sleeping 均正確）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Jack saw a woman ____ near the dog, so he walked up to her.",
+          "options": ["stood", "stands", "to stand", "standing"],
+          "answer": 3,
+          "zh": "傑克看到一位婦女站在狗的不遠處，所以他就向她那兒走去。",
+          "explain": "see + 人 + V-ing（看見人正在…）"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "They got their car ____ at the garage.",
+          "options": ["be washed", "washed", "being washed", "to have been washed"],
+          "answer": 1,
+          "zh": "他們在車庫清洗了他們的車子。",
+          "explain": "get + O. + p.p. 表示「被動」"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "____ with his report, I told him to write it all over again.",
+          "options": ["Dissatisfactory", "Not being satisfied", "Having not satisfied", "Dissatisfying"],
+          "answer": 1,
+          "zh": "因為我對他的報告不滿意，所以我叫他重新再寫一次。",
+          "explain": "① 原句 = As I was not satisfied...,\n② Not being satisfied = Dissatisfied"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "____ our shoes in our hands, we crossed the stream.",
+          "options": ["To carry", "Carrying", "Carried", "Carry"],
+          "answer": 1,
+          "zh": "把鞋子拿在手上，我們涉水過河。",
+          "explain": "原句 = We carried our shoes in our hands and crossed the stream."
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "____ my homework, I went home.",
+          "options": ["Having finished", "Finished", "Being finished", "Finish"],
+          "answer": 0,
+          "zh": "功課做完後，我就回家了。",
+          "explain": "① Having + p.p. 之分詞完成式，表示動作時間比主句之動作要早。\n② 原句 = After I had finished my homework, I went home."
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "____ the door unlocked, I went in.",
+          "options": ["Finding", "Found", "Had found", "Have found"],
+          "answer": 0,
+          "zh": "發現門沒鎖，我就進去了。",
+          "explain": "原句 = As I found the door unlocked, I went in.\n✕ ✕ Finding the door unlocked, I went in."
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "____ a careless fellow, he forgot all about it.",
+          "options": ["Is", "Be", "Being", "Was"],
+          "answer": 2,
+          "zh": "他是個粗心的傢伙，整件事都忘了。",
+          "explain": "原句 = As he was a careless fellow, ..."
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "____ carefully, this letter is very beautiful.",
+          "options": ["Type", "Typing", "Typed", "To type"],
+          "answer": 2,
+          "zh": "因為字打得很仔細，這封信十分好看。",
+          "explain": "原句 = As it is typed carefully, this letter is...\n✕ ✕ ✕ Typed carefully, this letter is..."
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Animals can do many amazing things when properly ____.",
+          "options": ["train", "training", "trained", "to train"],
+          "answer": 2,
+          "zh": "當動物加以適當訓練時，能做出許多驚人的事。",
+          "explain": "原句 = ... when they are properly trained."
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "You must be careful when ____ on the highway.",
+          "options": ["you driving", "are driving", "driving", "you were driving"],
+          "answer": 2,
+          "zh": "開車時，你要小心。",
+          "explain": "原句 = you must be careful when (you are) driving."
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "If ____, I will go to the party tonight.",
+          "options": ["invite", "inviting", "to invite", "invited"],
+          "answer": 3,
+          "zh": "如果被邀請，晚上我便會去參加宴會。",
+          "explain": "If invited... = If I am invited..."
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Thousands of products ____ from coal are now in daily use.",
+          "options": ["made", "make", "making", "to make"],
+          "answer": 0,
+          "zh": "數以千計由煤做成的東西，現在每天被使用。",
+          "explain": "products made from coal = products which were made... 把 which were 省略，保留過去分詞 made，以 made from coal 修飾 products。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Engines are machines ____ power or motion.",
+          "options": ["produce", "producing", "produced", "which producing"],
+          "answer": 1,
+          "zh": "引擎是能產生力量或動力的機器。",
+          "explain": "machines producing... = machines which produce..."
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "During this battle some soldiers were wounded, and some ____.",
+          "options": ["miss", "missed", "missing", "to miss"],
+          "answer": 2,
+          "zh": "在這場戰役中，有些士兵受傷，有些士兵則失蹤了。",
+          "explain": "missing 表示「行蹤不明」。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "Weather ____, we will have a picnic tomorrow.",
+          "options": ["permit", "permits", "permitted", "permitting"],
+          "answer": 3,
+          "zh": "天氣好的話，我們明天要去野餐。",
+          "explain": "Weather permitting = If the weather permits"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "The vacation ____ over, the students came back to school.",
+          "options": ["is", "are", "was", "being"],
+          "answer": 3,
+          "zh": "假期結束，學生們回到學校。",
+          "explain": "① 分詞構句意義上的主詞與主句主詞不同時，就要保留。\n② 原句 = As the vacation was over, the students..."
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "____, we left off our work.",
+          "options": ["After setting the sun", "Having set the sun", "The sun having set", "Being the sun set"],
+          "answer": 2,
+          "zh": "太陽下山後，我們停工了。",
+          "explain": "① Having + p.p. 之分詞現在完成式，表示動作時間比主句之動作要早。\n② 分詞構句的意義上的主詞與主句的主詞不同時，保留分詞短語前面的主詞。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "The hotel room was so dirty that I was ____ and complained to the manager.",
+          "options": ["ashamed", "disgusted", "disgusting", "embarrassed"],
+          "answer": 1,
+          "zh": "這旅館的房間太髒，使我感到厭惡，於是向經理抱怨。",
+          "explain": "用過去分詞形容人的情緒，表示「某人感到～」。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "The speaker found himself ____ all alone.",
+          "options": ["leave", "to leave", "leaving", "left"],
+          "answer": 3,
+          "zh": "那位說話者發現自己是孤零零的一個。",
+          "explain": "find oneself + 過去分詞，表示「發現自己陷於某種情況」。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "In the airport I met a man ____ my cousin.",
+          "options": ["who resembles", "resembling", "resembled", "to resemble"],
+          "answer": 1,
+          "zh": "在機場我遇到一個和我堂兄長得很像的人。",
+          "explain": "原句 = ... I met a man who resembled my cousin.（形容詞子句）\n= ... I met a man resembling my cousin.（分詞片語）"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "Both history and geography are ____ courses in our middle schools.",
+          "options": ["required", "to be required", "requiring", "being required"],
+          "answer": 0,
+          "zh": "在我們中學歷史和地理是必修課程。",
+          "explain": "required courses（必修課程）\nselective courses（選修課程）"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "In many modern cities, Beijing ____, congestion and air pollution have become real problems.",
+          "options": ["includes", "include", "included", "including"],
+          "answer": 2,
+          "zh": "在許多現代化城市中，包括北京，擁擠與空氣污染已變成很實際的問題了。",
+          "explain": "「包括」：including + N. = N. + included = inclusive of + N."
+        },
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "He devoted his ____ five years to study and ____.",
+          "options": ["remaining / learning", "remained / learn", "remaining / learn", "remained / learning"],
+          "answer": 0,
+          "zh": "他將剩下的五年全心投入在研究學問上。",
+          "explain": "① devote to + V-ing / N（專心於）\n② his remaining years = his last years（他的晚年／餘年）\n③ study 當名詞用，作「研究」解。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "____ with the price of a fixed home today, mobile homes are truly ____.",
+          "options": ["Compared / economical", "Comparing / economical", "Compared / economic", "Comparing / economic"],
+          "answer": 0,
+          "zh": "在今天，和固定房屋的價格相比較，拖車型活動房屋真的很經濟。",
+          "explain": "① be compared with（與～相比）\n② economic（經濟學的）；economical（節省的、經濟實惠的）"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "____ the painting, he gave a sigh of relief.",
+          "options": ["Finishing", "Has finished", "Being finished", "Having finished"],
+          "answer": 3,
+          "zh": "畫完圖畫之後，他鬆了一口氣。",
+          "explain": "原句 = After he had finished..."
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "____ by the roaring thunder, the baby burst out crying.",
+          "options": ["To frighten", "Frightening", "Frighten", "Frightened"],
+          "answer": 3,
+          "zh": "嬰兒給隆隆的雷聲嚇壞了，哇的一聲哭了起來。",
+          "explain": "原句 = As the baby was frightened by..., the baby...\n= Being frightened by..., the baby...\n= Frightened by..., the baby..."
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "____, he can quickly find out what is wrong with a television set and repair it.",
+          "options": ["He has been well trained", "Has been well trained", "Having been well trained", "To have been well trained"],
+          "answer": 2,
+          "zh": "因為受過良好的訓練，他能很快地發現電視的毛病並把它修好。",
+          "explain": "原句 = As he has been well trained, ..."
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "____ by hunger, he stole a cake.",
+          "options": ["Having driven", "Driving", "Being driving", "Driven"],
+          "answer": 3,
+          "zh": "因為飢餓驅使，他偷了一塊蛋糕。",
+          "explain": "原句 = As he was driven by hunger, ..."
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "____ the way to take, the traveller went on his journey.",
+          "options": ["Telling", "Having told", "Having been told", "Have told"],
+          "answer": 2,
+          "zh": "在別人告訴他走那一條路後，旅遊者繼續他的行程。",
+          "explain": "原句 = After he had been told..., the traveller went...\n= Having been told..., the traveller went...\n= Told..., the traveller went..."
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "The United States has developed into a modern nation in a very short time ____ with many other countries.",
+          "options": ["compares", "comparing", "to compare", "compared"],
+          "answer": 3,
+          "zh": "跟其他許多國家比較，美國在一個很短時間內就發展成一個現代化國家。",
+          "explain": "原句 = ... if it is compared with...\n= ... compared with..."
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "____, reports are prepared for busy administrators.",
+          "options": ["To speak generally", "Generally speaking", "General spoken", "Speaking generally"],
+          "answer": 1,
+          "zh": "一般而言，報告是為忙碌的行政主管人員準備的。",
+          "explain": "generally speaking（一般而言），為一獨立的分詞短語。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "The lesson ____ by the teacher this morning is an unusually long one.",
+          "options": ["being assigned", "assigning", "to be assigned", "assigned"],
+          "answer": 3,
+          "zh": "老師今早所指定的一課相當地長。",
+          "explain": "原句 = The lesson which was assigned by the teacher..."
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入最適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "A ____ dog is often ____ ____ than a ____ lion.",
+          "answer": "barking / more useful / sleeping",
+          "zh": "吠犬往往比睡獅有用。",
+          "explain": "barking 與 sleeping 均為現在分詞，修飾名詞 dog 及 lion。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "____ ____ the right, you will find the post office.",
+          "answer": "Turning to",
+          "zh": "向右轉，你就會找到郵局。",
+          "explain": "Turning to the right, you will find...\n= If you turn to the right, you will find...\n= Turn to the right, and you will find..."
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "____ others may say, you should act ____ ____ the plan.",
+          "answer": "Whatever / according to",
+          "zh": "不論別人怎麼說，你都該按照計劃行事。",
+          "explain": "① However + 形/副 + S + V, S + V（不論多麼；無論如何…）\n② Whatever + S + V, S + V（不論什麼）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "He ____ still on the grass, ____ his eyes ____.",
+          "answer": "lay / with / closed",
+          "zh": "他靜靜地躺在草地上，眼睛閉著。",
+          "explain": "① lie-lay-lain-lying（躺；位於）\n② 本句亦可寫成 He lay still on the grass, and his eyes closed。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "____ ____ his accent, he ____ ____ England.",
+          "answer": "Judging from / comes from",
+          "zh": "從口音判斷，他來自英國。",
+          "explain": "Judging from + N（由…判斷）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "依據中文及提示翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "大致上說，住鄉下比住都市好多了。",
+          "hint": "大致上說：generally speaking",
+          "answer": [
+            "Generally speaking, living in the country is much better than living in the city.",
+            "In general, living in the country is much better than living in the city."
+          ],
+          "zh": "大致上說，住鄉下比住都市好多了。",
+          "explain": "加強比較級，可用 much/far/still/even 等副詞。\n[例] Life today is much (far/still/even) more convenient than it was fifty years ago.（現在的生活比起五十年前要方便多了。）"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "就以空氣而論，鄉下的新鮮而都市的污濁。",
+          "hint": "就以…而論：As far as... be concerned",
+          "answer": [
+            "As far as air is concerned, country air is fresh while city air is dirty.",
+            "As far as air is concerned, country air is fresh while city air is polluted."
+          ],
+          "zh": "就以空氣而論，鄉下的新鮮而都市的污濁。",
+          "explain": "S + V... while + S + V（…而…）\n[例] Some habits are good while others are bad.（有些習慣是好的而有些則是壞的。）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "若談起生活，鄉下悠閒而都市匆忙。",
+          "hint": "若談起：speaking of / talking of",
+          "answer": [
+            "When it comes to life, country life is leisurely while city life is hasty.",
+            "Speaking of life, country life is leisurely while city life is hasty.",
+            "Talking of life, country life is leisurely while city life is hasty."
+          ],
+          "zh": "若談起生活，鄉下悠閒而都市匆忙。",
+          "explain": "「一提到」：When it comes to + N/V-ing, S + V\n[例] When it comes to cooking, I am all thumbs.（提到烹飪，我是笨手笨腳的。）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "而且，鄉下人純樸，老實，待人親切。",
+          "hint": "待人親切：amicable to others",
+          "answer": "In addition, country people are simple, honest and friendly with others.",
+          "zh": "而且，鄉下人純樸，老實，待人親切。",
+          "explain": "「而且／此外／再者」可用：\nBesides, S + V\nIn addition, S + V\nMoreover, S + V"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "常到鄉下度週末是多麼棒的事呀！",
+          "hint": "度週末：spend/pass one's weekend",
+          "answer": "How wonderful it is to spend the weekends in the country as often as not.",
+          "zh": "常到鄉下度週末是多麼棒的事呀！",
+          "explain": "① 本句 it 為形式主詞，to spend... country 為真正主詞。\n② as often as not = often（時常；常常）"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文並選出最適當的答案：\n\nWhile (1) to the movies, I happened to see a terrible accident. A taxi (2) through a traffic light collided with a truck. The (3) taxi driver was sent to hospital (4) at downtown area immediately. As the number of cars (5), everyone has to strictly obey the traffic rules.\n\n【詞彙及短語提示】\n1. 人 + happen to + V：某人碰巧…\n2. terrible accident：可怕的車禍\n3. run through a red light：闖紅燈\n4. collide with：與…相撞\n5. immediately = right away：立刻；馬上\n6. strictly（副）嚴格地\n7. obey the traffic rules：遵守交通規則",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "While ____ to the movies, I happened to see a terrible accident.",
+          "options": ["I go", "going", "went", "to go"],
+          "answer": 1,
+          "zh": "去電影院時，我碰巧看到了一場可怕的車禍。",
+          "explain": "While I went to..., I happened to...\n= While going to..., I happened to..."
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "A taxi ____ through a traffic light collided with a truck.",
+          "options": ["was run", "was running", "running", "which runs"],
+          "answer": 2,
+          "zh": "一輛闖紅燈的計程車與一輛卡車相撞。",
+          "explain": "原句 = A taxi [which ran through]... collided with...\n（形容詞子句簡化為分詞片語）\n= A taxi [running through]... collided with..."
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The ____ taxi driver was sent to hospital located at downtown area immediately.",
+          "options": ["injuring", "injury", "injured", "to injure"],
+          "answer": 2,
+          "zh": "受傷的計程車司機立刻被送往位於市區的醫院。",
+          "explain": "injured（形）受傷的"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "The injured taxi driver was sent to hospital ____ at downtown area immediately.",
+          "options": ["location", "locates", "locating", "located"],
+          "answer": 3,
+          "zh": "受傷的計程車司機立刻被送往位於市區的醫院。",
+          "explain": "... hospital which is located at...\n= ... hospital located at..."
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "As the number of cars ____, everyone has to strictly obey the traffic rules.",
+          "options": ["increase", "increasing", "increased", "increases"],
+          "answer": 3,
+          "zh": "隨著汽車數量的增加，每個人都必須嚴格遵守交通規則。",
+          "explain": "原句 = As the number... increases, everyone has to...\n= With the increasing number of cars, everyone has to..."
+        }
+      ]
+    }
+  ]
+}

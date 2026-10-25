@@ -1,0 +1,566 @@
+{
+  "chapter": 4,
+  "title": "不定詞",
+  "items": [
+    {
+      "topic": "不定詞作主詞",
+      "level": 1,
+      "q": "It is essential for junior high students ____ enough sleep every night to stay focused in class.",
+      "options": [
+        "get",
+        "to get",
+        "getting",
+        "to getting"
+      ],
+      "answer": 1,
+      "zh": "國中生每晚睡眠充足，以在課堂上保持專注，這是非常重要的。",
+      "explain": "句型「It is + Adj + for + 人 + to V」中，It 為形式主詞，真正的主詞為後方的不定詞片語 to get...。(A) 原形動詞不能直接作真主詞；(C) 動名詞雖可作主詞，但本句型慣用不定詞與形式主詞 It 呼應；(D) to 後接 V-ing 為錯誤形態。"
+    },
+    {
+      "topic": "不定詞作主詞（人稱形容詞）",
+      "level": 1,
+      "q": "It was very thoughtful ____ Amanda to bring an umbrella for her classmate on such a rainy afternoon.",
+      "options": [
+        "for",
+        "with",
+        "to",
+        "of"
+      ],
+      "answer": 3,
+      "zh": "在這樣下雨的午後，阿曼達能為她的同學帶一把傘，真是太體貼了。",
+      "explain": "句型「It is + Adj + of + 人 + to V」用於表示對「人的品格、性格或行為」的讚美或批評。thoughtful（體貼的）為人格特質形容詞，介系詞須用 of。(A) for 用於非人稱形容詞（如 important, difficult）；(B)、(C) 不符合此句型結構。"
+    },
+    {
+      "topic": "不定詞作受詞",
+      "level": 1,
+      "q": "After discussing the issue with his parents, David decided ____ for the science summer camp.",
+      "options": [
+        "to apply",
+        "applying",
+        "apply",
+        "applied"
+      ],
+      "answer": 0,
+      "zh": "在與父母討論這個問題後，大衛決定報名參加科學夏令營。",
+      "explain": "及物動詞 decide（決定）後面習慣接不定詞 to + V 作受詞。(B) decide 後不接動名詞；(C) 原形動詞不能直接作受詞；(D) 過去式動詞不可作受詞。"
+    },
+    {
+      "topic": "不定詞的否定形式",
+      "level": 1,
+      "q": "The librarian gently reminded the noisy children ____ loud noises in the study hall.",
+      "options": [
+        "to not make",
+        "not to make",
+        "don't make",
+        "not making"
+      ],
+      "answer": 1,
+      "zh": "圖書館員輕聲提醒喧鬧的孩子們不要在自習室大聲喧嘩。",
+      "explain": "remind + 人 + (not) to V（提醒某人[不]要做某事）。不定詞的否定詞 not 必須置於 to 之前，形成「not to + 原形動詞」。(A) 雖口語偶見分裂不定詞，但標準文法規範否定詞 not 應置於 to 之前；(C) 為祈使句否定，不能作受詞補語；(D) remind 後不接動名詞。"
+    },
+    {
+      "topic": "不定詞作受詞補語",
+      "level": 1,
+      "q": "The PE teacher told all the students ____ the track three times as a warm-up exercise.",
+      "options": [
+        "jog",
+        "jogging",
+        "to jog",
+        "jogged"
+      ],
+      "answer": 2,
+      "zh": "體育老師告訴全體學生沿著跑道慢跑三圈作為熱身運動。",
+      "explain": "句型「tell + 受詞 + to V」表示「告訴／吩咐某人做某事」，受詞補語須用不定詞。(A) 原形動詞用於使役動詞或感官動詞，tell 並非使役動詞；(B) 動名詞不符 tell 的補語用法；(D) 過去分詞 jogged 表被動，與學生主動慢跑不合。"
+    },
+    {
+      "topic": "疑問詞 + 不定詞",
+      "level": 1,
+      "q": "Kevin stood in front of the subway map, wondering ____ to reach the Taipei Music Center.",
+      "options": [
+        "how",
+        "what",
+        "which",
+        "why"
+      ],
+      "answer": 0,
+      "zh": "凱文站在捷運路線圖前，納悶著該如何到達台北流行音樂中心。",
+      "explain": "疑問詞 + to V 作 wonder 的受詞。reach the Taipei Music Center 為及物動詞加完整受詞，空格需填入表示「方式」的疑問副詞 how。(B) what 和 (C) which 為疑問代名詞，在子句中須充當主詞或受詞，此處結構完整不缺名詞；(D) 英語中沒有「why to V」的用法。"
+    },
+    {
+      "topic": "不定詞形容詞用法",
+      "level": 1,
+      "q": "After walking through the night market for an hour, we looked for a quiet place ____.",
+      "options": [
+        "resting",
+        "to rest",
+        "rest",
+        "for resting"
+      ],
+      "answer": 1,
+      "zh": "在夜市逛了一個小時後，我們尋找一個安靜的地方休息。",
+      "explain": "「place to rest」中，不定詞 to rest 置於名詞 place 之後作形容詞修飾語，表示「用來…的地方」。(A) 動名詞 resting 不能直接後位修飾 place 表目的；(C) 原形動詞不能修飾名詞；(D) for resting 表功能通常不後位修飾 place。"
+    },
+    {
+      "topic": "不定詞副詞用法（表目的）",
+      "level": 1,
+      "q": "Many high school seniors study until midnight in order ____ better scores on the entrance exam.",
+      "options": [
+        "achieve",
+        "achieving",
+        "to achieve",
+        "achieved"
+      ],
+      "answer": 2,
+      "zh": "許多高三學生為了在入學考試中取得更好的成績，讀書讀到午夜。",
+      "explain": "片語「in order to + 原形動詞」表示「為了…」，作副詞修飾主要子句動詞 study。(A) in order 後需加 to；(B) in order to 中的 to 為不定詞符號，後接原形動詞而非 V-ing；(D) 過去式動詞不能接在 in order to 之後。"
+    },
+    {
+      "topic": "不定詞副詞用法（表情緒原因）",
+      "level": 1,
+      "q": "Grace was extremely pleased ____ a handwritten birthday card from her best friend.",
+      "options": [
+        "receive",
+        "receiving",
+        "to receive",
+        "received"
+      ],
+      "answer": 2,
+      "zh": "葛瑞絲收到好友親筆寫的生日卡片，感到無比高興。",
+      "explain": "不定詞接在表示喜怒哀樂的情緒形容詞（如 pleased, glad, happy, surprised）之後，表示產生該情緒的「原因」，相當於 that 子句。(A) 原形動詞不能接在形容詞後；(B) receiving 常用於介系詞後，此處接在 pleased 後標準句型用 to V；(D) 過去分詞不合。"
+    },
+    {
+      "topic": "結果句型（too... to...）",
+      "level": 1,
+      "q": "The suitcase was ____ heavy for the little girl to carry up the stairs by herself.",
+      "options": [
+        "so",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": 2,
+      "zh": "這個行李箱太重了，小女孩一個人根本提不上樓梯。",
+      "explain": "句型「too + Adj + for sb + to V」表示「太…以致某人不能…」，具有否定含義。(A) so 需搭配 that 子句（so heavy that she couldn't...）；(B) very 與 (D) quite 均不能與後方的「to carry」構成否定結果句型。"
+    },
+    {
+      "topic": "結果句型（... enough to...）",
+      "level": 1,
+      "q": "Is the ice on the lake thick ____ to support the weight of several skaters?",
+      "options": [
+        "enough",
+        "too",
+        "so",
+        "such"
+      ],
+      "answer": 0,
+      "zh": "湖上的冰層夠厚足以支撐幾位溜冰者的重量嗎？",
+      "explain": "句型「Adj / Adv + enough + to V」表示「夠…足以做某事」。形容詞 thick 的修飾語 enough 須置於其後。(B) too 須置於形容詞前（too thick），且意思為太厚而不能；(C) so 須置於形容詞前，且搭配 that 子句或 as to；(D) such 修飾名詞。"
+    },
+    {
+      "topic": "感官動詞受詞補語",
+      "level": 1,
+      "q": "Sitting by the calm lake at dawn, we heard the wild geese ____ loudly across the mist.",
+      "options": [
+        "to call",
+        "called",
+        "call",
+        "to calling"
+      ],
+      "answer": 2,
+      "zh": "拂曉時分坐在平靜的湖邊，我們聽到野雁穿越薄霧大聲啼鳴。",
+      "explain": "感官動詞 hear + 受詞 + 原形動詞（或 V-ing），表示聽到了主動發生的動作或事實。此處野雁主動鳴叫，用原形動詞 call。(A) 感官動詞主動態受詞補語不可帶 to；(B) called 為被動過去分詞，野雁啼鳴是主動；(D) 形式錯誤。"
+    },
+    {
+      "topic": "使役動詞 make",
+      "level": 1,
+      "q": "The touching ending of the documentary made several viewers in the theater ____ tears.",
+      "options": [
+        "shed",
+        "to shed",
+        "shedding",
+        "shedded"
+      ],
+      "answer": 0,
+      "zh": "這部紀錄片感人的結局讓電影院裡的幾位觀眾流下了眼淚。",
+      "explain": "使役動詞「make + 受詞 + 原形動詞」表示「促使／使某人做出某動作」。此處觀眾為主動流淚，受詞補語用原形動詞 shed。(B) make 後接原形動詞，省略 to；(C) shedding 為現在分詞，不符合 make 的基本使役句型；(D) shed 的動詞三態為 shed-shed-shed，shedded 為錯誤形態。"
+    },
+    {
+      "topic": "使役動詞 let",
+      "level": 1,
+      "q": "Mr. Lin never lets his son ____ out alone after ten o'clock at night.",
+      "options": [
+        "stays",
+        "to stay",
+        "stay",
+        "staying"
+      ],
+      "answer": 2,
+      "zh": "林先生從不讓他的兒子在晚上十點之後獨自留在外面。",
+      "explain": "使役動詞「let + 受詞 + 原形動詞」表示「允許／讓某人做某事」，受詞補語用原形動詞 stay。(A) 第三人稱單數 stays 不能作受詞補語；(B) let 的受詞補語省略 to；(D) staying 為動名詞／分詞，不符 let 的句型。"
+    },
+    {
+      "topic": "慣用語 had better",
+      "level": 1,
+      "q": "Dark clouds are gathering quickly; we had better ____ our picnic and head back home.",
+      "options": [
+        "wrap up",
+        "to wrap up",
+        "wrapping up",
+        "wrapped up"
+      ],
+      "answer": 0,
+      "zh": "烏雲迅速聚集，我們最好結束野餐並啟程返家。",
+      "explain": "慣用語「had better + 原形動詞」表示「最好做某事」，後接省略 to 的不定詞（原形動詞）。(B) had better 後不可接 to V；(C) 動名詞不符合 had better 句型；(D) 過去式／過去分詞不合。"
+    },
+    {
+      "topic": "形容詞用法需接介系詞",
+      "level": 2,
+      "q": "The tiny apartment was completely barren; there was not even a proper stool for guests ____.",
+      "options": [
+        "to sit",
+        "sitting",
+        "sat on",
+        "to sit on"
+      ],
+      "answer": 3,
+      "zh": "這間小公寓空徒四壁，甚至連一張供客人坐的像樣凳子都沒有。",
+      "explain": "不定詞修飾名詞時，若該名詞是不定詞動作的承受者，須檢視是否需要介系詞。人是「sit on a stool」（坐在凳子上），因此 stool 作介系詞 on 的受詞，on 不可省略。(A) sit 為不及物動詞，缺少介系詞 on；(B) sitting 無法表達「供客人坐」之目的修飾；(C) sat on 為過去式或被動分詞，文意結構皆不符。"
+    },
+    {
+      "topic": "形容詞用法需接介系詞",
+      "level": 2,
+      "q": "Could you please lend me a pen? I have important notes to write down, but I have nothing ____.",
+      "options": [
+        "to write",
+        "to write with",
+        "writing with",
+        "written with"
+      ],
+      "answer": 1,
+      "zh": "你能借我一支筆嗎？我有重要筆記要記下來，但我沒有任何可以用來寫字的工具。",
+      "explain": "「write with a pen」（用筆寫字），不定詞修飾代名詞 nothing 時，表示「拿來書寫的工具」，介系詞 with 絕不可省略。(A) write 為及物時指寫出某內容（write a letter），nothing to write 表示「沒有東西可寫（無事可寫）」，與上下文需要筆的情況不符；(C)、(D) 形態與修飾結構不符。"
+    },
+    {
+      "topic": "形式受詞 it 的句型",
+      "level": 2,
+      "q": "The invention of wireless earbuds made ____ much easier for joggers to listen to music while running.",
+      "options": [
+        "this",
+        "that",
+        "it",
+        "one"
+      ],
+      "answer": 2,
+      "zh": "真無線耳機的發明使得慢跑者在跑步時聽音樂變得容易許多。",
+      "explain": "句型「S + make / find / think / consider + it + Adj + (for sb) + to V」中，it 作形式受詞，指代後方真正的受詞 to listen to music...。(A) this、(B) that、(D) one 都不能充當文法上的形式受詞。"
+    },
+    {
+      "topic": "疑問詞 what 與 how 的區別",
+      "level": 2,
+      "q": "When the fire alarm went off unexpectedly, nobody in the office knew ____.",
+      "options": [
+        "how to do",
+        "what to do",
+        "how doing it",
+        "what to do it"
+      ],
+      "answer": 1,
+      "zh": "當火警警報意外響起時，辦公室裡沒有人知道該做什麼。",
+      "explain": "do 為及物動詞，需要受詞。what 為疑問代名詞，可作 do 的受詞，故「what to do」完全正確。(A) how 為疑問副詞，不能作 do 的受詞，若用 how 必須寫成「how to do it」；(C) 疑問詞後接不定詞而非動名詞；(D) what 已作 do 的受詞，再加 it 會造成受詞重複的錯誤。"
+    },
+    {
+      "topic": "whether to V 的用法",
+      "level": 2,
+      "q": "Faced with two attractive scholarship opportunities, Brenda couldn't decide whether ____ to Japan or Germany.",
+      "options": [
+        "go",
+        "going",
+        "she goes",
+        "to go"
+      ],
+      "answer": 3,
+      "zh": "面對兩個吸引人的獎學金機會，布蘭達無法決定究竟該去日本還是德國。",
+      "explain": "句型「whether to + 原形動詞」表示「是否該做…」，是由名詞子句「whether she should go」簡化而來的名詞片語。(A) whether 後不可直接接原形動詞；(B) whether 後不接動名詞短語作選擇；(C) she goes 缺少情態助動詞 should/could，且時態與過去式 couldn't 不一致。"
+    },
+    {
+      "topic": "副詞用法：only to 表意外結果",
+      "level": 2,
+      "q": "Sam rushed through the pouring rain to the post office, only ____ that it had already closed for the holiday.",
+      "options": [
+        "find",
+        "finding",
+        "to find",
+        "found"
+      ],
+      "answer": 2,
+      "zh": "山姆冒著大雨急忙趕到郵局，結果卻發現郵局因假日早已關門了。",
+      "explain": "「only to + 原形動詞」表示出乎意料或令人失望的反意結果，意為「不料卻…；結果竟然…」。(A) 原形動詞不能直接作結果副詞；(B) 現在分詞 finding 多表示伴隨狀態，無法精確表達「出乎意料之結果」的轉折語氣；(D) 過去式動詞 found 缺少連接詞連接。"
+    },
+    {
+      "topic": "副詞用法：so as not to 表反面目的",
+      "level": 2,
+      "q": "The nurse stepped into the hospital ward as quietly as possible so as not ____ the sleeping patient.",
+      "options": [
+        "disturb",
+        "to disturb",
+        "disturbing",
+        "disturbed"
+      ],
+      "answer": 1,
+      "zh": "護理師盡可能輕聲走進病房，以免打擾正在熟睡的病人。",
+      "explain": "片語「so as not to + 原形動詞」表示反面目的，「為了不…；以免…」。(A) so as not 後缺少不定詞符號 to；(C) so as not to 中的 to 為不定詞，不可接 V-ing；(D) 過去分詞不合。"
+    },
+    {
+      "topic": "結果句型：so... as to",
+      "level": 2,
+      "q": "The professor's explanation of the scientific concept was so clear ____ dispel all the doubts among the students.",
+      "options": [
+        "so as",
+        "in order to",
+        "as to",
+        "enough to"
+      ],
+      "answer": 2,
+      "zh": "教授對該科學概念的解釋如此清晰，以至於消除了學生們心中的所有疑惑。",
+      "explain": "句型「so + Adj + as to + 原形動詞」表示正面的結果，「如此…以致於…」，相當於「so clear that it dispelled...」。(A) 語序顛倒，應為 as to；(B) in order to 表目的，不能與前面的 so 連用；(D) enough 須置於形容詞之後（clear enough to）。"
+    },
+    {
+      "topic": "感官動詞被動態",
+      "level": 2,
+      "q": "The suspect was seen ____ the jewelry store shortly before the alarm was triggered.",
+      "options": [
+        "enter",
+        "entered",
+        "to entering",
+        "to enter"
+      ],
+      "answer": 3,
+      "zh": "警報觸發前不久，有人看見該嫌疑犯走進珠寶店。",
+      "explain": "感官動詞（see, hear, watch 等）在主動態中受詞補語用原形動詞省略 to；但轉為被動態時（be seen, be heard），原本省略的 to 必須還原，形成「be seen to + 原形動詞」。(A) 原形動詞僅用於主動態；(B) entered 為被動過去分詞，嫌犯是主動走進去；(C) to entering 形態錯誤。"
+    },
+    {
+      "topic": "使役動詞被動態",
+      "level": 2,
+      "q": "During military training, the new recruits were made ____ their heavy gear over a five-kilometer muddy trail.",
+      "options": [
+        "carry",
+        "to carry",
+        "carrying",
+        "carried"
+      ],
+      "answer": 1,
+      "zh": "在軍事訓練期間，新兵被迫背著沉重的裝備走過五公里的泥濘小徑。",
+      "explain": "使役動詞 make 在主動態時後接原形動詞省略 to；但轉為被動態「be made」時，必須還原 to，形成「be made to + 原形動詞」，表示「被迫做某事」。(A) carry 原形動詞只能用於主動態；(C) carrying 不符合 make 的使役被動句型；(D) carried 為被動分詞，新兵是主動背負裝備。"
+    },
+    {
+      "topic": "使役動詞 have + 受詞 + p.p.",
+      "level": 2,
+      "q": "After the severe typhoon swept the town, many homeowners had their damaged roofs ____.",
+      "options": [
+        "repair",
+        "repairing",
+        "to repair",
+        "repaired"
+      ],
+      "answer": 3,
+      "zh": "強烈颱風橫掃城鎮後，許多屋主將受損的屋頂找人修好了。",
+      "explain": "句型「have + 受詞 + p.p.」表示「讓某事物被（別人）處理」。受詞 damaged roofs（受損的屋頂）與動詞 repair 之間為被動關係（屋頂是被修理），故受詞補語須用過去分詞 repaired。(A) 原形動詞用於受詞主動發出動作；(B) 現在分詞表主動進行；(C) 不定詞 to repair 不符合 have 的使役句型。"
+    },
+    {
+      "topic": "使役動詞 let 的被動受詞補語",
+      "level": 2,
+      "q": "Under no circumstances should you let your confidential passwords ____ to anyone else.",
+      "options": [
+        "reveal",
+        "be revealed",
+        "revealing",
+        "to be revealed"
+      ],
+      "answer": 1,
+      "zh": "在任何情況下，你都不應該讓你的機密密碼洩露給其他人。",
+      "explain": "使役動詞 let 的被動受詞補語句型為「let + 受詞 + be + p.p.」。密碼（passwords）是被洩露，且 let 後省略 to，故保留原形 be + p.p.。(A) reveal 為主動原形動詞，密碼不能主動洩露；(C) revealing 為現在分詞，不符句型；(D) let 後的受詞補語不可帶 to。"
+    },
+    {
+      "topic": "慣用語 would rather ... than ...",
+      "level": 2,
+      "q": "Fiona would rather ____ extra hours at the office on Friday than take work home over the weekend.",
+      "options": [
+        "work",
+        "to work",
+        "working",
+        "worked"
+      ],
+      "answer": 0,
+      "zh": "費歐娜寧願週五在辦公室加班，也不願週末把工作帶回家做。",
+      "explain": "慣用句型「would rather + 原形動詞 ... than + 原形動詞」表示「寧願…而不願…」，兩者皆接省略 to 的原形動詞。(B) would rather 後不接 to V；(C) 動名詞不符 would rather 句型；(D) 過去式動詞不能接在情態助動詞 would 之後。"
+    },
+    {
+      "topic": "慣用語 cannot but / do nothing but",
+      "level": 2,
+      "q": "Whenever the strict director entered the rehearsal room, the actors did nothing but ____ quietly for instructions.",
+      "options": [
+        "waiting",
+        "to wait",
+        "waited",
+        "wait"
+      ],
+      "answer": 3,
+      "zh": "每當嚴厲的導演走進排練室時，演員們除了安靜地等待指示之外什麼都不敢做。",
+      "explain": "慣用語「do / did nothing but + 原形動詞」表示「只是…；除了…之外什麼都不做」，but 在此作介系詞（除…之外），後接省略 to 的原形動詞 wait。(A) 只有當前面的動詞不是 do 時（如 think of nothing but V-ing），才可能接 V-ing；(B) 一般不帶 to；(C) 過去式動詞不符結構。"
+    },
+    {
+      "topic": "代不定詞",
+      "level": 2,
+      "q": "\"Are you going to attend the environmental seminar this weekend?\" \"I'd love ____, but I have a prior engagement.\"",
+      "options": [
+        "to",
+        "it",
+        "so",
+        "that"
+      ],
+      "answer": 0,
+      "zh": "「你這個週末要去參加環境研討會嗎？」「我很想去，但我早有預約了。」",
+      "explain": "為避免重複前面提過的動詞片語（attend the environmental seminar），句尾保留不定詞符號 to，其後的動詞部分省略，此文法現象稱為「代不定詞」(elliptical infinitive)。(B) love it 缺少不定詞結構；(C) love so 語法不合，一般說 I hope so 或 I think so；(D) that 不能充當動詞片語的省略符號。"
+    },
+    {
+      "topic": "不定詞的時態：完成式",
+      "level": 3,
+      "q": "The legendary castle seems ____ by an earthquake in the fourteenth century, though historical records are scarce.",
+      "options": [
+        "to destroy",
+        "to be destroyed",
+        "having destroyed",
+        "to have been destroyed"
+      ],
+      "answer": 3,
+      "zh": "這座傳奇城堡似乎在十四世紀時被一場地震摧毀了，儘管歷史文獻相當匱乏。",
+      "explain": "主要子句動詞 seems 為現在式，而城堡被摧毀發生在十四世紀（過去時間），動作發生在主要動詞之前，不定詞須用完成式「to have + p.p.」；又城堡是被摧毀，故須結合被動態成為「to have been destroyed」。(A) 簡單式主動，時態與語態皆錯；(B) 簡單式被動，表示與 seems 同時發生，不合十四世紀的歷史語境；(C) 分詞短語不能作 seem 的補語。"
+    },
+    {
+      "topic": "過去未實現的願望",
+      "level": 3,
+      "q": "The scientists intended ____ their vaccine trials by the end of last year, but unforeseen supply shortages halted the project.",
+      "options": [
+        "completing",
+        "to have completed",
+        "to complete",
+        "having completed"
+      ],
+      "answer": 1,
+      "zh": "科學家們原本打算在去年底前完成疫苗試驗，但無法預見的物資短缺使該計畫停擺。",
+      "explain": "句型「打算/希望動詞（如 intend, hope, expect, plan）過去式 + to have + p.p.」專門表示「過去原本打算／希望做某事，但最終未能達成」之願望未實現。(A) intend 後多接不定詞；(C) intended to complete 僅表達過去打算完成，無法強烈凸顯「原本打算卻未達成」的語法內涵；(D) having completed 形態與句型不符。"
+    },
+    {
+      "topic": "不定詞主動形式表示被動",
+      "level": 3,
+      "q": "When the expensive laboratory equipment was damaged, the research assistant was clearly the one ____.",
+      "options": [
+        "to blame",
+        "to be blamed",
+        "blaming",
+        "being blamed"
+      ],
+      "answer": 0,
+      "zh": "當昂貴的實驗室設備損壞時，這名研究助理顯然是該受責備的人。",
+      "explain": "慣用結構「be to blame」固定用主動形式的不定詞表達被動含義，意為「應受責備；該負責」。(B) to be blamed 雖然在現代英語偶見，但在標準傳統文法與檢定考試中，一律以主動形式「to blame」為標準正解；(C)、(D) 分詞形態不合此慣用句型。"
+    },
+    {
+      "topic": "副詞用法不定詞主動表被動",
+      "level": 3,
+      "q": "Because of his short temper and unpredictable mood swings, the new supervisor is extremely difficult ____.",
+      "options": [
+        "working with",
+        "to be worked with",
+        "to work with him",
+        "to work with"
+      ],
+      "answer": 3,
+      "zh": "由於脾氣暴躁且情緒陰晴不定，這位新任主管極其難以共處。",
+      "explain": "句型「主詞 + be + difficult / easy / hard / pleasant + to V + 介系詞」中，主詞 the new supervisor 實質上是不定詞片語中介系詞 with 的邏輯受詞，此時不定詞固定使用「主動形式」，且句尾不可重複代名詞 him。(A) 形容詞後應接不定詞而非動名詞；(B) 不可使用被動態 to be worked with；(C) him 與句首主詞重複，為冗贅錯誤。"
+    },
+    {
+      "topic": "獨立不定詞",
+      "level": 3,
+      "q": "Our flight was delayed for six hours, and ____, the airline lost our checked luggage upon arrival.",
+      "options": [
+        "to begin with",
+        "so to speak",
+        "to tell the truth",
+        "to make matters worse"
+      ],
+      "answer": 3,
+      "zh": "我們的班機延誤了六個小時，更糟的是，航空公司在抵達時還弄丟了我們的託運行李。",
+      "explain": "獨立不定詞修飾全句。「to make matters worse」（更糟的是）用於引出進一步惡化的壞情況。(A) to begin with 意為「首先；第一點」；(B) so to speak 意為「可以說是；所謂」；(C) to tell the truth 意為「說實話」，皆與上下文語境不符。"
+    },
+    {
+      "topic": "獨立不定詞",
+      "level": 3,
+      "q": "The internet has transformed our society into a global village, ____, where information flows without borders.",
+      "options": [
+        "so to speak",
+        "to be brief",
+        "to sum up",
+        "needless to say"
+      ],
+      "answer": 0,
+      "zh": "網際網路已將我們的社會轉變為一個所謂的地球村，資訊在此無國界地流通。",
+      "explain": "獨立不定詞「so to speak」（可以說是；所謂；打個比方來說，相當於 as it were），用於對譬喻性說法（global village）進行修飾說明。(B) to be brief 意為「簡言之」；(C) to sum up 意為「總之；概括來說」；(D) needless to say 意為「不用說；顯而易見」。"
+    },
+    {
+      "topic": "only too... to V",
+      "level": 3,
+      "q": "The world-renowned pianist said she would be only too delighted ____ a masterclass for our young musicians.",
+      "options": [
+        "conducting",
+        "conduct",
+        "conducted",
+        "to conduct"
+      ],
+      "answer": 3,
+      "zh": "這位世界知名鋼琴家表示，她非常樂意為我們的年輕音樂家們主持大師班。",
+      "explain": "片語「only too + happy / glad / pleased / delighted + to V」中，only too 等於 very（非常），後接不定詞 to V，表示「非常樂意／非常高興做某事」，並非 too... to 的否定含義。(A) 動名詞不符合此句型；(B) 原形動詞缺少不定詞 to；(C) 過去分詞不合。"
+    },
+    {
+      "topic": "too... not to V（雙重否定）",
+      "level": 3,
+      "q": "The technological breakthrough is too important for the government ____ immediate funding to support further research.",
+      "options": [
+        "to provide",
+        "not to provide",
+        "providing",
+        "not providing"
+      ],
+      "answer": 1,
+      "zh": "這項技術突破太重要了，政府不可能不提供即時資金來支持後續研究。",
+      "explain": "句型「too + Adj + not to V」為雙重否定句型，表示「太…以致於不可能不…（必定會…）」。根據語意，技術突破極其重大，政府必定會撥款資助，故應選 not to provide。(A) to provide 會變成否定意思「太重要以致無法提供資金」，與常理和上下文邏輯完全矛盾；(C)、(D) 分詞不符合 too 句型。"
+    },
+    {
+      "topic": "with a view to + V-ing",
+      "level": 3,
+      "q": "The city council allocated extra funds with a view to ____ public transportation and reducing carbon emissions.",
+      "options": [
+        "improve",
+        "improved",
+        "improving",
+        "to improve"
+      ],
+      "answer": 2,
+      "zh": "市議會撥出額外資金，目的在於改善大眾運輸並減少碳排放。",
+      "explain": "片語「with a view to + V-ing」（或 with an eye to + V-ing）表示「為了…目的」，其中的 to 為「介系詞」，其後必須接動名詞 (V-ing) 或名詞。(A) improve 為原形動詞，誤將 to 當成不定詞符號；(B) 過去分詞不合；(D) to improve 造成兩個 to 重複且詞性錯誤。"
+    },
+    {
+      "topic": "To one's + 情緒名詞（介系詞片語）",
+      "level": 3,
+      "q": "____, the lost mountaineering team was spotted by the rescue helicopter and airlifted to safety.",
+      "options": [
+        "To everyone's great relief",
+        "To make everyone relieve",
+        "For everyone's relief",
+        "With everyone relieved"
+      ],
+      "answer": 0,
+      "zh": "令所有人大為放心的是，失聯的登山隊被搜救直升機發現並空運至安全地帶。",
+      "explain": "片語「To one's + (great) + 情緒名詞」為介系詞短語，表示「令某人（大為）感到…的是」。relief 為名詞（欣慰、放心），To 為介系詞。(B) 語法不合，make 後接原形動詞 relieve 不能這樣作獨立修飾；(C) 介系詞應為 To 而非 For；(D) With everyone relieved 表示伴隨狀態「在大家都鬆了一口氣的情況下」，無法精確表達全句的主觀評價「令大家欣慰的是」。"
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "chapter": 17,
+  "title": "介系詞",
+  "items": [
+    {
+      "topic": "時間介系詞",
+      "level": 1,
+      "q": "Our school sports day will take place ____ the morning of October 10th.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 0,
+      "zh": "我們學校的校慶運動會將在十月十日的早晨舉行。",
+      "explain": "特定某一天的早晨、下午或晚上，前面要用介系詞 on（如 on the morning of October 10th）。(B) in 用於一般的 in the morning，若有特定日期限定則不可用；(C) at 用於具體鐘點時刻；(D) by 表示「在…之前」。"
+    },
+    {
+      "topic": "地點介系詞",
+      "level": 1,
+      "q": "My uncle lives ____ No. 45, Zhongshan Road, right across from the station.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 1,
+      "zh": "我叔叔住在中山路45號，就在車站正對面。",
+      "explain": "門牌號碼前要用介系詞 at（如 at No. 45, Zhongshan Road）；若是單純的路名則用 on。(A) in 用於大城市或國家；(C) on 用於無門牌號碼的街路名；(D) to 表示方向或目的地。"
+    },
+    {
+      "topic": "行為者與工具",
+      "level": 1,
+      "q": "David cut the birthday cake ____ a sharp knife.",
+      "options": [
+        "by",
+        "for",
+        "with",
+        "in"
+      ],
+      "answer": 2,
+      "zh": "大衛用一把鋒利的刀切生日蛋糕。",
+      "explain": "表示使用具體的「工具、器械」時用介系詞 with。(A) by 用於被動語態的行為者或交通、通訊手段；(B) for 表示目的或對象；(D) in 用於語言、書寫材料（如 in ink）。"
+    },
+    {
+      "topic": "材料介系詞",
+      "level": 1,
+      "q": "This dining table is made ____ solid wood, so it is quite heavy.",
+      "options": [
+        "from",
+        "of",
+        "in",
+        "by"
+      ],
+      "answer": 1,
+      "zh": "這張餐桌是由實木製成的，所以相當重。",
+      "explain": "成品仍看得出原材料且未發生化學變化（物理變化）時，用 be made of。(A) be made from 用於原材料經過化學變化已改變性質（如酒由葡萄釀成）；(C) in 用於材質語言如 in ink；(D) by 用於製造者（如 made by hand）。"
+    },
+    {
+      "topic": "目的介系詞",
+      "level": 1,
+      "q": "Dad has to fly to Tokyo tomorrow ____ business.",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": 0,
+      "zh": "爸爸明天必須出差去東京。",
+      "explain": "on business 為固定慣用片語，表示「出差；因公務」。(B) for 常接名詞表目的（如 for a trip），但不與 business 搭配成此慣用語；(C) at 與 (D) in 皆無此用法。"
+    },
+    {
+      "topic": "時間介系詞",
+      "level": 1,
+      "q": "Please make sure you hand in your science project ____ 5:00 p.m. this Friday.",
+      "options": [
+        "till",
+        "until",
+        "by",
+        "for"
+      ],
+      "answer": 2,
+      "zh": "請務必在本週五下午五點以前繳交你的自然科學專案。",
+      "explain": "by 表示動作完成的最後期限，意為「在…之前」。(A) till 與 (B) until 表示狀態或動作「持續直到某時」，hand in 為瞬間動作，不能持續到五點；(D) for 後接一段時間長度。"
+    },
+    {
+      "topic": "地點介系詞",
+      "level": 1,
+      "q": "The cat was frightened by the thunder and hid ____ the bed.",
+      "options": [
+        "under",
+        "between",
+        "through",
+        "across"
+      ],
+      "answer": 0,
+      "zh": "貓咪被雷聲嚇到了，躲在床底下。",
+      "explain": "under 表示在某物的正下方或垂直下方。(B) between 用於兩者之間；(C) through 表示穿過內部；(D) across 表示橫過平面。"
+    },
+    {
+      "topic": "時間介系詞",
+      "level": 1,
+      "q": "Many students like to take part-time jobs ____ the summer vacation.",
+      "options": [
+        "for",
+        "at",
+        "during",
+        "since"
+      ],
+      "answer": 2,
+      "zh": "許多學生喜歡在暑假期間打工。",
+      "explain": "during 表示「在…期間之內」，後接明確的事件或時段名詞（如 the summer vacation）。(A) for 後接數字加上時間單位（如 for two months）；(B) at 用於特定時刻；(D) since 表示自從過去某時間點以來的持續。"
+    },
+    {
+      "topic": "結果介系詞",
+      "level": 1,
+      "q": "____ our great delight, our team won the championship yesterday.",
+      "options": [
+        "At",
+        "With",
+        "In",
+        "To"
+      ],
+      "answer": 3,
+      "zh": "令我們非常高興的是，我們隊昨天贏得了冠軍。",
+      "explain": "「To one's + 情感名詞」表示「令某人感到…的是」，如 To our great delight。(A) At 常與驚訝的形容詞連用（如 be surprised at），不用於此句型；(B) With 表示附帶或伴隨；(C) In 可用於 in surprise，但不能加所有格接 delight 作句首修飾。"
+    },
+    {
+      "topic": "地點介系詞",
+      "level": 1,
+      "q": "The bullet went ____ the wooden door and hit the wall behind it.",
+      "options": [
+        "across",
+        "through",
+        "over",
+        "along"
+      ],
+      "answer": 1,
+      "zh": "子彈穿過木門，擊中了後面的牆壁。",
+      "explain": "through 表示從立體或空間的內部「穿透、穿過」。(A) across 表示從物體的平面「橫過、越過」；(C) over 表示從上方越過；(D) along 表示沿著路線行進。"
+    },
+    {
+      "topic": "除外介系詞",
+      "level": 1,
+      "q": "Everyone attended the morning meeting ____ Kevin, who was on sick leave.",
+      "options": [
+        "except",
+        "beside",
+        "without",
+        "against"
+      ],
+      "answer": 0,
+      "zh": "除了請病假的凱文之外，每個人都出席了早會。",
+      "explain": "except 表示「除了…之外（不包含在內）」。(B) beside 表示「在…旁邊」，besides 才是「除了…還有」；(C) without 表示「沒有、缺乏」；(D) against 表示「反對、靠著」。"
+    },
+    {
+      "topic": "時間介系詞",
+      "level": 1,
+      "q": "Mr. Lin has taught English in this junior high school ____ 2015.",
+      "options": [
+        "for",
+        "in",
+        "since",
+        "from"
+      ],
+      "answer": 2,
+      "zh": "林老師自從 2015 年以來就在這所國中教英文。",
+      "explain": "現在完成式搭配 since + 過去時間點，表示「從過去持續到現在」。(A) for 後接一段時間（如 for ten years）；(B) in 搭配過去式表示發生在某年；(D) from 通常與 to 連用表示起訖點。"
+    },
+    {
+      "topic": "比較介系詞",
+      "level": 1,
+      "q": "When it comes to sports, my brother prefers basketball ____ baseball.",
+      "options": [
+        "than",
+        "over",
+        "with",
+        "to"
+      ],
+      "answer": 3,
+      "zh": "說到運動，我哥哥比起棒球更喜歡籃球。",
+      "explain": "動詞片語 prefer A to B 表示「比起 B 更喜歡 A」，介系詞固定用 to。(A) than 用於一般比較級（如 like A better than B）；(B) over 雖在口語少數情況可見，但在正規文法題中 prefer 固定搭配 to；(C) with 表示伴隨或比較對象，不搭配 prefer。"
+    },
+    {
+      "topic": "地點介系詞",
+      "level": 1,
+      "q": "Alice is sitting ____ her mother and father in the photo.",
+      "options": [
+        "between",
+        "among",
+        "around",
+        "beside"
+      ],
+      "answer": 0,
+      "zh": "在照片中，愛麗絲坐在她父母親兩個人中間。",
+      "explain": "between 用於「兩者之間」（between her mother and father）。(B) among 用於三者或三者以上之間；(C) around 表示圍繞；(D) beside 表示在旁邊（只指一人）。"
+    },
+    {
+      "topic": "手段與材料",
+      "level": 1,
+      "q": "You are required to write the essay ____ English, not in Chinese.",
+      "options": [
+        "by",
+        "in",
+        "with",
+        "from"
+      ],
+      "answer": 1,
+      "zh": "你必須用英文寫這篇作文，而不是用中文。",
+      "explain": "表示使用某種「語言、文字、墨水」時，介系詞用 in（如 in English, in ink）。(A) by 表示方法或搭乘交通工具；(C) with 用於具體工具（如 with a pen）；(D) from 表示來源。"
+    },
+    {
+      "topic": "地理方位",
+      "level": 2,
+      "q": "Japan lies ____ the east of China, across the Sea of Japan.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 3,
+      "zh": "日本位於中國的東方，隔著日本海。",
+      "explain": "表示在某國境外且不相鄰的方位時用 to；(A) in 表示在範圍境內（如 Taiwan is in the east of Asia）；(B) on 表示接壤、相鄰的邊界（如 Canada is on the north of the U.S.）；(C) at 用於點位置。"
+    },
+    {
+      "topic": "死因與原因",
+      "level": 2,
+      "q": "Sadly, the old soldier died ____ the severe wound he received in the battle.",
+      "options": [
+        "from",
+        "of",
+        "for",
+        "with"
+      ],
+      "answer": 0,
+      "zh": "令人難過的是，那位老兵死於他在戰鬥中所受的重傷。",
+      "explain": "die from 表示死於外傷、車禍、過勞等外在原因（die from a wound/traffic accident）；(B) die of 表示死於疾病、飢餓、衰老等內在原因（如 die of cancer/hunger）；(C) for 表示為了…；(D) with 表示伴隨。"
+    },
+    {
+      "topic": "附帶狀況",
+      "level": 2,
+      "q": "The little boy fell asleep on the sofa with the TV ____.",
+      "options": [
+        "turned",
+        "on",
+        "opening",
+        "to play"
+      ],
+      "answer": 1,
+      "zh": "小男孩在沙發上睡著了，電視還開著。",
+      "explain": "with + 受詞 + 受詞補語（副詞 on 表示開啟狀態），為表示附帶狀況的常見句型。(A) turned 需搭配 on（turned on）；(C) opening 表示正在打開，語意不合；(D) 不定詞 to play 不能作此附帶狀態補語。"
+    },
+    {
+      "topic": "比較之差",
+      "level": 2,
+      "q": "Our school basketball team won the final game ____ three points in the last second.",
+      "options": [
+        "to",
+        "with",
+        "by",
+        "at"
+      ],
+      "answer": 2,
+      "zh": "我們學校籃球隊在最後一秒以三分之差贏得決賽。",
+      "explain": "表示數量、尺寸、比分上的「差距、差額」時，介系詞用 by（如 win by three points, taller by two inches）。(A) to 用於比分對照（如 win the game 5 to 3）；(B) with 表示伴隨或工具；(D) at 表示單價或速度。"
+    },
+    {
+      "topic": "分離與奪取",
+      "level": 2,
+      "q": "The sudden illness deprived the young pianist ____ the ability to play properly.",
+      "options": [
+        "from",
+        "off",
+        "with",
+        "of"
+      ],
+      "answer": 3,
+      "zh": "這場突如其來的疾病奪走了這位年輕鋼琴家正常演奏的能力。",
+      "explain": "deprive + 人 + of + 事物 為固定句型，表示「剝奪某人…」。(A) from 用於 prevent/stop/keep sb from V-ing，不與 deprive 連用；(B) off 表示脫離；(C) with 表示伴隨。"
+    },
+    {
+      "topic": "分離與防範",
+      "level": 2,
+      "q": "The heavy snowstorm prevented the rescue team ____ reaching the trapped climbers.",
+      "options": [
+        "from",
+        "to",
+        "for",
+        "against"
+      ],
+      "answer": 0,
+      "zh": "暴風雪阻礙了搜救隊接觸受困的登山客。",
+      "explain": "prevent / stop / keep + 受詞 + from + V-ing 表示「阻止某人做…；使某人無法…」。(B) to 搭配 allow/enable sb to V；(C) for 表示目的；(D) against 表示反對或抵抗。"
+    },
+    {
+      "topic": "標準與度量單位",
+      "level": 2,
+      "q": "In that supermarket, imported apples are sold ____ the pound.",
+      "options": [
+        "at",
+        "by",
+        "for",
+        "in"
+      ],
+      "answer": 1,
+      "zh": "在那家超市，進口蘋果是按磅出售的。",
+      "explain": "「by + the + 度量單位名詞」表示「按…計算／計酬」（如 by the pound, by the hour, by the dozen）。(A) at 搭配具體單價（如 at $5 a pound）；(C) for 表示總價或交換（如 bought it for $10）；(D) in 用於幣別或語言。"
+    },
+    {
+      "topic": "原因與情感",
+      "level": 2,
+      "q": "All the employees were greatly shocked ____ the news of the company's bankruptcy.",
+      "options": [
+        "for",
+        "with",
+        "at",
+        "to"
+      ],
+      "answer": 2,
+      "zh": "所有員工聽到公司破產的消息都感到極度震驚。",
+      "explain": "表示因聽到或看到某事而引發的情感（如 surprised, shocked, amazed, angry），後面常用介系詞 at。(A) for 表示因某項功績或過錯而受獎懲（famous/punished for）；(B) with 常接人或生氣對象；(D) to 後接原形動詞（be shocked to hear）。"
+    },
+    {
+      "topic": "結果與變化",
+      "level": 2,
+      "q": "With patience and hard work, the barren desert was turned ____ a green oasis.",
+      "options": [
+        "to",
+        "as",
+        "for",
+        "into"
+      ],
+      "answer": 3,
+      "zh": "憑藉著耐心與努力，荒蕪的沙漠變成了綠洲。",
+      "explain": "turn / change / transform A into B 表示「把 A 轉變為 B（狀態徹底改變的結果）」用 into。(A) turn to 表示轉向或求助於；(B) as 表示作為；(C) for 表示目的。"
+    },
+    {
+      "topic": "關於與涉及",
+      "level": 2,
+      "q": "Professor Jackson just published an academic paper ____ climate change and marine ecosystems.",
+      "options": [
+        "on",
+        "of",
+        "about",
+        "in"
+      ],
+      "answer": 0,
+      "zh": "傑克森教授剛發表了一篇關於氣候變遷與海洋生態系統的學術論文。",
+      "explain": "表示學術性、專門性的論文、書籍、演講之主題時，用介系詞 on；一般談話或隨意提及則用 about。(B) of 只表示提及某事物之存在（speak of）；(C) about 用於一般生活交談的內容；(D) in 表示領域（如 an expert in biology）。"
+    },
+    {
+      "topic": "標準與速度",
+      "level": 2,
+      "q": "The typhoon is moving towards eastern Taiwan ____ a speed of 25 kilometers per hour.",
+      "options": [
+        "with",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer": 1,
+      "zh": "該颱風正以每小時25公里的速度朝台灣東部移動。",
+      "explain": "表示速度、比率、溫度、價格時，用介系詞 at（如 at a speed of, at a rate of, at a temperature of）。(A) with 表示伴隨；(C) in 表示狀態或範圍；(D) by 表示增減幅度或計量單位。"
+    },
+    {
+      "topic": "材料介系詞",
+      "level": 2,
+      "q": "Paper is originally made ____ wood pulp through chemical processing.",
+      "options": [
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "answer": 2,
+      "zh": "紙張最初是由木漿經由化學程序製成的。",
+      "explain": "當成品與原料性質完全改變、無法看出原始形態（化學變化）時，用 be made from。(A) be made of 用於物理變化（如 The chair is made of wood）；(B) with 用於配料或附帶材料；(D) by 用於製造者或方法。"
+    },
+    {
+      "topic": "目的介系詞",
+      "level": 2,
+      "q": "True happiness does not lie in seeking ____ fame and fortune.",
+      "options": [
+        "for",
+        "at",
+        "to",
+        "after"
+      ],
+      "answer": 3,
+      "zh": "真正的幸福並不在於追求名利。",
+      "explain": "seek after / run after 表示「追求（某種目的或慾望）」。(A) seek 通常直接接名詞（seek fame），若加介系詞則習慣用 after 表示追求渴望；(B) at 與 (C) to 皆無此搭配。"
+    },
+    {
+      "topic": "起源與導因",
+      "level": 2,
+      "q": "Many health problems in modern society result ____ lack of regular physical exercise.",
+      "options": [
+        "from",
+        "in",
+        "to",
+        "of"
+      ],
+      "answer": 0,
+      "zh": "現代社會的許多健康問題源自於缺乏規律的身體運動。",
+      "explain": "result from + 原因，表示「起因於…；由…引起」；result in + 結果，表示「導致…結果」。此句 lack of exercise 為原因，故選 from。(B) result in 後接結果；(C) to 與 (D) of 皆非 result 的慣用搭配。"
+    },
+    {
+      "topic": "附帶狀況",
+      "level": 2,
+      "q": "The criminal stood before the judge with his head ____ in shame.",
+      "options": [
+        "bowing",
+        "bowed",
+        "bow",
+        "to bow"
+      ],
+      "answer": 1,
+      "zh": "那名罪犯站在法官面前，羞愧地低著頭。",
+      "explain": "在「with + 受詞 + 受詞補語」結構中，head（頭部）是被低下的，需用過去分詞 bowed 表示被動狀態。(A) bowing 為現在分詞，表示主動低下（通常 head 受動）；(C) bow 為原形動詞不可作補語；(D) to bow 不用於此片語。"
+    },
+    {
+      "topic": "事物之豐富",
+      "level": 2,
+      "q": "This tropical island is exceptionally rich ____ diverse plant and animal species.",
+      "options": [
+        "with",
+        "of",
+        "in",
+        "for"
+      ],
+      "answer": 2,
+      "zh": "這座熱帶島嶼擁有極為豐富的多樣動植物物種。",
+      "explain": "be rich in 表示「在…方面很豐富；富含…」。(A) be filled with 才是用 with；(B) of 用於 full of；(D) for 表示對象或理由。"
+    },
+    {
+      "topic": "處罰與獎賞",
+      "level": 2,
+      "q": "The dishonest manager was dismissed and punished ____ accepting bribes.",
+      "options": [
+        "with",
+        "by",
+        "of",
+        "for"
+      ],
+      "answer": 3,
+      "zh": "那位不誠實的經理因收受賄賂而被解雇並受到懲處。",
+      "explain": "punish / reward / blame / praise sb for (doing) sth，介系詞 for 表示「獎懲、責備的理由或原因」。(A) with 表示工具或伴隨；(B) by 表示行為者；(C) of 用於 rob/deprive of。"
+    },
+    {
+      "topic": "原因與生理反應",
+      "level": 3,
+      "q": "Hearing the terrible scream in the dark forest, the young boy trembled ____ fear.",
+      "options": [
+        "with",
+        "from",
+        "of",
+        "at"
+      ],
+      "answer": 0,
+      "zh": "在黑暗的森林裡聽到可怕的尖叫聲，小男孩因害怕而顫抖。",
+      "explain": "表示因強烈情緒或外在影響而引發肉體或心理的生理反應（如 shake with cold, tremble with fear, pale with rage），介系詞用 with。(B) from 表示疲勞或傷病的外在原因；(C) of 表示死因或內在狀態；(D) at 表示聽到或看到某事（如 tremble at the sight of...，但 fear 是情緒本身，故用 with fear）。"
+    },
+    {
+      "topic": "時間貫穿",
+      "level": 3,
+      "q": "Despite facing numerous setbacks, she maintained an optimistic attitude ____ her entire career.",
+      "options": [
+        "across",
+        "throughout",
+        "during",
+        "between"
+      ],
+      "answer": 1,
+      "zh": "儘管面臨無數挫折，她在整個職業生涯中始終保持樂觀的態度。",
+      "explain": "throughout 表示「貫穿、從頭到尾完全持續」（throughout one's career/life），強調自始至終的完整性。(A) across 用於空間跨越；(C) during 只指某時段中的某個時期或過程，不如 throughout 具強烈的「自始至終」意涵；(D) between 用於兩者之間。"
+    },
+    {
+      "topic": "除外對比",
+      "level": 3,
+      "q": "____ English and French, Amanda can also speak fluent Spanish and German.",
+      "options": [
+        "Except",
+        "Except for",
+        "Besides",
+        "Beside"
+      ],
+      "answer": 2,
+      "zh": "除了英文和法文之外，阿曼達還能說流利的西班牙文和德文。",
+      "explain": "Besides 表示「除了…之外（還有…，包含在內）」，句中有 also 符合此意。(A) Except 表示「除了…之外（排除不計）」；(B) Except for 用於整體中的修正排除（如 The essay is good except for a few typos）；(D) Beside 為「在…旁邊」。"
+    },
+    {
+      "topic": "比較修辭結構",
+      "level": 3,
+      "q": "Reading is ____ the mind what exercise is to the body.",
+      "options": [
+        "for",
+        "with",
+        "as",
+        "to"
+      ],
+      "answer": 3,
+      "zh": "讀書之於心靈，猶如運動之於身體。",
+      "explain": "「A is to B what C is to D」為著名英語修辭句型，表示「A 之於 B 猶如 C 之於 D」，前後皆固定搭配介系詞 to。(A) for、(B) with、(C) as 皆不能與 what 引導的對等比較結構搭配。"
+    },
+    {
+      "topic": "狀態介系詞",
+      "level": 3,
+      "q": "The proposal to build a new library is currently ____ consideration by the city council.",
+      "options": [
+        "under",
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "zh": "興建新圖書館的提案目前正由市議會審議中。",
+      "explain": "「under + 名詞」表示處於某種被動的處理過程或狀態中（如 under consideration 在考慮中、under discussion 在討論中、under construction 在興建中）。(B) in 搭配 in progress；(C) on 搭配 on trial；(D) at 搭配 at work。"
+    },
+    {
+      "topic": "代價與交換",
+      "level": 3,
+      "q": "The investor bought the old factory building ____ three million dollars and later resold it ____ a substantial profit.",
+      "options": [
+        "at; for",
+        "for; at",
+        "with; in",
+        "by; with"
+      ],
+      "answer": 1,
+      "zh": "那位投資者以三百萬美元買下這棟舊廠房，隨後以相當豐厚的利潤轉售。",
+      "explain": "buy / pay ... for 表示花費具體的總金額購買（買進花費某總價用 for）；sell at a profit / at a high price 表示以某種比率、獲利幅度或單價出售（用 at）。故第一空用 for，第二空用 at。(A) 順序相反；(C)、(D) 搭配皆不合文法慣用法。"
+    },
+    {
+      "topic": "免除與治癒",
+      "level": 3,
+      "q": "The doctor finally cured the patient ____ the chronic skin disease after months of therapy.",
+      "options": [
+        "from",
+        "off",
+        "of",
+        "out of"
+      ],
+      "answer": 2,
+      "zh": "經過數個月的治療，醫生終於治好了那名病患的慢性皮膚病。",
+      "explain": "cure + 人 + of + 疾病 表示「治好某人的疾病」，與 rob / relieve / deprive 相同，皆搭配介系詞 of。(A) cure 不搭配 from（recover 才是搭配 from：recover from an illness）；(B) off 與 (D) out of 皆非此動詞用法。"
+    },
+    {
+      "topic": "字源與衍生",
+      "level": 3,
+      "q": "A large number of modern English vocabulary items are derived ____ Latin and ancient Greek.",
+      "options": [
+        "of",
+        "by",
+        "out",
+        "from"
+      ],
+      "answer": 3,
+      "zh": "大量現代英語字彙是源自於拉丁文與古希臘文。",
+      "explain": "be derived from 表示「源自於；由…衍生而來」，表示詞源或事物根源。(A) of 用於 consist of 或 born of；(B) by 表示被動行為者；(C) out 需搭配 of（out of）但 derive 不與 out of 連用。"
+    },
+    {
+      "topic": "附帶狀況",
+      "level": 3,
+      "q": "Don't walk into the living room ____ your muddy boots on.",
+      "options": [
+        "with",
+        "by",
+        "have",
+        "in"
+      ],
+      "answer": 0,
+      "zh": "別穿著沾滿泥巴的靴子走進客廳。",
+      "explain": "「with + 受詞 (your muddy boots) + 副詞 (on)」為典型的附帶狀況結構，表示「穿著、帶著…」。(B) by 不能接名詞加副詞作附帶狀態；(C) have 為動詞，不能在已有主要動詞 walk 的祈使句中無連接詞並列；(D) in 表示穿著時，受詞為衣物且後不接副詞 on（如 in muddy boots，但不可說 in your boots on）。"
+    },
+    {
+      "topic": "時限之內",
+      "level": 3,
+      "q": "If you submit the application today, the official certificate will be issued ____ three working days.",
+      "options": [
+        "since",
+        "within",
+        "until",
+        "between"
+      ],
+      "answer": 1,
+      "zh": "如果你今天提交申請，官方證明將在三個工作天內核發。",
+      "explain": "within 表示「在…時間範圍之內（不超過該時限）」，強調不超過三個工作天。(A) since 表示自從…以來，需搭配完成式；(C) until 表示持續到某特定時間點；(D) between 用於兩者之間（between A and B）。"
+    }
+  ]
+}

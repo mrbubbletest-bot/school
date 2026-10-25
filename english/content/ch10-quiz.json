@@ -1,0 +1,695 @@
+{
+  "chapter": 10,
+  "title": "冠詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "\"Is he an American?\" \"No, he is ____ European.\"",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "much"
+          ],
+          "answer": 0,
+          "zh": "「他是美國人嗎？」「不，他是歐洲人。」",
+          "explain": "European [ju] 為子音發音開頭，故需用「a」。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "I want to ask you a question, and I want ____.",
+          "options": [
+            "a truth",
+            "the truth",
+            "truths",
+            "a true one"
+          ],
+          "answer": 1,
+          "zh": "我想問你一個問題，並且我要的是實話。",
+          "explain": "① 後半句原為：..., and I want the truth of the question.\n② 名詞後有形容詞片語或子句限制時，一般要用 the 置於名詞前。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The workers are paid ____.",
+          "options": [
+            "by the week",
+            "for a week",
+            "to a week",
+            "in a week"
+          ],
+          "answer": 0,
+          "zh": "工人按週計酬。",
+          "explain": "by the ＋ 計量單位（pound, week...）（以…計算）。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ is a very fashionable place in Beijing.",
+          "options": [
+            "Beihai Park",
+            "The Beihai Park",
+            "A Beihai Park",
+            "An Beihai Park"
+          ],
+          "answer": 0,
+          "zh": "北海公園在北京市是很受歡迎的地方。",
+          "explain": "Beihai Park 是專有名詞，不須加冠詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Mr. Lee is ____ one-eyed man you mentioned.",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "this"
+          ],
+          "answer": 1,
+          "zh": "李先生是你提到的那個獨眼龍。",
+          "explain": "one-eyed man 之後有子句 you mentioned 修飾，應加 the。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "He is so honest ____ that we all like him.",
+          "options": [
+            "boy",
+            "a boy",
+            "the boy",
+            "such boy"
+          ],
+          "answer": 1,
+          "zh": "他是如此誠實的孩子，所以我們都喜歡他。",
+          "explain": "so ＋ 形容詞 ＋ a(n) ＋ 名詞。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "What kind of ____ do you want?",
+          "options": [
+            "book",
+            "the books",
+            "the book",
+            "an book"
+          ],
+          "answer": 0,
+          "zh": "你想要哪種書？",
+          "explain": "what kind/sort of ＋ 單數名詞 ⇒ 名詞前不加冠詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "They are playing ____.",
+          "options": [
+            "basketball",
+            "one basketball",
+            "the basketball",
+            "a basketball"
+          ],
+          "answer": 0,
+          "zh": "他們正在打籃球。",
+          "explain": "play ＋ 球類運動 ⇒ 不加冠詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "She is playing ____.",
+          "options": [
+            "piano",
+            "a piano",
+            "one piano",
+            "the piano"
+          ],
+          "answer": 3,
+          "zh": "她正在彈鋼琴。",
+          "explain": "play the ＋ 樂器名稱。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "I have never seen ____ large apple before.",
+          "options": [
+            "such",
+            "such an",
+            "a such",
+            "such a"
+          ],
+          "answer": 3,
+          "zh": "我以前從未看過這麼大的蘋果。",
+          "explain": "such a/an ＋ 形容詞 ＋ 名詞（如此…）。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Birds of ____ feather flock together.",
+          "options": [
+            "a",
+            "the",
+            "x",
+            "an"
+          ],
+          "answer": 0,
+          "zh": "物以類聚。",
+          "explain": "a ＝ the same（同一的；相同的）。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "The old often ____ the young good ____.",
+          "options": [
+            "give/advice",
+            "gives/advices",
+            "give/an advice",
+            "gives/much advice"
+          ],
+          "answer": 0,
+          "zh": "老年人常給予年輕人忠告。",
+          "explain": "① The old ＝ Old people（老年人，表複數）。\n② advice（忠告）為不可數名詞。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "This is ____ interesting story I have ever heard.",
+          "options": [
+            "a very",
+            "a most",
+            "the most",
+            "a more"
+          ],
+          "answer": 2,
+          "zh": "這是我所聽過的故事中最有趣的。",
+          "explain": "最高級 ＋〔(that) I have ever heard〕（…中最…）。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "____ fruit I bought yesterday spoiled.",
+          "options": [
+            "Some of",
+            "Some of the",
+            "The some",
+            "The some of"
+          ],
+          "answer": 1,
+          "zh": "昨天我買的水果有些已經壞了。",
+          "explain": "有關係子句修飾名詞時，應加上定冠詞 the，表示限定：the ＋ 名詞 ＋〔who/which ＋ (S) ＋ V...〕。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "____ tourists come from Beijing, P. R. C.",
+          "options": [
+            "The most",
+            "Most of",
+            "The most of",
+            "Most of the"
+          ],
+          "answer": 3,
+          "zh": "大部分的觀光客來自中華人民共和國的北京。",
+          "explain": "most ＋ 名詞 ＝ most of the ＋ 名詞（大部分）。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "____ you study, ____ knowledge you can get.",
+          "options": [
+            "More/more",
+            "Most/most",
+            "The more/the more",
+            "The most/the most"
+          ],
+          "answer": 2,
+          "zh": "書讀得越多，知識越豐富。",
+          "explain": "The ＋ 比較級…，the ＋ 比較級…（愈…愈…）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "____ poet and ____ novelist are good friends.",
+          "options": [
+            "A/a",
+            "The/the",
+            "The/x",
+            "A/x"
+          ],
+          "answer": 1,
+          "zh": "這位詩人與這位小說家是好朋友。",
+          "explain": "The ＋ 名詞 and the ＋ 名詞 ⇒ 指不同兩人。\nThe ＋ 名詞 and 名詞 ⇒ 指一人兼兩職。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "____ seem to be natural enemies.",
+          "options": [
+            "Dog and cat",
+            "The dog and cat",
+            "The dog and the cat",
+            "The dogs and the cats"
+          ],
+          "answer": 2,
+          "zh": "狗跟貓似乎是天生的敵人。",
+          "explain": "表示總稱用法，用單數或複數均可，但需對稱：\nA dog and a cat...\nThe dog and the cat...\nDogs and cats..."
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "This is ____ opportunity to be lost.",
+          "options": [
+            "such a good",
+            "so good an",
+            "as good an",
+            "too good an"
+          ],
+          "answer": 3,
+          "zh": "勿失良機。",
+          "explain": "① so ＋ 形 ＋ a(n) ＋ 名詞 ＋ that...（如此…以致…）\nas ＋ 形 ＋ a(n) ＋ 名詞 ＋ as...（和…一樣…）\ntoo ＋ 形 ＋ a(n) ＋ 名詞 ＋ to...（太…而不能…）\n② such ＋ a(n) ＋ 形 ＋ 名詞 ＋ that...（如此…以致…）。本題為 too... to... 結構。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "You like to play ____ guitar while I like to play ____ baseball.",
+          "options": [
+            "the/the",
+            "a/a",
+            "the/x",
+            "x/the"
+          ],
+          "answer": 2,
+          "zh": "你喜歡彈吉他而我喜歡打棒球。",
+          "explain": "樂器名稱應加 the，運動名稱不需加 the。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "We can't drink ____ which is not clean.",
+          "options": [
+            "a water",
+            "the water",
+            "waters",
+            "water"
+          ],
+          "answer": 1,
+          "zh": "我們不能喝不乾淨的水。",
+          "explain": "參閱第14題說明。water 後面有關係子句 which is not clean 限定，故加定冠詞 the。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "This is ____ book that I lost the other day.",
+          "options": [
+            "the same",
+            "such",
+            "so",
+            "as"
+          ],
+          "answer": 0,
+          "zh": "這就是我前幾天遺失的書。",
+          "explain": "the same ＋ N ＋ that（和…一樣）⇒ 同一物。\nthe same ＋ N ＋ as...（和…一樣）⇒ 不同一物。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "We all know that ____ gold is a valuable metal.",
+          "options": [
+            "x",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer": 0,
+          "zh": "我們都知道黃金是有價值的金屬。",
+          "explain": "物質名詞，不加冠詞，若表示限定時，常加 the。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Albert Einstein, an ____ physicist, died in 1955.",
+          "options": [
+            "outstanding",
+            "famous",
+            "prominent",
+            "distinguished"
+          ],
+          "answer": 0,
+          "zh": "愛因斯坦是著名的物理學家，於1955年去世。",
+          "explain": "a ＋ 子音發音字母開頭（famous, prominent, distinguished...）\nan ＋ 母音發音字母開頭（outstanding...）。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "It is ____ to go fishing or to go swimming.",
+          "options": [
+            "fun",
+            "a fun",
+            "funs",
+            "funny"
+          ],
+          "answer": 0,
+          "zh": "去釣魚或游泳很有趣。",
+          "explain": "① fun（樂趣）為抽象名詞，沒有複數，不加冠詞。\n② funny（可笑的），意思不合。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "A cow is ____ as a horse.",
+          "options": [
+            "strong as an animal",
+            "as a strong animal",
+            "as strong an animal",
+            "as an animal strong"
+          ],
+          "answer": 2,
+          "zh": "牛是與馬一樣的強壯動物。",
+          "explain": "as ＋ 形容詞 ＋ a(an) ＋ 名詞 ＋ as（和…一樣）。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "____ twenty-four can be divided by 2, 3, 4, 6, 8, and 12.",
+          "options": [
+            "Numbers",
+            "The number",
+            "A number",
+            "Number"
+          ],
+          "answer": 1,
+          "zh": "24這個數字可被 2, 3, 4, 6, 8和12除盡。",
+          "explain": "抽象名詞通常不加冠詞，但若為特定時需加冠詞。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "____ of this house has been removed by the servant.",
+          "options": [
+            "The furnitures",
+            "The furniture",
+            "Furniture",
+            "A furniture"
+          ],
+          "answer": 1,
+          "zh": "這幢房子的家具已被僕人搬走了。",
+          "explain": "furniture（家具）為不可數名詞，原不置冠詞，但本句是限定用法，其後有形容詞片語（of the house）限定，故前置 the。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "John likes to keep track, in a general sort of ____, of all new developments in the natural science.",
+          "options": [
+            "way",
+            "ways",
+            "a way",
+            "the way"
+          ],
+          "answer": 0,
+          "zh": "約翰喜歡對自然科學中所有新的發展，有一些大致的了解。",
+          "explain": "a sort of ＋ 單數名詞 ⇒ 名詞前不加冠詞。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "____ that can endure uncomplainingly a long period of suffering is perhaps the noblest.",
+          "options": [
+            "Courage",
+            "Courages",
+            "The courage",
+            "The courages"
+          ],
+          "answer": 2,
+          "zh": "能毫無怨言地長期忍受痛苦的勇氣，也許是最高貴的。",
+          "explain": "courage 雖為抽象名詞，但後有關係子句限定，故前置 the。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入適當的英文字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "他所住的公寓是按月租的。\nThe ____ he lives in is rent ____ ____.",
+          "answer": "apartment / by the month",
+          "zh": "他所住的公寓是按月租的。",
+          "explain": "by the ＋（時間／距離／重量…）之名詞（以…計算）。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "我們用電話跟朋友聯絡。\nWe get in ____ our friends ____ ____.",
+          "answer": "touch with / by telephone",
+          "zh": "我們用電話跟朋友聯絡。",
+          "explain": "by telephone ＝ on the telephone ＝ over the telephone ＝ through telephone（用電話）。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "富有的人未必比窮人快樂。\n____ rich are not ____ happier than ____ poor.",
+          "answer": [
+            "The / always / the",
+            "The / necessarily / the"
+          ],
+          "zh": "富有的人未必比窮人快樂。",
+          "explain": "① The rich（富有的人）；The poor（窮苦的人）。\n② not always ＝ not necessarily（未必；不見得）。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "日出於東而沒於西。\n____ sun rises in ____ east and sets in ____ west.",
+          "answer": "The / the / the",
+          "zh": "日出於東而沒於西。",
+          "explain": "① 獨一無二的東西之前，應加定冠詞 the。\n② 東西南北等方向之前，應加定冠詞 the。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "有句格言說，「誠實為上策。」\nA ____ goes, “____ is ____ best policy.”",
+          "answer": [
+            "proverb / Honesty / the",
+            "saying / Honesty / the"
+          ],
+          "zh": "有句格言說，「誠實為上策。」",
+          "explain": "抽象名詞前，不加 the；若表示特定，則加上 the。例：The honesty of the boy is beyond doubt.（這孩子的誠實是無可置疑的。）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "王先生一家人住在公園旁的一棟公寓裡。",
+          "hint": "公寓裡：in an apartment",
+          "answer": "The Wangs live in an apartment near the park.",
+          "zh": "王先生一家人住在公園旁的一棟公寓裡。",
+          "explain": "The Wangs 指王家的所有家人。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "由於家貧他們只得按月租用這間房子。",
+          "hint": "按月租用：rent... by the month",
+          "answer": [
+            "Out of poverty, they rent the house by the month.",
+            "Because of their poverty, they rent the house by the month.",
+            "As they are poor, they rent the house by the month."
+          ],
+          "zh": "由於家貧他們只得按月租用這間房子。",
+          "explain": "Out of poverty 亦可用 Because of their poverty 或 As they are poor 等。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "王先生白天騎腳踏車到市場賣些新鮮水果。",
+          "hint": "騎腳踏車到市場：go to market by bicycle",
+          "answer": [
+            "By day Mr. Wang goes to the market by bicycle to sell some fresh fruit.",
+            "In the daytime Mr. Wang goes to the market by bicycle to sell some fresh fruit.",
+            "During the day Mr. Wang goes to the market by bicycle to sell some fresh fruit."
+          ],
+          "zh": "王先生白天騎腳踏車到市場賣些新鮮水果。",
+          "explain": "By day 亦可用 In the daytime 或 During the day。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "他晚上靠打零工賺些外快以便養家活口。",
+          "hint": "打零工：do some odd jobs；養家活口：support his family",
+          "answer": "By night, he makes some extra income by doing some odd jobs in order to support his family.",
+          "zh": "他晚上靠打零工賺些外快以便養家活口。",
+          "explain": "① make some extra income（賺取外快）。\n② by ＝ by means of（藉…方式；以…方法）。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "像王先生這樣認真工作的人早晚定會成功的。",
+          "hint": "認真工作：work hard/diligently；早晚：sooner or later",
+          "answer": "Such a hard worker as Mr. Wang is sure to succeed sooner or later.",
+          "zh": "像王先生這樣認真工作的人早晚定會成功的。",
+          "explain": "such ＋ a(n) ＋ 形容詞 ＋ 名詞 ＋ as...（像…這樣的人）。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，並選出空格內最適當的答案：\n\nThere are many __1.__ entertainment for children today--books, movies, games, and sports are only __2.__ the possibilities. Television is __3.__ newest kinds of entertainment. It __4.__ for about forty years, and __5.__ a great influence on children. Some people feel that __6.__ has had a good influence on children because __7.__ offers educational programs for them. __8.__ people feel that television is bad for children. They feel that there are __9.__ programs about crime and violence, and that even educational programs don't help __10.__ education.\n\n【詞彙及短語提示】\n1. entertainment：娛樂\n2. possibilities：可能（行）之事\n3. kinds of：種類\n4. influence：影響\n5. offers educational programs：提供教育節目\n6. crime and violence：犯罪與暴力",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "There are many ____ entertainment for children today--books, movies, games, and sports are only (2) the possibilities.",
+          "options": [
+            "kinds of",
+            "sorts",
+            "a type",
+            "a kind of"
+          ],
+          "answer": 0,
+          "zh": "現今對兒童而言有許多種娛樂——書本、電影、遊戲和運動僅是其中的一部分可能。",
+          "explain": "① many ＋ 複數名詞；many a ＋ 單數名詞。\n② kinds of ＝ sorts of ＝ types of（種類）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...books, movies, games, and sports are only ____ the possibilities.",
+          "options": [
+            "a little",
+            "a few",
+            "a little of",
+            "a few of"
+          ],
+          "answer": 3,
+          "zh": "…書本、電影、遊戲和運動僅是諸多可能中的幾種。",
+          "explain": "a few of ＋ 可數名詞複數（一些…）；a little of ＋ 不可數名詞。因後有 the possibilities（可數名詞複數），故選 a few of。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Television is ____ newest kinds of entertainment.",
+          "options": [
+            "one of the",
+            "the one of",
+            "one of a",
+            "of a one"
+          ],
+          "answer": 0,
+          "zh": "電視是最新型的娛樂之一。",
+          "explain": "① the newest（最新的，最高級前加 the）。\n② one of the ＋ 最高級 ＋ 複數名詞（最…的…之一）。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "It ____ for about forty years...",
+          "options": [
+            "has existed",
+            "is existed",
+            "existed",
+            "existing"
+          ],
+          "answer": 0,
+          "zh": "它已經存在了大約四十年…",
+          "explain": "表示持續「一段時間」（for about forty years），應用現在完成式 has existed（已經存在有…年了）。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...and ____ a great influence on children.",
+          "options": [
+            "has had",
+            "have had",
+            "has been",
+            "had been"
+          ],
+          "answer": 0,
+          "zh": "…並且對兒童產生了重大的影響。",
+          "explain": "① have a great influence on（對…有重大影響）。\n② 本題強調動詞一致性的觀念：主詞為 It，It has existed ... and has had ...。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "Some people feel that ____ has had a good influence on children...",
+          "options": [
+            "the TV",
+            "TV sets",
+            "television",
+            "televisions"
+          ],
+          "answer": 2,
+          "zh": "有些人覺得電視對兒童有良好的影響…",
+          "explain": "① television ＝ TV（電視），當總稱時為不可數名詞，不加 s。\n② TV sets（電視機），為具體可數名詞。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...because ____ offers educational programs for them.",
+          "options": [
+            "they",
+            "one",
+            "it",
+            "their"
+          ],
+          "answer": 2,
+          "zh": "…因為它為他們提供教育性的節目。",
+          "explain": "因 television 為不可數名詞，視為單數概念，應用代名詞 it 來代替。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "____ people feel that television is bad for children.",
+          "options": [
+            "Others",
+            "Another",
+            "Other",
+            "Those"
+          ],
+          "answer": 2,
+          "zh": "其他的人則覺得電視對兒童有害。",
+          "explain": "Some people ＋ V.... Other people（或 Others）＋ V...（有些人…，其他人…）。後有名詞 people，故用形容詞 Other 修飾。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "They feel that there are ____ programs about crime and violence...",
+          "options": [
+            "too much",
+            "too many",
+            "such many",
+            "such a"
+          ],
+          "answer": 1,
+          "zh": "他們覺得有太多關於犯罪與暴力的節目…",
+          "explain": "programs（節目）為可數名詞複數，應用 many 修飾，故選 too many。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "...and that even educational programs don't help ____ education.",
+          "options": [
+            "a child",
+            "children'",
+            "a child's",
+            "childrens'"
+          ],
+          "answer": 2,
+          "zh": "…而且甚至連教育節目也對孩子的教育沒有幫助。",
+          "explain": "所有格 ＋ 名詞。本題可用 a child's education 或 children's education。選項中只有 (C) a child's 正確。"
+        }
+      ]
+    }
+  ]
+}

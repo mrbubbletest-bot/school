@@ -1,0 +1,639 @@
+{
+  "chapter": 15,
+  "title": "副詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "A: How ____ do you go shopping?\nB: Once a week.",
+          "options": [
+            "many",
+            "long",
+            "often",
+            "much"
+          ],
+          "answer": 2,
+          "zh": "A: 你多久去購物一次？\nB: 一個禮拜一次。",
+          "explain": "How often（問次數與頻率）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "____ are you younger than your brother? I am two years younger than my brother.",
+          "options": [
+            "How old",
+            "How young",
+            "How many years",
+            "How long"
+          ],
+          "answer": 2,
+          "zh": "你比你的哥哥小幾歲？我比我哥哥小兩歲。",
+          "explain": "How old 用於詢問年紀；How many years 用於詢問年歲差距。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "____ are there in your collection? There are 500 stamps in my collection.",
+          "options": [
+            "How many stamps",
+            "How much stamps",
+            "How number stamps",
+            "What stamps"
+          ],
+          "answer": 0,
+          "zh": "你的集郵簿裡有多少張郵票？我的集郵簿裡有 500 張。",
+          "explain": "How many ＋ 複數名詞，stamp 為可數名詞，故用 how many stamps。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ is it from the bank to the post office?",
+          "options": [
+            "How about",
+            "How far",
+            "How many",
+            "Where"
+          ],
+          "answer": 1,
+          "zh": "從銀行到郵局有多遠？",
+          "explain": "How far is it...? 用於詢問距離。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "She got up ____ this morning.",
+          "options": [
+            "lately",
+            "latter",
+            "later",
+            "late"
+          ],
+          "answer": 3,
+          "zh": "她今天早上很晚起床。",
+          "explain": "late 為副詞，意為「遲；晚」，修飾 got up（起床）。lately 意為「最近地」。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "She is always very ____ dressed.",
+          "options": [
+            "neat",
+            "neatly",
+            "neatness",
+            "near"
+          ],
+          "answer": 1,
+          "zh": "她總是穿著非常整齊。",
+          "explain": "dressed 為過去分詞轉化之形容詞，故需用副詞 neatly（整齊地）來修飾。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "I am ____ interested in the news.",
+          "options": [
+            "deep",
+            "deeply",
+            "depth",
+            "deepen"
+          ],
+          "answer": 1,
+          "zh": "我對這則消息深感興趣。",
+          "explain": "interested 為形容詞（感興趣的），需用副詞 deeply（深深地）修飾。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "He ____ in a traffic accident.",
+          "options": [
+            "badly was injured",
+            "was badly injured",
+            "injured badly was",
+            "injured was badly"
+          ],
+          "answer": 1,
+          "zh": "他在車禍中受到重傷。",
+          "explain": "人 ＋ be injured 表「某人受傷」；副詞 badly（嚴重地）置於 be 動詞與過去分詞 injured 之間。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Tony is used to ____ for his girl friend Sue.",
+          "options": [
+            "wait patiently",
+            "waiting patiently",
+            "waiting patient",
+            "wait patient"
+          ],
+          "answer": 1,
+          "zh": "湯尼習慣於耐心地等待他的女朋友蘇。",
+          "explain": "① be used to ＋ V-ing（習慣於…）。\n② 用副詞 patiently（耐心地）修飾動詞 wait。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "We can learn ____ than ever.",
+          "options": [
+            "much easily",
+            "much more easily",
+            "more easilier",
+            "much more easilier"
+          ],
+          "answer": 1,
+          "zh": "我們學習起來比以前容易得多。",
+          "explain": "副詞比較級 more easily（較容易地）修飾動詞 learn，其前可用 much 修飾比較級。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "You have been ____ with your sister.",
+          "options": [
+            "angrily unreasonable",
+            "unreasonably angry",
+            "angrily unreasonably",
+            "unreasonable angrily"
+          ],
+          "answer": 1,
+          "zh": "你已經對你妹妹無理地發脾氣。",
+          "explain": "句型為 be ＋ 副詞 ＋ 形容詞。unreasonably（無理地，副詞）修飾形容詞 angry。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "It is such a good opportunity ____ you should not miss it.",
+          "options": [
+            "as",
+            "that",
+            "which",
+            "of which"
+          ],
+          "answer": 1,
+          "zh": "這樣的好機會你不該錯過。",
+          "explain": "such a/an ＋ 形容詞 ＋ 名詞 ＋ that ＋ 子句（如此…以致於…）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Mr. Jones was ____ angry to say anything at all.",
+          "options": [
+            "too much",
+            "so much",
+            "too",
+            "so"
+          ],
+          "answer": 2,
+          "zh": "瓊斯先生氣得說不出話來。",
+          "explain": "too ＋ 形容詞／副詞 ＋ to V（太…而不能…）。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "A fur coat is ____ more expensive than a cotton dress.",
+          "options": [
+            "very",
+            "the",
+            "much",
+            "as"
+          ],
+          "answer": 2,
+          "zh": "一件皮大衣比一件棉布衣貴得多。",
+          "explain": "much ／ far ＋ 比較級（比…得多）。very 不能直接修飾比較級。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Winter in the south are ____ like those in southern California.",
+          "options": [
+            "very",
+            "much",
+            "more",
+            "really"
+          ],
+          "answer": 0,
+          "zh": "南方的冬天和加州南部非常相像。",
+          "explain": "be like（像…）➜ be very like...（非常像…）。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "Atomic energy plays an ____ important role in industry.",
+          "options": [
+            "increasing",
+            "increasingly",
+            "increasely",
+            "increased"
+          ],
+          "answer": 1,
+          "zh": "原子能可在工業上逐漸扮演重要角色。",
+          "explain": "① play an important role（扮演重要角色）。\n② increasingly（逐漸地）為副詞，修飾形容詞 important。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Nylon is also smooth and washes even ____ than silk.",
+          "options": [
+            "more easier",
+            "easier",
+            "more easily",
+            "more easy"
+          ],
+          "answer": 2,
+          "zh": "尼龍也是很光滑的，而且比絲更易洗。",
+          "explain": "副詞比較級 more easily（較容易地）修飾動詞 washes，even 可用來加強比較級。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "The more you learn, the more ____ you can get a job.",
+          "options": [
+            "easily",
+            "easy",
+            "ease",
+            "easeful"
+          ],
+          "answer": 0,
+          "zh": "你學得愈多，你愈容易找到工作。",
+          "explain": "① The ＋ 比較級..., the ＋ 比較級...（愈…愈…）。\n② 此處用副詞 easily（容易地）修飾動詞 get。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "____ you did not come yesterday?",
+          "options": [
+            "Why",
+            "What reason",
+            "How come",
+            "What for"
+          ],
+          "answer": 2,
+          "zh": "為何你昨天沒來？",
+          "explain": "How come ＋ S ＋ V...?（為何…？），後面接直述句語序。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Great minds ____.",
+          "options": [
+            "think likely",
+            "likes to think",
+            "thinks alike",
+            "think alike"
+          ],
+          "answer": 3,
+          "zh": "英雄所見略同。",
+          "explain": "think alike（想法相似），alike 為副詞，修飾動詞 think；主詞 minds 為複數，動詞用原形 think。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "For ____ he lived in the south of Europe for the sake of his health.",
+          "options": [
+            "some time",
+            "sometime",
+            "some times",
+            "sometimes"
+          ],
+          "answer": 0,
+          "zh": "有段時間，他因健康的緣故住在南歐。",
+          "explain": "some time [名詞片語] 有一段時間；sometime [副詞] 某一時刻；some times [名詞片語] 好幾次；sometimes [副詞] 偶爾、有時候。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "When they met again a few years later, they said that they were ____ young.",
+          "options": [
+            "no longer",
+            "not more",
+            "any longer",
+            "no sooner"
+          ],
+          "answer": 0,
+          "zh": "幾年後當他們再次相逢，他們都說他們不再年輕了。",
+          "explain": "no longer 意為「不再」。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "____ the male are more beautiful than the female in the world of animals.",
+          "options": [
+            "Almost",
+            "Properly",
+            "Usually",
+            "Actually"
+          ],
+          "answer": 2,
+          "zh": "動物的世界中，通常雄性比雌性漂亮。",
+          "explain": "頻率副詞（usually）放在句首，是為了加強語氣。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Everyone who went on that trip returned full of tales which were talked about for months ____.",
+          "options": [
+            "latter",
+            "latest",
+            "later",
+            "late"
+          ],
+          "answer": 2,
+          "zh": "去那次旅行的人都帶著好多的故事回來，這些故事在後來幾個月中被談論著。",
+          "explain": "for months later（在之後的數月間）。(A) latter 後者；(B) latest 最晚的、最新的；(D) late 遲的、晚的。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "One point is that if the assignment is worked out ____, the worker will gain a power that would not be possible otherwise.",
+          "options": [
+            "thoroughly",
+            "good",
+            "thorough",
+            "hardest"
+          ],
+          "answer": 0,
+          "zh": "有一點就是如果該項作業已經徹底地計劃好，那麼工人就會獲得一種力量，反之就不可能的。",
+          "explain": "work out（精細計劃）為動詞片語，所以選用 thoroughly（徹底地，副詞）來修飾。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "As he could not come ____, he sent his younger brother instead.（複選）",
+          "options": [
+            "by himself",
+            "himself",
+            "in person",
+            "personally"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ],
+          "zh": "因為他不能親自來，便叫他弟弟代替他來。",
+          "explain": "himself、in person、personally 皆可表示「親自」。by himself ＝ alone（獨自），與題意不合。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "After the fight, a caretaker found that a young man ____ so he telephoned for an ambulance immediately.",
+          "options": [
+            "who was injured",
+            "who had been injured",
+            "seriously injured",
+            "was seriously injured"
+          ],
+          "answer": 3,
+          "zh": "在一場打鬥之後，管理員發現有一位年輕人受傷很嚴重，所以他立刻打電話叫救護車。",
+          "explain": "① that 引導名詞子句做 found 的受詞。\n② a young man 是名詞子句的主詞，述語動詞是 was injured（受傷），副詞 seriously（嚴重地）放在動詞片語的中間。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "A: Do you postpone your trip to America?\nB: Yes, I ____ until next year.",
+          "options": [
+            "put off it",
+            "put it on",
+            "put it off",
+            "put up my trip"
+          ],
+          "answer": 2,
+          "zh": "A: 你到美國的旅行要延期嗎？\nB: 是的，我要延到明年。",
+          "explain": "① 用 “it” 代替提過的名詞（my trip）。\n② put off ＝ postpone（延期）。\n③ “it” 為代名詞，與 put off 連用時，應改為 put it off。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "\"How can I get there very fast?\"\n\"You will get there ____ if you go by taxi.\"",
+          "options": [
+            "more faster",
+            "faster",
+            "more fast",
+            "more fastly"
+          ],
+          "answer": 1,
+          "zh": "「我要如何才能快點到達那裡？」「坐計程車會快點到。」",
+          "explain": "單音節副詞 fast，比較級加 -er 成為 faster；多音節副詞才加 more。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "We ought to prepare ourselves against a rainy day as ____.",
+          "options": [
+            "possible as we can",
+            "possible as we do",
+            "well as possible",
+            "well as it possible"
+          ],
+          "answer": 2,
+          "zh": "我們應該未雨綢繆，盡量做好準備。",
+          "explain": "① as... as possible（儘量；盡可能）。\n② a rainy day（未雨綢繆；不時之需）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填空題",
+      "instructions": "依中文提示完成下列英文句子，每格限填一字",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "天氣太冷而無法游泳。\nIt was ____ cold ____ we ____ swim.",
+          "answer": [
+            "so/that/can't",
+            "so/that/couldn't"
+          ],
+          "zh": "天氣太冷而無法游泳。",
+          "explain": "so... that... can't/couldn't...（如此…以致於無法…）。本句亦可寫成 It is/was too cold to swim。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "無論這工作有多難，我都要完成它。\n____ ____ the work ____, I will finish it.",
+          "answer": "However/hard/is",
+          "zh": "無論這工作有多難，我都要完成它。",
+          "explain": "However ＋ 形容詞／副詞 ＋ S ＋ V（無論多麼…）。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "這本書太難了，我讀不懂。\nThe book is ____ hard ____ I can't read ____.",
+          "answer": "so/that/it",
+          "zh": "這本書太難了，我讀不懂。",
+          "explain": "so... that...（如此…以致於…）。注意 read 之後需補上受詞 it 指代 the book。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "他之所以有今天的地位，全靠工作勤奮。\nHe is ____ he is ____ ____ ____.",
+          "answer": "what/by working hard",
+          "zh": "他之所以有今天的地位，全靠工作勤奮。",
+          "explain": "what (人) is 指「一個人的現狀或地位、人品」；by working hard 表示「藉由努力工作」。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "我很忙，所以必須把假期延後幾天。\nI am ____ busy ____ I'll have to ____ my vacation ____ for a few days.",
+          "answer": "so/that/put/off",
+          "zh": "我很忙，所以必須把假期延後幾天。",
+          "explain": "so... that...（如此…以致於…）；put... off（把…延期）。"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成通順的英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "秋天是我最喜歡出外旅遊的季節。",
+          "hint": "出外旅遊：go on a trip",
+          "answer": [
+            "Fall is the season when I like to go on an outing best.",
+            "Autumn is the season when I like to go on an outing best.",
+            "Fall is the season when I like to go on a trip best.",
+            "Autumn is the season when I like to go on a trip best."
+          ],
+          "zh": "秋天是我最喜歡出外旅遊的季節。",
+          "explain": "「出外郊遊／旅遊」：go on an outing 或 go on a picnic / go on a trip。\nwhen 引導關係副詞子句修飾先行詞 the season。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "每年秋天我都去阿里山，那裡空氣非常新鮮。",
+          "hint": "阿里山：Mt. Ali",
+          "answer": "Every fall I go to Mt. Ali, where the air is fresh.",
+          "zh": "每年秋天我都去阿里山，那裡空氣非常新鮮。",
+          "explain": "where 為關係副詞，引導非限定關係子句修飾專有名詞 Mt. Ali。"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "而我常去那裡的原因是觀賞迷人的日出。",
+          "hint": "迷人的日出：the fascinating sunrise",
+          "answer": "The reason why I often go there is that I enjoy watching the fascinating sunrise.",
+          "zh": "而我常去那裡的原因是觀賞迷人的日出。",
+          "explain": "①「迷人的」：fascinating, charming, attractive。\n② why 為關係副詞修飾 the reason；that 引導名詞子句作 is 的主詞補語。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "一大清早，山上擠滿了遊客等待太陽的出現。",
+          "hint": "擠滿了遊客：be crowded with travellers",
+          "answer": [
+            "In the early morning, the mountain top is crowded with visitors waiting for the sun to come up.",
+            "In the early morning, the mountain top is crowded with travellers waiting for the sun to come up."
+          ],
+          "zh": "一大清早，山上擠滿了遊客等待太陽的出現。",
+          "explain": "①「擠滿」：be crowded with / be filled with。\n② waiting for the sun to come up 為分詞片語修飾前面的 visitors / travellers。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "他們直到看見閃亮的太陽才高興地下山。",
+          "hint": "閃亮的太陽：sparkling sun",
+          "answer": [
+            "They don't go down the mountain happily until they have seen the shining sun.",
+            "They don't go down the mountain happily until they have seen the sparkling sun."
+          ],
+          "zh": "他們直到看見閃亮的太陽才高興地下山。",
+          "explain": "「直到…才…」：not... until...。\nhappily（高興地，副詞）修飾動詞片語 go down the mountain。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案填充",
+      "instructions": "閱讀短文，並在空格內填入最適當的單字：\n\nThere is one interesting fact a__1.__ the shark. Perhaps you know __2.__. It never stops swimming. If it __3.__, it would sink in the water. It is not like o__4.__ fish which can stop swimming and rest.\n\nThough the shark is dangerous, fishermen still hunt __5.__ it in the sea. They can sell i__6.__ oil. It is called \"shark's liver oil\" and __7.__ rich in vitamin A. __8.__ certain countries, shark's meat is e__9.__. So fishermen can sell the shark __10.__ a lot of money.\n\n【詞彙及短語提示】\n1. the shark：鯊魚\n2. perhaps：也許\n3. sink [動]：下沉\n4. dangerous [形]：危險的\n5. shark's liver oil：魚肝油\n6. fishermen [名]：漁夫",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "There is one interesting fact a____ the shark.",
+          "answer": "about",
+          "zh": "關於鯊魚有一個有趣的事實。",
+          "explain": "about（關於）。fact about... 意為「關於…的事實」。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "Perhaps you know ____.",
+          "answer": "it",
+          "zh": "也許你已經知道這件事。",
+          "explain": "代名詞 it 指代前面所提的 fact。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "If it ____, it would sink in the water.",
+          "answer": "stopped",
+          "zh": "如果牠停止游泳，牠就會沉入水中。",
+          "explain": "與現在事實相反的假設語氣：if 子句用過去式動詞 stopped，主要子句用 would ＋ 原形動詞 sink。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "It is not like o____ fish which can stop swimming and rest.",
+          "answer": "other",
+          "zh": "牠不像其他可以停止游泳並休息的魚類。",
+          "explain": "other ＋ 複數名詞（其他…）。fish 單複數同形，在此表複數。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "Though the shark is dangerous, fishermen still hunt ____ it in the sea.",
+          "answer": "for",
+          "zh": "雖然鯊魚很危險，漁夫們仍在海中獵捕牠。",
+          "explain": "hunt for...（獵捕…；搜尋…）。"
+        },
+        {
+          "no": 6,
+          "type": "fill",
+          "q": "They can sell i____ oil.",
+          "answer": "its",
+          "zh": "他們可以賣牠的油。",
+          "explain": "所有格代名詞 its（牠的），修飾名詞 oil。"
+        },
+        {
+          "no": 7,
+          "type": "fill",
+          "q": "It is called \"shark's liver oil\" and ____ rich in vitamin A.",
+          "answer": "is",
+          "zh": "它被稱為「魚肝油」，並且富含維生素 A。",
+          "explain": "主詞為 It（單數），be rich in...（富含…），動詞用 is。"
+        },
+        {
+          "no": 8,
+          "type": "fill",
+          "q": "____ certain countries, shark's meat is eaten.",
+          "answer": "In",
+          "zh": "在某些國家，鯊魚肉是被食用的。",
+          "explain": "在某個國家介系詞用 In，置於句首字首需大寫。"
+        },
+        {
+          "no": 9,
+          "type": "fill",
+          "q": "...shark's meat is e____.",
+          "answer": "eaten",
+          "zh": "…鯊魚肉是被食用的。",
+          "explain": "is eaten 為被動語態（被吃、被食用），eat 的過去分詞為 eaten。"
+        },
+        {
+          "no": 10,
+          "type": "fill",
+          "q": "So fishermen can sell the shark ____ a lot of money.",
+          "answer": "for",
+          "zh": "因此漁夫們可以把鯊魚賣得很多錢。",
+          "explain": "sell something for + 金額（以…價錢出售某物）。"
+        }
+      ]
+    }
+  ]
+}

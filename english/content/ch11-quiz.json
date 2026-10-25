@@ -1,0 +1,730 @@
+{
+  "chapter": 11,
+  "title": "名詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "John's experiment was a great ____.",
+          "options": [
+            "succeed",
+            "successful",
+            "success",
+            "successful"
+          ],
+          "answer": 2,
+          "zh": "約翰的實驗極為成功。",
+          "explain": "a success（成功的事情）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "The rich man is living in a ____ building.",
+          "options": [
+            "ten-story",
+            "ten stories",
+            "ten story",
+            "ten-stories"
+          ],
+          "answer": 0,
+          "zh": "那富人住在十層樓。",
+          "explain": "數字＋單數名詞⇒作形容詞用，ten-story（十層的）。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "He likes to eat ____.",
+          "options": [
+            "fishes and beefs",
+            "boiling egg",
+            "frozen meat",
+            "fried potatos"
+          ],
+          "answer": 2,
+          "zh": "他喜歡吃冷凍肉。",
+          "explain": "fish（魚）、beef（牛肉）為物質名詞，沒有複數；boiling egg（正在煮的蛋）；frozen meat（冷凍肉）；potato 的複數應為 potatoes，fried potatoes（油炸馬鈴薯）。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "The farmer raises many ____ in his farm.",
+          "options": [
+            "deers",
+            "sheeps",
+            "oxes",
+            "chickens"
+          ],
+          "answer": 3,
+          "zh": "農夫在其農場裡養了許多雞。",
+          "explain": "① sheep 與 deer 單複數同形。\n② ox 複數為 oxen。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "The servants have removed ____ of this house.",
+          "options": [
+            "the furnitures",
+            "furnitures",
+            "the furniture",
+            "a furniture"
+          ],
+          "answer": 2,
+          "zh": "僕人已移走此屋內的家具。",
+          "explain": "furniture（家具）為不可數名詞，原不置冠詞，但其後有形容詞片語（of this house）限定，故前置定冠詞 the。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "Everybody needs at least ____ shoes in his daily life.",
+          "options": [
+            "a piece of",
+            "a cake of",
+            "a pair of",
+            "a sheet of"
+          ],
+          "answer": 2,
+          "zh": "每個人在日常生活中至少需要一雙鞋子。",
+          "explain": "a piece of（一片／張／塊）；a cake of（一塊）；a pair of（一雙）；a sheet of（一張）。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "But she always says that we do not listen to any words of ____.",
+          "options": [
+            "her",
+            "him",
+            "she's",
+            "hers"
+          ],
+          "answer": 3,
+          "zh": "但她經常說我們不聽她的話。",
+          "explain": "any words of hers（她的任何一句話）。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Many friends of ____ have something to do with that political party.",
+          "options": [
+            "my father",
+            "my father's",
+            "my fathers'",
+            "my fathers"
+          ],
+          "answer": 1,
+          "zh": "我父親的許多朋友與那個政黨有關係。",
+          "explain": "many ＋ N ＋ of ＋ 所有格代名詞 ➜ 雙重所有格，如 many friends of mine（我的許多朋友）。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "I met her at ____ the other day.",
+          "options": [
+            "the grocer's",
+            "grocer's",
+            "a grocer",
+            "the grocer"
+          ],
+          "answer": 0,
+          "zh": "我在雜貨店見到她。",
+          "explain": "名詞（人）'s ＋ (house, store, shop...)，the grocer's (shop)。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "What do you think of ____ music abroad?",
+          "options": [
+            "Mary studying",
+            "Mary's studying",
+            "Mary's studies",
+            "Mary is studying"
+          ],
+          "answer": 1,
+          "zh": "瑪麗到國外研究音樂，你覺得如何？",
+          "explain": "所有格 ＋ V-ing ＋ 名詞\n所有格 ＋ 名詞"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Man ____ on the earth for thousands of years.",
+          "options": [
+            "are existed",
+            "is existed",
+            "has existed",
+            "have existed"
+          ],
+          "answer": 2,
+          "zh": "人類存在地球上已有數千年之久了。",
+          "explain": "① Man（人類）＋ 單數動詞\n② 表示「一段時間」用現在完成式 has existed。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "____ is a faithful animal.",
+          "options": [
+            "Dogs",
+            "The dog",
+            "Doggie",
+            "An dog"
+          ],
+          "answer": 1,
+          "zh": "狗是忠實的動物。",
+          "explain": "表示「總稱」用法可用下列三種方式：\nA dog is a faithful animal.\n＝ The dog is a faithful animal.\n＝ Dogs are faithful animals。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Last night she went shopping and bought ____ at the market.",
+          "options": [
+            "a piece of glove",
+            "a pair of gloves",
+            "a pair of glove",
+            "a piece of gloves"
+          ],
+          "answer": 1,
+          "zh": "昨天晚上她出去購物，在市場買了一雙手套。",
+          "explain": "① a pair of（一雙）\n② 成雙的名詞，應用複數，如 shoes, gloves, glasses 等。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "The news coming from his hometown ____ him feel sad.",
+          "options": [
+            "is made",
+            "makes",
+            "make",
+            "are made"
+          ],
+          "answer": 1,
+          "zh": "故鄉傳來的消息使他感到悲傷。",
+          "explain": "主詞 news 為單數，故用 makes。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Language study is one of the best ____ of enabling us to understand our fellow men.",
+          "options": [
+            "mean",
+            "means",
+            "meanings",
+            "meant"
+          ],
+          "answer": 1,
+          "zh": "語言的研究是了解我們同胞的最佳方式之一。",
+          "explain": "one of the best ＋ 複數名詞（最佳的…之一）。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "I need to buy a set of new ____ for my living room.",
+          "options": [
+            "tool",
+            "furniture",
+            "equipment",
+            "baggage"
+          ],
+          "answer": 1,
+          "zh": "我需要為我的客廳買一組家具。",
+          "explain": "tool 與 equipment 為可數名詞，不需要 a set of（一組）來修飾。furniture 為不可數名詞，a set of furniture（一組家具）。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "Mr. Lin always takes ____ to do his work well.",
+          "options": [
+            "pains",
+            "effort",
+            "troubles",
+            "pain"
+          ],
+          "answer": 0,
+          "zh": "林先生總是努力去做妥工作。",
+          "explain": "take pains（費力；努力）。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "I did give my parents ____ trouble when I was young.",
+          "options": [
+            "large",
+            "many",
+            "much",
+            "not small"
+          ],
+          "answer": 2,
+          "zh": "年輕時，我的確帶給雙親很多麻煩。",
+          "explain": "trouble（麻煩）為不可數名詞，用 much 修飾。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "Machines are ____ no use without the power to run them.",
+          "options": [
+            "at",
+            "by",
+            "in",
+            "of"
+          ],
+          "answer": 3,
+          "zh": "沒有動力，機械就毫無用處。",
+          "explain": "of ＋ 抽象名詞 ＝ 形容詞，of no use ＝ useless（無用的）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "This book will be ____ in your studies.",
+          "options": [
+            "with care",
+            "of great use",
+            "of valuable",
+            "great importance"
+          ],
+          "answer": 1,
+          "zh": "這本書對你的課業有很大助益。",
+          "explain": "of great use ＝ very useful（有用的）\nwith care ＝ carefully（小心的）\nof great value ＝ very valuable（有價值的）\nof great importance ＝ very important（重要的）"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Woman is physically weaker than ____.",
+          "options": [
+            "man",
+            "a man",
+            "the man",
+            "men"
+          ],
+          "answer": 0,
+          "zh": "女性在身體上比男性弱。",
+          "explain": "man（男性）；woman（女性）為「總稱」用法。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "She married while she was still ____.",
+          "options": [
+            "in her teen",
+            "in her teens",
+            "a teen",
+            "teenager"
+          ],
+          "answer": 1,
+          "zh": "她十幾歲時就結婚了。",
+          "explain": "① in her teens 在 13－19 歲之間。\n② teenager 指 13－19 歲之間的青少年。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "He went abroad with his parents ____.（複選）",
+          "options": [
+            "in his twenty",
+            "in his twenties",
+            "when he was 20 years old",
+            "he was 20 years of age"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ],
+          "zh": "他在二十(幾)歲時隨父母出國。",
+          "explain": "in his twenties 指 20－29 歲之間。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "\"The Smiths have just moved into a larger house.\"\n\"Did they have to buy ____ for it?\"",
+          "options": [
+            "many new furnitures",
+            "much new furnitures",
+            "many new furniture",
+            "much new furniture"
+          ],
+          "answer": 3,
+          "zh": "「史密斯一家人已搬到一個較大的房子裡了。」「那他們必須買很多新家具囉？」",
+          "explain": "furniture 為不可數名詞，不加 s，而且要用 much 修飾。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "____ of Confucius are known throughout the world.",
+          "options": [
+            "Many of the saying",
+            "Many of saying",
+            "Many the sayings",
+            "Many of the sayings"
+          ],
+          "answer": 3,
+          "zh": "孔子的許多箴言已傳遍世界各地。",
+          "explain": "many of the ＋ 複數名詞（許多的…）。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "\"I didn't go to the party last night. Did ____ go to the party?\"",
+          "options": [
+            "many John friends",
+            "many John's friends",
+            "many of John's friends",
+            "many friends of John"
+          ],
+          "answer": 1,
+          "zh": "「我昨晚未來參加宴會，有很多約翰的朋友參加嗎？」",
+          "explain": "many John's friends ＝ many friends of John's。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "His father was a ____. He taught in a university.（複選）",
+          "options": [
+            "scholar of learned",
+            "scholar of learning",
+            "learned scholar",
+            "learning scholar"
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "zh": "他父親是個很有學問的學者，他過去在大學教書。",
+          "explain": "a scholar of learning ＝ a learned scholar。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "____ is much better than that.",
+          "options": [
+            "My brother's this watch",
+            "This my brother's watch",
+            "This watch of my brother's",
+            "This watch of my brother"
+          ],
+          "answer": 2,
+          "zh": "我哥哥的這隻表比那隻要好。",
+          "explain": "雙重所有格之表達：\nThis/That/A/Any ＋ N ＋ of 所有格代名詞..."
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "His house is within ____ from the railway station.",
+          "options": [
+            "a stone's throw",
+            "a throw of a stone",
+            "stone's throw",
+            "the stone's throw"
+          ],
+          "answer": 0,
+          "zh": "他的家離火車站很近。",
+          "explain": "within (at) a stone's throw（一石之遙；近在咫尺）。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "____(1)____ has been widely taught. (2) of people have acquired a good knowledge of (3) language.\n（選出第 (1) 題最適當的答案）",
+          "options": [
+            "The English",
+            "English language",
+            "English",
+            "Languages"
+          ],
+          "answer": 2,
+          "zh": "學英語已經很普遍了。非常多的人已學會這種語言。",
+          "explain": "(1) 選 (C) English（語言名詞前通常不加冠詞）。\n在數字之後的 dozen, hundred, thousand 等不加 s；但如前無明確的數字時，則需改為 thousands (dozens/hundreds) of。"
+        },
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "(1) English has been widely taught. ____(2)____ of people have acquired a good knowledge of (3) language.\n（選出第 (2) 題最適當的答案）",
+          "options": [
+            "Many thousands",
+            "Much thousand",
+            "Few thousand",
+            "Good thousands"
+          ],
+          "answer": 0,
+          "zh": "學英語已經很普遍了。非常多的人已學會這種語言。",
+          "explain": "(2) 選 (A) Many thousands。\n在數字之後的 dozen, hundred, thousand 等不加 s；但如前無明確的數字時，則需改為 thousands (dozens/hundreds) of。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "(1) English has been widely taught. (2) Many thousands of people have acquired a good knowledge of ____(3)____ language.\n（選出第 (3) 題最適當的答案）",
+          "options": [
+            "a",
+            "some",
+            "the",
+            "its"
+          ],
+          "answer": 2,
+          "zh": "學英語已經很普遍了。非常多的人已學會這種語言。",
+          "explain": "(3) 選 (C) the（特指前面提到的該種語言，須加定冠詞 the）。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依據中文提示，填入適當的英文字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "幼年所學，終生不忘。\n____ is learned in the cradle ____ ____ of the grave.",
+          "answer": "What / is carried",
+          "zh": "幼年所學，終生不忘。",
+          "explain": "cradle（搖籃）；grave（墳墓）。全句為：What is learned in the cradle is carried to the grave."
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "年輕人應該尊敬老年人。\n____ should respect ____ ____.\n= ____ should respect ____.",
+          "answer": "The young / the old / Youth / age",
+          "zh": "年輕人應該尊敬老年人。",
+          "explain": "① the ＋ 形容詞 ＝ 複數名詞\n② youth（年輕人），age（老年人）表示總稱用法。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "空氣、食物和水為生命所必需。\nAir, food and water ____ ____ ____ life.",
+          "answer": "are necessary to",
+          "zh": "空氣、食物和水為生命所必需。",
+          "explain": "本句亦可用 are essential to。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "貪財為萬惡之源。\n____ love of money is ____ root of all ____.",
+          "answer": "The / the / evil",
+          "zh": "貪財為萬惡之源。",
+          "explain": "① do evil ＝ do wrong（做壞事）\n② return good for evil（以德報怨）"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "忠實乃美德中之至上者。\nFaithfulness is ____ ____ of all ____.",
+          "answer": "the best / virtues",
+          "zh": "忠實乃美德中之至上者。",
+          "explain": "Virtue is its own reward.（唯善唯美）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列各句翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "據報導，每年有數以千計的青少年犯罪。",
+          "hint": "①據報導：It is reported that... ②犯罪：commit crimes",
+          "answer": [
+            "It is reported that there are thousands of juvenile delinquencies every year.",
+            "Report has it that there are thousands of juvenile delinquencies every year.",
+            "It is reported that thousands of juveniles commit crimes every year."
+          ],
+          "zh": "據報導，每年有數以千計的青少年犯罪。",
+          "explain": "①「據報導」亦可用 Report has it that ＋ S ＋ V。\n②「犯罪」亦可用 commit crimes。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "這些青少年大部分來自貧困或單親的家庭。",
+          "hint": "單親的家庭：single-parent family",
+          "answer": [
+            "These juveniles mostly come of poor or single-parent families.",
+            "These teenagers mostly come of poor or single-parent families."
+          ],
+          "zh": "這些青少年大部分來自貧困或單親的家庭。",
+          "explain": "① mostly（主要地；大半）\n② come of（出身於；來自於）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "由於無知，他們染上抽煙、賭博、吸毒等惡習。",
+          "hint": "①由於無知：out of ignorance ②染上…惡習：addict oneself to",
+          "answer": [
+            "Out of ignorance, they get into bad habits of smoking, gambling, taking drugs, etc.",
+            "Out of ignorance, they fall into bad habits of smoking, gambling, taking drugs, etc.",
+            "Out of ignorance, they addict themselves to smoking, gambling, using drugs, and so on."
+          ],
+          "zh": "由於無知，他們染上抽煙、賭博、吸毒等惡習。",
+          "explain": "本句亦可寫成：Out of ignorance, they addict themselves to smoking, gambling, using drugs, and so on。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "他們白天睡覺，晚上則偷車子或搶劫商店。",
+          "hint": "搶劫商店：rob stores",
+          "answer": "They sleep by day and steal cars or rob stores by night.",
+          "zh": "他們白天睡覺，晚上則偷車子或搶劫商店。",
+          "explain": "「搶劫（人）的（物）」：\nrob (人) of (物)\n(人) be robbed of (物)\n例：I was robbed of my watch the other day.（我的手錶前幾天被搶走了。）"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "青少年問題日益增多，政府應有效地制止。",
+          "hint": "①日益增多：get increasing in number ②制止：curb it",
+          "answer": [
+            "Juvenile delinquency problems are increasing day by day, and the government should take effective measures to stop them.",
+            "Juvenile delinquency problems are on the increase day by day, and the government should adopt effective measures to stop them."
+          ],
+          "zh": "青少年問題日益增多，政府應有效地制止。",
+          "explain": "① are increasing ＝ are on the increase（增加）\n② take... measures ＝ adopt... measures（採取…措施）"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，並選出空格內最適當的答案：\n\nFast readers have an advantage over slow __1.__. They get through their __2.__ more quickly and in many __3.__ can understand and appreciate more of __4.__ they read.\nSome people are slow readers just __5.__ habit. If you are one of these, __6.__ for a while to make yourself read faster. This alone may increase your speed, and after you get used to __7.__, you will not have to force __8.__. Remember that speed is not the most important thing __9.__ reading. Comprehension and appreciation __10.__.\n\n【詞彙及短語提示】\n1. have an advantage over：超越；勝過\n2. get through = finish：完成\n3. appreciate [動]：欣賞\n4. for a while：暫時；一會兒\n5. get used to + N(或)V-ing：習慣於\n6. comprehension [名]：了解；理解\n7. appreciation [名]：欣賞；賞識",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Fast readers have an advantage over slow ____.",
+          "options": [
+            "reader",
+            "ones",
+            "people",
+            "groups"
+          ],
+          "answer": 1,
+          "zh": "閱讀快的人比閱讀慢的人具有優勢。",
+          "explain": "① 為避免名詞重複，後面重複的名詞可用 one 或 ones 代替。\n② 此句中 ones ＝ readers（讀者）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "They get through their ____ more quickly...",
+          "options": [
+            "working",
+            "worker",
+            "works",
+            "work"
+          ],
+          "answer": 3,
+          "zh": "他們更快地完成他們的工作…",
+          "explain": "① work [名] 工作（不可數）。\n② works [名] 作品（可數）。\n③ working hard（動名詞＋副詞）：努力工作；hard work（形容詞＋名詞）：努力工作。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "...and in many ____ can understand and appreciate more of (4) they read.",
+          "options": [
+            "cases",
+            "forms",
+            "ages",
+            "lives"
+          ],
+          "answer": 0,
+          "zh": "…而且在許多情況下能夠更多地理解並欣賞他們所閱讀的內容。",
+          "explain": "in many cases：在許多情況下。in case of ＋ N：如果；假如…的話。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "...and appreciate more of ____ they read.",
+          "options": [
+            "things",
+            "which",
+            "what",
+            "them"
+          ],
+          "answer": 2,
+          "zh": "…並欣賞他們所閱讀的內容。",
+          "explain": "what they read 為名詞子句作 of 的受詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Some people are slow readers just ____ habit.",
+          "options": [
+            "because",
+            "out of",
+            "owing to",
+            "away from"
+          ],
+          "answer": 1,
+          "zh": "有些人讀得慢只是出於習慣。",
+          "explain": "① out of habit：由於（出於）習慣性。\n② owing to ＋ N：因為；由於。\n③ away from ＋ N：遠離；脫離。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "If you are one of these, ____ for a while to make yourself read faster.",
+          "options": [
+            "trying",
+            "tried",
+            "try",
+            "tries"
+          ],
+          "answer": 2,
+          "zh": "如果你是其中之一，試著有一段時間讓自己讀快一點。",
+          "explain": "本句為「祈使句」，應用原形動詞 try。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "This alone may increase your speed, and after you get used to ____...",
+          "options": [
+            "them",
+            "one",
+            "it",
+            "there"
+          ],
+          "answer": 2,
+          "zh": "光是這點就可能提高你的速度，而在你習慣它之後…",
+          "explain": "① get used to it：習慣於它。\n② it 指 make yourself read faster 這件事情。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "...you will not have to force ____.",
+          "options": [
+            "themselves",
+            "yourself",
+            "oneself",
+            "someone"
+          ],
+          "answer": 1,
+          "zh": "…你就不用勉強自己了。",
+          "explain": "force yourself：強迫你自己。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Remember that speed is not the most important thing ____ reading.",
+          "options": [
+            "in",
+            "to",
+            "for",
+            "by"
+          ],
+          "answer": 0,
+          "zh": "記住，在閱讀方面，速度並不是最重要的事。",
+          "explain": "in ＋ N(或)V-ing：在…方面。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Comprehension and appreciation ____.",
+          "options": [
+            "have",
+            "make",
+            "are",
+            "will"
+          ],
+          "answer": 2,
+          "zh": "理解與賞識才是最重要的。",
+          "explain": "原句 ＝ Comprehension and appreciation are (the most important things in reading)。重複部分可省略。"
+        }
+      ]
+    }
+  ]
+}

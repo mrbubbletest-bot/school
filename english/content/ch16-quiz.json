@@ -1,0 +1,586 @@
+{
+  "chapter": 16,
+  "title": "連接詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "He is poor, ____ he is generous.",
+          "options": ["either", "but", "both", "neither"],
+          "answer": 1,
+          "zh": "他雖窮，但很慷慨。",
+          "explain": "Though S+V..., S+V...（雖…但…）= S+V..., but S+V..."
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "One step more, ____ you are a dead man.",
+          "options": ["but", "or", "and", "so"],
+          "answer": 2,
+          "zh": "再往前一步，那麼你就死定了。",
+          "explain": "名詞, and + 子句 ➜ 表示「再～，則／就～」。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "He can write either prose ____ poetry.",
+          "options": ["and", "or", "nor", "than"],
+          "answer": 1,
+          "zh": "他不是會寫散文，就是會寫詩。",
+          "explain": "either A or B（不是 A 就是 B）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Which do you like better, coke ____ coffee?",
+          "options": ["what", "where", "or", "how"],
+          "answer": 2,
+          "zh": "你較喜歡哪一種，可樂或咖啡？",
+          "explain": "兩種東西請對方選擇其一時用 or 連接。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Tom had a headache, ____ he didn't go to the party.",
+          "options": ["why", "so", "but", "or"],
+          "answer": 1,
+          "zh": "湯姆頭痛，所以他沒有去參加宴會。",
+          "explain": "so 當連接詞，表示「因此；所以」。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "You won't be on time ____ you hurry.",
+          "options": ["except", "unless", "without", "beside"],
+          "answer": 1,
+          "zh": "除非你趕快，否則你無法準時到達。",
+          "explain": "unless（除非…）引導條件副詞子句。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Some countries are rich ____ others are poor.",
+          "options": ["when", "while", "where", "why"],
+          "answer": 1,
+          "zh": "有些國家富裕，然而有些卻很窮。",
+          "explain": "while 可做對照或讓步子句的連接詞，意為「但是；卻；然而」。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Strike ____ the iron is hot.",
+          "options": ["while", "as", "when", "since"],
+          "answer": 0,
+          "zh": "趁熱打鐵。",
+          "explain": "while（當…時候）引導時間副詞子句。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Rich ____ he is, he is not happy.",
+          "options": ["as", "like", "what", "even if"],
+          "answer": 0,
+          "zh": "雖然他富有，但他並不快樂。",
+          "explain": "Though he is rich,... = Rich as he is,...（雖然…）引導讓步副詞子句倒裝。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Water is to fish ____ air is to man.",
+          "options": ["that", "which", "what", "so"],
+          "answer": 2,
+          "zh": "水對魚猶如空氣對人。",
+          "explain": "A is to B what C is to D（A 之於 B 猶如 C 之於 D）為固定句型。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "He was the only candidate; ____ he was elected.",
+          "options": ["therefore", "yet", "moreover", "besides"],
+          "answer": 0,
+          "zh": "他是唯一的候選人；因此，他當選了。",
+          "explain": "therefore（因此）為準連接詞（連接副詞），前置分號；yet（但是）；moreover（而且）；besides（除～之外）均不合題意。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "My brother couldn't go; ____ I went instead.",
+          "options": ["so as", "consequently", "rather", "accordingly"],
+          "answer": 1,
+          "zh": "我哥哥不能去，所以我代他去。",
+          "explain": "consequently = therefore（所以；因此），為表示結果的準連接詞。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "They didn't come any longer ____ what happened.",
+          "options": ["since", "after", "for", "because"],
+          "answer": 1,
+          "zh": "從事情發生之後，他們再也不來了。",
+          "explain": "after（在～之後）用以引導表示時間的副詞子句。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Every night John studied hard and did his homework ____ 11:30 p.m.",
+          "options": ["at", "since", "until", "for"],
+          "answer": 2,
+          "zh": "每晚約翰用功讀書，做作業直到十一點半。",
+          "explain": "(A) at 指某一定點之時間；(B) since 指自從…到現在；(C) until 指動作持續到…時候才停止；(D) for 表示原因或持續一段時間。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Don't go away ____ you have told me what actually happened.",
+          "options": ["since", "then", "after", "until"],
+          "answer": 3,
+          "zh": "把實際發生的事情告訴我，才可離開。",
+          "explain": "S + 否定動詞... + until...（直到…才…）= It is not until... that + S + V = Not until... + 倒裝句。"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "He ____ up till eight o'clock this morning.",
+          "options": ["get", "didn't get", "not gets", "will get"],
+          "answer": 1,
+          "zh": "他早上直到八點才起床。",
+          "explain": "not... until（直到～才）。瞬間動詞 get up 搭配 until 時，動詞須用否定式 didn't get。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "People do not know the value of freedom ____ they have lost it.",
+          "options": ["until", "when", "since", "as"],
+          "answer": 0,
+          "zh": "人們失去自由，才知道自由的可貴。",
+          "explain": "not... until（直到～才～）。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Do what you are told; ____ you will be punished.",
+          "options": ["and", "but", "otherwise", "if"],
+          "answer": 2,
+          "zh": "照著人家告訴你的去做，否則你就會受罰。",
+          "explain": "祈使句～; otherwise + 子句（否則～就…）。otherwise 前置分號。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "I will go ____ how long it will take me to get there.",
+          "options": ["anyway", "no matter", "nevertheless", "never mind"],
+          "answer": 1,
+          "zh": "不管花多少時間，我都要去那裡。",
+          "explain": "no matter how = however（無論如何；不管多麼）。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Don't believe him ____ he says.",
+          "options": ["no matter how", "no matter what", "that", "which"],
+          "answer": 1,
+          "zh": "無論他怎麼說，不要相信他。",
+          "explain": "no matter what = whatever，有連接詞性質，在副詞子句中亦當動詞 say 的受詞。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "I am glad to do ____ you want me to do.",
+          "options": ["that", "however", "which", "whatever"],
+          "answer": 3,
+          "zh": "我樂意做任何你要我做的事。",
+          "explain": "whatever 引導名詞子句當不定詞 to do 的受詞。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "Mary is ____ clever ____ she understands everything.",
+          "options": ["such a/that", "as/so", "so/that", "so/as"],
+          "answer": 2,
+          "zh": "瑪麗很聰明，所以她了解每件事。",
+          "explain": "so + 形容詞 + that + 子句，表示「如此～以致…」。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "She is ____ that she is liked by all.",
+          "options": ["so a nice girl", "as nice a girl", "such a nice girl", "how nice a girl"],
+          "answer": 2,
+          "zh": "她是一位如此美好的女孩，所以深受大家喜歡。",
+          "explain": "① so + 形容詞 + a(n) + 名詞 + that... = such + a(n) + 形容詞 + 名詞 + that... 表示「如此～所以…」。\n② such a nice girl = so nice a girl。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "It makes no difference to me ____ he will come or not.",
+          "options": ["how", "why", "when", "whether"],
+          "answer": 3,
+          "zh": "他是否要來，我一點也無所謂。",
+          "explain": "① whether... or not（是否），引導名詞子句當真正主詞（It 為虛主詞）。\n② make no difference（無所謂；沒有影響）。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "The teacher should behave well ____ he may show a good example to his students.",
+          "options": ["in order to", "so as to", "no matter what", "so that"],
+          "answer": 3,
+          "zh": "老師應行為端正，好給他的學生樹立良好的榜樣。",
+          "explain": "in order to + 原形動詞 / in order that (so that) + 子句（為了…目的）。後面是完整子句，故選 so that。"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "The rocket seems very complex; ____, it is a relatively simple device.",
+          "options": ["but", "moreover", "nevertheless", "furthermore"],
+          "answer": 2,
+          "zh": "火箭似乎很複雜；然而，相對地它卻是很簡單的裝置。",
+          "explain": "① but 是對等連接詞，之前不用分號「;」。\n② moreover = furthermore（此外；而且）。\n③ nevertheless 為連接副詞（準連接詞），表示「然而」，可與分號搭配。"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "I don't like Jack. I don't like Tom. So I like ____.",
+          "options": ["nobody except Jack and Tom", "Jack only", "either Jack or Tom", "neither Jack nor Tom"],
+          "answer": 3,
+          "zh": "我不喜歡傑克，我不喜歡湯姆。因此我既不喜歡傑克也不喜歡湯姆。",
+          "explain": "① either A or B（不是 A 便是 B）。\n② neither A nor B（兩者皆不）。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "He must have been sleeping; ____ he would have heard the bell.",
+          "options": ["except that", "or else", "but that", "otherwise"],
+          "answer": 3,
+          "zh": "他一定是在睡覺否則他會聽到鈴聲的。",
+          "explain": "① or else 為對等連接詞，與「,」連用。\n② otherwise 為副詞當準連接詞，與「;」連用。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "It is such a good opportunity ____ you should not miss it.",
+          "options": ["as", "that", "which", "what"],
+          "answer": 1,
+          "zh": "這是個好機會，你不能錯過。",
+          "explain": "① such + 名詞 + that + 完整子句（如此…以致…）。本題後接完整子句，故用 that。\n② such + 名詞 + as + 不完整子句（如…之類的…，as 為關係代名詞）。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "____ on a trip, I always have my camera ready.",
+          "options": ["In case of", "While", "In time of", "During"],
+          "answer": 1,
+          "zh": "當我去旅行時，我都會準備好相機。",
+          "explain": "While I am on a trip,... = While on a trip,...（分詞構句中省略主詞與 be 動詞，保留連接詞 While）。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 31,
+          "type": "mc",
+          "q": "The problem ____ overworking all day long impairs his health.",
+          "options": ["is", "that", "which", "is that"],
+          "answer": 3,
+          "zh": "問題是在整天的過度工作損害了他的健康。",
+          "explain": "The problem is that + 子句〔主詞 + 動詞 + that 引導名詞子句作主詞補語〕。"
+        },
+        {
+          "no": 32,
+          "type": "mc",
+          "q": "They drove to the farm in the afternoon and spent the night there, ____ they could start out early the next morning.",
+          "options": ["so that", "therefore", "so long as", "provided that"],
+          "answer": 0,
+          "zh": "他們下午開車到農場並在那裡過夜，以便他們能在明天一大早就出發。",
+          "explain": "so long as（只要）／provided that（假如）／so that（為了；以便）。"
+        },
+        {
+          "no": 33,
+          "type": "mc",
+          "q": "To know a person's language is to understand his culture, ____ language grows out of and reflects cultures.",
+          "options": ["because of", "therefore", "though", "for"],
+          "answer": 3,
+          "zh": "要了解一個人的語言，就要了解他的文化，因為語言來自文化並反映著文化。",
+          "explain": "① because of + 名詞，表示「因為」；therefore 表示「因此」。\n② though + 子句，表示「雖然」。\n③ for + 子句，表示推測的「因為」，前置逗號。"
+        },
+        {
+          "no": 34,
+          "type": "mc",
+          "q": "At the interview, he was so impressed by her analytical and linguistic ability ____ he sent her to the editor-in-chief.",
+          "options": ["that", "which", "what", "where"],
+          "answer": 0,
+          "zh": "面談時，他對她在分析和語言上的才能深具印象，於是他將她介紹給總編輯。",
+          "explain": "so～that 表示「如此～以致…」。"
+        },
+        {
+          "no": 35,
+          "type": "mc",
+          "q": "____, he went to school as usual.（複選）",
+          "options": [
+            "Despite of his illness",
+            "In spite of his illness",
+            "No matter of his illness",
+            "No matter how ill he was"
+          ],
+          "answer": [1, 3],
+          "zh": "儘管他生病了，他還是照常上學。",
+          "explain": "① In spite of + 名詞 = Despite + 名詞（儘管；不顧）= Although + S + V。(B) 正確；原書認為 Despite of 亦可，但現代標準英語 Despite 不加 of。\n② No matter how + 副詞／形容詞 + S + V（無論多麼…），故 (D) 正確。"
+        },
+        {
+          "no": 36,
+          "type": "mc",
+          "q": "It is not safe to get off a car ____.",
+          "options": [
+            "unless it is in motion",
+            "until it has come to a stop",
+            "after you have opened the window",
+            "before the traffic light turns red"
+          ],
+          "answer": 1,
+          "zh": "車停了才下車，這樣才安全。",
+          "explain": "主詞 + 否定動詞... + until...（直到…才…）。汽車停妥之前下車是不安全的。"
+        },
+        {
+          "no": 37,
+          "type": "mc",
+          "q": "If you sell your rice now you will be playing your hand very badly. Wait ____ the price goes up.",
+          "options": ["until", "still", "for", "so that"],
+          "answer": 0,
+          "zh": "如果你現在賣掉米，就不按常理出牌了。何不等到物價上漲再賣。",
+          "explain": "① 表示「持續性動詞」（如：wait, stay, live...）與 until 連用時，主句的動詞用肯定。\n② 表示「瞬間性動詞」（如：go, come, leave...）與 until 連用時，主句的動詞用否定。\n③ play one's hand badly（沒有聰明地做；處理不當）。"
+        },
+        {
+          "no": 38,
+          "type": "mc",
+          "q": "I would like to try, ____ you agree to give me a free hand.（複選）",
+          "options": [
+            "provided for",
+            "provided that",
+            "as long as",
+            "on condition that"
+          ],
+          "answer": [1, 2, 3],
+          "zh": "我願意一試，只要你同意授我全權。",
+          "explain": "provided (that) = providing (that) = on condition that = as long as（只要…）。(B)、(C)、(D) 均可。"
+        },
+        {
+          "no": 39,
+          "type": "mc",
+          "q": "The rain is over. You must not stay any longer. = You must not stay any longer ____ the rain is over.",
+          "options": ["when", "that", "now that", "as for"],
+          "answer": 2,
+          "zh": "雨已停，你不可再多留。／你不可再多留，既然雨停了。",
+          "explain": "now that = seeing that = since（既然；由於）。"
+        },
+        {
+          "no": 40,
+          "type": "mc",
+          "q": "She had to work several years ____ she could continue her studies in France.",
+          "options": ["as", "while", "before", "then"],
+          "answer": 2,
+          "zh": "在她去法國繼續其學業之前，她必須先工作數年。",
+          "explain": "before（在…之前）。(A) 因為；(B) 當…之時；(D) 那麼，那時。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "根據中文提示，在空格處填入最適當的單字或片語以完成英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "我直到清晨兩點才就寢。\nI ____ go to ____ two o'clock in the morning.",
+          "answer": "didn't / bed / until",
+          "zh": "我直到清晨兩點才就寢。",
+          "explain": "not... until...（直到…才…）➜ 指動作開始；until（直到…）➜ 指動作結束。\n例如：\nI didn't get up until 8 o'clock.（八點才起床）\nI waited for him until 8 o'clock.（我等到八點止）"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "不論天氣如何，我們都要去野餐。\n____ the weather ____ be, we will ____ a picnic.",
+          "answer": "Whatever / may / go on",
+          "zh": "不論天氣如何，我們都要去野餐。",
+          "explain": "① Whatever + S + V（不論如何；不論什麼）。\n② go on a picnic（去野餐）= go for a picnic = go picnicking。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "既然我們沒有咖啡，就用茶代替。\n____ we don't have coffee, we ____ tea ____ it.",
+          "answer": "Now (或 Seeing) that / substitute / for",
+          "zh": "既然我們沒有咖啡，就用茶代替。",
+          "explain": "① Now / Seeing that = Since + S + V（既然）。\n② substitute A for B（以 A 代替 B）。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "快一點，否則你上課會遲到。\n____ ____, or you will ____ ____ the class.",
+          "answer": "Hurry up (或 Make haste) / be late for",
+          "zh": "快一點，否則你上課會遲到。",
+          "explain": "① be in time for + N（及時趕上…）。\n② be late for + N（趕不上…；上…遲到）。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "雖然他辛勞地工作，但仍無法使父母高興。\n____ ____ his hard work, he could not ____ his parents happy.",
+          "answer": "In spite of / make",
+          "zh": "雖然他辛勞地工作，但仍無法使父母高興。",
+          "explain": "本句亦可寫成：\nAlthough he worked hard, he...\n= Hard as he worked, he..."
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "請根據各題中文與提示，翻譯成完整通順的英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "英語是國際間最通用的語言。",
+          "hint": "",
+          "answer": "English is the most widely used international language.",
+          "zh": "英語是國際間最通用的語言。",
+          "explain": "本句亦可寫成：\nEnglish is the most popular language in the world.\n= English is the language used worldwide."
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "可是，要學好它並不是一件容易的事。",
+          "hint": "",
+          "answer": "However, it is not easy to learn it well.",
+          "zh": "可是，要學好它並不是一件容易的事。",
+          "explain": "本句亦可寫成：\nHowever, learning (或 to learn) it well is not easy."
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "首先，我們要有耐心，並要勤查字典。",
+          "hint": "查字典: consult 或 use a dictionary；查單字: look up (或 look for) the word in a dictionary",
+          "answer": "First of all, we should have patience and consult the dictionary constantly.",
+          "zh": "首先，我們要有耐心，並要勤查字典。",
+          "explain": "① 「首先」可用 First of all 或 To begin with。\n② 「查字典」可用 consult 或 use a dictionary；「查單字」可用 look up (或 look for) the word in a dictionary。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "再者，有疑問時一定要問老師。",
+          "hint": "一定;務必: be sure to + V；此外: Besides; What's more; In addition",
+          "answer": "Secondly, be sure to ask your teacher when you have any questions.",
+          "zh": "再者，有疑問時一定要問老師。",
+          "explain": "① 「再者」可用 Secondly 或 Moreover。\n② 「一定；務必」：be sure to + V。\n③ 「此外」尚可用 Besides; What's more; In addition。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "畢竟，能說流利的英語是令人羨慕的。",
+          "hint": "說流利的英語: speak fluent English；令人羨慕的: admirable",
+          "answer": "After all, it is admirable if we can speak English fluently.",
+          "zh": "畢竟，能說流利的英語是令人羨慕的。",
+          "explain": "① 「說流利的英語」亦可用 speak fluent English。\n② admirable（形容詞）：令人羨慕的、令人欽佩的。\n（註：原書答案印為 Afrer all 為排印訛誤，更正為 After all）。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀下列短文，選出最適當的答案：\n\n__1.__ I was a small child, I have been taught not to fail, __2.__ rather to be a winner in everything. __3.__, I gradually found out that it was impossible to succeed in everything. __4.__ I am concerned, the past twenty years of my life may have been years of failure, __5.__ they have not been years spent in vain. Now I have learned how to face failure and, __6.__ I have at the same time discovered how to learn from failure and __7.__ gain most valuable experience. Learning from our present failures is the best way of avoiding failures __8.__. It is impossible to fail all the time __9.__ we learn from our past failures. __10.__, the way to be successful in life is to keep the lessons of our failures in mind and to make every achievement the beginning of another step forward.\n\n【詞彙及短語提示】\n1. winner (n.) 優勝者；贏家\n2. gradually (adv.) 逐漸地\n3. found out: 發現；了解\n4. in vain: 無效；徒勞\n5. So/As far as I am concerned: 就…而言；以…而論\n6. face failure: 面對失敗\n7. at the same time: 同時\n8. discover (v.) 發現\n9. learn from: 從…中學習\n10. valuable experience: 寶貴的經驗\n11. all the time: 始終；一直\n12. keep... in mind: 牢記在心\n13. achievement (n.) 成就\n14. step forward: 前進之階；邁步向前",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "____ I was a small child, I have been taught not to fail...",
+          "options": ["Ever since", "Not until", "Now that", "In case"],
+          "answer": 0,
+          "zh": "自從小時候起，我就被教導不能失敗……",
+          "explain": "Ever since + S + V（過去簡單式）, S + have/has + p.p....（自從…開始一直到現在都…）。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...I have been taught not to fail, ____ rather to be a winner in everything.",
+          "options": ["only", "but", "or", "and"],
+          "answer": 1,
+          "zh": "……而是要在每一件事上都成為贏家。",
+          "explain": "not A but rather B（不是 A 而是 B）。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "____, I gradually found out that it was impossible to succeed in everything.",
+          "options": ["Besides", "Unless", "However", "Whatever"],
+          "answer": 2,
+          "zh": "然而，我逐漸發現要在每件事都成功是不可能的。",
+          "explain": "(A) 此外 (B) 除非 (C) 然而 (D) 不論什麼。此處語意轉折，選 However。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "____ I am concerned, the past twenty years of my life may have been years of failure...",
+          "options": ["As long as", "As soon as", "As well as", "As far as"],
+          "answer": 3,
+          "zh": "就我而言，我人生過去的二十年或許是失敗的歲月……",
+          "explain": "As far as I am concerned 為固定片語，表示「就我而言；以我之見」。(A) 只要；(B) 一…就；(C) 和/與；(D) 到…程度/就…而言。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...the past twenty years of my life may have been years of failure, ____ they have not been years spent in vain.",
+          "options": ["but", "for", "because", "while"],
+          "answer": 0,
+          "zh": "……但並非白白度過。",
+          "explain": "but（但是），表示轉折反意。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "Now I have learned how to face failure and, ____ I have at the same time discovered how to learn from failure...",
+          "options": ["except", "moreover", "until", "unless"],
+          "answer": 1,
+          "zh": "……而且我同時發現如何從失敗中學習……",
+          "explain": "moreover = besides = in addition（此外；而且），連接遞進概念。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...how to learn from failure and ____ gain most valuable experience.",
+          "options": ["even", "still", "thus", "else"],
+          "answer": 2,
+          "zh": "……並因而獲得最寶貴的經驗。",
+          "explain": "thus（如此；因而），表示因果結果。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Learning from our present failures is the best way of avoiding failures ____.",
+          "options": ["up to the present", "from then on", "in the past", "in the future"],
+          "answer": 3,
+          "zh": "從我們目前的失敗中學習，是避免將來失敗的最佳方法。",
+          "explain": "(A) 到目前為止 (B) 從那時起 (C) 以前；以往 (D) 將來。從現在失敗學習可避免「未來」失敗，故選 in the future。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "It is impossible to fail all the time ____ we learn from our past failures.",
+          "options": ["if", "as", "when", "what"],
+          "answer": 0,
+          "zh": "如果我們能從過去的失敗中記取教訓，我們不可能一直失敗。",
+          "explain": "if = in case（如果；假如），表示條件。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "____, the way to be successful in life is to keep the lessons of our failures in mind...",
+          "options": ["However", "Therefore", "Otherwise", "No matter"],
+          "answer": 1,
+          "zh": "因此，人生邁向成功之道就是牢記失敗的教訓……",
+          "explain": "(A) 然而 (B) 因此 (C) 否則 (D) 不論。最後總結全文結論，選 Therefore。"
+        }
+      ]
+    }
+  ]
+}

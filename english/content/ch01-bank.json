@@ -1,0 +1,594 @@
+{
+  "chapter": 1,
+  "title": "時態",
+  "items": [
+    {
+      "topic": "現在簡單式：客觀真理與科學事實",
+      "level": 1,
+      "q": "The science teacher explained that water ____ at 100 degrees Celsius under normal atmospheric pressure.",
+      "options": [
+        "boil",
+        "boiled",
+        "boils",
+        "is boiling"
+      ],
+      "answer": 2,
+      "zh": "自然老師解釋說，在正常大氣壓力下，水在攝氏 100 度沸騰。",
+      "explain": "科學真理、物理法則或客觀事實屬於永恆不變的真理，無論主要子句動詞為何，名詞子句皆須使用「現在簡單式」。主詞 water 為不可數名詞，動詞用單數形 boils。(A) boil 為原形複數動詞，主詞為單數不可數時不適用；(B) boiled 為過去式，客觀真理不隨主要子句改為過去式；(D) is boiling 為現在進行式，表示此刻正在沸騰，不能用來表示普遍原理。"
+    },
+    {
+      "topic": "現在簡單式：日常習慣與頻率副詞",
+      "level": 1,
+      "q": "My older brother is very diligent; he usually ____ up at six o'clock every morning to review his lessons.",
+      "options": [
+        "get",
+        "gets",
+        "got",
+        "is getting"
+      ],
+      "answer": 1,
+      "zh": "我哥哥非常勤奮；他通常每天早上六點起床複習功課。",
+      "explain": "句中有頻率副詞 usually（通常）與時間片語 every morning（每天早晨），表示日常生活中的規律習慣，動詞須用「現在簡單式」。主詞 he 為第三人稱單數，動詞加上 -s 變為 gets。(A) get 為原形動詞，未加單數字尾；(C) got 為過去式，不能表示規律習慣；(D) is getting 為現在進行式，通常表示此刻正在發生的動作，不搭配 usually 表示習慣。"
+    },
+    {
+      "topic": "現在進行式：說話當下正在進行的動作",
+      "level": 1,
+      "q": "Listen! The school band ____ their new song in the auditorium right now.",
+      "options": [
+        "practices",
+        "practiced",
+        "is practicing",
+        "will practice"
+      ],
+      "answer": 2,
+      "zh": "聽！學校樂隊現在正在禮堂練習他們的新歌。",
+      "explain": "祈使詞 Listen!（聽！）與時間副詞 right now（現在；此刻）強烈暗示該動作正在眼前發生，動詞應使用「現在進行式」（am/is/are + V-ing）。主詞 the school band 視為單一團體單位，故使用 is practicing。(A) practices 為現在簡單式，用於習慣而非當下動作；(B) practiced 為過去簡單式；(D) will practice 為未來簡單式。"
+    },
+    {
+      "topic": "過去簡單式：過去特定時間發生的動作",
+      "level": 1,
+      "q": "Emily ____ an interesting documentary about African wildlife on television yesterday evening.",
+      "options": [
+        "watches",
+        "watched",
+        "has watched",
+        "was watched"
+      ],
+      "answer": 1,
+      "zh": "艾蜜莉昨天傍晚在電視上看了一部關於非洲野生動物的有趣紀錄片。",
+      "explain": "句尾有明確的過去時間副詞 yesterday evening（昨天傍晚），表示在過去特定時間點已經結束的動作，動詞必須使用「過去簡單式」watched。(A) watches 為現在簡單式；(C) has watched 為現在完成式，不可與具體明確的過去時間詞（如 yesterday）連用；(D) was watched 為被動語態，主詞 Emily 是看電視的動作執行者，應為主動。"
+    },
+    {
+      "topic": "未來簡單式：will 與未來時間副詞",
+      "level": 1,
+      "q": "If everything goes smoothly, the construction team ____ the new library next month.",
+      "options": [
+        "finished",
+        "finishes",
+        "will finish",
+        "has finished"
+      ],
+      "answer": 2,
+      "zh": "如果一切順利的話，施工團隊下個月將會完成新圖書館的興建。",
+      "explain": "時間副詞 next month（下個月）表示未來時間，主要子句動詞應使用「未來簡單式」（will + 原形動詞）。(A) finished 為過去簡單式；(B) finishes 為現在簡單式；(D) has finished 為現在完成式，不能用來表示下個月將發生的事情。"
+    },
+    {
+      "topic": "現在完成式：經驗副詞 ever / never",
+      "level": 1,
+      "q": "This is a wonderful novel; have you ever ____ anything written by this author before?",
+      "options": [
+        "read",
+        "reading",
+        "reads",
+        "are reading"
+      ],
+      "answer": 0,
+      "zh": "這是一本精彩的小說；你以前曾經讀過這位作家寫的任何作品嗎？",
+      "explain": "本題考現在完成式疑問句「Have + 主詞 + ever + 過去分詞 (p.p.) ... before?」，表示到目前為止的人生經驗。動詞 read 的三態為 read-read-read（過去式與過去分詞拼法相同，發音為 /rɛd/），故正確選項為 read。(B) reading 為現在分詞，不能接在助動詞 have 後構成完成式；(C) reads 為單數現在式動詞；(D) are reading 為現在進行式，文法結構完全不符。"
+    },
+    {
+      "topic": "現在進行式：不能用於進行式的狀態動詞",
+      "level": 1,
+      "q": "This blue backpack ____ to Kevin, so you should return it to him after school.",
+      "options": [
+        "belongs",
+        "is belonging",
+        "belonged",
+        "has belonged"
+      ],
+      "answer": 0,
+      "zh": "這個藍色背包是凱文的，所以你放學後應該把它還給他。",
+      "explain": "動詞 belong to（屬於）表示「所有關係」的靜態動詞，其本身即含有狀態持續的意味，在現代英語文法中通常不使用進行式。主詞 this blue backpack 為第三人稱單數，用現在簡單式 belongs。(B) is belonging 錯誤，belong 為狀態動詞不可用於進行式；(C) belonged 為過去式，與後句 return it to him after school（現在狀態）不符；(D) has belonged 語意上無強調持續至今的必要。"
+    },
+    {
+      "topic": "過去進行式：過去某時間點正在進行",
+      "level": 1,
+      "q": "At eight o'clock yesterday evening, Peter ____ his math homework in his bedroom.",
+      "options": [
+        "did",
+        "was doing",
+        "has done",
+        "does"
+      ],
+      "answer": 1,
+      "zh": "昨天晚上八點時，彼得正在他的臥室裡寫數學作業。",
+      "explain": "句中有「具體過去時間點」（At eight o'clock yesterday evening），強調該特定時刻動作「正在進行」，動詞應使用「過去進行式」（was/were + V-ing）。主詞 Peter 為單數，故選 was doing。(A) did 為過去簡單式，僅表示過去事實，未強調該時刻正在進行；(C) has done 為現在完成式；(D) does 為現在簡單式。"
+    },
+    {
+      "topic": "現在完成式：時間副詞 since 的基本用法",
+      "level": 1,
+      "q": "Mr. Lin has taught mathematics at this junior high school ____ 2015.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "during"
+      ],
+      "answer": 1,
+      "zh": "林老師自 2015 年起就在這所國中教數學。",
+      "explain": "現在完成式中，表示「自從過去某個特定時間點一直持續到現在」時，介系詞須使用 since。2015 是一個具體年份（時間點），故接 since。(A) for 後面須接「一段時間長度」（如 for ten years）；(C) in 2015 通常與過去簡單式連用；(D) during 意為「在…期間」，不搭配現在完成式表達從過去持續到現在。"
+    },
+    {
+      "topic": "現在完成式：時間副詞 for 的基本用法",
+      "level": 1,
+      "q": "The two girls are best friends; they have known each other ____ more than five years.",
+      "options": [
+        "since",
+        "for",
+        "during",
+        "before"
+      ],
+      "answer": 1,
+      "zh": "這兩個女孩是最好的朋友；她們已經認識彼此超過五年了。",
+      "explain": "more than five years（超過五年）為「一段時間長度」，與現在完成式連用時必須使用介系詞 for。(A) since 後面只能接「時間起點」（如 since 2018），不能接一段時間；(C) during 表示在某時期期間，不與完成式表示累積期間連用；(D) before 為副詞或連接詞，不能作表示期間長度的介系詞。"
+    },
+    {
+      "topic": "過去簡單式：used to + 原形動詞",
+      "level": 1,
+      "q": "Grandpa ____ smoke a lot when he was young, but he quit twenty years ago.",
+      "options": [
+        "used to",
+        "is used to",
+        "was used to",
+        "uses to"
+      ],
+      "answer": 0,
+      "zh": "爺爺年輕時經常抽很多菸，但他二十年前就戒掉了。",
+      "explain": "句型「used to + 原形動詞」表示「過去經常如此，但現在已經不再發生的習慣或狀態」。(B) is used to 後接動名詞或名詞，表示「現在習慣於…」；(C) was used to 後接動名詞表示「過去習慣於…」，或作被動「被用來…」；(D) uses to 英文中並無此現在式用法。"
+    },
+    {
+      "topic": "現在簡單式：副詞子句代替未來式 (if)",
+      "level": 1,
+      "q": "We will have a picnic by the lake tomorrow if the weather ____ fine.",
+      "options": [
+        "will be",
+        "is",
+        "was",
+        "has been"
+      ],
+      "answer": 1,
+      "zh": "如果明天天氣晴朗，我們明天將會在湖邊野餐。",
+      "explain": "在表示時間或條件的副詞子句中（由 if, when, unless 等引導），一律使用「現在簡單式」代替「未來簡單式」。雖然時間是 tomorrow，但 if 子句內動詞須用 is，不可用 will be。(A) will be 違反條件副詞子句用現在代替未來的規則；(C) was 為過去式；(D) has been 為現在完成式。"
+    },
+    {
+      "topic": "現在進行式：代替未來簡單式（既定行程）",
+      "level": 1,
+      "q": "Aunt Mary bought her plane ticket yesterday. She ____ to Tokyo tomorrow morning.",
+      "options": [
+        "flies",
+        "is flying",
+        "flew",
+        "has flown"
+      ],
+      "answer": 1,
+      "zh": "瑪麗姑姑昨天買了機票。她明天早上就要飛往東京了。",
+      "explain": "移動性動詞如 go, come, leave, fly, arrive 等，常可用「現在進行式」（is flying）來表示「不久後即將發生且已做好準備的既定計畫」。(A) flies 雖偶爾也可用於時刻表，但此處強調個人已訂好的行程，is flying 最貼切；(C) flew 為過去式；(D) has flown 為現在完成式。"
+    },
+    {
+      "topic": "過去簡單式：過去連續動作（and 連接）",
+      "level": 1,
+      "q": "The detective arrived at the crime scene, took out his notebook, and ____ questioning the witnesses.",
+      "options": [
+        "began",
+        "begins",
+        "has begun",
+        "had begun"
+      ],
+      "answer": 0,
+      "zh": "刑警抵達犯罪現場，拿出他的筆記本，然後開始詢問目擊證人。",
+      "explain": "敘述過去接連發生的一連串動作時，各動作動詞由對等連接詞 and 連接，時態必須保持一致，全數使用「過去簡單式」（arrived, took out, and began）。(B) begins 為現在簡單式；(C) has begun 為現在完成式；(D) had begun 為過去完成式，連續動作不需刻意使用完成式。"
+    },
+    {
+      "topic": "現在完成式：already 與 yet 的位置與語氣",
+      "level": 1,
+      "q": "\"Has the postman delivered the mail ____?\" \"No, he hasn't arrived yet.\"",
+      "options": [
+        "already",
+        "yet",
+        "still",
+        "just"
+      ],
+      "answer": 1,
+      "zh": "「郵差已經送來信件了嗎？」「還沒，他還沒到。」",
+      "explain": "在現在完成式的否定句與一般疑問句句尾，習慣使用 yet 表示「尚；已經」。(A) already 通常用於肯定句中（置於句中或句尾），在疑問句中若使用 already 通常帶有強烈的驚訝語氣；(C) still 通常置於助動詞前（如 he still hasn't arrived）；(D) just 置於助動詞 have 與 p.p. 之間。"
+    },
+    {
+      "topic": "未來簡單式：There will be 句型",
+      "level": 1,
+      "q": "According to the weather forecast, there ____ a heavy thunderstorm tomorrow afternoon.",
+      "options": [
+        "will have",
+        "will be",
+        "is having",
+        "has been"
+      ],
+      "answer": 1,
+      "zh": "根據天氣預報，明天下午將會有一場猛烈的雷陣雨。",
+      "explain": "表示未來「將會有…」必須使用「There will be + 名詞」，絕不可寫成 There will have（there 後面不可直接用 have 表示存在）。(A) will have 錯誤，there will have 是中文直譯的常見典型錯誤；(C) is having 錯誤；(D) has been 表示過去到現在已有，不能修飾 tomorrow afternoon。"
+    },
+    {
+      "topic": "副詞子句代替未來式：when 引導之時間子句",
+      "level": 2,
+      "q": "My father promised that he would buy me a new bicycle as soon as I ____ all my exams.",
+      "options": [
+        "passed",
+        "pass",
+        "will pass",
+        "had passed"
+      ],
+      "answer": 0,
+      "zh": "我父親答應我，只要我通過所有考試，他就買一輛新腳踏車給我。",
+      "explain": "本題考時態一致與副詞子句。主要子句動詞 promised 為過去簡單式，後面的賓語子句使用 would buy。在由 as soon as 引導的時間副詞子句中，原本代替未來式的現在式（pass），因主要子句是過去時態，必須配合改為過去簡單式 passed。(B) pass 為現在簡單式，與過去主要子句時態不一致；(C) will pass 錯誤，時間副詞子句不用 will；(D) had passed 表示在承諾前就已通過，語意不合。"
+    },
+    {
+      "topic": "副詞子句 vs 名詞子句：when 引導的子句時態判定",
+      "level": 2,
+      "q": "Please check the train schedule and tell me when the next express train ____.",
+      "options": [
+        "arrives",
+        "will arrive",
+        "arrived",
+        "has arrived"
+      ],
+      "answer": 1,
+      "zh": "請查詢火車時刻表並告訴我下一班自強號列車何時會到達。",
+      "explain": "本題中的 when 引導的是名詞子句，作為及物動詞 tell 的直接受詞，when 在此作疑問副詞「何時」解。名詞子句表達未來的動作時，必須保留未來簡單式 will arrive，不受「副詞子句以現在代替未來」規則的限制。(A) arrives 若用於副詞子句方可代替未來，但在名詞子句中指未來事件應保留 will；(C) arrived 為過去式；(D) has arrived 為現在完成式。"
+    },
+    {
+      "topic": "副詞子句 vs 名詞子句：if 引導的子句時態判定",
+      "level": 2,
+      "q": "I really don't know if the mayor ____ the opening ceremony tomorrow, but if he ____, everyone will be excited.",
+      "options": [
+        "will attend; comes",
+        "attends; will come",
+        "will attend; will come",
+        "attends; comes"
+      ],
+      "answer": 0,
+      "zh": "我真的不知道市長明天是否會出席開幕典禮，但如果他來的話，大家都會很興奮。",
+      "explain": "前一個 if 引導名詞子句（作 know 的受詞），意為「是否」，修飾未來事件時須用未來式 will attend；後一個 if 引導條件副詞子句，意為「如果」，須用現在簡單式 comes 代替未來式。因此最佳答案為 will attend; comes。(B)、(C)、(D) 皆搞混了名詞子句與條件副詞子句的時態規則。"
+    },
+    {
+      "topic": "現在完成式：have been to vs have gone to 的辨析",
+      "level": 2,
+      "q": "\"Where is Mr. Wang? I haven't seen him all day.\" \"He ____ to London on business and won't be back until Friday.\"",
+      "options": [
+        "has been",
+        "has gone",
+        "had been",
+        "had gone"
+      ],
+      "answer": 1,
+      "zh": "「王先生在哪裡？我整天都沒看見他。」「他去倫敦出差了，要到星期五才會回來。」",
+      "explain": "「has gone to + 地點」表示「已經前往某地，目前人不在說話現場」；「has been to + 地點」則表示「曾經去過某地，目前人已經回來了」。從對話後句可知王先生目前不在這裡，星期五才會回來，故必須使用 has gone。(A) has been 表示去過已經回來，與文意矛盾；(C)、(D) 為過去完成式，此處對話談論的是現在的狀態，不需過去完成式。"
+    },
+    {
+      "topic": "現在完成式：瞬間動詞不可與持續時間連用",
+      "level": 2,
+      "q": "The famous scientist ____ for five years, but his groundbreaking theories are still widely discussed today.",
+      "options": [
+        "has died",
+        "died",
+        "has been dead",
+        "is dead"
+      ],
+      "answer": 2,
+      "zh": "這位著名科學家已經過世五年了，但他的開創性理論至今仍被廣泛討論。",
+      "explain": "die（死亡）為瞬間動詞，動作在瞬間即結束，不能用現在完成式「has died」加上「for + 一段時間」來表示狀態的持續。若要表達該狀態已持續多久，須改用「has been + 形容詞 (dead) + for + 一段時間」。(A) has died 不能搭配 for five years；(B) died 是過去式，若用 died 應寫為 died five years ago；(D) is dead 表示現在狀態，但缺少完成式表達從五年前持續至今的累積意涵。"
+    },
+    {
+      "topic": "現在完成進行式：強調整段期間持續進行且當前仍在進行",
+      "level": 2,
+      "q": "The ground is soaking wet and slippery because it ____ heavily since early this morning.",
+      "options": [
+        "rains",
+        "has been raining",
+        "rained",
+        "had rained"
+      ],
+      "answer": 1,
+      "zh": "地面濕透而且很滑，因為從今天大清早起就一直在下著大雨。",
+      "explain": "句中有 since early this morning（從今天大清早起），且前句 The ground is soaking wet（地面是濕的）顯示雨勢目前仍在持續中或剛停不久，使用「現在完成進行式」（has been raining）最能強烈凸顯動作從清晨一直持續進行的動態感。(A) rains 為現在簡單式；(C) rained 為過去簡單式；(D) had rained 為過去完成式，不可與以現在為基準的 is 呼應。"
+    },
+    {
+      "topic": "過去進行式：兩個過去持續動作同時發生 (while)",
+      "level": 2,
+      "q": "While mother was preparing dinner in the kitchen, father ____ the flowers in the garden.",
+      "options": [
+        "watered",
+        "is watering",
+        "was watering",
+        "has watered"
+      ],
+      "answer": 2,
+      "zh": "當媽媽在廚房準備晚餐時，爸爸正在花園裡澆花。",
+      "explain": "在以 while 連接的兩個子句中，若描述過去同一時間雙方各自都在進行的持續性動作，兩個子句皆使用「過去進行式」。前面為 was preparing，後面應對等使用 was watering。(A) watered 為過去簡單式；(B) is watering 為現在進行式，時態不一致；(D) has watered 為現在完成式。"
+    },
+    {
+      "topic": "過去完成式：過去兩個動作的先後順序",
+      "level": 2,
+      "q": "When we finally arrived at the cinema, the movie ____ for twenty minutes.",
+      "options": [
+        "has already started",
+        "had already been on",
+        "was already starting",
+        "already started"
+      ],
+      "answer": 1,
+      "zh": "當我們終於到達電影院時，電影已經放映二十分鐘了。",
+      "explain": "到達電影院（arrived）是過去簡單式，而電影放映發生在到達之前，屬於「過去的過去」，必須使用「過去完成式」（had + p.p.）。又因為有 for twenty minutes（持續二十分鐘），動詞 start 為瞬間動詞不可持續，應改用狀態延續的 had already been on。(A) has already started 為現在完成式；(C) was already starting 表示當時正在開始，與持續二十分鐘矛盾；(D) already started 為過去簡單式且瞬間動詞無法持續。"
+    },
+    {
+      "topic": "現在完成式：It is + 一段時間 + since + 過去式動詞",
+      "level": 2,
+      "q": "It ____ three years since my uncle moved to Canada, but he still writes to us regularly.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "had been"
+      ],
+      "answer": 0,
+      "zh": "自從我叔叔搬到加拿大以來已經三年了，但他仍然定期寫信給我們。",
+      "explain": "句型「It is (或 has been) + 一段時間 + since + 主詞 + 過去式動詞」用來表示「自從…以來已經有多長時間了」。此處主要子句動詞用 is（或 has been）。(B) was 為過去式，不符合此慣用語法；(C) will be 為未來式；(D) had been 為過去完成式。"
+    },
+    {
+      "topic": "現在完成式：in / during the past + 一段時間",
+      "level": 2,
+      "q": "During the past decade, rapid technological advances ____ the way people communicate with one another.",
+      "options": [
+        "change",
+        "changed",
+        "have changed",
+        "are changing"
+      ],
+      "answer": 2,
+      "zh": "在過去十年間，快速的科技進步已經改變了人們彼此溝通的方式。",
+      "explain": "片語「During / In / For the past (或 last) + 一段時間」表示「在過去這段時間以來到現在為止」，為現在完成式的典型時間指標，動詞必須使用「現在完成式」（have/has + p.p.）。主詞 advances 為複數名詞，故用 have changed。(A) change 為現在簡單式；(B) changed 為過去簡單式，忽略了持續至今的累積影響；(D) are changing 為現在進行式。"
+    },
+    {
+      "topic": "現在進行式：與 always 連用表示反覆發生的抱怨",
+      "level": 2,
+      "q": "Mark is so careless; he is always ____ his keys and wallet everywhere.",
+      "options": [
+        "lose",
+        "loses",
+        "losing",
+        "lost"
+      ],
+      "answer": 2,
+      "zh": "馬克太粗心了；他老是把鑰匙和錢包到處亂丟遺忘。",
+      "explain": "現在進行式與 always, constantly 連用時，不表示「此刻正在進行」，而是表示「經常、反覆發生的習慣性行為」，且往往帶有說話者不滿、抱怨或惱怒的情緒色彩。be 動詞 is 後接 V-ing 構成 is always losing。(A) lose 為原形動詞；(B) loses 若只用現在簡單式 loses，僅敘述客觀事實，但此處有 is 助動詞，後面必須接現在分詞 losing；(D) lost 為過去分詞或過去式。"
+    },
+    {
+      "topic": "未來完成式：By + 未來時間點",
+      "level": 2,
+      "q": "By the end of this semester, our English class ____ five classic novels.",
+      "options": [
+        "reads",
+        "will read",
+        "will have read",
+        "has read"
+      ],
+      "answer": 2,
+      "zh": "到本學期末為止，我們英文課將已經讀完了五本經典小說。",
+      "explain": "句首有「By + 未來時間點」（By the end of this semester，到本學期末），表示在未來某個截止時間之前「將已經完成」的動作，動詞必須使用「未來完成式」（will have + p.p.）。(A) reads 為現在簡單式；(B) will read 為未來簡單式，未強調截止點前的完成狀態；(D) has read 為現在完成式，不能用在未來的時間截止點。"
+    },
+    {
+      "topic": "未來進行式：未來特定時刻正在進行的動作",
+      "level": 2,
+      "q": "Don't phone me between seven and eight tonight because I ____ dinner with my grandparents then.",
+      "options": [
+        "have",
+        "will have",
+        "will be having",
+        "had"
+      ],
+      "answer": 2,
+      "zh": "今晚七點到八點之間不要打電話給我，因為我那時候將正在和我的祖父母吃晚餐。",
+      "explain": "時間副詞 between seven and eight tonight 強調今晚該段特定時間內，某個動作「將正在持續進行」，動詞應使用「未來進行式」（will be + V-ing）。have 此處表示「吃」，可用於進行式，故選 will be having。(A) have 為現在簡單式；(B) will have 為未來簡單式，未凸顯該時段正在進行的情境；(D) had 為過去式。"
+    },
+    {
+      "topic": "時態的一致：主要子句過去式對從屬子句的支配",
+      "level": 2,
+      "q": "The reporter reported that the police ____ the missing child in the forest earlier that morning.",
+      "options": [
+        "find",
+        "found",
+        "had found",
+        "have found"
+      ],
+      "answer": 2,
+      "zh": "記者報導說，警方當天清晨早些時候已經在森林裡找到了失蹤的孩童。",
+      "explain": "主要子句動詞 reported 是過去簡單式。名詞子句中的動作「找到失蹤孩童」發生在「記者報導」之前，且有 earlier that morning（那天早晨更早時），屬於「過去的過去」，動詞必須使用「過去完成式」（had + p.p.）。(A) find 為現在簡單式；(B) found 雖為過去式，但未能表達比 reported 更早發生的先後關係；(D) have found 為現在完成式，違反時態一致原則。"
+    },
+    {
+      "topic": "疑問詞 When 開頭的句子時態限制",
+      "level": 2,
+      "q": "\"____ this precious antique vase?\" \"I bought it at an auction last year.\"",
+      "options": [
+        "When have you bought",
+        "When did you buy",
+        "When do you buy",
+        "When were you bought"
+      ],
+      "answer": 1,
+      "zh": "「你是在什麼時候買下這只珍貴的古董花瓶的？」「我去年在拍賣會上買的。」",
+      "explain": "以 When 或 What time 開頭詢問具體時間點的疑問句，詢問的是特定的過去時刻，在文法上**絕對不可**使用現在完成式，必須使用「過去簡單式」（When did you buy...?）。(A) When have you bought 為嚴重的文法錯誤，現在完成式不可與詢問具體時間點的 When 連用；(C) When do you buy 為現在式；(D) When were you bought 變成被動語態「你何時被買」，荒謬不通。"
+    },
+    {
+      "topic": "時間副詞子句：By the time 搭配完成式",
+      "level": 2,
+      "q": "By the time the rescue team arrived at the collapsed building, the trapped miners ____ underground for forty-eight hours.",
+      "options": [
+        "were",
+        "have been",
+        "had been",
+        "would be"
+      ],
+      "answer": 2,
+      "zh": "當搜救隊抵達倒塌的大樓時，受困的礦工們已經在地底下待了四十八小時了。",
+      "explain": "「By the time + 過去式動詞子句」表示「到過去某事發生時為止」，主要子句的動作在該時刻前就已經持續了一段時間（for forty-eight hours），必須使用「過去完成式」（had been）。(A) were 為過去簡單式，無法表達持續到該過去點的完成意涵；(B) have been 為現在完成式，無法與過去時間點 arrived 搭配；(D) would be 為過去未來式。"
+    },
+    {
+      "topic": "特殊句型：No sooner had S p.p. than S V-ed",
+      "level": 3,
+      "q": "No sooner ____ into bed than the telephone rang loudly in the living room.",
+      "options": [
+        "he had gotten",
+        "had he gotten",
+        "did he get",
+        "was he getting"
+      ],
+      "answer": 1,
+      "zh": "他剛一上床睡覺，客廳裡的電話就大聲響了起來。",
+      "explain": "句型「No sooner had + 主詞 + 過去分詞 (p.p.) than + 主詞 + 過去式動詞 (V-ed)」表示「剛一…就…」。否定副詞片語 No sooner 移至句首時，助動詞 had 必須倒裝移至主詞前。(A) he had gotten 未倒裝，文法錯誤；(C) did he get 助動詞應用 had 而非 did；(D) was he getting 時態與結構皆錯誤。"
+    },
+    {
+      "topic": "過去完成式：hope / expect / intend 表示過去未實現的願望",
+      "level": 3,
+      "q": "I had intended ____ you at the hospital yesterday, but an urgent client meeting prevented me from leaving the office.",
+      "options": [
+        "to visit",
+        "visiting",
+        "to have visited",
+        "visited"
+      ],
+      "answer": 0,
+      "zh": "我昨天原本打算去醫院探望你的，但是一場緊急的客戶會議使我無法離開辦公室。",
+      "explain": "動詞 intend, hope, expect, plan 等用於「過去完成式」（had intended）後面接不定詞「to + 原形動詞」，表示「過去原本打算/希望做某事，但最終未能實現」。(C) to have visited 亦表示未實現的願望，但須搭配過去式動詞（即 I intended to have visited），若前面已用 had intended，後面接一般不定詞 to visit 即可，避免重複雙重完成式；(B) visiting 為動名詞，intend 後慣接不定詞；(D) visited 為過去分詞，結構不符。"
+    },
+    {
+      "topic": "未來完成進行式：敘述從過去持續到未來某點的動作",
+      "level": 3,
+      "q": "By the end of next month, Professor Higgins ____ linguistics at Oxford University for exactly thirty years.",
+      "options": [
+        "will teach",
+        "will be teaching",
+        "will have been teaching",
+        "has been teaching"
+      ],
+      "answer": 2,
+      "zh": "到下個月底為止，希金斯教授在牛津大學教授語言學就將剛好滿三十年了。",
+      "explain": "句中有「By the end of next month」（到下個月底為止，未來截止點）以及「for exactly thirty years」（長達三十年的持續期間），且教授該科目的動作很可能繼續進行下去，此時使用「未來完成進行式」（will have been teaching）最為精確標準。(A) will teach 未能表達長達三十年的累積與完成；(B) will be teaching 僅表示未來某時正在進行；(D) has been teaching 為現在完成進行式，其時間終點在現在而非下個月底。"
+    },
+    {
+      "topic": "時態的一致：名詞子句表達科學真理 vs 歷史事實",
+      "level": 3,
+      "q": "The historian pointed out in his lecture that World War II ____ in 1945, while the law of gravity ____ unchanged through centuries.",
+      "options": [
+        "ended; remains",
+        "had ended; remained",
+        "ended; remained",
+        "had ended; remains"
+      ],
+      "answer": 0,
+      "zh": "歷史學家在演講中指出，第二次世界大戰於 1945 年結束，而萬有引力定律歷經數百年依然維持不變。",
+      "explain": "本題綜合考驗時態一致的兩大例外：\n1. 歷史事實（historical facts）：名詞子句中敘述明確的歷史事件時，即使主要子句動詞為過去式（pointed out），從屬子句一律使用「過去簡單式」（ended），絕不可使用過去完成式 had ended。\n2. 客觀真理或定律（eternal truths）：敘述自然法則或科學真理時，一律使用「現在簡單式」（remains）。故正確答案為 ended; remains。(B)、(C)、(D) 皆未能同時遵循這兩項重要文法規則。"
+    },
+    {
+      "topic": "現在完成式：since 子句動詞時態與主要子句搭配",
+      "level": 3,
+      "q": "Ever since the new subway line ____ into operation last spring, the traffic congestion in the downtown area ____ significantly.",
+      "options": [
+        "went; has eased",
+        "has gone; eased",
+        "goes; is easing",
+        "went; eased"
+      ],
+      "answer": 0,
+      "zh": "自從新捷運路線去年春天開始營運以來，市中心的交通壅塞情況已經顯著舒緩了。",
+      "explain": "句型「Ever since + 主詞 + 過去簡單式動詞, 主要子句主詞 + 現在完成式動詞」：\n- since 子句表示過去的起點事件（last spring），動詞須用過去簡單式 went；\n- 主要子句表示從該起點一直持續或累積影響到現在的狀態，動詞須用現在完成式 has eased。故最佳解答為 went; has eased。(B)、(C)、(D) 時態搭配皆錯誤。"
+    },
+    {
+      "topic": "狀態動詞在特定語境下的進行式用法",
+      "level": 3,
+      "q": "I cannot accompany you shopping this afternoon because I ____ my doctor about my recurring back pain at three o'clock.",
+      "options": [
+        "see",
+        "am seeing",
+        "saw",
+        "have seen"
+      ],
+      "answer": 1,
+      "zh": "我今天下午不能陪你去逛街，因為我三點要去看醫生諮詢我反覆發作的背痛。",
+      "explain": "動詞 see 若作「看見、明白」等知覺或認知動詞時不可用於進行式；但若 see 作「會面、看診、探訪、送行」（= meeting / consulting / visiting）等具有具體外在行動意義的動詞時，**可以**使用現在進行式。此處 am seeing 指「已預約好在下午三點看醫生」，用現在進行式表示預定安排。(A) see 未能強調已安排好的具體預約行程；(C) saw 為過去式；(D) have seen 為完成式。"
+    },
+    {
+      "topic": "時態的精微對比：現在完成式代替未來完成式",
+      "level": 3,
+      "q": "We will sign the formal contract with the overseas supplier tomorrow only after our legal team ____ every clause thoroughly.",
+      "options": [
+        "has examined",
+        "will examine",
+        "examined",
+        "had examined"
+      ],
+      "answer": 0,
+      "zh": "明天在我們的法務團隊徹底審查每一項條款之後，我們才會與海外供應商簽署正式合約。",
+      "explain": "在由 after 引導的時間副詞子句中，敘述在未來某個動作之前「必須先完成」的事情時，通常使用「現在完成式」（has examined）來代替「未來完成式」（will have examined）。副詞子句中不可出現 will。(B) will examine 違反副詞子句不用 will 的規則；(C) examined 為過去簡單式，與未來的時間設定不符；(D) had examined 為過去完成式，不可與以現在或未來為基準的主要子句連用。"
+    },
+    {
+      "topic": "現在完成進行式 vs 現在完成式：強調過程而非結果",
+      "level": 3,
+      "q": "\"Look at your hands! They are covered in black grease.\" \"Yes, I ____ my bicycle chain in the garage.\"",
+      "options": [
+        "have repaired",
+        "have been repairing",
+        "had repaired",
+        "repaired"
+      ],
+      "answer": 1,
+      "zh": "「看你的手！上面沾滿了黑黑的油垢。」「對啊，我剛才一直在車庫裡修理我的腳踏車鏈條。」",
+      "explain": "現在完成進行式（have been repairing）在此處用來解釋「眼前的結果或身體狀態」（手沾滿油垢），強調「在剛剛這段時間內一直在進行該動作」，動作剛結束或仍在進行，且聚焦於活動過程而非是否已修好車鏈。若用 have repaired 則著重「已修好」的成果，不能自然解釋滿手油垢的動作延續感。(C) had repaired 過去完成式與現在狀態 are covered 不符；(D) repaired 過去簡單式無法生動連接現在眼前的身體特徵。"
+    },
+    {
+      "topic": "時間副詞子句：By the time 搭配未來完成式",
+      "level": 3,
+      "q": "By the time the foreign delegates ____ at the conference hall tomorrow morning, the welcoming banquet ____ ready.",
+      "options": [
+        "arrive; will have been",
+        "will arrive; is",
+        "arrive; is",
+        "will arrive; will be"
+      ],
+      "answer": 0,
+      "zh": "明天早上當外國代表們抵達會議廳時，歡迎宴會將已經準備就緒了。",
+      "explain": "由 By the time 引導的時間副詞子句，談論未來時動詞用「現在簡單式」（arrive）代替未來簡單式；主要子句則須使用「未來完成式」（will have been），表示在該未來時刻之前「宴會將已經準備好了」。故正確選項為 arrive; will have been。(B)、(C)、(D) 的副詞子句與主要子句時態搭配皆不符合標準英語文法規則。"
+    },
+    {
+      "topic": "時態一致與假設語氣對比：直述語氣 vs 假設語氣",
+      "level": 3,
+      "q": "The manager said that if our proposal ____ feasible, the company ____ sufficient funds to support the research project.",
+      "options": [
+        "proves; will allocate",
+        "proved; would allocate",
+        "proves; would allocate",
+        "had proved; will allocate"
+      ],
+      "answer": 1,
+      "zh": "經理說如果我們的提案證明切實可行，公司將會撥出充足的資金來支持這個研究專案。",
+      "explain": "主要子句動詞 said 為過去簡單式。在間接引述（間接敘述法）中，整個條件子句與主要結果子句皆須配合主要動詞進行「時態後退」（tense backshift）：原本的現在式 proves 變為過去式 proved；原本的未來式 will allocate 變為過去未來式 would allocate。因此正確答案為 proved; would allocate。(A) 未進行時態一致變換；(C)、(D) 時態前後矛盾不一致。"
+    }
+  ]
+}

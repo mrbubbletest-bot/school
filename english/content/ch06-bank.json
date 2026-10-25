@@ -1,0 +1,381 @@
+{
+  "chapter": 6,
+  "title": "分詞",
+  "items": [
+    {
+      "topic": "情緒動詞的分詞用法",
+      "level": 1,
+      "q": "The science documentary was so ____ that almost everyone in the classroom fell asleep.",
+      "options": ["boring", "bored", "boredom", "bore"],
+      "answer": 0,
+      "zh": "這部科學紀錄片太無聊了，以致於教室裡幾乎每個人都睡著了。",
+      "explain": "句中主詞為物（The science documentary），表示「令人感到無聊的」，應用現在分詞 boring 作主詞補語。(B) bored 為過去分詞，表示「人感到無聊的」；(C) boredom 為名詞「無聊」；(D) bore 為原形動詞或名詞，均不符合句型 so + adj. + that 子句。"
+    },
+    {
+      "topic": "分詞作前位修飾",
+      "level": 1,
+      "q": "In late autumn, the ground is completely covered with ____ leaves.",
+      "options": ["falling", "fell", "fallen", "fall"],
+      "answer": 2,
+      "zh": "在深秋時分，地面完全被落葉所覆蓋。",
+      "explain": "修飾 leaves 表示「已經落下的葉子（落葉）」，動作已完成，須用過去分詞 fallen。(A) falling 表示「正在飄落中的」；(B) fell 為過去式動詞；(D) fall 為原形動詞，皆不可直接作形容詞修飾名詞 leaves 表落葉狀態。"
+    },
+    {
+      "topic": "感官動詞之受詞補語",
+      "level": 1,
+      "q": "From my bedroom window, I could see two birds ____ a nest in the tall tree.",
+      "options": ["to build", "built", "builds", "building"],
+      "answer": 3,
+      "zh": "從我臥室的窗戶，我可以看到兩隻鳥正在大樹上築巢。",
+      "explain": "感官動詞 see + 受詞 + V / V-ing，此處強調「正在築巢」的進行動作，故選現在分詞 building。(A) 感官動詞後不可接不定詞 to build；(B) built 表被動，但鳥是主動築巢；(C) builds 為第三人稱單數動詞，不可作受詞補語。"
+    },
+    {
+      "topic": "使役動詞之受詞補語",
+      "level": 1,
+      "q": "My laptop stopped working yesterday, so I will have it ____ at the computer store.",
+      "options": ["repair", "repaired", "repairing", "to repair"],
+      "answer": 1,
+      "zh": "我的筆記型電腦昨天壞了，所以我會拿到電腦店請人修理。",
+      "explain": "使役動詞 have + 受詞（it = laptop）+ p.p.，筆電是被修理，受詞與補語為被動關係，故用過去分詞 repaired。(A) repair 為原形動詞，用於受詞為主動執行者；(C) repairing 表進行；(D) have 後面不可接 to repair 作受詞補語。"
+    },
+    {
+      "topic": "分詞作主詞補語",
+      "level": 1,
+      "q": "When the little girl heard her mother's voice, she came ____ into the living room.",
+      "options": ["running", "run", "ran", "to be running"],
+      "answer": 0,
+      "zh": "當小女孩聽到母親的聲音時，她跑著進了客廳。",
+      "explain": "在 go / come 等動詞之後，用現在分詞表示主詞「主動、伴隨進行」的動作狀態，come running 表示「跑著過來」。(B) run 原形動詞與 (C) ran 過去式動詞皆無法作主詞補語；(D) to be running 語法冗贅不符合常用習慣。"
+    },
+    {
+      "topic": "情緒動詞的分詞用法",
+      "level": 1,
+      "q": "All the students were very ____ when they heard about the upcoming graduation trip.",
+      "options": ["exciting", "excited", "excite", "excitement"],
+      "answer": 1,
+      "zh": "當所有學生聽到即將到來的畢業旅行時，都感到非常興奮。",
+      "explain": "主詞為人（All the students），表示「人感到興奮的」，須用過去分詞 excited。(A) exciting 表示「令人興奮的（事物）」；(C) excite 為動詞「使興奮」；(D) excitement 為名詞，在此處不符合 be + adj. 句型。"
+    },
+    {
+      "topic": "分詞作名詞後位修飾",
+      "level": 1,
+      "q": "The email ____ in French was translated into Chinese by our English teacher.",
+      "options": ["writing", "wrote", "writes", "written"],
+      "answer": 3,
+      "zh": "那封用法文寫的電子郵件被我們的英文老師翻譯成了中文。",
+      "explain": "email 與 write 是被動關係，相當於 which was written in French，簡化為過去分詞片語 written in French 作後位修飾。(A) writing 表主動，電子郵件不可能主動寫；(B) wrote 為過去式動詞，若用 wrote 會使句子出現兩個述語動詞；(C) writes 為現在式單數動詞，同樣結構錯誤。"
+    },
+    {
+      "topic": "keep + 受詞 + 受詞補語",
+      "level": 1,
+      "q": "I am really sorry to have kept you ____ in the heavy rain for so long.",
+      "options": ["waited", "to wait", "waiting", "wait"],
+      "answer": 2,
+      "zh": "我很抱歉讓你在大雨中等了這麼久。",
+      "explain": "keep + 人 + waiting 為固定句型，表示「使某人一直等待」，受詞 you 與 wait 是主動進行關係，故用現在分詞 waiting。(A) waited 表被動；(B) keep 不接不定詞 to wait 作受詞補語；(D) wait 為原形動詞，亦不符合 keep 的用法。"
+    },
+    {
+      "topic": "分詞構句表時間",
+      "level": 1,
+      "q": "____ the terrible news of the earthquake, she couldn't help bursting into tears.",
+      "options": ["To hear", "Heard", "Hear", "Hearing"],
+      "answer": 3,
+      "zh": "一聽到地震的可怕消息，她忍不住痛哭失聲。",
+      "explain": "原句為 When she heard the terrible news...，副詞子句與主句主詞相同（she），簡化時省略連接詞與主詞，動詞改為現在分詞 Hearing 表主動。(A) 不定詞 To hear 表目的，語意不合；(B) Heard 為過去分詞，表被動，但她是主動聽到消息；(C) Hear 為原形動詞，不可置於句首引導修飾片語。"
+    },
+    {
+      "topic": "分詞慣用語",
+      "level": 1,
+      "q": "____ speaking, women tend to live several years longer than men.",
+      "options": ["Generally", "General", "In general of", "Generality"],
+      "answer": 0,
+      "zh": "一般而言，女性往往比男性多活幾年。",
+      "explain": "Generally speaking 為固定分詞慣用語，意為「一般而言、大體來說」。(B) General 為形容詞，不可直接修飾分詞 speaking；(C) In general 後面不接 of speaking；(D) Generality 為名詞，語法錯誤。"
+    },
+    {
+      "topic": "with + 受詞 + 分詞補語",
+      "level": 1,
+      "q": "The strict teacher stood in front of the classroom with his arms ____.",
+      "options": ["crossing", "cross", "crossed", "to cross"],
+      "answer": 2,
+      "zh": "嚴格的老師雙手交叉抱胸站在教室前面。",
+      "explain": "with + 受詞（his arms）+ 補語，手臂是被交叉抱著（arms are crossed），為被動關係，故用過去分詞 crossed。(A) crossing 表主動；(B) cross 為動詞原形；(D) to cross 不定詞無法表達伴隨被動狀態。"
+    },
+    {
+      "topic": "情緒動詞的分詞用法",
+      "level": 1,
+      "q": "Hiking up the steep mountain all morning was an extremely ____ experience for all of us.",
+      "options": ["tired", "tiring", "tire", "tiredness"],
+      "answer": 1,
+      "zh": "整個早上爬陡峭的山對我們所有人來說都是一段極其累人的經歷。",
+      "explain": "修飾事物（experience），表示「令人疲憊的、累人的」，應用現在分詞 tiring。(A) tired 表示「人感到疲倦的」；(C) tire 為動詞「使疲勞」；(D) tiredness 為名詞「疲勞」，不可作形容詞修飾 experience。"
+    },
+    {
+      "topic": "find + 受詞 + 受詞補語",
+      "level": 1,
+      "q": "When Lisa entered the bedroom, she found her little brother ____ soundly on the floor.",
+      "options": ["slept", "sleep", "to sleep", "sleeping"],
+      "answer": 3,
+      "zh": "當麗莎走進臥室時，她發現她的小弟弟在地板上熟睡著。",
+      "explain": "find + 受詞 + V-ing 表示「發現某人正在處於某種動作狀態」，弟弟睡著是主動進行，故選 sleeping。(A) slept 為過去式動詞或過去分詞，不可表示主動進行；(B) sleep 為動詞原形；(C) find 後面通常不接不定詞 to sleep 作補語。"
+    },
+    {
+      "topic": "分詞作名詞後位修飾",
+      "level": 1,
+      "q": "The people ____ in this coastal town make a living mainly by fishing.",
+      "options": ["living", "lived", "live", "are living"],
+      "answer": 0,
+      "zh": "居住在這個沿海小鎮的人們主要以捕魚為生。",
+      "explain": "people 與 live 為主動關係，相當於 who live in this coastal town，簡化為現在分詞片語 living in... 作後位修飾。(B) lived 表過去或被動，居住並非被動；(C) live 與 (D) are living 會造成句中出現兩個主要動詞（make a living 是主要述語動詞）。"
+    },
+    {
+      "topic": "否定式分詞構句",
+      "level": 1,
+      "q": "____ what to say to comfort her crying friend, Emily just held her hand silently.",
+      "options": ["Not known", "Knowing not", "Not knowing", "Without know"],
+      "answer": 2,
+      "zh": "因為不知道該說些什麼來安慰她哭泣的朋友，艾蜜莉只是默默地握著她的手。",
+      "explain": "分詞構句的否定形式必須將否定詞 not / never 置於分詞之前，原句為 As she did not know...，簡化為 Not knowing...。(A) Not known 為過去分詞，表被動，語意不合；(B) 否定詞不可置於分詞之後；(D) Without 為介系詞，後面應接動名詞 knowing，不可接原形動詞 know。"
+    },
+    {
+      "topic": "完成式分詞構句",
+      "level": 2,
+      "q": "____ all his chores, little Kevin was finally allowed to play video games.",
+      "options": ["Finishing", "Having finished", "Finished", "To finish"],
+      "answer": 1,
+      "zh": "做完所有的家事之後，小凱文終於被允許玩電玩了。",
+      "explain": "做完家事的動作發生在被允許玩電玩之前，副詞子句原句為 After he had finished all his chores...，動作時間早於主要子句，須用完成式分詞構句 Having + p.p.。(A) Finishing 表示與主句動作同時發生；(C) Finished 表被動，但凱文是主動作完家事；(D) To finish 表目的，不符語境。"
+    },
+    {
+      "topic": "被動式分詞構句",
+      "level": 2,
+      "q": "____ from the top of the hill, the city harbor looks breathtaking at dusk.",
+      "options": ["Seeing", "Seen", "Having seen", "To see"],
+      "answer": 1,
+      "zh": "從山頂往下看，這座城市的港口在黃昏時分看起來令人屏息般美麗。",
+      "explain": "分詞構句的主詞與主要子句主詞一致（the city harbor），港口是「被看」（When it is seen from...），省略 being 後保留過去分詞 Seen。(A) Seeing 與 (C) Having seen 表主動，港口無法自己看；(D) To see 為不定詞表目的，語意不合。"
+    },
+    {
+      "topic": "使役動詞 make oneself understood",
+      "level": 2,
+      "q": "Although his English was limited, he managed to make himself ____ by using simple words and gestures.",
+      "options": ["understand", "understanding", "understood", "to understand"],
+      "answer": 2,
+      "zh": "雖然他的英文程度有限，但他透過使用簡單的字詞和手勢，設法讓別人聽懂自己的意思。",
+      "explain": "make oneself understood 為極常見的固定片語，意為「使自己的意思被別人理解」，myself 與 understand 是被動關係，故用過去分詞 understood。(A) understand 為原形動詞；(B) understanding 表主動「理解別人」；(D) make 後不接帶 to 的不定詞。"
+    },
+    {
+      "topic": "保留連接詞的分詞構句",
+      "level": 2,
+      "q": "Be extremely cautious when ____ a busy intersection during rush hour.",
+      "options": ["crossed", "crossing", "cross", "to cross"],
+      "answer": 1,
+      "zh": "尖峰時段穿過繁忙的十字路口時，務必格外小心。",
+      "explain": "原句為 when you cross... 或 when you are crossing...，省略主詞 you 與 be 動詞，保留連接詞 when，後接現在分詞 crossing 表主動進行。(A) crossed 表被動，人過馬路是主動；(C) cross 為原形動詞，連接詞 when 後不可直接接原形動詞；(D) when 不與不定詞 to cross 搭配構成此類時間修飾語。"
+    },
+    {
+      "topic": "獨立分詞構句",
+      "level": 2,
+      "q": "____ permitting, our school will hold the annual sports meet on the playground tomorrow.",
+      "options": ["Weather", "Whether", "If weather", "The weather is"],
+      "answer": 0,
+      "zh": "如果天氣許可的話，我們學校明天將在操場舉行一年一度的運動會。",
+      "explain": "Weather permitting 為經典的獨立分詞構句，原句為 If weather permits...，因副詞子句主詞（weather）與主句主詞（our school）不同，省略連接詞 if 時須保留名詞主詞 weather，動詞改為現在分詞 permitting。(B) Whether 為連接詞「是否」；(C) 若保留 If，後面動詞應為 permits，不可直接加 permitting；(D) The weather is 會造成兩個完整句子缺少連接詞連接。"
+    },
+    {
+      "topic": "There being 獨立分詞構句",
+      "level": 2,
+      "q": "There ____ no public buses after midnight, we decided to take a taxi home.",
+      "options": ["is", "was", "being", "been"],
+      "answer": 2,
+      "zh": "因為午夜過後沒有公車，我們決定搭計程車回家。",
+      "explain": "原句為 As there were no public buses after midnight...，簡化為分詞構句時，there 保留，be 動詞改為 being，形成「There being + 名詞」的獨立分詞構句。(A) is 與 (B) was 均為述語動詞，會造成兩個子句缺乏連接詞的錯誤；(D) been 為過去分詞，不可單獨充當分詞構句動詞。"
+    },
+    {
+      "topic": "分詞慣用語 Judging from",
+      "level": 2,
+      "q": "____ from his accent and polite manners, he must be a gentleman from the United Kingdom.",
+      "options": ["Judge", "Judged", "To judge", "Judging"],
+      "answer": 3,
+      "zh": "從他的口音和禮貌的舉止來判斷，他一定是位來自英國的紳士。",
+      "explain": "Judging from... 為固定分詞慣用語，意為「由…來判斷」，不受主要子句主詞之限制。(A) Judge 為原形動詞；(B) Judged 為過去分詞，非此慣用語形式；(C) To judge 雖有 to judge by 的說法，但最標準且常見的分詞形式為 Judging from。"
+    },
+    {
+      "topic": "複合形容詞",
+      "level": 2,
+      "q": "The documentary told a ____ story of an orphaned polar bear searching for food on melting ice.",
+      "options": ["heart-breaking", "heart-broken", "heart-break", "heart-breaked"],
+      "answer": 0,
+      "zh": "這部紀錄片講述了一隻孤兒北極熊在融冰上尋找食物的令人心碎的故事。",
+      "explain": "名詞 + 現在分詞構成複合形容詞「N-V-ing」，表示「令人…的」，story 是主動使人心碎，故用 heart-breaking（令人心碎的）。(B) heart-broken（心碎的）通常用來形容「人感到心碎」；(C) heart-break 為名詞；(D) heart-breaked 詞形錯誤，break 的過去分詞為 broken。"
+    },
+    {
+      "topic": "垂懸分詞辨析",
+      "level": 2,
+      "q": "Which of the following sentences is grammatically CORRECT?",
+      "options": [
+        "Walking along the river, a beautiful sunset was seen by us.",
+        "Walking along the river, the sunset looked truly magnificent.",
+        "Walking along the river, we enjoyed the magnificent sunset.",
+        "Walking along the river, our eyes were caught by the sunset."
+      ],
+      "answer": 2,
+      "zh": "下列哪一個句子在文法上是正確的？",
+      "explain": "分詞構句 Walking along the river 的動作執行者必須與主句主詞一致。在沿著河流走的動作執行者是「我們（we）」，因此主句主詞必須是 we，故選 (C)。(A) 主詞為 a beautiful sunset，夕陽不可能沿著河流走；(B) 主詞為 the sunset，同樣造成垂懸分詞錯誤；(D) 主詞為 our eyes，眼睛不可能自己在河邊散步。"
+    },
+    {
+      "topic": "get + 受詞 + p.p.",
+      "level": 2,
+      "q": "Because of a severe toothache, Jason went to the dentist to get his bad tooth ____.",
+      "options": ["pulling", "pulled", "pull", "to pull"],
+      "answer": 1,
+      "zh": "因為嚴重的牙痛，傑森去看牙醫把他的壞牙拔掉。",
+      "explain": "get + 受詞（his bad tooth）+ p.p.，牙齒是被牙醫拔掉，受詞與動作為被動關係，故選過去分詞 pulled。(A) pulling 表主動拔牙；(C) pull 為原形動詞；(D) get + O + to V 用於受詞為主動執行者（如 get the dentist to pull...）。"
+    },
+    {
+      "topic": "with + 受詞 + 副詞/介系詞片語",
+      "level": 2,
+      "q": "Exhausted after the long journey, he fell asleep on the sofa with the lights still ____.",
+      "options": ["on", "been on", "having on", "was on"],
+      "answer": 0,
+      "zh": "長途跋涉後精疲力竭的他，在燈還亮著的情況下就在沙發上睡著了。",
+      "explain": "with + 受詞（the lights）+ 補語，副詞 on 可表示「開著、亮著」，with the lights still on 表伴隨狀況。(B) been on 缺少主詞與助動詞；(C) having on 詞意不合；(D) was on 為述語動詞，with 是介系詞，後方不可接完整的子句 S + V。"
+    },
+    {
+      "topic": "情緒動詞受詞補語",
+      "level": 2,
+      "q": "Most of the audience found the guest speaker's three-hour speech extremely ____.",
+      "options": ["bored", "bore", "boredom", "boring"],
+      "answer": 3,
+      "zh": "大多數聽眾覺得那位特邀講者長達三小時的演講極為無趣。",
+      "explain": "find + 受詞（the speech）+ 補語，演講為事物，表示「令人感到無聊的」，應用現在分詞 boring。(A) bored 表示「人感到無聊的」；(B) bore 為動詞或名詞；(C) boredom 為抽象名詞「厭倦、無聊」。"
+    },
+    {
+      "topic": "分詞作後位修飾（被動）",
+      "level": 2,
+      "q": "The police finally recovered the valuable jewelry ____ from the museum last month.",
+      "options": ["stealing", "stole", "which stole", "stolen"],
+      "answer": 3,
+      "zh": "警方終於找回了上個月從博物館被偷走的貴重珠寶。",
+      "explain": "jewelry 與 steal 為被動關係，原句為 which was stolen from the museum...，簡化後以過去分詞 stolen 修飾前面的名詞 jewelry。(A) stealing 表主動偷竊；(B) stole 為過去式動詞，會造成雙述語動詞錯誤；(C) which stole 缺少被動態 was，且珠寶不會主動去偷。"
+    },
+    {
+      "topic": "分詞慣用語 Strictly speaking",
+      "level": 2,
+      "q": "____ speaking, a spider is not an insect because it has eight legs rather than six.",
+      "options": ["Strict", "Strictly", "In strict", "Strictness"],
+      "answer": 1,
+      "zh": "嚴格來說，蜘蛛並不是昆蟲，因為牠有八隻腳而不是六隻。",
+      "explain": "Strictly speaking 為獨立分詞慣用語，意為「嚴格來說」。(A) Strict 為形容詞，不可直接修飾分詞 speaking；(C) In strict 缺少名詞，正確片語為 in a strict sense；(D) Strictness 為名詞，語法不符。"
+    },
+    {
+      "topic": "完成被動式分詞構句",
+      "level": 2,
+      "q": "____ three times by the publishing company, the author never gave up on her manuscript.",
+      "options": ["Having rejected", "Rejecting", "Having been rejected", "To reject"],
+      "answer": 2,
+      "zh": "雖然被那家出版社退稿了三次，這位作者卻從未放棄她的原稿。",
+      "explain": "原句為 Although she had been rejected three times...，作者是「被退稿」，且退稿動作發生在從未放棄之前，故須用完成被動式分詞 Having been rejected。(A) Having rejected 表主動退稿；(B) Rejecting 為現在分詞主動；(D) To reject 為不定詞，無法表達已發生的讓步背景。"
+    },
+    {
+      "topic": "獨立分詞構句 It being",
+      "level": 3,
+      "q": "____ a rainy Sunday, all of us decided to stay indoors and play board games.",
+      "options": ["Being", "It was", "Having been", "It being"],
+      "answer": 3,
+      "zh": "因為那是個下雨的星期天，我們所有人都決定待在室內玩桌遊。",
+      "explain": "原句為 As it was a rainy Sunday...，副詞子句主詞為指天氣或時間的 it，主要子句主詞為 all of us，前後主詞不同，省略連接詞 as 時必須保留代名詞主詞 it，was 改為 being，形成獨立分詞構句 It being...。(A) Being 省略了 it，會造成垂懸分詞（主詞變成 all of us，人不可能是一個星期天）；(B) It was 缺少連接詞；(C) Having been 同樣缺少主詞 it。"
+    },
+    {
+      "topic": "垂懸分詞進階辨析",
+      "level": 3,
+      "q": "Which of the following sentences does NOT contain a dangling participle error?",
+      "options": [
+        "Arriving at the station, the train had already left.",
+        "Having studied hard all night, the exam seemed easy to Mark.",
+        "Opening the window, a cool breeze immediately rushed into the room.",
+        "Approaching the old temple, we noticed a huge stone statue near the gate."
+      ],
+      "answer": 3,
+      "zh": "下列哪一個句子「沒有」垂懸分詞的文法錯誤？",
+      "explain": "(D) Approaching the old temple 的動作主詞是「我們（we）」，與主句主詞 we 一致，完全正確。(A) Arriving at the station 的邏輯主詞是人，但主句主詞是 the train（火車不會自己到達車站時火車已經開走）；(B) Having studied hard all night 苦讀的是 Mark，但主句主詞是 the exam（考試不可能苦讀整夜）；(C) Opening the window 開窗的是人，但主句主詞是 a cool breeze（微風不會自己開窗戶）。"
+    },
+    {
+      "topic": "with 複合分詞補語",
+      "level": 3,
+      "q": "The suspect sat quietly in the interrogation room, with his head ____ and tears ____ down his cheeks.",
+      "options": [
+        "lowered / rolling",
+        "lowering / rolled",
+        "lowered / rolled",
+        "lowering / rolling"
+      ],
+      "answer": 0,
+      "zh": "嫌犯靜靜地坐在審訊室裡，低垂著頭，淚水順著臉頰滾落。",
+      "explain": "第一個分詞中，頭是被低垂（his head was lowered），為被動關係，用過去分詞 lowered；第二個分詞中，眼淚是主動滾落（tears were rolling down），為進行主動關係，用現在分詞 rolling，故選 (A)。其他選項均混淆了兩處分詞的主被動關係。"
+    },
+    {
+      "topic": "分詞連接詞 Seeing that",
+      "level": 3,
+      "q": "____ that you have completed all graduation requirements, you are eligible to receive the diploma.",
+      "options": ["Seeing", "Seen", "See", "To see"],
+      "answer": 0,
+      "zh": "既然你已經完成了所有的畢業要求，你便有資格領取畢業證書。",
+      "explain": "Seeing that 為從分詞轉化而來的連接詞片語，意為「既然、鑑於（since / because）」。(B) Seen 為過去分詞，不可與 that 連用引導原因子句；(C) See 為原形動詞；(D) To see 為不定詞表目的，語意不合。"
+    },
+    {
+      "topic": "完成主動式分詞構句",
+      "level": 3,
+      "q": "____ in London for over a decade, Professor Wang has a profound understanding of British culture.",
+      "options": ["Living", "Having lived", "Lived", "To live"],
+      "answer": 1,
+      "zh": "在倫敦生活了十多年，王教授對英國文化有著深刻的理解。",
+      "explain": "「在倫敦住了十多年」是先發生的背景事實（時間早於現在具有深刻理解），原句為 Because he has lived in London for over a decade...，表示動作先於主要子句發生，應用完成式分詞 Having lived。(A) Living 強調同時進行，較不能凸顯十多年歷程對現在的影響；(C) Lived 為過去分詞表被動，但人居住為主動；(D) To live 表目的，語意錯誤。"
+    },
+    {
+      "topic": "複合形容詞結構",
+      "level": 3,
+      "q": "The scientist is well known for her ____ attitude toward controversial ecological issues.",
+      "options": ["open-minded", "opened-mind", "open-minding", "mind-opened"],
+      "answer": 0,
+      "zh": "這位科學家以其對具爭議生態議題的思想開放態度而聞名。",
+      "explain": "形容詞 + 名詞-ed 構成複合形容詞「Adj-N-ed」，意為「具有…特徵的」，open-minded 表示「心胸開闊的、思想開放的」（having an open mind）。(B) opened-mind 詞序與詞尾錯誤；(C) open-minding 形式不存在；(D) mind-opened 結構不符英文慣用構詞法。"
+    },
+    {
+      "topic": "連接詞 + 過去分詞",
+      "level": 3,
+      "q": "Children under the age of twelve are not permitted into the exhibition hall unless ____ by an adult.",
+      "options": ["accompanying", "accompanied", "to accompany", "accompany"],
+      "answer": 1,
+      "zh": "十二歲以下的兒童除非有成人陪同，否則不得進入展覽廳。",
+      "explain": "原句為 unless they are accompanied by an adult，省略主詞 they 與 be 動詞後，保留連接詞 unless，後面接過去分詞 accompanied 表被動受陪同。(A) accompanying 表主動陪同，主詞兒童是被成人陪同；(C) to accompany 不符合 unless 引導的分詞簡化結構；(D) accompany 為動詞原形。"
+    },
+    {
+      "topic": "獨立分詞構句與多重動作",
+      "level": 3,
+      "q": "The final meeting ____, each of the committee members packed up their files and left.",
+      "options": ["adjourning", "adjourned", "having adjourned", "was adjourned"],
+      "answer": 2,
+      "zh": "最後一次會議結束後，每位委員會成員便收拾文件離開了。",
+      "explain": "動詞 adjourn 可作不及物動詞表示「（會議）休會、結束」。會議結束發生在成員離開之前，且前後主詞不同（the meeting vs each member），因此構成獨立分詞構句 The meeting having adjourned...。(A) adjourning 表正在進行，語意不合；(B) adjourned 若作過去分詞，通常需搭配 be 動詞或上下文，且無法明確表達先於主句完成的時間差；(D) was adjourned 為述語動詞，會造成兩個句子缺乏連接詞。"
+    },
+    {
+      "topic": "分詞作主詞補語",
+      "level": 3,
+      "q": "Hearing the sudden terrifying explosion, the security guard stood ____ to the ground in shock.",
+      "options": ["rooting", "rooted", "to root", "root"],
+      "answer": 1,
+      "zh": "一聽到突如其來的可怕爆炸聲，警衛震驚得呆立在原地動彈不得。",
+      "explain": "stand rooted to the ground 為英語固定生動搭配，意為「（嚇得）像生了根似地呆立原地」，人是被固定釘在地上，為被動關係，故用過去分詞 rooted。(A) rooting 表主動生根；(C) to root 表目的；(D) root 為動詞原形。"
+    },
+    {
+      "topic": "分詞介系詞 Considering",
+      "level": 3,
+      "q": "____ the severe damage caused by the earthquake, it will take at least two years to rebuild the town.",
+      "options": ["Considered", "In consider of", "To consider", "Considering"],
+      "answer": 3,
+      "zh": "考慮到地震造成的嚴重破壞，重建這座城鎮至少需要兩年時間。",
+      "explain": "Considering 為分詞轉化而來的介系詞，意為「考慮到、就…而論（taking into account）」，後接名詞片語。(A) Considered 過去分詞不可單獨作此介系詞用法；(B) 正確介系詞片語為 in consideration of，而非 in consider of；(C) To consider 為不定詞，語意不合。"
+    }
+  ]
+}

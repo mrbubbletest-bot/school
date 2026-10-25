@@ -1,0 +1,566 @@
+{
+  "chapter": 15,
+  "title": "副詞",
+  "items": [
+    {
+      "topic": "程度副詞 enough 的位置",
+      "level": 1,
+      "q": "The weather is ____ today, so we decided to go on a picnic in the park.",
+      "options": [
+        "warm enough",
+        "enough warm",
+        "too warmly",
+        "warmly enough"
+      ],
+      "answer": 0,
+      "zh": "今天天氣夠溫暖，所以我們決定去公園野餐。",
+      "explain": "enough 作程度副詞修飾形容詞或副詞時，必須置於被修飾詞之後；be 動詞 is 為連綴動詞，後接形容詞 warm 作主詞補語，故選 (A) warm enough。(B) enough 置於形容詞前為常見錯誤；(C) is 需接形容詞而非副詞 warmly，且 too warm 表太熱，與文意不合；(D) warmly 為副詞，不能作 is 的主詞補語。"
+    },
+    {
+      "topic": "頻率副詞的位置",
+      "level": 1,
+      "q": "Grandpa loves gardening. He ____ in the morning before breakfast.",
+      "options": [
+        "waters the flowers always",
+        "waters always the flowers",
+        "is always watering the flowers",
+        "always waters the flowers"
+      ],
+      "answer": 3,
+      "zh": "爺爺熱愛園藝。他總是在早晨早餐前澆花。",
+      "explain": "頻率副詞（如 always, usually, often）的位置為「一般動詞之前、be 動詞之後、助動詞與本動詞之間」。waters 為一般動詞，always 應置於其前，故選 (D)。(A)(B) 將頻率副詞放在動詞後或句尾不符一般用法；(C) 現在進行式在此不符表達日常習慣的語境。"
+    },
+    {
+      "topic": "地點副詞 home 前不加介系詞",
+      "level": 1,
+      "q": "It was already dark when the students finally ____ after track and field practice.",
+      "options": [
+        "arrived at home",
+        "got to home",
+        "went home",
+        "returned to home"
+      ],
+      "answer": 2,
+      "zh": "田徑練習結束後，當學生們終於回家時，天色已經暗了。",
+      "explain": "home 在此處作為地點副詞，修飾動詞 went，前面不可加介系詞 to 或 at，故選 (C) went home。(A) at 為多餘介系詞；(B) to 為多餘介系詞；(D) return home 即可，不可加介系詞 to。"
+    },
+    {
+      "topic": "動詞＋介副詞之代名詞受詞位置",
+      "level": 1,
+      "q": "If your shoes are wet and muddy, please ____ before entering the living room.",
+      "options": [
+        "take off them",
+        "take off it",
+        "take it off",
+        "take them off"
+      ],
+      "answer": 3,
+      "zh": "如果你的鞋子又濕又沾滿泥巴，請在進客廳前把它們脫掉。",
+      "explain": "shoes 為複數名詞，代名詞應用 them。當「動詞 ＋ 介副詞（如 take off）」的受詞為人稱代名詞時，代名詞必須置於動詞與介副詞之間，故選 (D) take them off。(A) 代名詞 them 不能放在介副詞 off 之後；(B)(C) 代名詞 it 為單數，與複數名詞 shoes 不一致。"
+    },
+    {
+      "topic": "連綴動詞接形容詞而非副詞",
+      "level": 1,
+      "q": "The fresh bread coming out of the oven smells ____, making everyone in the kitchen hungry.",
+      "options": [
+        "delicious",
+        "deliciously",
+        "more deliciously",
+        "delightfully"
+      ],
+      "answer": 0,
+      "zh": "從烤箱剛出爐的新鮮麵包聞起來很香，讓廚房裡的每個人都肚子餓了。",
+      "explain": "smell 在此為連綴動詞（聞起來），後方必須接形容詞作主詞補語，故選 (A) delicious。(B) deliciously 為副詞，不能作主詞補語；(C) more deliciously 為比較級副詞，詞性錯誤；(D) delightfully 為副詞，亦不能作連綴動詞的補語。"
+    },
+    {
+      "topic": "疑問副詞 how often 詢問頻率",
+      "level": 1,
+      "q": "A: ____ do you visit the public library?\nB: About two or three times a month.",
+      "options": [
+        "How long",
+        "How often",
+        "How far",
+        "How soon"
+      ],
+      "answer": 1,
+      "zh": "A: 你多久去一次市立圖書館？\nB: 大約一個月兩到三次。",
+      "explain": "根據回答「About two or three times a month（一個月大約兩到三次）」可知是在詢問「次數與頻率」，疑問副詞片語應選 (B) How often。(A) How long 用於詢問時間長度或距離長度；(C) How far 詢問距離；(D) How soon 詢問「再過多久之後」。"
+    },
+    {
+      "topic": "疑問副詞 how soon 詢問多久之後",
+      "level": 1,
+      "q": "A: The train has been delayed due to the heavy rain. ____ will it arrive?\nB: In about twenty minutes.",
+      "options": [
+        "How far",
+        "How long",
+        "How soon",
+        "How often"
+      ],
+      "answer": 2,
+      "zh": "A: 火車因大雨誤點了。再過多久會到達？\nB: 大約二十分鐘後。",
+      "explain": "由回答「In about twenty minutes（大約二十分鐘之後）」可知是在詢問從現在起算「再過多久時間之後」，需使用 (C) How soon。(A) How far 問距離；(B) How long 問持續時間的長度；(D) How often 問頻率。"
+    },
+    {
+      "topic": "易混淆副詞 hard vs hardly",
+      "level": 1,
+      "q": "Kevin was so exhausted after the marathon that he could ____ keep his eyes open.",
+      "options": [
+        "hard",
+        "harder",
+        "hardness",
+        "hardly"
+      ],
+      "answer": 3,
+      "zh": "馬拉松結束後凱文筋疲力盡，幾乎無法睜開雙眼。",
+      "explain": "hardly 為否定副詞，意為「幾乎不」，could hardly keep his eyes open 表示「幾乎無法睜開雙眼」，符合語境，故選 (D)。(A) hard 作副詞表示「努力地、猛烈地」，與句意相悖；(B) harder 為比較級；(C) hardness 為名詞（硬度、艱難）。"
+    },
+    {
+      "topic": "易混淆副詞 late vs lately",
+      "level": 1,
+      "q": "____, have you received any postcards or emails from Emily? She went to London last month.",
+      "options": [
+        "Lately",
+        "Late",
+        "Later",
+        "Latter"
+      ],
+      "answer": 0,
+      "zh": "最近你有收到艾蜜莉寄來的任何明信片或電子郵件嗎？她上個月去倫敦了。",
+      "explain": "lately 為時間副詞，意為「最近地」，常與現在完成式連用，故選 (A)。(B) late 作副詞表「遲、晚」；(C) later 表「稍後、後來」；(D) latter 為形容詞或代名詞，表「（兩者中的）後者」。"
+    },
+    {
+      "topic": "特殊副詞 already vs yet",
+      "level": 1,
+      "q": "I haven't finished reading the science fiction novel ____, so please don't tell me the ending.",
+      "options": [
+        "already",
+        "still",
+        "yet",
+        "ever"
+      ],
+      "answer": 2,
+      "zh": "我還沒讀完那本科幻小說，所以請先別告訴我結局。",
+      "explain": "yet 用於現在完成式的否定句句尾，表示「尚未、還沒」，故選 (C)。(A) already 通常用於肯定句；(B) still 若用於否定句，通常置於助動詞 haven't 之前；(D) ever 表「曾經」，多用於疑問句或條件句。"
+    },
+    {
+      "topic": "everyday vs every day",
+      "level": 1,
+      "q": "Learning English vocabulary is not difficult if you review what you have learned ____.",
+      "options": [
+        "everyday",
+        "every day",
+        "all days",
+        "some day"
+      ],
+      "answer": 1,
+      "zh": "如果你每天複習所學的內容，學習英文單字並不難。",
+      "explain": "every day 分開寫為時間副詞片語，作「每天」解，修飾動詞 review，故選 (B)。(A) everyday 拼成一個字是形容詞，意為「日常的、平常的」，用來修飾名詞（如 everyday life）；(C) all days 非標準副詞片語；(D) some day 表「有朝一日、將來某一天」。"
+    },
+    {
+      "topic": "副詞原級比較 as... as",
+      "level": 1,
+      "q": "Although Ethan is only ten years old, he plays the violin as ____ as a professional musician.",
+      "options": [
+        "good",
+        "better",
+        "best",
+        "well"
+      ],
+      "answer": 3,
+      "zh": "雖然伊森只有十歲，但他小提琴拉得跟專業音樂家一樣好。",
+      "explain": "as... as 之間需使用原級，且此處修飾一般動詞 plays 需用副詞 well，故選 (D)。(A) good 為形容詞，不可修飾一般動詞 plays；(B) better 為比較級；(C) best 為最高級。"
+    },
+    {
+      "topic": "後位修飾名詞的地點副詞",
+      "level": 1,
+      "q": "The airport announcement stated that the passengers ____ should proceed to Gate 12 immediately.",
+      "options": [
+        "outside",
+        "outsidely",
+        "at outside",
+        "in outside"
+      ],
+      "answer": 0,
+      "zh": "機場廣播說明在室外的旅客應立即前往 12 號登機門。",
+      "explain": "地點副詞可以直接置於名詞之後作後位修飾語，the passengers outside 意為「在室外的旅客」，故選 (A)。(B) 英語中無 outsidely 這個字；(C)(D) outside 本身即可作副詞或介系詞，前面不需再加 at 或 in。"
+    },
+    {
+      "topic": "易混淆副詞 near vs nearly",
+      "level": 1,
+      "q": "The cyclist was ____ hit by a speeding truck, but luckily he swerved just in time.",
+      "options": [
+        "near",
+        "nearer",
+        "nearly",
+        "nearest"
+      ],
+      "answer": 2,
+      "zh": "那名自行車騎士差點被一輛超速卡車撞上，但幸好他及時轉向閃避了。",
+      "explain": "nearly 為副詞，意為「幾乎、差一點」，was nearly hit 意為「差點被撞到」，故選 (C)。(A) near 作副詞時指具體空間距離上的「靠近」；(B) nearer 為比較級；(D) nearest 為最高級。"
+    },
+    {
+      "topic": "副詞修飾形容詞",
+      "level": 1,
+      "q": "The instructions on the test paper are ____ clear, so none of the students asked any questions.",
+      "options": [
+        "complete",
+        "completely",
+        "completeness",
+        "completing"
+      ],
+      "answer": 1,
+      "zh": "試卷上的說明非常清楚，所以沒有任何學生提出問題。",
+      "explain": "空格處用於修飾形容詞 clear（清楚的），需使用副詞 completely（完全地、極其），故選 (B)。(A) complete 為形容詞；(C) completeness 為名詞；(D) completing 為動名詞或現在分詞。"
+    },
+    {
+      "topic": "同類副詞順序（小單位在前，大單位在後）",
+      "level": 2,
+      "q": "The international flight is scheduled to land in Taipei ____.",
+      "options": [
+        "at 6:30 p.m. tomorrow evening",
+        "tomorrow evening at 6:30 p.m.",
+        "on 6:30 p.m. tomorrow evening",
+        "at tomorrow evening 6:30 p.m."
+      ],
+      "answer": 0,
+      "zh": "該國際航班預計於明天傍晚六點三十分降落於台北。",
+      "explain": "同類的時間副詞同時出現時，順序為「小單位在前，大單位在後」。at 6:30 p.m.（特定鐘點，小單位）應放在 tomorrow evening（大單位）之前，故選 (A)。(B) 大單位放在小單位前不符習慣；(C) 具體時間點介系詞需用 at 而非 on；(D) 介系詞與語序搭配錯誤。"
+    },
+    {
+      "topic": "不同類副詞次序（地點＋方式＋時間）",
+      "level": 2,
+      "q": "After traveling for more than twenty hours, our team arrived ____.",
+      "options": [
+        "safely yesterday at the airport",
+        "at the airport safely yesterday",
+        "yesterday at the airport safely",
+        "safely at the airport yesterday"
+      ],
+      "answer": 1,
+      "zh": "經過二十多個小時的奔波，我們的團隊昨天平安抵達了機場。",
+      "explain": "不同類別的副詞在句尾的排列順序為「地點(①) ＋ 方式(②) ＋ 時間(③)」。at the airport（地點）＋ safely（方式）＋ yesterday（時間），故選 (B)。(A)(C)(D) 語序皆不符此項副詞次序規則。"
+    },
+    {
+      "topic": "副詞在完成式中的位置",
+      "level": 2,
+      "q": "The scientist had ____ realized the true value of her discovery before other researchers noticed it.",
+      "options": [
+        "yet",
+        "still",
+        "already",
+        "hard"
+      ],
+      "answer": 2,
+      "zh": "在其他研究人員注意到之前，這位科學家就已經意識到她這項發現的真正價值了。",
+      "explain": "在過去完成式肯定句中，副詞常置於助動詞 had 與過去分詞 realized 之間，already 表示「已經」，符合文意，故選 (C)。(A) yet 用於否定句或疑問句；(B) still 表「仍然」，與文意不合；(D) hard 表「猛烈地、努力地」，詞意不通。"
+    },
+    {
+      "topic": "肯定附和倒裝句 so ＋ 助動詞 ＋ 主詞",
+      "level": 2,
+      "q": "Brian won first prize in the national speech contest, and ____.",
+      "options": [
+        "so his sister did",
+        "neither did his sister",
+        "his sister did so, too",
+        "so did his sister"
+      ],
+      "answer": 3,
+      "zh": "布萊恩在全國演講比賽中獲得第一名，他的妹妹也是。",
+      "explain": "前半句為肯定句且謂語動詞為過去式 won，後半句表達肯定附和「某人也是」時，需用「so ＋ 助動詞 ＋ 主詞」的倒裝結構，動詞以 did 代替，故選 (D) so did his sister。(A) so 後未倒裝；(B) neither 用於否定句附和；(C) 雖意思相近，但若要用 too，慣用語為 his sister did, too，不可加 so。"
+    },
+    {
+      "topic": "否定附和倒裝句 neither / nor ＋ 助動詞 ＋ 主詞",
+      "level": 2,
+      "q": "Linda cannot speak French fluently, and ____.",
+      "options": [
+        "neither can her brother",
+        "so can her brother",
+        "nor her brother can",
+        "her brother cannot neither"
+      ],
+      "answer": 0,
+      "zh": "琳達法語說得不流利，她的哥哥也不會說。",
+      "explain": "前半句為含有助動詞 cannot 的否定句，後半句表達「也不⋯」需使用「neither / nor ＋ 助動詞 ＋ 主詞」之倒裝結構，助動詞使用 can，故選 (A) neither can her brother。(B) so 用於肯定附和；(C) nor 後面未倒裝；(D) neither 不能置於否定句句尾代替 either。"
+    },
+    {
+      "topic": "易混淆副詞 high vs highly",
+      "level": 2,
+      "q": "Professor Higgins is ____ recommended by all of his former students for his dedication to teaching.",
+      "options": [
+        "high",
+        "highly",
+        "higher",
+        "highest"
+      ],
+      "answer": 1,
+      "zh": "希金斯教授因其對教學的奉獻，受到所有以前學生的極力推薦。",
+      "explain": "highly 為程度副詞，意為「極度、高度地、非常」，常用於修飾過去分詞（如 highly recommended / highly praised / highly appreciated），故選 (B)。(A) high 作副詞時指具體空間高度（如 fly high）；(C) higher 為比較級；(D) highest 為最高級。"
+    },
+    {
+      "topic": "易混淆副詞 short vs shortly",
+      "level": 2,
+      "q": "The manager will be back from his business trip ____, so please wait in the conference room.",
+      "options": [
+        "short",
+        "shorten",
+        "shortly",
+        "shortness"
+      ],
+      "answer": 2,
+      "zh": "經理很快就會出差回來，所以請在會議室稍候。",
+      "explain": "shortly 為時間副詞，意為「不久、很快地（= soon）」，符合未來式之語意，故選 (C)。(A) short 作副詞時表示「突然地、未達」（如 stop short / fall short of）；(B) shorten 為動詞（縮短）；(D) shortness 為名詞（短暫、不足）。"
+    },
+    {
+      "topic": "易混淆副詞 deep vs deeply",
+      "level": 2,
+      "q": "We were ____ touched by the volunteers' selfless devotion to the earthquake victims.",
+      "options": [
+        "deep",
+        "deepen",
+        "depth",
+        "deeply"
+      ],
+      "answer": 3,
+      "zh": "我們被志工對地震災民無私的奉獻深深感動了。",
+      "explain": "deeply 用於抽象心靈情感層面，意為「深深地、極其」，修飾過去分詞 touched（受感動的），故選 (D)。(A) deep 作副詞指具體空間深度（如 dig deep）；(B) deepen 為動詞；(C) depth 為名詞。"
+    },
+    {
+      "topic": "易混淆副詞 wide vs widely",
+      "level": 2,
+      "q": "English is ____ used as a common language in international business, science, and technology.",
+      "options": [
+        "widely",
+        "wide",
+        "widen",
+        "width"
+      ],
+      "answer": 0,
+      "zh": "英語在國際商業、科學和技術領域中被廣泛地用作共通語言。",
+      "explain": "widely 意為「廣泛地」，常與過去分詞連用（widely used / widely recognized），故選 (A)。(B) wide 作副詞時意為「張大、充分張開」（如 open your mouth wide）；(C) widen 為動詞（加寬）；(D) width 為名詞（寬度）。"
+    },
+    {
+      "topic": "易混淆副詞 close vs closely",
+      "level": 2,
+      "q": "The laboratory experiment must be ____ monitored to prevent any chemical leakage.",
+      "options": [
+        "close",
+        "closely",
+        "closeness",
+        "closing"
+      ],
+      "answer": 1,
+      "zh": "必須嚴密監控該實驗室實驗，以防止任何化學品洩漏。",
+      "explain": "closely 為副詞，意為「嚴密地、仔細地（= carefully / strictly）」，修飾過去分詞 monitored，故選 (B)。(A) close 作副詞表空間距離上的「靠近」（如 stay close）；(C) closeness 為名詞；(D) closing 為現在分詞或動名詞。"
+    },
+    {
+      "topic": "易混淆副詞 not a bit vs not a little",
+      "level": 2,
+      "q": "After hiking up the steep mountain for five hours, we were ____ exhausted and desperately needed to rest.",
+      "options": [
+        "not a bit",
+        "a bit",
+        "not a little",
+        "little"
+      ],
+      "answer": 2,
+      "zh": "在陡峭的山上徒步五個小時後，我們非常疲憊，極度需要休息。",
+      "explain": "not a little 為固定副詞片語，意為「非常地、相當多（= very much）」，符合下文「極度需要休息」的文意，故選 (C)。(A) not a bit 意為「一點也不（= not at all）」，與句意相反；(B) a bit 表稍微，語氣偏弱；(D) little 表否定「幾乎不」，語義不符。"
+    },
+    {
+      "topic": "maybe vs may be",
+      "level": 2,
+      "q": "The strange noise you heard last night ____ nothing more than a stray cat on the roof.",
+      "options": [
+        "maybe",
+        "may",
+        "can",
+        "may be"
+      ],
+      "answer": 3,
+      "zh": "你昨晚聽到的怪聲可能只不過是屋頂上的一隻流浪貓。",
+      "explain": "主詞為 The strange noise you heard last night，空格處需要述語動詞。may be 為情態助動詞 may 加上原形動詞 be，意為「可能是」，故選 (D)。(A) maybe 是副詞（也許），不能充當句子的主要動詞；(B)(C) 助動詞後缺少原形動詞 be。"
+    },
+    {
+      "topic": "ago vs before 的時態搭配",
+      "level": 2,
+      "q": "Mr. Davis told us that he had graduated from medical school five years ____.",
+      "options": [
+        "before",
+        "ago",
+        "since",
+        "yet"
+      ],
+      "answer": 0,
+      "zh": "戴維斯先生告訴我們，他在五年前就已經從醫學院畢業了。",
+      "explain": "在間接引述（間接直述句）中，與過去完成式（had graduated）搭配表示「過去某時間點之前的若干時間」，需用 before 而非 ago，故選 (A)。(B) ago 是以「現在」為基準點，通常與過去簡單式連用；(C) since 表自從，後接時間起點；(D) yet 表尚未。"
+    },
+    {
+      "topic": "sometime 的用法",
+      "level": 2,
+      "q": "Let's grab a cup of coffee and chat about our project ____ next week when you're free.",
+      "options": [
+        "sometimes",
+        "sometime",
+        "some times",
+        "some time"
+      ],
+      "answer": 1,
+      "zh": "下週找個你有空的時間，我們喝杯咖啡聊聊我們的專案吧。",
+      "explain": "sometime 為副詞，指「未來或過去的某個不特定時刻」，sometime next week 意為「下週某個時候」，故選 (B)。(A) sometimes 為頻率副詞（有時候）；(C) some times 表次數（好幾次）；(D) some time 為名詞片語（一段時間）。"
+    },
+    {
+      "topic": "some time 的用法",
+      "level": 2,
+      "q": "The unexpected traffic jam cost us ____, so we arrived at the concert thirty minutes late.",
+      "options": [
+        "sometimes",
+        "sometime",
+        "some time",
+        "some times"
+      ],
+      "answer": 2,
+      "zh": "意料之外的塞車耗費了我們一段時間，所以我們音樂會遲到了三十分鐘。",
+      "explain": "授與動詞 cost 需接名詞作受詞（cost sb. sth.），some time 為名詞片語，意為「一段時間」，故選 (C)。(A) sometimes 為副詞（有時候）；(B) sometime 為副詞（某時）；(D) some times 表「好幾次」，與耗費時間之句意不符。"
+    },
+    {
+      "topic": "程度副詞修飾比較級",
+      "level": 3,
+      "q": "This newly developed solar panel is ____ more efficient than the older models on the market.",
+      "options": [
+        "very",
+        "quite",
+        "more",
+        "much"
+      ],
+      "answer": 3,
+      "zh": "這款新研發的太陽能板比市面上的舊機型效率高得多。",
+      "explain": "修飾形容詞比較級（more efficient）需使用 much, far, a lot, even 等程度副詞，故選 (D) much。(A) very 只能修飾原級，不能修飾比較級；(B) quite 通常修飾原級；(C) more 不能重複修飾已由 more 構成的比較級。"
+    },
+    {
+      "topic": "the very 修飾最高級",
+      "level": 3,
+      "q": "Among all the participants in the competition, Jessica proved to be ____ most talented pianist.",
+      "options": [
+        "the very",
+        "the much",
+        "very the",
+        "much"
+      ],
+      "answer": 0,
+      "zh": "在比賽的所有參賽者中，潔西卡被證明是最有才華的鋼琴家。",
+      "explain": "very 與 much 均可用於修飾最高級，但語序不同：the very ＋ 最高級，或 much ＋ the ＋ 最高級。本句空格在 most talented 之前且包含冠詞位置，故選 (A) the very。(B)(C) 語序皆不合文法；(D) much 必須置於 the 之前（much the most talented）。"
+    },
+    {
+      "topic": "much 修飾敘述形容詞 alike",
+      "level": 3,
+      "q": "Although the twins wear different styles of clothes, they look ____ alike in their facial expressions.",
+      "options": [
+        "very",
+        "much",
+        "more",
+        "most"
+      ],
+      "answer": 1,
+      "zh": "雖然這對雙胞胎穿著不同風格的衣服，但他們的面部表情看起來非常相像。",
+      "explain": "alike 為敘述形容詞（主要作補語，不能置於名詞前修飾）。英語文法規則中，修飾 alike, afraid, alone, aware 等敘述形容詞時，必須使用 much 而不可使用 very，故選 (B) much。(A) very 不能直接修飾 alike；(C) more alike 需有比較對象 than；(D) most alike 需有範圍限定。"
+    },
+    {
+      "topic": "副詞比較級與 The ＋ 比較級, the ＋ 比較級",
+      "level": 3,
+      "q": "The more attentively you listen in class, the ____ you will grasp the complex grammatical rules.",
+      "options": [
+        "easier",
+        "easily",
+        "more easily",
+        "most easily"
+      ],
+      "answer": 2,
+      "zh": "你在課堂上聽得愈專心，你就愈能容易地掌握那些複雜的文法規則。",
+      "explain": "本題為「The ＋ 比較級..., the ＋ 比較級...（愈…愈…）」句型。後半句修飾一般動詞 grasp（理解、掌握）需用副詞，副詞 easily 的比較級為 more easily，故選 (C)。(A) easier 為形容詞比較級，不可修飾一般動詞；(B) easily 為原級；(D) most easily 為最高級。"
+    },
+    {
+      "topic": "still 在否定句中的位置",
+      "level": 3,
+      "q": "Despite several rounds of intense negotiations, the two companies ____ agree on the terms of the merger.",
+      "options": [
+        "cannot still",
+        "can still not",
+        "are still not",
+        "still cannot"
+      ],
+      "answer": 3,
+      "zh": "儘管進行了幾輪激烈的談判，兩家公司仍然無法就合併條款達成共識。",
+      "explain": "still（仍然）在否定句中，位置規則為「置於否定的助動詞之前」，故 still cannot 為標準用法，選 (D)。(A) cannot still 語序錯誤；(B) can still not 較不自然且少用；(C) 後接原形動詞 agree，不可用 are。"
+    },
+    {
+      "topic": "易混淆副詞 fair vs fairly",
+      "level": 3,
+      "q": "In any sports competition, all players are expected to play ____ and respect the referee's decisions.",
+      "options": [
+        "fair",
+        "fairly",
+        "fairness",
+        "unfairly"
+      ],
+      "answer": 0,
+      "zh": "在任何體育比賽中，所有選手都被期望要光明正大、堂堂正正地比賽，並尊重裁判的判決。",
+      "explain": "play fair 為標準英文慣用語，意為「堂堂正正地比賽、按規則公平競爭」，此處 fair 作副詞用，故選 (A)。(B) fairly 作副詞時主要表示「相當地」或「公正地對待（如 treat sb. fairly）」，搭配 play 慣用 play fair；(C) fairness 為名詞；(D) unfairly 表不公平地，與句意相悖。"
+    },
+    {
+      "topic": "易混淆副詞 direct vs directly",
+      "level": 3,
+      "q": "The nonstop flight from Taipei to San Francisco flies ____ without making any stopovers in other cities.",
+      "options": [
+        "directly",
+        "direct",
+        "direction",
+        "directed"
+      ],
+      "answer": 1,
+      "zh": "從台北直飛舊金山的直達航班是直接飛行，中途不在其他城市停留。",
+      "explain": "direct 作副詞時，意為「不繞道地、徑直地（straight / without stopping）」，常用於 fly direct / go direct，故選 (B)。(A) directly 作副詞時主要表示「立刻、馬上（immediately）」或抽象的直接關係；(C) direction 為名詞（方向）；(D) directed 為過去分詞。"
+    },
+    {
+      "topic": "否定副詞置於句首的倒裝句",
+      "level": 3,
+      "q": "Hardly ____ such a breathtaking performance before she attended the Vienna Philharmonic concert.",
+      "options": [
+        "she had witnessed",
+        "did she witness",
+        "had she witnessed",
+        "has she witnessed"
+      ],
+      "answer": 2,
+      "zh": "在參加維也納愛樂樂團音樂會之前，她幾乎從未見過如此震撼人心的演出。",
+      "explain": "否定副詞 hardly 置於句首時，句子需採倒裝結構（助動詞 ＋ 主詞 ＋ 本動詞）。根據 before she attended（過去式），主要子句動作發生在此之前，需用過去完成式 had she witnessed，故選 (C)。(A) 未倒裝；(B) 過去簡單式時態不符；(D) 現在完成式時態不符。"
+    },
+    {
+      "topic": "被動語態中副詞的位置",
+      "level": 3,
+      "q": "The distinguished professor is ____ by scholars across the world for his groundbreaking research.",
+      "options": [
+        "regarded highly",
+        "high regarded",
+        "regarded high",
+        "highly regarded"
+      ],
+      "answer": 3,
+      "zh": "這位傑出的教授因其開創性的研究而受到全世界學者的高度尊崇。",
+      "explain": "在被動語態中，當過去分詞之後有其他修飾語（by scholars across the world）時，副詞（highly）必須置於 be 動詞與過去分詞之間（is highly regarded），不可置於過去分詞之後，故選 (D)。(A) 分詞後有修飾語時不可將副詞置於分詞後；(B)(C) high 指具體空間高度，不能表示抽象程度的尊崇。"
+    },
+    {
+      "topic": "名詞＋ly 形成形容詞",
+      "level": 3,
+      "q": "Although the manager spoke in a ____ manner, her words conveyed a very strict warning.",
+      "options": [
+        "friendly",
+        "friendlily",
+        "friend",
+        "friendship"
+      ],
+      "answer": 0,
+      "zh": "雖然經理以友善的態度說話，但她的話語傳達了非常嚴厲的警告。",
+      "explain": "friendly 是由「名詞 friend ＋ ly」構成的形容詞，意為「友善的」，在此修飾名詞 manner（態度、舉止），故選 (A)。(B) friendlily 極為罕見且此處需修飾名詞 manner，應當使用形容詞 friendly；(C) friend 為名詞；(D) friendship 為抽象名詞（友誼）。"
+    }
+  ]
+}

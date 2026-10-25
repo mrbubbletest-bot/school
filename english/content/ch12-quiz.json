@@ -1,0 +1,701 @@
+{
+  "chapter": 12,
+  "title": "代名詞",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "I am always taking her sister ____.",
+          "options": [
+            "be Mary",
+            "to be she",
+            "to be her",
+            "is Mary's"
+          ],
+          "answer": 2,
+          "zh": "我老是把她姊姊誤認為是她。",
+          "explain": "her sister 是 taking 的受詞，所以用受格作受詞補語。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "He is a much better teacher than ____.",
+          "options": [
+            "her",
+            "she",
+            "himself",
+            "herself"
+          ],
+          "answer": 1,
+          "zh": "跟她比起來，他是一位更優秀的老師。",
+          "explain": "兩個人互相比較，格需一致，He 與 she 均為主格。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "\"Whose hat is this?\" \"____.\"",
+          "options": [
+            "It's mine",
+            "It's me",
+            "It's he",
+            "It's him"
+          ],
+          "answer": 0,
+          "zh": "這是誰的帽子？",
+          "explain": "mine = my hat"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "\"John needs a pencil.\" \"He can use one ____.\"",
+          "options": [
+            "of me",
+            "of mine",
+            "himself",
+            "of them"
+          ],
+          "answer": 1,
+          "zh": "「約翰需要一支鉛筆。」「他可以用我鉛筆中的一支。」",
+          "explain": "one of mine = one of my pencils"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "This is my ticket and that is ____.",
+          "options": [
+            "you own",
+            "your",
+            "your's",
+            "yours"
+          ],
+          "answer": 3,
+          "zh": "這是我的車票，那是你的。",
+          "explain": "yours = your ticket"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "We should love ____ country.",
+          "options": [
+            "ourself",
+            "ourselves",
+            "our own",
+            "one's own"
+          ],
+          "answer": 2,
+          "zh": "我們要愛我們自己的國家。",
+          "explain": "own 用於所有格之後以加強語氣，主詞是第一人稱複數，故用 our own。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "I have a dog. ____ tail is very short.",
+          "options": [
+            "It's",
+            "Its",
+            "Itself",
+            "Dog's"
+          ],
+          "answer": 1,
+          "zh": "我有一隻狗。它的尾巴非常短。",
+          "explain": "物的單數代名詞是 it，其所有格是 its。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "____ are very intelligent.",
+          "options": [
+            "Both of them",
+            "Both them",
+            "Both they",
+            "The both"
+          ],
+          "answer": 0,
+          "zh": "他們兩人都非常聰明。",
+          "explain": "表示「兩者都……」可用 They both / Both of them。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "There are trees on ____ sides of the river.",
+          "options": [
+            "both",
+            "all",
+            "either",
+            "neither"
+          ],
+          "answer": 0,
+          "zh": "河的兩岸都有樹。",
+          "explain": "both 表示「兩者皆有」，如用 either 必須要接 side。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "I'm sorry I cannot find ____ of the two books you lent me.",
+          "options": [
+            "neither",
+            "each",
+            "either",
+            "any"
+          ],
+          "answer": 2,
+          "zh": "很抱歉，我找不到你借我的那兩本書。",
+          "explain": "not either = neither（兩者都不）"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Have you ever seen a whale alive? Yes, I've seen ____.",
+          "options": [
+            "that",
+            "it",
+            "one",
+            "such"
+          ],
+          "answer": 2,
+          "zh": "「你曾見過活的鯨魚嗎？」「我曾看見過一條。」",
+          "explain": "one 代替不特定的單數名詞 ⇒ one = a + 單數名詞。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "I don't like this one; please show me ____.",
+          "options": [
+            "other",
+            "another",
+            "any",
+            "else"
+          ],
+          "answer": 1,
+          "zh": "我不喜歡這個，請給我另一個。",
+          "explain": "another（另一個）。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "To say is one thing and to do is ____.",
+          "options": [
+            "other",
+            "the other",
+            "another",
+            "something"
+          ],
+          "answer": 2,
+          "zh": "說是一回事，做又是另一回事。",
+          "explain": "...one thing, ...another（……一回事，……另一回事）"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "I have three sisters. One is in the United States and ____ in China.",
+          "options": [
+            "the other",
+            "other",
+            "the others",
+            "others"
+          ],
+          "answer": 2,
+          "zh": "我有三位姊妹。一位在美國，其餘的都在中國。",
+          "explain": "the others 指所剩餘的全部。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Don't speak ill of ____ behind their backs.",
+          "options": [
+            "other",
+            "the other",
+            "others",
+            "another"
+          ],
+          "answer": 2,
+          "zh": "不要在人家背後說人家的壞話。",
+          "explain": "others（別人）"
+        },
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "New cars are much more expensive than old ____.",
+          "options": [
+            "car",
+            "one",
+            "ones",
+            "taxi"
+          ],
+          "answer": 2,
+          "zh": "新車比舊車貴得多。",
+          "explain": "ones = cars"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "It was ____ that came here at midnight.",
+          "options": [
+            "him",
+            "them",
+            "her",
+            "they"
+          ],
+          "answer": 3,
+          "zh": "半夜來這裡的是他們。",
+          "explain": "原句＝They came here at midnight. 本句是用「It is ~ that...」的句型來加強語氣。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "____ will do you good to do some exercise every morning.",
+          "options": [
+            "It",
+            "There",
+            "Those",
+            "One"
+          ],
+          "answer": 0,
+          "zh": "每天早上作些運動將對你有好處。",
+          "explain": "It 是形式主詞 = to do~"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "We think ____ our duty to pay taxes to our government.",
+          "options": [
+            "that",
+            "this",
+            "its",
+            "it"
+          ],
+          "answer": 3,
+          "zh": "我們認為向政府繳稅是我們的責任。",
+          "explain": "代名詞 it 代替不定詞片語 to pay taxes to our government。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "The climate of Shanghai is better than ____ of Nanjing.",
+          "options": [
+            "that",
+            "it",
+            "which",
+            "what"
+          ],
+          "answer": 0,
+          "zh": "上海的氣候比南京好。",
+          "explain": "that = the climate"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "The cars made in China are generally cheaper than ____ imported.",
+          "options": [
+            "that",
+            "which",
+            "them",
+            "those"
+          ],
+          "answer": 3,
+          "zh": "中國製造的汽車一般來講比進口車便宜。",
+          "explain": "在比較句型中，用 that 或 those 代替前面提過的東西。此題比較的是 cars，故用 those。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "The color of my coat is different from ____ of yours.",
+          "options": [
+            "this",
+            "that",
+            "these",
+            "those"
+          ],
+          "answer": 1,
+          "zh": "我的外套顏色不同於你的。",
+          "explain": "用 that 代替前面提過的名詞 (the color)，以避免重複。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "The students of your school are more diligent than ____.",
+          "options": [
+            "my school",
+            "these of ours",
+            "mine",
+            "those of mine"
+          ],
+          "answer": 3,
+          "zh": "你們學校的學生比我們學校的學生勤勉。",
+          "explain": "those = the students; mine = my school"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "There are two white buildings on this street. One is the library and ____ is the hospital.",
+          "options": [
+            "other",
+            "the other",
+            "the others",
+            "others"
+          ],
+          "answer": 1,
+          "zh": "這街道有兩棟白色的大樓。一棟是圖書館，另一棟是醫院。",
+          "explain": "指二者用 (one... the other) 一個……另一個……。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "It doesn't matter whether there is only coffee or tea. ____ will do.",
+          "options": [
+            "Any",
+            "Both",
+            "Anything",
+            "Either"
+          ],
+          "answer": 3,
+          "zh": "只有咖啡或茶都沒關係。隨便哪個都行。",
+          "explain": "兩者中任取一用 either。Either will do.（隨便哪個都行。）"
+        },
+        {
+          "no": 26,
+          "type": "mc",
+          "q": "The long procession entered the hall one after ____.",
+          "options": [
+            "the others",
+            "another",
+            "other",
+            "others"
+          ],
+          "answer": 1,
+          "zh": "長長的隊伍一個接著一個地進入館內。",
+          "explain": "one after another（一個接一個）"
+        },
+        {
+          "no": 27,
+          "type": "mc",
+          "q": "I saw him once, and ____ ten years ago.",
+          "options": [
+            "this",
+            "it",
+            "which",
+            "that"
+          ],
+          "answer": 3,
+          "zh": "我見過他一次，是在十年前。",
+          "explain": "and that（而且）⇒ 代替前半句所述的事實。"
+        },
+        {
+          "no": 28,
+          "type": "mc",
+          "q": "I used to refresh ____ with a cup of tea.",
+          "options": [
+            "mine",
+            "myself",
+            "my own",
+            "oneself"
+          ],
+          "answer": 1,
+          "zh": "我習慣用喝茶來提神。",
+          "explain": "refresh oneself（提神）。因主詞用 I，故反身代名詞用 myself。"
+        },
+        {
+          "no": 29,
+          "type": "mc",
+          "q": "He believed there were no greener pastures than ____ close at hand.",
+          "options": [
+            "it",
+            "that",
+            "those",
+            "others"
+          ],
+          "answer": 2,
+          "zh": "他相信這附近再沒有更綠的牧場了。",
+          "explain": "those 代替前面提過的 pastures。"
+        },
+        {
+          "no": 30,
+          "type": "mc",
+          "q": "One ____ is sure to succeed in the future.",
+          "options": [
+            "who hard study",
+            "who study hard",
+            "who studies hard",
+            "who studies hardly"
+          ],
+          "answer": 2,
+          "zh": "努力學習者將來必定會成功。",
+          "explain": "One who studies hard... = Those who study hard..."
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "根據中文提示，在空格內填入適當的單字或片語",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "天助自助者。\nGod helps ____ ____ help ____.",
+          "answer": "those who / themselves",
+          "zh": "天助自助者。",
+          "explain": "those who / themselves"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "敬人者，人恆敬之。\n____ ____ ____ ____ will be respected by others.",
+          "answer": "One who respects others",
+          "zh": "敬人者，人恆敬之。",
+          "explain": "One who respects others ＝ Those who respect others\nothers ＝ other people（別人；他人）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "任何人都不能單獨生存。\n____ ____ can live ____.",
+          "answer": "No one / alone",
+          "zh": "任何人都不能單獨生存。",
+          "explain": "① No one ＝ None\n② alone ＝ by oneself"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "他們在郊遊中玩的很愉快。\nThey ____ ____ during the picnic.",
+          "answer": "enjoyed themselves",
+          "zh": "他們在郊遊中玩得很愉快。",
+          "explain": "enjoy oneself ＝ have a good time"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "有些人富有，有些人貧窮。\n____ people are rich while ____ are poor.",
+          "answer": "Some / others",
+          "zh": "有些人富有，有些人貧窮。",
+          "explain": "some..., others...（有些……，有些……）"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列各句譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "大家都同意這句話：音樂能美化人生。",
+          "hint": "美化人生：beautify one's life",
+          "answer": "Everyone agrees that music can beautify his life.",
+          "zh": "大家都同意這句話：音樂能美化人生。",
+          "explain": "本句亦可用：Everyone agrees to the saying that music can beautify his life."
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "愛好音樂的人都認為他們的生活充實愉快。",
+          "hint": "充實愉快：enriched and pleasant",
+          "answer": [
+            "Music lovers think that they live a full and delightful life.",
+            "Music lovers think that they live an enriched and pleasant life."
+          ],
+          "zh": "愛好音樂的人都認為他們的生活充實愉快。",
+          "explain": "live/lead a + 形 + life（過著……的生活）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "因此，有許多父母讓其子女從小就學習彈鋼琴。",
+          "hint": "學習彈鋼琴：learn to play the piano",
+          "answer": "Therefore, many parents let their children learn how to play the piano since their childhood.",
+          "zh": "因此，有許多父母讓其子女從小就學習彈鋼琴。",
+          "explain": "since their childhood（從童年起）＝since they were children"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "音樂有多種，有人喜歡古典的，有人愛聽現代的。",
+          "hint": "①古典的：classical ②現代的：modern",
+          "answer": "There are many kinds of music. Some people like classical music; others like modern music.",
+          "zh": "音樂有多種，有人喜歡古典的，有人愛聽現代的。",
+          "explain": "some..., others...（有些……，有些……）"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "週末時去聽音樂會是一種很有意義的休閒活動。",
+          "hint": "有意義的休閒活動：meaningful recreation",
+          "answer": [
+            "Attending a concert on weekends is a kind of meaningful activity.",
+            "Attending a concert on weekends is a kind of meaningful recreation."
+          ],
+          "zh": "週末時去聽音樂會是一種很有意義的休閒活動。",
+          "explain": "attend a concert ＝ go to a concert"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀測驗：選出最適當的答案填入空格中",
+      "passage": "A person 1.____ that he is incapable will not make a real effort, because he feels that 2.____ would be useless. He won't go at a job with 3.____ confidence necessary for success, and he won't work hardest, 4.____ though he may think he is doing 5.____. He is therefore 6.____ to fail, and the failure will strengthen his 7.____ in his incompetence. Older people may be prevented 8.____ learning by the 9.____ belief that they are incapable of learning 10.____ because of their age.",
+      "vocabulary_hints": [
+        "1. incapable [形] 無能力的",
+        "2. make a real effort 真正地在努力",
+        "3. go at a job 努力去做一件工作",
+        "4. confidence [名] 信心",
+        "5. work hardest 十分認真地工作",
+        "6. failure [名] 失敗",
+        "7. strengthen [動] 增強；加強",
+        "8. incompetence [名] 無能",
+        "9. be prevented 被阻止",
+        "10. belief [名] 信仰；信念",
+        "11. incapable of 無法；不能"
+      ],
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "A person ⟦1⟧ that he is incapable will not make a real effort...",
+          "options": [
+            "who believed",
+            "believes",
+            "who believes",
+            "is believed"
+          ],
+          "answer": 2,
+          "zh": "相信自己無能的人不會付出真正的努力……",
+          "explain": "A person [who believes (that he is incapable)] will not make...\nS [形容詞子句（關係子句）] [名詞子句] 述語動詞"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "...because he feels that ⟦2⟧ would be useless.",
+          "options": [
+            "he",
+            "one",
+            "it",
+            "is"
+          ],
+          "answer": 2,
+          "zh": "因為他覺得那樣做是無用的。",
+          "explain": "it 指 make a real effort 這件事情，因前面已提過，故用 it 代替。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "He won't go at a job with ⟦3⟧ confidence necessary for success...",
+          "options": [
+            "so a",
+            "the",
+            "a such",
+            "its"
+          ],
+          "answer": 1,
+          "zh": "他不會帶著成功所必需的信心去從事工作……",
+          "explain": "後面有形容詞修飾語 (necessary for success) 時，名詞表示特定，應加上 the。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "...and he won't work hardest, ⟦4⟧ though he may think he is doing so.",
+          "options": [
+            "ever",
+            "even",
+            "else",
+            "or else"
+          ],
+          "answer": 1,
+          "zh": "即使他可能認為自己很努力在工作……",
+          "explain": "even though ＝ even if ＋ S ＋ V（即便；即使）"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "...though he may think he is doing ⟦5⟧.",
+          "options": [
+            "it",
+            "one",
+            "so",
+            "too"
+          ],
+          "answer": 2,
+          "zh": "即使他可能認為自己很努力地在工作。",
+          "explain": "he is doing so ＝ he is working hardest\n本句為「即使他認為自己很努力地在工作。」"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "He is therefore ⟦6⟧ to fail...",
+          "options": [
+            "liking",
+            "alike",
+            "likes",
+            "likely"
+          ],
+          "answer": 3,
+          "zh": "因此他很可能會失敗……",
+          "explain": "be likely to ＋ V：很可能。likely 為形容詞「可能的」。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "...and the failure will strengthen his ⟦7⟧ in his incompetence.",
+          "options": [
+            "believe",
+            "believing",
+            "belief",
+            "believed"
+          ],
+          "answer": 2,
+          "zh": "而失敗又會加強他對自己無能的信念。",
+          "explain": "所有格 (his) ＋ 名詞 (belief)"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "Older people may be prevented ⟦8⟧ learning...",
+          "options": [
+            "into",
+            "with",
+            "from",
+            "away"
+          ],
+          "answer": 2,
+          "zh": "年長者可能會因為……而受阻無法學習……",
+          "explain": "prevent (人) from ＋ V-ing → (人) be prevented from ＋ V-ing（被阻止而無法……）"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "...by the ⟦9⟧ belief that they are incapable of learning anything...",
+          "options": [
+            "mistake",
+            "mistook",
+            "mistaken",
+            "mistakes"
+          ],
+          "answer": 2,
+          "zh": "錯誤的念頭",
+          "explain": "mistaken 為形容詞修飾 belief，表「錯誤的念頭」。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "...that they are incapable of learning ⟦10⟧ because of their age.",
+          "options": [
+            "nothing",
+            "everything",
+            "something",
+            "anything"
+          ],
+          "answer": 3,
+          "zh": "因為年齡的關係無法學習任何東西。",
+          "explain": "① 否定句、疑問句、條件句時應用 anything。\n② 肯定句時用 something。\n③ everything 指「一切事情或最重要的事情」。\n④ nothing 指「無物（事）或不重要的事情」。"
+        }
+      ]
+    }
+  ]
+}

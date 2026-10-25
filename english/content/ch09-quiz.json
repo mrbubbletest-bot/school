@@ -1,0 +1,436 @@
+{
+  "chapter": 9,
+  "title": "主詞與動詞的一致",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "There ____ some very bad storms recently.",
+          "options": ["is", "are", "have", "have been"],
+          "answer": 3,
+          "zh": "最近有一些暴風雨。",
+          "explain": "① recently 與現在完成式連用；「有」的現在完成式用 There has / have been。\n② storms 是複數，所以用 There have been。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "There ____ sixty minutes in an hour.",
+          "options": ["are", "is", "were", "shall be"],
+          "answer": 0,
+          "zh": "一小時有六十分鐘。",
+          "explain": "There are + 複數名詞。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Collecting stamps ____ a good hobby.",
+          "options": ["is", "are", "was", "were"],
+          "answer": 0,
+          "zh": "集郵是好的嗜好。",
+          "explain": "動名詞當主詞 + 單數動詞。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Chatting with them ____ my mind.",
+          "options": ["improves", "have improved", "improve", "improving"],
+          "answer": 0,
+          "zh": "和他們聊天增長見識。",
+          "explain": "動名詞（Chatting with them）當主詞 + 單數動詞。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Learning to use machines ____ very important today.",
+          "options": ["is", "was", "are", "were"],
+          "answer": 0,
+          "zh": "在今日學習使用機械是很重要的。",
+          "explain": "參考第 3 題說明：動名詞當主詞，接單數動詞。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "\"How much do you need?\" \"Ten pounds ____ enough.\"",
+          "options": ["are", "is", "has been", "have been"],
+          "answer": 1,
+          "zh": "「你需要多少？」「十磅就夠了。」",
+          "explain": "表示重量的主詞 + 單數動詞。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Ten thousand yuan ____ a large sum of money.",
+          "options": ["is", "are", "have been", "were"],
+          "answer": 0,
+          "zh": "一萬元是一筆大款項。",
+          "explain": "表示價值的主詞 + 單數動詞。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "The majority of the damage ____ easy to repair.",
+          "options": ["is", "are", "am", "been"],
+          "answer": 0,
+          "zh": "大多數的損壞容易修復。",
+          "explain": "damage（損壞）為不可數名詞，the majority of the damage 作主詞時視為單數。如題目改為 the majority of people（大多數的人），就要用複數動詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Much of what he says ____ not true.",
+          "options": ["does", "do", "is", "are"],
+          "answer": 2,
+          "zh": "他說的大部分是不真實的。",
+          "explain": "Much (of what he says) + 動詞 ➜ 主要子句的主詞是 much，為不可數，故用單數動詞。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Bread and butter ____ what he needs for breakfast.",
+          "options": ["is", "are", "being", "was"],
+          "answer": 0,
+          "zh": "奶油麵包是他所需要的早餐。",
+          "explain": "兩主詞用 and 連接，表示同一物（奶油麵包作為一份餐點）時，用單數動詞。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Many a student in the school ____ summer vacation very much.",
+          "options": ["likes", "like", "had liked", "liking"],
+          "answer": 0,
+          "zh": "學校裡很多學生都很喜歡暑假。",
+          "explain": "many a + 單數名詞 + 單數動詞（許多……）。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "Early to bed and early to rise ____ a man healthy, wealthy and wise.",
+          "options": ["make", "makes", "is", "are"],
+          "answer": 1,
+          "zh": "早睡早起使人健康、富有、聰明。",
+          "explain": "早睡早起是指「整體的」生活習慣觀念，所以用單數動詞。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Neither he nor I ____ willing to live there.",
+          "options": ["are", "were", "be", "am"],
+          "answer": 3,
+          "zh": "他和我不願住在那裡。",
+          "explain": "neither A nor B + 動詞（動詞與靠近的 B 即 I 配合，故用 am）。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Mary as well as her two younger sisters ____ fond of swimming.",
+          "options": ["is", "were", "are", "have been"],
+          "answer": 0,
+          "zh": "瑪麗和她的兩個妹妹都喜歡游泳。",
+          "explain": "A as well as B + 動詞（動詞與前方主詞 A 一致，Mary 為第三人稱單數，故用 is）。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "He is the only one of the students who ____ English fluently.",
+          "options": ["speaks", "speak", "speaking", "spoke"],
+          "answer": 0,
+          "zh": "他是唯一英語說得流利的學生。",
+          "explain": "the only one of + 複數名詞 + 動詞（關係子句動詞與 the only one 一致，為單數，故用 speaks）。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "She is interested in anything that ____ history.",
+          "options": ["is to do", "has to do with", "must be a", "concentrate on"],
+          "answer": 1,
+          "zh": "她對任何有關歷史的事都感興趣。",
+          "explain": "anything that + 單數動詞；have to do with 表示「與……有關」。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "The old house with its beautiful furniture and pictures ____ me.",
+          "options": ["have sold", "have been sold", "has sold", "has been sold"],
+          "answer": 3,
+          "zh": "這棟老房子和它所有漂亮的家具與畫一起賣給我了。",
+          "explain": "A with B + 動詞（動詞與前方主詞 A 即 The old house 一致，為單數）；房屋是被賣出，故用被動語態 has been sold。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Whether I go or I stay ____ upon the news we get about Mother's health.",
+          "options": ["depends", "depending", "dependent", "depend"],
+          "answer": 0,
+          "zh": "我去或者留下視我們得到母親健康的消息而定。",
+          "explain": "名詞子句（Whether... stay）當主詞 + 單數動詞 depends。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "This tool is used for smoothing edges ____ .",
+          "options": ["who are not smooth", "which is not smooth", "what are not smooth", "that are not smooth"],
+          "answer": 3,
+          "zh": "這工具是用來磨平不光滑的邊緣的。",
+          "explain": "關係子句的動詞應與先行詞一致。先行詞（edges）是複數物，故用 that are not smooth。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "The teacher with all his students ____ looking forward to ____ on a picnic.",
+          "options": ["are/going", "is/going", "is/gone", "are/gone"],
+          "answer": 1,
+          "zh": "老師和學生都盼望去野餐。",
+          "explain": "① 主詞 A with B 的動詞與 A（The teacher，單數）一致，故用 is。\n② look forward to + V-ing（盼望；期待），介系詞 to 後接動名詞 going。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "____ are right in this matter. (複選)",
+          "options": ["Both you and he", "You as well as he", "Not only you but also he", "Both of you"],
+          "answer": [0, 1, 3],
+          "zh": "這件事情你和他都是對的。",
+          "explain": "① Both A and B + 複數動詞，故 (A) 正確。\n② A as well as B 的動詞與 A 一致，此句 A 為 You，動詞用 are 配合，故 (B) 正確。\n③ Not only A but also B 的動詞與 B 一致，此處 B 為 he，動詞應為 is，故 (C) 不合。\n④ Both of + 名詞/代名詞 + 複數動詞，故 (D) 正確。"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "Among the passengers ____ the judge of our district, Mr. J. C. Smith.",
+          "options": ["was", "were", "are", "be"],
+          "answer": 0,
+          "zh": "我們區的法官史密斯先生，是旅客之一。",
+          "explain": "地點副詞片語 + 動詞 + 主詞 ➜ 本題為完全倒裝句，真正的主詞為 the judge of our district（單數），故動詞用過去式單數 was。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "The news coming from different parts of the world ____ often extremely discouraging these days.",
+          "options": ["are", "were", "am", "is"],
+          "answer": 3,
+          "zh": "近來世界各地發生的新聞通常令人十分沮喪。",
+          "explain": "The news (coming from... the world) is... ➜ 主詞是 The news（不可數名詞，單數），coming from... the world 為分詞片語修飾語，述語動詞用單數 is。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "Hockey and football, not bowling, ____ most athletic injuries.",
+          "options": ["is the sport that cause", "is the sport that is causing", "are the sports that cause", "are the sports that is the cause of"],
+          "answer": 2,
+          "zh": "曲棍球和足球，而非保齡球，是最會引起體育傷害的運動。",
+          "explain": "肯定主詞與否定主詞並列時，動詞與肯定主詞一致。肯定主詞 Hockey and football 為兩項運動（複數），故主詞補語用複數 the sports，關係子句先行詞為 sports，動詞用原形 cause。"
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "____ are specialized in engineering.",
+          "options": ["Most of my time", "Part of his wisdom", "Half of my family", "The rest of her life"],
+          "answer": 2,
+          "zh": "我們家人有一半精通工程學。",
+          "explain": "① 此題述語動詞為 are（複數），主詞必須是複數概念。\n② (A) time、(B) wisdom、(D) life 均為不可數名詞或單數名詞，配合單數動詞。\n③ family 作「家人」解時為集合名詞，Half of my family 指家人的一半（個別成員），接複數動詞 are。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "依中文提示完成英文句子",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "老師和學生們一樣地生病了。\nThe teacher ____ well ____ the students ____ ill.",
+          "answer": "as/as/is",
+          "zh": "老師和學生們一樣地生病了。",
+          "explain": "A as well as B + V（單複數形式與主詞 A 即 The teacher 配合，故用 is）。"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "地球表面四分之三被水覆蓋著。\nThree ____ of the earth's surface ____ covered ____ water.",
+          "answer": ["fourths/is/with", "fourths/is/by"],
+          "zh": "地球表面四分之三被水覆蓋著。",
+          "explain": "① 分數 + 不可數名詞 + 單數動詞；分數 + 可數名詞 + 複數動詞。earth's surface 為不可數，故動詞用 is。\n② be covered with / by 為「被……覆蓋」之固定片語。"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "愛別人而且被別人所愛是天下最大的幸福。\nTo love and to ____ loved ____ the greatest happiness ____ .",
+          "answer": "be/is/on earth",
+          "zh": "愛別人而且被別人所愛是天下最大的幸福。",
+          "explain": "① To love and to be loved（愛別人與被別人所愛）指一件事，用單數動詞 is。\n② on earth ＝ in the world（世上；地球上）。"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "如何預防疾病是值得研究的。\n____ ____ prevent diseases ____ worth ____ .",
+          "answer": "How to/is/studying",
+          "zh": "如何預防疾病是值得研究的。",
+          "explain": "① 名詞片語「How/What/Where... to + V」做主詞時，接用單數動詞 is。\n② S + be worth + V-ing（值得……），worth 為介系詞性形容詞，後接動名詞 studying。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "要對這個錯誤負責的是你而不是他。\nYou, not he, ____ to ____ for this mistake.",
+          "answer": "are/blame",
+          "zh": "要對這個錯誤負責的是你而不是他。",
+          "explain": "① 動詞應與肯定之主詞配合，故用 You are。\n② be to blame（受責難；負責），為一慣用法，以主動形式表達被動意義。"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列各句翻譯成正確英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "地球表面的四分之三是海洋。",
+          "hint": "地球表面: earth's surface",
+          "answer": "Three fourths of the earth's surface is covered with the ocean.",
+          "zh": "地球表面的四分之三是海洋。",
+          "explain": "Lots of / A lot of / Some of / Plenty of / 分數 + 不可數名詞 + 單數動詞。"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "在海洋中含有營養豐富的各種魚類。",
+          "hint": "營養豐富的: nutritious",
+          "answer": "There are various kinds of nutritious fishes in the ocean.",
+          "zh": "在海洋中含有營養豐富的各種魚類。",
+          "explain": "① various ＝ a variety of（各式各樣的）\n② kinds of ＝ sorts of ＝ types of（種類）"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "魚類以及蔬果是人類賴以維生之食物。",
+          "hint": "賴以為生: live on",
+          "answer": "Fish, fruit and vegetables are what man lives on.",
+          "zh": "魚類以及蔬果是人類賴以維生之食物。",
+          "explain": "① man ＝ humanity ＝ mankind ＝ human beings（人類）\n② live on + N（賴……為生），指東西；live by + V-ing（以……謀生），指方式。"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "但是，由於污染嚴重，魚的數量正逐漸減少。",
+          "hint": "污染嚴重: serious pollution",
+          "answer": "But, because of serious pollution, the amount of fish is decreasing.",
+          "zh": "但是，由於污染嚴重，魚的數量正逐漸減少。",
+          "explain": "① is decreasing ＝ is on the decrease（減少中）\n② decrease 指大小、數、量之減少，用於可數名詞。lessen 同 decrease，用於不可數名詞。reduce 指程度之減少或降低。"
+        },
+        {
+          "no": 5,
+          "type": "translate",
+          "q": "人類只有一個地球可以居住，應盡量愛護它。",
+          "hint": "愛護它: love and protect/value it",
+          "answer": "Man has only one earth to live on and (he) should love and protect it as well as possible.",
+          "zh": "人類只有一個地球可以居住，應盡量愛護它。",
+          "explain": "① live on 指「居住在……上」，介系詞 on 不可缺少。\n② as well as possible 指「儘量；盡可能地」。"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，選出最適當的選項填入各空格",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "Although ____ many different sizes and types of vending machines, they all work basically in the same way.",
+          "options": ["there are", "there have", "it has", "it is"],
+          "answer": 0,
+          "zh": "雖然有許多不同尺寸與類型的自動販賣機，……",
+          "explain": "① 本句主詞 vending machines 為複數，故用 there are。\n② 表示「有」不可用 there have，應用 there have been 表示「現在完成式」。"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "... vending machines, ____ all work basically in the same way.",
+          "options": ["both", "they", "which", "and it"],
+          "answer": 1,
+          "zh": "……它們基本上都以相同的方式運作。",
+          "explain": "① 用 they 代替 vending machines 作主要子句的主詞。\n② 若選 (C) 則只有 Although + S + V（副詞子句）及 Which + (S) + V（關係子句），缺少主要子句。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The customer ____ a coin into the machine ...",
+          "options": ["is put", "has put", "puts", "put"],
+          "answer": 2,
+          "zh": "顧客將硬幣投入機器……",
+          "explain": "The customer 指所有顧客，總稱用法，視為單數，接單數動詞 puts。"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "... and then ____ a button, pulls a lever, or opens a door to receive the merchandise.",
+          "options": ["pushes", "is pushed", "has pushed", "pushed"],
+          "answer": 0,
+          "zh": "……然後按下按鈕、拉下拉桿，或打開一扇門以取得商品。",
+          "explain": "三個以上之動作連續發生且並列時，時態應一致配合：and then pushes..., pulls..., or opens..."
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "Some machines will return ____ to the customer, and a few will make change for paper money.",
+          "options": ["charge", "chance", "change", "chart"],
+          "answer": 2,
+          "zh": "有些機器會退找零錢給顧客，還有少數能為紙鈔找零。",
+          "explain": "return change to the customer（找零錢給顧客）。change 在此為不可數名詞，意為「零錢」。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "But the basic idea ____ the same.",
+          "options": ["has", "to be", "being", "is"],
+          "answer": 3,
+          "zh": "但基本原理是相同的。",
+          "explain": "主詞 basic idea 為單數名詞，述語動詞用 is。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Customers like to save time and ____ usually willing to pay a higher price ...",
+          "options": ["have", "are", "like", "will"],
+          "answer": 1,
+          "zh": "顧客喜歡節省時間，而且通常願意……",
+          "explain": "① 主詞 customers（顧客）為複數，動詞用 are。\n② be willing to + 原形 V（願意）。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "... usually willing to ____ a higher price for this convenience.",
+          "options": ["be paid", "be paying", "pay", "have paid"],
+          "answer": 2,
+          "zh": "……為這種便利支付較高的代價。",
+          "explain": "pay a higher price（付出較昂貴的代價／付較貴的價錢）。be willing to 後接原形動詞 pay。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "The sale of snacks in vending machines ____ always been very successful.",
+          "options": ["have", "has", "having", "had"],
+          "answer": 1,
+          "zh": "在自動販賣機銷售點心一直非常成功。",
+          "explain": "本句主詞為 the sale（出售；販售），屬單數名詞，應用單數動詞 has been..."
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "However, machines now ____ hot meals with only limited success.",
+          "options": ["are sold", "sell", "has sold", "selling"],
+          "answer": 1,
+          "zh": "然而，機器現在販售熱食只有有限的成功。",
+          "explain": "① 主詞 machines 為複數，動詞用現在式複數 sell。\n② 機器販售熱食是主動語態，不可用 are sold（被賣）。"
+        }
+      ]
+    }
+  ]
+}

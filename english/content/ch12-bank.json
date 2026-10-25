@@ -1,0 +1,566 @@
+{
+  "chapter": 12,
+  "title": "代名詞",
+  "items": [
+    {
+      "topic": "人稱代名詞格",
+      "level": 1,
+      "q": "Between you and ____, I think our team has a great chance of winning the tournament.",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "answer": 3,
+      "zh": "就你我而言（這是你我之間的祕密），我認為我們隊伍很有機會贏得錦標賽。",
+      "explain": "between 是介系詞，後面必須接受格代名詞作介系詞的受詞。you 是受格，故此處連接詞 and 後也必須用受格 me。(A) I 為主格，不可作介系詞受詞；(B) my 為所有格，後須接名詞；(C) mine 為所有格代名詞（＝my + 名詞），語意不符。"
+    },
+    {
+      "topic": "所有格代名詞",
+      "level": 1,
+      "q": "Your presentation was very persuasive, but ____ was a bit too long.",
+      "options": [
+        "hers",
+        "her",
+        "she",
+        "herself"
+      ],
+      "answer": 0,
+      "zh": "你的簡報非常有說服力，但她的（簡報）有點太長了。",
+      "explain": "空格在子句中作主詞，且代表「她的簡報（her presentation）」，故需用所有格代名詞 hers。(B) her 是所有格或受格，所有格後面必須接名詞；(C) she 是主格代名詞，在此指人，不能與 presentation 相比；(D) herself 是反身代名詞，不能單獨作子句的主詞。"
+    },
+    {
+      "topic": "反身代名詞基本用法",
+      "level": 1,
+      "q": "Be careful with that sharp knife, or you might cut ____.",
+      "options": [
+        "you",
+        "yourself",
+        "your",
+        "yours"
+      ],
+      "answer": 1,
+      "zh": "小心那把鋒利的刀子，否則你可能會切傷你自己。",
+      "explain": "當動詞的受詞與主詞是同一人（祈使句省略的主詞為 you）時，受詞必須使用反身代名詞 yourself。(A) you 為普通受格，若主詞受詞為同一人不可用受格；(C) your 是所有格，後須有名詞；(D) yours 是所有格代名詞（你的東西），與語意不合。"
+    },
+    {
+      "topic": "代名詞並用順序",
+      "level": 1,
+      "q": "The teacher praised ____ for cleaning the classroom so thoroughly.",
+      "options": [
+        "me, you, and him",
+        "you, he, and I",
+        "him, you, and me",
+        "you, him, and me"
+      ],
+      "answer": 3,
+      "zh": "老師稱讚了你、他和我，因為我們把教室打掃得如此徹底。",
+      "explain": "受詞位置應使用受格代名詞（you, him, me）；多個人稱代名詞單數並列時，順序通常為第二人稱 → 第三人稱 → 第一人稱（2、3、1 原則）。故選 you, him, and me。(A) 與 (C) 人稱順序不合規範；(B) 包含主格 he 和 I，不可作動詞 praised 的受詞。"
+    },
+    {
+      "topic": "It 的用法：天氣現象",
+      "level": 1,
+      "q": "____ was raining heavily when we arrived at the campsite yesterday afternoon.",
+      "options": [
+        "It",
+        "There",
+        "That",
+        "This"
+      ],
+      "answer": 0,
+      "zh": "昨天下午我們到達露營地時，天下著大雨。",
+      "explain": "英文中表示天氣、氣溫、時間、距離或明暗時，習慣使用無實質意義的代名詞 it 作主詞。(B) There 常用於 There is/are 存在句型，不能代指天氣；(C) That 與 (D) This 為指示代名詞，不可指代天氣現象。"
+    },
+    {
+      "topic": "It 作形式主詞",
+      "level": 1,
+      "q": "____ is important for junior high students to develop good reading habits.",
+      "options": [
+        "This",
+        "That",
+        "What",
+        "It"
+      ],
+      "answer": 3,
+      "zh": "對國中生來說，養成良好的閱讀習慣是很重要的。",
+      "explain": "本句真正的真正主詞是不定詞片語 to develop good reading habits，句首須用虛主詞（形式主詞）It。(A) This 與 (B) That 不能作後接不定詞的虛主詞；(C) What 是疑問詞或複合關係代名詞，在此文法結構不通。"
+    },
+    {
+      "topic": "one 與 it 之比較",
+      "level": 1,
+      "q": "\"Do you have an extra umbrella?\" \"No, I don't have ____, but you can buy ____ at the convenience store.\"",
+      "options": [
+        "it; one",
+        "one; it",
+        "one; one",
+        "it; it"
+      ],
+      "answer": 2,
+      "zh": "「你有多餘的雨傘嗎？」「沒有，我沒有（多餘的傘），但你可以在便利商店買一把。」",
+      "explain": "兩處皆指「不特定」的一把傘（a/an + 單數名詞），故皆使用不定代名詞 one 代替。若是特定指某一把已提到的傘才用 it。(A) 第一個空是不特定，應用 one；(B) 第二個空是在便利商店買不特定的一把，應用 one；(D) 兩處皆非指特定的某一把雨傘。"
+    },
+    {
+      "topic": "ones 與 them 之比較",
+      "level": 1,
+      "q": "These green apples are too sour. Can you give me some red ____?",
+      "options": [
+        "them",
+        "one",
+        "those",
+        "ones"
+      ],
+      "answer": 3,
+      "zh": "這些青蘋果太酸了。你能給我一些紅色的（蘋果）嗎？",
+      "explain": "ones 用來代替前面提過的複數名詞（apples），且前面有形容詞修飾（red ones），表示不特定的同類事物。(A) them 代替特定的複數名詞，前面不能加形容詞修飾；(B) one 代替單數名詞，與 some 不合；(C) those 是指示代名詞，不置於 some red 之後。"
+    },
+    {
+      "topic": "some 與 any",
+      "level": 1,
+      "q": "I bought ____ fresh strawberries at the market, but there aren't ____ left in the fridge.",
+      "options": [
+        "some; any",
+        "some; some",
+        "any; any",
+        "any; some"
+      ],
+      "answer": 0,
+      "zh": "我在市場買了一些新鮮草莓，但冰箱裡一點都沒剩了。",
+      "explain": "some 通常用於肯定句；any 通常用於否定句、疑問句和條件句。前半句為肯定句用 some，後半句為否定句（aren't）用 any。(B) 第二個空為否定句不合；(C) 第一個空為肯定句不合；(D) 前後用法倒置。"
+    },
+    {
+      "topic": "some 用於客氣問句",
+      "level": 1,
+      "q": "\"Would you like ____ more hot chocolate? It's really delicious.\"",
+      "options": [
+        "any",
+        "either",
+        "none",
+        "some"
+      ],
+      "answer": 3,
+      "zh": "「你要再來一些熱巧克力嗎？真的很好喝喔。」",
+      "explain": "在表示客氣邀請、提議或期待對方回答「Yes」的問句中，習慣用 some 而不用 any。(A) any 用於普通疑問句（純粹詢問有無），在表達熱情招待時顯得生疏冷淡；(B) either 指兩者任一，巧克力為不可數名詞；(C) none 是代名詞（毫無），不修飾名詞且語意不符。"
+    },
+    {
+      "topic": "指示代名詞：電話用語",
+      "level": 1,
+      "q": "(On the telephone) \"Hello, who is speaking?\" \"____ is Brian speaking.\"",
+      "options": [
+        "This",
+        "I",
+        "He",
+        "That"
+      ],
+      "answer": 0,
+      "zh": "（在電話中）「喂，請問是哪位？」「我是布萊恩。」",
+      "explain": "在英語電話用語中，介紹自己時習慣用「This is...」，詢問對方時用「Who is that?」或「Is that...?」，不能直接說「I am Brian」。(B) I 不是電話用語習慣；(C) He 指第三者；(D) That 用於指對方。"
+    },
+    {
+      "topic": "both 與 all",
+      "level": 1,
+      "q": "David has two older brothers, and ____ of them are professional basketball players.",
+      "options": [
+        "all",
+        "either",
+        "both",
+        "every"
+      ],
+      "answer": 2,
+      "zh": "大衛有兩個哥哥，他們兩人都是職業籃球選手。",
+      "explain": "指「兩者都……」時用 both；指「三者或三者以上全部」才用 all。(A) all 用於三者以上；(B) either 指兩者中的「任一個」，後接單數動詞 is，此處動詞為 are；(D) every 是形容詞，不能說 every of them（須用 every one of them）。"
+    },
+    {
+      "topic": "either 與 neither",
+      "level": 1,
+      "q": "Neither of the two coats ____ waterproof, so you shouldn't wear them in the rain.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "be"
+      ],
+      "answer": 1,
+      "zh": "這兩件外套都不防水，所以你不該在雨中穿它們。",
+      "explain": "neither 指「兩者皆非」，當代名詞作主詞時視為單數，動詞需用單數形 is。(A) are 為複數動詞，不符標準文法；(C) were 為過去式複數動詞，本句敘述當前事實應用現在式；(D) be 為原形動詞。"
+    },
+    {
+      "topic": "疑問代名詞 who 與 whom",
+      "level": 1,
+      "q": "To ____ did you send the invitation letters yesterday?",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "answer": 3,
+      "zh": "你昨天把邀請函寄給誰了？",
+      "explain": "空格緊接在介系詞 to 之後，必須使用受格代名詞 whom 作介系詞的受詞。(A) who 為主格，在標準英文中若介系詞置於句首，必須用 whom；(B) whose 為所有格；(C) which 指事物或特定範圍的選擇。"
+    },
+    {
+      "topic": "疑問代名詞 whose",
+      "level": 1,
+      "q": "\"____ bicycle is parked in front of our garage?\" \"It belongs to Kevin.\"",
+      "options": [
+        "Who",
+        "Whom",
+        "Which",
+        "Whose"
+      ],
+      "answer": 3,
+      "zh": "「誰的腳踏車停在我們車庫前面？」「那是凱文的。」",
+      "explain": "問「誰的（東西）」時使用所有格疑問代名詞／疑問形容詞 whose 修飾 bicycle。(A) Who 為主格（誰）；(B) Whom 為受格；(C) Which 表哪一個（需要有特定範圍）。"
+    },
+    {
+      "topic": "比較級中的代名詞格",
+      "level": 2,
+      "q": "My sister can run much faster than ____, but she still helps me practice every day.",
+      "options": [
+        "me",
+        "mine",
+        "I",
+        "myself"
+      ],
+      "answer": 2,
+      "zh": "我姊姊跑得比我快得多，但她每天還是幫我練習。",
+      "explain": "本句為兩主詞能力相比：My sister can run faster than I (can run)。在正式文法中，than 後方省略了述語動詞 can run，代名詞應用主格 I。(A) me 是口語受格，但在正式語法考試中，主詞與主詞對比應選主格 I；(B) mine 為所有格代名詞（我的東西）；(D) myself 為反身代名詞，不可用於此作比較對象。"
+    },
+    {
+      "topic": "雙重所有格",
+      "level": 2,
+      "q": "A close friend of ____ recommended this excellent novel to me.",
+      "options": [
+        "my father",
+        "me",
+        "him",
+        "my father's"
+      ],
+      "answer": 3,
+      "zh": "我父親的一位好友向我推薦了這本優秀的小說。",
+      "explain": "本題為雙重所有格：當名詞前有不定冠詞 a 時，不可直接寫 a my father's friend，而必須用「a + 名詞 + of + 名詞所有格／所有格代名詞」，故為 a friend of my father's。(A) my father 為普通名詞，未加 's 不構成雙重所有格；(B) of me 與 (C) of him 均非所有格形式。"
+    },
+    {
+      "topic": "反身代名詞加強語氣",
+      "level": 2,
+      "q": "The manager ____ came to the customer service counter to apologize for the delay.",
+      "options": [
+        "him",
+        "himself",
+        "his",
+        "he"
+      ],
+      "answer": 1,
+      "zh": "經理親自來到客服櫃檯為延誤致歉。",
+      "explain": "反身代名詞 himself 置於名詞 The manager 之後作同位語，用來加強語氣，表示「經理本人／親自」。(A) him 為受格；(C) his 為所有格；(D) he 為主格，皆不可作同位語加強語氣。"
+    },
+    {
+      "topic": "反身代名詞慣用語：enjoy oneself",
+      "level": 2,
+      "q": "The students really enjoyed ____ at the science museum last Friday.",
+      "options": [
+        "themselves",
+        "them",
+        "their",
+        "theirs"
+      ],
+      "answer": 0,
+      "zh": "學生們上週五在科學博物館玩得非常愉快。",
+      "explain": "enjoy oneself 是固定慣用語，意為「玩得愉快（＝have a good time）」。主詞 The students 為第三人稱複數，故反身代名詞應用 themselves。(B) them 是受格，非反身代名詞；(C) their 是所有格；(D) theirs 是所有格代名詞。"
+    },
+    {
+      "topic": "反身代名詞慣用語：help oneself to",
+      "level": 2,
+      "q": "\"Please make yourself at home and help yourself ____ the cookies on the table.\"",
+      "options": [
+        "for",
+        "to",
+        "with",
+        "in"
+      ],
+      "answer": 1,
+      "zh": "「請別客氣，自行取用桌上的餅乾吧。」",
+      "explain": "help oneself to + 食物/物品 為固定慣用法，意為「自行取用……」。介系詞必須搭配 to。(A) for、(C) with、(D) in 皆非此慣用語的搭配介系詞。"
+    },
+    {
+      "topic": "反身代名詞慣用語：by oneself",
+      "level": 2,
+      "q": "Although the puzzle was extremely difficult, little Leo solved it entirely by ____.",
+      "options": [
+        "him",
+        "his own",
+        "he",
+        "himself"
+      ],
+      "answer": 3,
+      "zh": "雖然那個謎題非常困難，小里歐卻完全靠自己一個人解開了。",
+      "explain": "by oneself 為固定片語，意為「獨自、靠自己（＝alone）」。主詞 Leo 為男性單數，故用 by himself。(A) by him 表「被他」（被動式），不合語意；(B) his own 前需有介系詞 on (on his own) 才能表獨立；(C) he 為主格。"
+    },
+    {
+      "topic": "反身代名詞慣用語：pride oneself on",
+      "level": 2,
+      "q": "Our school prides ____ on providing top-quality education for all students.",
+      "options": [
+        "itself",
+        "it",
+        "its",
+        "one"
+      ],
+      "answer": 0,
+      "zh": "我們學校以向所有學生提供最高品質的教育為榮。",
+      "explain": "pride oneself on 是固定片語，意為「以……為榮（＝be proud of / take pride in）」。主詞 Our school 為第三人稱單數中性事物，其反身代名詞為 itself。(B) it 為普通受格，主受詞同一事物須用反身代名詞；(C) its 為所有格；(D) one 為不定代名詞。"
+    },
+    {
+      "topic": "指示代名詞 that / those 之比較代換",
+      "level": 2,
+      "q": "The subway systems in Taipei and Kaohsiung are much cleaner than ____ of many other big cities.",
+      "options": [
+        "that",
+        "those",
+        "this",
+        "these"
+      ],
+      "answer": 1,
+      "zh": "台北和高雄的捷運系統比許多其他大城市的捷運系統乾淨得多。",
+      "explain": "在比較句型中，為避免重複前述的名詞，單數名詞用 that 代替，複數名詞用 those 代替。本句比較的對象是複數名詞 The subway systems，故用 those。(A) that 代替單數名詞；(C) this 與 (D) these 不可用於比較結構中代替前面提過的名詞。"
+    },
+    {
+      "topic": "those who 結構",
+      "level": 2,
+      "q": "____ who wish to join the summer camp must submit their forms before Friday.",
+      "options": [
+        "Those",
+        "That",
+        "These",
+        "They"
+      ],
+      "answer": 0,
+      "zh": "想要參加夏令營的人必須在週五之前提交報名表。",
+      "explain": "those who... 意為「……的人們（＝people who...）」，作主詞時後接複數動詞與複數代名詞（their）。(B) That 指單數事物；(C) These who 在現代英文中非固定句型；(D) They 一般不作關係代名詞 who 的先行詞。"
+    },
+    {
+      "topic": "不定代名詞：one... the other",
+      "level": 2,
+      "q": "I have two cousins; ____ lives in London, and ____ lives in Sydney.",
+      "options": [
+        "one; another",
+        "some; others",
+        "one; other",
+        "one; the other"
+      ],
+      "answer": 3,
+      "zh": "我有兩個堂兄；一個住在倫敦，另一個住在雪梨。",
+      "explain": "指已知範圍為「兩者」時，一個用 one，另一個（剩下的那一個）用 the other。(A) another 用於三者或不特定多數中的「另一個」；(B) some... others 用於複數不特定多數；(C) other 為形容詞，不可單獨作單數代名詞主詞。"
+    },
+    {
+      "topic": "不定代名詞：one... another... the other",
+      "level": 2,
+      "q": "There are three buttons on the remote control: one is red, ____ is blue, and the other is green.",
+      "options": [
+        "other",
+        "another",
+        "the others",
+        "others"
+      ],
+      "answer": 1,
+      "zh": "遙控器上有三個按鈕：一個是紅色的，另一個是藍色的，最後一個是綠色的。",
+      "explain": "在三者明確範圍中，依序列舉為「one... another... the other...」（一個……另一個……最後一個）。(A) other 是形容詞，不能單獨作代名詞主詞；(C) the others 指剩餘的多個；(D) others 指不特定他人或其他事物。"
+    },
+    {
+      "topic": "不定代名詞：some... others",
+      "level": 2,
+      "q": "In our class, some students like playing basketball, while ____ prefer badminton.",
+      "options": [
+        "others",
+        "the other",
+        "other",
+        "another"
+      ],
+      "answer": 0,
+      "zh": "在我們班上，有些學生喜歡打籃球，而其他人則偏好羽毛球。",
+      "explain": "表示「有些人……，有些人（其他人）……」且非全班剩餘全體時，用 some..., others...。(B) the other 指兩者中的另一個；(C) other 後面必須接名詞（other students），不可單獨作代名詞；(D) another 指單數的另一個人。"
+    },
+    {
+      "topic": "不定代名詞：another",
+      "level": 2,
+      "q": "This soup is so delicious! Could I please have ____ bowl?",
+      "options": [
+        "other",
+        "the other",
+        "another",
+        "others"
+      ],
+      "answer": 2,
+      "zh": "這碗湯太好喝了！我可以再來一碗嗎？",
+      "explain": "another 修飾單數可數名詞，表示「再一個、另一個（one more）」。(A) other 後接複數名詞或不可數名詞；(B) the other 表特定範圍中剩下的最後一個，此處並無固定碗數範圍；(D) others 是複數代名詞，後不可接名詞 bowl。"
+    },
+    {
+      "topic": "each 與 every 的詞性與用法區別",
+      "level": 2,
+      "q": "____ of the four winners was awarded a gold medal and a certificate.",
+      "options": [
+        "Every",
+        "Both",
+        "All",
+        "Each"
+      ],
+      "answer": 3,
+      "zh": "四位獲勝者中的每一位都被授予一面金牌和一張證書。",
+      "explain": "each 可作代名詞，能接 of 片語（each of...），且動詞用單數 was；every 只能作形容詞，不能說 every of...（需說 every one of...）。(A) Every 不能直接接 of；(B) Both 用於兩者，此處有四位；(C) All 作主詞時動詞需用複數 were。"
+    },
+    {
+      "topic": "every 的時間慣用語",
+      "level": 2,
+      "q": "Mr. Lin waters the garden every ____ day—that is, on Mondays, Wednesdays, and Fridays.",
+      "options": [
+        "other",
+        "another",
+        "two",
+        "second"
+      ],
+      "answer": 0,
+      "zh": "林先生每隔一天給花園澆水——也就是在週一、週三和週五。",
+      "explain": "every other day 為固定片語，意為「每隔一天（＝every two days）」。(B) another 與 every 不連用；(C) 若用 two，名詞需為複數 days（every two days）；(D) second 不與 day 直接搭配（應為 every second day，但最標準道地之選項為 other）。"
+    },
+    {
+      "topic": "It 作形式受詞",
+      "level": 3,
+      "q": "The heavy fog made ____ dangerous for drivers to speed on the highway.",
+      "options": [
+        "this",
+        "that",
+        "them",
+        "it"
+      ],
+      "answer": 3,
+      "zh": "濃霧使得駕駛在高速公路上超速變得非常危險。",
+      "explain": "本句使用句型「主詞 + make + 形式受詞 (it) + 受詞補語 (dangerous) + 真正受詞 (to speed...)」。只有 it 能充當形式受詞。(A) this 與 (B) that 不能作形式受詞；(C) them 是人稱代名詞受格，不可指代後面的不定詞片語。"
+    },
+    {
+      "topic": "強調句型 (It is ... that ...)",
+      "level": 3,
+      "q": "It was ____ that broke the classroom window yesterday, not Tommy.",
+      "options": [
+        "him",
+        "he",
+        "his",
+        "himself"
+      ],
+      "answer": 1,
+      "zh": "昨天打破教室窗戶的是他，不是湯米。",
+      "explain": "本句為分裂句（強調句型）：「It was + [被強調部分] + that + [其餘部分]」。原句為 He broke the classroom window yesterday. 被強調的是主詞 He，故在正式語法中必須保留主格 he。(A) him 為受格，口語偶見但在正式語法測驗中不合規範；(C) his 為所有格；(D) himself 為反身代名詞。"
+    },
+    {
+      "topic": "補語的格與受詞／主詞的一致",
+      "level": 3,
+      "q": "Everyone in the room took the masked stranger to be ____.",
+      "options": [
+        "I",
+        "my",
+        "me",
+        "mine"
+      ],
+      "answer": 2,
+      "zh": "房間裡的每個人都把那個戴面具的陌生人誤認為是我。",
+      "explain": "句型為「take + 受詞 + to be + 受詞補語」。受詞 the masked stranger 是受格，因此其補語也必須與受詞格一致，使用受格 me。(A) I 為主格，不可作受詞補語；(B) my 為所有格；(D) mine 為所有格代名詞（＝my + 名詞），語意不合。"
+    },
+    {
+      "topic": "this ＝ the latter, that ＝ the former",
+      "level": 3,
+      "q": "Dogs are more obedient than cats; ____ are independent, while ____ are eager to please.",
+      "options": [
+        "these; those",
+        "those; these",
+        "this; that",
+        "the latter; the other"
+      ],
+      "answer": 0,
+      "zh": "狗比貓更順從；後者（貓）性格獨立，而前者（狗）急於討好主人。",
+      "explain": "複數名詞並提時，these 代表「後者（the latter，較近的 cats）」，those 代表「前者（the former，較遠的 dogs）」。貓獨立故填 these，狗討好人故填 those。(B) these/those 順序相反；(C) this/that 用於單數；(D) the other 搭配錯誤。"
+    },
+    {
+      "topic": "and that 的用法",
+      "level": 3,
+      "q": "Jenny solved the complex math problem in just three minutes, and ____ without any calculator.",
+      "options": [
+        "this",
+        "it",
+        "that",
+        "so"
+      ],
+      "answer": 2,
+      "zh": "珍妮僅用了三分鐘就解開了那道複雜的數學題，而且是在完全沒有計算機的情況下解開的。",
+      "explain": "片語「...and that + 修飾語」是固定用法，意為「……，而且是……」，that 用來加強語氣並指代前句所敘述的事情。(A) this、(B) it、(D) so 皆不能與 and 組成此強調副詞片語的慣用結構。"
+    },
+    {
+      "topic": "so 與 not 作指示代名詞",
+      "level": 3,
+      "q": "\"Will the typhoon hit Taiwan directly this weekend?\" \"I hope ____; otherwise, our field trip will be canceled.\"",
+      "options": [
+        "so",
+        "not",
+        "it",
+        "that"
+      ],
+      "answer": 1,
+      "zh": "「這週末颱風會直撲台灣嗎？」「我希望不會；否則我們的校外教學就會被取消。」",
+      "explain": "在 hope, fear, be afraid 等動詞後表示否定觀點時，習慣用 not 代替整句子句（I hope not ＝ I hope it will not hit Taiwan）。由後句「否則校外教學會取消」可知說話者希望颱風不要來，故選 not。(A) so 表示肯定（希望會來），與下文語意矛盾；(C) it 與 (D) that 不符合 hope 後指代子句之簡答慣用語法。"
+    },
+    {
+      "topic": "such... that 句型與詞序",
+      "level": 3,
+      "q": "It was ____ exciting basketball game that nobody wanted to leave the gym.",
+      "options": [
+        "so an",
+        "a such",
+        "an so",
+        "such an"
+      ],
+      "answer": 3,
+      "zh": "那是一場如此刺激的籃球賽，以至於沒有人想離開體育館。",
+      "explain": "such 的冠詞語序為「such + a/an + 形容詞 + 單數可數名詞 + that 子句」；若用 so，語序需為「so + 形容詞 + a/an + 名詞」（so exciting a game）。故此處應選 such an。(A) so an 語序錯誤；(B) a such 語序顛倒；(C) an so 不合文法。"
+    },
+    {
+      "topic": "the same... as 與 the same... that",
+      "level": 3,
+      "q": "This is the very same watch ____ I lost in the park yesterday; my initials are engraved on the back!",
+      "options": [
+        "as",
+        "that",
+        "like",
+        "which"
+      ],
+      "answer": 1,
+      "zh": "這正是我昨天在公園弄丟的那只手錶；我的姓名縮寫還刻在背面呢！",
+      "explain": "「the same... that」指「同一人或同一物（同一件東西）」；「the same... as」則指「同種類、同款式但非同一個物件」。由後句「我的姓名縮寫刻在背面」可知，這正是遺失的那一只手錶（同物），故用 that。(A) as 表示同種類不同物；(C) like 為介系詞不能引導子句；(D) which 在 the same 之後標準文法不用 which。"
+    },
+    {
+      "topic": "not every / not all 部分否定",
+      "level": 3,
+      "q": "Not ____ that glitters is gold, so we must be cautious about tempting offers.",
+      "options": [
+        "each",
+        "every",
+        "all",
+        "none"
+      ],
+      "answer": 2,
+      "zh": "發光的並非都是金子（虛有其表者多），因此我們必須對誘人的提議保持謹慎。",
+      "explain": "這是著名格言「All that glitters is not gold」的變體：「Not all that glitters is gold」。「Not all + 複數名詞/不可數名詞」或「Not all + 關係子句」表示「並非全部都……（部分否定）」。(A) each 不與 not 連用；(B) every 是形容詞，後須接單數名詞（Not everything...）；(D) none 表全部否定，與 not 重疊矛盾。"
+    },
+    {
+      "topic": "疑問詞與插入句 do you think",
+      "level": 3,
+      "q": "____ do you suppose will be elected the new student council president?",
+      "options": [
+        "Whom",
+        "Whose",
+        "Who",
+        "Which"
+      ],
+      "answer": 2,
+      "zh": "你以為誰會被選為新任學生會會長？",
+      "explain": "本句為含有插入語 do you suppose 的特殊疑問句。還原後原句為：Do you suppose [who will be elected...]? 疑問詞 who 在名詞子句中擔任主詞，移至句首時仍需保持主格 Who。(A) Whom 為受格，子句缺少主詞不可用受格；(B) Whose 為所有格；(D) Which 表特定對象之選擇，此處泛指「誰會當選」。"
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "chapter": 11,
+  "title": "名詞",
+  "items": [
+    {
+      "topic": "規則複數變化",
+      "level": 1,
+      "q": "My mother bought two fresh ____ and a bag of apples at the supermarket.",
+      "options": [
+        "potatoes",
+        "potatos",
+        "potatos's",
+        "potatoes'"
+      ],
+      "answer": 0,
+      "zh": "我媽媽在超市買了兩顆新鮮的馬鈴薯和一袋蘋果。",
+      "explain": "potato（馬鈴薯）為「子音字母 ＋ o」結尾的名詞，其規則複數形式應加 -es 成為 potatoes。(B) 拼法錯誤，遺漏了 e；(C) 與 (D) 為所有格形式，此處需要普通受詞複數名詞，故不合。"
+    },
+    {
+      "topic": "物質名詞計量",
+      "level": 1,
+      "q": "Could you please pass me a ____ of paper? I need to write down the phone number.",
+      "options": [
+        "loaf",
+        "bottle",
+        "sheet",
+        "pair"
+      ],
+      "answer": 2,
+      "zh": "你能遞給我一張紙嗎？我需要記下電話號碼。",
+      "explain": "paper（紙張）為不可數物質名詞，表示「一張紙」的計量單位通常用 a sheet of 或 a piece of。(A) a loaf of 用於「一條麵包」；(B) a bottle of 用於「一瓶液體」；(D) a pair of 用於「一雙／一副（成雙物品）」，皆與紙張不搭。"
+    },
+    {
+      "topic": "複合形容詞（數字-名詞）",
+      "level": 1,
+      "q": "The teacher gave us a ____ break after two hours of difficult grammar practice.",
+      "options": [
+        "ten-minute",
+        "ten-minutes",
+        "ten minutes",
+        "ten minutes's"
+      ],
+      "answer": 0,
+      "zh": "經過兩小時艱難的文法練習後，老師給了我們十分鐘的休息時間。",
+      "explain": "「數字 ＋ 連字號 ＋ 名詞」形成複合形容詞修飾後面的名詞 break，中間的名詞必須用單數形 ten-minute。(B) 複合形容詞中的名詞不可加複數 s；(C) 缺少連字號且名詞用複數，無法直接修飾名詞；(D) 語法錯誤。"
+    },
+    {
+      "topic": "名詞所有格",
+      "level": 1,
+      "q": "This is ____ bicycle. He rides it to school every morning.",
+      "options": [
+        "David",
+        "Davids",
+        "Davids'",
+        "David's"
+      ],
+      "answer": 3,
+      "zh": "這是大衛的腳踏車。他每天早上騎它去上學。",
+      "explain": "單數人名表示所有格時，應在字尾加上 's，故為 David's。(A) David 為普通人名，未加所有格符號，不能直接修飾 bicycle；(B) Davids 為複數形，非人名所有格；(C) Davids' 為複數名詞以 s 結尾時的所有格，而 David 是單一人名，不適用。"
+    },
+    {
+      "topic": "集合名詞",
+      "level": 1,
+      "q": "The ____ are questioning the witnesses to find out who stole the jewelry.",
+      "options": [
+        "policeman",
+        "polices",
+        "police's",
+        "police"
+      ],
+      "answer": 3,
+      "zh": "警方正在訊問目擊者，以查出是誰偷走了珠寶。",
+      "explain": "police（警方、警察）為集合名詞，本身視為複數概念，不加 s，但後方接複數動詞 are。(A) policeman 為單數名詞，動詞應搭配 is；(B) police 本身即為集合名詞，不可加複數 s；(C) police's 為所有格，不能作主詞受詞動詞配合。"
+    },
+    {
+      "topic": "不規則複數變化",
+      "level": 1,
+      "q": "Remember to brush your ____ twice a day to prevent cavities.",
+      "options": [
+        "tooths",
+        "teeth",
+        "toothes",
+        "teeths"
+      ],
+      "answer": 1,
+      "zh": "記得每天刷牙兩次以預防蛀牙。",
+      "explain": "tooth（牙齒）的不規則複數為改變內部母音字母的 teeth。(A) 與 (C) 誤用規則加 -s 或 -es，英語中無此字；(D) teeth 本身已是複數，不可重複加 s。"
+    },
+    {
+      "topic": "a pair of 的用法",
+      "level": 1,
+      "q": "Dad needs a new ____ of glasses because his old ones are scratched.",
+      "options": [
+        "cup",
+        "pair",
+        "piece",
+        "set"
+      ],
+      "answer": 1,
+      "zh": "爸爸需要一副新眼鏡，因為他的舊眼鏡刮傷了。",
+      "explain": "glasses（眼鏡）由兩個鏡片構成，表示「一副」必須用 a pair of。(A) cup 用於杯裝液體；(C) piece 用於塊、張、片；(D) a set of 用於一套（如音響、餐具等），眼鏡慣用 pair。"
+    },
+    {
+      "topic": "物質名詞計量",
+      "level": 1,
+      "q": "I bought two ____ of bread from the local bakery this morning.",
+      "options": [
+        "loafs",
+        "loaf",
+        "loaves",
+        "loave"
+      ],
+      "answer": 2,
+      "zh": "我今天早上從當地的麵包店買了兩條麵包。",
+      "explain": "bread（麵包）為不可數名詞，計量單位為 loaf（條）。loaf 以 f 結尾，複數應將 f 改為 v 再加 es，成為 loaves。(A) 規則加 s 為錯誤拼法；(B) loaf 為單數，與 two 矛盾；(D) 拼法錯誤。"
+    },
+    {
+      "topic": "不可數名詞總稱",
+      "level": 1,
+      "q": "We need to buy some new ____ because our living room is completely empty.",
+      "options": [
+        "furnitures",
+        "furniture",
+        "pieces of furnitures",
+        "a furniture"
+      ],
+      "answer": 1,
+      "zh": "我們需要買一些新家具，因為我們的客廳空無一物。",
+      "explain": "furniture（家具）為不可數名詞總稱，不能加 -s，也不能直接加 a。(A) 加了複數 s，錯誤；(C) furniture 不能加 s（應為 pieces of furniture）；(D) furniture 不可數，不能直接加不定冠詞 a。"
+    },
+    {
+      "topic": "單複數同形",
+      "level": 1,
+      "q": "Look at the hill! There are twenty ____ grazing quietly on the grass.",
+      "options": [
+        "sheeps",
+        "sheep",
+        "sheepes",
+        "sheeps'"
+      ],
+      "answer": 1,
+      "zh": "看那座山丘！有二十隻羊在草地上安靜地吃草。",
+      "explain": "sheep（羊）為單複數同形名詞，即使前面有基數詞 twenty，複數形式依然是 sheep。(A) 與 (C) 擅自加 s 或 es 是初學者常見錯誤；(D) 為所有格，語法不合。"
+    },
+    {
+      "topic": "所有格後面名詞省略",
+      "level": 1,
+      "q": "I am going to the ____ to pick up some cough medicine.",
+      "options": [
+        "chemist",
+        "chemists",
+        "chemist of",
+        "chemist's"
+      ],
+      "answer": 3,
+      "zh": "我要去藥局買些咳嗽藥水。",
+      "explain": "名詞所有格後面若接 store, shop, house, office 等場所名詞時，該名詞常予以省略。the chemist's 即等於 the chemist's shop（藥局）。(A) chemist 指藥劑師個人，前面有 the 且表地點時慣用所有格；(B) chemists 為複數名詞，指多位藥劑師；(C) 介系詞結構不完整。"
+    },
+    {
+      "topic": "規則複數變化（-f 結尾例外）",
+      "level": 1,
+      "q": "The workers repaired the ____ of several houses after the heavy storm.",
+      "options": [
+        "roofs",
+        "rooves",
+        "roofes",
+        "roof's"
+      ],
+      "answer": 0,
+      "zh": "暴風雨過後，工人們修理了幾棟房子的屋頂。",
+      "explain": "roof（屋頂）為以 f 結尾但複數直接加 -s 的例外名詞，複數為 roofs。(B) rooves 為常見拼寫錯誤；(C) roofes 拼寫錯誤；(D) roof's 為單數所有格，非複數受詞。"
+    },
+    {
+      "topic": "規則複數變化（子音+y）",
+      "level": 1,
+      "q": "The nurse gently placed the twin ____ in their cribs.",
+      "options": [
+        "babys",
+        "baby's",
+        "babies'",
+        "babies"
+      ],
+      "answer": 3,
+      "zh": "護理師輕輕地將這對雙胞胎嬰兒放進他們的嬰兒床裡。",
+      "explain": "baby 以「子音 ＋ y」結尾，複數變化為去 y 改 ies，即 babies。(A) 直接加 s 是錯誤規則；(B) 為單數所有格；(C) 為複數所有格，此處需要受詞名詞，故選 (D)。"
+    },
+    {
+      "topic": "專有名詞",
+      "level": 1,
+      "q": "Mr. Lin has lived in ____ for more than fifteen years.",
+      "options": [
+        "a Kaohsiung",
+        "the Kaohsiung",
+        "Kaohsiungs",
+        "Kaohsiung"
+      ],
+      "answer": 3,
+      "zh": "林先生住在高雄已經超過十五年了。",
+      "explain": "Kaohsiung（高雄）為地名，屬於專有名詞，首字母大寫，通常不加冠詞（a/the），也沒有複數形。(A)、(B) 專有名詞地名前不加冠詞；(C) 專有名詞不可加複數 s。"
+    },
+    {
+      "topic": "抽象名詞",
+      "level": 1,
+      "q": "Regular exercise and a balanced diet are important for good ____.",
+      "options": [
+        "health",
+        "healths",
+        "a health",
+        "healthy"
+      ],
+      "answer": 0,
+      "zh": "規律運動和均衡飲食對良好的健康非常重要。",
+      "explain": "health（健康）為抽象名詞，不可數，前面不能加 a，也不能變成複數 healths。(B) healths 錯誤；(C) 不可數名詞前不可加 a；(D) healthy 為形容詞，介系詞 for 後需要名詞受詞。"
+    },
+    {
+      "topic": "集合名詞（整體 vs 成員）",
+      "level": 2,
+      "q": "The committee ____ unable to agree on the new proposal, so they voted again.",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "has been"
+      ],
+      "answer": 2,
+      "zh": "委員會成員們無法對新提案達成共識，所以他們重新投票。",
+      "explain": "集合名詞 committee 指「全體委員個人」時，視為複數概念，配合後文的 they 以及過去式 voted，動詞應使用過去複數形 were。(A) was 視為單一整體，但後半句 they 清楚指個別委員；(B) is 為現在式單數，與過去事實及成員概念皆不合；(D) has been 為單數現在完成式。"
+    },
+    {
+      "topic": "雙重所有格",
+      "level": 2,
+      "q": "That handsome cousin of ____ just won first prize in the national speech contest.",
+      "options": [
+        "Mary's",
+        "Mary",
+        "her",
+        "she"
+      ],
+      "answer": 0,
+      "zh": "瑪麗的那位英俊表弟剛在全國演講比賽中獲得第一名。",
+      "explain": "句型「指示詞 That ＋ 名詞 ＋ of ＋ 所有格代名詞／名詞所有格」為雙重所有格結構，故 of 後面必須使用名詞所有格 Mary's。(B) Mary 為普通名詞受格，不能用於雙重所有格；(C) her 是所有格形容詞或受格，若用代名詞須為 hers；(D) she 為主格。"
+    },
+    {
+      "topic": "共同所有 vs 各別所有",
+      "level": 2,
+      "q": "Tom and Jerry are brothers, and this bright room is ____ bedroom.",
+      "options": [
+        "Tom and Jerry",
+        "Tom and Jerry's",
+        "Tom's and Jerry's",
+        "Tom's and Jerry"
+      ],
+      "answer": 1,
+      "zh": "湯姆和傑利是兄弟，這間明亮的房間是湯姆和傑利共用的臥室。",
+      "explain": "兩人共同擁有同一事物（共同所有）時，只需在最後一個名詞後加 's，故為 Tom and Jerry's bedroom。(C) Tom's and Jerry's 表示各自擁有一間臥室，後面的 bedroom 應為複數 bedrooms；(A) 未加所有格；(D) 形式錯誤。"
+    },
+    {
+      "topic": "外來語複數",
+      "level": 2,
+      "q": "The economic ____ facing the country have led to widespread unemployment.",
+      "options": [
+        "crisis",
+        "crisises",
+        "crises",
+        "crisi"
+      ],
+      "answer": 2,
+      "zh": "該國面臨的經濟危機導致了普遍的失業。",
+      "explain": "crisis（危機）為希臘語來源的外來語，以 -is 結尾，其複數形為將 -is 改為 -es，發音為 [ˈkraɪsiːz]。(A) crisis 為單數，與後方複數動詞 have 不一致；(B) 與 (D) 拼寫皆為錯誤詞形。"
+    },
+    {
+      "topic": "複合名詞的複數",
+      "level": 2,
+      "q": "Both of my ____ are engineers who work at the same semiconductor company.",
+      "options": [
+        "brother-in-laws",
+        "brothers-in-laws",
+        "brothers-in-law",
+        "brother-in-law"
+      ],
+      "answer": 2,
+      "zh": "我的兩位姐夫（妹夫）都是在同一家半導體公司工作的工程師。",
+      "explain": "由「名詞 ＋ 介系詞 ＋ 名詞」組成的複合名詞，變複數時應將主要的名詞改為複數，即 brothers-in-law。(A) 把 -s 加在最後的 law 上是常見錯誤；(B) 兩處皆加 s 錯誤；(D) 為單數，與 Both of my 矛盾。"
+    },
+    {
+      "topic": "不可數名詞轉可數",
+      "level": 2,
+      "q": "Grandma showed me many ____ during my illness, bringing me hot soup every day.",
+      "options": [
+        "kindness",
+        "a kindness",
+        "kindly",
+        "kindnesses"
+      ],
+      "answer": 3,
+      "zh": "生病期間奶奶對我做了許多體貼關懷的舉動，每天為我送來熱湯。",
+      "explain": "kindness 原為不可數抽象名詞（仁慈、好意），但當指具體的「好心舉動、體貼行為」時，可轉化為可數名詞，many 後面接複數形 kindnesses。(A) kindness 為不可數原形，不能被 many 直接修飾；(B) 前有 many 不能加 a；(C) kindly 為副詞。"
+    },
+    {
+      "topic": "時間與距離的所有格",
+      "level": 2,
+      "q": "The subway station is only a ____ walk from our apartment.",
+      "options": [
+        "ten minutes",
+        "ten minute's",
+        "ten minutes'",
+        "ten-minute's"
+      ],
+      "answer": 2,
+      "zh": "地鐵站距離我們的公寓步行只需十分鐘。",
+      "explain": "時間、距離、重量等名詞可用所有格表示。ten minutes 為以 s 結尾的複數名詞，其所有格只需在字尾加撇號 '，即 ten minutes' walk。(A) 缺少所有格符號，不能修飾名詞 walk；(B) 撇號位置錯誤；(D) 複合形容詞中若有連字號則作形容詞用（a ten-minute walk），不應再加 's。"
+    },
+    {
+      "topic": "名詞單複數異義（custom vs customs）",
+      "level": 2,
+      "q": "Every traveler entering the country must pass through ____ and declare valuable items.",
+      "options": [
+        "custom",
+        "customes",
+        "a custom",
+        "customs"
+      ],
+      "answer": 3,
+      "zh": "每位入境該國的旅客都必須通過海關並申報貴重物品。",
+      "explain": "custom 作單數時意思是「習俗、習慣」；而複數形 customs 則有專門含意，表示「海關、關稅」。(A) custom 意為習俗，不符句意；(B) 拼寫錯誤；(C) a custom 意為一項習俗。"
+    },
+    {
+      "topic": "of + 抽象名詞",
+      "level": 2,
+      "q": "Professor Brown's advice proved to be of ____ importance to our research project.",
+      "options": [
+        "great",
+        "greatly",
+        "greater than",
+        "a great"
+      ],
+      "answer": 0,
+      "zh": "布朗教授的建議證明對我們的研究計畫具有重大重要性（非常重要）。",
+      "explain": "句型「of ＋ 抽象名詞 ＝ 形容詞」，此處 of great importance 相當於 very important。修飾抽象名詞 importance 應用形容詞 great。(B) greatly 為副詞，不能修飾名詞 importance；(C) 句中無比較對象；(D) importance 為不可數名詞，不可加不定冠詞 a。"
+    },
+    {
+      "topic": "with + 抽象名詞",
+      "level": 2,
+      "q": "The surgeon performed the delicate operation with great ____.",
+      "options": [
+        "careful",
+        "carefully",
+        "care",
+        "caring"
+      ],
+      "answer": 2,
+      "zh": "外科醫師極其小心謹慎地進行了這場精細的手術。",
+      "explain": "句型「介系詞 with ＋ 抽象名詞 ＝ 副詞」，with great care 即等於 very carefully（非常小心地）。介系詞 with 後方須接名詞 care。(A) careful 為形容詞；(B) carefully 為副詞，不可置於介系詞後；(D) caring 為形容詞或動名詞，在此語境不如抽象名詞 care 自然準確。"
+    },
+    {
+      "topic": "專有名詞前加不定冠詞",
+      "level": 2,
+      "q": "The young boy plays the violin so brilliantly that many critics call him ____ Mozart.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "x"
+      ],
+      "answer": 2,
+      "zh": "那個小男孩小提琴拉得太精彩了，以致許多評論家稱他為「小莫札特（像莫札特那樣的天才音樂家）」。",
+      "explain": "專有名詞前加上不定冠詞 a (an) 時，表示「像…那樣的一個人」或「具有…特質的人」。Mozart 發音以子音 [m] 開頭，故用 a。(A) the Mozart 表示特指莫札特本人；(B) an 用於母音發音開頭；(D) 不加冠詞則直接指歷史上的莫札特本人，與語意不符。"
+    },
+    {
+      "topic": "複合名詞動詞尾加 s",
+      "level": 2,
+      "q": "The movie is designed for both children and ____ who still enjoy fairy tales.",
+      "options": [
+        "growns-up",
+        "grown-ups",
+        "grown-up",
+        "growns-ups"
+      ],
+      "answer": 1,
+      "zh": "這部電影是為兒童以及依然喜愛童話故事的成年人而設計的。",
+      "explain": "由「過去分詞／形容詞 ＋ 副詞」構成的複合名詞 grown-up（大人），複數變化直接在詞尾加 s，成為 grown-ups。(A)、(D) grown 為分詞形容詞，不可加 s；(C) 為單數，與 both children and ... 不對稱。"
+    },
+    {
+      "topic": "外來語複數（phenomenon）",
+      "level": 2,
+      "q": "Scientists are still investigating these unusual natural ____ observed in Antarctica.",
+      "options": [
+        "phenomenon",
+        "phenomena",
+        "phenomenons",
+        "phenomenas"
+      ],
+      "answer": 1,
+      "zh": "科學家們仍在調查在南極洲觀察到的這些不尋常自然現象。",
+      "explain": "phenomenon（現象）源自希臘語，其標準複數形式為 phenomena（將 -on 改為 -a）。句中有 these 修飾，必須使用複數名詞。(A) 為單數形；(C) phenomenons 雖少數場合可見，但在學術與正式測驗中標準答案為古典型複數 phenomena；(D) 拼寫錯誤。"
+    },
+    {
+      "topic": "名詞單複數異義（pain vs pains）",
+      "level": 2,
+      "q": "Dr. Chen took great ____ to make sure that all the experiment data was accurate.",
+      "options": [
+        "pains",
+        "pain",
+        "painful",
+        "painfully"
+      ],
+      "answer": 0,
+      "zh": "陳博士煞費苦心（盡心竭力），以確保所有實驗數據都是準確的。",
+      "explain": "慣用語 take pains 意為「費盡苦心、盡心竭力」，其中 pains 固定用複數形。(B) pain 作單數時意為「身體或精神的痛苦」；(C) 為形容詞；(D) 為副詞。"
+    },
+    {
+      "topic": "特定物質名詞加 the",
+      "level": 2,
+      "q": "____ in this glass is too hot to drink right now.",
+      "options": [
+        "Water",
+        "A water",
+        "The water",
+        "Waters"
+      ],
+      "answer": 2,
+      "zh": "這個玻璃杯裡的水太燙了，現在沒辦法喝。",
+      "explain": "物質名詞 water 一般情況下不可數且不加冠詞，但本句受介系詞片語「in this glass（在這個玻璃杯裡的）」限定，特指該特定範圍的水，因此必須加上定冠詞 The。(A) 未加定冠詞，無法表達特定性；(B) water 不可數，不能加 a；(D) Waters 為複數，通常指大片水域（如海域），不合杯中水語意。"
+    },
+    {
+      "topic": "集合名詞視為複數（cattle）",
+      "level": 3,
+      "q": "More than fifty ____ were killed when the barn caught fire last night.",
+      "options": [
+        "head of cattle",
+        "cattles",
+        "head of cattles",
+        "heads of cattle"
+      ],
+      "answer": 3,
+      "zh": "昨晚穀倉起火時，有五十多頭牛喪生。",
+      "explain": "cattle（牛隻）為集合名詞，本身視為複數且不可加 s。計算牛隻數量時常用 head（頭）作為量詞，head 作量詞計量超過一頭時可用複數 heads（或單複同形 head），但 cattle 絕對不可加 s，故選 heads of cattle。(A) More than fifty 後量詞需配合複數 heads；(B) cattles 錯誤；(C) cattles 錯誤。"
+    },
+    {
+      "topic": "雙重所有格與限定詞",
+      "level": 3,
+      "q": "I have just found an old photo of ____ while cleaning the attic.",
+      "options": [
+        "my mother",
+        "me",
+        "myself",
+        "my mother's"
+      ],
+      "answer": 3,
+      "zh": "我在打掃閣樓時剛好發現了一張我母親收藏的舊照片。",
+      "explain": "本題考 a photo of my mother 與 a photo of my mother's 的語義區別：a photo of my mother 指「照片中照的是母親本人（母親的照片）」；而 a photo of my mother's 為雙重所有格，意為「母親所擁有的眾多照片之一（母親收藏的舊照片）」。在此結構中，雙重所有格表示所有權歸屬。(A) 指相片裡是母親，但若表達母親所擁有的照片則須用雙重所有格；(B) 與 (C) 受詞形式語法不同。"
+    },
+    {
+      "topic": "名詞單複數異義（good vs goods）",
+      "level": 3,
+      "q": "All damaged ____ must be returned to the warehouse within seven days for a refund.",
+      "options": [
+        "good",
+        "goodness",
+        "goods'",
+        "goods"
+      ],
+      "answer": 3,
+      "zh": "所有受損的貨物必須在七天之內退回倉庫以辦理退款。",
+      "explain": "goods 固定以複數形式出現，意為「商品、貨物」，在句中作複數主詞配合動詞 must be returned。(A) good 作名詞時意為「善、好處、利益」，不可數；(B) goodness 意為「善良、美德」；(C) 為所有格，此處需要主詞名詞。"
+    },
+    {
+      "topic": "all + 複數名詞慣用語",
+      "level": 3,
+      "q": "When it comes to fixing computers, my grandfather is ____; he cannot even plug in the cables properly.",
+      "options": [
+        "all eyes",
+        "all ears",
+        "all smiles",
+        "all thumbs"
+      ],
+      "answer": 3,
+      "zh": "說到修電腦，我祖父真是笨手笨腳；他甚至連傳輸線都插不好。",
+      "explain": "片語 all thumbs 字面意思是「全是大拇指」，引申為「笨手笨腳、拙手拙腳」。(A) all eyes 意為「聚精會神地看」；(B) all ears 意為「洗耳恭聽、專心聽講」；(C) all smiles 意為「滿臉堆笑、笑逐顏開」，皆不符合後文「連線都插不好」的語境。"
+    },
+    {
+      "topic": "外來語複數（alumnus）",
+      "level": 3,
+      "q": "Several famous ____ of this high school donated millions of dollars for the new library.",
+      "options": [
+        "alumnus",
+        "alumna",
+        "alumni",
+        "alumnuses"
+      ],
+      "answer": 2,
+      "zh": "這所高中的幾位知名男校友（校友們）為新圖書館捐贈了數百萬美元。",
+      "explain": "alumnus（男校友）源自拉丁語，詞尾 -us 變複數為 -i，讀作 [əˈlʌmnaɪ]，用來代表男性校友或男女混合的校友群體。前面有 Several 修飾，必須用複數 alumni。(A) alumnus 為單數；(B) alumna 為女校友單數；(D) 英語中無此規則拼法。"
+    },
+    {
+      "topic": "抽象名詞 + itself",
+      "level": 3,
+      "q": "The bride was ____ on her wedding day, radiant in her white gown.",
+      "options": [
+        "beauty itself",
+        "beautiful itself",
+        "the beauty",
+        "a beauty itself"
+      ],
+      "answer": 0,
+      "zh": "新娘在婚禮當天美若天仙（極其美麗），身穿白紗顯得容光煥發。",
+      "explain": "句型「抽象名詞 ＋ itself」等於「all ＋ 抽象名詞」或「very ＋ 形容詞」，用來加強語氣。beauty itself 意為「美極了、極其美麗（＝ very beautiful）」。(B) beautiful 為形容詞，不可與 itself 連用；(C) the beauty 指特定美人或美景；(D) 抽象名詞在此結構中不加冠詞 a。"
+    },
+    {
+      "topic": "複合名詞所有格",
+      "level": 3,
+      "q": "Excuse me, I think you have picked up ____ umbrella by mistake.",
+      "options": [
+        "somebody's else",
+        "somebody's else's",
+        "somebody else's",
+        "somebody else"
+      ],
+      "answer": 2,
+      "zh": "不好意思，我想你誤拿了別人的雨傘。",
+      "explain": "由 somebody, someone, anyone, everyone 加上 else 形成的複合不定代名詞，表示所有格時，符號 's 必須加在 else 的字尾，即 somebody else's。(A) 將 's 加在 somebody 上是常見文法錯誤；(B) 兩處都加 's 錯誤；(D) 缺少所有格符號，不能修飾名詞 umbrella。"
+    },
+    {
+      "topic": "抽象名詞轉可數（a success）",
+      "level": 3,
+      "q": "The annual school charity fair was ____; we raised over NT$100,000 for the orphanage.",
+      "options": [
+        "great success",
+        "great successful",
+        "a great successfully",
+        "a great success"
+      ],
+      "answer": 3,
+      "zh": "學校的年度慈善義賣非常成功；我們為孤兒院籌募了超過十萬新台幣。",
+      "explain": "success 作為抽象名詞時不可數（意為「成功」），但當表示具體「一件成功的事或一個成功的人」時，轉化為可數名詞，前面須加不定冠詞 a，故為 a great success。(A) 缺少不定冠詞 a；(B) successful 為形容詞，不能被 great 修飾作表語名詞；(C) successfully 為副詞，用法錯誤。"
+    },
+    {
+      "topic": "不可數名詞總稱（luggage/baggage）",
+      "level": 3,
+      "q": "Passengers are allowed to carry two ____ of luggage onto the airplane.",
+      "options": [
+        "pieces",
+        "numbers",
+        "pairs",
+        "articles of"
+      ],
+      "answer": 0,
+      "zh": "乘客被允許攜帶兩件行李登機。",
+      "explain": "luggage（行李）為不可數名詞總稱，計量單位通常使用 a piece of luggage，複數件數則將量詞變為 pieces of luggage。(B) numbers 不能作行李的計量單位；(C) pairs 用於成雙物品；(D) articles 後面已有 of，若選 (D) 會出現 articles of of luggage 重複介系詞。"
+    },
+    {
+      "topic": "名詞性別與詞形（steward / stewardess）",
+      "level": 3,
+      "q": "An experienced ____ assisted the elderly passenger throughout the long international flight.",
+      "options": [
+        "stewardesses",
+        "stewardess",
+        "stewards",
+        "stewardess's"
+      ],
+      "answer": 1,
+      "zh": "一位經驗豐富的女空服員在漫長的國際航班中全程協助那位年長旅客。",
+      "explain": "steward 原指男服務員／空服員，詞尾加 -ess 變為陰性名詞 stewardess（女空服員）。句首冠詞為 An（單數），故須選單數名詞 stewardess。(A) 為複數形，與 An 矛盾；(C) 為複數男乘務員，與 An 矛盾；(D) 為所有格形式，此處需要句子的主詞名詞。"
+    }
+  ]
+}

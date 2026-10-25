@@ -1,0 +1,566 @@
+{
+  "chapter": 8,
+  "title": "易混淆動詞",
+  "items": [
+    {
+      "topic": "spend / cost / take / pay 的主詞與受詞搭配",
+      "level": 1,
+      "q": "Emily ____ two hundred dollars on the new science fiction novel yesterday.",
+      "options": [
+        "spent",
+        "cost",
+        "took",
+        "paid for"
+      ],
+      "answer": 0,
+      "zh": "艾蜜莉昨天花了兩百元買這本科幻小說。",
+      "explain": "主詞為人（Emily），花費金錢在某物上應用「人 ＋ spend ＋ 金錢 ＋ on ＋ 名詞」，且過去時間 yesterday 用過去式 spent，故選 (A)。(B) cost 的主詞通常為「事物」；(C) take 主詞通常為 it 或事物，表花費時間或需要；(D) paid 若要用需為「paid two hundred dollars for the novel」，此處介系詞為 on。"
+    },
+    {
+      "topic": "lie（躺）與 lay（放置）的動詞三態",
+      "level": 1,
+      "q": "After running for an hour, the tired dog ____ down under the big tree to rest.",
+      "options": [
+        "laid",
+        "lay",
+        "lied",
+        "lain"
+      ],
+      "answer": 1,
+      "zh": "跑了一個小時後，疲憊的狗躺在大樹下休息。",
+      "explain": "表示「躺下」為不及物動詞 lie，其三態為 lie — lay — lain。此處句意為過去時間（running 後躺下），過去式為 lay，故選 (B)。(A) laid 為及物動詞 lay（放置；產卵）的過去式，需接受詞；(C) lied 為 lie（說謊）的過去式；(D) lain 為過去分詞，不可單獨作為述語動詞。"
+    },
+    {
+      "topic": "speak / say / tell / talk 的基本搭配",
+      "level": 1,
+      "q": "Our homeroom teacher always reminds us to ____ the truth and never cheat on exams.",
+      "options": [
+        "say",
+        "speak",
+        "tell",
+        "talk"
+      ],
+      "answer": 2,
+      "zh": "我們的導師總是提醒我們要說實話，絕不要在考試中作弊。",
+      "explain": "「說實話」固定搭配 tell the truth，故選 (C)。(A) say 後常接具體說出的話或名詞子句（如 say good-bye, say that...）；(B) speak 用於說某種語言或演說（如 speak English）；(D) talk 表交談、討論（如 talk with/about），不可接 the truth 作受詞。"
+    },
+    {
+      "topic": "rob 與 steal 的受詞結構",
+      "level": 1,
+      "q": "Someone broke into the apartment last night and ____ my sister's laptop.",
+      "options": [
+        "robbed",
+        "took away of",
+        "snatched of",
+        "stole"
+      ],
+      "answer": 3,
+      "zh": "昨晚有人闖入公寓，偷走了我妹妹的筆記型電腦。",
+      "explain": "表示「偷走某物」，受詞為物（my sister's laptop），應用 steal（過去式 stole），句型為 steal ＋ 物 ＋ from ＋ 人／地，故選 (D)。(A) robbed 句型為 rob ＋ 人／場所 ＋ of ＋ 物，受詞不可直接接被偷的物；(B)(C) 片語結構錯誤。"
+    },
+    {
+      "topic": "wear（狀態）與 put on（動作）",
+      "level": 1,
+      "q": "It's freezing cold outside. You should ____ your heavy coat before going out.",
+      "options": [
+        "put on",
+        "wear",
+        "dress",
+        "be dressed"
+      ],
+      "answer": 0,
+      "zh": "外面冷極了。出門前你應該穿上你的厚大衣。",
+      "explain": "表示出門前「穿上」衣服的瞬時動作，應用 put on，故選 (A)。(B) wear 表穿戴的「持續狀態」；(C) dress 當及物動詞時受詞通常指人（如 dress oneself / dress a baby）；(D) be dressed 表「穿著…狀態」，後面需接介系詞 in。"
+    },
+    {
+      "topic": "take（帶走）與 bring（帶來）的方向性",
+      "level": 1,
+      "q": "Don't forget to ____ your completed homework to school tomorrow morning.",
+      "options": [
+        "take",
+        "bring",
+        "fetch",
+        "carry"
+      ],
+      "answer": 1,
+      "zh": "明天早上別忘了把寫好的作業帶來學校。",
+      "explain": "從家裡把作業「帶來」學校（朝著說話者或目的地的方向而來），應用 bring，故選 (B)。(A) take 表示把東西「帶走、拿去」（遠離說話者）；(C) fetch 表示「去拿並帶回來（雙向往返動作）」；(D) carry 僅表示「攜帶、搬運」，無明確方向指引。"
+    },
+    {
+      "topic": "hear（聽見）與 listen to（專注聆聽）",
+      "level": 1,
+      "q": "Be quiet! I am trying to ____ the weather report on the radio.",
+      "options": [
+        "hear",
+        "listen",
+        "listen to",
+        "hear to"
+      ],
+      "answer": 2,
+      "zh": "安靜！我正試著聽收音機裡的氣象報告。",
+      "explain": "表示「專注聆聽某事物」，有意識的動作且後面接名詞受詞（the weather report），需用 listen to，故選 (C)。(A) hear 表示無意識的「聽見、聽到能力」，不符合「正努力專注收聽」的語境；(B) listen 為不及物動詞，接受詞時必須加介系詞 to；(D) 英文無 hear to 這種用法。"
+    },
+    {
+      "topic": "reach / arrive / get to 的及物與介系詞",
+      "level": 1,
+      "q": "The tour bus finally ____ the mountain resort after a long four-hour drive.",
+      "options": [
+        "reached at",
+        "arrived",
+        "got",
+        "reached"
+      ],
+      "answer": 3,
+      "zh": "經過長達四小時的車程，遊覽車終於抵達了高山度假村。",
+      "explain": "reach 為及物動詞，直接接目的地名詞（the mountain resort），不加介系詞，故選 (D)。(A) reach 為及物動詞，不可加 at；(B) arrived 為不及物動詞，接地方名詞需加 at 或 in；(C) got 接地方名詞需加介系詞 to（got to...）。"
+    },
+    {
+      "topic": "sit / seat / set 的主詞補語與形態",
+      "level": 1,
+      "q": "All the passengers were asked to remain ____ until the airplane came to a complete stop.",
+      "options": [
+        "seated",
+        "sitting down",
+        "seat",
+        "set"
+      ],
+      "answer": 0,
+      "zh": "所有乘客都被要求在飛機完全停穩之前保持就座。",
+      "explain": "remain 為連繫動詞，後接形容詞或分詞作主詞補語。「保持就座」慣用 remain seated（seated 在此為形容詞化的過去分詞，意為「就座的」），亦等於 remain sitting，故選 (A)。(B) sitting down 含有坐下的動作過程，與一直保持坐姿的語境不符；(C) seat 為及物動詞原形，不能作補語；(D) set 意為「安置、擺設」，語意不符。"
+    },
+    {
+      "topic": "rise（升起）與 raise（舉起）之及物辨析",
+      "level": 1,
+      "q": "If you have any questions during the presentation, please ____ your hand.",
+      "options": [
+        "rise",
+        "raise",
+        "arise",
+        "rouse"
+      ],
+      "answer": 1,
+      "zh": "如果在簡報過程中有任何問題，請舉手。",
+      "explain": "「舉起手」的受詞為 your hand，需要接及物動詞 raise，故選 (B)。(A) rise 為不及物動詞（升起、上升），不可接賓語；(C) arise 為不及物動詞（發生、產生）；(D) rouse 意為「喚醒、叫醒」。"
+    },
+    {
+      "topic": "lose（遺失）與 loose（寬鬆）的詞性拼寫",
+      "level": 1,
+      "q": "Be careful with your passport and wallet while traveling, or you might ____ them.",
+      "options": [
+        "loose",
+        "lost",
+        "lose",
+        "loosen"
+      ],
+      "answer": 2,
+      "zh": "旅行時請小心保管護照與皮夾，否則你可能會弄丟它們。",
+      "explain": "助動詞 might 後接原形動詞。「遺失、弄丟」之動詞原形為 lose [luːz]，故選 (C)。(A) loose 為形容詞「寬鬆的」或動詞「解開」；(B) lost 為過去式或過去分詞，不能接在助動詞 might 後面；(D) loosen 為動詞「放鬆、鬆開」。"
+    },
+    {
+      "topic": "find（找到）與 found（創立）的過去式",
+      "level": 1,
+      "q": "Dr. Smith ____ a research center for rare diseases in Taipei ten years ago.",
+      "options": [
+        "found",
+        "finded",
+        "was found",
+        "founded"
+      ],
+      "answer": 3,
+      "zh": "十年前史密斯博士在台北創立了一所罕見疾病研究中心。",
+      "explain": "句意為十年前「創立、建立」了一所研究中心，動詞創立為 found，其過去式為 founded，故選 (D)。(A) found 作為 find（尋找）的過去式時意為「找到」，與創立機構語意不符；(B) 英文無 finded 此字；(C) 主詞為 Dr. Smith，為主動創立，用被動語態 was found 語意錯誤。"
+    },
+    {
+      "topic": "fall（落下）與 fell（砍伐）的過去式",
+      "level": 1,
+      "q": "The little boy slipped on the wet floor and ____ down, bruising his knee.",
+      "options": [
+        "fell",
+        "felt",
+        "felled",
+        "fallen"
+      ],
+      "answer": 0,
+      "zh": "小男孩在潮濕的地板上滑了一跤摔倒，摔傷了膝蓋。",
+      "explain": "「跌倒、摔下」為不及物動詞 fall，過去式為 fell，故選 (A)。(B) felt 為 feel（感覺）的過去式；(C) felled 為及物動詞 fell（砍伐樹木）的過去式；(D) fallen 為過去分詞，不可單獨作為主要動詞。"
+    },
+    {
+      "topic": "win（贏得比賽）與 beat（打敗對手）",
+      "level": 1,
+      "q": "Our high school basketball team ____ their strongest rivals by five points in the finals.",
+      "options": [
+        "won",
+        "beat",
+        "gained",
+        "earned"
+      ],
+      "answer": 1,
+      "zh": "我們高中的籃球隊在決賽中以五分之差打敗了最強大的對手。",
+      "explain": "表示「打敗對手（競賽隊伍或人）」，受詞為對手（their strongest rivals），應用 beat（過去式同為 beat），故選 (B)。(A) won 的受詞必須是比賽、獎品或名次（如 won the game/prize），不可直接接擊敗的對手；(C) gained 表獲得利益或增加；(D) earned 表賺得或憑努力獲得。"
+    },
+    {
+      "topic": "do 與 make 的常態搭配名詞",
+      "level": 1,
+      "q": "Before you ____ a final decision, you should discuss it thoroughly with your parents.",
+      "options": [
+        "do",
+        "take",
+        "make",
+        "act"
+      ],
+      "answer": 2,
+      "zh": "在做出最終決定之前，你應該與父母徹底討論。",
+      "explain": "「做決定」習慣搭配動詞 make，片語為 make a decision，故選 (C)。(A) do 通常搭配日常事務、義務或抽象行為（如 do homework, do one's duty）；(B) take 可搭配 take action 或 take a chance，但不與 decision 搭配成常態片語；(D) act 為不及物動詞，不可直接接 a final decision。"
+    },
+    {
+      "topic": "spend / take / cost 之虛主詞句型",
+      "level": 2,
+      "q": "____ took the rescue workers nearly three days to locate the lost hikers in the blizzard.",
+      "options": [
+        "There",
+        "This",
+        "That",
+        "It"
+      ],
+      "answer": 3,
+      "zh": "搜救人員花了將近三天才在暴風雪中找到迷路的登山客。",
+      "explain": "句型「It takes ＋ 人 ＋ 時間 ＋ to V」以虛主詞 It 代替後面真正的主詞不定詞片語（to locate...），故選 (D)。(A) There 用於 There is/are 存在句型；(B)(C) This 與 That 不能作為此時間句型的虛主詞。"
+    },
+    {
+      "topic": "cost 表「付出代價／犧牲」之用法",
+      "level": 2,
+      "q": "Careless driving could easily ____ you your driver's license or even your life.",
+      "options": [
+        "cost",
+        "spend",
+        "take",
+        "pay"
+      ],
+      "answer": 0,
+      "zh": "粗心駕駛很容易讓你失去駕照，甚至喪失生命。",
+      "explain": "表示「某不良行為使某人付出…代價（喪失、犧牲）」，句型為「事物 ＋ cost ＋ 人 ＋ 代價／損失」，故選 (A)。(B) spend 主詞必須是人；(C) take 通常表示花費時間或需要能力；(D) pay 主詞為人，指付錢。"
+    },
+    {
+      "topic": "tell A from B（區別辨析）",
+      "level": 2,
+      "q": "The twins look so much alike that even their classmates can hardly ____ one from the other.",
+      "options": [
+        "say",
+        "tell",
+        "speak",
+        "talk"
+      ],
+      "answer": 1,
+      "zh": "這對雙胞胎長得太像了，甚至連同班同學都很難分辨出誰是誰。",
+      "explain": "「區別、辨別 A 與 B」使用慣用片語 tell A from B，故選 (B)。(A) say、(C) speak、(D) talk 均無此種接 from 表示區別的及物動詞用法。"
+    },
+    {
+      "topic": "It goes without saying that... 慣用語",
+      "level": 2,
+      "q": "It goes without ____ that regular exercise and balanced nutrition lead to good health.",
+      "options": [
+        "speaking",
+        "talking",
+        "saying",
+        "telling"
+      ],
+      "answer": 2,
+      "zh": "不用說，規律運動與均衡營養能帶來良好的健康。",
+      "explain": "「不用說、自不待言」是固定慣用句型 It goes without saying that...，故選 (C)。(A)(B)(D) 皆不符合該固定成語搭配。"
+    },
+    {
+      "topic": "fetch 表往返取物之精確語意",
+      "level": 2,
+      "q": "The grandmother asked the little girl to run to the well and ____ a bucket of fresh water.",
+      "options": [
+        "bring",
+        "take",
+        "carry",
+        "fetch"
+      ],
+      "answer": 3,
+      "zh": "祖母叫小女孩跑到井邊取一桶新鮮的水回來。",
+      "explain": "跑去井邊把水「取回來」，強調「去某處拿了再帶回」的雙向往返動作，應用 fetch，故選 (D)。(A) bring 只表單向帶來；(B) take 表單向拿走；(C) carry 表搬運、攜帶。"
+    },
+    {
+      "topic": "seat oneself / be seated 就座句型",
+      "level": 2,
+      "q": "Please enter the conference room quietly and ____ yourselves in the front row.",
+      "options": [
+        "seat",
+        "sit",
+        "set",
+        "lie"
+      ],
+      "answer": 0,
+      "zh": "請安靜進入會議室，並在前排就座。",
+      "explain": "受詞為反身代名詞 yourselves，及物動詞 seat（使就座）常與反身代名詞連用，即 seat oneself ＝ sit down，故選 (A)。(B) sit 為不及物動詞，不可直接接反身代名詞；(C) set 意為「放置、設定」；(D) lie 為不及物動詞「躺」。"
+    },
+    {
+      "topic": "wound [wuːnd]（使受傷）被動語態",
+      "level": 2,
+      "q": "Several brave soldiers were seriously ____ by enemy fire and rushed to the hospital.",
+      "options": [
+        "wound",
+        "wounded",
+        "winded",
+        "winding"
+      ],
+      "answer": 1,
+      "zh": "幾名英勇的士兵在敵方砲火中身受重傷，被緊急送往醫院。",
+      "explain": "句意為士兵在交火中「受傷」。動詞 wound [wuːnd]（使受傷）為規則變化動詞，三態為 wound — wounded — wounded，被動語態為 were wounded，故選 (B)。(A) wound [waʊnd] 為及物動詞 wind（捲繞、上發條）的過去式或過去分詞，意為「被捲起」；(C) winded 指「喘不過氣的」；(D) 現在分詞不符合被動語態。"
+    },
+    {
+      "topic": "arise（問題產生）之倒裝假設法",
+      "level": 2,
+      "q": "Should any technical difficulties ____ during the online exam, contact the proctor immediately.",
+      "options": [
+        "raise",
+        "arouse",
+        "arise",
+        "rouse"
+      ],
+      "answer": 2,
+      "zh": "萬一線上考試期間出現任何技術困難，請立即聯繫監考人員。",
+      "explain": "句型為倒裝假設句（＝ If any technical difficulties should arise...），表示問題或困難「發生、產生」，主詞為 technical difficulties，需用不及物動詞 arise，故選 (C)。(A) raise 為及物動詞（舉起、提出）；(B) arouse 為及物動詞（喚起、激發）；(D) rouse 為及物動詞（叫醒）。"
+    },
+    {
+      "topic": "arouse（喚起情感）之及物用法",
+      "level": 2,
+      "q": "The mysterious behavior of the stranger ____ the curiosity of the local detectives.",
+      "options": [
+        "arose",
+        "rose",
+        "raised of",
+        "aroused"
+      ],
+      "answer": 3,
+      "zh": "陌生人神秘的舉止激起了當地刑警的好奇心。",
+      "explain": "表示「激起、引起」好奇心或情緒，應用及物動詞 arouse（過去式 aroused），故選 (D)。(A) arose 為不及物動詞 arise（發生）的過去式，不可接受詞；(B) rose 為不及物動詞 rise（上升）的過去式；(C) raised of 為錯誤結構。"
+    },
+    {
+      "topic": "fell — felled — felled（砍伐）及物動詞",
+      "level": 2,
+      "q": "The lumberjacks ____ several giant oak trees to clear the land for the new highway.",
+      "options": [
+        "felled",
+        "fell",
+        "fallen",
+        "felt"
+      ],
+      "answer": 0,
+      "zh": "伐木工人們砍倒了幾棵巨大的橡樹，以便為新公路清理出用地。",
+      "explain": "句意為伐木工人們「砍倒」了幾棵巨大的橡樹。及物動詞 fell（砍伐）為規則變化，三態為 fell — felled — felled，過去式為 felled，故選 (A)。(B) fell 若為原形動詞時主詞是複數可用於現在式，但清除土地建公路為具體過去事實；若作 fall 的過去式則為不及物動詞，不可直接接樹木作受詞；(C) fallen 為過去分詞；(D) felt 為 feel（感覺）的過去式。"
+    },
+    {
+      "topic": "adapt oneself to（適應新環境）",
+      "level": 2,
+      "q": "After moving to London, the Taiwanese student soon ____ herself to the cold winter climate.",
+      "options": [
+        "adopted",
+        "adapted",
+        "accepted",
+        "admitted"
+      ],
+      "answer": 1,
+      "zh": "搬到倫敦後，這位台灣學生很快就使自己適應了寒冬的氣候。",
+      "explain": "表示「使自己適應新環境」，片語為 adapt oneself to...，故選 (B)。(A) adopted 表採納、收養（如 adopt a plan / orphan）；(C) accepted 表接受；(D) admitted 表承認或准許進入。"
+    },
+    {
+      "topic": "cure sb of a disease（治癒疾病）",
+      "level": 2,
+      "q": "The special herbal therapy successfully ____ the patient of his chronic skin condition.",
+      "options": [
+        "healed",
+        "recovered",
+        "cured",
+        "restored"
+      ],
+      "answer": 2,
+      "zh": "這種特殊的草藥療法成功治癒了該患者的慢性皮膚病。",
+      "explain": "搭配介系詞 of 表示「治好某人的某種疾病」，句型為 cure ＋ 人 ＋ of ＋ 疾病，故選 (C)。(A) healed 通常指傷口癒合（heal the wound）；(B) recovered 為不及物動詞時接 from（recover from illness），及物動詞時接 health（recover health）；(D) restored 句型為 restore ＋ 人 ＋ to health（使某人恢復健康）。"
+    },
+    {
+      "topic": "doubt（不信）與 suspect（猜疑為真）之辨析",
+      "level": 2,
+      "q": "The police had good reason to ____ that the accountant had stolen the missing funds.",
+      "options": [
+        "doubt",
+        "fear of",
+        "hesitate",
+        "suspect"
+      ],
+      "answer": 3,
+      "zh": "警方有充分理由懷疑會計師偷了失竊的公款。",
+      "explain": "警方懷疑「會計師偷了公款」，是猜想該犯行屬實（認為某事「有可能發生」），應用 suspect，故選 (D)。(A) doubt 表示「懷疑某事不屬實、不相信」（I doubt that... ＝ 我不相信…），若選 doubt 則意思變成警方不相信會計師偷錢，與常理相反；(B) fear 後不加 of 即可接 that 子句；(C) hesitate 意為猶豫，後接不定詞 to V。"
+    },
+    {
+      "topic": "consist of / be composed of 句型轉換",
+      "level": 2,
+      "q": "The solar system ____ the sun and all the celestial objects that orbit around it.",
+      "options": [
+        "consists of",
+        "is consisted of",
+        "composed of",
+        "is made of"
+      ],
+      "answer": 0,
+      "zh": "太陽系由太陽以及圍繞其運行的所有天體所組成。",
+      "explain": "「由…組成」為不及物動詞片語 consist of，不可使用被動語態，主詞 the solar system 為單數，故選 (A)。(B) consist of 無被動語態，is consisted of 為嚴重文法錯誤；(C) 需寫成 is composed of；(D) be made of 指由某物理原料製成，由成分／成員組成應用 be made up of。"
+    },
+    {
+      "topic": "receive（客觀收到）與 accept（主觀接受）",
+      "level": 2,
+      "q": "Although Mr. Davis ____ a formal wedding invitation from his boss, he declined to ____ it due to a prior engagement.",
+      "options": [
+        "accepted; receive",
+        "received; accept",
+        "took; accept",
+        "received; receive"
+      ],
+      "answer": 1,
+      "zh": "戴維斯先生雖然收到了老闆的正式婚禮邀請，但因已有預約而婉拒接受。",
+      "explain": "前半句指客觀「收到」請帖（received an invitation），後半句指因已有約而無法主觀「接受」邀請（accept it），故選 (B)。(A)(C)(D) 之主客觀語意搭配顛倒或錯誤。"
+    },
+    {
+      "topic": "分詞構句中 lie（躺）的現在分詞 lying",
+      "level": 3,
+      "q": "____ on the peaceful beach with her eyes closed, Angela listened to the gentle sound of ocean waves.",
+      "options": [
+        "Laying",
+        "Laid",
+        "Lying",
+        "Lied"
+      ],
+      "answer": 2,
+      "zh": "安琪拉閉著眼睛躺在寧靜的海灘上，傾聽著溫柔的海浪聲。",
+      "explain": "此處為現在分詞構句，修飾主詞 Angela。Angela 自己「躺」在沙灘上，動詞原形為不及物動詞 lie（躺），其現在分詞為 lying，故選 (C)。(A) Laying 為及物動詞 lay（放置）的現在分詞，需有受詞；(B) Laid 為過去分詞，表被放置；(D) Lied 為 lie（說謊）的過去式，非分詞構句正確型態。"
+    },
+    {
+      "topic": "lay the blame on... 及物動詞慣用片語",
+      "level": 3,
+      "q": "The irresponsible manager attempted to ____ all the blame for the failed project on the new interns.",
+      "options": [
+        "lie",
+        "laid",
+        "lying",
+        "lay"
+      ],
+      "answer": 3,
+      "zh": "那位不負責任的經理試圖把專案失敗的所有責任歸咎在新實習生身上。",
+      "explain": "助動詞 attempted to 後接原形動詞。「把責任／歸咎歸在…身上」之慣用片語為 lay the blame on...，受詞為 all the blame，需用及物動詞原形 lay，故選 (D)。(A) lie 為不及物動詞，不可接受詞；(B) laid 為過去式，接在 to 後面應為原形；(C) lying 為分詞。"
+    },
+    {
+      "topic": "What do you say to V-ing? 提議句型",
+      "level": 3,
+      "q": "We have finished all our assignments early today. What do you say to ____ a movie tonight?",
+      "options": [
+        "catching",
+        "catch",
+        "caught",
+        "have caught"
+      ],
+      "answer": 0,
+      "zh": "我們今天很早就完成了所有的作業。今晚去看場電影如何？",
+      "explain": "「…如何？何不…？」的口語提議句型為「What do you say to ＋ V-ing?」，其中 to 為介系詞，後面必須接動名詞 V-ing，故選 (A)。(B) catch 為原形動詞，介系詞後不可接原形；(C)(D) 時態不符。"
+    },
+    {
+      "topic": "rob + 人 + of + 財物 之被動語態",
+      "level": 3,
+      "q": "The elderly gentleman was heartbroken after being ____ of all his life savings by an online fraud ring.",
+      "options": [
+        "stolen",
+        "robbed",
+        "cheated",
+        "snatched"
+      ],
+      "answer": 1,
+      "zh": "那位老紳士在被網路詐騙集團洗劫所有畢生積蓄後心碎不已。",
+      "explain": "考查動詞被動句型。某人被奪走財物使用「人 ＋ be robbed of ＋ 財物」，故選 (B)。(A) steal 的主詞被動時必須是被偷的財物（His savings were stolen），不可用於人 be stolen of；(C) cheat sb of 可，但被動通常為 cheated out of；(D) snatch 意為強奪，不與 of 搭配成此被動固定句型。"
+    },
+    {
+      "topic": "restore + 人 + to health 句型精準辨析",
+      "level": 3,
+      "q": "A month of peaceful retreat in the mountains completely ____ the exhausted author to good health.",
+      "options": [
+        "cured",
+        "recovered",
+        "restored",
+        "healed"
+      ],
+      "answer": 2,
+      "zh": "在山中進行為期一個月的寧靜靜修，讓精疲力竭的作家完全恢復了健康。",
+      "explain": "考查句型「restore ＋ 人 ＋ to health（使某人恢復健康）」，故選 (C)。(A) cure 搭配 cure sb of an illness；(B) recover 作及物動詞時直接接受詞 health（recovered his health），不加介系詞 to；(D) heal 通常指外傷癒合。"
+    },
+    {
+      "topic": "fear（主動）與 frighten（使害怕）語態辨析",
+      "level": 3,
+      "q": "Little children naturally ____ the loud rumbling of thunder during summer thunderstorms.",
+      "options": [
+        "frighten",
+        "are fearing",
+        "are frightening",
+        "fear"
+      ],
+      "answer": 3,
+      "zh": "在夏季雷陣雨期間，小孩子天生就會害怕隆隆作響的雷聲。",
+      "explain": "考查主動與被動的語態區別。主詞 Little children「感到害怕」時，動詞 fear 用主動語態（fear sth），而 frighten 必須用被動語態（be frightened of sth）。此句受詞直接為 the loud rumbling of thunder（無介系詞 of），故應選用主動式的 (D) fear。(A) frighten 為及物動詞「使害怕」，主動語態意思會變成小孩使雷聲害怕；(B) fear 為狀態動詞，通常不用進行式；(C) are frightening 意為「令人害怕的」，語意主被動顛倒。"
+    },
+    {
+      "topic": "doubt that（懷疑不信）在否定主詞下的意涵",
+      "level": 3,
+      "q": "Given his proven track record of honesty and loyalty, nobody ____ that he will keep his promise.",
+      "options": [
+        "doubts",
+        "suspects",
+        "fears",
+        "wonders"
+      ],
+      "answer": 0,
+      "zh": "鑑於他誠實忠誠的良好紀錄，沒有人懷疑他會信守承諾。",
+      "explain": "根據前半句「鑑於他誠實忠誠的良好紀錄」，大家「深信不疑」他會信守承諾。「nobody doubts that...（沒有人懷疑… ＝ 人人都相信…）」，故選 (A)。(B) nobody suspects that... 意為「沒有人猜疑他會守諾言」，語意不通；(C) nobody fears that 語意不合；(D) wonders 後接 whether 或 if，不接 that。"
+    },
+    {
+      "topic": "elect（選舉公職）之受詞補語結構",
+      "level": 3,
+      "q": "In yesterday's general election, the popular senator was overwhelmingly ____ president of the republic.",
+      "options": [
+        "selected",
+        "elected",
+        "picked",
+        "adopted"
+      ],
+      "answer": 1,
+      "zh": "在昨天的普選中，這位受歡迎的參議員以壓倒性優勢當選共和國總統。",
+      "explain": "表示透過大選「選舉、推選」某人擔任職位或公職，應用 elect，被動語態為 was elected president，故選 (B)。(A) selected 指從眾多物品中精選出最適當者；(C) picked 為口語挑選；(D) adopted 意為採納或收養。"
+    },
+    {
+      "topic": "do sb good / harm（對…有益／有害）",
+      "level": 3,
+      "q": "Drinking plenty of pure water every morning will certainly ____ your digestive system a great deal of good.",
+      "options": [
+        "make",
+        "take",
+        "do",
+        "bring to"
+      ],
+      "answer": 2,
+      "zh": "每天早晨喝充足的純淨水，肯定會對你的消化系統大有裨益。",
+      "explain": "「對…大有益處／有好處」之固定片語為 do sb/sth good（或 do a great deal of good to sth），故選 (C)。(A) make 不與 good 搭配表示產生益處；(B) take 語意不符；(D) bring 需為 bring good to，但此處已有受詞 your digestive system，不可加 to。"
+    },
+    {
+      "topic": "make sense of...（理解弄懂…之意）",
+      "level": 3,
+      "q": "The complex archaeological symbols on the ancient stone tablet were so weathered that no scholar could ____ any sense of them.",
+      "options": [
+        "do",
+        "have",
+        "take",
+        "make"
+      ],
+      "answer": 3,
+      "zh": "古石碑上複雜的考古符號風化得如此嚴重，以至於沒有任何學者能理解其含義。",
+      "explain": "「理解、弄懂…的意義」固定搭配為 make sense of...，故選 (D)。(A) do、(B) have、(C) take 均不能與 sense of 搭配表達此意。"
+    }
+  ]
+}

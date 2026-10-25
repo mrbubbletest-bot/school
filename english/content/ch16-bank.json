@@ -1,0 +1,381 @@
+{
+  "chapter": 16,
+  "title": "連接詞",
+  "items": [
+    {
+      "topic": "對等連接詞 or",
+      "level": 1,
+      "q": "Turn off the lights before you leave the classroom, ____ we will waste a lot of electricity.",
+      "options": ["and", "or", "so", "but"],
+      "answer": 1,
+      "zh": "離開教室前請關燈，否則我們會浪費許多電力。",
+      "explain": "祈使句後接 or 表示「否則；不然」，用於警示不照做的負面後果。(A) and 表示「那麼」；(C) so 表示「因此」；(D) but 表示「但是」。"
+    },
+    {
+      "topic": "對等連接詞 and",
+      "level": 1,
+      "q": "Keep practicing every day, ____ you will see significant improvement in your English speaking skills.",
+      "options": ["or", "but", "although", "and"],
+      "answer": 3,
+      "zh": "每天持續練習，那麼你的英語口說能力就會顯著進步。",
+      "explain": "「祈使句 + and + 主詞 + will...」為固定句型，表示「……，那麼就會……」。(A) or 表示「否則」；(B) but 表示轉折「但是」；(C) although 為從屬連接詞，不可放在兩個對等獨立子句中間。"
+    },
+    {
+      "topic": "相關連接詞 both... and",
+      "level": 1,
+      "q": "Both Kevin and his twin brother ____ fond of playing classical guitar.",
+      "options": ["is", "are", "be", "has been"],
+      "answer": 1,
+      "zh": "凱文和他的雙胞胎弟弟都喜歡彈古典吉他。",
+      "explain": "both A and B 連接兩個人作為主詞時，動詞一律視為複數概念，現在式應使用 are。(A) is 為單數動詞；(C) be 為原形動詞；(D) has been 主詞為單數且時態為完成式，皆不符合。"
+    },
+    {
+      "topic": "相關連接詞 either... or",
+      "level": 1,
+      "q": "Either you or Emily ____ responsible for locking the laboratory door tonight.",
+      "options": ["are", "were", "be", "is"],
+      "answer": 3,
+      "zh": "不是你就是艾蜜莉今晚必須負責鎖實驗室的門。",
+      "explain": "either A or B 作主詞時，動詞必須與最靠近的主詞 B（Emily）一致；Emily 為第三人稱單數，現在式動詞用 is。(A) are 未符合靠近原則；(B) were 為過去式複數；(C) be 為原形動詞。"
+    },
+    {
+      "topic": "相關連接詞 neither... nor",
+      "level": 1,
+      "q": "Neither my parents nor my sister ____ able to attend my graduation ceremony yesterday.",
+      "options": ["was", "were", "is", "are"],
+      "answer": 0,
+      "zh": "我父母和我妹妹昨天都無法參加我的畢業典禮。",
+      "explain": "neither A nor B 作主詞時，動詞與靠近的主詞 B（my sister，單數）一致；由時間副詞 yesterday 可知為過去式，故選 was。(B) were 為複數動詞；(C) is 與 (D) are 為現在式，與過去時間不符。"
+    },
+    {
+      "topic": "時間副詞子句 before",
+      "level": 1,
+      "q": "Please wash your hands thoroughly ____ you sit down at the dinner table.",
+      "options": ["until", "since", "before", "while"],
+      "answer": 2,
+      "zh": "在你坐到餐桌前，請先徹底把手洗乾淨。",
+      "explain": "before 表示「在……之前」，引導時間副詞子句，符合先洗手後用餐的動作先後順序。(A) until 表示「直到……為止」；(B) since 表示「自從」；(D) while 表示「正當……期間」。"
+    },
+    {
+      "topic": "時間副詞子句代替未來式",
+      "level": 1,
+      "q": "We will go on a hike in Yangmingshan as soon as the weather ____ clear tomorrow.",
+      "options": ["will become", "became", "is becoming", "becomes"],
+      "answer": 3,
+      "zh": "明天天氣一放晴，我們就去陽明山健行。",
+      "explain": "在表示時間的副詞子句中（as soon as），即使指未來的事件，也必須用「現在簡單式」代替未來式；主詞 the weather 為單數，故選 becomes。(A) will become 誤用了未來式；(B) became 為過去式；(C) is becoming 為現在進行式。"
+    },
+    {
+      "topic": "條件副詞子句 unless",
+      "level": 1,
+      "q": "You will not pass the swimming test ____ you learn to hold your breath underwater.",
+      "options": ["if", "because", "unless", "so"],
+      "answer": 2,
+      "zh": "除非你學會在水下憋氣，否則你無法通過游泳測驗。",
+      "explain": "unless 意為「除非……否則不」（= if not），引導條件副詞子句。(A) if 表示「如果」，若選 if 則文意變成「如果你學會憋氣就無法通過」，邏輯相反；(B) because 表原因；(D) so 為對等連接詞表結果。"
+    },
+    {
+      "topic": "結果副詞子句 so... that",
+      "level": 1,
+      "q": "The science exhibition was ____ popular that thousands of students visited it every day.",
+      "options": ["such", "very", "too", "so"],
+      "answer": 3,
+      "zh": "這場科學展覽如此受歡迎，以致於每天都有數千名學生參觀。",
+      "explain": "「so + 形容詞 + that + 子句」為固定結果句型，意為「如此……以致於……」，popular 為形容詞，故選 so。(A) such 後面須接名詞；(B) very 不能搭配 that 子句表示結果；(C) too 通常搭配 to V（too... to...）。"
+    },
+    {
+      "topic": "原因介系詞片語 because of",
+      "level": 1,
+      "q": "The baseball game was called off ____ the sudden heavy downpour.",
+      "options": ["because", "because of", "since", "as"],
+      "answer": 1,
+      "zh": "棒球賽因為突如其來的暴雨而取消了。",
+      "explain": "the sudden heavy downpour 為名詞片語，前面應使用介系詞片語 because of。(A) because、(C) since 與 (D) as 皆為從屬連接詞，後面必須接完整的「主詞 + 動詞」子句。"
+    },
+    {
+      "topic": "對比副詞子句 while",
+      "level": 1,
+      "q": "Brian prefers studying in a quiet library, ____ his brother likes listening to music while doing homework.",
+      "options": ["unless", "because", "while", "since"],
+      "answer": 2,
+      "zh": "布萊恩偏好在安靜的圖書館讀書，而他弟弟卻喜歡邊聽音樂邊寫作業。",
+      "explain": "while 在此引導表示「對比」的副詞子句，意為「然而；而」。(A) unless 表示「除非」；(B) because 與 (D) since 皆表示「因為」，不符合兩者喜好對比的語境。"
+    },
+    {
+      "topic": "讓步副詞子句 Although",
+      "level": 1,
+      "q": "____ the puzzle was quite challenging, little Leo managed to solve it all by himself.",
+      "options": ["Because", "Despite", "Unless", "Although"],
+      "answer": 3,
+      "zh": "雖然這個謎題相當具有挑戰性，小里奧還是設法自己解開了。",
+      "explain": "Although 引導讓步副詞子句，表示「雖然」，後接主詞動詞完整子句（the puzzle was...）。(A) Because 表原因，語意矛盾；(B) Despite 為介系詞，後面只能接名詞或動名詞，不可接子句；(C) Unless 表「除非」。"
+    },
+    {
+      "topic": "目的副詞子句 so that",
+      "level": 1,
+      "q": "Jenny set three alarm clocks ____ she would not oversleep for her entrance exam.",
+      "options": ["in order to", "because of", "so that", "such that"],
+      "answer": 2,
+      "zh": "珍妮設了三個鬧鐘，以便在入學考試那天不會睡過頭。",
+      "explain": "so that 引導表示目的副詞子句，意為「以便；為了」，後面常搭配助動詞 would / can / may。(A) in order to 後面只能接原形動詞；(B) because of 後接名詞；(D) such that 通常表示結果而非目的。"
+    },
+    {
+      "topic": "名詞子句 that",
+      "level": 1,
+      "q": "Scientists have discovered ____ deep-sea corals can survive without direct sunlight.",
+      "options": ["which", "what", "whether", "that"],
+      "answer": 3,
+      "zh": "科學家已經發現深海珊瑚在沒有陽光直射的情況下也能存活。",
+      "explain": "that 引導名詞子句作及物動詞 discovered 的受詞，子句結構完整，that 本身無實質詞義。(A) which 與 (B) what 引導名詞子句時子句內必須缺少主詞或受詞；(C) whether 表示「是否」，與確定發現的事實不符。"
+    },
+    {
+      "topic": "祈使句 and",
+      "level": 1,
+      "q": "Follow the safety instructions carefully, ____ you will not get hurt during the chemistry experiment.",
+      "options": ["or", "and", "but", "for"],
+      "answer": 1,
+      "zh": "仔細遵循安全指示，那麼你在化學實驗過程中就不會受傷。",
+      "explain": "「祈使句, and + 子句」表示「照著做，那麼就會……」。(A) or 表示「否則你不會受傷」，邏輯錯誤；(C) but 表轉折；(D) for 表推測原因。"
+    },
+    {
+      "topic": "相關連接詞 not only 倒裝",
+      "level": 2,
+      "q": "Not only ____ the international piano competition, but she also received a scholarship from Juilliard.",
+      "options": ["she won", "she did win", "did she win", "has she won"],
+      "answer": 2,
+      "zh": "她不僅贏得國際鋼琴大賽，還獲得了茱莉亞學院的獎學金。",
+      "explain": "not only 置於句首加強語氣時，子句必須採「倒裝句」；由後文 received 可知為過去簡單式，故助動詞用 did 置於主詞 she 之前。(A) she won 未倒裝；(B) she did win 為強調句而非倒裝；(D) has she won 為現在完成式，與過去時間不符。"
+    },
+    {
+      "topic": "相關連接詞 as well as 主詞一致",
+      "level": 2,
+      "q": "The principal, as well as several experienced teachers, ____ attending the national education conference in Kaohsiung.",
+      "options": ["is", "are", "were", "have been"],
+      "answer": 0,
+      "zh": "校長以及幾位資深老師正在高雄參加全國教育研討會。",
+      "explain": "當主詞由 A as well as B 連接時，述語動詞必須與 A（The principal，單數）保持一致，因此動詞用單數形 is。(B) are、(C) were、(D) have been 皆為複數動詞，誤受鄰近的複數名詞 teachers 影響。"
+    },
+    {
+      "topic": "對等連接詞 nor 倒裝",
+      "level": 2,
+      "q": "David does not eat spicy food, and nor ____ his younger sister.",
+      "options": ["is", "does", "eats", "did"],
+      "answer": 1,
+      "zh": "大衛不吃辣，他妹妹也不吃。",
+      "explain": "nor 引導對等子句表示「也不」，必須使用倒裝語序（助動詞 + 主詞）；前半句使用現在簡單式一般動詞 does not eat，後半句倒裝助動詞應使用 does。(A) is 為 be 動詞，與前半句動詞不符；(C) eats 未倒裝且直接用一般動詞錯誤；(D) did 為過去式。"
+    },
+    {
+      "topic": "對等連接詞 for 推測原因",
+      "level": 2,
+      "q": "The family must have already left for their vacation, ____ all the windows are closed and the lights are out.",
+      "options": ["because of", "so", "though", "for"],
+      "answer": 3,
+      "zh": "那家人肯定已經出發去度假了，因為所有的窗戶都關著且燈都熄了。",
+      "explain": "for 作對等連接詞時，前面置逗號，用來補充說明「推測的依據或理由」（前面有 must have p.p.）。(A) because of 後面須接名詞或代名詞，不可接子句；(B) so 表示結果；(C) though 表示讓步「雖然」。"
+    },
+    {
+      "topic": "準連接詞 however",
+      "level": 2,
+      "q": "The weather forecast predicted a sunny afternoon; ____, dark clouds began to gather over the stadium.",
+      "options": ["therefore", "however", "moreover", "otherwise"],
+      "answer": 1,
+      "zh": "氣象預報預測下午會是晴天；然而，烏雲卻開始在體育場上空聚集。",
+      "explain": "前後句為轉折語意（晴天 vs 烏雲），且置於分號「;」之後、逗號「,」之前，應使用轉折連接副詞 however。(A) therefore 表因果；(C) moreover 表遞進；(D) otherwise 表「否則」。"
+    },
+    {
+      "topic": "準連接詞 otherwise",
+      "level": 2,
+      "q": "You must submit your science report before Friday noon; ____, five points will be deducted from your final score.",
+      "options": ["otherwise", "besides", "consequently", "nevertheless"],
+      "answer": 0,
+      "zh": "你必須在週五中午前繳交科學報告；否則，你的期末成績會被扣五分。",
+      "explain": "otherwise 為連接副詞，意為「否則；不然」，用於警告未依指示行事的後果。(B) besides 表「此外」；(C) consequently 表「因此」；(D) nevertheless 表「儘管如此；然而」。"
+    },
+    {
+      "topic": "名詞子句 whether 介系詞後",
+      "level": 2,
+      "q": "Our final decision depends entirely on ____ the government will provide financial subsidies for the project.",
+      "options": ["if", "that", "what", "whether"],
+      "answer": 3,
+      "zh": "我們的最終決定完全取決於政府是否會為該專案提供財政補貼。",
+      "explain": "在介系詞（on）之後引導表示「是否」的名詞子句時，只能使用 whether，不可使用 if。(A) if 不能直接放在介系詞之後；(B) that 引導確定陳述名詞子句，無法表達「是否」的不確定語意；(C) what 子句中缺少受詞，但原句結構完整。"
+    },
+    {
+      "topic": "名詞子句 Whether 句首主詞",
+      "level": 2,
+      "q": "____ the new policy will genuinely benefit local farmers remains to be seen.",
+      "options": ["Whether", "If", "What", "That"],
+      "answer": 0,
+      "zh": "新政策是否真能造福當地農民，仍有待觀察。",
+      "explain": "引導名詞子句在句首作全句「主詞」且表示「是否」時，只能用 Whether，不可用 If。(B) If 引導的名詞子句不可置於句首作主詞；(C) What 子句內部缺少成分，本句結構完整；(D) That 表確定事實，與後文 remains to be seen（有待觀察）的不確定語氣矛盾。"
+    },
+    {
+      "topic": "時間副詞子句 Not until 倒裝",
+      "level": 2,
+      "q": "Not until the teacher explained the formula a third time ____ able to comprehend it.",
+      "options": ["the students were", "did the students", "were the students", "have the students been"],
+      "answer": 2,
+      "zh": "直到老師第三次解釋這個公式，學生們才真正理解。",
+      "explain": "「Not until + 時間副詞子句」置於句首時，主句必須倒裝；be able to 的過去式為 were able to，倒裝時將 be 動詞 were 移到主詞 the students 之前。(A) the students were 未倒裝；(B) did the students 後接原形動詞，此處為形容詞 able；(D) have the students been 時態錯誤。"
+    },
+    {
+      "topic": "時間副詞子句 Hardly... when",
+      "level": 2,
+      "q": "Hardly had the famous violinist stepped onto the stage ____ the audience burst into thunderous applause.",
+      "options": ["than", "after", "while", "when"],
+      "answer": 3,
+      "zh": "著名的小提琴家一踏上舞台，觀眾立刻爆發出雷鳴般的掌聲。",
+      "explain": "「Hardly / Scarcely + had + S + p.p.... when / before + S + V-ed」為表示「一……就……」的固定句型。(A) than 必須搭配 No sooner；(B) after 與 (C) while 均不可與 Hardly 倒裝句搭配。"
+    },
+    {
+      "topic": "結果副詞子句 such a(n)... that",
+      "level": 2,
+      "q": "Dr. Watson gave ____ inspiring speech that all the young researchers in the auditorium felt motivated.",
+      "options": ["so", "such an", "so an", "such"],
+      "answer": 1,
+      "zh": "華生博士發表了一場如此振奮人心的演講，以致於禮堂裡所有年輕研究人員都深受鼓舞。",
+      "explain": "inspiring speech 是以母音開頭的「單數可數名詞」，搭配 such 時應用「such + a/an + 形容詞 + 名詞」，故選 such an。(A) so 後接形容詞，若接單數名詞應為 so inspiring a speech；(C) so an 語序錯誤；(D) such 缺少不定冠詞 an。"
+    },
+    {
+      "topic": "結果副詞子句 so many... that",
+      "level": 2,
+      "q": "There were ____ interesting books in the bookstore that Ryan couldn't decide which one to purchase first.",
+      "options": ["such", "so many", "too many", "such many"],
+      "answer": 1,
+      "zh": "書店裡有那麼多有趣的書，以致於萊恩無法決定先買哪一本。",
+      "explain": "名詞前有 many, few, much, little 等數量形容詞時，只能用 so，不可用 such，故「so many + 複數名詞 + that...」表示「如此多……以致於……」。(A) such 不可修飾 many；(C) too many that 語法錯誤；(D) 英語中無 such many 的用法。"
+    },
+    {
+      "topic": "讓步副詞子句 as 倒裝",
+      "level": 2,
+      "q": "____ as he was by the long journey, the explorer insisted on continuing the expedition.",
+      "options": ["Exhausting", "Though exhausted", "Exhausted", "As exhausted"],
+      "answer": 2,
+      "zh": "儘管長途跋涉讓他精疲力竭，這位探險家仍堅持繼續考察。",
+      "explain": "「形容詞／副詞／名詞 + as + 主詞 + be動詞」表示讓步（雖然……），句首直接放形容詞 Exhausted。(A) Exhausting 為主動分詞，人感到疲憊應用過去分詞 Exhausted；(B) Though exhausted 不搭配 as；(D) As exhausted 結構多餘。"
+    },
+    {
+      "topic": "目的副詞子句 lest... should",
+      "level": 2,
+      "q": "The hikers carried a portable water purification system lest they ____ sick from drinking river water.",
+      "options": ["would fall", "should fall", "fell", "will fall"],
+      "answer": 1,
+      "zh": "登山客隨身攜帶便攜式淨水系統，惟恐因飲用河水而生病。",
+      "explain": "連接詞 lest 意為「惟恐；以免」，後接子句中的動詞通常搭配「(should) + 原形動詞」，故選 should fall。(A) would fall、(C) fell 與 (D) will fall 均不符合 lest 的標準語法規則。"
+    },
+    {
+      "topic": "原因副詞子句 now that",
+      "level": 2,
+      "q": "____ you have passed your driving test, your parents will probably let you drive the car to school.",
+      "options": ["Now that", "Even though", "As if", "In case"],
+      "answer": 0,
+      "zh": "既然你已經通過駕照考試，你父母大概會讓你開車上學了。",
+      "explain": "Now that 表示「既然；由於已經……」，引導已知事實的原因副詞子句。(B) Even though 表示「即使；雖然」；(C) As if 表示「彷彿」；(D) In case 表示「以防萬一；假使」。"
+    },
+    {
+      "topic": "讓步副詞子句 名詞倒裝無冠詞",
+      "level": 3,
+      "q": "____ as she is, Sophia demonstrates greater maturity and composure than most adults.",
+      "options": ["A child", "The child", "Being a child", "Child"],
+      "answer": 3,
+      "zh": "雖然蘇菲亞還是個孩子，她所展現的成熟與沉著卻超越多數成年人。",
+      "explain": "當單數可數名詞置於句首搭配 as 引導讓步副詞子句時（名詞 + as + 主詞 + be），名詞前**絕對不可加冠詞（a/an/the）**，故只能選 Child。(A) A child 與 (B) The child 皆錯在保留了冠詞；(C) Being a child 為分詞片語，不能接 as she is。"
+    },
+    {
+      "topic": "讓步副詞子句 However + adj.",
+      "level": 3,
+      "q": "____ hard the physics problem seemed, the Olympiad team refused to give up until they found the solution.",
+      "options": ["Whatever", "No matter what", "However", "Although"],
+      "answer": 2,
+      "zh": "無論那道物理題目看起來多麼困難，奧林匹亞代表隊在找出解答前絕不放棄。",
+      "explain": "「However + 形容詞／副詞 + 主詞 + 動詞」等於「No matter how + 形容詞／副詞 + 主詞 + 動詞」，修飾形容詞 hard 必須用 However。(A) Whatever 與 (B) No matter what 後面接名詞或在子句中作主詞／受詞，不可修飾形容詞 hard；(D) Although 後面應接正常語序（Although the problem seemed hard）。"
+    },
+    {
+      "topic": "條件副詞子句 provided that",
+      "level": 3,
+      "q": "The airline guarantees a full refund ____ the flight cancellation is submitted at least 48 hours prior to departure.",
+      "options": ["in order that", "as though", "provided that", "lest"],
+      "answer": 2,
+      "zh": "只要在起飛前至少 48 小時提交航班取消申請，該航空公司保證全額退款。",
+      "explain": "provided that 意為「只要；假使」（= as long as / on condition that），引導條件副詞子句。(A) in order that 引導目的子句（為了）；(B) as though 引導方式子句（彷彿）；(D) lest 引導目的子句（惟恐）。"
+    },
+    {
+      "topic": "比較副詞子句 not so much A as B",
+      "level": 3,
+      "q": "His success in scientific research is ____ due to pure genius ____ to relentless discipline and curiosity.",
+      "options": ["not so much; as", "more; as", "either; nor", "both; or"],
+      "answer": 0,
+      "zh": "他在科學研究上的成功，與其說是出於純粹的天賦，不如說是源自不懈的自律與好奇心。",
+      "explain": "「not so much A as B」為固定比較句型，意為「與其說是 A，不如說是 B」（= less A than B）。(B) more 搭配 than；(C) either 搭配 or；(D) both 搭配 and。"
+    },
+    {
+      "topic": "方式副詞子句 As... so...",
+      "level": 3,
+      "q": "As a drop of water reflects the sunlight, ____ does a person's daily conduct mirror their true character.",
+      "options": ["and", "as", "nor", "so"],
+      "answer": 3,
+      "zh": "正如一滴水珠能折射陽光，一個人的日常舉止也同樣反映其真實品格。",
+      "explain": "「As..., so...」為對稱成語句型，表示「正如……，……也同樣……」，後面的 so 子句常採倒裝語序（so does a person's...）。(A) and 無此對稱呼應結構；(B) as 語法重複；(C) nor 表示「也不」，與前半句肯定比喻不合。"
+    },
+    {
+      "topic": "比較副詞子句 no more... than",
+      "level": 3,
+      "q": "A bat is no more a bird ____ a dolphin is a fish; both are actually warm-blooded mammals.",
+      "options": ["than", "as", "like", "so"],
+      "answer": 0,
+      "zh": "蝙蝠不是鳥類，猶如海豚不是魚類一樣；兩者實際上都是溫血哺乳動物。",
+      "explain": "「A is no more B than C is D」為進階比較句型，意為「A 不是 B，正如 C 不是 D 一樣」（兩者皆非）。(B) as、(C) like 與 (D) so 皆不能與 no more 搭配形成此經典類比否定句型。"
+    },
+    {
+      "topic": "讓步與轉折不可並用",
+      "level": 3,
+      "q": "Which of the following sentences is grammatically CORRECT?",
+      "options": [
+        "Although the old castle was badly damaged in the war, but it still looked magnificent.",
+        "Though the old castle was badly damaged in the war, it still looked magnificent.",
+        "Because the old castle was damaged, so visitors were not allowed to enter.",
+        "In spite of the old castle was damaged, many tourists visited it."
+      ],
+      "answer": 1,
+      "zh": "下列哪一個句子在文法上是正確的？",
+      "explain": "在英語中，Though / Although 不能與 but 並用，故 (B) 正確。(A) 犯了 Although 與 but 同時使用的常見錯誤；(C) 犯了 Because 與 so 同時使用的錯誤；(D) In spite of 為介系詞片語，後方接了完整子句（the old castle was damaged），應用 Although 或改為 In spite of the damage。"
+    },
+    {
+      "topic": "時間副詞子句 It will not be long before",
+      "level": 3,
+      "q": "____ we see the widespread adoption of quantum computing in pharmaceutical research.",
+      "options": [
+        "It will not be long before",
+        "It has been a long time since",
+        "It will be long after",
+        "It was not long that"
+      ],
+      "answer": 0,
+      "zh": "不久之後，我們就將看到量子計算在製藥研究中的廣泛應用。",
+      "explain": "「It will not be long before + 現在簡單式子句」為固定句型，表示「不久就會……」。(B) It has been a long time since 後接過去式，表示「自從……以來已經很久了」；(C) 英語中無 It will be long after 的固定句型；(D) It was not long that 語法結構錯誤。"
+    },
+    {
+      "topic": "名詞子句同位語 that",
+      "level": 3,
+      "q": "The prevailing hypothesis ____ artificial intelligence would replace human teachers within a decade has been widely rejected by educators.",
+      "options": ["which", "whether", "that", "what"],
+      "answer": 2,
+      "zh": "認為人工智慧將在十年內取代人類教師的主流假說，已被教育界廣泛否決。",
+      "explain": "that 引導同位語子句，說明抽象名詞 hypothesis（假說）的具體內容；該子句結構完整（主詞 + 助動詞 + 動詞 + 受詞 + 時間副詞），故須用同位語連接詞 that。(A) which 引導關係子句時內部必須缺少名詞成分；(B) whether 表示「是否」，與確定假說內容的同位語不符；(D) what 不能引導同位語子句修飾前面的名詞。"
+    },
+    {
+      "topic": "連接詞與連接副詞區別",
+      "level": 3,
+      "q": "Select the sentence that uses punctuation and connectors appropriately:",
+      "options": [
+        "Lions hunt in cooperative prides, however tigers are solitary predators.",
+        "Lions hunt in cooperative prides, therefore tigers are solitary predators.",
+        "Lions hunt in cooperative prides; whereas tigers are solitary predators.",
+        "Lions hunt in cooperative prides, whereas tigers are solitary predators."
+      ],
+      "answer": 3,
+      "zh": "選出標點符號與連接詞使用適當的句子：",
+      "explain": "whereas 是從屬連接詞，意為「而；反之」，引導副詞子句表示對比，前面置逗號「,」連接主句與對比副詞子句，故 (D) 正確。(A) however 是連接副詞（準連接詞），不能僅用逗號連接兩個完整句子（此為逗號拼接錯誤 comma splice），前面需用分號「;」；(B) therefore 同樣是副詞不能僅用逗號連接兩句，且兩者非因果關係；(C) whereas 是從屬連接詞，前面不應使用分號。"
+    }
+  ]
+}

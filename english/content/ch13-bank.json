@@ -1,0 +1,566 @@
+{
+  "chapter": 13,
+  "title": "關係詞",
+  "items": [
+    {
+      "topic": "關係代名詞 who（主格）",
+      "level": 1,
+      "q": "The doctor ____ treated my grandfather at the hospital is very famous.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": 0,
+      "zh": "在醫院為我祖父治療的那位醫生非常有名。",
+      "explain": "先行詞 The doctor 指「人」，空格後接動詞 treated，子句缺少主詞，故應用主格關係代名詞 who。(B) whom 為受格；(C) which 先行詞須為物或動物；(D) whose 為所有格，後方須接名詞。"
+    },
+    {
+      "topic": "關係代名詞 which（主格與受格）",
+      "level": 1,
+      "q": "This is the smartphone ____ was launched by the tech company last week.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "answer": 2,
+      "zh": "這就是那家科技公司上週推出的智慧型手機。",
+      "explain": "先行詞 the smartphone 為「物」，且關係子句中缺少主詞（was launched 為被動動詞），故應選關係代名詞 which。(A) who 與 (D) whom 先行詞均須為人；(B) whose 為所有格，後方須接名詞。"
+    },
+    {
+      "topic": "關係代名詞 whose（所有格）",
+      "level": 1,
+      "q": "I have a classmate ____ mother is a professional violinist.",
+      "options": [
+        "who",
+        "whose",
+        "whom",
+        "which"
+      ],
+      "answer": 1,
+      "zh": "我有一位同班同學，他的母親是專業小提琴家。",
+      "explain": "先行詞 a classmate 為人，空格後接名詞 mother，表示「同學的母親」，為所有格關係，故選 whose。(A) who 為主格；(C) whom 為受格；(D) which 先行詞為事物。"
+    },
+    {
+      "topic": "關係代名詞 whom（受格）",
+      "level": 1,
+      "q": "The new English teacher ____ we met at the school gate this morning is from Canada.",
+      "options": [
+        "whose",
+        "which",
+        "what",
+        "whom"
+      ],
+      "answer": 3,
+      "zh": "我們今天早上在校門口遇見的那位新英文老師來自加拿大。",
+      "explain": "先行詞 The new English teacher 為人，關係子句 we met 缺少及物動詞 met 的受詞，故應用受格關係代名詞 whom（現代英語口語中亦常用 who 或省略）。(A) whose 為所有格；(B) which 先行詞為物；(C) what 兼含先行詞，不可接在 teacher 之後。"
+    },
+    {
+      "topic": "關係代名詞 that 代替事物",
+      "level": 1,
+      "q": "The delicious cookies ____ my sister baked yesterday were eaten up quickly.",
+      "options": [
+        "that",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "answer": 0,
+      "zh": "我姐姐昨天烤的美味餅乾很快就被吃光了。",
+      "explain": "先行詞 The delicious cookies 為「物」，關係子句 baked 缺少受詞，可用 which 或 that 代替。(B) who 與 (C) whom 用於先行詞為人；(D) whose 為所有格。"
+    },
+    {
+      "topic": "關係副詞 where（地點）",
+      "level": 1,
+      "q": "Tainan is a historic city ____ many travelers love to visit traditional temples.",
+      "options": [
+        "which",
+        "where",
+        "whom",
+        "whose"
+      ],
+      "answer": 1,
+      "zh": "台南是一座歷史名城，許多旅人在那裡喜愛參觀傳統廟宇。",
+      "explain": "先行詞 a historic city 表示地點，後方子句「many travelers love to visit traditional temples」結構完整（不缺主詞或受詞），故應用關係副詞 where（相當於 in which）。(A) which 為關係代名詞，後方須接不完整子句；(C) whom 先行詞為人；(D) whose 為所有格。"
+    },
+    {
+      "topic": "關係副詞 when（時間）",
+      "level": 1,
+      "q": "I will never forget the day ____ our basketball team won the national championship.",
+      "options": [
+        "where",
+        "which",
+        "when",
+        "why"
+      ],
+      "answer": 2,
+      "zh": "我永遠不會忘記我們籃球隊贏得全國冠軍的那一天。",
+      "explain": "先行詞 the day 表示時間，後方子句為完整子句，故應用關係副詞 when（相當於 on which）。(A) where 表地點；(B) which 為代名詞，後方須缺少主詞或受詞；(D) why 表理由。"
+    },
+    {
+      "topic": "關係代名詞所有格 whose 表事物",
+      "level": 1,
+      "q": "Look at the high-rise building ____ roof is shaped like a giant lotus flower.",
+      "options": [
+        "which",
+        "who",
+        "that",
+        "whose"
+      ],
+      "answer": 3,
+      "zh": "你看那棟屋頂形狀像一朵巨大蓮花的高樓大廈。",
+      "explain": "先行詞 the high-rise building 為物，空格後有名詞 roof，表「那棟大樓的屋頂」，事物的所有格同樣可用 whose（＝ of which the roof / the roof of which），故選 whose。(A) which 與 (C) that 無法直接修飾名詞 roof；(B) who 先行詞須為人。"
+    },
+    {
+      "topic": "複合關係代名詞 what",
+      "level": 1,
+      "q": "Please pay close attention to ____ the coach is explaining on the blackboard.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "where"
+      ],
+      "answer": 0,
+      "zh": "請仔細注意教練在黑板上所解釋的內容。",
+      "explain": "介系詞 to 之後缺受詞，且空格前沒有先行詞，is explaining 亦缺少受詞；複合關係代名詞 what ＝ the thing which，引導名詞子句作介系詞 to 的受詞。(B) that 與 (C) which 為關係代名詞時前方須有先行詞；(D) where 表地點，無法充當 is explaining 的受詞。"
+    },
+    {
+      "topic": "關係代名詞 which（受格省略）",
+      "level": 1,
+      "q": "The documentary ____ we watched in history class inspired everyone.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": 1,
+      "zh": "我們在歷史課上看的那部紀錄片啟發了大家。",
+      "explain": "先行詞 The documentary 為物，we watched 缺受詞，故填關係代名詞 which（亦可用 that 或省略）。(A) who 先行詞為人；(C) whose 為所有格；(D) where 為關係副詞，後接完整子句，但 watched 為及物動詞缺少受詞。"
+    },
+    {
+      "topic": "關係副詞 why（理由）",
+      "level": 1,
+      "q": "Can you tell me the reason ____ Kevin was absent from the meeting?",
+      "options": [
+        "which",
+        "where",
+        "why",
+        "who"
+      ],
+      "answer": 2,
+      "zh": "你能告訴我凱文缺席會議的原因嗎？",
+      "explain": "先行詞 the reason 表示原因理由，後方子句結構完整，故使用關係副詞 why（＝ for which）。(A) which 為關代，後接不完整子句；(B) where 表地點；(D) who 先行詞為人。"
+    },
+    {
+      "topic": "關係代名詞主格與動詞單複數一致",
+      "level": 1,
+      "q": "The volunteers who ____ planting trees in the park are students from our school.",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "are"
+      ],
+      "answer": 3,
+      "zh": "在公園裡植樹的志工們是我們學校的學生。",
+      "explain": "關係代名詞 who 代替先行詞 The volunteers（複數名詞），關係子句中的述語動詞必須與先行詞一致，故用複數動詞 are。(A) is、(B) was、(C) has been 皆為單數動詞，與複數先行詞不符。"
+    },
+    {
+      "topic": "關係代名詞 that 代替人與動物",
+      "level": 1,
+      "q": "They are talking about the elderly artist and the stray cat ____ were rescued from the fire.",
+      "options": [
+        "that",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": 0,
+      "zh": "他們正在談論從火災中獲救的那位年長藝術家和那隻流浪貓。",
+      "explain": "先行詞同時包含「人（the elderly artist）」與「動物（the stray cat）」，無法單獨使用 who 或 which，必須使用關係代名詞 that。(B) who 僅指人；(C) which 僅指物或動物；(D) whom 為人稱受格。"
+    },
+    {
+      "topic": "關係代名詞受格代換與省略",
+      "level": 1,
+      "q": "The delicious strawberry cake ____ my mother made for my birthday tasted fantastic.",
+      "options": [
+        "who",
+        "(which)",
+        "whose",
+        "where"
+      ],
+      "answer": 1,
+      "zh": "媽媽為我生日做的美味草莓蛋糕嚐起來棒極了。",
+      "explain": "先行詞 The delicious strawberry cake 為物，made 缺少受詞，此處關係代名詞 which / that 作受詞可予以省略，故選 (which)。(A) who 先行詞須為人；(C) whose 後須接名詞；(D) where 為關係副詞，不可作及物動詞 made 的受詞。"
+    },
+    {
+      "topic": "非限定用法關係代名詞 who",
+      "level": 1,
+      "q": "My elder brother, ____ is currently studying medicine in Taipei, wants to become a surgeon.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "whom"
+      ],
+      "answer": 2,
+      "zh": "我的哥哥目前在台北學醫，他想成為一名外科醫生。",
+      "explain": "本句為非限定用法（先行詞後有逗號），先行詞 My elder brother 為人，空格後接動詞 is studying 缺主詞，故應用 who。(A) that 絕不可用於非限定用法（逗號後）；(B) which 先行詞為事物；(D) whom 為受格。"
+    },
+    {
+      "topic": "只能用 that 的情況：最高級修飾先行詞",
+      "level": 2,
+      "q": "This is the most thrilling sci-fi movie ____ I have ever seen in the cinema.",
+      "options": [
+        "which",
+        "what",
+        "whom",
+        "that"
+      ],
+      "answer": 3,
+      "zh": "這是我在電影院看過最扣人心弦的科幻電影。",
+      "explain": "先行詞 movie 前有最高級形容詞 the most thrilling 修飾，關係代名詞習慣優先使用 that。(A) which 在有最高級修飾時通常不優先使用；(B) what 兼含先行詞，不可放在 movie 後面；(C) whom 先行詞須為人。"
+    },
+    {
+      "topic": "只能用 that 的情況：the only 修飾先行詞",
+      "level": 2,
+      "q": "Emily was the only student in our class ____ solved the challenging math puzzle.",
+      "options": [
+        "that",
+        "which",
+        "whom",
+        "what"
+      ],
+      "answer": 0,
+      "zh": "艾蜜莉是我們班上唯一解開那道具挑戰性數學謎題的學生。",
+      "explain": "先行詞 student 前有 the only（唯一的）修飾，關係代名詞必須用 that。(B) which 先行詞為物；(C) whom 為受格，而此處缺主詞；(D) what 不能有先行詞。"
+    },
+    {
+      "topic": "只能用 that 的情況：all 作先行詞",
+      "level": 2,
+      "q": "All ____ glitters is not gold, as the ancient English proverb says.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "who"
+      ],
+      "answer": 1,
+      "zh": "正如古老英國諺語所言，發光的未必都是金子。",
+      "explain": "當先行詞為 all（表示事物）時，關係代名詞必須用 that，形成「All that...」結構。(A) which 不與 all 搭配；(C) what 自帶先行詞，不可接在 all 後面；(D) who 先行詞須為人。"
+    },
+    {
+      "topic": "只能用 that 的情況：以疑問詞開頭避免重複",
+      "level": 2,
+      "q": "Who is the handsome gentleman ____ is giving a speech on the stage?",
+      "options": [
+        "who",
+        "which",
+        "that",
+        "whom"
+      ],
+      "answer": 2,
+      "zh": "在講台上發表演說的那位英俊紳士是誰？",
+      "explain": "主要子句已由疑問代名詞 Who 開頭，為了避免語音與詞形重複（Who is the man who... 聽起來重複累贅），關係代名詞必須改用 that。(A) who 會造成重複；(B) which 先行詞須為物；(D) whom 為受格，此處需要主格。"
+    },
+    {
+      "topic": "介系詞 ＋ 關係代名詞（物：in which）",
+      "level": 2,
+      "q": "The comfortable apartment in ____ Mr. Lin has lived for twenty years is near the MRT station.",
+      "options": [
+        "that",
+        "where",
+        "what",
+        "which"
+      ],
+      "answer": 3,
+      "zh": "林先生住了二十年的那間舒適公寓在捷運站附近。",
+      "explain": "先行詞 apartment 為物，空格前有介系詞 in，介系詞後面「絕不可接 that」，必須用 in which（＝ where）。(A) that 前面不可有介系詞；(B) where 本身即相當於 in which，不可再接於介系詞 in 之後；(C) what 前不可有先行詞。"
+    },
+    {
+      "topic": "介系詞 ＋ 關係代名詞（人：to whom）",
+      "level": 2,
+      "q": "The professor to ____ you submitted your research proposal will reply by Friday.",
+      "options": [
+        "whom",
+        "who",
+        "that",
+        "whose"
+      ],
+      "answer": 0,
+      "zh": "你向他提交研究計畫書的那位教授將在週五前回覆。",
+      "explain": "先行詞 The professor 為人，介系詞 to 提前置於關係詞前時，必須使用受格關係代名詞 to whom。(B) who 不能接在介系詞正後方（介系詞後必須用受格 whom）；(C) that 之前不可有介系詞；(D) whose 為所有格。"
+    },
+    {
+      "topic": "which 代替前面整個句子",
+      "level": 2,
+      "q": "The train was delayed for nearly an hour, ____ caused many passengers to miss their flights.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "it"
+      ],
+      "answer": 1,
+      "zh": "火車延誤了將近一個小時，這導致許多旅客錯過了他們的班機。",
+      "explain": "非限定子句中，關係代名詞 which 可代表前面整件事（火車延誤近一小時），並在子句中作主詞。(A) that 絕不可用於非限定用法（逗號後）；(C) what 不可用於逗號後修飾前面的子句；(D) it 為普通代名詞，無法充當連接詞連接兩個子句。"
+    },
+    {
+      "topic": "非限定用法 which 代替形容詞補語",
+      "level": 2,
+      "q": "Arthur pretended to be calm, ____ he definitely was not at that terrifying moment.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": 2,
+      "zh": "亞瑟假裝很鎮定，但在那恐怖的時刻他絕對不鎮定。",
+      "explain": "關係代名詞 which 在非限定子句中可以代替前面的形容詞（calm），作 was not 的補語。(A) what 不能修飾前方形容詞；(B) that 不可用於非限定逗點之後；(D) who 先行詞須為人，不能指 calm。"
+    },
+    {
+      "topic": "關係代名詞與關係副詞辨析（不完整 vs. 完整）",
+      "level": 2,
+      "q": "This is the research laboratory ____ my uncle visited during his trip to Japan last year.",
+      "options": [
+        "where",
+        "when",
+        "in which",
+        "which"
+      ],
+      "answer": 3,
+      "zh": "這是我叔叔去年去日本旅行期間參觀過的那間研究實驗室。",
+      "explain": "先行詞 the research laboratory 雖然是地點，但關係子句中的 visited 是及物動詞，缺少受詞（visit the laboratory），為不完整子句，故必須用關係代名詞 which（或 that）。(A) where 與 (C) in which 後面須接完整子句；(B) when 表示時間。"
+    },
+    {
+      "topic": "the way 與 how 不可並用",
+      "level": 2,
+      "q": "Could you please show me ____ you managed to solve this complex computer error?",
+      "options": [
+        "how",
+        "the way how",
+        "that how",
+        "in where"
+      ],
+      "answer": 0,
+      "zh": "你能否向我展示你是如何成功解決這個複雜的電腦錯誤的？",
+      "explain": "表示方式時，可單用 how 或 the way 或 the way in which，但 the way 與 how 絕對不可並用！故選 how。(B) the way how 為文法大忌；(C) that how 結構錯誤；(D) in where 文法不通。"
+    },
+    {
+      "topic": "複合關係代名詞 what is more（慣用語）",
+      "level": 2,
+      "q": "The young athlete is exceptionally diligent, and ____ is more, she possesses great athletic talent.",
+      "options": [
+        "which",
+        "what",
+        "that",
+        "it"
+      ],
+      "answer": 1,
+      "zh": "這位年輕運動員格外勤奮，而且更有甚者，她擁有極高的運動天賦。",
+      "explain": "「what is more」為固定慣用語，意為「而且、更有甚者（furthermore / moreover）」，引導補充說明。(A) which、(C) that、(D) it 皆無法形成此固定片語。"
+    },
+    {
+      "topic": "複合關係代名詞 what is called（所謂的）",
+      "level": 2,
+      "q": "Dr. Watson is ____ is called a lifelong learner because he never stops acquiring new skills.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "who"
+      ],
+      "answer": 2,
+      "zh": "華生博士就是所謂的終身學習者，因為他從未停止習得新技能。",
+      "explain": "「what is called...」為固定慣用語，意為「所謂的（so-called）」，作 is 的補語。(A) which、(B) that、(D) who 皆不能構成此固定慣用語。"
+    },
+    {
+      "topic": "複合關係代名詞 whoever vs. whomever（主格辨析）",
+      "level": 2,
+      "q": "The scholarship will be awarded to ____ writes the most insightful essay on environmental protection.",
+      "options": [
+        "whomever",
+        "anyone",
+        "whom",
+        "whoever"
+      ],
+      "answer": 3,
+      "zh": "該獎學金將頒發給針對環境保護撰寫出最具洞察力短文的人。",
+      "explain": "空格後有動詞 writes，在名詞子句中缺主詞，故應用主格複合關係代名詞 whoever（＝ anyone who）。(A) whomever 為受格；(B) anyone 為名詞，後方缺少連接詞/關代；(C) whom 為受格關代且前方缺先行詞。"
+    },
+    {
+      "topic": "複合關係代名詞 whatever（受格名詞子句）",
+      "level": 2,
+      "q": "You are allowed to order ____ you want from the dessert menu tonight; it's on me!",
+      "options": [
+        "whatever",
+        "no matter what",
+        "whichever that",
+        "that"
+      ],
+      "answer": 0,
+      "zh": "今晚甜點菜單上你想點什麼都可以；我請客！",
+      "explain": "order 為及物動詞，需要受詞；want 亦為及物動詞缺少受詞；複合關係代名詞 whatever（＝ anything that）引導名詞子句作 order 的受詞。(B) no matter what 只能引導讓步副詞子句，不可作動詞的受詞；(C) whichever that 文法結構錯誤；(D) that 引導名詞子句時不充當 want 的受詞。"
+    },
+    {
+      "topic": "複合關係副詞 wherever（讓步副詞子句）",
+      "level": 2,
+      "q": "____ you travel around the globe, you should always respect the local customs and traditions.",
+      "options": [
+        "Whatever",
+        "Wherever",
+        "Whichever",
+        "However"
+      ],
+      "answer": 1,
+      "zh": "無論你到全球何處旅行，都應當始終尊重當地的風俗傳統。",
+      "explain": "travel 後方表示地點，本句為讓步副詞子句（＝ No matter where you travel），故選 Wherever。(A) Whatever 表「無論什麼事物」；(C) Whichever 表「無論哪一個」；(D) However 表「無論如何／無論多麼」，後須接形容詞或副詞。"
+    },
+    {
+      "topic": "準關係代名詞 but（There is no... but...）",
+      "level": 3,
+      "q": "There is no rule in this school ____ has some exceptions in special circumstances.",
+      "options": [
+        "that",
+        "which",
+        "but",
+        "as"
+      ],
+      "answer": 2,
+      "zh": "這所學校沒有哪條校規是在特殊情況下沒有例外的（每條校規皆有例外）。",
+      "explain": "主要子句含有否定詞「no rule」，後方接準關係代名詞 but，具有「that... not」的雙重否定涵義，即「that does not have...」，故選 but。(A) that has 表肯定（沒有有例外的規則，與常理相反）；(B) which 同樣表肯定；(D) as 不具否定涵義。"
+    },
+    {
+      "topic": "準關係代名詞 such... as...（不完整子句）",
+      "level": 3,
+      "q": "We should only invite such guest speakers ____ we genuinely admire and respect.",
+      "options": [
+        "that",
+        "which",
+        "whom",
+        "as"
+      ],
+      "answer": 3,
+      "zh": "我們應只邀請那些我們真心欽佩與尊敬的客座演講者。",
+      "explain": "先行詞前有 such 修飾，後方引導不完整關係子句（admire and respect 缺少受詞），應搭配準關係代名詞 as。(A) that 與 such 搭配時引導完整結果副詞子句（such... that）；(B) which 與 (C) whom 在先行詞有 such 時通常不優先使用。"
+    },
+    {
+      "topic": "準關係代名詞 than（比較級搭配）",
+      "level": 3,
+      "q": "The rescue team brought more medical supplies to the earthquake area ____ were originally requested.",
+      "options": [
+        "than",
+        "as",
+        "that",
+        "which"
+      ],
+      "answer": 0,
+      "zh": "救援隊帶到地震災區的醫療物資比最初要求的還要多。",
+      "explain": "先行詞 supplies 前有比較級 more 修飾，後方缺主詞（were requested），此時 than 作為準關係代名詞，充當後方子句的主詞，形成「more... than + V」句型。(B) as 用於原級；(C) that 與 (D) which 不與比較級 more 連用。"
+    },
+    {
+      "topic": "關係代名詞與插入句辨析（who was thought to be）",
+      "level": 3,
+      "q": "The candidate ____ everyone thought was the most qualified surprisingly lost the election.",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": 1,
+      "zh": "大家都認為最具有資格的那位候選人，竟然出乎意料地落選了。",
+      "explain": "句中「everyone thought」為插入句，將其拿掉後，關係子句的核心結構為「____ was the most qualified」，缺少述語動詞 was 的主詞，故必須用主格關係代名詞 who。(A) 許多人誤以為是 thought 的受詞而誤選 whom；(C) which 先行詞為物；(D) whose 為所有格。"
+    },
+    {
+      "topic": "關係代名詞與非插入句（thought whom to be）",
+      "level": 3,
+      "q": "The young violinist ____ the judges thought to be the most talented won the first prize.",
+      "options": [
+        "who",
+        "whose",
+        "whom",
+        "which"
+      ],
+      "answer": 2,
+      "zh": "評審們認為最有才華的那位年輕小提琴家贏得了一等獎。",
+      "explain": "此處不是插入句，而是「think ＋ 受詞 ＋ to be ＋ 補語」句型，關係代名詞在子句中作及物動詞 thought 的受詞（thought whom to be...），故必須使用受格 whom。(A) who 為主格；(B) whose 為所有格；(D) which 先行詞為物。"
+    },
+    {
+      "topic": "複合關係代名詞慣用語 A is to B what C is to D",
+      "level": 3,
+      "q": "Reading is to the mind ____ exercise is to the body.",
+      "options": [
+        "which",
+        "that",
+        "how",
+        "what"
+      ],
+      "answer": 3,
+      "zh": "讀書之於心靈，猶如運動之於身體。",
+      "explain": "「A is to B what C is to D」為著名經典名句結構，表示「A對於B的關係，就如同C對於D的關係一樣」，固定搭配 what（或 as）。(A) which、(B) that、(C) how 皆不符合此固定比喻句型。"
+    },
+    {
+      "topic": "複合關係代名詞 what one is vs. what one has",
+      "level": 3,
+      "q": "True self-worth depends entirely on what a person ____, not on what a person has.",
+      "options": [
+        "is",
+        "does",
+        "owns",
+        "has"
+      ],
+      "answer": 0,
+      "zh": "真正的自我價值完全取決於一個人的為人品格，而非取決於一個人的財富身外之物。",
+      "explain": "文法核心對比：「what one is（一個人的為人、品格）」與「what one has（一個人的財產、物質身家）」。故選 is。(B) does 表所做的事；(C) owns 與 (D) has 同義，無法形成人品與財富的對照。"
+    },
+    {
+      "topic": "非限定補述用法 as（正如…，可置於句首）",
+      "level": 3,
+      "q": "____ was clearly pointed out in the weather forecast, a fierce typhoon approached the island overnight.",
+      "options": [
+        "Which",
+        "As",
+        "What",
+        "It"
+      ],
+      "answer": 1,
+      "zh": "正如氣象預報中所明確指出的，強烈颱風在一夜之間逼近了該島。",
+      "explain": "準關係代名詞 as 引導非限定子句代替後面整個主要子句（颱風逼近），且「as 可以置於句首」；若用 which 代表整句，則絕不可放於句首。(A) Which 不可置於句首代替後方子句；(C) What 引導名詞子句，會使後方主要子句缺少連接；(D) It 為代名詞，無法連接兩個子句。"
+    },
+    {
+      "topic": "關係形容詞 during which time / period",
+      "level": 3,
+      "q": "Oliver studied in London for four years, during ____ period he mastered two foreign languages.",
+      "options": [
+        "that",
+        "where",
+        "which",
+        "whose"
+      ],
+      "answer": 2,
+      "zh": "奧利佛在倫敦求學了四年，在那段期間他精通了兩門外語。",
+      "explain": "此處 which 作「關係形容詞」，修飾其後名詞 period，形成「during which period（在那段期間內）」，兼具連接詞與形容詞修飾功能。(A) that 絕不可接在介系詞 during 之後，亦不當關係形容詞；(B) where 為副詞，不能修飾名詞 period；(D) whose 表示所有格（誰的），語意不通。"
+    },
+    {
+      "topic": "部分代名詞 ＋ of whom / of which",
+      "level": 3,
+      "q": "The school has over two thousand students, most of ____ commute by bicycle every morning.",
+      "options": [
+        "them",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": 3,
+      "zh": "這所學校有兩千多名學生，其中大多數人每天早晨騎腳踏車通勤。",
+      "explain": "兩個子句之間以逗號隔開，沒有對等連接詞 and，故第二個子句必須使用關係代名詞連接；先行詞 students 為人，接在介系詞 of 之後作受詞，必須使用受格 whom（most of whom）。(A) 若選 them，則缺少連接詞，形成跑馬句（comma splice）文法錯誤；(B) who 為主格，不可作介系詞 of 的受詞；(C) which 先行詞須為物。"
+    }
+  ]
+}

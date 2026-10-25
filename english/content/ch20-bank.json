@@ -1,0 +1,366 @@
+{
+  "chapter": 20,
+  "title": "五大句型與三大子句",
+  "items": [
+    {
+      "topic": "第一句型 S+Vi",
+      "level": 1,
+      "q": "A large number of migrating birds ____ to the south every autumn.",
+      "options": ["fly", "are flying to", "fly them", "flying"],
+      "answer": 0,
+      "zh": "每年秋天都有大量的候鳥飛往南方。",
+      "explain": "fly 在此為完全不及物動詞（Vi），表示「飛行」，動詞本身語意完整，後面接介系詞片語 to the south 作副詞修飾語，構成「S + Vi」的第一句型。主詞 A large number of migrating birds 為複數，搭配複數原形動詞 fly。(B) 本句有 every autumn 表經常性習慣，不宜用進行式，且 are flying to 後面受詞重複；(C) fly 為不及物動詞，不加受詞 them；(D) 分詞不能單獨作主要動詞。"
+    },
+    {
+      "topic": "第二句型 S+Vi+S.C.",
+      "level": 1,
+      "q": "The chicken soup smells ____, but it tastes a bit too salty.",
+      "options": ["deliciously", "delicious", "more deliciously", "to be delicious"],
+      "answer": 1,
+      "zh": "這碗雞湯聞起來很香，但嚐起來有點太鹹了。",
+      "explain": "smell 在此為感官連綴動詞，表示「聞起來」，動詞本身意思不完整，後面必須接形容詞（delicious）作為補充說明主詞的主詞補語（S.C.），構成「S + Vi + S.C.」的第二句型。(A)(C) deliciously 為副詞，不能修飾名詞或作主詞補語；(D) 連綴動詞後通常直接接形容詞，不需加 to be。"
+    },
+    {
+      "topic": "第三句型 S+Vt+O",
+      "level": 1,
+      "q": "All of the students in Class 301 enjoy ____ English pop songs during break time.",
+      "options": ["sing", "to sing", "singing", "sung"],
+      "answer": 2,
+      "zh": "301班的所有學生都喜歡在下課時間唱英文流行歌曲。",
+      "explain": "enjoy 是完全及物動詞（Vt），後面必須接動名詞（V-ing）作受詞，構成「S + Vt + O」的第三句型。(A) 原形動詞不能作動詞受詞；(B) enjoy 後面習慣接動名詞而非不定詞；(D) 過去分詞表被動或完成，無法作受詞。"
+    },
+    {
+      "topic": "第四句型 S+Vt+I.O.+D.O.",
+      "level": 1,
+      "q": "Grandma bought a lovely teddy bear ____ my little sister on her birthday.",
+      "options": ["to", "with", "of", "for"],
+      "answer": 3,
+      "zh": "奶奶在我妹妹生日時買了一隻可愛的泰迪熊給她。",
+      "explain": "buy 為授與動詞，基本句型為「S + buy + I.O. + D.O.」（Grandma bought my sister a bear）。當直接受詞（物）調到間接受詞（人）前面時，介系詞需用 for，即「buy sth for sb」。(A) to 搭配 give, send, lend, tell 等；(B) with 表「和…一起」或「用…工具」；(C) of 搭配 ask。"
+    },
+    {
+      "topic": "第五句型 S+Vt+O+O.C.",
+      "level": 1,
+      "q": "The sudden loud noise made the little baby ____ out loud.",
+      "options": ["cry", "to cry", "crying", "cried"],
+      "answer": 0,
+      "zh": "突如其來的巨大聲響使小寶寶大聲哭了出來。",
+      "explain": "make 在此為使役動詞，表示「使、令」，句型為「make + O + 原形動詞（O.C.）」，構成「S + Vt + O + O.C.」的第五句型。(B) 使役動詞 make 的受詞補語用原形動詞，不加 to；(C) crying 為現在分詞，非 make 之標準補語形式；(D) cried 為過去分詞表示被動，小寶寶主動哭泣應使用原形動詞。"
+    },
+    {
+      "topic": "名詞子句：that 子句作主詞",
+      "level": 1,
+      "q": "It is well known ____ the earth revolves around the sun.",
+      "options": ["what", "which", "whether", "that"],
+      "answer": 3,
+      "zh": "眾所皆知，地球繞著太陽旋轉。",
+      "explain": "本句為形式主詞句型「It is + adj/p.p. + that-clause」，真正的主詞是由從屬連接詞 that 引導的名詞子句「that the earth revolves around the sun」。(A) what 在名詞子句中必須兼任主詞或受詞，但後方子句結構完整；(B) which 為疑問詞或關係詞，此處語意不合；(C) whether 表示「是否」，與已知客觀真理的語境矛盾。"
+    },
+    {
+      "topic": "名詞子句：whether / if 的選用",
+      "level": 1,
+      "q": "I am not sure ____ Mr. Davis will attend tomorrow's staff meeting or not.",
+      "options": ["that", "whether", "if", "what"],
+      "answer": 1,
+      "zh": "我不確定戴維斯先生明天是否會參加員工會議。",
+      "explain": "子句句尾有 or not，且表示「是否」的不確定語意時，慣用 whether... or not。雖然 if 也可表示「是否」，但 if 不能直接與 or not 連用，亦不能置於句首作主詞或接在介系詞後。(A) that 用於陳述確定事實，與 not sure 矛盾；(D) what 作疑問代名詞，後方句子各要素齊全，不需 what。"
+    },
+    {
+      "topic": "名詞子句：間接問句之語序",
+      "level": 1,
+      "q": "Excuse me, can you please tell me ____?",
+      "options": ["where does the nearest post office locate", "where is the nearest post office", "where the nearest post office is", "where locates the nearest post office"],
+      "answer": 2,
+      "zh": "不好意思，你能告訴我最近的郵局在哪裡嗎？",
+      "explain": "間接問句在主要子句中充當名詞子句（tell 的直接受詞），語序必須從疑問句語序轉為直述句語序，即「疑問詞 + 主詞 + 動詞」。主詞是 the nearest post office，動詞是 is，故正確語序為 where the nearest post office is。(A) 誤保留了助動詞 does；(B) 仍為一般疑問句的倒裝語序；(D) 動詞前置，語序錯誤。"
+    },
+    {
+      "topic": "形容詞子句：關係代名詞主格 who",
+      "level": 1,
+      "q": "The scientist ____ won the Nobel Prize last year gave an inspiring speech at our school.",
+      "options": ["who", "whom", "whose", "which"],
+      "answer": 0,
+      "zh": "去年獲得諾貝爾獎的那位科學家在我們學校發表了一場啟發人心的演說。",
+      "explain": "先行詞為 The scientist（人），在形容詞子句（關係子句）中擔任動詞 won 的主詞，因此必須使用主格關係代名詞 who。(B) whom 為受格；(C) whose 為所有格，後面須接名詞；(D) which 的先行詞必須為事物。"
+    },
+    {
+      "topic": "形容詞子句：關係代名詞主格 which",
+      "level": 1,
+      "q": "This is the newly published dictionary ____ includes thousands of modern idioms.",
+      "options": ["who", "whom", "where", "which"],
+      "answer": 3,
+      "zh": "這是新出版的字典，裡面收錄了數千個現代成語。",
+      "explain": "先行詞是 the newly published dictionary（事物），在關係子句中作動詞 includes 的主詞，應使用關係代名詞 which。(A)(B) who/whom 先行詞必須為人；(C) where 為關係副詞，在子句中作副詞修飾語，不能作動詞的主詞。"
+    },
+    {
+      "topic": "形容詞子句：關係副詞 where",
+      "level": 1,
+      "q": "Tainan is a historic city ____ many famous traditional snacks can be found.",
+      "options": ["which", "where", "that", "what"],
+      "answer": 1,
+      "zh": "台南是一座歷史名城，在那裡可以找到許多著名的傳統小吃。",
+      "explain": "先行詞為 a historic city（地點），後方的關係子句「many famous traditional snacks can be found」為主被動要素完整的句子，空格處代表「在該城市裡（in the city）」，作地方副詞，故使用關係副詞 where。(A)(C) which 和 that 為關係代名詞，在此缺介系詞 in（若為 in which 或 which... in 則正確）；(D) what 不能作關係代名詞修飾先行詞。"
+    },
+    {
+      "topic": "副詞子句：時間副詞子句的時態",
+      "level": 1,
+      "q": "Please turn off all the lights and air conditioners before you ____ the classroom.",
+      "options": ["leave", "left", "will leave", "have left"],
+      "answer": 0,
+      "zh": "在你離開教室之前，請隨手關閉所有的電燈和冷氣。",
+      "explain": "before 引導時間副詞子句，在時間與條件副詞子句中，依英文文法慣例「以現在簡單式代替未來式」，故主詞 you 搭配現在式動詞 leave。(B) left 為過去式，與祈使句表示未來的語意不合；(C) will leave 不能用於時間副詞子句中；(D) 現在完成式在此不合句意。"
+    },
+    {
+      "topic": "副詞子句：條件連接詞 unless",
+      "level": 1,
+      "q": "We will go hiking in Yangmingshan this weekend ____ it rains heavily.",
+      "options": ["if", "since", "unless", "so that"],
+      "answer": 2,
+      "zh": "除非下大雨，否則我們這個週末將去陽明山健行。",
+      "explain": "unless 為從屬連接詞，意為「除非；如果不」（= if not），引導條件副詞子句，符合句意。(A) if 表示「如果」，若填入會變成「如果下大雨我們就去健行」，邏輯矛盾；(B) since 表「因為」或「自從」；(D) so that 表目的「以便於」。"
+    },
+    {
+      "topic": "副詞子句：結果句型 so... that",
+      "level": 1,
+      "q": "The winter night was ____ cold that the water in the pond turned into thick ice.",
+      "options": ["very", "too", "such", "so"],
+      "answer": 3,
+      "zh": "冬夜是如此寒冷，以致於池塘裡的水都結成了厚冰。",
+      "explain": "句型為「so + 形容詞/副詞 + that 子句」，表示「如此…以致於…」。空格後為形容詞 cold，故選 so。(A) very 不能與 that 子句連用表結果；(B) too 搭配不定詞句型「too... to-V」，不搭配 that 子句；(C) such 後面須接名詞（such + (a/an) + adj + noun + that）。"
+    },
+    {
+      "topic": "副詞子句：原因連接詞 since",
+      "level": 1,
+      "q": "____ today is a national holiday, government offices and post offices are closed.",
+      "options": ["Because of", "Since", "Although", "Unless"],
+      "answer": 1,
+      "zh": "既然（因為）今天是國定假日，政府機關和郵局都休息。",
+      "explain": "Since 作從屬連接詞，引導表原因的副詞子句，表示「既然、由於」。(A) Because of 是介系詞片語，後面只能接名詞或動名詞，不能接完整子句；(C) Although 表示「雖然」，語意轉折與前後文矛盾；(D) Unless 表示「除非」，語意不符。"
+    },
+    {
+      "topic": "第一句型變化：地方副詞置於句首之倒裝",
+      "level": 2,
+      "q": "Deep in the dark forest ____ an ancient stone castle that was built centuries ago.",
+      "options": ["does stand", "standing", "stands", "stand"],
+      "answer": 2,
+      "zh": "在黑暗的森林深處佇立著一座幾百年前建造的古老石造城堡。",
+      "explain": "本句為「地方副詞片語（Deep in the dark forest）置於句首」的完全倒裝句，其基本結構為「地方副詞 + Vi + 主詞」，屬於第一句型的變形。主詞是 an ancient stone castle（單數名詞），動詞 stand 應使用第三人稱單數現在式 stands。(A) 地方副詞倒裝直接將動詞移到主詞前，不加助動詞 does；(B) 分詞不能單獨作限定動詞；(D) stand 為複數形式，與單數主詞不一致。"
+    },
+    {
+      "topic": "第二句型：連綴動詞 remain 與形容詞補語",
+      "level": 2,
+      "q": "Despite facing immense pressure, the team captain managed to remain ____ during the final minutes.",
+      "options": ["calm", "calmly", "calmness", "to be calmly"],
+      "answer": 0,
+      "zh": "儘管面臨巨大壓力，隊長在最後幾分鐘依然保持冷靜。",
+      "explain": "remain 在此為連綴動詞，表示「依然保持（某狀態）」，屬於「S + Vi + S.C.」句型，其後必須接形容詞（calm）作主詞補語。(B) calmly 為副詞，不能作主詞補語；(C) calmness 為抽象名詞，語意為「保持平靜本身」，不如形容詞貼切自然；(D) to be 後接副詞為錯誤文法結構。"
+    },
+    {
+      "topic": "第四句型：授與動詞 ask 搭配介系詞 of",
+      "level": 2,
+      "q": "Could I please ask a small favor ____ you when you have a free moment?",
+      "options": ["to", "for", "from", "of"],
+      "answer": 3,
+      "zh": "當你有空時，我可以請你幫個小忙嗎？",
+      "explain": "動詞 ask 作授與動詞時，基本句型為「ask sb a favor / question」。當直接受詞（a small favor）與間接受詞（you）對調時，介系詞必須使用 of，即「ask sth of sb」。(A) to 搭配 give, send, lend；(B) for 搭配 buy, make, prepare；(C) from 常用於 receive, borrow 等動詞，ask 后接 of sb。"
+    },
+    {
+      "topic": "第五句型：感官動詞之現在分詞補語",
+      "level": 2,
+      "q": "Walking past the kitchen, Kevin smelled something ____ in the oven.",
+      "options": ["burn", "burning", "to burn", "burntly"],
+      "answer": 1,
+      "zh": "走過廚房時，凱文聞到烤箱裡有東西正在燒焦。",
+      "explain": "smell 在此為及物感官動詞，句型為「smell + O + O.C.」。受詞 something 與動作 burn 之間為主動進行關係，強調當下正在發生的氣味，受詞補語使用現在分詞 burning。(A) 原形動詞 burn 雖亦可作感官動詞補語，但多強調整個動作事實，在描寫氣味飄散的當下情境時，以 burning 最為生動精確；(C) 感官動詞後不可接帶 to 的不定詞；(D) burntly 為不存在的字詞。"
+    },
+    {
+      "topic": "第五句型：使役動詞 have 之被動補語 p.p.",
+      "level": 2,
+      "q": "Because of the super typhoon, all passengers had their flights ____ until tomorrow morning.",
+      "options": ["cancel", "canceling", "to cancel", "cancelled"],
+      "answer": 3,
+      "zh": "因為超級颱風的緣故，所有乘客的航班都被取消到了明天早上。",
+      "explain": "使役動詞 have 的句型為「have + O + O.C.」。受詞 their flights（航班）與動詞 cancel（取消）之間為被動關係（航班是被航空公司取消的），因此受詞補語必須使用過去分詞 cancelled。(A) 原形動詞表示受詞主動發出動作；(B) canceling 為現在分詞表主動進行；(C) 使役動詞 have 的補語不使用不定詞。"
+    },
+    {
+      "topic": "名詞子句：同位語 that 子句",
+      "level": 2,
+      "q": "The exciting news ____ our school soccer team won the national championship spread quickly.",
+      "options": ["that", "which", "what", "whether"],
+      "answer": 0,
+      "zh": "我們學校足球隊贏得全國冠軍的振奮消息迅速傳開了。",
+      "explain": "先行名詞 news 後面接的子句「our school soccer team won the national championship」為語意完整、各要素俱備的直述句，該子句直接說明 news 的具體實質內容，稱為「同位語名詞子句」，連接詞必須用 that，且此處 that 不可省略。(B) which 是關係代名詞，後方句子必須缺主詞或受詞；(C) what 為複合關係詞，不能修飾 news；(D) whether 表示「是否」，與 championship won 的既定事實語境矛盾。"
+    },
+    {
+      "topic": "第五句型：形式受詞 it 句型",
+      "level": 2,
+      "q": "The newly married couple found ____ essential to have an open discussion about their finances.",
+      "options": ["that", "it", "this", "what"],
+      "answer": 1,
+      "zh": "這對新婚夫婦發現坦誠討論他們的財務狀況是非常必要的。",
+      "explain": "本句動詞 find 接不定詞片語「to have an open discussion...」作真正受詞，因受詞過長而移至受詞補語（essential）之後，空格處須填入「形式受詞 it」，構成「S + find + it + O.C. + to-V」的第五句型。(A) that 不能作形式受詞；(C) this 不具備文法上虛受詞的功能；(D) what 不能充當形式受詞。"
+    },
+    {
+      "topic": "形容詞子句：關係代名詞所有格 whose",
+      "level": 2,
+      "q": "We visited an ancient European mansion ____ roof was completely covered with green ivy.",
+      "options": ["which", "its", "whose", "that"],
+      "answer": 2,
+      "zh": "我們參觀了一座古老的歐洲宅邸，它的屋頂完全被綠色的常春藤所覆蓋。",
+      "explain": "先行詞為 an ancient European mansion（宅邸），後面的名詞 roof（屋頂）屬於該宅邸所有（the roof of the mansion），在關係子句中作所有格，因此使用關係代名詞所有格 whose。(A) which 為主格或受格，不能修飾名詞 roof；(B) its 是人稱代名詞所有格，沒有連接兩句的連接詞功能；(D) that 沒有所有格形式。"
+    },
+    {
+      "topic": "形容詞子句：介系詞 + 關係代名詞",
+      "level": 2,
+      "q": "The environmental conference focused on several critical issues ____ our planet's future depends.",
+      "options": ["which", "that", "where", "on which"],
+      "answer": 3,
+      "zh": "該環境會議聚焦於幾個攸關我們地球未來的關鍵議題。",
+      "explain": "關係子句中的動詞 depend 必須與介系詞 on 連用（depend on the issues）。當介系詞移至關係代名詞之前時，指物須用 on which。(A) which 缺少介系詞 on；(B) 介系詞後面絕對不能使用關係代名詞 that；(C) where 為地方副詞，先行詞 issues 為抽象事物而非實體地點。"
+    },
+    {
+      "topic": "形容詞子句：非限定關係子句",
+      "level": 2,
+      "q": "Mr. Lin's only son, ____ has been studying computer engineering in the US, will return home soon.",
+      "options": ["that", "who", "whom", "which"],
+      "answer": 1,
+      "zh": "林先生唯一的兒子一直在美國研讀電腦工程，不久後將返鄉。",
+      "explain": "本句逗號後為非限定（補述）關係子句，修飾特定且唯一的對象 Mr. Lin's only son（人），在子句中作動詞 has been studying 的主詞，故用主格 who。(A) that 絕對不可用於逗號後的非限定關係子句；(C) whom 是受格；(D) which 用於指稱事物。"
+    },
+    {
+      "topic": "形容詞子句簡化為分詞片語",
+      "level": 2,
+      "q": "Any passenger ____ to change their travel itinerary should contact the airline immediately.",
+      "options": ["wishing", "wished", "wishes", "wish"],
+      "answer": 0,
+      "zh": "任何想要更改旅遊行程的旅客都應立即聯繫航空公司。",
+      "explain": "本句的主要動詞是 should contact。主詞 Any passenger 後面需要修飾語，原句為關係子句「who wishes to change...」，省略關係代名詞 who 後，主動動詞 wishes 轉化為現在分詞 wishing，構成現在分詞片語修飾 passenger。(B) wished 表被動，語意不合；(C)(D) 為限定動詞，會造成一個簡單句中出現兩個沒有連接詞相連的主要動詞。"
+    },
+    {
+      "topic": "副詞子句：目的連接詞 so that",
+      "level": 2,
+      "q": "The municipal government took strict precautionary measures ____ the flood would not damage the city.",
+      "options": ["in order to", "lest", "because", "so that"],
+      "answer": 3,
+      "zh": "市政府採取了嚴格的預防措施，以便洪水不會對城市造成損害。",
+      "explain": "so that 為從屬連接詞，後接包含情態助動詞（would/can/may）的完整子句，表示「目的（以便；為了）」符合句意。(A) in order to 後面只能接原形動詞片語，不能接有主詞動詞的子句；(B) lest 表示「以免」，後接 (should) + 原形動詞，子句不加 not；(C) because 表示原因，與採取措施的目的語意不符。"
+    },
+    {
+      "topic": "副詞子句：not... until 分裂句",
+      "level": 2,
+      "q": "It was not until the midnight bell rang ____ the exhausted doctors finished their emergency operation.",
+      "options": ["when", "before", "that", "while"],
+      "answer": 2,
+      "zh": "直到午夜鐘聲響起，疲憊不堪的醫生們才完成了他們的急診手術。",
+      "explain": "本句為強調句型（分裂句）：It was not until + 時間點/子句 + that + 主詞 + 動詞，表示「直到…才…」。(A)(B)(D) 在此句型中均為常見干擾選項，分裂句的基本架構固定為 It is/was... that...。"
+    },
+    {
+      "topic": "副詞子句：一…就…句型 Hardly... when",
+      "level": 2,
+      "q": "Hardly had the teacher entered the classroom ____ all the students stopped talking and sat down.",
+      "options": ["than", "as", "that", "when"],
+      "answer": 3,
+      "zh": "老師剛一走進教室，所有學生就立刻停止說話並坐了下來。",
+      "explain": "Hardly had + S + p.p. when / before + S + 過去式動詞，為固定搭配，表示「一…就…」。(A) than 必須與 No sooner had... 連用；(B)(C) 不能與句首的 Hardly 搭配構成「一…就…」句型。"
+    },
+    {
+      "topic": "副詞子句：條件連接詞 as long as",
+      "level": 2,
+      "q": "You may borrow my camera for your school trip ____ you promise to take good care of it.",
+      "options": ["as long as", "as soon as", "as well as", "as far as"],
+      "answer": 0,
+      "zh": "只要你保證好好保管它，你就可以借我的相機去參加學校旅行。",
+      "explain": "as long as 為從屬連接詞，意為「只要（條件）」，相當於 on condition that。(B) as soon as 表示「一…就…（時間）」；(C) as well as 表示「以及；也」；(D) as far as 常搭配 as far as I know（就…而言）。"
+    },
+    {
+      "topic": "名詞子句：do you think 插入句之疑問詞置於句首",
+      "level": 3,
+      "q": "____ do you think is the most effective way to enhance our English communication ability?",
+      "options": ["Do you think what", "What do you think", "Which that you think", "That what you think"],
+      "answer": 1,
+      "zh": "你認為提升我們英語溝通能力最有效的方法是什麼？",
+      "explain": "在含有 think, believe, suppose, guess, imagine 等表「認知、思考」動詞的疑問句中，疑問詞不可留在從屬子句中，必須移至全句的最前面，形成「疑問詞 + do you think + 述語/主詞 + 動詞」的句型。本題疑問詞 what 作 is 的主詞，移至句首後接 do you think，故選 What do you think。(A) 為中文直譯式錯誤；(C)(D) 文法結構混亂。"
+    },
+    {
+      "topic": "準關係代名詞 but 的否定用法",
+      "level": 3,
+      "q": "There is no mother in the world ____ deeply loves her own children.",
+      "options": ["which", "that", "but", "as"],
+      "answer": 2,
+      "zh": "世上沒有不深愛自己孩子的母親（天底下的母親無一不深愛自己的孩子）。",
+      "explain": "but 在主要子句含有否定詞（no, not, never）時，可作為「準關係代名詞」，其本身即內含否定意義，相當於「that... not」（There is no mother that does not deeply love...）。(B) 若選 that，語意會變成「世上沒有深愛孩子的母親」，語意完全相反；(A) 先行詞是人（mother），不可用 which；(D) as 作準關代通常搭配 such 或 the same。"
+    },
+    {
+      "topic": "準關係代名詞 as 搭配 such",
+      "level": 3,
+      "q": "Young learners should make friends with such people ____ will have a positive influence on them.",
+      "options": ["which", "who", "that", "as"],
+      "answer": 3,
+      "zh": "年輕的學習者應結交那些能對他們產生積極正面影響的朋友。",
+      "explain": "先行詞前若有 such 修飾（such people），其後引導關係子句的關係代名詞通常慣用 as，構成相關結構「such... as...」，此處 as 作準關係代名詞，在子句中作主詞。(A) which 不用於指人；(B) who 與 (C) that 雖然在現代口語中有時可見，但在標準嚴謹文法中，先行詞有 such 時，首選準關係代名詞 as。"
+    },
+    {
+      "topic": "複合關係代名詞 whoever",
+      "level": 3,
+      "q": "The committee decided that ____ submitted the most innovative proposal would be awarded the grant.",
+      "options": ["whoever", "whomever", "anyone", "no matter who"],
+      "answer": 0,
+      "zh": "委員會決定，凡是提出最具創新性企劃案的人都將獲得該項補助款。",
+      "explain": "whoever 為複合關係代名詞，等於 anyone who。在本句中引導名詞子句作 decided that 子句中的主詞，且在該名詞子句內部擔任動詞 submitted 的主格，故必須使用主格 whoever。(B) whomever 為受格；(C) anyone 是普通代名詞，後面缺少關係代名詞 who；(D) no matter who 只能引導讓步副詞子句，不能在 that 子句中作主詞。"
+    },
+    {
+      "topic": "副詞子句：讓步倒裝 Adj + as + S + V",
+      "level": 3,
+      "q": "____, the old mountaineer never gave up his dream of reaching the summit of Everest.",
+      "options": ["Exhausted as was he", "As he was exhausted", "Exhausted as he was", "Although exhausted was he"],
+      "answer": 2,
+      "zh": "儘管筋疲力盡，這位老登山家從未放棄登上聖母峰頂的夢想。",
+      "explain": "本句為讓步副詞子句的倒裝結構：「形容詞/副詞/名詞 + as (或 though) + 主詞 + 動詞」，表示「雖然…；儘管…」，等於「Although he was exhausted」。特別注意：as 引導讓步倒裝時，主詞與動詞維持直述語序，不可再倒裝，故為 Exhausted as he was。(A) 誤將 was he 倒裝；(B) As 置於句首通常表「因為」而非「雖然」；(D) Although 句首不倒裝形容詞。"
+    },
+    {
+      "topic": "副詞子句：否定副詞 No sooner 置於句首之倒裝",
+      "level": 3,
+      "q": "No sooner ____ the doorstep than the sudden torrential rain began pouring down.",
+      "options": ["he had stepped on", "had he stepped on", "did he step on", "stepping on"],
+      "answer": 1,
+      "zh": "他剛一踏上門階，突如其來的暴雨就傾盆而下。",
+      "explain": "本題考「No sooner had + S + p.p. + than + S + 過去式動詞」句型。當否定副詞片語 No sooner 移至句首加強語氣時，主要子句必須採部分倒裝，即將過去完成式的助動詞 had 移至主詞 he 之前（had he stepped on）。(A) 保持普通語序未倒裝；(C) 動作發生在暴雨之前，應使用過去完成式 had stepped 而非過去簡單式 did step；(D) 分詞不能直接作限定述語動詞。"
+    },
+    {
+      "topic": "第五句型：make oneself understood 固定慣用句型",
+      "level": 3,
+      "q": "Speaking in basic vocabulary and gestures, the traveler tried to make himself ____ by the villagers.",
+      "options": ["understand", "understanding", "understood", "to understand"],
+      "answer": 2,
+      "zh": "藉由基礎字彙與手勢，這位旅人試圖讓村民們聽懂他的意思。",
+      "explain": "本題為第五句型中的極重要慣用語「make oneself understood」（使自己的意思被別人理解）。受詞 himself 與動詞 understand 之間為被動關係（自己的話被村民理解），故受詞補語使用過去分詞 understood。同類用法如 make oneself heard（使自己的聲音被聽見）。(A) 原形動詞表示主動去理解別人；(B) 現在分詞表示主動進行；(D) 使役動詞 make 不接 to-V 補語。"
+    },
+    {
+      "topic": "副詞子句：否定目的連接詞 lest... should",
+      "level": 3,
+      "q": "The hikers carried plenty of fresh water and a compass ____ they should lose their way in the dense forest.",
+      "options": ["so that", "lest", "in case of", "unless"],
+      "answer": 1,
+      "zh": "登山客們攜帶了充足的淡水和指南針，以免在茂密的森林中迷失方向。",
+      "explain": "lest 為從屬連接詞，意為「以免；唯恐」，引導表否定目的之副詞子句，子句動詞慣用「(should) + 原形動詞」，且子句內部不需再加 not。(A) so that 表肯定目的「以便於」；(C) in case of 為介系詞片語，後接名詞，不能接完整子句；(D) unless 表「除非」，與句意不合。"
+    },
+    {
+      "topic": "形容詞子句：關係代名詞 that 的強烈限定用法",
+      "level": 3,
+      "q": "This is the very museum and the priceless treasures ____ the famous curator mentioned in his lecture.",
+      "options": ["that", "which", "who", "where"],
+      "answer": 0,
+      "zh": "這正是那位知名策展人在演講中所提及的博物館與無價珍寶。",
+      "explain": "本題先行詞有兩個特殊條件：(1) 先行詞包含「物與物」且前面帶有強烈強調詞「the very（正是）」；(2) 關係代名詞在子句中作 mentioned 的受詞。當先行詞前有 the very, the only, the same, the first 或最高級，以及先行詞同時兼有人與物時，關係代名詞必須優先使用 that。(B) which 受到 the very 的強烈限定限制而不宜選用；(C) who 先行詞必須為人；(D) where 為關係副詞，但子句中的 mentioned 缺少受詞，需要關係代名詞作受詞。"
+    },
+    {
+      "topic": "名詞子句與副詞子句中 when 的時態辨析",
+      "level": 3,
+      "q": "I will tell you the exciting news when he ____, but I honestly do not know when he ____.",
+      "options": ["arrives; arrives", "will arrive; will arrive", "arrives; will arrive", "will arrive; arrives"],
+      "answer": 2,
+      "zh": "等他到達時我會告訴你這個令人興奮的消息，但我真的不知道他究竟何時會到達。",
+      "explain": "本題精妙對比了 when 引導的兩種不同子句：\n① 第一個 when 引導「時間副詞子句」（修飾前面的主要子句動詞 will tell），在時間與條件副詞子句中必須以「現在簡單式代替未來式」，主詞 he 為第三人稱單數，故用 arrives。\n② 第二個 when 引導「名詞子句」（作及物動詞 know 的受詞），意為「何時（間接問句）」，其時態應回歸實際發生的時間點，表示未來動作時必須正常使用未來簡單式 will arrive。\n因此答案為 (C) arrives; will arrive。"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "chapter": 19,
+  "title": "否定句與倒裝句",
+  "sections": [
+    {
+      "title": "（一）觀念題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "You have never been to Japan. ____ he.",
+          "options": [
+            "Doesn't",
+            "Not has",
+            "Oughtn't",
+            "Nor has"
+          ],
+          "answer": 3,
+          "zh": "你從未到過日本。他也沒有。",
+          "explain": "nor/neither ＋ 助動詞 ＋ 主詞（也不）"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "On no ____ should a person be dishonest.",
+          "options": [
+            "reason",
+            "excuse",
+            "cause",
+            "account"
+          ],
+          "answer": 3,
+          "zh": "一個人絕不可以不誠實。",
+          "explain": "on no account（絕不）／否定詞在句首，後面需接倒裝句。"
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "Never ____ heard of such a thing.",
+          "options": [
+            "have I",
+            "I have",
+            "am I",
+            "I am"
+          ],
+          "answer": 0,
+          "zh": "我從未聽過如此的事。",
+          "explain": "原句 ＝ I have never heard..."
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Rarely ____ such nonsense.",
+          "options": [
+            "I have heard",
+            "have I heard",
+            "I do hear",
+            "don't I hear"
+          ],
+          "answer": 1,
+          "zh": "我很少聽到這種荒謬的話。",
+          "explain": "原句 ＝ I have rarely heard..., \"Rarely\"（很少）為否定詞放在句首，其後的句子要倒裝。"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "____ such a crowd of people.",
+          "options": [
+            "I have seen seldom",
+            "I seldom seen have",
+            "Have I seldom seen",
+            "Seldom have I seen"
+          ],
+          "answer": 3,
+          "zh": "我很少見到這麼廣大的人群。",
+          "explain": "原句 ＝ I have seldom seen such a crowd of people. Seldom 置於句首引導倒裝句。"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "____ I left the school than it began to rain.",
+          "options": [
+            "No sooner had",
+            "Sooner had no",
+            "Had no sooner",
+            "Sooner no had"
+          ],
+          "answer": 0,
+          "zh": "我一離開學校就開始下雨。",
+          "explain": "No sooner had ＋ 主詞 ＋ p.p. than...（一⋯就⋯）"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "John had been working hard and ____.",
+          "options": [
+            "so had Mary",
+            "So Mary did",
+            "so Mary had",
+            "so did Mary"
+          ],
+          "answer": 0,
+          "zh": "約翰以前一直十分努力地工作，瑪麗也是。",
+          "explain": "肯定句 ＋ and ＋ so ＋ 助動詞 ＋ 主詞（也是），本題前句為過去完成式，所以助動詞用 had。"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "He is going home, ____ is she.",
+          "options": [
+            "and neither",
+            "but neither",
+            "and so",
+            "so neither"
+          ],
+          "answer": 2,
+          "zh": "他要回家了，她也是。",
+          "explain": "參考第7題說明。肯定句 ＋ and so ＋ be動詞 ＋ 主詞。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "You cannot fly, nor ____ make the distance shorter.",
+          "options": [
+            "you can",
+            "you cannot",
+            "can you",
+            "can't you"
+          ],
+          "answer": 2,
+          "zh": "你無法飛行，也無法使距離縮短。",
+          "explain": "參考第1題說明。nor 後接倒裝句，且助動詞須用肯定形 can you。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Not only ____, but he saw her.",
+          "options": [
+            "did he come",
+            "he came",
+            "came he",
+            "he comes"
+          ],
+          "answer": 0,
+          "zh": "他不僅來了，而且還看到她。",
+          "explain": "Not only 在句首，後面需接倒裝句（did he come）。"
+        },
+        {
+          "no": 11,
+          "type": "mc",
+          "q": "Hardly ____ started when I heard a man call my name.",
+          "options": [
+            "did the car",
+            "had the car",
+            "the car had",
+            "the car did"
+          ],
+          "answer": 1,
+          "zh": "車子才一發動，我就聽到有人在叫我。",
+          "explain": "① Hardly ＋ had 主詞 p.p. ＋ when...\n② hardly 為否定副詞，置於句首其後句子要倒裝。"
+        },
+        {
+          "no": 12,
+          "type": "mc",
+          "q": "John can hardly do it; ____.",
+          "options": [
+            "nor can Mary",
+            "so can Mary",
+            "neither can't Mary",
+            "Mary can, too"
+          ],
+          "answer": 0,
+          "zh": "約翰幾乎不能做這件事，瑪麗也不能。",
+          "explain": "否定句 ＋ neither/nor ＋ 助動詞 ＋ 主詞（也不），本題前句有 hardly（幾乎不）為否定詞。"
+        },
+        {
+          "no": 13,
+          "type": "mc",
+          "q": "Not until the age of forty ____.",
+          "options": [
+            "did she marry",
+            "she marry",
+            "she married",
+            "she did marry"
+          ],
+          "answer": 0,
+          "zh": "直到40歲，她才結婚。",
+          "explain": "Not（否定副詞）置於句首時，其後句子應倒裝。"
+        },
+        {
+          "no": 14,
+          "type": "mc",
+          "q": "Silence must ____ as consent.",
+          "options": [
+            "not always read",
+            "not always reads",
+            "not always is read",
+            "not always be read"
+          ],
+          "answer": 3,
+          "zh": "沉默未必表示同意。",
+          "explain": "not always（未必）表示部分否定；be read as（被認為是）。句子有助動詞 must，後面接原形動詞 be。"
+        },
+        {
+          "no": 15,
+          "type": "mc",
+          "q": "Not for a moment ____ the truth of your story.",
+          "options": [
+            "he has doubted",
+            "he doubts",
+            "did he doubt",
+            "he did doubt"
+          ],
+          "answer": 2,
+          "zh": "他未曾一刻懷疑你故事的真實性。",
+          "explain": "“Not” 為否定詞放在句首，其後的句子要用倒裝。"
+        }
+      ]
+    },
+    {
+      "title": "（二）研究題",
+      "instructions": "選出最適當的答案",
+      "questions": [
+        {
+          "no": 16,
+          "type": "mc",
+          "q": "Henry: I didn't go to school yesterday.\nGeorge: ____",
+          "options": [
+            "So did I.",
+            "I didn't, too.",
+            "Nor did I.",
+            "So I didn't."
+          ],
+          "answer": 2,
+          "zh": "Henry: 昨天我沒有上學。George: 我也沒有。",
+          "explain": "參考第1題說明。否定句的附和句用 nor ＋ 助動詞 ＋ 主詞。"
+        },
+        {
+          "no": 17,
+          "type": "mc",
+          "q": "\"Can you tell me where my brother is?\"\n\"Yes, of course, ____.\"",
+          "options": [
+            "here your brother comes",
+            "your brother here comes",
+            "comes here your brother",
+            "here comes your brother"
+          ],
+          "answer": 3,
+          "zh": "「你可以告訴我哥哥在哪裡嗎？」「當然可以，你哥哥來了。」",
+          "explain": "Here ＋ 動詞 ＋ 主詞（名詞）。主詞為一般名詞時必須倒裝。"
+        },
+        {
+          "no": 18,
+          "type": "mc",
+          "q": "Least of all ____ that he owes a duty to the community in such matter.",
+          "options": [
+            "does he suspect",
+            "he suspects",
+            "suspect he",
+            "suspect does he"
+          ],
+          "answer": 0,
+          "zh": "他尤其沒想到在這類事情上面，他對社會負有責任。",
+          "explain": "least of all（尤其不）為否定副詞片語置於句首，後面的句子須倒裝。"
+        },
+        {
+          "no": 19,
+          "type": "mc",
+          "q": "He exclaimed, \"____ kind man before!\"",
+          "options": [
+            "Never I met with such",
+            "Never have I met with such a",
+            "I never met with such",
+            "Never I have met with a such"
+          ],
+          "answer": 1,
+          "zh": "他驚叫說：「我以前從未見過這麼好的人！」",
+          "explain": "原式 ＝ I have never met with such a kind man before. 否定副詞 Never 置於句首倒裝。"
+        },
+        {
+          "no": 20,
+          "type": "mc",
+          "q": "Little wonder ____ up their hands in dismay.",
+          "options": [
+            "have some thrown",
+            "some have thrown",
+            "thrown some have",
+            "have thrown some"
+          ],
+          "answer": 1,
+          "zh": "難怪已有些人在此驚慌中就舉起雙手宣布失敗。",
+          "explain": "因為 Little wonder... ＝ (It is) no wonder (that)...，所以本句不需用倒裝句型。"
+        },
+        {
+          "no": 21,
+          "type": "mc",
+          "q": "Only when one loses friendship ____ its value.",
+          "options": [
+            "one knows",
+            "one doesn't know",
+            "does one know",
+            "one will not know"
+          ],
+          "answer": 2,
+          "zh": "只有在失去友誼時，才會知道友誼的價值。",
+          "explain": "① Only when ＋ S ＋ V ＋ 倒裝句（唯有在⋯時才⋯）\n② Only by ＋ V-ing ＋ 倒裝句（唯有靠⋯才⋯）"
+        },
+        {
+          "no": 22,
+          "type": "mc",
+          "q": "____ succeed in doing anything.",
+          "options": [
+            "Only by working hard we can",
+            "By only working hard we can",
+            "Only by working hard can we",
+            "By only working hard can we"
+          ],
+          "answer": 2,
+          "zh": "只有努力，我們做任何事才會成功。",
+          "explain": "Only ＋ 副詞片語放在句首，其後的句子要用倒裝。"
+        },
+        {
+          "no": 23,
+          "type": "mc",
+          "q": "____ they are, all these advertisements are alike in one important way.",
+          "options": [
+            "Difference as",
+            "As different",
+            "Different as",
+            "Differently as"
+          ],
+          "answer": 2,
+          "zh": "雖然廣告各有不同，但它們在某一重要方面是相似的。",
+          "explain": "原句 ＝ Although they are different... 讓步倒裝用 形容詞 ＋ as ＋ S ＋ V。"
+        },
+        {
+          "no": 24,
+          "type": "mc",
+          "q": "____ can we be sure of making much progress in English.",
+          "options": [
+            "By doing only practice",
+            "If writing more exercises",
+            "Only by having more practice",
+            "By only doing more practices"
+          ],
+          "answer": 2,
+          "zh": "只有多練習，我們才能在英語上有很大的進步。",
+          "explain": "參考第22題說明。Only by ＋ V-ing 引導倒裝句 can we be..."
+        },
+        {
+          "no": 25,
+          "type": "mc",
+          "q": "Only after I had reached the supermarket ____ that I had forgotten to take my purse with me.",
+          "options": [
+            "I had realized",
+            "I realized",
+            "I have realized",
+            "did I realize"
+          ],
+          "answer": 3,
+          "zh": "在我抵達超級市場之後，我才意識到我忘了隨身帶錢包了。",
+          "explain": "only ＋ 副詞子句，其後的句子要用倒裝。"
+        }
+      ]
+    },
+    {
+      "title": "（三）翻譯填充題",
+      "instructions": "根據中文提示，在空格內填入適當的字詞",
+      "questions": [
+        {
+          "no": 1,
+          "type": "fill",
+          "q": "孩子決不允許說謊。\n____ no account should children ____ allowed to ____ ____.",
+          "answer": "On / be / tell lies",
+          "zh": "孩子決不允許說謊。",
+          "explain": "On no account ＋ 倒裝句（絕不可）＝ In no way ＋ 倒裝句"
+        },
+        {
+          "no": 2,
+          "type": "fill",
+          "q": "你的作業尚有待加強。\nYour homework ____ something to be ____.",
+          "answer": "leaves / desired",
+          "zh": "你的作業尚有待加強。",
+          "explain": "① leave nothing to be desired（相當完美）\n② leave much to be desired（很差；不佳）"
+        },
+        {
+          "no": 3,
+          "type": "fill",
+          "q": "他絕對不是欺騙朋友的人。\nHe is ____ person to deceive ____ friends.",
+          "answer": "the last / his",
+          "zh": "他絕對不是欺騙朋友的人。",
+          "explain": "the last ＋ N ＋ to ＋ V ／ that ＋ S ＋ V（最不可能；最不情願）\n例：This is the last work that I want to do.（我最不想做這件工作。）\n例：He is the last man that I want to work with.（我最不願意跟他一起工作。）"
+        },
+        {
+          "no": 4,
+          "type": "fill",
+          "q": "他脾氣暴躁，絕不是好老師。\nHe has a bad ____; he is ____ ____ a good teacher.",
+          "answer": "temper / far from",
+          "zh": "他脾氣暴躁，絕不是好老師。",
+          "explain": "「絕不是」可用 far from ／ anything but ／ by no means ／ not at all 等。"
+        },
+        {
+          "no": 5,
+          "type": "fill",
+          "q": "在任何情況下病人決不允許熬夜。\n____ ____ circumstances should patients ____ allowed to ____ ____ late.",
+          "answer": "Under no / be / stay up",
+          "zh": "在任何情況下病人決不允許熬夜。",
+          "explain": "Under no circumstances（在任何情況下都不可⋯）；熬夜可用 stay up 或 sit up。"
+        }
+      ]
+    },
+    {
+      "title": "（四）連貫式翻譯",
+      "instructions": "將下列中文句子翻譯成英文",
+      "questions": [
+        {
+          "no": 1,
+          "type": "translate",
+          "q": "但是並非每個人都能如願地事事成功。",
+          "hint": "如願地：as one wishes to",
+          "answer": "However, everyone can't succeed in doing everything as he wishes to.",
+          "zh": "但是並非每個人都能如願地事事成功。",
+          "explain": "every... not... ＝ not every...（並非每個都⋯）"
+        },
+        {
+          "no": 2,
+          "type": "translate",
+          "q": "不論貧富我們不可用不當的手段去做事。",
+          "hint": "不當的：dishonest",
+          "answer": "Whether we are rich or poor, we shouldn't do things in dishonest ways.",
+          "zh": "不論貧富我們不可用不當的手段去做事。",
+          "explain": "whether A or B: 不論 A 或是 B"
+        },
+        {
+          "no": 3,
+          "type": "translate",
+          "q": "畢竟，成功不是靠運氣而是靠努力獲得的。",
+          "hint": "不是⋯而是⋯：not... but...",
+          "answer": [
+            "It is because success does not depend on good luck but on hard work.",
+            "It is because success depends not so much on good luck as on hard work."
+          ],
+          "zh": "畢竟，成功不是靠運氣而是靠努力獲得的。",
+          "explain": "① 本句亦可用：It is because success depends not so much on good luck as on hard work.\n② not so much A as B:（與其說 A 不如說 B）"
+        },
+        {
+          "no": 4,
+          "type": "translate",
+          "q": "唯有靠不斷地努力我們才能實現自己的夢想。",
+          "hint": "不斷地努力：working hard constantly",
+          "answer": "Only by working hard constantly can we make our dreams come true.",
+          "zh": "唯有靠不斷地努力我們才能實現自己的夢想。",
+          "explain": "①（夢想）實現：come true\n②（人）實現（夢想）：fulfill, realize"
+        }
+      ]
+    },
+    {
+      "title": "（五）選答案測驗",
+      "instructions": "閱讀短文，並選出空格內最適當的答案：\n\nIn the early 1800's there was a businessman in New York __1.__ Sam Wilson. He was __2.__ that people called him Uncle Sam. He sold meat to the Army. Uncle Sam always wrote U. S. on the boxes. The soldiers were not sure __3.__ U. S. meant United States or Uncle Sam, so the soldiers said that they were eating Uncle Sam's meat. Soon, people began calling the __4.__ Uncle Sam, and there were cartoons of him in the newspapers. His picture became __5.__.\nDuring World War I there was a famous poster __6.__ a picture of Uncle Sam. Uncle Sam pointed his __7.__ and said, \"I WANT YOU FOR THE U. S. ARMY.\" This poster was very popular. It __8.__ today.\nMany people had forgotten that __9.__ an Uncle Sam Wilson, so in 1961 Congress officially said that the name \"Uncle Sam\" __10.__ Samuel Wilson.\n\n【詞彙與片語提示】\n1. businessman: 商人\n2. Army: 軍隊\n3. meant: 動：意思是⋯；指⋯\n4. cartoons: 名：卡通\n5. poster: 名：海報\n6. pointed: 動：指著⋯\n7. popular: 形：受歡迎\n8. Congress: 名：國會\n9. officially: 副：正式地\n10. had forgotten: 已經忘記",
+      "questions": [
+        {
+          "no": 1,
+          "type": "mc",
+          "q": "In the early 1800's there was a businessman in New York ____ Sam Wilson.",
+          "options": [
+            "he was named",
+            "who named",
+            "named",
+            "was named"
+          ],
+          "answer": 2,
+          "zh": "十九世紀初，紐約有一位名叫山姆・威爾遜的商人。",
+          "explain": "原句 ＝ ... a businessman... 〔who was named...〕 ＝ ... a businessman... 〔named...〕"
+        },
+        {
+          "no": 2,
+          "type": "mc",
+          "q": "He was ____ that people called him Uncle Sam.",
+          "options": [
+            "such an ugly",
+            "so friendly",
+            "such funny",
+            "so honesty"
+          ],
+          "answer": 1,
+          "zh": "他是如此友善，以致於大家都叫他山姆大叔。",
+          "explain": "① so friendly that...（如此友善以致於⋯）\n② 若用 funny，則為 so funny that..."
+        },
+        {
+          "no": 3,
+          "type": "mc",
+          "q": "The soldiers were not sure ____ U. S. meant United States or Uncle Sam, so the soldiers said that they were eating Uncle Sam's meat.",
+          "options": [
+            "whether",
+            "as if",
+            "even if",
+            "either"
+          ],
+          "answer": 0,
+          "zh": "士兵們不確定 U. S. 是指美國還是山姆大叔，因此士兵們說他們在吃山姆大叔的肉。",
+          "explain": "① whether A or B（A 或是 B）\n② as if ＝ as though（好像）；even if ＝ even though（即使）"
+        },
+        {
+          "no": 4,
+          "type": "mc",
+          "q": "Soon, people began calling the ____ Uncle Sam, and there were cartoons of him in the newspapers.",
+          "options": [
+            "government",
+            "merchant",
+            "soldiers",
+            "cartoons"
+          ],
+          "answer": 0,
+          "zh": "不久，人們開始把政府稱為山姆大叔，報紙上也出現了他的漫畫。",
+          "explain": "(A) 政府  (B) 商人  (C) 軍人  (D) 卡通"
+        },
+        {
+          "no": 5,
+          "type": "mc",
+          "q": "His picture became ____.",
+          "options": [
+            "oblivious",
+            "mindful",
+            "popular",
+            "vividly"
+          ],
+          "answer": 2,
+          "zh": "他的畫像變得大受歡迎。",
+          "explain": "(A) 遺忘的  (B) 注意的  (C) 受歡迎的  (D) 生動的"
+        },
+        {
+          "no": 6,
+          "type": "mc",
+          "q": "During World War I there was a famous poster ____ a picture of Uncle Sam.",
+          "options": [
+            "it had",
+            "with",
+            "owning",
+            "to have"
+          ],
+          "answer": 1,
+          "zh": "第一次世界大戰期間，有一張印有山姆大叔肖像的著名海報。",
+          "explain": "with 表示「有」，亦可用 having 或 which had。"
+        },
+        {
+          "no": 7,
+          "type": "mc",
+          "q": "Uncle Sam pointed his ____ and said, \"I WANT YOU FOR THE U. S. ARMY.\"",
+          "options": [
+            "poster",
+            "picture",
+            "finger",
+            "figure"
+          ],
+          "answer": 2,
+          "zh": "山姆大叔指著他的手指說：「美軍需要你。」",
+          "explain": "(A) 海報  (B) 圖片  (C) 手指  (D) 身材"
+        },
+        {
+          "no": 8,
+          "type": "mc",
+          "q": "This poster was very popular. It ____ today.",
+          "options": [
+            "still used to",
+            "is still used",
+            "has still used",
+            "still uses to"
+          ],
+          "answer": 1,
+          "zh": "這張海報非常受歡迎。它今天仍被使用。",
+          "explain": "物 ＋ be used（物被使用），此處用被動語態 is still used。"
+        },
+        {
+          "no": 9,
+          "type": "mc",
+          "q": "Many people had forgotten that ____ an Uncle Sam Wilson, so in 1961 Congress officially said that the name \"Uncle Sam\" (10) Samuel Wilson.",
+          "options": [
+            "there really was",
+            "there really is",
+            "really it is",
+            "really it was"
+          ],
+          "answer": 0,
+          "zh": "許多人已經忘記過去真的有一位山姆・威爾遜大叔。",
+          "explain": "① there really was（真的有⋯）\n② 表示「過去有」用 there was。"
+        },
+        {
+          "no": 10,
+          "type": "mc",
+          "q": "Many people had forgotten that (9) an Uncle Sam Wilson, so in 1961 Congress officially said that the name \"Uncle Sam\" ____ Samuel Wilson.",
+          "options": [
+            "has come from",
+            "had come from",
+            "has derived",
+            "had come into"
+          ],
+          "answer": 1,
+          "zh": "所以 1961 年國會正式認定「山姆大叔」這個名字源自於山繆・威爾遜。",
+          "explain": "had come from（來自於、源自於），此處用過去完成式表達在 1961 年宣布之前就已發生的由來。"
+        }
+      ]
+    }
+  ]
+}
