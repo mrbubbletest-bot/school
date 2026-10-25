@@ -55,6 +55,7 @@ class GrammarApp {
   }
 
   navigateTo(view, chapterId = null) {
+    const prevView = this.currentView;
     this.currentView = view;
     if (chapterId !== null) {
       this.currentChapterId = chapterId;
@@ -82,14 +83,97 @@ class GrammarApp {
     if (view === 'reader') {
       this.reader.loadChapter(this.currentChapterId);
     } else if (view === 'quiz') {
-      this.quizEngine.loadChapterQuiz(this.currentChapterId);
+      // Prompt user for student name / Anonymous when entering quiz view
+      if (prevView !== 'quiz' || !this.mistakeAnalyzer.hasConfirmedIdentityInSession) {
+        this.openQuizUserModal(() => {
+          this.quizEngine.loadChapterQuiz(this.currentChapterId);
+        });
+      } else {
+        this.quizEngine.loadChapterQuiz(this.currentChapterId);
+      }
     } else if (view === 'generator') {
-      this.setupGeneratorView(this.currentChapterId);
+      // Prompt user for student name / Anonymous when entering generator view
+      if (prevView !== 'generator' || !this.mistakeAnalyzer.hasConfirmedIdentityInSession) {
+        this.openQuizUserModal(() => {
+          this.setupGeneratorView(this.currentChapterId);
+        });
+      } else {
+        this.setupGeneratorView(this.currentChapterId);
+      }
     } else if (view === 'mistakes') {
       this.renderMistakesView();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else if (view === 'home') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  openQuizUserModal(onConfirmed = null) {
+    this.pendingQuizUserCallback = onConfirmed;
+    const modal = document.getElementById('quiz-user-modal');
+    const input = document.getElementById('quiz-user-name-input');
+    const existingSection = document.getElementById('quiz-existing-users-section');
+    const chipsContainer = document.getElementById('quiz-existing-users-chips');
+    if (!modal) {
+      if (onConfirmed) onConfirmed();
+      return;
+    }
+
+    const curUser = this.mistakeAnalyzer ? this.mistakeAnalyzer.currentUser : '';
+    if (input) {
+      input.value = (curUser && !this.mistakeAnalyzer.isAnonymous(curUser)) ? curUser : '';
+    }
+
+    if (this.mistakeAnalyzer && existingSection && chipsContainer) {
+      const users = this.mistakeAnalyzer.getUserList();
+      if (users.length > 0) {
+        existingSection.style.display = 'block';
+        chipsContainer.innerHTML = users.map(u => {
+          const safeName = u.name.replace(/'/g, "\\'");
+          const isCurrent = u.name === curUser;
+          return `
+            <button class="btn-tool" style="font-size: 13px; padding: 6px 14px; border-radius: 99px; ${isCurrent ? 'background: var(--primary); color: #fff; border-color: var(--primary);' : 'background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);'}" onclick="window.app.selectQuizUser('${safeName}')">
+              <i class="fa-solid fa-user-check"></i> ${u.name} <span style="opacity: 0.85; font-size: 11.5px;">(${u.count} 題錯題)</span>
+            </button>
+          `;
+        }).join('');
+      } else {
+        existingSection.style.display = 'none';
+      }
+    }
+
+    modal.style.display = 'flex';
+    setTimeout(() => {
+      if (input) input.focus();
+    }, 80);
+  }
+
+  confirmQuizUserFromInput() {
+    const input = document.getElementById('quiz-user-name-input');
+    const val = input ? input.value.trim() : '';
+    if (!val) {
+      alert('請輸入您的名字或暱稱，若不想記錄錯題請點擊下方「Anonymous 匿名測驗」喔！🌸');
+      if (input) input.focus();
+      return;
+    }
+    this.selectQuizUser(val);
+  }
+
+  selectQuizUser(name) {
+    if (this.mistakeAnalyzer) {
+      this.mistakeAnalyzer.setCurrentUser(name);
+    }
+    const modal = document.getElementById('quiz-user-modal');
+    if (modal) modal.style.display = 'none';
+
+    if (this.currentView === 'mistakes') {
+      this.renderMistakesView();
+    }
+
+    if (typeof this.pendingQuizUserCallback === 'function') {
+      const cb = this.pendingQuizUserCallback;
+      this.pendingQuizUserCallback = null;
+      cb();
     }
   }
 
@@ -425,10 +509,10 @@ class GrammarApp {
           diagBox.innerHTML = `
             <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
               <span style="font-weight:800; color:#BE185D; font-size:13.5px;">
-                <i class="fa-solid fa-brain"></i> 已記錄至錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
+                <i class="fa-solid fa-brain"></i> 已歸檔至「${recorded.userName || this.mistakeAnalyzer.currentUser}」的錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
               </span>
               <button class="btn-tool" style="font-size:11.5px; padding:2px 8px;" onclick="window.app.navigateTo('mistakes')">
-                前往盲點特訓 →
+                前往專屬盲點特訓 →
               </button>
             </div>
             <div style="font-size:13px; color:#831843; line-height:1.6;">
@@ -444,13 +528,80 @@ class GrammarApp {
     if (explainCard) explainCard.classList.add('show');
   }
 
+  switchMistakeProfileUser(name) {
+    if (!this.mistakeAnalyzer) return;
+    this.mistakeAnalyzer.setCurrentUser(name);
+    const quizArea = document.getElementById('blindspot-targeted-quiz-area');
+    if (quizArea) quizArea.innerHTML = '';
+    this.renderMistakesView();
+  }
+
+  deleteMistakeProfileUser(name, event) {
+    if (event) event.stopPropagation();
+    if (!this.mistakeAnalyzer) return;
+    if (confirm(`確定要刪除學員「${name}」的所有錯題紀錄與檔案嗎？`)) {
+      this.mistakeAnalyzer.deleteUserProfile(name);
+      const quizArea = document.getElementById('blindspot-targeted-quiz-area');
+      if (quizArea) quizArea.innerHTML = '';
+      this.renderMistakesView();
+    }
+  }
+
   renderMistakesView() {
     if (!this.mistakeAnalyzer) return;
+    const selectorBar = document.getElementById('mistake-user-selector-bar');
     const reportContainer = document.getElementById('blindspot-analysis-report');
     const listContainer = document.getElementById('mistake-records-list');
     if (!reportContainer || !listContainer) return;
 
     const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
+    const users = this.mistakeAnalyzer.getUserList();
+    const activeUser = this.mistakeAnalyzer.getActiveViewUser();
+    this.mistakeAnalyzer.syncToggleUI();
+
+    // Render Multi-User Selector Bar
+    if (selectorBar) {
+      if (users.length === 0) {
+        selectorBar.innerHTML = `
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+            <span style="font-size: 13.5px; color: var(--text-muted); font-weight: 600;">
+              <i class="fa-solid fa-users" style="color: var(--primary);"></i> 目前尚無已登錄的學員錯題檔案。請點擊右側按鈕建立妳的名字開始測驗！
+            </span>
+            <button class="btn-primary" style="font-size: 12.5px; padding: 6px 14px;" onclick="window.app.openQuizUserModal()">
+              <i class="fa-solid fa-user-plus"></i> 輸入學員姓名開始記錄
+            </button>
+          </div>
+        `;
+      } else {
+        const userPills = users.map(u => {
+          const isSelected = u.name === activeUser;
+          const safeName = u.name.replace(/'/g, "\\'");
+          return `
+            <div onclick="window.app.switchMistakeProfileUser('${safeName}')" style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 99px; cursor: pointer; font-size: 13.5px; font-weight: 700; transition: all 0.2s; border: 1.5px solid ${isSelected ? 'var(--primary)' : 'var(--border-card)'}; background: ${isSelected ? 'linear-gradient(135deg, #FF6B8B, #FF8E53)' : '#fff'}; color: ${isSelected ? '#fff' : 'var(--text-main)'}; box-shadow: ${isSelected ? '0 4px 12px rgba(255,107,139,0.28)' : 'none'};">
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>${u.name}</span>
+              <span style="background: ${isSelected ? 'rgba(255,255,255,0.25)' : '#FEE2E2'}; color: ${isSelected ? '#fff' : '#B91C1C'}; font-size: 11.5px; padding: 1px 8px; border-radius: 99px;">${u.count} 題</span>
+              <span onclick="window.app.deleteMistakeProfileUser('${safeName}', event)" title="刪除此學員檔案" style="opacity: 0.7; font-size: 12px; margin-left: 2px; padding: 0 3px;">✕</span>
+            </div>
+          `;
+        }).join('');
+
+        selectorBar.innerHTML = `
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+              <span style="font-size: 13.5px; font-weight: 800; color: var(--secondary);">
+                <i class="fa-solid fa-users-viewfinder"></i> 選擇要檢視／特訓的學員檔案：
+              </span>
+              ${userPills}
+            </div>
+            <span style="font-size: 12px; color: var(--text-muted);">
+              ${this.mistakeAnalyzer.isAnonymous() ? '🕵️ 目前測驗處於 Anonymous 匿名狀態（點選上方學員即可切換為該學員身分）' : `✅ 目前測驗正以「${this.mistakeAnalyzer.currentUser}」身分自動記錄中`}
+            </span>
+          </div>
+        `;
+      }
+    }
+
     const analysis = this.mistakeAnalyzer.analyzeAllBlindSpots();
     const mistakes = this.mistakeAnalyzer.mistakes || [];
 
@@ -458,9 +609,11 @@ class GrammarApp {
       reportContainer.innerHTML = `
         <div style="text-align: center; padding: 48px 24px; background: #fff; border-radius: 20px; border: 1px solid var(--border-card); box-shadow: var(--shadow-soft);">
           <div style="font-size: 46px; margin-bottom: 12px;">🎉</div>
-          <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 8px;">目前還沒有任何錯題紀錄喔！</h3>
-          <p style="font-size: 14px; color: var(--text-muted); max-width: 540px; margin: 0 auto 20px;">
-            當妳在「實力診斷」或「無限題庫」勾選<strong>「📝 記錄本次測驗錯題並分析學習盲點」</strong>並作答時，系統會自動剖析妳誤選的誘答選項，找出文法盲點並為妳量身打造動態特訓題型！
+          <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 8px;">
+            ${activeUser ? `學員「${activeUser}」目前還沒有任何錯題紀錄喔！` : '目前還沒有任何錯題紀錄喔！'}
+          </h3>
+          <p style="font-size: 14px; color: var(--text-muted); max-width: 560px; margin: 0 auto 20px;">
+            進入「實力診斷」或「無限題庫」時，系統會跳出視窗請妳輸入名字（若選擇 <strong>Anonymous</strong> 則不記錄）。所有答錯的題目都會自動歸檔在妳的名字下，為妳分析專屬盲點並產生客製化題目！
           </p>
           <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
             <button class="btn-primary" onclick="window.app.navigateTo('quiz', 1)">
@@ -509,7 +662,7 @@ class GrammarApp {
       <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
         <h3 style="font-size: 19px; color: var(--text-main); display: flex; align-items: center; gap: 8px; margin: 0;">
           <i class="fa-solid fa-stethoscope" style="color: var(--primary);"></i>
-          <span>AI 錯誤選項歸納 · 妳的核心學習盲點診斷報告（共分析 ${analysis.totalMistakes} 道錯題）</span>
+          <span>學員「${activeUser}」的 AI 錯誤選項歸納 · 核心學習盲點診斷報告（共分析 ${analysis.totalMistakes} 道錯題）</span>
         </h3>
       </div>
       <div class="blindspot-grid">
@@ -570,7 +723,7 @@ class GrammarApp {
       <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center;">
         <h3 style="font-size: 18px; color: var(--text-main); margin: 0;">
           <i class="fa-solid fa-book-medical" style="color: #F43F5E;"></i>
-          <span>歷史錯題與誤選答案明細（共 ${mistakes.length} 題）</span>
+          <span>學員「${activeUser}」的歷史錯題與誤選答案明細（共 ${mistakes.length} 題）</span>
         </h3>
       </div>
       ${itemsHtml}
@@ -585,9 +738,10 @@ class GrammarApp {
 
   clearAllMistakeRecords() {
     if (!this.mistakeAnalyzer) return;
-    if (this.mistakeAnalyzer.mistakes.length === 0) return;
-    if (confirm('確定要清空所有已記錄的錯題與盲點分析資料嗎？')) {
-      this.mistakeAnalyzer.clearAllMistakes();
+    const activeUser = this.mistakeAnalyzer.getActiveViewUser();
+    if (!activeUser || this.mistakeAnalyzer.mistakes.length === 0) return;
+    if (confirm(`確定要清空學員「${activeUser}」已記錄的所有錯題與盲點分析資料嗎？`)) {
+      this.mistakeAnalyzer.clearAllMistakes(activeUser);
       const quizArea = document.getElementById('blindspot-targeted-quiz-area');
       if (quizArea) quizArea.innerHTML = '';
       this.renderMistakesView();
@@ -620,6 +774,7 @@ class GrammarApp {
     this.blindSpotUserAnswers = {};
     const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
     const letters = ['A', 'B', 'C', 'D', 'E'];
+    const targetUser = this.mistakeAnalyzer.getActiveViewUser() || '目前學員';
 
     let html = `
       <div style="background: #FFFDF9; border: 2px solid var(--primary); border-radius: 22px; padding: 22px; box-shadow: var(--shadow-hover);">
@@ -627,10 +782,10 @@ class GrammarApp {
           <div>
             <h3 style="font-size: 19px; color: var(--primary-dark); margin: 0; display: flex; align-items: center; gap: 8px;">
               <i class="fa-solid fa-crosshairs"></i>
-              <span>盲點動態生成特訓測驗（共 ${questions.length} 題）</span>
+              <span>「${targetUser}」專屬客製化盲點特訓測驗（共 ${questions.length} 題）</span>
             </h3>
             <p style="font-size: 13px; color: var(--text-muted); margin: 4px 0 0 0;">
-              已將歷史錯題選項重新洗牌，並動態加入同型態盲點變體題！請點擊選項作答：
+              依據「${targetUser}」的歷史錯題選項重新洗牌，並針對弱點動態合成同構變體題！請點擊選項作答：
             </p>
           </div>
           <button class="btn-tool" onclick="document.getElementById('blindspot-targeted-quiz-area').innerHTML=''">

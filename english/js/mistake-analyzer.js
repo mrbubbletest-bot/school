@@ -5,72 +5,187 @@
 class MistakeAnalyzer {
   constructor() {
     this.storageKey = 'bubble_mistake_records_v1';
-    this.toggleKey = 'bubble_record_mistakes_enabled';
-    this.mistakes = this.loadMistakes();
-    this.recordEnabled = this.loadToggleState();
+    this.multiUserStorageKey = 'bubble_multiuser_mistakes_v2';
+    this.currentUserKey = 'bubble_current_quiz_user';
+    this.usersMap = this.loadUsersMap();
+    this.currentUser = localStorage.getItem(this.currentUserKey) || '';
+    this.hasConfirmedIdentityInSession = false;
   }
 
-  loadToggleState() {
-    const saved = localStorage.getItem(this.toggleKey);
-    return saved === null ? true : saved === 'true';
+  isAnonymous(name = this.currentUser) {
+    if (!name) return true;
+    const norm = String(name).trim().toLowerCase();
+    return norm === 'anonymous' || norm === '匿名' || norm === 'guest';
   }
 
-  setRecordEnabled(enabled) {
-    this.recordEnabled = !!enabled;
-    localStorage.setItem(this.toggleKey, String(this.recordEnabled));
-    this.syncToggleUI();
+  get recordEnabled() {
+    return !this.isAnonymous(this.currentUser);
   }
 
-  syncToggleUI() {
-    document.querySelectorAll('.mistake-record-checkbox').forEach(cb => {
-      cb.checked = this.recordEnabled;
-    });
-    document.querySelectorAll('.mistake-record-status-pill').forEach(el => {
-      if (this.recordEnabled) {
-        el.innerHTML = '<i class="fa-solid fa-circle-check"></i> 自動記錄錯題：開啟中';
-        el.style.background = '#DCFCE7';
-        el.style.color = '#15803D';
-      } else {
-        el.innerHTML = '<i class="fa-solid fa-circle-pause"></i> 自動記錄錯題：已關閉';
-        el.style.background = '#F3F4F6';
-        el.style.color = '#6B7280';
-      }
-    });
-    this.updateMistakeCountBadges();
+  getActiveViewUser() {
+    if (!this.isAnonymous(this.currentUser)) {
+      return this.currentUser;
+    }
+    const allUsers = Object.keys(this.usersMap);
+    return allUsers.length > 0 ? allUsers[0] : '';
   }
 
-  updateMistakeCountBadges() {
-    const count = this.mistakes.length;
-    document.querySelectorAll('.mistake-total-count').forEach(el => {
-      el.innerText = count;
-    });
+  get mistakes() {
+    const targetUser = this.getActiveViewUser();
+    if (!targetUser || !this.usersMap[targetUser]) return [];
+    return this.usersMap[targetUser];
   }
 
-  loadMistakes() {
+  set mistakes(arr) {
+    const targetUser = this.getActiveViewUser();
+    if (targetUser) {
+      this.usersMap[targetUser] = Array.isArray(arr) ? arr : [];
+    }
+  }
+
+  loadUsersMap() {
     try {
-      const raw = localStorage.getItem(this.storageKey);
+      const raw = localStorage.getItem(this.multiUserStorageKey);
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (Array.isArray(parsed)) return parsed;
+        if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+          return parsed;
+        }
+      }
+      // Migrate legacy single-user mistakes if present
+      const legacyRaw = localStorage.getItem(this.storageKey);
+      if (legacyRaw) {
+        const legacyArr = JSON.parse(legacyRaw);
+        if (Array.isArray(legacyArr) && legacyArr.length > 0) {
+          const map = { '預設學員': legacyArr };
+          localStorage.setItem(this.multiUserStorageKey, JSON.stringify(map));
+          return map;
+        }
       }
     } catch (e) {}
-    return [];
+    return {};
   }
 
   saveMistakes() {
     try {
-      localStorage.setItem(this.storageKey, JSON.stringify(this.mistakes));
+      localStorage.setItem(this.multiUserStorageKey, JSON.stringify(this.usersMap));
     } catch (e) {}
     this.updateMistakeCountBadges();
   }
 
-  clearAllMistakes() {
-    this.mistakes = [];
-    this.saveMistakes();
+  getUserList() {
+    return Object.keys(this.usersMap).map(name => {
+      const list = this.usersMap[name] || [];
+      const lastTime = list.length > 0 ? (list[0].lastWrongTime || '') : '';
+      return {
+        name,
+        count: list.length,
+        lastTime
+      };
+    }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  }
+
+  setCurrentUser(name) {
+    const trimmed = String(name || '').trim();
+    if (!trimmed || this.isAnonymous(trimmed)) {
+      this.currentUser = 'anonymous';
+    } else {
+      this.currentUser = trimmed;
+      if (!Array.isArray(this.usersMap[this.currentUser])) {
+        this.usersMap[this.currentUser] = [];
+      }
+    }
+    this.hasConfirmedIdentityInSession = true;
+    try {
+      localStorage.setItem(this.currentUserKey, this.currentUser);
+      localStorage.setItem(this.multiUserStorageKey, JSON.stringify(this.usersMap));
+    } catch (e) {}
+    this.syncToggleUI();
+  }
+
+  setRecordEnabled(enabled) {
+    if (!enabled) {
+      this.setCurrentUser('anonymous');
+    } else if (this.isAnonymous(this.currentUser)) {
+      const existing = Object.keys(this.usersMap);
+      if (existing.length > 0) {
+        this.setCurrentUser(existing[0]);
+      } else if (window.app && typeof window.app.openQuizUserModal === 'function') {
+        window.app.openQuizUserModal();
+      }
+    }
+  }
+
+  syncToggleUI() {
+    const isAnon = this.isAnonymous(this.currentUser);
+    const activeUser = this.getActiveViewUser();
+    const userCount = (!isAnon && this.usersMap[this.currentUser]) ? this.usersMap[this.currentUser].length : 0;
+
+    document.querySelectorAll('.current-quiz-user-badge').forEach(el => {
+      if (isAnon) {
+        el.innerHTML = `<i class="fa-solid fa-user-secret"></i> 目前身分：<strong>Anonymous (匿名測驗)</strong>`;
+        el.style.background = '#F3F4F6';
+        el.style.color = '#4B5563';
+        el.style.borderColor = '#D1D5DB';
+      } else {
+        el.innerHTML = `<i class="fa-solid fa-user-graduate"></i> 目前作答學員：<strong>${this.currentUser}</strong>（已記錄 ${userCount} 題錯題）`;
+        el.style.background = '#FFF0F5';
+        el.style.color = '#BE185D';
+        el.style.borderColor = 'rgba(255, 107, 139, 0.45)';
+      }
+    });
+
+    document.querySelectorAll('.mistake-record-status-pill').forEach(el => {
+      if (!isAnon) {
+        el.innerHTML = `<i class="fa-solid fa-circle-check"></i> 錯題自動歸檔至「${this.currentUser}」`;
+        el.style.background = '#DCFCE7';
+        el.style.color = '#15803D';
+      } else {
+        el.innerHTML = `<i class="fa-solid fa-eye-slash"></i> 匿名模式：不記錄任何錯題`;
+        el.style.background = '#F3F4F6';
+        el.style.color = '#6B7280';
+      }
+    });
+
+    this.updateMistakeCountBadges();
+  }
+
+  updateMistakeCountBadges() {
+    const activeUser = this.getActiveViewUser();
+    const count = (activeUser && this.usersMap[activeUser]) ? this.usersMap[activeUser].length : 0;
+    document.querySelectorAll('.mistake-total-count').forEach(el => {
+      el.innerText = count;
+    });
+    document.querySelectorAll('.active-mistake-user-name').forEach(el => {
+      el.innerText = activeUser || '尚無學員';
+    });
+  }
+
+  clearAllMistakes(targetUser = null) {
+    const user = targetUser || this.getActiveViewUser();
+    if (user && this.usersMap[user]) {
+      this.usersMap[user] = [];
+      this.saveMistakes();
+    }
+  }
+
+  deleteUserProfile(user) {
+    if (user && this.usersMap[user] !== undefined) {
+      delete this.usersMap[user];
+      if (this.currentUser === user) {
+        const remaining = Object.keys(this.usersMap);
+        this.currentUser = remaining.length > 0 ? remaining[0] : 'anonymous';
+        localStorage.setItem(this.currentUserKey, this.currentUser);
+      }
+      this.saveMistakes();
+      this.syncToggleUI();
+    }
   }
 
   removeMistake(id) {
-    this.mistakes = this.mistakes.filter(m => m.id !== id);
+    const user = this.getActiveViewUser();
+    if (!user || !this.usersMap[user]) return;
+    this.usersMap[user] = this.usersMap[user].filter(m => m.id !== id);
     this.saveMistakes();
   }
 
@@ -238,7 +353,13 @@ class MistakeAnalyzer {
    * 記錄一筆錯題（若已存在相同題目則累加錯誤次數並更新最新誤選答案）
    */
   recordMistake(payload) {
-    if (!this.recordEnabled) return null;
+    if (!this.recordEnabled || this.isAnonymous(this.currentUser)) return null;
+
+    const userName = this.currentUser;
+    if (!Array.isArray(this.usersMap[userName])) {
+      this.usersMap[userName] = [];
+    }
+    const userList = this.usersMap[userName];
 
     const cleanQ = String(payload.q || '').trim();
     if (!cleanQ) return null;
@@ -264,6 +385,7 @@ class MistakeAnalyzer {
 
     const tempEntry = {
       id,
+      userName,
       chapterId: Number(payload.chapterId) || 1,
       chapterTitle: meta.title,
       topic: payload.topic || payload.sectionTitle || meta.title,
@@ -280,19 +402,19 @@ class MistakeAnalyzer {
     const blindSpot = this.diagnoseBlindSpot(tempEntry);
     const nowStr = new Date().toLocaleString('zh-TW', { timeZone: 'Asia/Taipei', hour12: false });
 
-    const existingIdx = this.mistakes.findIndex(m => m.id === id);
+    const existingIdx = userList.findIndex(m => m.id === id);
     if (existingIdx !== -1) {
-      const prev = this.mistakes[existingIdx];
+      const prev = userList[existingIdx];
       prev.userWrongIndex = userWrongIndex;
       prev.userWrongText = userWrongText;
       prev.mistakeCount = (prev.mistakeCount || 1) + 1;
       prev.lastWrongTime = nowStr;
       prev.blindSpot = blindSpot;
       // Move to top
-      this.mistakes.splice(existingIdx, 1);
-      this.mistakes.unshift(prev);
+      userList.splice(existingIdx, 1);
+      userList.unshift(prev);
     } else {
-      this.mistakes.unshift({
+      userList.unshift({
         ...tempEntry,
         mistakeCount: 1,
         lastWrongTime: nowStr,
@@ -301,7 +423,8 @@ class MistakeAnalyzer {
     }
 
     this.saveMistakes();
-    return this.mistakes[0];
+    this.syncToggleUI();
+    return userList[0];
   }
 
   /**

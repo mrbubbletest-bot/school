@@ -270,10 +270,10 @@ class QuizEngine {
           diagBox.innerHTML = `
             <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
               <span style="font-weight:800; color:#BE185D; font-size:13.5px;">
-                <i class="fa-solid fa-brain"></i> 已記錄至錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
+                <i class="fa-solid fa-brain"></i> 已歸檔至「${recorded.userName || window.app.mistakeAnalyzer.currentUser}」的錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
               </span>
               <button class="btn-tool" style="font-size:11.5px; padding:2px 8px;" onclick="window.app.navigateTo('mistakes')">
-                前往盲點特訓 →
+                前往專屬盲點特訓 →
               </button>
             </div>
             <div style="font-size:13px; color:#831843; line-height:1.6;">

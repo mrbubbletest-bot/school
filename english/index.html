@@ -234,16 +234,20 @@
             <div class="quiz-progress-bar" id="quiz-progress-fill"></div>
           </div>
 
-          <!-- Mistake Recording Option Bar -->
+          <!-- Student Identity & Mistake Recording Status Bar -->
           <div class="mistake-toggle-bar">
-            <label class="mistake-toggle-label">
-              <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
-              <span>📝 記錄本次測驗錯題並分析「學習盲點」</span>
-            </label>
             <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題記錄開啟中</span>
+              <span class="current-quiz-user-badge" style="font-size: 13px; padding: 4px 12px; border-radius: 99px; border: 1px solid rgba(255, 107, 139, 0.45); background: #FFF0F5; color: #BE185D;">
+                <i class="fa-solid fa-user-graduate"></i> 目前作答學員：<strong>未設定</strong>
+              </span>
+              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題自動歸檔</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px;" onclick="window.app.openQuizUserModal()">
+                <i class="fa-solid fa-user-pen"></i> 切換學員姓名 / Anonymous
+              </button>
               <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px; background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);" onclick="window.app.navigateTo('mistakes')">
-                <i class="fa-solid fa-brain"></i> 查看盲點分析與動態特訓 (<span class="mistake-total-count">0</span> 題)
+                <i class="fa-solid fa-brain"></i> 查看專屬盲點與特訓 (<span class="mistake-total-count">0</span> 題)
               </button>
             </div>
           </div>
@@ -306,16 +310,20 @@
             <i class="fa-solid fa-arrows-rotate"></i> 隨機生成專屬測驗 🎲
           </button>
 
-          <!-- Mistake Recording Option Bar -->
+          <!-- Student Identity & Mistake Recording Status Bar -->
           <div class="mistake-toggle-bar" style="margin-top: 16px;">
-            <label class="mistake-toggle-label">
-              <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
-              <span>📝 記錄本次測驗錯題並分析「學習盲點」</span>
-            </label>
             <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題記錄開啟中</span>
+              <span class="current-quiz-user-badge" style="font-size: 13px; padding: 4px 12px; border-radius: 99px; border: 1px solid rgba(255, 107, 139, 0.45); background: #FFF0F5; color: #BE185D;">
+                <i class="fa-solid fa-user-graduate"></i> 目前作答學員：<strong>未設定</strong>
+              </span>
+              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題自動歸檔</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px;" onclick="window.app.openQuizUserModal()">
+                <i class="fa-solid fa-user-pen"></i> 切換學員姓名 / Anonymous
+              </button>
               <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px; background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);" onclick="window.app.navigateTo('mistakes')">
-                <i class="fa-solid fa-brain"></i> 查看盲點分析與動態特訓 (<span class="mistake-total-count">0</span> 題)
+                <i class="fa-solid fa-brain"></i> 查看專屬盲點與特訓 (<span class="mistake-total-count">0</span> 題)
               </button>
             </div>
           </div>
@@ -334,36 +342,40 @@
     <section class="app-view" id="view-mistakes">
       <div class="quiz-container">
         <div class="generator-settings-card" style="border-top: 4px solid var(--primary);">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 14px; margin-bottom: 18px;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 14px; margin-bottom: 16px;">
             <div>
               <h2 style="font-family: var(--font-heading); font-size: 24px; color: var(--text-main); display: flex; align-items: center; gap: 10px;">
                 <i class="fa-solid fa-brain" style="color: var(--primary);"></i>
-                <span>智慧錯題本 ＆ 學習盲點動態特訓中心</span>
+                <span>多學員專屬錯題本 ＆ 學習盲點客製化特訓中心</span>
               </h2>
               <p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">
-                自動比對妳在測驗中「誤選的誘答選項」與「正確答案」，精準診斷文法盲點，並針對弱點動態生成專屬剋星題型！
+                每位學員擁有獨立的錯題紀錄與盲點分析報告，系統會依據該名學員誤選的錯誤答案，動態生成量身訂做的專屬剋星題型！
               </p>
             </div>
 
             <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-              <label class="mistake-toggle-label" style="background: #FFF5F8; padding: 6px 12px; border-radius: 10px; border: 1px solid var(--border-card);">
-                <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
-                <span style="font-size: 13px;">測驗時自動記錄錯題</span>
-              </label>
+              <button class="btn-tool" style="font-size: 12.5px;" onclick="window.app.openQuizUserModal()">
+                <i class="fa-solid fa-user-plus"></i> 新增 / 切換作答學員
+              </button>
               <button class="btn-tool" style="font-size: 12.5px; color: #EF4444;" onclick="window.app.clearAllMistakeRecords()">
-                <i class="fa-solid fa-trash-can"></i> 清空錯題庫
+                <i class="fa-solid fa-trash-can"></i> 清空目前學員錯題
               </button>
             </div>
+          </div>
+
+          <!-- Multi-User Profile Selector Bar -->
+          <div id="mistake-user-selector-bar" style="margin-bottom: 18px; padding: 12px 16px; background: #FFF9FB; border: 1px solid var(--border-card); border-radius: 14px;">
+            <!-- Populated dynamically by app.js -->
           </div>
 
           <!-- Dynamic Blind Spot Targeted Quiz Bar -->
           <div style="background: linear-gradient(135deg, #FFF0F5 0%, #F3E8FF 100%); border: 1px solid rgba(255, 107, 139, 0.35); border-radius: 16px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
             <div>
               <div style="font-weight: 800; font-size: 16px; color: var(--primary-dark); display: flex; align-items: center; gap: 6px;">
-                <i class="fa-solid fa-bullseye"></i> 針對學習盲點動態產生專屬特訓測驗
+                <i class="fa-solid fa-bullseye"></i> 針對「<span class="active-mistake-user-name">目前學員</span>」的學習盲點動態產生客製化測驗
               </div>
               <div style="font-size: 13px; color: var(--text-muted); margin-top: 3px;">
-                結合「歷史錯題選項重排複測」＋「同盲點單元題庫」＋「AI 動態變體題型」，徹底根除盲點！
+                結合該學員之「歷史錯題選項重排複測」＋「同盲點單元題庫」＋「AI 動態變體題型」，每道題目皆為個人化量身打造！
               </div>
             </div>
             <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
@@ -374,7 +386,7 @@
                 <option value="20">🎯 20 題滿分突破</option>
               </select>
               <button class="btn-primary" onclick="window.app.startTargetedBlindSpotQuiz()">
-                <i class="fa-solid fa-bolt"></i> 針對盲點動態出題測驗 🚀
+                <i class="fa-solid fa-bolt"></i> 產生專屬客製化盲點測驗 🚀
               </button>
             </div>
           </div>
@@ -432,6 +444,56 @@
     </section>
 
   </main>
+
+  <!-- Quiz Student Identity Prompt Modal -->
+  <div class="visitor-modal-overlay" id="quiz-user-modal" style="display: none; z-index: 2100;">
+    <div class="visitor-modal-card" style="max-width: 520px;">
+      <div class="visitor-modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="width: 38px; height: 38px; border-radius: 12px; background: linear-gradient(135deg, #FF6B8B, #8B5CF6); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px;">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+          <div>
+            <h3 style="font-size: 18px; font-weight: 800; color: var(--text-main); margin: 0;">開始測驗前 · 請輸入妳的名字 🌸</h3>
+            <p style="font-size: 12.5px; color: var(--text-muted); margin: 2px 0 0 0;">系統將自動把錯題歸檔在妳的名字下，提供專屬盲點診斷與客製化題目！</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="visitor-modal-body" style="padding: 22px 24px;">
+        <div style="margin-bottom: 16px;">
+          <label style="display: block; font-size: 13.5px; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            <i class="fa-solid fa-signature" style="color: var(--primary);"></i> 請輸入學員姓名或暱稱：
+          </label>
+          <div style="display: flex; gap: 8px;">
+            <input type="text" id="quiz-user-name-input" class="setting-select" placeholder="例如：Bubble、宥希、小庭..." style="flex: 1; font-size: 15px; font-weight: 600;" onkeydown="if(event.key==='Enter') window.app.confirmQuizUserFromInput()">
+            <button class="btn-primary" style="padding: 10px 18px; white-space: nowrap;" onclick="window.app.confirmQuizUserFromInput()">
+              <i class="fa-solid fa-check"></i> 開始測驗
+            </button>
+          </div>
+        </div>
+
+        <!-- Existing Users Quick Select -->
+        <div id="quiz-existing-users-section" style="margin-bottom: 18px; display: none;">
+          <div style="font-size: 12.5px; font-weight: 700; color: var(--secondary); margin-bottom: 8px;">
+            <i class="fa-solid fa-users"></i> 或直接點選已建立的學員檔案繼續累積紀錄：
+          </div>
+          <div id="quiz-existing-users-chips" style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <div style="border-top: 1px dashed var(--border-card); padding-top: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <div style="font-size: 12.5px; color: var(--text-muted);">
+            不想記錄本次測驗的錯題嗎？
+          </div>
+          <button class="btn-tool" style="padding: 8px 16px; font-weight: 700; color: #4B5563; background: #F3F4F6; border-color: #D1D5DB;" onclick="window.app.selectQuizUser('anonymous')">
+            <i class="fa-solid fa-user-secret"></i> 選擇 Anonymous (匿名測驗 · 不記錄錯題)
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Visitor IP Log Modal -->
   <div class="visitor-modal-overlay" id="visitor-log-modal" onclick="if(event.target===this) window.app.closeVisitorLogModal()" style="display: none;">
