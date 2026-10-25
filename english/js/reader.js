@@ -6,34 +6,95 @@ class GrammarReader {
   constructor() {
     this.currentChapterId = 1;
     this.currentFontSize = 16;
-    this.synth = window.speechSynthesis;
+    this.synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
     this.voices = [];
+    this.currentAudio = null;
     this.initSpeech();
   }
 
   initSpeech() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.onvoiceschanged = () => {
+      const updateVoices = () => {
         this.voices = window.speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
       };
+      updateVoices();
+      window.speechSynthesis.onvoiceschanged = updateVoices;
     }
   }
 
-  speak(text) {
+  getBestNativeVoice() {
+    if (!this.voices || this.voices.length === 0) return null;
+    // Ranked preference list: Natural > Online/Neural > High-quality system voices
+    const priorityKeywords = [
+      'Natural', 'Neural', 'Online', 'Multilingual',
+      'Ava', 'Jenny', 'Aria', 'Guy', 'Google US English', 'Samantha', 'Zira', 'Victoria'
+    ];
+    for (const kw of priorityKeywords) {
+      const match = this.voices.find(v => v.name.includes(kw));
+      if (match) return match;
+    }
+    const usVoice = this.voices.find(v => v.lang === 'en-US' || v.lang === 'en_US');
+    if (usVoice) return usVoice;
+    return this.voices[0];
+  }
+
+  speakWithWebSpeech(cleanText) {
     if (!this.synth) return;
     this.synth.cancel();
-    const cleanText = text.replace(/[*_#`~⟦⟧]/g, '').trim();
-    if (!cleanText) return;
     const utter = new SpeechSynthesisUtterance(cleanText);
     utter.lang = 'en-US';
-    utter.rate = 0.9; // Slightly slower for clear junior-high learning
-    utter.pitch = 1.05; // Slightly sweeter tone
-    if (this.voices.length > 0) {
-      // Prefer female US/UK voice if available
-      const sweetVoice = this.voices.find(v => v.name.includes('Samantha') || v.name.includes('Zira') || v.name.includes('Google US English') || v.name.includes('Female'));
-      if (sweetVoice) utter.voice = sweetVoice;
+    utter.rate = 0.92;
+    utter.pitch = 1.0;
+    const bestVoice = this.getBestNativeVoice();
+    if (bestVoice) {
+      utter.voice = bestVoice;
     }
     this.synth.speak(utter);
+  }
+
+  speak(text) {
+    const cleanText = String(text || '').replace(/[*_#`~⟦⟧\n\r]/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!cleanText) return;
+
+    // 1. Try high-fidelity natural neural pronunciation via Google Cloud TTS Audio
+    if (typeof Audio !== 'undefined') {
+      try {
+        if (this.currentAudio) {
+          this.currentAudio.pause();
+          this.currentAudio.currentTime = 0;
+          this.currentAudio = null;
+        }
+        if (this.synth) this.synth.cancel();
+
+        const encoded = encodeURIComponent(cleanText);
+        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encoded}&tl=en&client=tw-ob`;
+        const audio = new Audio(ttsUrl);
+        this.currentAudio = audio;
+
+        audio.playbackRate = 0.95; // Clear and easy to follow for junior/senior high students
+
+        // Fallback to Web Speech Synthesis if audio fails (e.g. offline)
+        audio.onerror = () => {
+          this.currentAudio = null;
+          this.speakWithWebSpeech(cleanText);
+        };
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            // Autoplay restriction or network error -> fallback to native synthesis
+            this.currentAudio = null;
+            this.speakWithWebSpeech(cleanText);
+          });
+        }
+        return;
+      } catch (err) {
+        // Fall through to Web Speech
+      }
+    }
+
+    // 2. Secondary Fallback: Web Speech API with highest-quality natural voice
+    this.speakWithWebSpeech(cleanText);
   }
 
   async loadChapter(chapterId) {
