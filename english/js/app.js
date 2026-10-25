@@ -458,16 +458,33 @@ class GrammarApp {
         const typingEl = document.getElementById(typingId);
         if (typingEl) {
           let jumpButtonHtml = '';
+          const buttons = [];
+
           if (resp.chapterId) {
+            buttons.push(`
+              <button class="btn-primary" style="font-size: 13px; padding: 6px 14px;" onclick="window.app.navigateTo('reader', ${resp.chapterId})">
+                <i class="fa-solid fa-book-open"></i> 前往第 ${resp.chapterId} 章教材完整講義 📖
+              </button>
+            `);
+          }
+
+          if (resp.googleSearchUrl) {
+            buttons.push(`
+              <a href="${resp.googleSearchUrl}" target="_blank" rel="noopener noreferrer" class="btn-tool" style="font-size: 12.5px; padding: 6px 14px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; background: #EEF2FF; color: #4338CA; border-color: #C7D2FE;" title="直接開啟 Google 搜尋查看 Google 官方 Gemini AI 最新摘要">
+                <i class="fa-brands fa-google" style="color: #4285F4;"></i> 查看 Google 即時 Gemini AI 統整
+                <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px; opacity: 0.8;"></i>
+              </a>
+            `);
+          }
+
+          if (buttons.length > 0) {
             jumpButtonHtml = `
-              <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(255, 107, 139, 0.3); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
-                <button class="btn-primary" style="font-size: 13px; padding: 6px 16px;" onclick="window.app.navigateTo('reader', ${resp.chapterId})">
-                  <i class="fa-solid fa-book-open"></i> 前往第 ${resp.chapterId} 章完整講義 📖
-                </button>
-                ${resp.isGemini ? '<span style="font-size: 11.5px; color: #4F46E5; font-weight: 700;"><i class="fa-solid fa-sparkles"></i> 包含 Gemini 即時最新解析</span>' : ''}
+              <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(255, 107, 139, 0.3); display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 8px;">
+                ${buttons.join('')}
               </div>
             `;
           }
+
           typingEl.innerHTML = `
             <div>${marked.parse(resp.reply)}</div>
             ${jumpButtonHtml}
