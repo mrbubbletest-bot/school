@@ -5,6 +5,170 @@
 class AIGrammarTutor {
   constructor() {
     this.knowledgeBase = this.initKnowledgeBase();
+    this.geminiKeyStorageKey = 'bubble_gemini_api_key_v1';
+  }
+
+  getApiKey() {
+    try {
+      return (localStorage.getItem(this.geminiKeyStorageKey) || '').trim();
+    } catch (e) {
+      return '';
+    }
+  }
+
+  setApiKey(key) {
+    try {
+      if (key && key.trim()) {
+        localStorage.setItem(this.geminiKeyStorageKey, key.trim());
+      } else {
+        localStorage.removeItem(this.geminiKeyStorageKey);
+      }
+    } catch (e) {}
+  }
+
+  hasCustomKey() {
+    return Boolean(this.getApiKey());
+  }
+
+  /**
+   * 呼叫即時線上 Google Gemini API 生成最新名師深度回答
+   */
+  async fetchGeminiResponse(userPrompt, matchedChapterInfo = null) {
+    const apiKey = this.getApiKey();
+    if (!apiKey) return null;
+
+    let systemContext = `妳是「Bubble 老師」，一位親切、專業、富有耐心且生動有趣的國高中英文文法名師，正在教導一位資優班的國高中學生。
+請用台灣繁體中文（使用台灣文法慣用語，例如：受詞、主詞補語、述語動詞、連接詞、關係代名詞，切勿使用「漢語、賓語、連詞」等簡體術語）。
+回答風格親切活潑，可適度使用 🌸、✨、💡、📐 等符號與清楚的分點條列、中英雙語對照、核心公式與口訣。`;
+
+    if (matchedChapterInfo && matchedChapterInfo.chapter) {
+      systemContext += `\n學生目前正在研讀的英文教材中，對應的章節為【第 ${matchedChapterInfo.chapter.num} 章：${matchedChapterInfo.chapter.title} (${matchedChapterInfo.chapter.enTitle})】，主要涵蓋主題：${matchedChapterInfo.chapter.subtopics.join('、')}。請結合該章節的文法觀念為學生深入淺出地解說。`;
+    }
+
+    const payload = {
+      contents: [
+        {
+          role: "user",
+          parts: [
+            {
+              text: `${systemContext}\n\n學生詢問的問題是：\n「${userPrompt}」\n\n請以 Bubble 老師的語氣給予完整、有條理且鼓勵性的文法解析與例句說明：`
+            }
+          ]
+        }
+      ],
+      generationConfig: {
+        temperature: 0.7,
+        maxOutputTokens: 1024
+      }
+    };
+
+    const models = [
+      'gemini-1.5-flash',
+      'gemini-1.5-pro',
+      'gemini-2.0-flash-exp'
+    ];
+
+    for (const model of models) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          const candidate = data && data.candidates && data.candidates[0];
+          const textPart = candidate && candidate.content && candidate.content.parts && candidate.content.parts[0]?.text;
+          if (textPart) {
+            return textPart.trim();
+          }
+        }
+      } catch (err) {
+        console.warn(`Gemini call to ${model} failed:`, err);
+      }
+    }
+    return null;
+  }
+
+  /**
+   * 智慧問答入口：整合「即時 Gemini 回答」＋「全書20章精準對照導航」
+   */
+  async askAsync(question) {
+    const q = String(question || '').trim();
+    if (!q) {
+      return {
+        reply: "🌸 請輸入妳想詢問的英文文法問題喔！例如：現在完成式與過去式的差別、lie 和 lay 怎麼分...",
+        chapterId: null,
+        title: null,
+        isGemini: false
+      };
+    }
+
+    // 1. 先檢索章節知識庫與全書 20 章索引，找出最契合的對應章節
+    let matchedChapter = null;
+    let fallbackAnswer = null;
+
+    for (const item of this.knowledgeBase) {
+      for (const pattern of item.patterns) {
+        if (pattern.test(q)) {
+          matchedChapter = {
+            id: item.chapterId,
+            num: String(item.chapterId).padStart(2, '0'),
+            title: item.title,
+            enTitle: ''
+          };
+          fallbackAnswer = item.answer;
+          break;
+        }
+      }
+      if (matchedChapter) break;
+    }
+
+    if (!matchedChapter) {
+      const searchResults = this.searchChapters(q);
+      if (searchResults.length > 0) {
+        const top = searchResults[0];
+        matchedChapter = {
+          id: top.chapter.id,
+          num: top.chapter.num,
+          title: top.chapter.title,
+          enTitle: top.chapter.enTitle,
+          subtopics: top.chapter.subtopics
+        };
+      }
+    }
+
+    // 2. 嘗試獲取即時 Gemini 線上回答
+    let geminiText = null;
+    if (this.hasCustomKey()) {
+      geminiText = await this.fetchGeminiResponse(q, { chapter: matchedChapter });
+    }
+
+    if (geminiText) {
+      // 成功獲得 Gemini 即時回答，整合並附上章節指引
+      let finalReply = geminiText;
+      if (matchedChapter) {
+        finalReply += `\n\n---\n📖 **教材對照指引：** 本題對應我們寶典中的 **【第 ${matchedChapter.num} 章 · ${matchedChapter.title}】**，點擊下方按鈕即可直接閱讀完整圖解講義與例句練習喔！✨`;
+      }
+      return {
+        reply: finalReply,
+        chapterId: matchedChapter ? matchedChapter.id : 1,
+        title: matchedChapter ? matchedChapter.title : '講義導航',
+        isGemini: true
+      };
+    }
+
+    // 3. 若未設定 Key 或網路限制，使用內建名師智慧知識庫回答（並溫馨提示可綁定 Gemini API Key）
+    const localResult = this.ask(q);
+    if (!this.hasCustomKey()) {
+      localResult.reply += `\n\n> 💡 **小秘訣**：右上角可點擊 **「🔑 API Key 設定」** 綁定免費 Google Gemini API Key，即可同時解鎖 Gemini 最新線上 AI 的即時生成解析喔！🌸`;
+    }
+    return {
+      ...localResult,
+      isGemini: false
+    };
   }
 
   initKnowledgeBase() {

@@ -26,6 +26,7 @@ class GrammarApp {
     if (this.mistakeAnalyzer) {
       this.mistakeAnalyzer.syncToggleUI();
     }
+    this.updateGeminiStatusBadge();
 
     // Check hash for direct route (e.g. #chapter-2, #quiz-2)
     this.handleRouteHash();
@@ -78,6 +79,7 @@ class GrammarApp {
     if (this.mistakeAnalyzer) {
       this.mistakeAnalyzer.syncToggleUI();
     }
+    this.updateGeminiStatusBadge();
 
     // View specific initialization
     if (view === 'reader') {
@@ -449,28 +451,92 @@ class GrammarApp {
     `;
     messagesArea.scrollTop = messagesArea.scrollHeight;
 
-    // Ask AI Tutor
-    setTimeout(() => {
-      const resp = this.aiTutor.ask(message);
-      const typingEl = document.getElementById(typingId);
-      if (typingEl) {
-        let jumpButtonHtml = '';
-        if (resp.chapterId) {
-          jumpButtonHtml = `
-            <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(255, 107, 139, 0.3);">
-              <button class="btn-primary" style="font-size: 13px; padding: 6px 16px;" onclick="window.app.navigateTo('reader', ${resp.chapterId})">
-                <i class="fa-solid fa-book-open"></i> 前往第 ${resp.chapterId} 章完整講義 📖
-              </button>
-            </div>
+    // Ask AI Tutor (Async with Gemini + Chapter Navigation)
+    (async () => {
+      try {
+        const resp = await this.aiTutor.askAsync(message);
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) {
+          let jumpButtonHtml = '';
+          if (resp.chapterId) {
+            jumpButtonHtml = `
+              <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(255, 107, 139, 0.3); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <button class="btn-primary" style="font-size: 13px; padding: 6px 16px;" onclick="window.app.navigateTo('reader', ${resp.chapterId})">
+                  <i class="fa-solid fa-book-open"></i> 前往第 ${resp.chapterId} 章完整講義 📖
+                </button>
+                ${resp.isGemini ? '<span style="font-size: 11.5px; color: #4F46E5; font-weight: 700;"><i class="fa-solid fa-sparkles"></i> 包含 Gemini 即時最新解析</span>' : ''}
+              </div>
+            `;
+          }
+          typingEl.innerHTML = `
+            <div>${marked.parse(resp.reply)}</div>
+            ${jumpButtonHtml}
           `;
+          messagesArea.scrollTop = messagesArea.scrollHeight;
         }
-        typingEl.innerHTML = `
-          <div>${marked.parse(resp.reply)}</div>
-          ${jumpButtonHtml}
-        `;
-        messagesArea.scrollTop = messagesArea.scrollHeight;
+      } catch (e) {
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) {
+          typingEl.innerHTML = `<div>🌸 抱歉，解析生成時遇到小小的狀況，請再試一次喔！</div>`;
+        }
       }
-    }, 450);
+    })();
+  }
+
+  openGeminiKeyModal() {
+    const modal = document.getElementById('gemini-key-modal');
+    const input = document.getElementById('gemini-api-key-input');
+    if (!modal) return;
+    if (input && this.aiTutor) {
+      input.value = this.aiTutor.getApiKey();
+    }
+    modal.style.display = 'flex';
+    setTimeout(() => {
+      if (input) input.focus();
+    }, 80);
+  }
+
+  closeGeminiKeyModal() {
+    const modal = document.getElementById('gemini-key-modal');
+    if (modal) modal.style.display = 'none';
+  }
+
+  saveGeminiApiKey() {
+    const input = document.getElementById('gemini-api-key-input');
+    const val = input ? input.value.trim() : '';
+    if (this.aiTutor) {
+      this.aiTutor.setApiKey(val);
+    }
+    this.updateGeminiStatusBadge();
+    this.closeGeminiKeyModal();
+    alert(val ? '✅ Google Gemini API Key 設定成功！AI 導師將為您即時串接 Gemini 最新回答！🌸' : '已清除自訂 API Key。');
+  }
+
+  clearGeminiApiKey() {
+    if (this.aiTutor) {
+      this.aiTutor.setApiKey('');
+    }
+    const input = document.getElementById('gemini-api-key-input');
+    if (input) input.value = '';
+    this.updateGeminiStatusBadge();
+    this.closeGeminiKeyModal();
+    alert('已清除 API Key。');
+  }
+
+  updateGeminiStatusBadge() {
+    const badge = document.getElementById('gemini-status-badge');
+    if (!badge || !this.aiTutor) return;
+    if (this.aiTutor.hasCustomKey()) {
+      badge.innerHTML = `<i class="fa-solid fa-sparkles"></i> Gemini 已連線 · 即時名師雙引擎`;
+      badge.style.background = '#ECFDF5';
+      badge.style.color = '#065F46';
+      badge.style.borderColor = '#A7F3D0';
+    } else {
+      badge.innerHTML = `<i class="fa-solid fa-sparkles"></i> 雙引擎：20章講義導航 + Gemini 智慧解析`;
+      badge.style.background = '#EEF2FF';
+      badge.style.color = '#4F46E5';
+      badge.style.borderColor = '#C7D2FE';
+    }
   }
 
   setupGeneratorView(chapterId = 'all') {

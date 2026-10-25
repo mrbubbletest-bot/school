@@ -414,13 +414,19 @@
             <div class="chat-mentor-info">
               <div class="mascot-avatar" style="width: 40px; height: 40px; font-size: 22px;">🌸</div>
               <div>
-                <h3 style="font-size: 16px; font-weight: 700; color: var(--text-main);">Bubble 老師 (AI 英文文法導師)</h3>
-                <p style="font-size: 12px; color: var(--text-muted);">24 小時線上解答任何文法疑難雜症 · 全站搜尋</p>
+                <h3 style="font-size: 16px; font-weight: 700; color: var(--text-main); margin: 0; display: flex; align-items: center; gap: 6px;">
+                  <span>Bubble 老師 (AI 英文文法導師)</span>
+                  <span id="gemini-status-badge" style="font-size: 11px; padding: 2px 8px; border-radius: 99px; background: #EEF2FF; color: #4F46E5; border: 1px solid #C7D2FE; font-weight: 700;">
+                    <i class="fa-solid fa-sparkles"></i> 雙引擎：20章講義導航 + Gemini 智慧解析
+                  </span>
+                </h3>
+                <p style="font-size: 12px; color: var(--text-muted); margin: 2px 0 0 0;">隨時解答文法疑難雜症 · 提供原書對應章節與深度即時解答</p>
               </div>
             </div>
-            <div style="font-size: 12px; color: #10B981; font-weight: 600; display: flex; align-items: center; gap: 4px;">
-              <span style="width: 8px; height: 8px; background: #10B981; border-radius: 50%; display: inline-block;"></span>
-              在線為妳解答
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <button class="btn-tool" onclick="window.app.openGeminiKeyModal()" style="font-size: 12px; padding: 4px 10px;" title="設定自訂 Google Gemini API Key（選填）">
+                <i class="fa-solid fa-key" style="color: #F59E0B;"></i> API Key 設定
+              </button>
             </div>
           </div>
 
@@ -444,6 +450,54 @@
     </section>
 
   </main>
+
+  <!-- Gemini API Key Settings Modal -->
+  <div class="visitor-modal-overlay" id="gemini-key-modal" onclick="if(event.target===this) window.app.closeGeminiKeyModal()" style="display: none; z-index: 2200;">
+    <div class="visitor-modal-card" style="max-width: 520px;">
+      <div class="visitor-modal-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div style="width: 38px; height: 38px; border-radius: 12px; background: linear-gradient(135deg, #4F46E5, #9333EA); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px;">
+            <i class="fa-solid fa-sparkles"></i>
+          </div>
+          <div>
+            <h3 style="font-size: 18px; font-weight: 800; color: var(--text-main); margin: 0;">Gemini 雙引擎 AI 設定 🌸</h3>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 2px 0 0 0;">可串接您專屬的 Google Gemini API Key 獲得無限制最新即時解答</p>
+          </div>
+        </div>
+        <button class="btn-tool" onclick="window.app.closeGeminiKeyModal()" style="padding: 6px 10px;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="visitor-modal-body" style="padding: 22px 24px;">
+        <p style="font-size: 13.5px; color: var(--text-main); line-height: 1.6; margin-top: 0;">
+          AI 文法導師在回答問題時，會<strong>自動搜尋全書 20 個章節的重點講義</strong>並提供一鍵跳轉按鈕；若設定了 Gemini API Key，還會即時呼叫 <strong>Google Gemini 最新模型</strong> 為妳生成超詳盡的名師問答！
+        </p>
+
+        <div style="margin: 16px 0;">
+          <label style="display: block; font-size: 13px; font-weight: 700; color: var(--text-main); margin-bottom: 6px;">
+            <i class="fa-solid fa-key" style="color: #F59E0B;"></i> Google Gemini API Key：
+          </label>
+          <input type="password" id="gemini-api-key-input" class="setting-select" placeholder="AIzaSy... (僅存於您的本地瀏覽器，不會上傳 GitHub)" style="font-family: monospace; font-size: 14px;">
+          <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 6px;">
+            💡 還沒有 Key 嗎？可至 <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color: var(--primary); font-weight: 700; text-decoration: underline;">Google AI Studio</a> 免費申請。
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 20px;">
+          <button class="btn-tool" onclick="window.app.clearGeminiApiKey()" style="color: #EF4444;">
+            <i class="fa-solid fa-trash-can"></i> 清除 Key
+          </button>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn-secondary" onclick="window.app.closeGeminiKeyModal()">取消</button>
+            <button class="btn-primary" onclick="window.app.saveGeminiApiKey()">
+              <i class="fa-solid fa-check"></i> 儲存設定
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Quiz Student Identity Prompt Modal -->
   <div class="visitor-modal-overlay" id="quiz-user-modal" onclick="if(event.target===this && window.app.canDismissQuizUserModal) window.app.closeQuizUserModal()" style="display: none; z-index: 2100;">
@@ -584,12 +638,12 @@
   </nav>
 
   <!-- Application Scripts -->
-  <script src="js/chapters-meta.js?v=20261026_02"></script>
-  <script src="js/reader.js?v=20261026_02"></script>
-  <script src="js/quiz-engine.js?v=20261026_02"></script>
-  <script src="js/generator.js?v=20261026_02"></script>
-  <script src="js/ai-tutor.js?v=20261026_02"></script>
-  <script src="js/mistake-analyzer.js?v=20261026_02"></script>
-  <script src="js/app.js?v=20261026_02"></script>
+  <script src="js/chapters-meta.js?v=20261026_03"></script>
+  <script src="js/reader.js?v=20261026_03"></script>
+  <script src="js/quiz-engine.js?v=20261026_03"></script>
+  <script src="js/generator.js?v=20261026_03"></script>
+  <script src="js/ai-tutor.js?v=20261026_03"></script>
+  <script src="js/mistake-analyzer.js?v=20261026_03"></script>
+  <script src="js/app.js?v=20261026_03"></script>
 </body>
 </html>
