@@ -112,23 +112,29 @@ class GrammarApp {
     if (!this.mistakeAnalyzer) return false;
     const { dateStr } = this.getTaiwanDateTime();
     const currentIp = (this.currentVisitorIPInfo && this.currentVisitorIPInfo.ip) ? this.currentVisitorIPInfo.ip : '';
+    const currentDeviceBrowser = this.detectDeviceAndBrowser();
 
-    // 1. Check if MistakeAnalyzer already has a valid (dateStr, currentIp) session
-    if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, currentIp)) {
+    // 1. Check if MistakeAnalyzer already has a valid (dateStr, currentIp, currentDeviceBrowser) session
+    if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, currentIp, currentDeviceBrowser)) {
       return false;
     }
 
-    // 2. Check if today's visitor IP log already recorded a studentName for this (dateStr, currentIp)
+    // 2. Check if today's visitor IP log already recorded a studentName for this (dateStr, currentIp, currentDeviceBrowser)
     const store = this.visitorStore || this.loadLocalVisitorStore();
     if (currentIp && store && Array.isArray(store.logs)) {
-      const todayRec = store.logs.find(r => r.date === dateStr && r.ip === currentIp && r.studentName);
+      const todayRec = store.logs.find(r => 
+        r.date === dateStr && 
+        r.ip === currentIp && 
+        r.studentName && 
+        (!r.deviceBrowser || r.deviceBrowser === currentDeviceBrowser)
+      );
       if (todayRec && todayRec.studentName) {
-        this.mistakeAnalyzer.setCurrentUser(todayRec.studentName, dateStr, currentIp);
+        this.mistakeAnalyzer.setCurrentUser(todayRec.studentName, dateStr, currentIp, currentDeviceBrowser);
         return false;
       }
     }
 
-    // Otherwise (first time today on this IP, or cross-day, or different IP) -> need prompt!
+    // Otherwise (first time today on this device/IP, or cross-day, or different IP/device) -> need prompt!
     return true;
   }
 
@@ -205,13 +211,14 @@ class GrammarApp {
   selectQuizUser(name) {
     const { dateStr } = this.getTaiwanDateTime();
     const currentIp = (this.currentVisitorIPInfo && this.currentVisitorIPInfo.ip) ? this.currentVisitorIPInfo.ip : 'pending';
+    const currentDeviceBrowser = this.detectDeviceAndBrowser();
 
     if (this.mistakeAnalyzer) {
-      this.mistakeAnalyzer.setCurrentUser(name, dateStr, currentIp);
+      this.mistakeAnalyzer.setCurrentUser(name, dateStr, currentIp, currentDeviceBrowser);
     }
 
-    // Bind studentName to today's (dateStr, currentIp) visitor record as well
-    this.bindStudentNameToTodayIP(this.mistakeAnalyzer ? this.mistakeAnalyzer.currentUser : name, dateStr, currentIp);
+    // Bind studentName to today's (dateStr, currentIp, currentDeviceBrowser) visitor record as well
+    this.bindStudentNameToTodayIP(this.mistakeAnalyzer ? this.mistakeAnalyzer.currentUser : name, dateStr, currentIp, currentDeviceBrowser);
 
     const modal = document.getElementById('quiz-user-modal');
     if (modal) modal.style.display = 'none';
@@ -227,13 +234,18 @@ class GrammarApp {
     }
   }
 
-  async bindStudentNameToTodayIP(studentName, dateStr, ip) {
+  async bindStudentNameToTodayIP(studentName, dateStr, ip, deviceBrowser = '') {
     if (!ip || ip === 'pending') return;
     const store = this.visitorStore || this.loadLocalVisitorStore();
     if (!store || !Array.isArray(store.logs)) return;
-    const rec = store.logs.find(r => r.date === dateStr && r.ip === ip);
+    const rec = store.logs.find(r => 
+      r.date === dateStr && 
+      r.ip === ip && 
+      (!deviceBrowser || !r.deviceBrowser || r.deviceBrowser === deviceBrowser)
+    );
     if (rec) {
       rec.studentName = studentName;
+      if (deviceBrowser && !rec.deviceBrowser) rec.deviceBrowser = deviceBrowser;
       this.visitorStore = store;
       try {
         localStorage.setItem('bubble_visitor_ip_logs_v1', JSON.stringify(store));

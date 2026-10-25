@@ -24,11 +24,12 @@ class MistakeAnalyzer {
     return null;
   }
 
-  saveDailyIpSession(userName, dateStr, ip) {
+  saveDailyIpSession(userName, dateStr, ip, deviceBrowser = '') {
     this.dailyIpSession = {
       userName,
       date: dateStr || new Date().toISOString().slice(0, 10),
-      ip: ip || (this.dailyIpSession && this.dailyIpSession.ip) || 'pending'
+      ip: ip || (this.dailyIpSession && this.dailyIpSession.ip) || 'pending',
+      deviceBrowser: deviceBrowser || (this.dailyIpSession && this.dailyIpSession.deviceBrowser) || ''
     };
     try {
       localStorage.setItem(this.dailyIpSessionKey, JSON.stringify(this.dailyIpSession));
@@ -36,10 +37,11 @@ class MistakeAnalyzer {
   }
 
   /**
-   * 檢查目前 (日期, IP) 是否已在當日登入過學員身分：
-   * 同 IP 同日內僅需登入一次，跨日或更換 IP 才需重新詢問。
+   * 檢查目前 (日期, IP, 機器裝置與瀏覽器) 是否已在當日登入過學員身分：
+   * 即使同家庭同 IP，只要機器或瀏覽器不同（如哥哥的電腦 vs 妹妹的平板/手機），
+   * 仍會分別識別為不同學員或重新確認；只有同 IP + 同機器瀏覽器 + 同一天才自動延用。
    */
-  hasValidDailyIPSession(dateStr, currentIp) {
+  hasValidDailyIPSession(dateStr, currentIp, currentDeviceBrowser = '') {
     if (!this.dailyIpSession || !this.dailyIpSession.userName || !this.currentUser) {
       return false;
     }
@@ -47,10 +49,21 @@ class MistakeAnalyzer {
     if (this.dailyIpSession.date !== dateStr) {
       return false;
     }
+    // 檢驗機器與瀏覽器資訊（防止同家庭同 IP 但不同成員之裝置誤用同一學員）
+    if (currentDeviceBrowser && this.dailyIpSession.deviceBrowser) {
+      if (this.dailyIpSession.deviceBrowser !== currentDeviceBrowser) {
+        return false;
+      }
+    } else if (currentDeviceBrowser && !this.dailyIpSession.deviceBrowser) {
+      // 舊版 session 補登入目前裝置資訊
+      this.dailyIpSession.deviceBrowser = currentDeviceBrowser;
+      this.saveDailyIpSession(this.dailyIpSession.userName, dateStr, currentIp || this.dailyIpSession.ip, currentDeviceBrowser);
+    }
+
     // 若尚未偵測完 IP 或剛才登入時 IP 為 pending，先視為有效並補齊 IP
     if (!currentIp || this.dailyIpSession.ip === 'pending' || this.dailyIpSession.ip === 'Local-Client') {
       if (currentIp && this.dailyIpSession.ip === 'pending') {
-        this.saveDailyIpSession(this.dailyIpSession.userName, dateStr, currentIp);
+        this.saveDailyIpSession(this.dailyIpSession.userName, dateStr, currentIp, currentDeviceBrowser);
       }
       return true;
     }
@@ -131,7 +144,7 @@ class MistakeAnalyzer {
     }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   }
 
-  setCurrentUser(name, dateStr = '', ip = '') {
+  setCurrentUser(name, dateStr = '', ip = '', deviceBrowser = '') {
     const trimmed = String(name || '').trim();
     if (!trimmed || this.isAnonymous(trimmed)) {
       this.currentUser = 'anonymous';
@@ -143,7 +156,8 @@ class MistakeAnalyzer {
     }
     const effectiveDate = dateStr || (window.app && window.app.getTaiwanDateTime ? window.app.getTaiwanDateTime().dateStr : new Date().toISOString().slice(0, 10));
     const effectiveIp = ip || (window.app && window.app.currentVisitorIPInfo ? window.app.currentVisitorIPInfo.ip : 'pending');
-    this.saveDailyIpSession(this.currentUser, effectiveDate, effectiveIp);
+    const effectiveDeviceBrowser = deviceBrowser || (window.app && window.app.detectDeviceAndBrowser ? window.app.detectDeviceAndBrowser() : '');
+    this.saveDailyIpSession(this.currentUser, effectiveDate, effectiveIp, effectiveDeviceBrowser);
     try {
       localStorage.setItem(this.currentUserKey, this.currentUser);
       localStorage.setItem(this.multiUserStorageKey, JSON.stringify(this.usersMap));
