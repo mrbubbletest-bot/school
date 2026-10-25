@@ -179,6 +179,21 @@ body {
   color: #fff;
 }
 
+.visitor-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(135deg, #FCE7F3, #EDE9FE);
+  color: #9D174D;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid rgba(236, 72, 153, 0.3);
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.12);
+  white-space: nowrap;
+}
+
 .streak-badge {
   display: flex;
   align-items: center;
@@ -191,6 +206,7 @@ body {
   font-weight: 700;
   border: 1px solid rgba(245, 158, 11, 0.3);
   box-shadow: 0 2px 8px rgba(245, 158, 11, 0.15);
+  white-space: nowrap;
 }
 
 /* Container */

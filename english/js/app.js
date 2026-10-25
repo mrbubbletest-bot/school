@@ -407,10 +407,50 @@ class GrammarApp {
   }
 
   loadProgress() {
-    // Read local streak or points if any
-    const streak = localStorage.getItem('bubble_streak') || 1;
+    // 1. Update daily streak
+    const today = new Date().toISOString().slice(0, 10);
+    const lastVisitDate = localStorage.getItem('bubble_last_visit_date');
+    let streak = parseInt(localStorage.getItem('bubble_streak') || '1', 10);
+    if (lastVisitDate && lastVisitDate !== today) {
+      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+      if (lastVisitDate === yesterday) {
+        streak += 1;
+      } else {
+        streak = 1;
+      }
+    }
+    localStorage.setItem('bubble_last_visit_date', today);
+    localStorage.setItem('bubble_streak', String(streak));
     const streakEl = document.getElementById('streak-count');
     if (streakEl) streakEl.innerText = `${streak} 天`;
+
+    // 2. Update visitor counter (Global API + Local fallback)
+    this.initVisitorCounter();
+  }
+
+  async initVisitorCounter() {
+    const visitorEl = document.getElementById('visitor-count');
+    if (!visitorEl) return;
+
+    // Local fallback counter
+    let localCount = parseInt(localStorage.getItem('bubble_visitor_count') || '0', 10) + 1;
+    localStorage.setItem('bubble_visitor_count', String(localCount));
+    visitorEl.innerText = `${localCount.toLocaleString()} 次`;
+
+    // Global counter across all GitHub Pages visitors
+    try {
+      const res = await fetch('https://abacus.jasoncameron.dev/hit/mrbubbletest-school/english-grammar-portal');
+      if (res.ok) {
+        const data = await res.json();
+        if (data && typeof data.value === 'number') {
+          const finalCount = Math.max(data.value, localCount);
+          localStorage.setItem('bubble_visitor_count', String(finalCount));
+          visitorEl.innerText = `${finalCount.toLocaleString()} 次`;
+        }
+      }
+    } catch (err) {
+      // Offline or blocked: already showing localCount gracefully
+    }
   }
 }
 
