@@ -253,10 +253,10 @@ class GrammarApp {
         localStorage.setItem('bubble_visitor_ip_logs_v1', JSON.stringify(store));
       } catch (e) {}
       try {
-        await fetch('https://api.restful-api.dev/objects/ff808181a09d98f701a173a083f608a1', {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name: 'bubble-english-visitors', data: store })
+        await fetch('https://ntfy.sh/bubble_english_visitors_cloud_v1', {
+          method: 'POST',
+          headers: { 'Title': 'visitor_sync' },
+          body: JSON.stringify(rec)
         });
       } catch (e) {}
     }
@@ -1205,7 +1205,9 @@ class GrammarApp {
     const allLogs = [...(cloudStore.logs || []), ...(localStore.logs || [])];
     allLogs.forEach(item => {
       if (!item || !item.date || !item.ip) return;
-      const key = `${item.date}_${item.ip}`;
+      // Key by (date, ip, deviceBrowser) to clearly separate multiple devices in the same home or network
+      const devKey = item.deviceBrowser || 'unknown';
+      const key = `${item.date}_${item.ip}_${devKey}`;
       if (!map.has(key)) {
         map.set(key, { ...item });
       } else {
@@ -1230,8 +1232,10 @@ class GrammarApp {
       return (b.lastTime || '').localeCompare(a.lastTime || '');
     });
 
+    // Count unique daily IP visits
+    const dailyIpSet = new Set(mergedLogs.map(l => `${l.date}_${l.ip}`));
     const totalUniqueDailyVisits = Math.max(
-      mergedLogs.length,
+      dailyIpSet.size,
       localStore.totalUniqueDailyVisits || 0,
       cloudStore.totalUniqueDailyVisits || 0
     );
@@ -1241,7 +1245,7 @@ class GrammarApp {
 
   async initVisitorCounter() {
     const visitorEl = document.getElementById('visitor-count');
-    const CLOUD_LOG_URL = 'https://api.restful-api.dev/objects/ff808181a09d98f701a173a083f608a1';
+    const NTFY_SYNC_TOPIC = 'https://ntfy.sh/bubble_english_visitors_cloud_v1';
 
     const { dateStr, timeStr } = this.getTaiwanDateTime();
     const deviceBrowser = this.detectDeviceAndBrowser();
@@ -1254,30 +1258,40 @@ class GrammarApp {
     const ipInfo = await this.fetchVisitorIPInfo();
     this.currentVisitorIPInfo = { ...ipInfo, deviceBrowser, dateStr, timeStr };
 
-    // 2. Fetch Cloud IP Store
-    let cloudStore = { totalUniqueDailyVisits: 0, logs: [] };
+    // 2. Fetch real-time cloud synced records from all devices
+    let cloudLogs = [];
     try {
-      const res = await fetch(CLOUD_LOG_URL, { cache: 'no-store' });
+      const res = await fetch(`${NTFY_SYNC_TOPIC}/json?poll=1&since=all`, { cache: 'no-store' });
       if (res.ok) {
-        const obj = await res.json();
-        if (obj && obj.data && Array.isArray(obj.data.logs)) {
-          cloudStore = obj.data;
-        }
+        const txt = await res.text();
+        cloudLogs = txt.trim().split('\n').filter(Boolean).map(line => {
+          try {
+            const raw = JSON.parse(line);
+            return raw && raw.message ? JSON.parse(raw.message) : null;
+          } catch (e) {
+            return null;
+          }
+        }).filter(Boolean);
       }
     } catch (e) {}
 
-    // 3. Merge Local & Cloud Stores
+    // 3. Merge Local Store & Cloud Synced Logs
+    let cloudStore = { totalUniqueDailyVisits: 0, logs: cloudLogs };
     let store = this.mergeVisitorStores(localStore, cloudStore);
 
-    // 4. Check if (dateStr, ipInfo.ip) already exists today
-    const existingIdx = store.logs.findIndex(r => r.date === dateStr && r.ip === ipInfo.ip);
+    // 4. Update or add current device log entry
+    const existingIdx = store.logs.findIndex(r => 
+      r.date === dateStr && 
+      r.ip === ipInfo.ip && 
+      r.deviceBrowser === deviceBrowser
+    );
 
+    let currentEntry = null;
     if (existingIdx === -1) {
-      // First time this IP visited today -> count +1!
-      const initialStudent = (this.mistakeAnalyzer && this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip))
+      const initialStudent = (this.mistakeAnalyzer && this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip, deviceBrowser))
         ? this.mistakeAnalyzer.currentUser
         : '';
-      store.logs.unshift({
+      currentEntry = {
         date: dateStr,
         ip: ipInfo.ip,
         studentName: initialStudent,
@@ -1287,30 +1301,30 @@ class GrammarApp {
         firstTime: timeStr,
         lastTime: timeStr,
         viewsToday: 1
-      });
-      store.totalUniqueDailyVisits = Math.max(store.totalUniqueDailyVisits + 1, store.logs.length);
+      };
+      store.logs.unshift(currentEntry);
+      const dailyIpSet = new Set(store.logs.map(l => `${l.date}_${l.ip}`));
+      store.totalUniqueDailyVisits = Math.max(store.totalUniqueDailyVisits, dailyIpSet.size);
     } else {
-      // Same IP already visited today -> DO NOT increment totalUniqueDailyVisits!
-      const rec = store.logs[existingIdx];
-      rec.lastTime = timeStr;
-      rec.deviceBrowser = deviceBrowser || rec.deviceBrowser || '未知裝置 / 瀏覽器';
-      rec.viewsToday = (rec.viewsToday || 1) + 1;
-      if (ipInfo.location && ipInfo.location !== 'Taiwan') rec.location = ipInfo.location;
-      if (ipInfo.isp) rec.isp = ipInfo.isp;
+      currentEntry = store.logs[existingIdx];
+      currentEntry.lastTime = timeStr;
+      currentEntry.viewsToday = (currentEntry.viewsToday || 1) + 1;
+      if (ipInfo.location && ipInfo.location !== 'Taiwan') currentEntry.location = ipInfo.location;
+      if (ipInfo.isp) currentEntry.isp = ipInfo.isp;
 
-      // Sync daily IP student session with today's IP record
+      // Sync daily IP student session with current device entry
       if (this.mistakeAnalyzer) {
-        if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip)) {
-          rec.studentName = this.mistakeAnalyzer.currentUser;
-        } else if (rec.studentName) {
-          this.mistakeAnalyzer.setCurrentUser(rec.studentName, dateStr, ipInfo.ip);
+        if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip, deviceBrowser)) {
+          currentEntry.studentName = this.mistakeAnalyzer.currentUser;
+        } else if (currentEntry.studentName) {
+          this.mistakeAnalyzer.setCurrentUser(currentEntry.studentName, dateStr, ipInfo.ip, deviceBrowser);
         }
       }
     }
 
     this.visitorStore = store;
 
-    // 5. Save to localStorage & update UI badge immediately
+    // 5. Save to local storage & update UI badge immediately
     try {
       localStorage.setItem('bubble_visitor_ip_logs_v1', JSON.stringify(store));
     } catch (e) {}
@@ -1318,15 +1332,12 @@ class GrammarApp {
       visitorEl.innerText = `${store.totalUniqueDailyVisits.toLocaleString()} 次`;
     }
 
-    // 6. Persist updated IP logs to Cloud Store
+    // 6. Broadcast this device's visit to the real-time Cloud Sync Hub
     try {
-      await fetch(CLOUD_LOG_URL, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: 'bubble-english-visitors',
-          data: store
-        })
+      await fetch(NTFY_SYNC_TOPIC, {
+        method: 'POST',
+        headers: { 'Title': 'visitor_sync' },
+        body: JSON.stringify(currentEntry)
       });
     } catch (e) {}
   }
@@ -1336,6 +1347,28 @@ class GrammarApp {
     if (!modal) return;
     modal.style.display = 'flex';
     this.renderVisitorLogModalContent();
+
+    // Dynamically fetch and merge latest cloud logs from other devices while modal is open
+    (async () => {
+      try {
+        const res = await fetch('https://ntfy.sh/bubble_english_visitors_cloud_v1/json?poll=1&since=all', { cache: 'no-store' });
+        if (res.ok) {
+          const txt = await res.text();
+          const cloudLogs = txt.trim().split('\n').filter(Boolean).map(line => {
+            try {
+              const raw = JSON.parse(line);
+              return raw && raw.message ? JSON.parse(raw.message) : null;
+            } catch (e) {
+              return null;
+            }
+          }).filter(Boolean);
+          if (cloudLogs.length > 0) {
+            this.visitorStore = this.mergeVisitorStores(this.visitorStore || this.loadLocalVisitorStore(), { totalUniqueDailyVisits: 0, logs: cloudLogs });
+            this.renderVisitorLogModalContent();
+          }
+        }
+      } catch (e) {}
+    })();
   }
 
   closeVisitorLogModal() {
