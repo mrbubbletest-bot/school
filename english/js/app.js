@@ -330,9 +330,11 @@ class GrammarApp {
     // Top Nav buttons
     document.querySelectorAll('.nav-link, .mobile-nav-item').forEach(btn => {
       btn.addEventListener('click', (e) => {
-        e.preventDefault();
         const view = btn.getAttribute('data-view');
-        if (view) this.navigateTo(view);
+        if (view) {
+          e.preventDefault();
+          this.navigateTo(view);
+        }
       });
     });
 
