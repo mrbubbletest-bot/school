@@ -330,10 +330,17 @@ class GrammarApp {
 
     questions.forEach((q, qIdx) => {
       const qKey = `gen_q_${qIdx}`;
+      const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
+      const levelColors = {
+        1: { bg: '#DCFCE7', text: '#15803D', label: '🟢 Level 1 基礎' },
+        2: { bg: '#FEF3C7', text: '#B45309', label: '🟡 Level 2 進階' },
+        3: { bg: '#F3E8FF', text: '#6D28D9', label: '🟣 Level 3 資優' }
+      };
+      const lvl = levelColors[q.level] || levelColors[2];
       const optionsHtml = q.options.map((opt, optIdx) => `
         <button class="option-btn" data-key="${qKey}" data-index="${optIdx}" onclick="window.app.handleGeneratorAnswer('${qKey}', ${optIdx}, ${q.answer})">
           <span class="option-letter">${letters[optIdx]}</span>
-          <span class="option-text">${opt}</span>
+          <span class="option-text">${fmt(opt)}</span>
         </button>
       `).join('');
 
@@ -342,8 +349,9 @@ class GrammarApp {
           <div class="question-meta">
             <span class="question-num-tag">題號 ${qIdx + 1}</span>
             <span class="question-section-tag">單元：第 ${q.chapterId || 1} 章 · ${q.topic || '文法演練'}</span>
+            <span class="question-section-tag" style="background: ${lvl.bg}; color: ${lvl.text};">${lvl.label}</span>
           </div>
-          <div class="question-text">${q.q}</div>
+          <div class="question-text">${fmt(q.q)}</div>
           <div class="options-grid" id="options-${qKey}">
             ${optionsHtml}
           </div>
@@ -352,8 +360,8 @@ class GrammarApp {
               <i class="fa-solid fa-lightbulb" style="color: #F59E0B;"></i>
               <span>資優解析與中譯</span>
             </div>
-            ${q.zh ? `<div class="explain-translation"><strong>中譯：</strong>${q.zh}</div>` : ''}
-            <div class="explain-body">${q.explain || '本題考查核心語法規則。'}</div>
+            ${q.zh ? `<div class="explain-translation"><strong>中譯：</strong>${fmt(q.zh)}</div>` : ''}
+            <div class="explain-body">${fmt(q.explain || '本題考查核心語法規則。')}</div>
           </div>
         </div>
       `;

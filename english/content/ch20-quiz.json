@@ -448,7 +448,7 @@
           "options": ["knew to", "knew how", "knew how that", "knew how to"],
           "answer": 1,
           "zh": "喬治知道如何能使他的考試成績提高，但他沒有足夠的時間去研讀。",
-          "explain": "【說明】① how 為疑問副詞，引導名詞子句，作 knew 的受詞。\n② (A) knew 之後的 to 不能作連詞。(C) how 為從屬連詞，不必再接 that。(D) how to 之後要接原形動詞。"
+          "explain": "【說明】① how 為疑問副詞，引導名詞子句，作 knew 的受詞。\n② (A) knew 之後的 to 不能作連接詞。(C) how 為從屬連接詞，不必再接 that。(D) how to 之後要接原形動詞。"
         },
         {
           "no": 19,
@@ -649,7 +649,7 @@
           "options": ["that make", "that they make", "that makes", "that it makes"],
           "answer": 2,
           "zh": "使他事業成功的不是他的聰明而是他的勤奮。",
-          "explain": "【說明】① ...not... but his diligence [that makes him...]\n② 關係代名詞 that 作連詞及主詞用（分裂句強調節奏，diligence 為不可數名詞，動詞用 makes）。"
+          "explain": "【說明】① ...not... but his diligence [that makes him...]\n② 關係代名詞 that 作連接詞及主詞用（分裂句強調節奏，diligence 為不可數名詞，動詞用 makes）。"
         },
         {
           "no": 15,
@@ -667,7 +667,7 @@
           "options": ["so that", "such as", "that", "as"],
           "answer": 3,
           "zh": "你必須幫我解決困難，因為你是我的朋友。",
-          "explain": "【說明】as 在此作「連詞」用，表示「因為；由於」。"
+          "explain": "【說明】as 在此作「連接詞」用，表示「因為；由於」。"
         },
         {
           "no": 17,
@@ -676,7 +676,7 @@
           "options": ["why", "where", "when", "which"],
           "answer": 2,
           "zh": "當然，春天是花兒盛開的季節。",
-          "explain": "【說明】when 為關係副詞，表示時間。關係副詞 where, when, why 只作連詞用，不可兼作 S 或 O。"
+          "explain": "【說明】when 為關係副詞，表示時間。關係副詞 where, when, why 只作連接詞用，不可兼作 S 或 O。"
         },
         {
           "no": 18,
@@ -922,7 +922,7 @@
           "options": ["otherwise", "therefore", "moreover", "according"],
           "answer": 1,
           "zh": "他健康不佳，因此他無法上學。",
-          "explain": "【說明】therefore, moreover, otherwise, accordingly, consequently, furthermore 等詞為副詞，又兼具有連詞的轉折作用，前面常用分號「;」隔開。"
+          "explain": "【說明】therefore, moreover, otherwise, accordingly, consequently, furthermore 等詞為副詞，又兼具有連接詞的轉折作用，前面常用分號「;」隔開。"
         },
         {
           "no": 19,
@@ -1210,7 +1210,7 @@
           "options": ["So", "As", "For", "And"],
           "answer": 0,
           "zh": "所以，就這樣，來自太陽的能量被傳送給「次級消費者」。",
-          "explain": "【說明】So（所以），表示結果之連詞。"
+          "explain": "【說明】So（所以），表示結果之連接詞。"
         },
         {
           "no": 10,

@@ -23,6 +23,7 @@ class GrammarReader {
     if (!this.synth) return;
     this.synth.cancel();
     const cleanText = text.replace(/[*_#`~⟦⟧]/g, '').trim();
+    if (!cleanText) return;
     const utter = new SpeechSynthesisUtterance(cleanText);
     utter.lang = 'en-US';
     utter.rate = 0.9; // Slightly slower for clear junior-high learning
@@ -94,31 +95,111 @@ class GrammarReader {
     }
   }
 
+  fixCjkBold(text) {
+    // Prevents CommonMark delimiter bugs when **bold** touches CJK punctuation like 「...」 or （...）
+    return text.split(/(`[^`\n]+`)/g).map((part, idx) => {
+      if (idx % 2 === 1) return part;
+      return part.replace(/\*\*([^*\n]+?)\*\*/g, '<strong>$1</strong>');
+    }).join('');
+  }
+
+  classifyExampleLine(line) {
+    const t = line.trim();
+    if (/^➜/.test(t)) return 'hint';
+    const withoutParens = t.replace(/[（(〔\[][^）)〕\]]*[）)〕\]]/g, '');
+    const hasChineseOutsideParens = /[\u4e00-\u9fff]/.test(withoutParens);
+    if (!hasChineseOutsideParens) {
+      return 'en';
+    }
+    return 'zh';
+  }
+
+  renderCalloutBox(type, title, innerHtml) {
+    type = (type || 'note').toLowerCase();
+    title = (title || '').trim();
+    if (type === 'example') {
+      return `<div class="callout example">${innerHtml}</div>`;
+    }
+    let icon = '💡';
+    let defaultTitle = '說明';
+    if (type === 'warn') { icon = '⚠️'; defaultTitle = '重點注意'; }
+    if (type === 'tip') { icon = '⭐'; defaultTitle = '老師私房記憶法'; }
+    if (type === 'formula') { icon = '📐'; defaultTitle = '核心動詞句型公式'; }
+
+    const headerHtml = title
+      ? `<div class="callout-title">${icon} ${this.fixCjkBold(title)}</div>`
+      : `<div class="callout-title">${icon} ${defaultTitle}</div>`;
+    return `<div class="callout ${type}">${headerHtml}${innerHtml}</div>`;
+  }
+
   preprocessAndParse(md) {
-    // 1. Process custom containers: :::type title ... :::
-    let processed = md.replace(/:::(\w+)(?:[ \t]+([^\n\r]*))?[\r\n]+([\s\S]*?)[\r\n]+:::/g, (match, type, title, content) => {
-      type = type.toLowerCase();
-      title = (title || '').trim();
+    const tokens = [];
+    const saveToken = (html) => {
+      const id = `@@CALLOUT_TOKEN_${tokens.length}@@`;
+      tokens.push({ id, html });
+      return `\n\n${id}\n\n`;
+    };
 
-      if (type === 'example') {
-        // Special formatting for examples
-        const parsedExamples = this.formatExampleBlock(content);
-        return `<div class="callout example">${parsedExamples}</div>`;
+    // Parse ::: callout containers using a stack + token replacement
+    // so that multi-line HTML or nested callouts never trigger CommonMark's 4-space code block rule
+    const lines = md.split(/\r?\n/);
+    const stack = [];
+    const outLines = [];
+
+    const flushFrame = (frame) => {
+      const rawBody = frame.lines.join('\n').trim();
+      let html = '';
+      if (frame.type.toLowerCase() === 'example') {
+        html = this.renderCalloutBox('example', frame.title, this.formatExampleBlock(rawBody));
+      } else {
+        const bodyHtml = marked.parse(this.fixCjkBold(rawBody));
+        html = this.renderCalloutBox(frame.type, frame.title, bodyHtml);
       }
+      const tokenStr = saveToken(html);
+      if (stack.length > 0) {
+        stack[stack.length - 1].lines.push(tokenStr);
+      } else {
+        outLines.push(tokenStr);
+      }
+    };
 
-      let icon = '💡';
-      let defaultTitle = '說明';
-      if (type === 'warn') { icon = '⚠️'; defaultTitle = '重點注意'; }
-      if (type === 'tip') { icon = '⭐'; defaultTitle = '老師私房記憶法'; }
-      if (type === 'formula') { icon = '📐'; defaultTitle = '核心動詞句型公式'; }
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const trimmed = line.trim();
+      const openMatch = trimmed.match(/^:::([a-zA-Z]+)(?:[ \t]+(.*))?$/);
+      if (openMatch) {
+        stack.push({ type: openMatch[1], title: openMatch[2] || '', lines: [] });
+      } else if (trimmed === ':::') {
+        if (stack.length > 0) {
+          const frame = stack.pop();
+          flushFrame(frame);
+        }
+      } else {
+        if (stack.length > 0) {
+          stack[stack.length - 1].lines.push(line);
+        } else {
+          outLines.push(line);
+        }
+      }
+    }
 
-      const headerHtml = title ? `<div class="callout-title">${icon} ${title}</div>` : `<div class="callout-title">${icon} ${defaultTitle}</div>`;
-      const bodyHtml = marked.parse(content);
-      return `<div class="callout ${type}">${headerHtml}${bodyHtml}</div>`;
-    });
+    while (stack.length > 0) {
+      flushFrame(stack.pop());
+    }
 
-    // 2. Parse standard markdown
-    return marked.parse(processed);
+    let finalHtml = marked.parse(this.fixCjkBold(outLines.join('\n')));
+
+    // Restore callout tokens from innermost/latest to outermost
+    for (let i = tokens.length - 1; i >= 0; i--) {
+      const { id, html } = tokens[i];
+      finalHtml = finalHtml.replace(new RegExp(`<p>\\s*${id}\\s*</p>`, 'g'), html);
+      finalHtml = finalHtml.replace(new RegExp(id, 'g'), html);
+    }
+
+    // Wrap tables in responsive container for mobile comfort
+    finalHtml = finalHtml.replace(/<table>/g, '<div class="table-responsive"><table>').replace(/<\/table>/g, '</table></div>');
+
+    return finalHtml;
   }
 
   formatExampleBlock(rawContent) {
@@ -127,27 +208,28 @@ class GrammarReader {
     return blocks.map(block => {
       const lines = block.split(/\r?\n/).map(l => l.trim()).filter(l => l);
       if (lines.length === 0) return '';
-      
-      const en = lines[0] || '';
-      const zh = lines[1] || '';
-      const notes = lines.slice(2).map(n => n.replace(/^➜\s*/, '')).join('<br>');
 
-      // Safe clean text for speech
-      const escapedEn = en.replace(/"/g, '&quot;');
-      const cleanEnForSpeech = en.replace(/[*_#`~]/g, '');
+      const innerRows = lines.map(line => {
+        const type = this.classifyExampleLine(line);
+        const safeLine = this.fixCjkBold(line);
+        if (type === 'en') {
+          const cleanEnForSpeech = line
+            .replace(/^[=＝⇒⇔→\s]+/, '')
+            .replace(/[（(〔\[][^）)〕\]]*[\u4e00-\u9fff○×✕✓✗][^）)〕\]]*[）)〕\]]/g, '')
+            .replace(/[*_#`~⟦⟧]/g, '')
+            .replace(/<\/?[^>]+>/g, '')
+            .replace(/"/g, '&quot;')
+            .trim();
+          return `<div class="example-en"><span>${marked.parseInline(safeLine)}</span><button class="btn-tts" data-speech="${cleanEnForSpeech}" title="點擊聆聽真人美式發音 🔊"><i class="fa-solid fa-volume-high"></i></button></div>`;
+        } else if (type === 'zh') {
+          return `<div class="example-zh">${marked.parseInline(safeLine)}</div>`;
+        } else {
+          const noteText = this.fixCjkBold(line.replace(/^➜\s*/, ''));
+          return `<div class="example-hint">➜ ${marked.parseInline(noteText)}</div>`;
+        }
+      }).join('');
 
-      return `
-        <div class="example-item">
-          <div class="example-en">
-            <span>${marked.parseInline(en)}</span>
-            <button class="btn-tts" data-speech="${escapedEn}" title="點擊聆聽真人美式發音 🔊">
-              <i class="fa-solid fa-volume-high"></i>
-            </button>
-          </div>
-          ${zh ? `<div class="example-zh">${zh}</div>` : ''}
-          ${notes ? `<div class="example-hint">➜ ${notes}</div>` : ''}
-        </div>
-      `;
+      return `<div class="example-item">${innerRows}</div>`;
     }).join('');
   }
 
