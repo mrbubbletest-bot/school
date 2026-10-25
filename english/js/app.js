@@ -83,20 +83,20 @@ class GrammarApp {
     if (view === 'reader') {
       this.reader.loadChapter(this.currentChapterId);
     } else if (view === 'quiz') {
-      // Prompt user for student name / Anonymous when entering quiz view
-      if (prevView !== 'quiz' || !this.mistakeAnalyzer.hasConfirmedIdentityInSession) {
+      // Only prompt once per (IP, Date); subsequent chapter quizzes on the same IP & same day reuse the student automatically
+      if (this.needsQuizIdentityPrompt()) {
         this.openQuizUserModal(() => {
           this.quizEngine.loadChapterQuiz(this.currentChapterId);
-        });
+        }, false);
       } else {
         this.quizEngine.loadChapterQuiz(this.currentChapterId);
       }
     } else if (view === 'generator') {
-      // Prompt user for student name / Anonymous when entering generator view
-      if (prevView !== 'generator' || !this.mistakeAnalyzer.hasConfirmedIdentityInSession) {
+      // Only prompt once per (IP, Date); subsequent quizzes on the same IP & same day reuse the student automatically
+      if (this.needsQuizIdentityPrompt()) {
         this.openQuizUserModal(() => {
           this.setupGeneratorView(this.currentChapterId);
-        });
+        }, false);
       } else {
         this.setupGeneratorView(this.currentChapterId);
       }
@@ -108,9 +108,36 @@ class GrammarApp {
     }
   }
 
-  openQuizUserModal(onConfirmed = null) {
+  needsQuizIdentityPrompt() {
+    if (!this.mistakeAnalyzer) return false;
+    const { dateStr } = this.getTaiwanDateTime();
+    const currentIp = (this.currentVisitorIPInfo && this.currentVisitorIPInfo.ip) ? this.currentVisitorIPInfo.ip : '';
+
+    // 1. Check if MistakeAnalyzer already has a valid (dateStr, currentIp) session
+    if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, currentIp)) {
+      return false;
+    }
+
+    // 2. Check if today's visitor IP log already recorded a studentName for this (dateStr, currentIp)
+    const store = this.visitorStore || this.loadLocalVisitorStore();
+    if (currentIp && store && Array.isArray(store.logs)) {
+      const todayRec = store.logs.find(r => r.date === dateStr && r.ip === currentIp && r.studentName);
+      if (todayRec && todayRec.studentName) {
+        this.mistakeAnalyzer.setCurrentUser(todayRec.studentName, dateStr, currentIp);
+        return false;
+      }
+    }
+
+    // Otherwise (first time today on this IP, or cross-day, or different IP) -> need prompt!
+    return true;
+  }
+
+  openQuizUserModal(onConfirmed = null, isManualSwitch = true) {
     this.pendingQuizUserCallback = onConfirmed;
+    this.canDismissQuizUserModal = isManualSwitch;
     const modal = document.getElementById('quiz-user-modal');
+    const titleEl = document.getElementById('quiz-user-modal-title');
+    const closeBtn = document.getElementById('quiz-user-modal-close-btn');
     const input = document.getElementById('quiz-user-name-input');
     const existingSection = document.getElementById('quiz-existing-users-section');
     const chipsContainer = document.getElementById('quiz-existing-users-chips');
@@ -119,9 +146,16 @@ class GrammarApp {
       return;
     }
 
+    if (titleEl) {
+      titleEl.innerText = isManualSwitch ? '切換作答學員 ／ 新增學員 🌸' : '今日首次測驗 · 請選擇或輸入學員姓名 🌸';
+    }
+    if (closeBtn) {
+      closeBtn.style.display = isManualSwitch ? 'inline-flex' : 'none';
+    }
+
     const curUser = this.mistakeAnalyzer ? this.mistakeAnalyzer.currentUser : '';
     if (input) {
-      input.value = (curUser && !this.mistakeAnalyzer.isAnonymous(curUser)) ? curUser : '';
+      input.value = '';
     }
 
     if (this.mistakeAnalyzer && existingSection && chipsContainer) {
@@ -132,8 +166,11 @@ class GrammarApp {
           const safeName = u.name.replace(/'/g, "\\'");
           const isCurrent = u.name === curUser;
           return `
-            <button class="btn-tool" style="font-size: 13px; padding: 6px 14px; border-radius: 99px; ${isCurrent ? 'background: var(--primary); color: #fff; border-color: var(--primary);' : 'background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);'}" onclick="window.app.selectQuizUser('${safeName}')">
-              <i class="fa-solid fa-user-check"></i> ${u.name} <span style="opacity: 0.85; font-size: 11.5px;">(${u.count} 題錯題)</span>
+            <button class="btn-tool" style="font-size: 13.5px; padding: 7px 15px; border-radius: 99px; ${isCurrent ? 'background: var(--primary); color: #fff; border-color: var(--primary); box-shadow: 0 3px 10px rgba(255,107,139,0.3);' : 'background: #fff; color: var(--primary-dark); border-color: rgba(255,107,139,0.45);'}" onclick="window.app.selectQuizUser('${safeName}')">
+              <i class="fa-solid ${isCurrent ? 'fa-user-check' : 'fa-user-graduate'}"></i>
+              <span>${u.name}</span>
+              <span style="opacity: 0.85; font-size: 11.5px;">(${u.count} 題錯題)</span>
+              ${isCurrent ? '<span style="font-size: 10.5px; background: rgba(255,255,255,0.25); padding: 1px 6px; border-radius: 99px; margin-left: 2px;">目前使用</span>' : ''}
             </button>
           `;
         }).join('');
@@ -148,11 +185,17 @@ class GrammarApp {
     }, 80);
   }
 
+  closeQuizUserModal() {
+    const modal = document.getElementById('quiz-user-modal');
+    if (modal) modal.style.display = 'none';
+    this.pendingQuizUserCallback = null;
+  }
+
   confirmQuizUserFromInput() {
     const input = document.getElementById('quiz-user-name-input');
     const val = input ? input.value.trim() : '';
     if (!val) {
-      alert('請輸入您的名字或暱稱，若不想記錄錯題請點擊下方「Anonymous 匿名測驗」喔！🌸');
+      alert('請輸入您的名字或點選上方已儲存的學員名字；若不想記錄錯題請點擊下方「Anonymous 匿名測驗」喔！🌸');
       if (input) input.focus();
       return;
     }
@@ -160,9 +203,16 @@ class GrammarApp {
   }
 
   selectQuizUser(name) {
+    const { dateStr } = this.getTaiwanDateTime();
+    const currentIp = (this.currentVisitorIPInfo && this.currentVisitorIPInfo.ip) ? this.currentVisitorIPInfo.ip : 'pending';
+
     if (this.mistakeAnalyzer) {
-      this.mistakeAnalyzer.setCurrentUser(name);
+      this.mistakeAnalyzer.setCurrentUser(name, dateStr, currentIp);
     }
+
+    // Bind studentName to today's (dateStr, currentIp) visitor record as well
+    this.bindStudentNameToTodayIP(this.mistakeAnalyzer ? this.mistakeAnalyzer.currentUser : name, dateStr, currentIp);
+
     const modal = document.getElementById('quiz-user-modal');
     if (modal) modal.style.display = 'none';
 
@@ -174,6 +224,27 @@ class GrammarApp {
       const cb = this.pendingQuizUserCallback;
       this.pendingQuizUserCallback = null;
       cb();
+    }
+  }
+
+  async bindStudentNameToTodayIP(studentName, dateStr, ip) {
+    if (!ip || ip === 'pending') return;
+    const store = this.visitorStore || this.loadLocalVisitorStore();
+    if (!store || !Array.isArray(store.logs)) return;
+    const rec = store.logs.find(r => r.date === dateStr && r.ip === ip);
+    if (rec) {
+      rec.studentName = studentName;
+      this.visitorStore = store;
+      try {
+        localStorage.setItem('bubble_visitor_ip_logs_v1', JSON.stringify(store));
+      } catch (e) {}
+      try {
+        await fetch('https://api.restful-api.dev/objects/ff808181a09d98f701a173a083f608a1', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: 'bubble-english-visitors', data: store })
+        });
+      } catch (e) {}
     }
   }
 
@@ -1045,6 +1116,7 @@ class GrammarApp {
         map.set(key, {
           date: item.date,
           ip: item.ip,
+          studentName: item.studentName || prev.studentName || '',
           deviceBrowser: item.deviceBrowser || prev.deviceBrowser || '未知裝置 / 瀏覽器',
           location: item.location || prev.location || 'Taiwan',
           isp: item.isp || prev.isp || '',
@@ -1105,9 +1177,13 @@ class GrammarApp {
 
     if (existingIdx === -1) {
       // First time this IP visited today -> count +1!
+      const initialStudent = (this.mistakeAnalyzer && this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip))
+        ? this.mistakeAnalyzer.currentUser
+        : '';
       store.logs.unshift({
         date: dateStr,
         ip: ipInfo.ip,
+        studentName: initialStudent,
         deviceBrowser,
         location: ipInfo.location,
         isp: ipInfo.isp,
@@ -1124,6 +1200,15 @@ class GrammarApp {
       rec.viewsToday = (rec.viewsToday || 1) + 1;
       if (ipInfo.location && ipInfo.location !== 'Taiwan') rec.location = ipInfo.location;
       if (ipInfo.isp) rec.isp = ipInfo.isp;
+
+      // Sync daily IP student session with today's IP record
+      if (this.mistakeAnalyzer) {
+        if (this.mistakeAnalyzer.hasValidDailyIPSession(dateStr, ipInfo.ip)) {
+          rec.studentName = this.mistakeAnalyzer.currentUser;
+        } else if (rec.studentName) {
+          this.mistakeAnalyzer.setCurrentUser(rec.studentName, dateStr, ipInfo.ip);
+        }
+      }
     }
 
     this.visitorStore = store;

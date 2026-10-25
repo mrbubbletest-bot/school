@@ -7,9 +7,55 @@ class MistakeAnalyzer {
     this.storageKey = 'bubble_mistake_records_v1';
     this.multiUserStorageKey = 'bubble_multiuser_mistakes_v2';
     this.currentUserKey = 'bubble_current_quiz_user';
+    this.dailyIpSessionKey = 'bubble_quiz_daily_ip_session_v1';
     this.usersMap = this.loadUsersMap();
-    this.currentUser = localStorage.getItem(this.currentUserKey) || '';
-    this.hasConfirmedIdentityInSession = false;
+    this.dailyIpSession = this.loadDailyIpSession();
+    this.currentUser = (this.dailyIpSession && this.dailyIpSession.userName) || localStorage.getItem(this.currentUserKey) || '';
+  }
+
+  loadDailyIpSession() {
+    try {
+      const raw = localStorage.getItem(this.dailyIpSessionKey);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.userName && parsed.date) return parsed;
+      }
+    } catch (e) {}
+    return null;
+  }
+
+  saveDailyIpSession(userName, dateStr, ip) {
+    this.dailyIpSession = {
+      userName,
+      date: dateStr || new Date().toISOString().slice(0, 10),
+      ip: ip || (this.dailyIpSession && this.dailyIpSession.ip) || 'pending'
+    };
+    try {
+      localStorage.setItem(this.dailyIpSessionKey, JSON.stringify(this.dailyIpSession));
+    } catch (e) {}
+  }
+
+  /**
+   * 檢查目前 (日期, IP) 是否已在當日登入過學員身分：
+   * 同 IP 同日內僅需登入一次，跨日或更換 IP 才需重新詢問。
+   */
+  hasValidDailyIPSession(dateStr, currentIp) {
+    if (!this.dailyIpSession || !this.dailyIpSession.userName || !this.currentUser) {
+      return false;
+    }
+    // 跨日必須重新詢問
+    if (this.dailyIpSession.date !== dateStr) {
+      return false;
+    }
+    // 若尚未偵測完 IP 或剛才登入時 IP 為 pending，先視為有效並補齊 IP
+    if (!currentIp || this.dailyIpSession.ip === 'pending' || this.dailyIpSession.ip === 'Local-Client') {
+      if (currentIp && this.dailyIpSession.ip === 'pending') {
+        this.saveDailyIpSession(this.dailyIpSession.userName, dateStr, currentIp);
+      }
+      return true;
+    }
+    // 不同 IP 必須重新詢問
+    return this.dailyIpSession.ip === currentIp;
   }
 
   isAnonymous(name = this.currentUser) {
@@ -85,7 +131,7 @@ class MistakeAnalyzer {
     }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   }
 
-  setCurrentUser(name) {
+  setCurrentUser(name, dateStr = '', ip = '') {
     const trimmed = String(name || '').trim();
     if (!trimmed || this.isAnonymous(trimmed)) {
       this.currentUser = 'anonymous';
@@ -95,7 +141,9 @@ class MistakeAnalyzer {
         this.usersMap[this.currentUser] = [];
       }
     }
-    this.hasConfirmedIdentityInSession = true;
+    const effectiveDate = dateStr || (window.app && window.app.getTaiwanDateTime ? window.app.getTaiwanDateTime().dateStr : new Date().toISOString().slice(0, 10));
+    const effectiveIp = ip || (window.app && window.app.currentVisitorIPInfo ? window.app.currentVisitorIPInfo.ip : 'pending');
+    this.saveDailyIpSession(this.currentUser, effectiveDate, effectiveIp);
     try {
       localStorage.setItem(this.currentUserKey, this.currentUser);
       localStorage.setItem(this.multiUserStorageKey, JSON.stringify(this.usersMap));
