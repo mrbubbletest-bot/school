@@ -10,6 +10,10 @@ class GrammarApp {
     this.quizEngine = new QuizEngine();
     this.generator = new InfiniteGenerator();
     this.aiTutor = new AIGrammarTutor();
+    this.mistakeAnalyzer = new MistakeAnalyzer();
+    this.currentGeneratorQuestionsMap = {};
+    this.currentBlindSpotQuestionsMap = {};
+    this.blindSpotUserAnswers = {};
     this.init();
   }
 
@@ -19,6 +23,9 @@ class GrammarApp {
     this.bindEvents();
     this.initMascotMotivation();
     this.loadProgress();
+    if (this.mistakeAnalyzer) {
+      this.mistakeAnalyzer.syncToggleUI();
+    }
 
     // Check hash for direct route (e.g. #chapter-2, #quiz-2)
     this.handleRouteHash();
@@ -38,6 +45,8 @@ class GrammarApp {
       this.navigateTo('quiz', parseInt(param));
     } else if (view === 'generator') {
       this.navigateTo('generator', param ? parseInt(param) : 'all');
+    } else if (view === 'mistakes') {
+      this.navigateTo('mistakes');
     } else if (view === 'ai') {
       this.navigateTo('ai-tutor');
     } else {
@@ -65,6 +74,10 @@ class GrammarApp {
       }
     });
 
+    if (this.mistakeAnalyzer) {
+      this.mistakeAnalyzer.syncToggleUI();
+    }
+
     // View specific initialization
     if (view === 'reader') {
       this.reader.loadChapter(this.currentChapterId);
@@ -72,6 +85,9 @@ class GrammarApp {
       this.quizEngine.loadChapterQuiz(this.currentChapterId);
     } else if (view === 'generator') {
       this.setupGeneratorView(this.currentChapterId);
+    } else if (view === 'mistakes') {
+      this.renderMistakesView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else if (view === 'home') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -318,6 +334,7 @@ class GrammarApp {
       return;
     }
 
+    this.currentGeneratorQuestionsMap = {};
     const letters = ['A', 'B', 'C', 'D'];
     let html = `
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
@@ -330,6 +347,7 @@ class GrammarApp {
 
     questions.forEach((q, qIdx) => {
       const qKey = `gen_q_${qIdx}`;
+      this.currentGeneratorQuestionsMap[qKey] = q;
       const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
       const levelColors = {
         1: { bg: '#DCFCE7', text: '#15803D', label: '🟢 Level 1 基礎' },
@@ -387,6 +405,307 @@ class GrammarApp {
 
     if (selectedIndex === correctIndex) {
       this.generator.score++;
+    } else if (this.mistakeAnalyzer && this.mistakeAnalyzer.recordEnabled) {
+      const qObj = this.currentGeneratorQuestionsMap[qKey];
+      if (qObj) {
+        const recorded = this.mistakeAnalyzer.recordMistake({
+          chapterId: qObj.chapterId || 1,
+          topic: qObj.topic || '無限題庫演練',
+          q: qObj.q,
+          options: qObj.options || [],
+          userWrongIndex: selectedIndex,
+          correctIndex: correctIndex,
+          zh: qObj.zh || '',
+          explain: qObj.explain || ''
+        });
+        if (recorded && explainCard) {
+          const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
+          const diagBox = document.createElement('div');
+          diagBox.className = 'blindspot-inline-alert';
+          diagBox.innerHTML = `
+            <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
+              <span style="font-weight:800; color:#BE185D; font-size:13.5px;">
+                <i class="fa-solid fa-brain"></i> 已記錄至錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
+              </span>
+              <button class="btn-tool" style="font-size:11.5px; padding:2px 8px;" onclick="window.app.navigateTo('mistakes')">
+                前往盲點特訓 →
+              </button>
+            </div>
+            <div style="font-size:13px; color:#831843; line-height:1.6;">
+              ❌ 妳誤選了 <strong>${fmt(recorded.userWrongText)}</strong> vs. ✅ 正解 <strong>${fmt(recorded.correctText)}</strong><br>
+              🔍 <strong>盲點分析：</strong>${fmt(recorded.blindSpot.diagnosis)}
+            </div>
+          `;
+          explainCard.appendChild(diagBox);
+        }
+      }
+    }
+
+    if (explainCard) explainCard.classList.add('show');
+  }
+
+  renderMistakesView() {
+    if (!this.mistakeAnalyzer) return;
+    const reportContainer = document.getElementById('blindspot-analysis-report');
+    const listContainer = document.getElementById('mistake-records-list');
+    if (!reportContainer || !listContainer) return;
+
+    const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
+    const analysis = this.mistakeAnalyzer.analyzeAllBlindSpots();
+    const mistakes = this.mistakeAnalyzer.mistakes || [];
+
+    if (mistakes.length === 0) {
+      reportContainer.innerHTML = `
+        <div style="text-align: center; padding: 48px 24px; background: #fff; border-radius: 20px; border: 1px solid var(--border-card); box-shadow: var(--shadow-soft);">
+          <div style="font-size: 46px; margin-bottom: 12px;">🎉</div>
+          <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 8px;">目前還沒有任何錯題紀錄喔！</h3>
+          <p style="font-size: 14px; color: var(--text-muted); max-width: 540px; margin: 0 auto 20px;">
+            當妳在「實力診斷」或「無限題庫」勾選<strong>「📝 記錄本次測驗錯題並分析學習盲點」</strong>並作答時，系統會自動剖析妳誤選的誘答選項，找出文法盲點並為妳量身打造動態特訓題型！
+          </p>
+          <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+            <button class="btn-primary" onclick="window.app.navigateTo('quiz', 1)">
+              <i class="fa-solid fa-pen-to-square"></i> 前往實力診斷測驗
+            </button>
+            <button class="btn-secondary" onclick="window.app.navigateTo('generator')">
+              <i class="fa-solid fa-dice"></i> 前往無限題庫挑戰
+            </button>
+            <button class="btn-tool" onclick="window.app.startTargetedBlindSpotQuiz()">
+              <i class="fa-solid fa-bolt"></i> 直接體驗全方位盲點動態測驗
+            </button>
+          </div>
+        </div>
+      `;
+      listContainer.innerHTML = '';
+      return;
+    }
+
+    // 1. Render Blind Spot Summary Report Cards
+    const blindSpotCardsHtml = analysis.blindSpots.map((bs, idx) => `
+      <div class="blindspot-card">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <span style="background: linear-gradient(135deg, #FF6B8B, #8B5CF6); color: #fff; font-size: 12px; font-weight: 800; padding: 3px 10px; border-radius: 99px;">
+              盲點 TOP ${idx + 1}
+            </span>
+            <h4 style="font-size: 16.5px; font-weight: 800; color: var(--text-main); margin: 0;">${bs.categoryTitle}</h4>
+          </div>
+          <span style="background: #FEE2E2; color: #B91C1C; font-size: 12.5px; font-weight: 800; padding: 3px 10px; border-radius: 99px; white-space: nowrap;">
+            累計失誤 ${bs.count} 次
+          </span>
+        </div>
+        <div style="font-size: 13.5px; color: var(--text-main); background: #FFFDF9; border-left: 3px solid var(--secondary); padding: 10px 14px; border-radius: 8px; margin-bottom: 10px; line-height: 1.65;">
+          ${fmt(bs.prescription)}
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 12.5px; color: var(--text-muted);">
+          <span><i class="fa-solid fa-book-bookmark"></i> 關聯章節：${bs.chapters.map(c => `<a href="#chapter-${c}" onclick="event.preventDefault(); window.app.navigateTo('reader', ${c})" style="color:var(--primary-dark); font-weight:700; text-decoration:underline; margin-right:6px;">第 ${c} 章</a>`).join('')}</span>
+          <button class="btn-tool" style="font-size: 12px; padding: 4px 10px;" onclick="window.app.startTargetedBlindSpotQuiz('${bs.categoryId}')">
+            <i class="fa-solid fa-crosshairs"></i> 專練此盲點題型
+          </button>
+        </div>
+      </div>
+    `).join('');
+
+    reportContainer.innerHTML = `
+      <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+        <h3 style="font-size: 19px; color: var(--text-main); display: flex; align-items: center; gap: 8px; margin: 0;">
+          <i class="fa-solid fa-stethoscope" style="color: var(--primary);"></i>
+          <span>AI 錯誤選項歸納 · 妳的核心學習盲點診斷報告（共分析 ${analysis.totalMistakes} 道錯題）</span>
+        </h3>
+      </div>
+      <div class="blindspot-grid">
+        ${blindSpotCardsHtml}
+      </div>
+    `;
+
+    // 2. Render Individual Recorded Mistakes List
+    const itemsHtml = mistakes.map((m, idx) => {
+      return `
+        <div class="question-card" style="border-left: 4px solid #F43F5E;">
+          <div class="question-meta" style="justify-content: space-between;">
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <span class="question-num-tag" style="background: #FEE2E2; color: #B91C1C;">錯題 #${idx + 1}（累計錯 ${m.mistakeCount || 1} 次）</span>
+              <span class="question-section-tag">第 ${m.chapterId} 章 · ${m.topic}</span>
+              <span class="question-section-tag" style="background: #F3E8FF; color: #6D28D9;">
+                <i class="fa-solid fa-brain"></i> ${m.blindSpot?.categoryTitle || '語法盲點'}
+              </span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="font-size: 12px; color: var(--text-muted);">${m.lastWrongTime || ''}</span>
+              <button class="btn-tool" style="font-size: 12px; padding: 3px 10px; color: #10B981; border-color: #A7F3D0;" onclick="window.app.removeSingleMistake('${m.id}')" title="標記為已學會並從錯題本移除">
+                <i class="fa-solid fa-check"></i> 已學會移除
+              </button>
+            </div>
+          </div>
+
+          <div class="question-text">${fmt(m.q)}</div>
+
+          <!-- Wrong Choice vs Correct Answer Comparison -->
+          <div class="mistake-compare-row">
+            <div class="wrong-choice-pill">
+              <span class="pill-badge">❌ 妳誤選的答案</span>
+              <strong>${fmt(m.userWrongText)}</strong>
+            </div>
+            <div class="correct-choice-pill">
+              <span class="pill-badge">✅ 正確標準答案</span>
+              <strong>${fmt(m.correctText)}</strong>
+            </div>
+          </div>
+
+          <div class="explanation-card show" style="margin-top: 12px;">
+            <div class="explain-header" style="color: #BE185D;">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+              <span>錯誤原因與盲點深度剖析</span>
+            </div>
+            <div style="font-size: 14px; color: #831843; background: #FFF0F5; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; line-height: 1.65;">
+              ${fmt(m.blindSpot?.diagnosis || '')}
+            </div>
+            ${m.zh ? `<div class="explain-translation"><strong>中文語意：</strong>${fmt(m.zh)}</div>` : ''}
+            <div class="explain-body">${fmt(m.explain || '')}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    listContainer.innerHTML = `
+      <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center;">
+        <h3 style="font-size: 18px; color: var(--text-main); margin: 0;">
+          <i class="fa-solid fa-book-medical" style="color: #F43F5E;"></i>
+          <span>歷史錯題與誤選答案明細（共 ${mistakes.length} 題）</span>
+        </h3>
+      </div>
+      ${itemsHtml}
+    `;
+  }
+
+  removeSingleMistake(id) {
+    if (!this.mistakeAnalyzer) return;
+    this.mistakeAnalyzer.removeMistake(id);
+    this.renderMistakesView();
+  }
+
+  clearAllMistakeRecords() {
+    if (!this.mistakeAnalyzer) return;
+    if (this.mistakeAnalyzer.mistakes.length === 0) return;
+    if (confirm('確定要清空所有已記錄的錯題與盲點分析資料嗎？')) {
+      this.mistakeAnalyzer.clearAllMistakes();
+      const quizArea = document.getElementById('blindspot-targeted-quiz-area');
+      if (quizArea) quizArea.innerHTML = '';
+      this.renderMistakesView();
+    }
+  }
+
+  async startTargetedBlindSpotQuiz(specificCategoryId = null) {
+    if (!this.mistakeAnalyzer) return;
+    const countSelect = document.getElementById('blindspot-quiz-count');
+    const count = parseInt(countSelect?.value || '10', 10);
+    const container = document.getElementById('blindspot-targeted-quiz-area');
+    if (!container) return;
+
+    container.innerHTML = `
+      <div style="text-align: center; padding: 36px; background: #fff; border-radius: 20px; border: 2px solid var(--primary-light); color: var(--primary);">
+        <i class="fa-solid fa-wand-magic-sparkles fa-spin fa-2x"></i>
+        <p style="margin-top: 12px; font-weight: 700;">正在根據妳的錯誤答案盲點，動態合成專屬剋星特訓題組...🎯</p>
+      </div>
+    `;
+
+    let questions = await this.mistakeAnalyzer.buildTargetedBlindSpotQuiz(this.generator, count);
+    if (specificCategoryId) {
+      const catVars = this.mistakeAnalyzer.generateDynamicBlindSpotVariations([specificCategoryId], count);
+      if (catVars.length > 0) {
+        questions = [...catVars, ...questions].slice(0, count);
+      }
+    }
+
+    this.currentBlindSpotQuestionsMap = {};
+    this.blindSpotUserAnswers = {};
+    const fmt = (txt) => this.quizEngine ? this.quizEngine.formatRichText(txt) : txt;
+    const letters = ['A', 'B', 'C', 'D', 'E'];
+
+    let html = `
+      <div style="background: #FFFDF9; border: 2px solid var(--primary); border-radius: 22px; padding: 22px; box-shadow: var(--shadow-hover);">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; padding-bottom: 12px; border-bottom: 2px dashed rgba(255, 107, 139, 0.3);">
+          <div>
+            <h3 style="font-size: 19px; color: var(--primary-dark); margin: 0; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-solid fa-crosshairs"></i>
+              <span>盲點動態生成特訓測驗（共 ${questions.length} 題）</span>
+            </h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin: 4px 0 0 0;">
+              已將歷史錯題選項重新洗牌，並動態加入同型態盲點變體題！請點擊選項作答：
+            </p>
+          </div>
+          <button class="btn-tool" onclick="document.getElementById('blindspot-targeted-quiz-area').innerHTML=''">
+            <i class="fa-solid fa-xmark"></i> 收起特訓試卷
+          </button>
+        </div>
+    `;
+
+    questions.forEach((q, idx) => {
+      const qKey = `bs_q_${idx}`;
+      this.currentBlindSpotQuestionsMap[qKey] = q;
+      const optionsHtml = (q.options || []).map((opt, optIdx) => `
+        <button class="option-btn" data-key="${qKey}" data-index="${optIdx}" onclick="window.app.handleBlindSpotQuizAnswer('${qKey}', ${optIdx}, ${q.answer})">
+          <span class="option-letter">${letters[optIdx]}</span>
+          <span class="option-text">${fmt(opt)}</span>
+        </button>
+      `).join('');
+
+      html += `
+        <div class="question-card" id="card-${qKey}">
+          <div class="question-meta">
+            <span class="question-num-tag" style="background: var(--primary); color: #fff;">特訓第 ${idx + 1} 題</span>
+            <span class="question-section-tag">${q.sourceTag || '🎯 盲點強化'}</span>
+            <span class="question-section-tag" style="background: #F3E8FF; color: #6D28D9;">第 ${q.chapterId || 1} 章 · ${q.topic || '盲點演練'}</span>
+          </div>
+          <div class="question-text">${fmt(q.q)}</div>
+          <div class="options-grid" id="options-${qKey}">
+            ${optionsHtml}
+          </div>
+          <div class="explanation-card" id="explain-${qKey}">
+            <div class="explain-header">
+              <i class="fa-solid fa-bullseye" style="color: var(--primary);"></i>
+              <span>盲點突破解析與中譯</span>
+            </div>
+            ${q.zh ? `<div class="explain-translation"><strong>中譯：</strong>${fmt(q.zh)}</div>` : ''}
+            <div class="explain-body">${fmt(q.explain || '')}</div>
+          </div>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+    container.innerHTML = html;
+    container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  handleBlindSpotQuizAnswer(qKey, selectedIndex, correctIndex) {
+    if (this.blindSpotUserAnswers[qKey] !== undefined) return;
+    this.blindSpotUserAnswers[qKey] = selectedIndex;
+
+    const optionsContainer = document.getElementById(`options-${qKey}`);
+    const explainCard = document.getElementById(`explain-${qKey}`);
+    if (!optionsContainer) return;
+
+    const buttons = optionsContainer.querySelectorAll('.option-btn');
+    buttons.forEach((btn, idx) => {
+      btn.disabled = true;
+      if (idx === correctIndex) btn.classList.add('correct');
+      if (idx === selectedIndex && selectedIndex !== correctIndex) btn.classList.add('wrong');
+    });
+
+    if (selectedIndex !== correctIndex && this.mistakeAnalyzer && this.mistakeAnalyzer.recordEnabled) {
+      const qObj = this.currentBlindSpotQuestionsMap[qKey];
+      if (qObj) {
+        this.mistakeAnalyzer.recordMistake({
+          chapterId: qObj.chapterId || 1,
+          topic: qObj.topic || '盲點動態特訓',
+          q: qObj.q,
+          options: qObj.options || [],
+          userWrongIndex: selectedIndex,
+          correctIndex: correctIndex,
+          zh: qObj.zh || '',
+          explain: qObj.explain || ''
+        });
+      }
     }
 
     if (explainCard) explainCard.classList.add('show');
@@ -491,6 +810,62 @@ class GrammarApp {
     return { ip: 'Local-Client', location: '本地裝置', isp: '' };
   }
 
+  detectDeviceAndBrowser() {
+    const ua = navigator.userAgent || '';
+    let os = '未知作業系統';
+    let deviceType = '電腦';
+
+    // Detect OS & Device
+    if (/iPhone/i.test(ua)) {
+      os = 'iPhone (iOS)';
+      deviceType = '手機';
+    } else if (/iPad/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1)) {
+      os = 'iPad (iPadOS)';
+      deviceType = '平板';
+    } else if (/Android/i.test(ua)) {
+      const modelMatch = ua.match(/Android\s+[\d.]+;\s*([^;)]+)/i);
+      const model = modelMatch && modelMatch[1] ? modelMatch[1].trim() : '';
+      deviceType = /Mobile/i.test(ua) ? '手機' : '平板';
+      os = model ? `Android ${deviceType} (${model})` : `Android ${deviceType}`;
+    } else if (/Windows NT 10\.0/i.test(ua)) {
+      os = 'Windows 10/11 電腦';
+    } else if (/Windows NT/i.test(ua)) {
+      os = 'Windows 電腦';
+    } else if (/Macintosh|Mac OS X/i.test(ua)) {
+      os = 'Mac 電腦 (macOS)';
+    } else if (/CrOS/i.test(ua)) {
+      os = 'Chromebook (ChromeOS)';
+    } else if (/Linux/i.test(ua)) {
+      os = 'Linux 電腦';
+    }
+
+    // Detect Browser
+    let browser = '瀏覽器';
+    if (/Line\/([\d.]+)/i.test(ua)) {
+      browser = `LINE 內建瀏覽器 ${RegExp.$1.split('.')[0]}`;
+    } else if (/FBAN|FBAV/i.test(ua)) {
+      browser = 'Facebook 內建瀏覽器';
+    } else if (/Instagram/i.test(ua)) {
+      browser = 'Instagram 內建瀏覽器';
+    } else if (/Edg\/([\d.]+)/i.test(ua) || /EdgiOS\/([\d.]+)/i.test(ua) || /EdgA\/([\d.]+)/i.test(ua)) {
+      browser = `Edge ${RegExp.$1.split('.')[0]}`;
+    } else if (/OPR\/([\d.]+)/i.test(ua) || /Opera/i.test(ua)) {
+      browser = 'Opera';
+    } else if (/CriOS\/([\d.]+)/i.test(ua)) {
+      browser = `Chrome ${RegExp.$1.split('.')[0]}`;
+    } else if (/FxiOS\/([\d.]+)/i.test(ua) || /Firefox\/([\d.]+)/i.test(ua)) {
+      browser = `Firefox ${RegExp.$1.split('.')[0]}`;
+    } else if (/Chrome\/([\d.]+)/i.test(ua) && !/Edg/i.test(ua)) {
+      browser = `Chrome ${RegExp.$1.split('.')[0]}`;
+    } else if (/Version\/([\d.]+).*Safari/i.test(ua)) {
+      browser = `Safari ${RegExp.$1.split('.')[0]}`;
+    } else if (/Safari/i.test(ua)) {
+      browser = 'Safari';
+    }
+
+    return `${os} · ${browser}`;
+  }
+
   loadLocalVisitorStore() {
     try {
       const raw = localStorage.getItem('bubble_visitor_ip_logs_v1');
@@ -515,6 +890,7 @@ class GrammarApp {
         map.set(key, {
           date: item.date,
           ip: item.ip,
+          deviceBrowser: item.deviceBrowser || prev.deviceBrowser || '未知裝置 / 瀏覽器',
           location: item.location || prev.location || 'Taiwan',
           isp: item.isp || prev.isp || '',
           firstTime: (prev.firstTime && item.firstTime) ? (prev.firstTime < item.firstTime ? prev.firstTime : item.firstTime) : (prev.firstTime || item.firstTime),
@@ -544,6 +920,7 @@ class GrammarApp {
     const CLOUD_LOG_URL = 'https://api.restful-api.dev/objects/ff808181a09d98f701a173a083f608a1';
 
     const { dateStr, timeStr } = this.getTaiwanDateTime();
+    const deviceBrowser = this.detectDeviceAndBrowser();
     let localStore = this.loadLocalVisitorStore();
     if (visitorEl && localStore.totalUniqueDailyVisits > 0) {
       visitorEl.innerText = `${localStore.totalUniqueDailyVisits.toLocaleString()} 次`;
@@ -551,7 +928,7 @@ class GrammarApp {
 
     // 1. Detect Visitor Public IP
     const ipInfo = await this.fetchVisitorIPInfo();
-    this.currentVisitorIPInfo = { ...ipInfo, dateStr, timeStr };
+    this.currentVisitorIPInfo = { ...ipInfo, deviceBrowser, dateStr, timeStr };
 
     // 2. Fetch Cloud IP Store
     let cloudStore = { totalUniqueDailyVisits: 0, logs: [] };
@@ -570,14 +947,13 @@ class GrammarApp {
 
     // 4. Check if (dateStr, ipInfo.ip) already exists today
     const existingIdx = store.logs.findIndex(r => r.date === dateStr && r.ip === ipInfo.ip);
-    let isNewDailyIPVisit = false;
 
     if (existingIdx === -1) {
       // First time this IP visited today -> count +1!
-      isNewDailyIPVisit = true;
       store.logs.unshift({
         date: dateStr,
         ip: ipInfo.ip,
+        deviceBrowser,
         location: ipInfo.location,
         isp: ipInfo.isp,
         firstTime: timeStr,
@@ -589,6 +965,7 @@ class GrammarApp {
       // Same IP already visited today -> DO NOT increment totalUniqueDailyVisits!
       const rec = store.logs[existingIdx];
       rec.lastTime = timeStr;
+      rec.deviceBrowser = deviceBrowser || rec.deviceBrowser || '未知裝置 / 瀏覽器';
       rec.viewsToday = (rec.viewsToday || 1) + 1;
       if (ipInfo.location && ipInfo.location !== 'Taiwan') rec.location = ipInfo.location;
       if (ipInfo.isp) rec.isp = ipInfo.isp;
@@ -633,14 +1010,19 @@ class GrammarApp {
     const summaryEl = document.getElementById('visitor-modal-summary');
     const tbodyEl = document.getElementById('visitor-log-tbody');
     const store = this.visitorStore || this.loadLocalVisitorStore();
-    const cur = this.currentVisitorIPInfo || { ip: '偵測中...', location: '', dateStr: '' };
+    const cur = this.currentVisitorIPInfo || { ip: '偵測中...', deviceBrowser: this.detectDeviceAndBrowser(), location: '', dateStr: '' };
 
     if (summaryEl) {
       summaryEl.innerHTML = `
-        <div>
-          <span style="color: var(--text-muted);">您的目前 IP：</span>
-          <strong style="color: var(--primary-dark); font-family: monospace; font-size: 14px;">${cur.ip}</strong>
-          ${cur.location ? `<span style="color: var(--text-muted); margin-left: 6px;">(${cur.location})</span>` : ''}
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
+          <div>
+            <span style="color: var(--text-muted);">目前連線 IP：</span>
+            <strong style="color: var(--primary-dark); font-family: monospace; font-size: 14px;">${cur.ip}</strong>
+            ${cur.location ? `<span style="color: var(--text-muted); margin-left: 4px;">(${cur.location})</span>` : ''}
+          </div>
+          <span style="background: #F3E8FF; color: #6D28D9; padding: 3px 10px; border-radius: 99px; font-weight: 700; font-size: 12px;">
+            <i class="fa-solid fa-laptop-mobile"></i> ${cur.deviceBrowser || this.detectDeviceAndBrowser()}
+          </span>
         </div>
         <div style="display: flex; align-items: center; gap: 12px;">
           <span style="background: #DCFCE7; color: #15803D; padding: 3px 10px; border-radius: 99px; font-weight: 700; font-size: 12px;">
@@ -653,19 +1035,21 @@ class GrammarApp {
 
     if (tbodyEl) {
       if (!store.logs || store.logs.length === 0) {
-        tbodyEl.innerHTML = `<tr><td colspan="6" style="text-align: center; padding: 24px; color: var(--text-muted);">尚無訪客紀錄</td></tr>`;
+        tbodyEl.innerHTML = `<tr><td colspan="7" style="text-align: center; padding: 24px; color: var(--text-muted);">尚無訪客紀錄</td></tr>`;
         return;
       }
       tbodyEl.innerHTML = store.logs.map(r => {
         const isCurrent = cur.ip === r.ip && cur.dateStr === r.date;
         const locText = [r.location, r.isp].filter(Boolean).join(' · ') || '—';
+        const devText = r.deviceBrowser || '電腦 / 瀏覽器';
         return `
           <tr style="${isCurrent ? 'background: #FFF0F5; font-weight: 600;' : ''}">
             <td>${r.date}</td>
             <td style="font-family: monospace; color: var(--primary-dark); font-weight: 700;">
               ${r.ip} ${isCurrent ? '<span style="font-size:11px; background:var(--primary); color:#fff; padding:1px 6px; border-radius:99px; margin-left:4px;">目前連線</span>' : ''}
             </td>
-            <td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis;" title="${locText}">${locText}</td>
+            <td style="color: var(--secondary); font-weight: 600;">${devText}</td>
+            <td style="max-width: 180px; overflow: hidden; text-overflow: ellipsis;" title="${locText}">${locText}</td>
             <td>${r.firstTime || '—'}</td>
             <td>${r.lastTime || '—'}</td>
             <td>
@@ -681,10 +1065,11 @@ class GrammarApp {
   exportVisitorLogsCSV() {
     const store = this.visitorStore || this.loadLocalVisitorStore();
     const logs = store.logs || [];
-    const header = ['造訪日期', '訪客IP位址', '地區', '電信商(ISP)', '當日首次時間', '最後活動時間', '當日總瀏覽回數', '有效計數'];
+    const header = ['造訪日期', '訪客IP位址', '裝置機器與瀏覽器', '地區', '電信商(ISP)', '當日首次時間', '最後活動時間', '當日總瀏覽回數', '有效計數'];
     const rows = logs.map(r => [
       r.date || '',
       r.ip || '',
+      `"${(r.deviceBrowser || '未知裝置 / 瀏覽器').replace(/"/g, '""')}"`,
       `"${(r.location || '').replace(/"/g, '""')}"`,
       `"${(r.isp || '').replace(/"/g, '""')}"`,
       r.firstTime || '',

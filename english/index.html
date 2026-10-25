@@ -50,6 +50,10 @@
       <a class="nav-link" data-view="generator" href="#generator">
         <i class="fa-solid fa-dice"></i> 無限題庫
       </a>
+      <a class="nav-link" data-view="mistakes" href="#mistakes">
+        <i class="fa-solid fa-brain"></i> 盲點特訓
+        <span class="mistake-total-count" style="background: var(--primary); color: #fff; font-size: 11px; padding: 1px 6px; border-radius: 99px; margin-left: 2px;">0</span>
+      </a>
       <a class="nav-link" data-view="ai-tutor" href="#ai">
         <i class="fa-solid fa-wand-magic-sparkles"></i> AI 文法導師
       </a>
@@ -229,6 +233,20 @@
           <div class="quiz-progress-bar-container">
             <div class="quiz-progress-bar" id="quiz-progress-fill"></div>
           </div>
+
+          <!-- Mistake Recording Option Bar -->
+          <div class="mistake-toggle-bar">
+            <label class="mistake-toggle-label">
+              <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
+              <span>📝 記錄本次測驗錯題並分析「學習盲點」</span>
+            </label>
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題記錄開啟中</span>
+              <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px; background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);" onclick="window.app.navigateTo('mistakes')">
+                <i class="fa-solid fa-brain"></i> 查看盲點分析與動態特訓 (<span class="mistake-total-count">0</span> 題)
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- Questions List Container -->
@@ -287,12 +305,89 @@
           <button id="start-generator-btn" class="btn-primary" style="width: 100%; justify-content: center; padding: 14px;">
             <i class="fa-solid fa-arrows-rotate"></i> 隨機生成專屬測驗 🎲
           </button>
+
+          <!-- Mistake Recording Option Bar -->
+          <div class="mistake-toggle-bar" style="margin-top: 16px;">
+            <label class="mistake-toggle-label">
+              <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
+              <span>📝 記錄本次測驗錯題並分析「學習盲點」</span>
+            </label>
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+              <span class="mistake-record-status-pill" style="font-size: 12px; padding: 3px 10px; border-radius: 99px; font-weight: 700; background: #DCFCE7; color: #15803D;">● 錯題記錄開啟中</span>
+              <button class="btn-tool" style="font-size: 12.5px; padding: 5px 12px; background: #FFF0F5; color: var(--primary-dark); border-color: rgba(255,107,139,0.4);" onclick="window.app.navigateTo('mistakes')">
+                <i class="fa-solid fa-brain"></i> 查看盲點分析與動態特訓 (<span class="mistake-total-count">0</span> 題)
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- Generated Questions Container -->
         <div id="generator-questions-list">
           <!-- Injected by generator.js -->
         </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 4.5: MISTAKES & BLIND SPOT ANALYZER (錯題盲點診斷與動態特訓)
+         ========================================== -->
+    <section class="app-view" id="view-mistakes">
+      <div class="quiz-container">
+        <div class="generator-settings-card" style="border-top: 4px solid var(--primary);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 14px; margin-bottom: 18px;">
+            <div>
+              <h2 style="font-family: var(--font-heading); font-size: 24px; color: var(--text-main); display: flex; align-items: center; gap: 10px;">
+                <i class="fa-solid fa-brain" style="color: var(--primary);"></i>
+                <span>智慧錯題本 ＆ 學習盲點動態特訓中心</span>
+              </h2>
+              <p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">
+                自動比對妳在測驗中「誤選的誘答選項」與「正確答案」，精準診斷文法盲點，並針對弱點動態生成專屬剋星題型！
+              </p>
+            </div>
+
+            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+              <label class="mistake-toggle-label" style="background: #FFF5F8; padding: 6px 12px; border-radius: 10px; border: 1px solid var(--border-card);">
+                <input type="checkbox" class="mistake-record-checkbox" checked onchange="window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.setRecordEnabled(this.checked)">
+                <span style="font-size: 13px;">測驗時自動記錄錯題</span>
+              </label>
+              <button class="btn-tool" style="font-size: 12.5px; color: #EF4444;" onclick="window.app.clearAllMistakeRecords()">
+                <i class="fa-solid fa-trash-can"></i> 清空錯題庫
+              </button>
+            </div>
+          </div>
+
+          <!-- Dynamic Blind Spot Targeted Quiz Bar -->
+          <div style="background: linear-gradient(135deg, #FFF0F5 0%, #F3E8FF 100%); border: 1px solid rgba(255, 107, 139, 0.35); border-radius: 16px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
+            <div>
+              <div style="font-weight: 800; font-size: 16px; color: var(--primary-dark); display: flex; align-items: center; gap: 6px;">
+                <i class="fa-solid fa-bullseye"></i> 針對學習盲點動態產生專屬特訓測驗
+              </div>
+              <div style="font-size: 13px; color: var(--text-muted); margin-top: 3px;">
+                結合「歷史錯題選項重排複測」＋「同盲點單元題庫」＋「AI 動態變體題型」，徹底根除盲點！
+              </div>
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+              <select id="blindspot-quiz-count" class="setting-select" style="min-width: 140px; padding: 8px 12px; background: #fff;">
+                <option value="5">🎯 5 題盲點速攻</option>
+                <option value="10" selected>🎯 10 題盲點特訓</option>
+                <option value="15">🎯 15 題深度強化</option>
+                <option value="20">🎯 20 題滿分突破</option>
+              </select>
+              <button class="btn-primary" onclick="window.app.startTargetedBlindSpotQuiz()">
+                <i class="fa-solid fa-bolt"></i> 針對盲點動態出題測驗 🚀
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Targeted Quiz Container (Shown when user clicks generate) -->
+        <div id="blindspot-targeted-quiz-area" style="margin-bottom: 28px;"></div>
+
+        <!-- Blind Spot Diagnostic Summary Cards -->
+        <div id="blindspot-analysis-report" style="margin-bottom: 28px;"></div>
+
+        <!-- Recorded Mistakes Detail List -->
+        <div id="mistake-records-list"></div>
       </div>
     </section>
 
@@ -348,7 +443,7 @@
           </div>
           <div>
             <h3 style="font-size: 17px; font-weight: 800; color: var(--text-main); margin: 0;">訪客 IP 紀錄與計數統計 🌸</h3>
-            <p style="font-size: 12px; color: var(--text-muted); margin: 2px 0 0 0;">計數原則：同一 IP 於同一日內造訪僅計算 1 次，不同 IP 或隔日造訪才再計入</p>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 2px 0 0 0;">計數原則：同一 IP 於同一日內造訪僅計算 1 次，不同 IP 或隔日造訪才再計入（含連線裝置與瀏覽器資訊）</p>
           </div>
         </div>
         <button class="btn-tool" onclick="window.app.closeVisitorLogModal()" style="padding: 6px 10px;">
@@ -363,7 +458,7 @@
       <div class="visitor-modal-body">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
           <span style="font-size: 13px; font-weight: 700; color: var(--secondary);">
-            <i class="fa-solid fa-clock-rotate-left"></i> 歷史訪客 IP 登錄明細（最新優先）
+            <i class="fa-solid fa-clock-rotate-left"></i> 歷史訪客 IP 與裝置瀏覽器明細（最新優先）
           </span>
           <div style="display: flex; gap: 8px;">
             <button class="btn-tool" onclick="window.app.exportVisitorLogsCSV()" style="font-size: 12px; padding: 5px 12px;">
@@ -377,6 +472,7 @@
               <tr>
                 <th>造訪日期</th>
                 <th>訪客 IP 位址</th>
+                <th>裝置機器 / 瀏覽器</th>
                 <th>地區 / 電信商</th>
                 <th>當日首次時間</th>
                 <th>最後活動時間</th>
@@ -385,7 +481,7 @@
             </thead>
             <tbody id="visitor-log-tbody">
               <tr>
-                <td colspan="6" style="text-align: center; padding: 24px; color: var(--text-muted);">正在讀取訪客 IP 紀錄...</td>
+                <td colspan="7" style="text-align: center; padding: 24px; color: var(--text-muted);">正在讀取訪客 IP 紀錄...</td>
               </tr>
             </tbody>
           </table>
@@ -412,6 +508,10 @@
       <i class="fa-solid fa-dice fa-lg"></i>
       <span>題庫</span>
     </a>
+    <a class="mobile-nav-item" data-view="mistakes" href="#mistakes">
+      <i class="fa-solid fa-brain fa-lg"></i>
+      <span>盲點</span>
+    </a>
     <a class="mobile-nav-item" data-view="ai-tutor" href="#ai">
       <i class="fa-solid fa-wand-magic-sparkles fa-lg"></i>
       <span>問AI</span>
@@ -424,6 +524,7 @@
   <script src="js/quiz-engine.js"></script>
   <script src="js/generator.js"></script>
   <script src="js/ai-tutor.js"></script>
+  <script src="js/mistake-analyzer.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

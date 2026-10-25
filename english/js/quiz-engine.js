@@ -7,6 +7,7 @@ class QuizEngine {
     this.currentChapterId = 1;
     this.quizData = null;
     this.userAnswers = {}; // { questionKey: selectedIndex }
+    this.questionsMap = {}; // { questionKey: questionObj }
     this.score = 0;
     this.totalQuestions = 0;
   }
@@ -40,6 +41,7 @@ class QuizEngine {
     if (!container) return;
 
     this.userAnswers = {};
+    this.questionsMap = {};
     this.score = 0;
 
     container.innerHTML = `
@@ -150,6 +152,7 @@ class QuizEngine {
   }
 
   renderMultipleChoiceCard(q, qKey, displayNum, sectionTitle) {
+    this.questionsMap[qKey] = { ...q, sectionTitle };
     const letters = ['A', 'B', 'C', 'D', 'E'];
     let optionsHtml = '';
 
@@ -248,6 +251,39 @@ class QuizEngine {
 
     if (isAnswerCorrect(selectedIndex)) {
       this.score++;
+    } else if (window.app && window.app.mistakeAnalyzer && window.app.mistakeAnalyzer.recordEnabled) {
+      const qObj = this.questionsMap[qKey];
+      if (qObj) {
+        const recorded = window.app.mistakeAnalyzer.recordMistake({
+          chapterId: this.currentChapterId,
+          sectionTitle: qObj.sectionTitle || '實力診斷',
+          q: qObj.q,
+          options: qObj.options || [],
+          userWrongIndex: selectedIndex,
+          correctIndex: correctIndex,
+          zh: qObj.zh || '',
+          explain: qObj.explain || ''
+        });
+        if (recorded && explainCard) {
+          const diagBox = document.createElement('div');
+          diagBox.className = 'blindspot-inline-alert';
+          diagBox.innerHTML = `
+            <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:6px;">
+              <span style="font-weight:800; color:#BE185D; font-size:13.5px;">
+                <i class="fa-solid fa-brain"></i> 已記錄至錯題本｜盲點診斷：${recorded.blindSpot.categoryTitle}
+              </span>
+              <button class="btn-tool" style="font-size:11.5px; padding:2px 8px;" onclick="window.app.navigateTo('mistakes')">
+                前往盲點特訓 →
+              </button>
+            </div>
+            <div style="font-size:13px; color:#831843; line-height:1.6;">
+              ❌ 妳誤選了 <strong>${this.formatRichText(recorded.userWrongText)}</strong> vs. ✅ 正解 <strong>${this.formatRichText(recorded.correctText)}</strong><br>
+              🔍 <strong>盲點分析：</strong>${this.formatRichText(recorded.blindSpot.diagnosis)}
+            </div>
+          `;
+          explainCard.appendChild(diagBox);
+        }
+      }
     }
 
     if (explainCard) {
